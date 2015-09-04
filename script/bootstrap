@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+
+function bootstrap {
+  local shome="$(unset CDPATH; cd -P -- "$(dirname -- "$BASH_SOURCE")/.." && pwd -P)"
+
+  source "$shome/work/app/script/profile"
+  cd "$shome/work"
+  require runmany
+
+  runmany 'set -x; cd $1 && app bootstrap' junas jq
+}
+
+bootstrap

@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+
+function profile {
+  local shome="$(unset CDPATH; cd -P -- "$(dirname -- "$BASH_SOURCE")/.." && pwd -P)"
+  PATH="$shome/bin:$shome/exec:$PATH"
+
+  source ~/work/app/script/profile \
+    || echo "ERROR: something's wrong with app's profile"
+
+  if pushd ~/work 1>&-; then
+    require runmany ansible deploy cue jq erlang junas defn \
+      || echo "ERROR: something's wrong with a required profile"
+    popd 1>&-
+  fi
+}
+
+profile
