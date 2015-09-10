@@ -2,7 +2,7 @@
 
 function profile {
   local shome="$(unset CDPATH; cd -P -- "$(dirname -- "$BASH_SOURCE")/.." && pwd -P)"
-  PATH="$shome/bin:$shome/exec:$PATH"
+  PATH="$shome/bin:$shome/exec:$shome/node_modules/.bin:$PATH"
 
   source ~/work/app/script/profile \
     || echo "ERROR: something's wrong with app's profile"

@@ -33,3 +33,7 @@
 # npm
 /.npm
 /node_modules
+
+# dnsimple
+/.dnsimple/
+/.streamline/
