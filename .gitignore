@@ -1,13 +1,9 @@
-# initial mass ignore on osx
-/.CFUserTextEncoding
-/.DS_Store
-/.Trash/
+# initial mass ignore
 /.ansible/
 /.bash_history
 /.cups/
 /.dropbox/
 /.gem/
-/.gitconfig
 /.irssi/
 /.lesshst
 /.pentadactyl/
@@ -15,6 +11,11 @@
 /.ssh/
 /.subversion/
 /.viminfo
+
+# osx
+/.CFUserTextEncoding
+/.DS_Store
+/.Trash/
 /Applications/
 /Desktop/
 /Documents/
@@ -25,4 +26,10 @@
 /Music/
 /Pictures/
 /Public/
+
+# my workarea
 /work/
+
+# npm
+/.npm
+/node_modules
