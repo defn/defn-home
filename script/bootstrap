@@ -10,7 +10,7 @@ function bootstrap {
   runmany 'set -x; cd $1 && app bootstrap' junas jq
   runmany 'set -x; cd $1 && app bootstrap' node dnsimple
   runmany 'set -x; cd $1 && app bootstrap' erlang elixir
-  runmany 'set -x; cd $1 && app bootstrap' virtualenv ansible aws
+  runmany 'set -x; cd $1 && app bootstrap' virtualenv ansible aws letsencrypt
   runmany 'set -x; cd $1 && app bootstrap' ruby rocco
 }
 
