@@ -4,3 +4,54 @@
 [submodule "work/runmany"]
 	path = work/runmany
 	url = git@github.com:defn/app
+[submodule "work/junas"]
+	path = work/junas
+	url = git@github.com:defn/junas
+[submodule "work/jq"]
+	path = work/jq
+	url = git@github.com:defn/app-jq
+[submodule "work/node"]
+	path = work/node
+	url = git@github.com:defn/app-node
+[submodule "work/dnsimple"]
+	path = work/dnsimple
+	url = git@github.com:defn/app-dnsimple-cli
+[submodule "work/erlang"]
+	path = work/erlang
+	url = git@github.com:defn/app-erlang
+[submodule "work/elixir"]
+	path = work/elixir
+	url = git@github.com:defn/app-elixir
+[submodule "work/virtualenv"]
+	path = work/virtualenv
+	url = git@github.com:defn/app-virtualenv
+[submodule "work/ansible"]
+	path = work/ansible
+	url = git@github.com:defn/app-ansible
+[submodule "work/aws"]
+	path = work/aws
+	url = git@github.com:defn/app-aws
+[submodule "work/letsencrypt"]
+	path = work/letsencrypt
+	url = git@github.com:defn/app-letsencrypt
+[submodule "work/ruby"]
+	path = work/ruby
+	url = git@github.com:defn/app-rbenv
+[submodule "work/rocco"]
+	path = work/rocco
+	url = git@github.com:defn/app-rocco
+[submodule "work/boxcar"]
+	path = work/boxcar
+	url = git@github.com:defn/boxcar
+[submodule "work/cue"]
+	path = work/cue
+	url = git@github.com:defn/cue
+[submodule "work/defn"]
+	path = work/defn
+	url = git@github.com:defn/defn
+[submodule "work/deploy"]
+	path = work/deploy
+	url = git@github.com:defn/deploy
+[submodule "work/imma"]
+	path = work/imma
+	url = git@github.com:defn/imma

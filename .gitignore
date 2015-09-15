@@ -27,9 +27,6 @@
 /Pictures/
 /Public/
 
-# my workarea
-/work/
-
 # npm
 /.npm
 /node_modules
