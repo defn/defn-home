@@ -8,7 +8,15 @@ function profile {
     || echo "ERROR: something's wrong with app's profile"
 
   if pushd ~/work 1>&-; then
-    require runmany virtualenv ansible aws deploy cue jq erlang elixir ruby node junas defn deploy rocco \
+    require runmany virtualenv erlang ruby node \
+      || echo "ERROR: something's wrong with a required profile"
+    require runmany ansible aws elixir rocco \
+      || echo "ERROR: something's wrong with a required profile"
+    require runmany jq \
+      || echo "ERROR: something's wrong with a required profile"
+    require runmany cue junas defn \
+      || echo "ERROR: something's wrong with a required profile"
+    require runmany deploy \
       || echo "ERROR: something's wrong with a required profile"
     popd 1>&-
   fi
