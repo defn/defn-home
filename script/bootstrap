@@ -7,7 +7,7 @@ function bootstrap {
   cd "$shome/work"
   require runmany
 
-  runmany 'set -x; cd $1 && app bootstrap' junas jq erlang elixir ansible ruby node
+  runmany 'set -x; cd $1 && app bootstrap' junas jq erlang elixir virtualenv ansible aws ruby node
 }
 
 bootstrap
