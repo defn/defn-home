@@ -1,0 +1,6 @@
+[submodule "work/app"]
+	path = work/app
+	url = git@github.com:defn/app
+[submodule "work/runmany"]
+	path = work/runmany
+	url = git@github.com:defn/app

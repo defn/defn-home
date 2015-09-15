@@ -3,6 +3,8 @@
 function bootstrap {
   local shome="$(unset CDPATH; cd -P -- "$(dirname -- "$BASH_SOURCE")/.." && pwd -P)"
 
+  git submodule update --init --recursive
+
   source "$shome/work/app/script/profile"
   cd "$shome/work"
   require runmany
@@ -12,6 +14,9 @@ function bootstrap {
   runmany 'set -x; cd $1 && app bootstrap' erlang elixir
   runmany 'set -x; cd $1 && app bootstrap' virtualenv ansible aws letsencrypt
   runmany 'set -x; cd $1 && app bootstrap' ruby rocco
+
+  cd $shome
+  require
 }
 
 bootstrap
