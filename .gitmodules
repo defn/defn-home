@@ -55,3 +55,6 @@
 [submodule "work/imma"]
 	path = work/imma
 	url = git@github.com:defn/imma
+[submodule "work/tugboat"]
+	path = work/tugboat
+	url = git@github.com:defn/app-tugboat

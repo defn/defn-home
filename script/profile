@@ -13,8 +13,8 @@ function profile {
 
   if pushd ~/work 1>&-; then
     require virtualenv ansible aws letsencrypt || return 1
-    require erlang elixir rocco || return 1
-    require ruby rocco || return 1
+    require erlang elixir || return 1
+    require ruby rocco tugboat || return 1
     require node dnsimple || return 1
     require jq || return 1
     require cue junas defn || return 1
