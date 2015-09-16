@@ -58,3 +58,6 @@
 [submodule "work/tugboat"]
 	path = work/tugboat
 	url = git@github.com:defn/app-tugboat
+[submodule "work/gcloud"]
+	path = work/gcloud
+	url = git@github.com:defn/app-gcloud

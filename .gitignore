@@ -34,3 +34,6 @@
 # dnsimple
 /.dnsimple/
 /.streamline/
+
+# gcloud
+/.config/gcloud
