@@ -1,0 +1,14 @@
+---
+require:
+  - virtualenv
+  - [ ansible aws gcloud letsencrypt ]
+  - erlang
+  - [ elixir ]
+  - ruby
+  - [ rocco tugboat ]
+  - node
+  - [ dnsimple
+  - go
+  - [ jq ]
+  - [ cue junas defn ]
+  - [ runmany deploy ]

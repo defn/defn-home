@@ -37,3 +37,6 @@ set diffopt+=iwhite
 set diffexpr="-w -b -B"
 
 set guioptions=
+
+" Appfile is yaml
+au BufNewFile,BufRead Appfile setf yaml
