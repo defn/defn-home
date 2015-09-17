@@ -19,6 +19,7 @@ function bootstrap {
   work_bootstrap erlang elixir
   work_bootstrap virtualenv ansible aws gcloud letsencrypt
   work_bootstrap ruby rocco tugboat
+  work_bootstrap go
 
   require
 }

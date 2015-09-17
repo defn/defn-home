@@ -61,3 +61,6 @@
 [submodule "work/gcloud"]
 	path = work/gcloud
 	url = git@github.com:defn/app-gcloud
+[submodule "work/go"]
+	path = work/go
+	url = git@github.com:defn/app-go
