@@ -7,7 +7,7 @@ require:
   - ruby
   - [ rocco tugboat ]
   - node
-  - [ dnsimple
+  - [ dnsimple ]
   - go
   - [ jq ]
   - [ cue junas defn ]
