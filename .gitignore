@@ -37,3 +37,7 @@
 
 # gcloud
 /.config/gcloud
+
+# aws
+/.saws.log
+/.sawsrc
