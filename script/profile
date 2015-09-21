@@ -1,18 +1,8 @@
 #!/usr/bin/env bash
 
-export APP_PATH="$HOME/work"
-
-function source_app {
-  source "$APP_PATH/app/script/profile" || return 1
-  source app_strict || return 1
-  source app_shortcuts
-}
-
 function profile {
   local shome="$(unset CDPATH; cd -P -- "$(dirname -- "$BASH_SOURCE")/.." && pwd -P)"
-  PATH="$shome/bin:$shome/exec:$shome/node_modules/.bin:$PATH"
-
-  source_app || return 1
+  PATH="$shome/bin:$shome/exec:$PATH"
 
   require virtualenv ansible aws gcloud letsencrypt
   require erlang elixir
@@ -24,8 +14,4 @@ function profile {
   require runmany deploy
 }
 
-if ! profile; then
-  echo "ERROR: something's wrong with a required profile"
-fi
-
-set +efu
+profile
