@@ -1,7 +1,5 @@
 {
   "name": "defn-home",
   "version": "0.0.1",
-  "dependencies": {
-    "dnsimple-cli": "^0.3.2"
-  }
+  "dependencies": { }
 }
