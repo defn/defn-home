@@ -4,7 +4,7 @@ function profile {
   local shome="$(unset CDPATH; cd -P -- "$(dirname -- "$BASH_SOURCE")/.." && pwd -P)"
   PATH="$shome/bin:$shome/exec:$PATH"
 
-  require virtualenv ansible aws gcloud letsencrypt
+  require python ansible aws gcloud letsencrypt
   require erlang elixir
   require ruby rocco tugboat
   require node dnsimple
