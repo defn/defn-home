@@ -67,3 +67,6 @@
 [submodule "work/python"]
 	path = work/python
 	url = git@github.com:defn/app-virtualenv
+[submodule "work/hub"]
+	path = work/hub
+	url = git@github.com:defn/app-hub

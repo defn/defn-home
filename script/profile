@@ -8,7 +8,7 @@ function profile {
   require erlang elixir
   require ruby rocco tugboat
   require node dnsimple
-  require go
+  require go hub
   require jq
   require cue junas defn
   require runmany deploy
