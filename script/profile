@@ -4,7 +4,8 @@ export APP_PATH="$HOME/work"
 
 function source_app {
   source "$APP_PATH/app/script/profile" || return 1
-  source app_shortcuts || return 1
+  source app_strict || return 1
+  source app_shortcuts
 }
 
 function profile {
@@ -13,14 +14,18 @@ function profile {
 
   source_app || return 1
 
-  require virtualenv ansible aws gcloud letsencrypt || return 1
-  require erlang elixir || return 1
-  require ruby rocco tugboat || return 1
-  require node dnsimple || return 1
-  require go || return 1
-  require jq || return 1
-  require cue junas defn || return 1
-  require runmany deploy || return 1
+  require virtualenv ansible aws gcloud letsencrypt
+  require erlang elixir
+  require ruby rocco tugboat
+  require node dnsimple
+  require go
+  require jq
+  require cue junas defn
+  require runmany deploy
 }
 
-profile || echo "ERROR: something's wrong with a required profile"
+if ! profile; then
+  echo "ERROR: something's wrong with a required profile"
+fi
+
+set +efu
