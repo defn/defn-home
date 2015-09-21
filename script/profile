@@ -1,7 +1,9 @@
 #!/usr/bin/env bash
 
+export APP_PATH="$HOME/work"
+
 function source_app {
-  source ~/work/app/script/profile || return 1
+  source "$APP_PATH/app/script/profile" || return 1
   source app_shortcuts || return 1
 }
 
@@ -11,17 +13,14 @@ function profile {
 
   source_app || return 1
 
-  if pushd ~/work 1>&-; then
-    require virtualenv ansible aws gcloud letsencrypt || return 1
-    require erlang elixir || return 1
-    require ruby rocco tugboat || return 1
-    require node dnsimple || return 1
-    require go || return 1
-    require jq || return 1
-    require cue junas defn || return 1
-    require runmany deploy || return 1
-    popd 1>&-
-  fi
+  require virtualenv ansible aws gcloud letsencrypt || return 1
+  require erlang elixir || return 1
+  require ruby rocco tugboat || return 1
+  require node dnsimple || return 1
+  require go || return 1
+  require jq || return 1
+  require cue junas defn || return 1
+  require runmany deploy || return 1
 }
 
 profile || echo "ERROR: something's wrong with a required profile"
