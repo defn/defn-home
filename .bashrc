@@ -21,5 +21,3 @@ if bootstrap_app && require; then
 else
   echo "ERROR: something's wrong with script/profile"
 fi
-
-set +efux
