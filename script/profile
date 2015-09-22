@@ -16,6 +16,7 @@ function profile {
   require jq
   require cue junas defn
   require runmany deploy
+  require scripts-to-rule-them-all
 }
 
 profile
