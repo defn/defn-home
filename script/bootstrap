@@ -5,7 +5,7 @@ function work_bootstrap {
     return 0
   fi
 
-  runmany 'set -x; cd $1 && app bootstrap' "$@"
+  runmany 'set -x; cd "$APP_PATH/$1" && bootstrap' "$@"
 }
 
 function bootstrap {
