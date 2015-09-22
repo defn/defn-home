@@ -4,7 +4,7 @@ function profile {
   local shome="$(unset CDPATH; cd -P -- "$(dirname -- "$BASH_SOURCE")/.." && pwd -P)"
   PATH="$shome/bin:$shome/exec:$PATH"
 
-  source app_strict || return 1
+  source app_strict
   source app_shortcuts
   source app_debug
 
@@ -19,4 +19,8 @@ function profile {
   require scripts-to-rule-them-all
 }
 
-profile
+if ! profile; then
+  true
+fi
+
+set +efu
