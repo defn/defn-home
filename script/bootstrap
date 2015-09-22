@@ -1,6 +1,10 @@
 #!/usr/bin/env bash
 
 function work_bootstrap {
+  if [[ -n "${DEBUG:-}" ]]; then
+    return 0
+  fi
+
   runmany 'set -x; cd $1 && app bootstrap' "$@"
 }
 
@@ -10,8 +14,11 @@ function bootstrap {
 
   git submodule update --init --recursive
 
+  export APP_PATH="$HOME/work"
   source "$shome/work/app/script/profile"
-  cd "$shome/work"
+
+  app compile gitsubmodule
+
   require runmany
 
   work_bootstrap junas jq

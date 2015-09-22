@@ -2,8 +2,6 @@ export APP_PATH="$HOME/work"
 
 function source_app {
   source "$APP_PATH/app/script/profile" || return 1
-  source app_strict || return 1
-  source app_shortcuts
 }
 
 function bootstrap_app {

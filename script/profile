@@ -4,6 +4,10 @@ function profile {
   local shome="$(unset CDPATH; cd -P -- "$(dirname -- "$BASH_SOURCE")/.." && pwd -P)"
   PATH="$shome/bin:$shome/exec:$PATH"
 
+  source app_strict || return 1
+  source app_shortcuts
+  source app_debug
+
   require python ansible aws gcloud letsencrypt
   require erlang elixir
   require ruby rocco tugboat
