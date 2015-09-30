@@ -15,7 +15,7 @@ function profile {
   require go hub
   require jq
   require cue junas defn
-  require runmany deploy
+  require runmany deploy boxcar
   require scripts-to-rule-them-all
 }
 
