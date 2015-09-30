@@ -1,32 +1,25 @@
 #!/usr/bin/env bash
 
 function work_bootstrap {
-  if [[ -n "${DEBUG:-}" ]]; then
-    return 0
-  fi
-
-  runmany 'set -x; cd "$APP_PATH/$1" && bootstrap' "$@"
+  local nm_app
+  for nm_app in "$@"; do
+    pushd "$APP_PATH/$1" >/dev/null
+    bootstrap
+    popd >/dev/null
+  done
 }
 
 function bootstrap {
   local shome="$(unset CDPATH; cd -P -- "$(dirname -- "$BASH_SOURCE")/.." && pwd -P)"
   cd "$shome"
 
-  git submodule update --init --recursive
+  export APP_PATH="$shome/work"
 
-  export APP_PATH="$HOME/work"
-  source "$shome/work/app/script/profile"
+  #git submodule update --init --recursive
 
-  app compile gitsubmodule
-
-  require runmany
-
-  work_bootstrap junas jq
-  work_bootstrap node dnsimple
-  work_bootstrap erlang elixir
-  work_bootstrap python ansible aws gcloud letsencrypt
-  work_bootstrap ruby rocco tugboat
-  work_bootstrap go hub
+  source "$APP_PATH/app/script/profile"
+  #app compile gitsubmodule
+  app compile app
 
   require
 }
