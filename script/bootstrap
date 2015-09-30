@@ -1,12 +1,7 @@
 #!/usr/bin/env bash
 
-function work_bootstrap {
-  local nm_app
-  for nm_app in "$@"; do
-    pushd "$APP_PATH/$1" >/dev/null
-    bootstrap
-    popd >/dev/null
-  done
+function pre_app_bootstrap {
+  git submodule update --init --recursive
 }
 
 function bootstrap {
@@ -14,14 +9,10 @@ function bootstrap {
   cd "$shome"
 
   export APP_PATH="$shome/work"
-
-  #git submodule update --init --recursive
-
   source "$APP_PATH/app/script/profile"
-  #app compile gitsubmodule
+  echo app compile gitsubmodule
   app compile definitions
-
-  require
 }
 
+echo pre_app_bootstrap
 bootstrap
