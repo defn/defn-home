@@ -19,7 +19,7 @@ function bootstrap {
 
   source "$APP_PATH/app/script/profile"
   #app compile gitsubmodule
-  app compile app
+  app compile definitions
 
   require
 }
