@@ -12,13 +12,13 @@ require:
   - [ jq ]
   - [ cue, junas, defn ]
   - [ runmany, deploy ]
-boostrapx:
-  - [ jq ]
-boostrapx:
+  - vagrant
+boostrap:
   - [ junas, jq ]
   - [ node, dnsimple ]
   - [ erlang, elixir ]
   - [ python, ansible, aws, gcloud, letsencrypt ]
   - [ ruby, rocco, tugboat ]
   - [ go, hub ]
+  - vagrant
 
