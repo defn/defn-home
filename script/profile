@@ -17,7 +17,7 @@ function profile {
   require cue junas defn
   require runmany deploy boxcar
   require scripts-to-rule-them-all
-  require vagrant
+  require vagrant packer
 }
 
 if ! profile; then

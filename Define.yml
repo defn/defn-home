@@ -12,7 +12,7 @@ require:
   - [ jq ]
   - [ cue, junas, defn ]
   - [ runmany, deploy ]
-  - vagrant
+  - [ vagrant, packer ]
 boostrap:
   - [ junas, jq ]
   - [ node, dnsimple ]
@@ -20,5 +20,5 @@ boostrap:
   - [ python, ansible, aws, gcloud, letsencrypt ]
   - [ ruby, rocco, tugboat ]
   - [ go, hub ]
-  - vagrant
-
+  - [ vagrant, packer ]
+ 
