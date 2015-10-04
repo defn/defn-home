@@ -18,6 +18,8 @@ function profile {
   require runmany deploy boxcar
   require scripts-to-rule-them-all
   require vagrant packer
+
+  source home_iterm
 }
 
 if ! profile; then

@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+
+# setBackground modified from 
+#   http://hints.macworld.com/article.php?story=20041218131532551
+function setBackground {
+  osascript -e "tell application \"iTerm\"
+    set current_terminal to (current terminal)
+    tell current_terminal
+      set current_session to (current session)
+      tell current_session
+        set background color to $1
+      end tell
+    end tell
+  end tell"
+}
+
+function vim {
+  ( setBackground "{28,28,28}" & )
+  ( exec "$@" )
+  ( setBackground "{0,43,54}" & )
+}
+
