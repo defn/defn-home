@@ -2,15 +2,21 @@
 source ~/.vim/junas.vimrc
 
 " install whatever bundles over the net
-silent call Bundle(["xoria256"])
+silent call Bundle(["xoria256", "Solarized"])
 silent call Bundle(["surround", "repeat", "Rainbow_Parenthesis", "matchit.zip", "eregex"])
 
-" use the xoria256 color scheme
-colorscheme xoria256
+let cue_scheme=$CUE_SCHEME
 
-" override xoria colors
-hi Folded  ctermfg=180 guifg=#dfaf87 ctermbg=234 guibg=#1c1c1c
-hi NonText ctermfg=252 guifg=#d0d0d0 ctermbg=234 guibg=#1c1c1c cterm=none gui=none
+if cue_scheme == 'slight'
+  " use the Solarized color scheme for light
+  colorscheme Solarized
+  set background=light
+else
+  " use the xoria256 color scheme for dark
+  colorscheme xoria256
+  hi Folded  ctermfg=180 guifg=#dfaf87 ctermbg=234 guibg=#1c1c1c
+  hi NonText ctermfg=252 guifg=#d0d0d0 ctermbg=234 guibg=#1c1c1c cterm=none gui=none
+endif
 
 set shiftround smarttab
 set autoindent smartindent
