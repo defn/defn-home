@@ -1,26 +1,23 @@
 #!/usr/bin/env bash
 
-# setBackground modified from 
-#   http://hints.macworld.com/article.php?story=20041218131532551
 function setBackground {
+  local clr="$1"; shift
   case "$TERM_PROGRAM" in
     iTerm.app)
-      osascript -e "tell application \"iTerm\"
-        set current_terminal to (current terminal)
-        tell current_terminal
-          set current_session to (current session)
-          tell current_session
-            set background color to $1
-          end tell
-        end tell
-      end tell"
+      echo -e "\033]Ph${clr}\033\\"
       ;;
   esac
 }
 
 function vim {
-  ( setBackground "{28,28,28}" & )
-  ( exec "$@" )
-  ( setBackground "{0,43,54}" & )
+  local clr_vim="c1c1c1"
+  local clr_bg="c1c1c1"
+  if [[ "${ITERM_PROFILE:-}" == "slight" ]]; then
+    clr_bg="ffffd7"
+  fi
+
+  ( setBackground "$clr_vim" & )
+  ( exec vim "$@" )
+  ( setBackground "$clr_bg" & )
 }
 

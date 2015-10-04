@@ -15,9 +15,18 @@ function bootstrap_app {
 
 
 if bootstrap_app && require; then
-  if sdark; then
-    true
-  fi
+  case "${ITERM_PROFILE:-sdark}" in
+    slight)
+      if slight; then
+        true
+      fi
+      ;;
+    *)
+      if sdark; then
+        true
+      fi
+      ;;
+  esac
 else
-  echo "ERROR: something's wrong with script/profile"
+  echo "INFO: something's wrong with script/profile"
 fi
