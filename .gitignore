@@ -56,7 +56,7 @@
 
 # pkgsrc
 /install
-/work/pkgsrc
-/work/bootstrap
+/tmp/pkgsrc
+/tmp/bootstrap
 /distfiles
 /packages
