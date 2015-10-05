@@ -10,8 +10,14 @@ function bootstrap {
 
   export APP_PATH="$shome/work"
   source "$APP_PATH/app/script/profile"
-  echo app compile gitsubmodule
+  source "$shomescript/profile"
+
+  echo info app compile gitsubmodule
   app compile definitions
+
+  require pkgsrc
+  app compile bmake
+  app compile pkgsrc misc/getopt
 }
 
 echo pre_app_bootstrap

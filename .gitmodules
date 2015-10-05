@@ -76,3 +76,6 @@
 [submodule "work/phoenix"]
 	path = work/phoenix
 	url = git@github.com:defn/app-phoenix
+[submodule "work/pkgsrc"]
+	path = work/pkgsrc
+	url = git@github.com:defn/app-pkgsrc

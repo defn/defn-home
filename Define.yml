@@ -1,5 +1,6 @@
 ---
 require:
+  - pkgsrc
   - virtualenv
   - [ ansible, aws, gcloud, letsencrypt ]
   - erlang
@@ -14,6 +15,7 @@ require:
   - [ runmany, deploy ]
   - [ vagrant, packer ]
 boostrap:
+  - [ pkgsrc ]
   - [ junas, jq ]
   - [ node, dnsimple ]
   - [ erlang, elixir, phoenix ]

@@ -50,3 +50,13 @@
 # elixir
 /.hex/
 /.mix/
+
+# java
+/.oracle_jre_usage
+
+# pkgsrc
+/install
+/work/pkgsrc
+/work/bootstrap
+/distfiles
+/packages

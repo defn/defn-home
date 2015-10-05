@@ -8,6 +8,9 @@ function profile {
   source app_shortcuts
   source app_debug
 
+  export PKG_HOME="$shome"
+
+  require pkgsrc
   require python ansible aws gcloud letsencrypt
   require erlang elixir phoenix
   require ruby rocco tugboat
