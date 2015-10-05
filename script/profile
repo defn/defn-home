@@ -9,7 +9,7 @@ function profile {
   source app_debug
 
   require python ansible aws gcloud letsencrypt
-  require erlang elixir
+  require erlang elixir phoenix
   require ruby rocco tugboat
   require node dnsimple
   require go hub

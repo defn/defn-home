@@ -29,6 +29,7 @@
 
 # npm
 /.npm
+/.node-gyp/
 /node_modules
 
 # dnsimple
@@ -45,3 +46,7 @@
 
 # git
 /github
+
+# elixir
+/.hex/
+/.mix/

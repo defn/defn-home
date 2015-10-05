@@ -3,7 +3,7 @@ require:
   - virtualenv
   - [ ansible, aws, gcloud, letsencrypt ]
   - erlang
-  - [ elixir ]
+  - [ elixir, phoenix ]
   - ruby
   - [ rocco, tugboat ]
   - node
@@ -16,7 +16,7 @@ require:
 boostrap:
   - [ junas, jq ]
   - [ node, dnsimple ]
-  - [ erlang, elixir ]
+  - [ erlang, elixir, phoenix ]
   - [ python, ansible, aws, gcloud, letsencrypt ]
   - [ ruby, rocco, tugboat ]
   - [ go, hub ]

@@ -73,3 +73,6 @@
 [submodule "work/packer"]
 	path = work/packer
 	url = git@github.com:defn/app-packer
+[submodule "work/phoenix"]
+	path = work/phoenix
+	url = git@github.com:defn/app-phoenix
