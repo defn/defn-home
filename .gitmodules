@@ -79,3 +79,9 @@
 [submodule "work/pkgsrc"]
 	path = work/pkgsrc
 	url = git@github.com:defn/app-pkgsrc
+[submodule "work/scripts-to-rule-them-all"]
+	path = work/scripts-to-rule-them-all
+	url = git@github.com:defn/scripts-to-rule-them-all
+[submodule "work/vagrant"]
+	path = work/vagrant
+	url = git@github.com:defn/app-vagrant
