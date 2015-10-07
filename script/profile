@@ -20,7 +20,7 @@ function profile {
   require cue junas defn
   require runmany deploy boxcar
   require scripts-to-rule-them-all
-  require vagrant packer
+  require vagrant #packer
 
   source home_iterm
 }
