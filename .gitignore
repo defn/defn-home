@@ -1,3 +1,7 @@
+# working areas
+/tmp
+/work
+
 # initial mass ignore
 /.ansible/
 /.bash_history
