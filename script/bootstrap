@@ -1,18 +1,18 @@
 #!/usr/bin/env bash
 
-function pre_app_bootstrap {
-  git submodule update --init --recursive
+function app_bootstrap {
+  local shome="$(unset CDPATH; cd -P -- "$(dirname -- "$BASH_SOURCE")/.." && pwd -P)"
+  export APP_PATH="$shome/work"
+
+  git clone git@github.com:defn/app "$APP_PATH/app" || true
+  source "$APP_PATH/app/script/profile"
+  source "$shomescript/profile"
 }
 
 function bootstrap {
   local shome="$(unset CDPATH; cd -P -- "$(dirname -- "$BASH_SOURCE")/.." && pwd -P)"
   cd "$shome"
 
-  export APP_PATH="$shome/work"
-  source "$APP_PATH/app/script/profile"
-  source "$shomescript/profile"
-
-  echo info app compile gitsubmodule
   app compile definitions
 
   require pkgsrc
@@ -27,5 +27,5 @@ function bootstrap {
   app compile dmg 'http://xquartz.macosforge.org/downloads/SL/XQuartz-2.7.7.dmg' XQuartz-2.7.7 XQuartz.pkg
 }
 
-echo pre_app_bootstrap
+app_bootstrap
 bootstrap
