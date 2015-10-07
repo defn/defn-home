@@ -16,7 +16,8 @@ function bootstrap {
   app compile definitions
 
   require pkgsrc
-  pkg install bmake
+  pkg install bootstrap
+
   pkg install misc/getopt
   pkg install misc/tmux
   pkg install net/wget www/curl
