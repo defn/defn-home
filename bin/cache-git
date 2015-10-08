@@ -9,13 +9,12 @@ function main {
   eval set -- $1
   local cmd_git="$1"
 
-  set -x
   case "$cmd_git" in
     git-upload-pack)
       local nm_user="$(echo "$2" | cut -d/ -f1)"
       local nm_repo="$(echo "$2" | cut -d/ -f2)"
 
-      if [[ -z "${GIT_CACHE"}" -a ! -f ~/.git_cache ]]; then
+      if [[ -z "${GIT_CACHE}" && ! -f ~/.git_cache ]]; then
         if [[ ! -d "$HOME/cache/git/github.com/$nm_user/$nm_repo" ]]; then
           mkdir -p "$HOME/cache/git/github.com/$nm_user"
           git clone --mirror \
