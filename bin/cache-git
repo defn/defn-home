@@ -1,0 +1,36 @@
+#!/usr/bin/env bash
+
+function main {
+  exec 9>&1 1>&2
+  unset GIT_SSH
+
+  local hst_remote="$1"; shift
+
+  eval set -- $1
+  local cmd_git="$1"
+
+  set -x
+  case "$cmd_git" in
+    git-upload-pack)
+      local nm_user="$(echo "$2" | cut -d/ -f1)"
+      local nm_repo="$(echo "$2" | cut -d/ -f2)"
+
+      if [[ ! -d "$HOME/cache/git/github.com/$nm_user/$nm_repo" ]]; then
+        mkdir -p "$HOME/cache/git/github.com/$nm_user"
+        git clone --mirror \
+          "git@github.com:$nm_user/$nm_repo" "$HOME/cache/git/github.com/$nm_user/$nm_repo" 1>&2
+      else
+        pushd "$HOME/cache/git/github.com/$nm_user/$nm_repo" >/dev/null
+        git fetch --all 1>&2
+        popd >/dev/null
+      fi
+      exec $(which /usr/bin/ssh) localhost "cd $HOME/cache/git/github.com && $*" 1>&9
+      ;;
+
+    *)
+      exec $(which /usr/bin/ssh) git@github.com "$@" 1>&9
+      ;;
+  esac
+}
+
+main "$@"
