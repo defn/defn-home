@@ -1,6 +1,7 @@
 # working areas
 /tmp
 /work
+/cache
 
 # initial mass ignore
 /.ansible/
