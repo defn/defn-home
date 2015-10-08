@@ -15,15 +15,18 @@ function main {
       local nm_user="$(echo "$2" | cut -d/ -f1)"
       local nm_repo="$(echo "$2" | cut -d/ -f2)"
 
-      if [[ ! -d "$HOME/cache/git/github.com/$nm_user/$nm_repo" ]]; then
-        mkdir -p "$HOME/cache/git/github.com/$nm_user"
-        git clone --mirror \
-          "git@github.com:$nm_user/$nm_repo" "$HOME/cache/git/github.com/$nm_user/$nm_repo" 1>&2
-      else
-        pushd "$HOME/cache/git/github.com/$nm_user/$nm_repo" >/dev/null
-        git fetch --all 1>&2
-        popd >/dev/null
+      if [[ -z "${GIT_CACHE"}" -a ! -f ~/.git_cache ]]; then
+        if [[ ! -d "$HOME/cache/git/github.com/$nm_user/$nm_repo" ]]; then
+          mkdir -p "$HOME/cache/git/github.com/$nm_user"
+          git clone --mirror \
+            "git@github.com:$nm_user/$nm_repo" "$HOME/cache/git/github.com/$nm_user/$nm_repo" 1>&2
+        else
+          pushd "$HOME/cache/git/github.com/$nm_user/$nm_repo" >/dev/null
+          git fetch --all 1>&2
+          popd >/dev/null
+        fi
       fi
+
       exec $(which /usr/bin/ssh) localhost "cd $HOME/cache/git/github.com && $*" 1>&9
       ;;
 
