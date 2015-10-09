@@ -15,7 +15,7 @@ function bootstrap_app {
 
 function bashrc {
   if bootstrap_app && require; then
-    case "${ITERM_PROFILE:-sdark}" in
+    case "${CUE_SCHEME:-${ITERM_PROFILE:-sdark}}" in
       slight)
         slight || true
         ;;

@@ -12,11 +12,11 @@ function setBackground {
 function vim {
   local clr_vim="1c1c1c"
   local clr_bg="1c1c1c"
-  if [[ "${ITERM_PROFILE:-}" == "slight" ]]; then
+  if [[ "${CUE_SCHEME:-}" == "slight" ]]; then
     clr_bg="ffffd7"
   fi
 
-  ( setBackground "$clr_vim" & )
+  ( setBackground "$clr_bg" & )
   ( exec vim "$@" )
   snormal
 }
