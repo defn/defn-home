@@ -13,20 +13,19 @@ function bootstrap_app {
   fi
 }
 
+function bashrc {
+  if bootstrap_app && require; then
+    case "${ITERM_PROFILE:-sdark}" in
+      slight)
+        slight || true
+        ;;
+      *)
+        sdark || true
+        ;;
+    esac
+  fi
 
-if bootstrap_app && require; then
-  case "${ITERM_PROFILE:-sdark}" in
-    slight)
-      if slight; then
-        true
-      fi
-      ;;
-    *)
-      if sdark; then
-        true
-      fi
-      ;;
-  esac
-else
-  echo "INFO: something's wrong with script/profile"
-fi
+  set +efu
+}
+
+bashrc || echo "INFO: something's wrong with script/profile"

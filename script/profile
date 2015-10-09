@@ -27,8 +27,4 @@ function profile {
   export GIT_SSH="$(which cache-git 2>&- || echo ssh)"
 }
 
-if ! profile; then
-  true
-fi
-
-set +efu
+profile
