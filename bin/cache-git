@@ -4,7 +4,8 @@ function main {
   exec 9>&1 1>&2
   unset GIT_SSH GIT_DIR
 
-  local hst_remote="$1"; shift
+  local ssh_remote="$1"; shift
+  local hst_remote="${ssh_remote##*@}"
 
   eval set -- $1
   local cmd_git="$1"
@@ -14,23 +15,24 @@ function main {
       local nm_user="$(echo "$2" | cut -d/ -f1)"
       local nm_repo="$(echo "$2" | cut -d/ -f2)"
 
+      local pth_cache="$HOME/cache/git/$hst_remote"
       if [[ -z "${GIT_CACHE}" && ! -f ~/.git_cache ]]; then
-        if [[ ! -d "$HOME/cache/git/github.com/$nm_user/$nm_repo" ]]; then
-          mkdir -p "$HOME/cache/git/github.com/$nm_user"
+        if [[ ! -d "${pth_cache}/$nm_user/$nm_repo" ]]; then
+          mkdir -p "${pth_cache}/$nm_user"
           git clone --mirror \
-            "git@github.com:$nm_user/$nm_repo" "$HOME/cache/git/github.com/$nm_user/$nm_repo"
-        else
-          pushd "$HOME/cache/git/github.com/$nm_user/$nm_repo" >/dev/null
-          git fetch --all
-          popd >/dev/null
+            "${ssh_remote}:$nm_user/$nm_repo" "${pth_cache}/$nm_user/$nm_repo"
         fi
+
+        pushd "${pth_cache}/$nm_user/$nm_repo" >/dev/null
+        git fetch --all
+        popd >/dev/null
       fi
 
-      exec $(which /usr/bin/ssh) localhost "cd $HOME/cache/git/github.com && $*" 1>&9
+      exec $(which /usr/bin/ssh) localhost "cd ${pth_cache} && $*" 1>&9
       ;;
 
     *)
-      exec $(which /usr/bin/ssh) git@github.com "$@" 1>&9
+      exec $(which /usr/bin/ssh) "$ssh_remote" "$@" 1>&9
       ;;
   esac
 }
