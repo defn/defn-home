@@ -13,15 +13,15 @@ function bootstrap_app {
   fi
 }
 
+function guess_scheme {
+  echo "${CUE_SCHEME:-${ITERM_PROFILE:-sdark}}"
+}
+
 function bashrc {
   if bootstrap_app && require; then
-    case "${CUE_SCHEME:-${ITERM_PROFILE:-sdark}}" in
-      slight)
-        slight || true
-        ;;
-      *)
-        sdark || true
-        ;;
+    case "$(guess_scheme)" in 
+      slight) slight || true ;;
+      *)      sdark  || true ;;
     esac
   fi
 
