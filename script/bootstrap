@@ -13,8 +13,6 @@ function bootstrap {
   local shome="$(unset CDPATH; cd -P -- "$(dirname -- "$BASH_SOURCE")/.." && pwd -P)"
   cd "$shome"
 
-  app compile definitions
-
   require pkgsrc
   pkg install bootstrap
 
@@ -22,9 +20,6 @@ function bootstrap {
   pkg install misc/tmux
   pkg install net/wget www/curl
   pkg install www/squid3
-
-  app compile pkg 'https://haskell.org/platform/download/7.10.2/Haskell%20Platform%207.10.2-a1%2064bit-signed.pkg'
-  app compile dmg 'http://xquartz.macosforge.org/downloads/SL/XQuartz-2.7.7.dmg' XQuartz-2.7.7 XQuartz.pkg
 }
 
 app_bootstrap
