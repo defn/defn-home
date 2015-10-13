@@ -7,12 +7,7 @@ function source_app {
 
   require jq
 
-  local nm_block
-  for nm_block in $(cat "$shome/Blockfile" | yq -r '[.require[] | [.] | flatten] | flatten[]'); do
-    if require "$nm_block"; then
-      true
-    fi
-  done
+  require Blockfile
 }
 
 function bootstrap_app {
