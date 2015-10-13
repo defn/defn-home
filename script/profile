@@ -10,11 +10,14 @@ function profile {
 
   export PKG_HOME="$shome"
 
-  require pkgsrc
-  require phoenix
   require jq
-  require cue junas defn
-  require runmany deploy boxcar
+
+  local nm_block
+  for nm_block in $(cat "$shome/Blockfile" | yq -r '[.require[] | [.] | flatten] | flatten[]'); do
+    if require "$nm_block"; then
+      true
+    fi
+  done
 
   source home_iterm
 
