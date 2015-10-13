@@ -1,26 +1,7 @@
 ---
 require:
   - pkgsrc
-  - virtualenv
-  - [ ansible, aws, gcloud, letsencrypt ]
-  - erlang
-  - [ elixir, phoenix ]
-  - ruby
-  - [ rocco, tugboat ]
-  - node
-  - [ dnsimple ]
-  - go
-  - [ jq ]
+  - phoenix
+  - jq
   - [ cue, junas, defn ]
   - [ runmany, deploy ]
-  - [ vagrant, packer ]
-boostrap:
-  - [ pkgsrc ]
-  - [ junas, jq ]
-  - [ node, dnsimple ]
-  - [ erlang, elixir, phoenix ]
-  - [ python, ansible, aws, gcloud, letsencrypt ]
-  - [ ruby, rocco, tugboat ]
-  - [ go, hub ]
-  - [ vagrant, packer ]
- 
