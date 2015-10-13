@@ -8,20 +8,9 @@ function profile {
   source app_shortcuts
   source app_debug
 
-  export PKG_HOME="$shome"
-
-  require jq
-
-  local nm_block
-  for nm_block in $(cat "$shome/Blockfile" | yq -r '[.require[] | [.] | flatten] | flatten[]'); do
-    if require "$nm_block"; then
-      true
-    fi
-  done
-
-  source home_iterm
-
-  export GIT_SSH="$(which cache-git 2>&- || echo ssh)"
+  source home_package
+  source home_terminal
+  source home_cache
 }
 
 profile

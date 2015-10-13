@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+function home_cache {
+  export GIT_SSH="$(which cache-git 2>&- || echo ssh)"
+}
+
+home_cache

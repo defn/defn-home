@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+function home_package {
+  local shome="$(unset CDPATH; cd -P -- "$(dirname -- "$BASH_SOURCE")/.." && pwd -P)"
+
+  export PKG_HOME="$shome"
+}
+
+home_package

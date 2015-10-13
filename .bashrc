@@ -1,13 +1,24 @@
-export APP_PATH="$HOME/work"
-
 function source_app {
+  local shome="$(unset CDPATH; cd -P -- "$(dirname -- "$BASH_SOURCE")" && pwd -P)"
+
+  export APP_PATH="$shome/work"
+
   source "$APP_PATH/app/script/profile" || return 1
+
+  require jq
+
+  local nm_block
+  for nm_block in $(cat "$shome/Blockfile" | yq -r '[.require[] | [.] | flatten] | flatten[]'); do
+    if require "$nm_block"; then
+      true
+    fi
+  done
 }
 
 function bootstrap_app {
   if ! type require 2>&- >/dev/null; then
     if ! source_app; then
-      echo "ERROR: someting's wrong with $APP_PATH/app/script/profile"
+      echo "ERROR: someting's wrong with app/script/profile"
       return 1
     fi
   fi
