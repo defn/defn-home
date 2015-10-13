@@ -11,16 +11,10 @@ function profile {
   export PKG_HOME="$shome"
 
   require pkgsrc
-  require python ansible aws gcloud letsencrypt
-  require erlang elixir phoenix
-  require ruby rocco tugboat
-  require node dnsimple
-  require go hub
+  require phoenix
   require jq
   require cue junas defn
   require runmany deploy boxcar
-  require scripts-to-rule-them-all
-  require vagrant #packer
 
   source home_iterm
 
