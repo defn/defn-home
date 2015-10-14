@@ -1,13 +1,6 @@
 function source_app {
-  local shome="$(unset CDPATH; cd -P -- "$(dirname -- "$BASH_SOURCE")" && pwd -P)"
-
-  export APP_PATH="$shome/work"
-
   source "$APP_PATH/app/script/profile" || return 1
-
-  require jq
-
-  require Blockfile
+  source "$APP_PATH/jq/script/profile" || return 1
 }
 
 function bootstrap_app {
@@ -24,6 +17,10 @@ function guess_scheme {
 }
 
 function bashrc {
+  local shome="$(unset CDPATH; cd -P -- "$(dirname -- "$BASH_SOURCE")" && pwd -P)"
+
+  export APP_PATH="$shome/work"
+
   if bootstrap_app && require; then
     case "$(guess_scheme)" in 
       slight) slight || true ;;
@@ -34,4 +31,4 @@ function bashrc {
   set +efu
 }
 
-bashrc || echo "INFO: something's wrong with script/profile"
+DEBUG=1 bashrc || echo "INFO: something's wrong with script/profile"
