@@ -11,6 +11,8 @@ function profile {
   source home_package
   source home_terminal
   source home_cache
+
+  set +efu
 }
 
 profile
