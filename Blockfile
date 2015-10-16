@@ -6,6 +6,6 @@ require:
   - [ phoenix ]
   - [ rocco, tugboat ]
   - [ dnsimple ]
-  - [ cue, junas, defn ]
-  - [ runmany, deploy ]
+  - [ cue, junas, defn, runmany ]
+  - [ deploy ]
   - [ vagrant ]
