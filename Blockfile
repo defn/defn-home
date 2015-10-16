@@ -1,7 +1,8 @@
 ---
+requirex:
+  - phoenix
 require:
   - pkgsrc
-  - phoenix
   - jq
   - [ cue, junas, defn ]
   - [ runmany, deploy ]
