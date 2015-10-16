@@ -18,7 +18,7 @@ function home_bootstrap {
   pkg install misc/getopt
   pkg install misc/tmux
   pkg install net/wget www/curl
-  pkg install www/squid3
+  pkg install www/squid
 }
 
 app_bootstrap
