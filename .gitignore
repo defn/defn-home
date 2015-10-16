@@ -65,3 +65,6 @@
 /tmp/bootstrap
 /distfiles
 /packages
+
+# cue
+/.cue_scheme
