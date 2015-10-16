@@ -1,8 +1,11 @@
 ---
-requirex:
-  - phoenix
 require:
   - pkgsrc
   - jq
+  - [ ansible, aws, gcloud, letsencrypt ]
+  - [ phoenix ]
+  - [ rocco, tugboat ]
+  - [ dnsimple ]
   - [ cue, junas, defn ]
   - [ runmany, deploy ]
+  - [ vagrant ]
