@@ -71,3 +71,6 @@
 
 # bash
 /.bash_sessions
+
+# vim
+*.swp
