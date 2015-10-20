@@ -1,6 +1,6 @@
 ---
 require:
-  - pkgsrc
+  - pkg
   - jq
   - [ ansible, aws, gcloud, letsencrypt ]
   - [ phoenix ]

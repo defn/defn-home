@@ -68,3 +68,6 @@
 
 # cue
 /.cue_scheme
+
+# bash
+/.bash_sessions
