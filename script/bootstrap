@@ -13,7 +13,13 @@ function home_bootstrap {
   local shome="$(unset CDPATH; cd -P -- "$(dirname -- "$BASH_SOURCE")/.." && pwd -P)"
   cd "$shome"
 
-  require pkg
+  require pkgsrc
+
+  pkg build security/mozilla-rootcerts
+  pkg build misc/getopt
+  pkg build misc/tmux
+  pkg build net/wget www/curl
+  pkg build www/squid3
 
   pkg install security/mozilla-rootcerts
   mozilla-rootcerts install

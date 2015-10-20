@@ -1,7 +1,7 @@
 ---
 require:
-  - pkg
   - jq
+  - pkgsrc
   - [ ansible, aws, gcloud, letsencrypt ]
   - [ phoenix ]
   - [ rocco, tugboat ]
