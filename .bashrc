@@ -18,9 +18,8 @@ function guess_scheme {
 
 function bashrc {
   local shome="$(unset CDPATH; cd -P -- "$(dirname -- "$BASH_SOURCE")" && pwd -P)"
-  PATH="$shome/bin:$shome/exec:$PATH"
 
-  source home_roots
+  source "$shome/.profile.d/app.pre"
 
   if bootstrap_app && require; then
     case "$(guess_scheme)" in 
