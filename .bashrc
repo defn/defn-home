@@ -18,8 +18,9 @@ function guess_scheme {
 
 function bashrc {
   local shome="$(unset CDPATH; cd -P -- "$(dirname -- "$BASH_SOURCE")" && pwd -P)"
+  PATH="$shome/bin:$shome/exec:$PATH"
 
-  export APP_PATH="$shome/work"
+  source home_roots
 
   if bootstrap_app && require; then
     case "$(guess_scheme)" in 
@@ -27,8 +28,10 @@ function bashrc {
       *)      sdark  || true ;;
     esac
   fi
-
-  set +efu
 }
 
 DEBUG=1 bashrc || echo "INFO: something's wrong with script/profile"
+
+if tty 2>&- > /dev/null; then
+  set +efu
+fi
