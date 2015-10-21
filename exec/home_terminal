@@ -2,6 +2,7 @@
 
 function setBackground {
   local clr="$1"; shift
+
   case "$TERM_PROGRAM" in
     iTerm.app)
       echo -e "\033]Ph${clr}\033\\"
@@ -10,7 +11,6 @@ function setBackground {
 }
 
 function vim {
-  local clr_vim="1c1c1c"
   local clr_bg="1c1c1c"
   if [[ "${CUE_SCHEME:-}" == "slight" ]]; then
     clr_bg="ffffd7"
@@ -22,8 +22,8 @@ function vim {
     export CUE_SCHEME_VIM="$CUE_SCHEME"
   fi
 
-  ( setBackground "$clr_bg" & )
-  ( exec vim "$@" )
+  setBackground "$clr_bg"
+  (type -P vim) "$@"
   snormal
 }
 
