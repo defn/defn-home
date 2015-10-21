@@ -15,7 +15,8 @@ function bootstrap_app {
 }
 
 function guess_scheme {
-  echo "${CUE_SCHEME:-${ITERM_PROFILE:-sdark}}"
+  local nm_scheme="$(cat ~/.cue-scheme 2>&- || true)"
+  echo "${CUE_SCHEME:-${ITERM_PROFILE:-${nm_scheme:-sdark}}}"
 }
 
 function bashprofile {

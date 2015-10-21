@@ -67,7 +67,7 @@
 /packages
 
 # cue
-/.cue_scheme
+/.cue-scheme
 
 # bash
 /.bash_sessions
