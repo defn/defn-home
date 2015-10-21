@@ -4,16 +4,13 @@ function app_bootstrap {
   local shome="$(unset CDPATH; cd -P -- "$(dirname -- "$BASH_SOURCE")/.." && pwd -P)"
   export APP_PATH="$shome/work"
 
-  git clone git@github.com:defn/app "$APP_PATH/app" || true
   source "$APP_PATH/app/script/profile"
-  source "$shome/script/profile"
 }
 
 function home_bootstrap {
   local shome="$(unset CDPATH; cd -P -- "$(dirname -- "$BASH_SOURCE")/.." && pwd -P)"
-  cd "$shome"
 
-  require pkgsrc
+  source "$shome/script/profile"
 
   pkg build security/mozilla-rootcerts
   pkg build misc/getopt
