@@ -74,6 +74,3 @@
 
 # vim
 *.swp
-
-# app
-/.app-name
