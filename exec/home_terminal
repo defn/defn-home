@@ -23,7 +23,7 @@ function vim {
   fi
 
   setBackground "$clr_bg"
-  (type -P vim) "$@"
+  $(type -P vim) "$@"
   snormal
 }
 
