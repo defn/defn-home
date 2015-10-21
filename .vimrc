@@ -43,3 +43,6 @@ set diffopt+=iwhite
 set diffexpr="-w -b -B"
 
 set guioptions=
+
+" to prevent screen restores
+" set t_ti= t_te=
