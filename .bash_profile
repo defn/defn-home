@@ -33,8 +33,9 @@ function bashprofile {
 
 DEBUG=1 bashprofile || echo "INFO: something's wrong with script/profile"
 
+source ~/.bashrc || echo "ERROR: something's wrong with bashrc"
+
 if tty 2>&- > /dev/null; then
   set +efu
 fi
 
-source ~/.bashrc || echo "ERROR: something's wrong with bashrc"
