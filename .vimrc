@@ -5,7 +5,7 @@ source ~/.vim/junas.vimrc
 silent call Bundle(["xoria256", "Solarized"])
 silent call Bundle(["surround", "repeat", "Rainbow_Parenthesis", "matchit.zip", "eregex"])
 
-let cue_scheme=$CUE_SCHEME
+let cue_scheme=$CUE_SCHEME_VIM
 
 if cue_scheme == 'slight'
   " use the Solarized color scheme for light

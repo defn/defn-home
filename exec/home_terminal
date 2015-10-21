@@ -16,6 +16,12 @@ function vim {
     clr_bg="ffffd7"
   fi
 
+  if [[ "$TERM_PROGRAM" == "Apple_Terminal" ]]; then
+    export CUE_SCHEME_VIM='sdark'
+  else
+    export CUE_SCHEME_VIM="$CUE_SCHEME"
+  fi
+
   ( setBackground "$clr_bg" & )
   ( exec vim "$@" )
   snormal
