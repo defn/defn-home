@@ -1,14 +1,14 @@
 #!/usr/bin/env bash
 
 function app_bootstrap {
-  local shome="$(unset CDPATH; cd -P -- "$(dirname -- "$BASH_SOURCE")/.." && echo "$PWD")"
+  local shome="$(cd -P -- "$(dirname -- "$BASH_SOURCE")/.." && echo "$PWD")"
   export APP_PATH="$shome/work"
 
   source "$APP_PATH/app/script/profile"
 }
 
 function home_bootstrap {
-  local shome="$(unset CDPATH; cd -P -- "$(dirname -- "$BASH_SOURCE")/.." && echo "$PWD")"
+  local shome="$(cd -P -- "$(dirname -- "$BASH_SOURCE")/.." && echo "$PWD")"
 
   source "$shome/script/profile"
 

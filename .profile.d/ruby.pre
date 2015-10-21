@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 function home_pkg {
-  local shome="$(unset CDPATH; cd -P -- "$(dirname -- "$BASH_SOURCE")/.." && echo "$PWD")"
+  local shome="$(cd -P -- "$(dirname -- "$BASH_SOURCE")/.." && echo "$PWD")"
 
   export RBENV_VERSION="2.2.3"
 }
