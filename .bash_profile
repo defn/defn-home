@@ -19,7 +19,7 @@ function guess_scheme {
 }
 
 function bashprofile {
-  local shome="$(unset CDPATH; cd -P -- "$(dirname -- "$BASH_SOURCE")" && pwd -P)"
+  local shome="$(unset CDPATH; cd -P -- "$(dirname -- "$BASH_SOURCE")" && echo "$PWD")"
 
   source "$shome/.profile.d/app.pre"
 
@@ -31,7 +31,7 @@ function bashprofile {
   fi
 }
 
-DEBUG=1 bashprofile || echo "INFO: something's wrong with script/profile"
+time DEBUG=1 bashprofile || echo "INFO: something's wrong with script/profile"
 
 source ~/.bashrc || echo "ERROR: something's wrong with bashrc"
 
