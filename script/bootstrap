@@ -12,11 +12,11 @@ function home_bootstrap {
 
   source "$shome/script/profile"
 
-  pkg build security/mozilla-rootcerts
-  pkg build misc/getopt
-  pkg build misc/tmux
-  pkg build net/wget www/curl
-  pkg build www/squid3
+  pkg package security/mozilla-rootcerts
+  pkg package misc/getopt
+  pkg package misc/tmux
+  pkg package net/wget www/curl
+  pkg package www/squid3
 
   pkg install security/mozilla-rootcerts
   mozilla-rootcerts install
