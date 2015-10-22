@@ -74,3 +74,6 @@
 
 # vim
 *.swp
+
+# vmware
+/.ovftool.ssldb
