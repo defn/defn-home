@@ -28,6 +28,7 @@
       "deploy"
     ],
     [
+      "packer",
       "vagrant"
     ]
   ]
