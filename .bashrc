@@ -8,7 +8,6 @@ function bashrc {
   source "$shome/.profile.d/app.pre"
   source "$APP_PATH/app/script/profile"
 
-  require jq
   require cue
 
   : ${CUE_SCHEME:="$(cat ~/.cue-scheme 2>&- || true)"}
