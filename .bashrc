@@ -6,9 +6,10 @@ function bashrc {
   local shome="$(cd -P -- "$(dirname -- "$BASH_SOURCE")" && echo "$PWD")"
 
   source "$shome/.profile.d/app.pre"
+  source "$APP_PATH/sub/script/profile"
   source "$APP_PATH/app/script/profile"
-  source "$APP_PATH/jq/script/profile"
 
+  require jq
   require cue
 
   : ${CUE_SCHEME:="$(cat ~/.cue-scheme 2>&- || true)"}

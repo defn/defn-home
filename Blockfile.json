@@ -1,7 +1,9 @@
 {
   "require": [
-    "jq",
-    "pkgsrc",
+    "app",
+    [ 
+      "jq",
+      "pkgsrc" ],
     [
       "ansible",
       "aws",
