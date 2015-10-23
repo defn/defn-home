@@ -43,6 +43,7 @@
 
 # gcloud
 /.config/gcloud
+/.bash_profile.backup
 
 # aws
 /.saws.log
