@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 function home_pkg {
-  local shome="$(cd -P -- "$(dirname -- "$BASH_SOURCE")/.." && echo "$PWD")"
+  local shome="$(cd -P -- "${BASH_SOURCE%/*}/.." && pwd -P)"
 
   export PKG_HOME="$shome"
 }
