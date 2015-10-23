@@ -78,3 +78,6 @@
 
 # vmware
 /.ovftool.ssldb
+
+# virtualbox
+/VirtualBox VMs
