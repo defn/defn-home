@@ -28,6 +28,7 @@
       "deploy"
     ],
     [
+      "virtualbox",
       "packer",
       "vagrant"
     ]
