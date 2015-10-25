@@ -30,9 +30,7 @@
       "deploy"
     ],
     [
-      "virtualbox",
-      "packer",
-      "vagrant"
+      "ubuntu"
     ]
   ]
 }

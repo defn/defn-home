@@ -81,3 +81,6 @@
 
 # virtualbox
 /VirtualBox VMs
+
+# packer
+/.packer.d
