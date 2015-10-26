@@ -92,3 +92,7 @@
 # app
 /.bashrc.app
 /Blockfile.txt
+
+# ubuntu
+/.aptitude
+/.cache
