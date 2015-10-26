@@ -33,18 +33,10 @@ function bashrc {
     export REQUIRE=1
 
     if [[ -f "$shome/.bashrc.app" ]]; then
-      time source "$shome/.bashrc.app"
+      source "$shome/.bashrc.app"
     else
       bootstraprc
-
-      local tmp_rc="$(mktemp -t "XXXXXX")"
-      export APP_RC_CACHE="$tmp_rc"
-
-      time DEBUG=1 require
-
-      local tmp_rc2="$shome/.bashrc.app.$(basename "$tmp_rc")"
-      mv "$tmp_rc" "$tmp_rc2"
-      mv -f "$tmp_rc2" "$shome/.bashrc.app"
+      require
     fi
   else
     bootstraprc
