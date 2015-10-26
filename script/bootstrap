@@ -44,4 +44,4 @@ function home_bootstrap {
 }
 
 app_bootstrap
-home_bootstrap
+home_bootstrap "$@"
