@@ -33,7 +33,7 @@ function home_bootstrap {
       pkg package www/squid3
 
       pkg install security/mozilla-rootcerts
-      mozilla-rootcerts install
+      mozilla-rootcerts install || true
       pkg install security/spiped
       pkg install misc/getopt
       pkg install misc/tmux
