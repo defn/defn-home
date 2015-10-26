@@ -87,6 +87,7 @@
 
 # vagrant
 /.vagrant.d
+/.vagrant
 
 # app
 /.bashrc.app
