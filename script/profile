@@ -5,8 +5,6 @@ function profile {
   PATH="$shome/bin:$shome/exec:$PATH"
 
   source app_strict
-  source app_shortcuts
-  source app_debug
 
   source home_terminal
   source home_cache

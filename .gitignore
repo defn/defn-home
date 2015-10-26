@@ -87,3 +87,7 @@
 
 # vagrant
 /.vagrant.d
+
+# app
+/.bashrc.app
+/Blockfile.txt
