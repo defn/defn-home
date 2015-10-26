@@ -27,9 +27,13 @@ function bashrc {
   source "$APP_PATH/app/script/profile"
 
   if [[ -z "${REQUIRE:-}" ]]; then
-    time require
+    if [[ -f "$shome/.bashrc.app" ]]; then
+      time source "$shome/.bashrc.app"
+    else
+      time require
+    fi
+    export REQUIRE=1
   fi
-  export REQUIRE=1
 
   configure_cue
   configure_tty
