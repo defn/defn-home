@@ -23,6 +23,7 @@ function bashrc {
   local shome="$(cd -P -- "${BASH_SOURCE%/*}" && pwd -P)"
 
   source "$shome/.profile.d/app.pre"
+  source "$APP_PATH/jq/script/profile"
   source "$APP_PATH/app/script/profile"
 
   if [[ -z "${REQUIRE:-}" ]]; then
