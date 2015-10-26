@@ -1,6 +1,12 @@
 {
   "require": [
     "app",
+    [
+      "cue",
+      "junas",
+      "defn",
+      "runmany"
+    ],
     [ 
       "jq"
     ],
@@ -19,12 +25,6 @@
     ],
     [
       "dnsimple"
-    ],
-    [
-      "cue",
-      "junas",
-      "defn",
-      "runmany"
     ],
     [
       "deploy"
