@@ -3,7 +3,7 @@
     "app",
     [ 
       "jq",
-      "pkgsrc" ],
+    ],
     [
       "ansible",
       "aws",
@@ -31,6 +31,9 @@
     ],
     [
       "boxcar"
+    ],
+    [
+      "pkgsrc"
     ]
   ]
 }
