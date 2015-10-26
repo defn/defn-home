@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+function main {
+  local shome="$(cd -P -- "${BASH_SOURCE%/*}/.." && pwd -P)"
+  
+  rm -vf "$shome/.bashrc.app" "$shome/Blockfile.txt"
+  ${WRKOBJDIR:+rm -rf "$WRKOBJDIR"}
+}
+
+main "$@"
