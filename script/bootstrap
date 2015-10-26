@@ -13,6 +13,7 @@ function home_bootstrap {
   source "$shome/script/profile"
 
   pkg package security/mozilla-rootcerts
+  pkg package security/spiped
   pkg package misc/getopt
   pkg package misc/tmux
   pkg package net/wget www/curl
@@ -20,6 +21,7 @@ function home_bootstrap {
 
   pkg install security/mozilla-rootcerts
   mozilla-rootcerts install
+  pkg install security/spiped
   pkg install misc/getopt
   pkg install misc/tmux
   pkg install net/wget www/curl

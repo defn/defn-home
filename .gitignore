@@ -84,3 +84,6 @@
 
 # packer
 /.packer.d
+
+# vagrant
+/.vagrant.d
