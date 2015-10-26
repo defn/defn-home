@@ -27,7 +27,7 @@ function bootstraprc {
 }
 
 function bashrc {
-  local shome="$(cd -P -- "${BASH_SOURCE%/*}" && pwd -P)"
+  local shome="$(cd -P -- "$(dirname "${BASH_SOURCE}")" && pwd -P)"
 
   if [[ -z "${REQUIRE:-}" ]]; then
     export REQUIRE=1
