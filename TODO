@@ -28,6 +28,8 @@ sudo apt-get install -y nodejs
 script/bootstrap
 bash
 app bootstrap
+require
+app bootstrap
 
 issue with /vagrant mounted and in search path, need to also remove directory
 - fix how app finds blocks
