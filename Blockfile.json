@@ -1,9 +1,15 @@
 {
   "require": [
     "app",
+    [
+      "cue",
+      "junas",
+      "defn",
+      "runmany"
+    ],
     [ 
-      "jq",
-      "pkgsrc" ],
+      "jq"
+    ],
     [
       "ansible",
       "aws",
@@ -14,23 +20,20 @@
       "phoenix"
     ],
     [
-      "rocco",
-      "tugboat"
-    ],
-    [
       "dnsimple"
     ],
     [
-      "cue",
-      "junas",
-      "defn",
-      "runmany"
+      "rocco",
+      "tugboat"
     ],
     [
       "deploy"
     ],
     [
       "boxcar"
+    ],
+    [
+      "pkgsrc"
     ]
   ]
 }

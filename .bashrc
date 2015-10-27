@@ -22,12 +22,13 @@ function configure_tty {
 
 function bootstraprc {
   source "$shome/.profile.d/app.pre"
+  source "$APP_PATH/sub/script/profile"
   source "$APP_PATH/jq/script/profile"
   source "$APP_PATH/app/script/profile"
 }
 
 function bashrc {
-  local shome="$(cd -P -- "${BASH_SOURCE%/*}" && pwd -P)"
+  local shome="$(cd -P -- "$(dirname "${BASH_SOURCE}")" && pwd -P)"
 
   if [[ -z "${REQUIRE:-}" ]]; then
     export REQUIRE=1
