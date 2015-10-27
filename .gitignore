@@ -45,6 +45,9 @@
 /.config/gcloud
 /.bash_profile.backup
 
+# htop
+/.config/htop
+
 # aws
 /.saws.log
 /.sawsrc
