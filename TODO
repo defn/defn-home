@@ -1,36 +1,34 @@
-
-ssh-agent with vagrant key or copy personal authorized key over
+cat .ssh/authorized_keys | vagrant ssh -- tee -a .ssh/authorized_keys
 
 git clone git@github.com:defn/home
+
 mv home/.git .
 rm -rf home
 git checkout .
+rm -f .profile
 
-remove:
-.profile
-
-clone: sub app jq pkgsrc python ansible aws gcloud letsencrypt erlang elixir
-phoenix ruby rocco tugboat node dnsimple cue junas defn runmany deploy
-virtualbox packer vagrant ubuntu boxcar
-
-for a in sub app jq pkgsrc python ansible aws gcloud letsencrypt erlang elixir
-         phoenix ruby rocco tugboat node dnsimple cue junas defn runmany deploy
+for a in sub app jq pkgsrc python ansible aws gcloud letsencrypt erlang elixir \
+         phoenix ruby rocco tugboat node dnsimple cue junas defn runmany deploy \
          virtualbox packer vagrant ubuntu boxcar; do 
   git clone git@github.com:defn/app-$a work/$a || git clone git@github.com:defn/$a work/$a || true
   (cd work/$a && git pull)
 done
 
-script/bootstrap
-
-issue with /vagrant mounted and in search path, need to also remove directory
-- fix how app finds blocks
-
 echo deb http://binaries.erlang-solutions.com/debian trusty contrib | sudo tee /etc/apt/sources.list.d/erlang.list
 wget -O - http://binaries.erlang-solutions.com/debian/erlang_solutions.asc | sudo apt-key add -
 sudo aptitude update
-aptitude install esl-erlang
+sudo aptitude install -y esl-erlang
 
 echo deb https://deb.nodesource.com/node_0.10 trusty main | sudo tee /etc/apt/sources.list.d/node.list
-curl -s https://deb.nodesource.com/gpgkey/nodesource.gpg.key | apt-key add -
-sudo apt-get install nodejs
+curl -s https://deb.nodesource.com/gpgkey/nodesource.gpg.key | sudo apt-key add -
+sudo aptitude update
+sudo apt-get install -y nodejs
+
+(cd work/jq && script/bootstrap)
+script/bootstrap
+bash
+app bootstrap
+
+issue with /vagrant mounted and in search path, need to also remove directory
+- fix how app finds blocks
 
