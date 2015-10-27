@@ -1,11 +1,3 @@
-aptitude install git vim 
-
-for all? build-essential
-for vim: unzip 
-for python: python-setuptools python-dev libffi-dev libssl-dev 
-for ruby: libreadline-dev
-
-aptitude purge nano
 
 ssh-agent with vagrant key or copy personal authorized key over
 
