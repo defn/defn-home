@@ -26,7 +26,7 @@ sudo apt-get install -y nodejs
 
 (cd work/jq && script/bootstrap)
 script/update
-bash
+source .bash_profile
 app bootstrap
 require
 app bootstrap
