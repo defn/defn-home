@@ -3,21 +3,23 @@
 function home_update {
   local shome="$(cd -P -- "${BASH_SOURCE%/*}/.." && pwd -P)"
 
-  source "$shome/.profile.d/app.pre"
-  source "$APP_PATH/sub/script/profile"
-  source "$APP_PATH/jq/script/profile"
-  source "$APP_PATH/app/script/profile"
-
-  "$shome/script/clean"
-
-  local tmp_rc="$(mktemp -t "XXXXXX")"
-  export APP_RC_CACHE="$tmp_rc"
-
-  time DEBUG=1 require
-
-  local tmp_rc2="$shome/.bashrc.app.$(basename "$tmp_rc")"
-  mv "$tmp_rc" "$tmp_rc2"
-  mv -f "$tmp_rc2" "$shome/.bashrc.app"
+  case "${1:-}" in
+    pkgsrc)
+      pkg package security/mozilla-rootcerts
+      pkg package security/spiped
+      pkg package misc/getopt
+      pkg package misc/tmux
+      pkg package net/wget www/curl
+      env CFLAGS=-O2 pkg package www/squid3 
+      pkg install security/mozilla-rootcerts
+      mozilla-rootcerts install || true
+      pkg install security/spiped
+      pkg install misc/getopt
+      pkg install misc/tmux
+      pkg install net/wget www/curl
+      pkg install www/squid
+      ;;
+  esac
 }
 
 home_update "$@"
