@@ -1,5 +1,7 @@
 cat .ssh/authorized_keys | vagrant ssh -- tee -a .ssh/authorized_keys
 
+accept github.com, localhost ssh host keys
+
 git clone git@github.com:defn/home
 
 mv home/.git .
@@ -15,14 +17,13 @@ for a in sub app jq pkgsrc python ansible aws gcloud letsencrypt erlang elixir \
 done
 
 echo deb http://binaries.erlang-solutions.com/debian trusty contrib | sudo tee /etc/apt/sources.list.d/erlang.list
-wget -O - http://binaries.erlang-solutions.com/debian/erlang_solutions.asc | sudo apt-key add -
-sudo aptitude update
-sudo aptitude install -y esl-erlang
-
 echo deb https://deb.nodesource.com/node_0.10 trusty main | sudo tee /etc/apt/sources.list.d/node.list
+
+curl -s http://binaries.erlang-solutions.com/debian/erlang_solutions.asc | sudo apt-key add -
 curl -s https://deb.nodesource.com/gpgkey/nodesource.gpg.key | sudo apt-key add -
+
 sudo aptitude update
-sudo apt-get install -y nodejs
+sudo aptitude install -y esl-erlang nodejs
 
 (cd work/jq && script/bootstrap)
 script/update
