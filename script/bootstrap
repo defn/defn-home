@@ -3,8 +3,6 @@
 function home_bootstrap {
   local shome="$(cd -P -- "${BASH_SOURCE%/*}/.." && pwd -P)"
 
-  export APP_PATH="$shome/work"
-
   source "$shome/.profile.d/app.pre"
   source "$APP_PATH/sub/script/profile"
   source "$APP_PATH/jq/script/profile"
