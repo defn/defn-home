@@ -8,6 +8,8 @@ function home_bootstrap {
   source "$APP_PATH/jq/script/profile"
   source "$APP_PATH/app/script/profile"
 
+  "$shome/script/update"
+
   case "${1:-}" in
     pkgsrc)
       pkg package security/mozilla-rootcerts

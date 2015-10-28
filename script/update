@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-function home_bootstrap {
+function home_update {
   local shome="$(cd -P -- "${BASH_SOURCE%/*}/.." && pwd -P)"
 
   source "$shome/.profile.d/app.pre"
@@ -8,7 +8,7 @@ function home_bootstrap {
   source "$APP_PATH/jq/script/profile"
   source "$APP_PATH/app/script/profile"
 
-  rm -f "$shome/Blockfile.txt" "$shome/.bashrc.app"
+  "$shome/script/clean"
 
   local tmp_rc="$(mktemp -t "XXXXXX")"
   export APP_RC_CACHE="$tmp_rc"
@@ -20,4 +20,4 @@ function home_bootstrap {
   mv -f "$tmp_rc2" "$shome/.bashrc.app"
 }
 
-home_bootstrap "$@"
+home_update "$@"

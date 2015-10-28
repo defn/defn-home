@@ -1,16 +1,9 @@
 #!/usr/bin/env bash
 
-function main {
+function home_clean {
   local shome="$(cd -P -- "${BASH_SOURCE%/*}/.." && pwd -P)"
-  
-  case "${1:-}" in
-    pkgsrc)
-      ${WRKOBJDIR:+rm -rf "$WRKOBJDIR"}
-      ;;
-    *)
-      rm -vf "$shome/.bashrc.app" "$shome/Blockfile.txt"
-      ;;
-  esac
+
+  rm -f "$shome/Blockfile.txt" "$shome/.bashrc.app"
 }
 
-main "$@"
+home_clean "$@"
