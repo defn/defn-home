@@ -5,12 +5,12 @@ function home_bootstrap {
 
   export APP_PATH="$shome/work"
 
-  rm -f "$shome/Blockfile.txt" "$shome/.bashrc.app"
-
   source "$shome/.profile.d/app.pre"
   source "$APP_PATH/sub/script/profile"
   source "$APP_PATH/jq/script/profile"
   source "$APP_PATH/app/script/profile"
+
+  rm -f "$shome/Blockfile.txt" "$shome/.bashrc.app"
 
   local tmp_rc="$(mktemp -t "XXXXXX")"
   export APP_RC_CACHE="$tmp_rc"

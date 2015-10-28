@@ -5,6 +5,11 @@ function home_bootstrap {
 
   export APP_PATH="$shome/work"
 
+  source "$shome/.profile.d/app.pre"
+  source "$APP_PATH/sub/script/profile"
+  source "$APP_PATH/jq/script/profile"
+  source "$APP_PATH/app/script/profile"
+
   case "${1:-}" in
     pkgsrc)
       pkg package security/mozilla-rootcerts
@@ -24,5 +29,4 @@ function home_bootstrap {
   esac
 }
 
-app_bootstrap
 home_bootstrap "$@"
