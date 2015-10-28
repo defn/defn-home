@@ -20,6 +20,7 @@ done
 script/update
 source .bash_profile
 app bootstrap
+script/update
 require
 app bootstrap
 
