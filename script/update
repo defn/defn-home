@@ -1,0 +1,25 @@
+#!/usr/bin/env bash
+
+function home_bootstrap {
+  local shome="$(cd -P -- "${BASH_SOURCE%/*}/.." && pwd -P)"
+
+  export APP_PATH="$shome/work"
+
+  rm -f "$shome/Blockfile.txt" "$shome/.bashrc.app"
+
+  source "$shome/.profile.d/app.pre"
+  source "$APP_PATH/sub/script/profile"
+  source "$APP_PATH/jq/script/profile"
+  source "$APP_PATH/app/script/profile"
+
+  local tmp_rc="$(mktemp -t "XXXXXX")"
+  export APP_RC_CACHE="$tmp_rc"
+
+  time DEBUG=1 require
+
+  local tmp_rc2="$shome/.bashrc.app.$(basename "$tmp_rc")"
+  mv "$tmp_rc" "$tmp_rc2"
+  mv -f "$tmp_rc2" "$shome/.bashrc.app"
+}
+
+home_bootstrap "$@"

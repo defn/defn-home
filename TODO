@@ -25,7 +25,7 @@ sudo aptitude update
 sudo apt-get install -y nodejs
 
 (cd work/jq && script/bootstrap)
-script/bootstrap
+script/update
 bash
 app bootstrap
 require

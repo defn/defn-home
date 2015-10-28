@@ -14,12 +14,6 @@ function configure_cue {
   esac
 }
 
-function configure_tty {
-  if tty 2>&- > /dev/null; then
-    set +efu
-  fi
-}
-
 function bootstraprc {
   source "$shome/.profile.d/app.pre"
   source "$APP_PATH/sub/script/profile"
@@ -44,7 +38,6 @@ function bashrc {
   fi
 
   configure_cue
-  configure_tty
 }
 
 bashrc || echo WARNING: "Something's wrong with .bashrc"
