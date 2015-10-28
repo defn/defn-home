@@ -15,7 +15,7 @@ function home_bootstrap {
       pkg package misc/getopt
       pkg package misc/tmux
       pkg package net/wget www/curl
-      pkg package www/squid3 
+      env CFLAGS=-O2 pkg package www/squid3 
       pkg install security/mozilla-rootcerts
       mozilla-rootcerts install || true
       pkg install security/spiped
