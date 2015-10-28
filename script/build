@@ -3,23 +3,19 @@
 function home_update {
   local shome="$(cd -P -- "${BASH_SOURCE%/*}/.." && pwd -P)"
 
-  case "${1:-}" in
-    pkgsrc)
-      pkg package security/mozilla-rootcerts
-      pkg package security/spiped
-      pkg package misc/getopt
-      pkg package misc/tmux
-      pkg package net/wget www/curl
-      env CFLAGS=-O2 pkg package www/squid3 
-      pkg install security/mozilla-rootcerts
-      mozilla-rootcerts install || true
-      pkg install security/spiped
-      pkg install misc/getopt
-      pkg install misc/tmux
-      pkg install net/wget www/curl
-      pkg install www/squid
-      ;;
-  esac
+  pkg package security/mozilla-rootcerts
+  pkg package security/spiped
+  pkg package misc/getopt
+  pkg package misc/tmux
+  pkg package net/wget www/curl
+  env CFLAGS=-O2 pkg package www/squid3 
+  pkg install security/mozilla-rootcerts
+  mozilla-rootcerts install || true
+  pkg install security/spiped
+  pkg install misc/getopt
+  pkg install misc/tmux
+  pkg install net/wget www/curl
+  pkg install www/squid
 }
 
 home_update "$@"
