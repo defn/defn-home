@@ -27,3 +27,6 @@ app bootstrap
 issue with /vagrant mounted and in search path, need to also remove directory
 - fix how app finds blocks
 
+script/update
+script/build assumes depencies are there, calls update at the end
+script/bootstrap for depencies, then calls build
