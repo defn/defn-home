@@ -16,15 +16,6 @@ for a in sub app jq pkgsrc python ansible aws gcloud letsencrypt erlang elixir \
   (cd work/$a && git pull)
 done
 
-echo deb http://binaries.erlang-solutions.com/debian trusty contrib | sudo tee /etc/apt/sources.list.d/erlang.list
-echo deb https://deb.nodesource.com/node_0.10 trusty main | sudo tee /etc/apt/sources.list.d/node.list
-
-curl -s http://binaries.erlang-solutions.com/debian/erlang_solutions.asc | sudo apt-key add -
-curl -s https://deb.nodesource.com/gpgkey/nodesource.gpg.key | sudo apt-key add -
-
-sudo aptitude update
-sudo aptitude install -y esl-erlang nodejs
-
 (cd work/jq && script/bootstrap)
 script/update
 source .bash_profile
