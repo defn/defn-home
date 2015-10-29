@@ -14,24 +14,14 @@ function configure_cue {
   esac
 }
 
-function bootstraprc {
-  source "$shome/script/profile"
-}
-
 function bashrc {
   local shome="$(cd -P -- "$(dirname "${BASH_SOURCE}")" && pwd -P)"
 
+  source "$shome/script/profile"
+
   if [[ -z "${REQUIRE:-}" ]]; then
     export REQUIRE=1
-
-    if [[ -f "$shome/.bashrc.app" ]]; then
-      source "$shome/.bashrc.app"
-    else
-      bootstraprc
-      require
-    fi
-  else
-    bootstraprc
+    require
   fi
 
   configure_cue

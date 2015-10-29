@@ -12,8 +12,6 @@ function profile {
 
   source home_terminal
   source home_cache
-
-  set +efux
 }
 
 profile
