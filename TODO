@@ -16,13 +16,10 @@ for a in sub app jq pkgsrc python ansible aws gcloud letsencrypt erlang elixir \
   (cd work/$a && git pull)
 done
 
-(cd work/app && script/bootstrap)
-script/update
-source .bash_profile
+script/bootstrap
+source script/profile
 app bootstrap
-script/update
 require
-app bootstrap
 
 issue with /vagrant mounted and in search path, need to also remove directory
 - fix how app finds blocks
