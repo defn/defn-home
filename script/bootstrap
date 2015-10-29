@@ -3,18 +3,24 @@
 function home_bootstrap {
   local shome="$(cd -P -- "${BASH_SOURCE%/*}/.." && pwd -P)"
 
-  source "$shome/script/profile"
-
+  local fl_first=
   local cmd_app="$(which app 2>&- || true)"
   if [[ ! -x "$cmd_app" ]]; then
     if [[ ! -d "$shome/work/app" ]]; then
       git clone git@github.com:defn/app "$shome/work/app"
       (cd "$shome/work/app" && script/bootstrap)
+      fl_first=1
     fi
   fi
 
   "$shome/script/update"
-  "$shome/script/build"
+  source "$shome/script/profile"
+
+  if [[ -n "$fl_first" ]]; then
+    app bootstrap
+  else
+    "$shome/script/build"
+  fi
 }
 
 home_bootstrap "$@"
