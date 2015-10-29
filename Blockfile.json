@@ -11,6 +11,9 @@
       "jq"
     ],
     [
+      "mongodb"
+    ],
+    [
       "ansible",
       "aws",
       "gcloud",
