@@ -9,21 +9,9 @@ rm -rf home
 git checkout .
 rm -f .profile
 
-for a in sub app jq pkgsrc python ansible aws gcloud letsencrypt erlang elixir \
-         phoenix ruby rocco tugboat node dnsimple cue junas defn runmany deploy \
-         virtualbox packer vagrant ubuntu boxcar; do 
-  git clone git@github.com:defn/app-$a work/$a || git clone git@github.com:defn/$a work/$a || true
-  (cd work/$a && git pull)
-done
-
 script/bootstrap
 source script/profile
-app bootstrap
 require
 
 issue with /vagrant mounted and in search path, need to also remove directory
 - fix how app finds blocks
-
-script/update
-script/build assumes depencies are there, calls update at the end
-script/bootstrap for depencies, then calls build
