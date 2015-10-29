@@ -1,9 +1,0 @@
-#!/usr/bin/env bash
-
-function home_app {
-  local shome="$(cd -P -- "${BASH_SOURCE%/*}/.." && pwd -P)"
-
-  export APP_PATH="$shome/work"
-}
-
-home_app

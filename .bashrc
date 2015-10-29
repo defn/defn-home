@@ -15,10 +15,7 @@ function configure_cue {
 }
 
 function bootstraprc {
-  source "$shome/.profile.d/app.pre"
-  source "$APP_PATH/sub/script/profile"
-  source "$APP_PATH/jq/script/profile"
-  source "$APP_PATH/app/script/profile"
+  source "$shome/script/profile"
 }
 
 function bashrc {

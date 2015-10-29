@@ -16,7 +16,7 @@ for a in sub app jq pkgsrc python ansible aws gcloud letsencrypt erlang elixir \
   (cd work/$a && git pull)
 done
 
-(cd work/jq && script/bootstrap)
+(cd work/app && script/bootstrap)
 script/update
 source .bash_profile
 app bootstrap
