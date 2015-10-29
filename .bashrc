@@ -19,12 +19,10 @@ function bashrc {
 
   source "$shome/script/profile"
 
-  if [[ -z "${REQUIRE:-}" ]]; then
-    export REQUIRE=1
+  if tty 2>&1 >/dev/null; then
     require
+    configure_cue
   fi
-
-  configure_cue
 }
 
 bashrc || echo WARNING: "Something's wrong with .bashrc"
