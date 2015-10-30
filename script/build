@@ -13,6 +13,7 @@ function home_update {
     pkg package misc/getopt
     pkg package misc/tmux
     pkg package net/wget www/curl
+    pkg package devel/jq
     env CFLAGS=-O2 pkg package www/squid3 
     pkg package devel/editline
     pkg package sysutils/runit
@@ -29,6 +30,7 @@ function home_update {
     pkg install misc/getopt
     pkg install misc/tmux
     pkg install net/wget www/curl
+    pkg install devel/jq
     pkg install www/squid
     pkg install devel/editline
     pkg install sysutils/runit
