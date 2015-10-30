@@ -22,6 +22,7 @@ function bashrc {
   if tty 2>&1 >/dev/null; then
     require
     configure_cue
+    set +exfu
   fi
 }
 
