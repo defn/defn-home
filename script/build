@@ -11,7 +11,7 @@ function home_update {
     pkg package net/wget www/curl
     env CFLAGS=-O2 pkg package www/squid3 
     pkg package devel/editline
-    pkg package sysutils/runit
+    #pkg package sysutils/runit
     pkg package www/nginx
     pkg package databases/redis
     pkg package databases/postgresql94-server
