@@ -7,11 +7,9 @@
       "defn",
       "runmany"
     ],
+    "fga",
     [ 
       "jq"
-    ],
-    [
-      "mongodb"
     ],
     [
       "ansible",
