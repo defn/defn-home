@@ -31,7 +31,7 @@ function home_update {
     pkg install www/nginx
     pkg install databases/redis
     pkg install databases/postgresql94-server
-    pkg install databases/mysq5-server databases/percona-toolkit
+    pkg install databases/mysql-server databases/percona-toolkit
     pkg install databases/mongodb
   fi
 }
