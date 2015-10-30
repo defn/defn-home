@@ -22,23 +22,6 @@ function home_update {
     pkg package databases/postgresql94-server
     pkg package databases/mysql55-server databases/percona-toolkit
     pkg package databases/mongodb
-
-    pkg install security/mozilla-rootcerts
-    mozilla-rootcerts install || true
-
-    pkg install security/spiped
-    pkg install misc/getopt
-    pkg install misc/tmux
-    pkg install net/wget www/curl
-    pkg install devel/jq
-    pkg install www/squid
-    pkg install devel/editline
-    pkg install sysutils/runit
-    pkg install www/nginx
-    pkg install databases/redis
-    pkg install databases/postgresql94-server
-    pkg install databases/mysql-server databases/percona-toolkit
-    pkg install databases/mongodb
   fi
 }
 
