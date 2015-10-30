@@ -2,8 +2,8 @@
   "require": [
     [ 
       "app",
-      "pkgsrc",
-      "jq"
+      "jq",
+      "pkgsrc"
     ],
     [
       "cue",
