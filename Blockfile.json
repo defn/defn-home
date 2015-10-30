@@ -1,15 +1,19 @@
 {
   "require": [
-    "app",
+    [ 
+      "app",
+      "jq"
+      "pkgsrc"
+    ],
     [
       "cue",
       "junas",
       "defn",
       "runmany"
+      "deploy"
     ],
-    "fga",
-    [ 
-      "jq"
+    [
+      "fga",
     ],
     [
       "ansible",
@@ -26,12 +30,6 @@
     [
       "rocco",
       "tugboat"
-    ],
-    [
-      "deploy"
-    ],
-    [
-      "pkgsrc"
     ]
   ]
 }
