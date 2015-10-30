@@ -2,18 +2,18 @@
   "require": [
     [ 
       "app",
+      "pkgsrc",
       "jq"
-      "pkgsrc"
     ],
     [
       "cue",
       "junas",
       "defn",
-      "runmany"
+      "runmany",
       "deploy"
     ],
     [
-      "fga",
+      "fga"
     ],
     [
       "ansible",
