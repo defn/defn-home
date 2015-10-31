@@ -38,6 +38,9 @@
 /node_modules
 /npm-debug.log
 
+# bower
+/.config/configstore
+
 # dnsimple
 /.dnsimple/
 /.streamline/
