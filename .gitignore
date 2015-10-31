@@ -36,6 +36,7 @@
 /.npm
 /.node-gyp/
 /node_modules
+/npm-debug.log
 
 # dnsimple
 /.dnsimple/
