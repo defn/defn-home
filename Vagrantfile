@@ -4,5 +4,5 @@ Vagrant.configure("2") do |config|
   config.ssh.forward_agent = true
 
   config.vm.box = "ubuntu"
-  config.vm.synced_folder '.', '/vagrant', disabled: true
+  config.vm.synced_folder '.', '/vagrant2', disabled: true
 end
