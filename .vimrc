@@ -2,6 +2,7 @@
 source ~/.vim/junas.vimrc
 
 " install whatever bundles over the net
+silent call Bundle(["vim-go"])
 silent call Bundle(["xoria256", "Solarized"])
 silent call Bundle(["surround", "repeat", "Rainbow_Parenthesis", "matchit.zip", "eregex"])
 
