@@ -28,11 +28,11 @@ function main {
         popd >/dev/null
       fi
 
-      exec $(which /usr/bin/ssh) localhost "cd ${pth_cache} && $*" 1>&9
+      exec /usr/bin/ssh localhost "cd ${pth_cache} && $*" 1>&9
       ;;
 
     *)
-      exec $(which /usr/bin/ssh) "$ssh_remote" "$@" 1>&9
+      exec /usr/bin/ssh "$ssh_remote" "$@" 1>&9
       ;;
   esac
 }
