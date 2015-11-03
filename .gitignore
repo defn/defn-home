@@ -104,3 +104,6 @@
 # ubuntu
 /.aptitude
 /.cache
+
+# tugboat
+/.tugboat
