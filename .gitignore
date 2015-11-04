@@ -107,3 +107,6 @@
 
 # tugboat
 /.tugboat
+
+# secrets
+/exec/home_secret
