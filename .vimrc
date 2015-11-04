@@ -3,6 +3,7 @@ source ~/.vim/junas.vimrc
 
 " install whatever bundles over the net
 silent call Bundle(["vim-go", "vim-clojure-static", "fireplace", "vim-clojure-highlight"])
+silent call Bundle(["dispatch"])
 silent call Bundle(["xoria256", "Solarized"])
 silent call Bundle(["surround", "repeat", "Rainbow_Parenthesis", "matchit.zip", "eregex"])
 
