@@ -20,3 +20,14 @@ pkg devel/editline?
 install gcc/g++-multilib
 
 rsync -ia --progress packages distfiles work/ubuntu/packer_cache cache /Volumes/FGA Artifacts/
+
+#cloud-config
+system_info:
+  default_user:
+    name: Ubuntu
+    plain_text_passwd: 'ubuntu'
+    home: /home/ubuntu
+    shell: /bin/bash
+    lock_passwd: True
+    gecos: Ubuntu
+    groups: [adm, audio, cdrom, dialout, floppy, video, plugdev, dip, netdev]
