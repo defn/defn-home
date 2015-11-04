@@ -12,6 +12,7 @@ function profile {
 
   source home_terminal
   source home_cache
+  source home_secret 2>&1 >/dev/null || true
 }
 
 profile
