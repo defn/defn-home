@@ -1,6 +1,12 @@
+require 'socket'
+
 Vagrant.configure("2") do |config|
   config.ssh.username = "ubuntu"
   config.ssh.forward_agent = true
+
+  nm_guest = Socket.gethostname.split('.')[0]
+  config.vm.define nm_guest do
+  end
 
   config.vm.box = "ubuntu"
   config.vm.synced_folder '.', '/vagrant', disabled: true
@@ -11,8 +17,11 @@ Vagrant.configure("2") do |config|
   end
 
   config.vm.provider "digital_ocean" do |v, override|
-    override.ssh.private_key_path = "#{ENV['HOME']}/.ssh/vagrant-#{ENV['LOGNAME']}"
+    ssh_key = "#{ENV['HOME']}/.ssh/vagrant-#{ENV['LOGNAME']}"
+    override.ssh.private_key_path = ssh_key
+    v.ssh_key_name = "vagrant-#{Digest::MD5.file(ssh_key).hexdigest}"
     v.token = ENV['DIGITALOCEAN_API_TOKEN']
     v.size = '1gb'
+    v.setup = false
   end
 end
