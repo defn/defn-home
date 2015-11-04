@@ -19,6 +19,7 @@ Vagrant.configure("2") do |config|
   config.vm.provider "digital_ocean" do |v, override|
     ssh_key = "#{ENV['HOME']}/.ssh/vagrant-#{ENV['LOGNAME']}"
     override.ssh.private_key_path = ssh_key
+    override.ssh.username = "root"
     v.ssh_key_name = "vagrant-#{Digest::MD5.file(ssh_key).hexdigest}"
     v.token = ENV['DIGITALOCEAN_API_TOKEN']
     v.size = '1gb'
