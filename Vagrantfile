@@ -21,7 +21,7 @@ Vagrant.configure("2") do |config|
     override.ssh.private_key_path = ssh_key
     v.ssh_key_name = "vagrant-#{Digest::MD5.file(ssh_key).hexdigest}"
     v.token = ENV['DIGITALOCEAN_API_TOKEN']
-    v.size = '1gb'
+    v.size = '2gb'
     v.setup = false
     v.user_data = "#cloud-config\n\nruncmd:\n  - install -d -o ubuntu -g ubuntu -m 0700 ~ubuntu/.ssh && install -o ubuntu -g ubuntu -m 0600 ~root/.ssh/authorized_keys ~ubuntu/.ssh/authorized_keys"
   end
