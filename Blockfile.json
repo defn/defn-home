@@ -16,6 +16,9 @@
       "fga"
     ],
     [
+      "leiningen"
+    ],
+    [
       "ansible",
       "aws",
       "gcloud",

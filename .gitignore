@@ -110,3 +110,6 @@
 
 # secrets
 /exec/home_secret
+
+# leiningen
+/.lein
