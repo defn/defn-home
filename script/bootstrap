@@ -16,7 +16,7 @@ function home_bootstrap {
   if [[ -n "$fl_first" ]]; then
     for a in sub app jq pkgsrc python ansible aws gcloud letsencrypt erlang elixir \
              phoenix ruby rocco tugboat node dnsimple cue junas defn runmany deploy \
-             virtualbox packer vagrant basebox boxcar fga mongodb; do
+             virtualbox packer vagrant basebox boxcar fga mongodb leiningen; do
       git clone git@github.com:defn/app-$a work/$a || git clone git@github.com:defn/$a work/$a || true
       (cd work/$a && git pull)
     done
