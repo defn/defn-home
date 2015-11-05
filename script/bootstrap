@@ -20,34 +20,32 @@ function home_bootstrap {
       git clone git@github.com:defn/app-$a work/$a || git clone git@github.com:defn/$a work/$a || true
       (cd work/$a && git pull)
     done
+  fi
 
-    "$shome/script/build"
-  else
-    "$shome/script/update"
-    source "$shome/script/profile"
+  "$shome/script/update"
+  source "$shome/script/profile"
 
-    if [[ ! -x "$(which bmake 2>&- || true)" ]]; then
-      pkg install bootstrap
-    fi
+  if [[ ! -x "$(which bmake 2>&- || true)" ]]; then
+    pkg install bootstrap
+  fi
 
-    if [[ -x "$(which pkg 2>&- || true)" ]]; then
-      pkg install security/mozilla-rootcerts
-      mozilla-rootcerts install || true
+  if [[ -x "$(which pkg 2>&- || true)" ]]; then
+    pkg install security/mozilla-rootcerts
+    mozilla-rootcerts install || true
 
-      pkg install security/spiped
-      pkg install misc/getopt
-      pkg install misc/tmux
-      pkg install net/wget www/curl
-      pkg install devel/jq
-      pkg install www/squid
-      pkg install devel/editline
-      pkg install sysutils/runit
-      pkg install www/nginx
-      pkg install databases/redis
-      pkg install databases/postgresql94-server
-      pkg install databases/mysql-server databases/percona-toolkit
-      pkg install databases/mongodb
-    fi
+    pkg install security/spiped
+    pkg install misc/getopt
+    pkg install misc/tmux
+    pkg install net/wget www/curl
+    pkg install devel/jq
+    pkg install www/squid
+    pkg install devel/editline
+    pkg install sysutils/runit
+    pkg install www/nginx
+    pkg install databases/redis
+    pkg install databases/postgresql94-server
+    pkg install databases/mysql-server databases/percona-toolkit
+    pkg install databases/mongodb
   fi
 }
 

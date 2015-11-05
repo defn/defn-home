@@ -7,10 +7,11 @@ git clone git@github.com:defn/home
 mv home/.git .
 rm -rf home
 git checkout .
-rm -f .profile
+git clean -fd
 
 script/bootstrap
+source script/profile
 require
 app bootstrap
 
-rsync -ia --progress packages distfiles work/ubuntu/packer_cache cache /Volumes/FGA Artifacts/
+rsync -ia --progress packages distfiles work/ubuntu/packer_cache cache somewhere../
