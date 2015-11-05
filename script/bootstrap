@@ -13,9 +13,6 @@ function home_bootstrap {
     fi
   fi
 
-  "$shome/script/update"
-  source "$shome/script/profile"
-
   if [[ -n "$fl_first" ]]; then
     for a in sub app jq pkgsrc python ansible aws gcloud letsencrypt erlang elixir \
              phoenix ruby rocco tugboat node dnsimple cue junas defn runmany deploy \
@@ -24,8 +21,11 @@ function home_bootstrap {
       (cd work/$a && git pull)
     done
 
-    app bootstrap
+    "$shome/script/build"
   else
+    "$shome/script/update"
+    source "$shome/script/profile"
+
     if [[ ! -x "$(which bmake 2>&- || true)" ]]; then
       pkg install bootstrap
     fi
