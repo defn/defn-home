@@ -10,7 +10,8 @@
       "junas",
       "defn",
       "runmany",
-      "deploy"
+      "deploy",
+      "context"
     ],
     [
       "fga"
