@@ -15,3 +15,4 @@ require
 app bootstrap
 
 rsync -ia --progress packages distfiles cache
+ssh spiral sudo chown -R ubuntu:ubuntu progress packages distfiles cache
