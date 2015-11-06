@@ -13,41 +13,39 @@ function home_bootstrap {
     fi
   fi
 
-  "$shome/script/update"
-  source "$shome/script/profile"
-
   if [[ -n "$fl_first" ]]; then
     for a in sub app jq pkgsrc python ansible aws gcloud letsencrypt erlang elixir \
              phoenix ruby rocco tugboat node dnsimple cue junas defn runmany deploy \
-             virtualbox packer vagrant basebox boxcar fga mongodb; do
+             virtualbox packer vagrant basebox boxcar fga mongodb leiningen; do
       git clone git@github.com:defn/app-$a work/$a || git clone git@github.com:defn/$a work/$a || true
       (cd work/$a && git pull)
     done
+  fi
 
-    app bootstrap
-  else
-    if [[ ! -x "$(which bmake 2>&- || true)" ]]; then
-      pkg install bootstrap
-    fi
+  "$shome/script/update"
+  source "$shome/script/profile"
 
-    if [[ -x "$(which pkg 2>&- || true)" ]]; then
-      pkg install security/mozilla-rootcerts
-      mozilla-rootcerts install || true
+  if [[ ! -x "$(which bmake 2>&- || true)" ]]; then
+    pkg install bootstrap
+  fi
 
-      pkg install security/spiped
-      pkg install misc/getopt
-      pkg install misc/tmux
-      pkg install net/wget www/curl
-      pkg install devel/jq
-      pkg install www/squid
-      pkg install devel/editline
-      pkg install sysutils/runit
-      pkg install www/nginx
-      pkg install databases/redis
-      pkg install databases/postgresql94-server
-      pkg install databases/mysql-server databases/percona-toolkit
-      pkg install databases/mongodb
-    fi
+  if [[ -x "$(which pkg 2>&- || true)" ]]; then
+    pkg install security/mozilla-rootcerts
+    mozilla-rootcerts install || true
+
+    pkg install security/spiped
+    pkg install misc/getopt
+    pkg install misc/tmux
+    pkg install net/wget www/curl
+    pkg install devel/jq
+    pkg install www/squid
+    pkg install devel/editline
+    pkg install sysutils/runit
+    pkg install www/nginx
+    pkg install databases/redis
+    pkg install databases/postgresql94-server
+    pkg install databases/mysql-server databases/percona-toolkit
+    pkg install databases/mongodb
   fi
 }
 
