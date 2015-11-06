@@ -114,3 +114,6 @@
 # leiningen
 /.lein
 /.m2
+
+# letsencrupt
+/.local/share/letsencrypt
