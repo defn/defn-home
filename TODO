@@ -1,17 +1,12 @@
 cat .ssh/authorized_keys | vagrant ssh -- tee -a .ssh/authorized_keys
 
-accept github.com, localhost ssh host keys
+ssh -t spiral git clone git@github.com:defn/home home
+ssh spiral mv home/.git .
+ssh spiral git reset --hard
+ssh spiral rm -rf home
+ssh spiral git clean -fd
 
-git clone git@github.com:defn/home
+rsync -ia --progress packages distfiles cache spiral:
 
-mv home/.git .
-rm -rf home
-git checkout .
-git clean -fd
-
-script/bootstrap
-source script/profile
-require
-app bootstrap
-
-rsync -ia --progress packages distfiles cache
+ssh spiral script/bootstrap
+ssh spiral app bootstrap
