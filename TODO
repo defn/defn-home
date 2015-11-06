@@ -8,5 +8,5 @@ ssh spiral git clean -fd
 
 rsync -ia --progress packages distfiles cache spiral:
 
-ssh spiral script/bootstrap
-ssh spiral app bootstrap
+ssh -t spiral script/bootstrap
+ssh -t spiral app bootstrap
