@@ -14,4 +14,4 @@ source script/profile
 require
 app bootstrap
 
-rsync -ia --progress packages distfiles work/ubuntu/packer_cache cache somewhere../
+rsync -ia --progress packages distfiles cache
