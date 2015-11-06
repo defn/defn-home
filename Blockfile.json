@@ -21,8 +21,7 @@
     [
       "ansible",
       "aws",
-      "gcloud",
-      "letsencrypt"
+      "gcloud"
     ],
     [
       "phoenix"
