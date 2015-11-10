@@ -6,7 +6,7 @@ Vagrant.configure("2") do |config|
 
   config.vm.synced_folder '.', '/vagrant', disabled: true
   
-  (ENV['REGIONS']||"").split(" ").each do |nm_region|
+  (ENV['REGIONS']||"default").split(" ").each do |nm_region|
     config.vm.define nm_region do |region|
       region.vm.box = nm_region == "default" ? "ubuntu": "ubuntu-#{nm_region}"
 
