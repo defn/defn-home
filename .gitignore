@@ -37,6 +37,7 @@
 /.node-gyp/
 /node_modules
 /npm-debug.log
+/.v8flags.*.json
 
 # bower
 /.config/configstore
@@ -117,3 +118,4 @@
 
 # letsencrupt
 /.local/share/letsencrypt
+
