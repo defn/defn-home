@@ -14,7 +14,8 @@
       "context"
     ],
     [
-      "fga"
+      "basebox",
+      "basebox-vagrants",
     ],
     [
       "leiningen"
