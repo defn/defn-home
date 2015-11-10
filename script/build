@@ -20,7 +20,7 @@ function home_update {
     pkg package net/wget www/curl
     pkg package devel/jq
     env CFLAGS=-O2 pkg package www/squid3 
-    pkg package devel/editline
+    pkg package devel/editline misc/rlwrap
     pkg package sysutils/runit
     pkg package www/nginx
     pkg package databases/redis

@@ -40,7 +40,7 @@ function home_bootstrap {
     pkg install net/wget www/curl
     pkg install devel/jq
     pkg install www/squid
-    pkg install devel/editline
+    pkg install devel/editline misc/rlwrap
     pkg install sysutils/runit
     pkg install www/nginx
     pkg install databases/redis
