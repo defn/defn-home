@@ -21,9 +21,7 @@
       "leiningen"
     ],
     [
-      "ansible",
-      "aws",
-      "gcloud"
+      "ansible"
     ],
     [
       "phoenix"
