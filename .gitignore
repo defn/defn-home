@@ -58,6 +58,7 @@
 /.saws.log
 /.sawsrc
 /.saws-history
+/.saws.shortcuts
 
 # git
 /github
@@ -118,4 +119,3 @@
 
 # letsencrupt
 /.local/share/letsencrypt
-
