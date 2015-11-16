@@ -15,7 +15,7 @@ function home_bootstrap {
 
   if [[ -n "$fl_first" ]]; then
     for a in sub app jq pkgsrc python ansible aws gcloud erlang elixir \
-             phoenix ruby rocco tugboat node dnsimple cue junas defn runmany deploy context \
+             phoenix ruby rocco tugboat node dnsimple cue junas defn runmany deploy context parity \
              virtualbox digitalocean packer vagrant basebox boxcar basebox basebox-vagrants leiningen \
              browserify-gulp-example; do
       git clone git@github.com:defn/app-$a work/$a || git clone git@github.com:defn/$a work/$a || true
