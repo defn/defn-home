@@ -48,9 +48,6 @@ function home_bootstrap {
     pkg install databases/mysql-server databases/percona-toolkit
     pkg install databases/mongodb
   fi
-
-  (set +f; cat "$shome"/.ssh/config.* > "$shome/.ssh/config")
-  echo local $(aws regions) $(digital regions) > "$shome/.ssh/regions"
 }
 
 home_bootstrap "$@"
