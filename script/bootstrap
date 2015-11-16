@@ -26,27 +26,29 @@ function home_bootstrap {
   "$shome/script/update"
   source "$shome/script/profile"
 
-  if [[ ! -x "$(which bmake 2>&- || true)" ]]; then
-    pkg install bootstrap
-  fi
+  if [[ "${1:-}" == "pkgsrc" ]]; then
+    if [[ ! -x "$(which bmake 2>&- || true)" ]]; then
+      pkg install bootstrap
+    fi
 
-  if [[ -x "$(which pkg 2>&- || true)" ]]; then
-    pkg install security/mozilla-rootcerts
-    mozilla-rootcerts install || true
+    if [[ -x "$(which pkg 2>&- || true)" ]]; then
+      pkg install security/mozilla-rootcerts
+      mozilla-rootcerts install || true
 
-    pkg install security/spiped
-    pkg install misc/getopt
-    pkg install misc/tmux
-    pkg install net/wget www/curl
-    pkg install devel/jq
-    pkg install www/squid
-    pkg install devel/editline misc/rlwrap
-    pkg install sysutils/runit
-    pkg install www/nginx
-    pkg install databases/redis
-    pkg install databases/postgresql94-server
-    pkg install databases/mysql-server databases/percona-toolkit
-    pkg install databases/mongodb
+      pkg install security/spiped
+      pkg install misc/getopt
+      pkg install misc/tmux
+      pkg install net/wget www/curl
+      pkg install devel/jq
+      pkg install www/squid
+      pkg install devel/editline misc/rlwrap
+      pkg install sysutils/runit
+      pkg install www/nginx
+      pkg install databases/redis
+      pkg install databases/postgresql94-server
+      pkg install databases/mysql-server databases/percona-toolkit
+      pkg install databases/mongodb
+    fi
   fi
 }
 
