@@ -2,8 +2,6 @@
 
 function home_clean {
   local shome="$(cd -P -- "${BASH_SOURCE%/*}/.." && pwd -P)"
-
-  rm -f "$shome/Blockfile.txt" "$shome/.bashrc.app"
 }
 
 home_clean "$@"

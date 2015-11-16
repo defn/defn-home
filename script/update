@@ -5,8 +5,6 @@ function home_update {
 
   source "$shome/script/profile"
   "$shome/script/clean"
-
-  time DEBUG=1 require
 }
 
 home_update "$@"
