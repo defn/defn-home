@@ -6,7 +6,7 @@ Vagrant.configure("2") do |config|
 
   config.vm.synced_folder '.', '/vagrant', disabled: true
   
-  ("vbox").split(" ").each do |nm_region|
+  ("local").split(" ").each do |nm_region|
     config.vm.define nm_region do |region|
       region.vm.provider "virtualbox" do |v, override|
         override.vm.box = "ubuntu"
