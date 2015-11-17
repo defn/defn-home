@@ -6,6 +6,8 @@ Vagrant.configure("2") do |config|
 
   config.vm.synced_folder '.', '/vagrant', disabled: true
   
+  config.vm.provision "shell", path: "bin/foo.sh", privileged: false
+  
   ("local").split(" ").each do |nm_region|
     config.vm.define nm_region do |region|
       region.vm.provider "virtualbox" do |v, override|
