@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+
+function main {
+  local shome="$(cd -P -- "${BASH_SOURCE%/*}/.." && pwd -P)"
+  source "$shome/script/profile"
+
+  local nm_project="$1"; shift
+  case "$nm_project" in
+    jq|pkgsrc|virtualbox|python|aws|gcloud|packer|vagrant|leiningen|ansible|erlang|elixir|phoenix|node|dnsimple|ruby|rocco)
+      echo "git@github.com:defn/app-$nm_project"
+      ;;
+    *)
+      echo "git@github.com:defn/$nm_project"
+      ;;
+  esac
+}
+
+source sub "$BASH_SOURCE" "$@"
