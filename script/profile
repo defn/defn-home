@@ -4,6 +4,7 @@ function profile {
   local shome="$(cd -P -- "${BASH_SOURCE%/*}/.." && pwd -P)"
   PATH="$shome/bin:$shome/exec:$shome/node_modules/.bin:$PATH"
 
+  source "$shome/work/app/script/profile" # TODO possible to get rid of this?
   require sub
   require jq
 
