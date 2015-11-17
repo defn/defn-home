@@ -42,7 +42,7 @@ Vagrant.configure("2") do |config|
         ssh_key = "#{ENV['HOME']}/.ssh/vagrant-#{ENV['LOGNAME']}"
         override.ssh.private_key_path = ssh_key
         v.keypair_name = "vagrant-#{Digest::MD5.file(ssh_key).hexdigest}"
-        v.instance_type = 't2.small'
+        v.instance_type = 'c4.large'
         v.region = nm_region
       end
     end
