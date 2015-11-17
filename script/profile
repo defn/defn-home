@@ -4,9 +4,8 @@ function profile {
   local shome="$(cd -P -- "${BASH_SOURCE%/*}/.." && pwd -P)"
   PATH="$shome/bin:$shome/exec:$shome/node_modules/.bin:$PATH"
 
-  source "$shome/work/app/script/profile"
-  source "$APP_PATH/sub/script/profile"
-  source "$APP_PATH/jq/script/profile"
+  require sub
+  require jq
 
   source app_strict
 

@@ -1,6 +1,5 @@
 function configure_cue {
   : ${SHLVL_INITIAL:=0}
-  require cue
 
   function guess_scheme {
     echo "${CUE_SCHEME:-${ITERM_PROFILE:-sdark}}"
@@ -17,7 +16,8 @@ function configure_cue {
 function bashrc {
   local shome="$(cd -P -- "$(dirname "${BASH_SOURCE}")" && pwd -P)"
 
-  source "$shome/script/profile"
+  source "$shome/work/jq/script/profile"
+  source "$shome/work/app/script/profile"
 
   if tty 2>&1 >/dev/null; then
     require
