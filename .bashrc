@@ -15,7 +15,6 @@ function configure_cue {
 
 function bashrc {
   local shome="$(cd -P -- "$(dirname "${BASH_SOURCE}")" && pwd -P)"
-  source "$shome/work/jq/script/profile"
   source "$shome/work/app/script/profile"
 
   if tty 2>&1 >/dev/null; then

@@ -17,10 +17,12 @@ function main {
   rm -rf home
   git clean -fd
 
-  script/bootstrap || true
-  source work/jq/script/profile
   source work/app/script/profile
+  work/app/script/bootstrap
+
   source script/profile
+  script/bootstrap || true
+  
   require
   app bootstrap
 }
