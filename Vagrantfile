@@ -13,9 +13,33 @@ Vagrant.configure("2") do |config|
       region.vm.provider "virtualbox" do |v, override|
         override.vm.box = "ubuntu"
         override.vm.synced_folder '.', '/vagrant'
-
+        
         v.memory = 2048
         v.cpus = 2
+
+        unless File.exists? 'virtualbox-cloud-init.img'
+          v.customize [
+            'clonemedium',
+            'virtualbox-cloud-init.img.template',
+            'virtualbox-cloud-init.img'
+          ]
+        end
+
+        v.customize [ 
+          'storagectl', :id, 
+          '--name', 'SATA Controller', 
+          '--portcount', 2
+        ]
+
+        v.customize [ 
+          'storageattach', :id, 
+          '--storagectl', 'SATA Controller', 
+          '--port', 1, 
+          '--device', 0, 
+          '--type', 'hdd', 
+          '--medium', 'virtualbox-cloud-init.img' 
+        ]
+
       end
     end
   end

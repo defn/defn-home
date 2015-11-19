@@ -91,6 +91,7 @@
 
 # virtualbox
 /VirtualBox VMs
+/virtualbox-cloud-init.img*
 
 # packer
 /.packer.d
