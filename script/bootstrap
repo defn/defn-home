@@ -2,30 +2,9 @@
 
 function home_bootstrap {
   local shome="$(cd -P -- "${BASH_SOURCE%/*}/.." && pwd -P)"
+  source "$shome/script/profile"
 
-  local fl_first=
-  local cmd_app="$(which app 2>&- || true)"
-  if [[ ! -x "$cmd_app" ]]; then
-    if [[ ! -d "$shome/work/app" ]]; then
-      git clone git@github.com:defn/app "$shome/work/app"
-      (cd "$shome/work/app" && script/bootstrap)
-      fl_first=1
-    fi
-  fi
-
-  if [[ -n "$fl_first" ]]; then
-    for a in sub app jq pkgsrc python ansible aws gcloud erlang elixir \
-             phoenix ruby rocco tugboat node dnsimple cue junas defn runmany deploy context parity \
-             virtualbox digitalocean packer vagrant basebox boxcar basebox basebox-vagrants leiningen \
-             browserify-gulp-example; do
-      git clone git@github.com:defn/app-$a work/$a || git clone git@github.com:defn/$a work/$a || true
-      (cd work/$a && git pull)
-    done
-
-    "$shome/script/update"
-    source "$shome/script/profile"
-    "$shome/script/build"
-  fi
+  app clone
 
   "$shome/script/update"
   source "$shome/script/profile"
