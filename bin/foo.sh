@@ -3,9 +3,7 @@
 function main {
   # copy cache files
   if [[ -d /vagrant ]]; then
-    pushd /vagrant
-    rsync -ia distfiles cache packages ~/
-    popd
+    ln -nfs /vagrant/{distfiles,cache,packages} ~/
   fi
 
   # make sure we are at home
