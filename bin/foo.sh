@@ -17,13 +17,18 @@ function main {
   rm -rf home
   git clean -fd
 
-  source work/app/script/profile
-  work/app/script/bootstrap
-
+  git clone git@github.com:defn/app work/app
+  pushd work/app
+  script/bootstrap
+  set +x
   source script/profile
-  script/bootstrap || true
-  
-  require
+  set -x
+  popd
+
+  script/bootstrap
+  set +x
+  source script/profile
+  set -x
   app bootstrap
 }
 
