@@ -11,7 +11,9 @@ function main {
   cd
 
   # let myself in
-  echo 'ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDfchHJtADoZClQITn1qFK7Jy7B9tje/dCFLzrqpdmOyUhmz9zGTjwmL7hXxuyPZgAcdrGPKE+3DjpqqEIxfem1hta0Ej6O8ad/9z0x+xBe2G1EFADYi5gdHuU3+Fh/hUUDWKnQKO0UlAewk488yIUYUU+UVcaPXr9pF1U5VfW8bue76ML9sdR9qIGP2Va+bJhX8neMffc79ShEd02kqVg0kSeQduCK5rNg51wWVNoCe6gvkufuAGvwVOh/jWwGvEsOMcqOFUipKi1ltCqu8vwheTSzLxGUuOUKBedxFjCip0xeZzCP+hFxxS56FaqcRqrsoLTQdWOWduRrWNFlXyxn defn@spiral.local' >> ~/.ssh/authorized_keys
+  { echo 'ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDfchHJtADoZClQITn1qFK7Jy7B9tje/dCFLzrqpdmOyUhmz9zGTjwmL7hXxuyPZgAcdrGPKE+3DjpqqEIxfem1hta0Ej6O8ad/9z0x+xBe2G1EFADYi5gdHuU3+Fh/hUUDWKnQKO0UlAewk488yIUYUU+UVcaPXr9pF1U5VfW8bue76ML9sdR9qIGP2Va+bJhX8neMffc79ShEd02kqVg0kSeQduCK5rNg51wWVNoCe6gvkufuAGvwVOh/jWwGvEsOMcqOFUipKi1ltCqu8vwheTSzLxGUuOUKBedxFjCip0xeZzCP+hFxxS56FaqcRqrsoLTQdWOWduRrWNFlXyxn defn@spiral.local' 
+    echo 'ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDf5BjIBTTpw6fTNJ+HP0es0k013OHNQKQ8/AB5xgSktaHD09Hjf4SNe09cxwA0IkODvSDPo3a3wT+nyb3Tj26nAbNZDpF9cNzhYN51ZbyNz/FodBaszwpA0iBFNvUgbKmgIp6bMMjBYLdMDErLU66WFORc9I5TvOohmEVs3Q39rGzxi9/w27Tas565krAG36PmFLFrqjiR5brG/LE0CYvJLkfDhZQyJF+U+/24m/5F4r7b2eKWG/xh7I9LWKrBHNvxMzDX7OUVV/X/VducTL6RbsRerYxrdjpIefEJasPpRx8W1efPegoNFTsPkJcd4X6W68bYlGMT34cghAZdDtpb defn@iamdefn.local'
+  } >> ~/.ssh/authorized_keys
 
   # initialize new ssh hosts
   ssh -oStrictHostKeyChecking=no github.com true
