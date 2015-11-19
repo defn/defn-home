@@ -34,7 +34,6 @@ function main {
 
   # bootstrap home
   script/bootstrap
-  set +x; source script/profile; set -x
   set +x; require; set -x
   script/bootstrap pkgsrc
 
