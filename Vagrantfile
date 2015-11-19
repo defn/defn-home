@@ -13,6 +13,7 @@ Vagrant.configure("2") do |config|
       region.vm.provider "virtualbox" do |v, override|
         override.vm.box = "ubuntu"
         override.vm.synced_folder '.', '/vagrant'
+
         v.memory = 2048
         v.cpus = 2
       end
@@ -23,9 +24,13 @@ Vagrant.configure("2") do |config|
     config.vm.define nm_region do |region|
       region.vm.provider "digital_ocean" do |v, override|
         override.vm.box = "ubuntu-#{nm_region}"
+        override.vm.synced_folder 'cache', '/vagrant/cache'
+        override.vm.synced_folder 'distfiles', '/vagrant/distfiles'
+        override.vm.synced_folder 'packages', '/vagrant/packages'
 
         ssh_key = "#{ENV['HOME']}/.ssh/vagrant-#{ENV['LOGNAME']}"
         override.ssh.private_key_path = ssh_key
+
         v.ssh_key_name = "vagrant-#{Digest::MD5.file(ssh_key).hexdigest}"
         v.token = ENV['DIGITALOCEAN_API_TOKEN']
         v.size = '2gb'
@@ -39,8 +44,13 @@ Vagrant.configure("2") do |config|
     config.vm.define nm_region do |region|
       region.vm.provider "aws" do |v, override|
         override.vm.box = "ubuntu-#{nm_region}"
+        override.vm.synced_folder 'cache', '/vagrant/cache'
+        override.vm.synced_folder 'distfiles', '/vagrant/distfiles'
+        override.vm.synced_folder 'packages', '/vagrant/packages'
+
         ssh_key = "#{ENV['HOME']}/.ssh/vagrant-#{ENV['LOGNAME']}"
         override.ssh.private_key_path = ssh_key
+
         v.keypair_name = "vagrant-#{Digest::MD5.file(ssh_key).hexdigest}"
         v.instance_type = 'c4.large'
         v.region = nm_region
