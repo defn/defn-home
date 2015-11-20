@@ -17,6 +17,7 @@ function bootstrap_pkgsrc {
     pkg install www/squid
     pkg install devel/editline misc/rlwrap
     pkg install sysutils/runit
+    pkg install sysutils/cdrtools
     pkg install www/nginx
     pkg install databases/redis
     pkg install databases/postgresql94-server

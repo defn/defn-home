@@ -22,6 +22,7 @@ function home_update {
     env CFLAGS=-O2 pkg package www/squid3 
     pkg package devel/editline misc/rlwrap
     pkg package sysutils/runit
+    pkg package sysutils/cdrtools
     pkg package www/nginx
     pkg package databases/redis
     pkg package databases/postgresql94-server
