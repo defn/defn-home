@@ -20,14 +20,16 @@ Vagrant.configure("2") do |config|
         v.memory = 2048
         v.cpus = 2
 
-        v.customize [ 
-          'storageattach', :id, 
-          '--storagectl', 'SATA Controller', 
-          '--port', 1, 
-          '--device', 0, 
-          '--type', 'dvddrive', 
-          '--medium', 'cidata.iso'
-        ] if Files.exists? 'cidata.iso'
+        if File.exists?('cidata.iso')
+          v.customize [ 
+            'storageattach', :id, 
+            '--storagectl', 'SATA Controller', 
+            '--port', 1, 
+            '--device', 0, 
+            '--type', 'dvddrive', 
+            '--medium', 'cidata.iso'
+          ]
+        end
 
       end
     end
