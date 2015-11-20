@@ -10,3 +10,4 @@ jq -n \
     '{users: [ {name: "ubuntu", "ssh-authorized-keys": [ $ssh_key ], sudo: $sudo }]}' \
     | ruby -ryaml -rjson -e 'puts JSON.load(STDIN.read).to_yaml' > cidata/user-data
 
+mkisofs -R -V cidata -o cidata.iso cidata
