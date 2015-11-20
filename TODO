@@ -1,3 +1,12 @@
 
-jq --arg instance_id "vagrant-$(date +%s)-$$" -n '{"instance-id": $instance_id}' | ruby -rjson -ryaml -e 'puts JSON.load(STDIN.read).to_yaml' > cidata/meta-data
+jq -n \
+  --arg instance_id "vagrant-$(date +%s)-$$" \
+    '{"instance-id": $instance_id}' \
+    | ruby -rjson -ryaml -e 'puts JSON.load(STDIN.read).to_yaml' > cidata/meta-data
+
+jq -n \
+  --arg ssh_key "$(cat ~/.ssh/vagrant.pub)" \
+  --arg sudo "ALL=(ALL) NOPASSWD: ALL" \
+    '{users: [ {name: "ubuntu", "ssh-authorized-keys": [ $ssh_key ], sudo: $sudo }]}' \
+    | ruby -ryaml -rjson -e 'puts JSON.load(STDIN.read).to_yaml' > cidata/user-data
 
