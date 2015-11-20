@@ -4,6 +4,11 @@ function main {
   local shome="$(cd -P -- "${BASH_SOURCE%/*}/.." && pwd -P)"
   source "$shome/script/profile"
 
+  if [[ "$#" == 0 ]]; then
+    echo "$(basename "$0"): up|destroy build|remove|add ssh|rsync|scp"
+    return 0
+  fi
+
   local nm_action="$1"; shift
   case "$nm_action" in
     up|destroy)
