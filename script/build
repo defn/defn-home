@@ -3,9 +3,9 @@
 function home_update {
   local shome="$(cd -P -- "${BASH_SOURCE%/*}/.." && pwd -P)"
 
-  source "$shome/.profile.d/pkgsrc.pre"
-  pushd "$shome/work/app" && source script/profile && popd
-  pushd "$shome/work/sub" && source script/profile && popd
+  source "$shome/work/app/script/profile"
+  require
+
   pushd "$shome/work/pkgsrc" && source script/profile && script/bootstrap && popd
 
   if [[ ! -x "$(which bmake 2>&- || true)" ]]; then
