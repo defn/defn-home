@@ -47,7 +47,7 @@ Vagrant.configure("2") do |config|
         v.token = ENV['DIGITALOCEAN_API_TOKEN']
         v.size = '2gb'
         v.setup = false
-        v.user_data = "\nusers:\n - name: ubuntu\n   ssh-authorized-keys:\n    - #{File.read('cidata/user-data')}"
+        v.user_data = "\n#cloud-config\nusers:\n - name: ubuntu\n   ssh-authorized-keys:\n    - #{File.read('cidata/user-data')}"
       end
     end
   end
