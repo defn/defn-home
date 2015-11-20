@@ -92,6 +92,7 @@
 # virtualbox
 /VirtualBox VMs
 /virtualbox-cloud-init.img*
+/cidata*
 
 # packer
 /.packer.d
