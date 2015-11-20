@@ -8,6 +8,6 @@ jq -n \
   --arg ssh_key "$(cat ~/.ssh/vagrant.pub)" \
   --arg sudo "ALL=(ALL) NOPASSWD: ALL" \
     '{users: [ {name: "ubuntu", "ssh-authorized-keys": [ $ssh_key ], sudo: $sudo }]}' \
-    | ruby -ryaml -rjson -e 'puts JSON.load(STDIN.read).to_yaml' > cidata/user-data
+    | ruby -ryaml -rjson -e 'puts JSON.load(STDIN.read).to_yaml' | sed 's/^---/#cloud-config/' > cidata/user-data
 
 mkisofs -R -V cidata -o cidata.iso cidata
