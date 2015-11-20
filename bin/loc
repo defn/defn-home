@@ -1,0 +1,23 @@
+#!/usr/bin/env bash
+
+function main {
+  local shome="$(cd -P -- "${BASH_SOURCE%/*}/.." && pwd -P)"
+  source "$shome/script/profile"
+
+  case "${1:-}" in
+    up|destroy)
+      local nm_action="$1"; shift
+      vagrant "$nm_action" local "$@"
+      ;;
+    build|remove|add)
+      local nm_action="$1"; shift
+      virtualbox "$nm_action" "$@"
+      ;;
+    ssh|rsync|scp)
+      local nm_action="$1"; shift
+      vagrant local "$nm_action" "$@"
+      ;;
+  esac
+}
+
+source sub "$BASH_SOURCE" "$@"
