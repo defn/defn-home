@@ -7,6 +7,9 @@ Vagrant.configure("2") do |config|
   config.vm.synced_folder '.', '/vagrant', disabled: true
   
   config.vm.provision "shell", path: "bin/foo.sh", privileged: false
+
+  ssh_key = "#{ENV['HOME']}/.ssh/vagrant"
+  config.ssh.private_key_path = ssh_key
   
   ("local").split(" ").each do |nm_region|
     config.vm.define nm_region do |region|
@@ -24,7 +27,7 @@ Vagrant.configure("2") do |config|
           '--device', 0, 
           '--type', 'dvddrive', 
           '--medium', 'cidata.iso'
-        ]
+        ] if Files.exists? 'cidata.iso'
 
       end
     end
@@ -37,9 +40,6 @@ Vagrant.configure("2") do |config|
         override.vm.synced_folder 'cache', '/vagrant/cache'
         override.vm.synced_folder 'distfiles', '/vagrant/distfiles'
         override.vm.synced_folder 'packages', '/vagrant/packages'
-
-        ssh_key = "#{ENV['HOME']}/.ssh/vagrant-#{ENV['LOGNAME']}"
-        override.ssh.private_key_path = ssh_key
 
         v.ssh_key_name = "vagrant-#{Digest::MD5.file(ssh_key).hexdigest}"
         v.token = ENV['DIGITALOCEAN_API_TOKEN']
@@ -57,9 +57,6 @@ Vagrant.configure("2") do |config|
         override.vm.synced_folder 'cache', '/vagrant/cache'
         override.vm.synced_folder 'distfiles', '/vagrant/distfiles'
         override.vm.synced_folder 'packages', '/vagrant/packages'
-
-        ssh_key = "#{ENV['HOME']}/.ssh/vagrant-#{ENV['LOGNAME']}"
-        override.ssh.private_key_path = ssh_key
 
         v.keypair_name = "vagrant-#{Digest::MD5.file(ssh_key).hexdigest}"
         v.instance_type = 'c4.large'
