@@ -20,6 +20,9 @@ function main {
     ssh|rsync|scp)
       vagrant local "$nm_action" "$@"
       ;;
+    *)
+      vagrant "$nm_action" local "$@"
+      ;;
   esac
 }
 
