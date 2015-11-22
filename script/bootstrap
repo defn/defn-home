@@ -23,6 +23,7 @@ function bootstrap_pkgsrc {
     pkg install databases/postgresql94-server
     pkg install databases/mysql-server databases/percona-toolkit
     pkg install databases/mongodb
+    pkg install lang/erlang
   fi
  }
 

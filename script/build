@@ -28,6 +28,7 @@ function home_update {
     pkg package databases/postgresql94-server
     pkg package databases/mysql55-server databases/percona-toolkit
     pkg package databases/mongodb
+    pkg package lang/erlang
   fi
 }
 
