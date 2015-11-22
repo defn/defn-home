@@ -12,13 +12,27 @@ jq -n \
 
 mkisofs -R -V cidata -o cidata.iso cidata
 
-  636  hdiutil create -o Desktop/InstallESD.cdr -size 8000m -layout SPUD -fs HFS+J
-  638  hdiutil attach ~/Desktop/InstallESD.cdr.dmg -noverify -nobrowse -mountpoint /Volumes/iso
-  641  hdiutil attach "/Applications/Install OS X El Capitan.app/Contents/SharedSupport/InstallESD.dmg" -mountpoint /Volumes/esd
-  642  asr restore -source /Volumes/esd/BaseSystem.dmg -target /Volumes/iso -noprompt -noverify -erase
-  645  cd OS\ X\ Base\ System/
-  648  rm  System/Installation/Packages
-  649  cp -rp /Volumes/esd/Packages System/Installation/
-  650  cp -rp /Volumes/esd/BaseSystem.* System/
-  656  diskutil eject /Volumes/OS\ X\ Base\ System
-  657  hdiutil convert ~/Desktop/InstallESD.cdr.dmg -format UDTO -o ~/Desktop/InstallESD.iso
+mkdir -p /mnt/container
+mount -o bind / /mnt/container
+
+rm -f /tmp/meh.cid
+docker run -dti --cidfile=/tmp/meh.cid ubuntu:vagrant bash -c 'mkdir /var/run/sshd; exec /usr/sbin/sshd -D'
+cid=$(cat /tmp/meh.cid)
+cip="$(docker inspect "$cid" | jq -r '.[0].NetworkSettings.IPAddress')"
+
+rsync -ia --exclude etc/hostname --exclude etc/hosts --exclude etc/resolv.conf \
+  --exclude 'etc/ssh/*key' --exclude var/log --exclude var/lib/docker --exclude run \
+  --exclude sys --exclude proc --exclude tmp --exclude mnt --exclude dev \
+  --exclude etc/mtab \
+  /mnt/container/. root@$cip:/
+
+docker kill "$cid"
+rm -f /tmp/meh.cid
+
+docker commit "$cid" ubuntu:vagrant
+docker rm "$cid"
+
+docker exec "$cid" mkdir -p ~root/.ssh
+cat ~/.ssh/authorized_keys | docker exec -i "$cid" tee ~root/.ssh/authorized_keys
+
+mount | grep bind | awk '{print $3}' | sort -r | xargs umount
