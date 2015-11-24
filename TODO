@@ -36,3 +36,5 @@ docker exec "$cid" mkdir -p ~root/.ssh
 cat ~/.ssh/authorized_keys | docker exec -i "$cid" tee ~root/.ssh/authorized_keys
 
 mount | grep bind | awk '{print $3}' | sort -r | xargs umount
+
+VBoxManage guestproperty enumerate $(cat .vagrant/machines/local/virtualbox/id) --patterns '/VirtualBox/GuestInfo/Net/1/*' | sed 's#: #:#g; s#,##g' | talign
