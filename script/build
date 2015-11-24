@@ -29,6 +29,7 @@ function home_update {
     pkg package databases/mysql55-server databases/percona-toolkit
     pkg package databases/mongodb
     pkg package lang/erlang
+    pkg package chat/irssi
   fi
 }
 
