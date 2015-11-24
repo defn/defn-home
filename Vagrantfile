@@ -16,6 +16,7 @@ Vagrant.configure("2") do |config|
       region.vm.provider "virtualbox" do |v, override|
         override.vm.box = "ubuntu"
         override.vm.synced_folder '.', '/vagrant'
+        override.vm.synced_folder "#{ENV['HOME']}", "#{ENV['HOME']}"
 
         override.vm.network "forwarded_port", guest: 2375, host: 2375
         
