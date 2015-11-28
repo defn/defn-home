@@ -26,6 +26,7 @@ function main {
   pushd work/app
   set +x; source script/profile; set -x
   app bootstrap
+  set +x; require; set -x
   popd
 
   # bootstrap home
