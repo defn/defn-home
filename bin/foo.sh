@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 function main {
-  # copy cache files
+  # link cache files
   if [[ -d /vagrant ]]; then
     ln -nfs /vagrant/{distfiles,cache,packages} ~/
   fi
@@ -19,20 +19,21 @@ function main {
   git clone git@github.com:defn/home home
   mv home/.git .
   git reset --hard
-  rm -rf home
   git clean -fd
 
   # bootstrap app
   git clone git@github.com:defn/app work/app
   pushd work/app
-  script/bootstrap
   set +x; source script/profile; set -x
+  app bootstrap
   popd
 
   # bootstrap home
   script/bootstrap
   set +x; require; set -x
-  script/bootstrap pkgsrc
+
+  # bootstrap pkgsrc
+  script/bootstrap pkgsrc || true
 
   # bootstrap everything
   app bootstrap
