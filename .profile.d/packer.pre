@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+function home_pkg {
+  local shome="$(cd -P -- "${BASH_SOURCE%/*}/.." && pwd -P)"
+
+  export PACKER_CACHE_DIR ="$shome/cache/packer_cache"
+}
+
+home_pkg
