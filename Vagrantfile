@@ -4,10 +4,10 @@ Vagrant.configure("2") do |config|
   config.ssh.username = "ubuntu"
   config.ssh.forward_agent = true
 
-  config.vm.synced_folder '.', '/vagrant', disabled: true
-  
-  config.vm.provision "shell", path: "script/cibuild", privileged: false
+  config.vm.synced_folder "#{ENV['HOME']}", '/vagrant', disabled: true
 
+  config.vm.provision "shell", path: "script/cibuild", privileged: false
+  
   ssh_key = "#{ENV['HOME']}/.ssh/vagrant"
   config.ssh.private_key_path = ssh_key
   
@@ -15,7 +15,7 @@ Vagrant.configure("2") do |config|
     config.vm.define nm_region do |region|
       region.vm.provider "virtualbox" do |v, override|
         override.vm.box = "ubuntu"
-        override.vm.synced_folder '.', '/vagrant'
+        override.vm.synced_folder "#{ENV['HOME']}", '/vagrant'
         override.vm.synced_folder "#{ENV['HOME']}", "#{ENV['HOME']}"
 
         override.vm.network "private_network", type: "dhcp"
@@ -35,6 +35,29 @@ Vagrant.configure("2") do |config|
           ]
         end
 
+      end
+    end
+  end
+
+  ("docker").split(" ").each do |nm_region|
+    config.vm.define nm_region do |region|
+      region.vm.provider "docker" do |v, override|
+        v.image = "ubuntu:packer"
+        v.cmd = [ "/usr/sbin/sshd" ]
+        v.has_ssh = true
+
+        override.vm.synced_folder "#{ENV['HOME']}", '/vagrant'
+        override.vm.synced_folder "#{ENV['HOME']}", "#{ENV['HOME']}"
+
+        module VagrantPlugins
+          module DockerProvider
+            class Provider < Vagrant.plugin("2", :provider)
+              def host_vm?
+                false
+              end
+            end
+          end
+        end
       end
     end
   end
