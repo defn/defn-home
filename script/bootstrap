@@ -1,29 +1,39 @@
 #!/usr/bin/env bash
 
+function pkg_ensure {
+  local nm_pkg="$1"; shift
+  local nm_build="${1:-$nm_pkg}"
+
+  pkg install "$nm_pkg" || pkg package "$nm_build"
+}
+
 function bootstrap_pkgsrc {
   if [[ ! -x "$(which bmake 2>&- || true)" ]]; then
-    pkg install bootstrap
+    pkg_ensure bootstrap
   fi
 
   if [[ -x "$(which pkg 2>&- || true)" ]]; then
-    pkg install security/mozilla-rootcerts
+    pkg_ensure security/mozilla-rootcerts
     mozilla-rootcerts install || true
 
-    pkg install security/spiped
-    pkg install misc/getopt
-    pkg install misc/tmux
-    pkg install net/wget www/curl
-    pkg install devel/jq
-    pkg install www/squid
-    pkg install devel/editline misc/rlwrap
-    pkg install sysutils/runit
-    pkg install sysutils/cdrtools
-    pkg install www/nginx
-    pkg install databases/redis
-    pkg install databases/postgresql94-server
-    pkg install databases/mysql-server databases/percona-toolkit
-    pkg install databases/mongodb
-    pkg install lang/erlang
+    pkg_ensure security/spiped
+    pkg_ensure misc/getopt
+    pkg_ensure misc/tmux
+    pkg_ensure net/wget
+    pkg_ensure www/curl
+    pkg_ensure devel/jq
+    pkg_ensure www/squid
+    pkg_ensure devel/editline
+    pkg_ensure misc/rlwrap
+    pkg_ensure sysutils/runit
+    pkg_ensure sysutils/cdrtools
+    pkg_ensure www/nginx
+    pkg_ensure databases/redis
+    pkg_ensure databases/postgresql94-server
+    pkg_ensure databases/mysql-server
+    pkg_ensure databases/percona-toolkit
+    pkg_ensure databases/mongodb
+    pkg_ensure lang/erlang
   fi
  }
 
@@ -36,9 +46,7 @@ function home_bootstrap {
   "$shome/script/update"
   source "$shome/script/profile"
 
-  if [[ "${1:-}" == "pkgsrc" ]]; then
-    bootstrap_pkgsrc
-  fi
+  bootstrap_pkgsrc
 }
 
 home_bootstrap "$@"
