@@ -51,13 +51,13 @@ Vagrant.configure("2") do |config|
     end
   end
 
-  ("docker").split(" ").each do |nm_region|
-    config.vm.define nm_region do |region|
+  (1..100).each do |nm_region|
+    config.vm.define "docker#{nm_region}" do |region|
       region.vm.provider "docker" do |v, override|
         v.image = "ubuntu:packer"
         v.cmd = [ "bash", "-c", "install -d -m 0755 -o root -g root /var/run/sshd; exec /usr/sbin/sshd -D" ]
         v.has_ssh = true
-
+        
         override.vm.synced_folder "#{ENV['HOME']}", '/vagrant'
         override.vm.synced_folder "#{ENV['HOME']}", "#{ENV['HOME']}"
 
@@ -66,6 +66,13 @@ Vagrant.configure("2") do |config|
             class Provider < Vagrant.plugin("2", :provider)
               def host_vm?
                 false
+              end
+            end
+            module Action
+              class Create
+                def forwarded_ports(include_ssh=false)
+                  return []
+                end
               end
             end
           end
