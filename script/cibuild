@@ -38,6 +38,14 @@ function main {
 
   # bootstrap everything
   app bootstrap
+
+  # build docker
+  sudo aptitude install -y bind9
+  cat <<"__EOF"
+DOCKER_OPTS="--dns $(ip route show | awk '$1 == "default" { print $3 }') -H tcp://0.0.0.0:"
+__EOF
+  sudo restart docker
+  basebox docker build
 }
 
 main "$@"
