@@ -40,3 +40,5 @@ mount | grep bind | awk '{print $3}' | sort -r | xargs umount
 VBoxManage guestproperty enumerate $(cat .vagrant/machines/local/virtualbox/id) --patterns '/VirtualBox/GuestInfo/Net/1/*' | sed 's#: #:#g; s#,##g' | talign
 
 ip route show | awk '$1 == "default" { print $3 }'
+
+route add -net xxx $(VBoxManage guestproperty get $(cat .vagrant/machines/local/virtualbox/id) '/VirtualBox/GuestInfo/Net/1/V4/IP' | awk '{print $2}') $(VBoxManage guestproperty get $(cat .vagrant/machines/local/virtualbox/id) '/VirtualBox/GuestInfo/Net/2/V4/Netmask' | awk '{print $2}')
