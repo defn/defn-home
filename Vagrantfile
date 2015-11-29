@@ -1,6 +1,18 @@
 require 'socket'
 
 Vagrant.configure("2") do |config|
+  module Vagrant
+    module Util
+      class Platform
+        class << self
+          def solaris?
+            true
+          end
+        end
+      end
+    end
+  end
+
   config.ssh.username = "ubuntu"
   config.ssh.forward_agent = true
 
