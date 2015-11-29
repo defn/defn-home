@@ -45,7 +45,7 @@ function main {
 DOCKER_OPTS="--dns $(ip route show | awk '$1 == "default" { print $3 }') -H tcp://0.0.0.0:"
 __EOF
   sudo restart docker
-  basebox docker build
+  basebox build docker
 }
 
 main "$@"
