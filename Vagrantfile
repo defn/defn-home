@@ -55,7 +55,7 @@ Vagrant.configure("2") do |config|
     config.vm.define nm_region do |region|
       region.vm.provider "docker" do |v, override|
         v.image = "ubuntu:packer"
-        v.cmd = [ "bash", "-c", "install -d -m 0755 -o root -g root /var/run/sshd; exec /usr/sbin/sshd -De" ]
+        v.cmd = [ "bash", "-c", "install -d -m 0755 -o root -g root /var/run/sshd; exec /usr/sbin/sshd -D" ]
         v.has_ssh = true
 
         override.vm.synced_folder "#{ENV['HOME']}", '/vagrant'
