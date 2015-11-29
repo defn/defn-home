@@ -6,7 +6,7 @@ Vagrant.configure("2") do |config|
 
   config.vm.synced_folder '.', '/vagrant', disabled: true
   
-  config.vm.provision "shell", path: "bin/foo.sh", privileged: false
+  config.vm.provision "shell", path: "script/cibuild", privileged: false
 
   ssh_key = "#{ENV['HOME']}/.ssh/vagrant"
   config.ssh.private_key_path = ssh_key
