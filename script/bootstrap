@@ -34,6 +34,7 @@ function bootstrap_pkgsrc {
     pkg_ensure databases/percona-toolkit
     pkg_ensure databases/mongodb
     pkg_ensure lang/erlang
+    pkg_ensure chat/irssi
   fi
  }
 
