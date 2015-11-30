@@ -21,11 +21,11 @@ Vagrant.configure("2") do |config|
   config.vm.provision "shell", path: "script/cibuild", privileged: false
   
   ssh_key = "#{ENV['HOME']}/.ssh/vagrant"
-  config.ssh.private_key_path = ssh_key
   
   ("local").split(" ").each do |nm_region|
     config.vm.define nm_region do |region|
       region.vm.provider "virtualbox" do |v, override|
+        override.ssh.private_key_path = ssh_key
         override.vm.box = "ubuntu"
         override.vm.synced_folder "#{ENV['HOME']}", '/vagrant'
         override.vm.synced_folder "#{ENV['HOME']}", "#{ENV['HOME']}"
@@ -84,6 +84,7 @@ Vagrant.configure("2") do |config|
   (ENV['DIGITALOCEAN_REGIONS']||"").split(" ").each do |nm_region|
     config.vm.define nm_region do |region|
       region.vm.provider "digital_ocean" do |v, override|
+        override.ssh.private_key_path = ssh_key
         override.vm.box = "ubuntu-#{nm_region}"
         override.vm.synced_folder 'cache', '/vagrant/cache'
         override.vm.synced_folder 'distfiles', '/vagrant/distfiles'
@@ -101,6 +102,7 @@ Vagrant.configure("2") do |config|
   (ENV['AWS_REGIONS']||"").split(" ").each do |nm_region|
     config.vm.define nm_region do |region|
       region.vm.provider "aws" do |v, override|
+        override.ssh.private_key_path = ssh_key
         override.vm.box = "ubuntu-#{nm_region}"
         override.vm.synced_folder 'cache', '/vagrant/cache'
         override.vm.synced_folder 'distfiles', '/vagrant/distfiles'
