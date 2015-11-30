@@ -60,6 +60,7 @@ Vagrant.configure("2") do |config|
         
         override.vm.synced_folder "#{ENV['HOME']}", '/vagrant'
         override.vm.synced_folder "#{ENV['HOME']}", "#{ENV['HOME']}"
+        override.ssh.insert_key = false
 
         module VagrantPlugins
           module DockerProvider
