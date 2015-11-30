@@ -36,14 +36,17 @@ function main {
   # bootstrap everything
   app bootstrap
 
-  # install host dns cache
-  sudo aptitude install -y bind9
-
-  # configure docker
+  # get docker0 up
+  sudo restart docker || sudo start docker
+  sleep 5
   cat | sudo tee -a /etc/default/docker <<"__EOF"
 DOCKER_OPTS="--dns $(ip route show | awk '$3 == "docker0" { print $NF }') -H tcp://0.0.0.0:"
 __EOF
+
+  # ensure bind is listening on docker0
   sudo restart docker
+  sleep 5
+  sudo aptitude install -y bind9
   sudo service bind9 restart
 
   # build docker image
