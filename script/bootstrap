@@ -8,34 +8,28 @@ function pkg_ensure {
 }
 
 function bootstrap_pkgsrc {
-  if [[ ! -x "$(which bmake 2>&- || true)" ]]; then
-    pkg_ensure bootstrap
-  fi
+  pkg_ensure security/mozilla-rootcerts
+  mozilla-rootcerts install || true
 
-  if [[ -x "$(which pkg 2>&- || true)" ]]; then
-    pkg_ensure security/mozilla-rootcerts
-    mozilla-rootcerts install || true
-
-    pkg_ensure security/spiped
-    pkg_ensure misc/getopt
-    pkg_ensure misc/tmux
-    pkg_ensure net/wget
-    pkg_ensure www/curl
-    pkg_ensure devel/jq
-    pkg_ensure www/squid
-    pkg_ensure devel/editline
-    pkg_ensure misc/rlwrap
-    pkg_ensure sysutils/runit
-    pkg_ensure sysutils/cdrtools
-    pkg_ensure www/nginx
-    pkg_ensure databases/redis
-    pkg_ensure databases/postgresql94-server
-    pkg_ensure databases/mysql-server
-    pkg_ensure databases/percona-toolkit
-    pkg_ensure databases/mongodb
-    pkg_ensure lang/erlang
-    pkg_ensure chat/irssi
-  fi
+  pkg_ensure security/spiped
+  pkg_ensure misc/getopt
+  pkg_ensure misc/tmux
+  pkg_ensure net/wget
+  pkg_ensure www/curl
+  pkg_ensure devel/jq
+  pkg_ensure www/squid
+  pkg_ensure devel/editline
+  pkg_ensure misc/rlwrap
+  pkg_ensure sysutils/runit
+  pkg_ensure sysutils/cdrtools
+  pkg_ensure www/nginx
+  pkg_ensure databases/redis
+  pkg_ensure databases/postgresql94-server
+  pkg_ensure databases/mysql-server
+  pkg_ensure databases/percona-toolkit
+  pkg_ensure databases/mongodb
+  pkg_ensure lang/erlang
+  pkg_ensure chat/irssi
  }
 
 function home_bootstrap {
