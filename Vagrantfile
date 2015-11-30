@@ -52,7 +52,7 @@ Vagrant.configure("2") do |config|
   end
 
   (1..100).each do |nm_region|
-    config.vm.define "docker#{nm_region}" do |region|
+    config.vm.define "d#{nm_region}" do |region|
       region.vm.provider "docker" do |v, override|
         v.image = "ubuntu:packer"
         v.cmd = [ "bash", "-c", "install -d -m 0755 -o root -g root /var/run/sshd; exec /usr/sbin/sshd -D" ]
