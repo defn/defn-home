@@ -18,13 +18,12 @@ Vagrant.configure("2") do |config|
 
   config.vm.synced_folder "#{ENV['HOME']}", '/vagrant', disabled: true
 
-  config.vm.provision "shell", path: "script/cibuild", privileged: false
-  
   ssh_key = "#{ENV['HOME']}/.ssh/vagrant"
   
   ("local").split(" ").each do |nm_region|
     config.vm.define nm_region do |region|
       region.vm.provider "virtualbox" do |v, override|
+        override.vm.provision "shell", path: "script/cibuild", privileged: false
         override.ssh.private_key_path = ssh_key
         override.vm.box = "ubuntu"
         override.vm.synced_folder "#{ENV['HOME']}", '/vagrant'
@@ -51,10 +50,16 @@ Vagrant.configure("2") do |config|
     end
   end
 
-  (1..100).each do |nm_region|
+  (0..100).each do |nm_region|
     config.vm.define "d#{nm_region}" do |region|
       region.vm.provider "docker" do |v, override|
-        v.image = "ubuntu:packer"
+        if nm_region == "d0"
+          v.image = "ubuntu:packer"
+          override.vm.provision "shell", path: "script/cibuild", privileged: false
+        else
+          v.image = "ubuntu:vagrant"
+        end
+        
         v.cmd = [ "bash", "-c", "install -d -m 0755 -o root -g root /var/run/sshd; exec /usr/sbin/sshd -D" ]
         v.has_ssh = true
         
@@ -85,6 +90,7 @@ Vagrant.configure("2") do |config|
   (ENV['DIGITALOCEAN_REGIONS']||"").split(" ").each do |nm_region|
     config.vm.define nm_region do |region|
       region.vm.provider "digital_ocean" do |v, override|
+        override.vm.provision "shell", path: "script/cibuild", privileged: false
         override.ssh.private_key_path = ssh_key
         override.vm.box = "ubuntu-#{nm_region}"
         override.vm.synced_folder 'cache', '/vagrant/cache'
@@ -103,6 +109,7 @@ Vagrant.configure("2") do |config|
   (ENV['AWS_REGIONS']||"").split(" ").each do |nm_region|
     config.vm.define nm_region do |region|
       region.vm.provider "aws" do |v, override|
+        override.vm.provision "shell", path: "script/cibuild", privileged: false
         override.ssh.private_key_path = ssh_key
         override.vm.box = "ubuntu-#{nm_region}"
         override.vm.synced_folder 'cache', '/vagrant/cache'
