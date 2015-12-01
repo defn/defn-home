@@ -42,7 +42,7 @@ function main {
 
   # get docker0 up
   cat | sudo tee -a /etc/default/docker <<"__EOF"
-DOCKER_OPTS="--dns $(ip route show | awk '$3 == "eth1" { print $NF }') -H tcp://0.0.0.0:"
+DOCKER_OPTS="--dns $(ip route show | awk '$3 == "eth1" { print $NF }') -H tcp://0.0.0.0: --bip 172.17.0.0/16"
 __EOF
   sudo restart docker || sudo start docker
 
