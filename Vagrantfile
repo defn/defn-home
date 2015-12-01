@@ -54,13 +54,14 @@ Vagrant.configure("2") do |config|
     config.vm.define "d#{nm_region}" do |region|
       region.vm.provider "docker" do |v, override|
         if nm_region == "d0"
-          v.image = "ubuntu:packer"
           override.vm.provision "shell", path: "script/cibuild", privileged: false
+          v.image = "ubuntu:packer"
+          v.cmd = [ "bash", "-c", "install -d -m 0755 -o root -g root /var/run/sshd; exec /usr/sbin/sshd -D" ]
         else
           v.image = "ubuntu:vagrant"
+          v.cmd = [ "/usr/sbin/sshd", "-D" ]
         end
         
-        v.cmd = [ "bash", "-c", "install -d -m 0755 -o root -g root /var/run/sshd; exec /usr/sbin/sshd -D" ]
         v.has_ssh = true
         
         override.vm.synced_folder "#{ENV['HOME']}", '/vagrant'
