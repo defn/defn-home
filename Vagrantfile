@@ -51,7 +51,7 @@ Vagrant.configure("2") do |config|
   end
 
   (0..100).each do |nm_region|
-    config.vm.define "d#{nm_region}" do |region|
+    config.vm.define "doc#{nm_region}" do |region|
       region.vm.provider "docker" do |v, override|
         if nm_region == 0
           override.vm.provision "shell", path: "script/cibuild", privileged: false
