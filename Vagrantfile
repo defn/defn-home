@@ -29,7 +29,7 @@ Vagrant.configure("2") do |config|
         override.vm.synced_folder "#{ENV['HOME']}", '/vagrant'
         override.vm.synced_folder "#{ENV['HOME']}", "#{ENV['HOME']}"
 
-        override.vm.network "private_network", type: "dhcp"
+        override.vm.network "private_network", ip: "172.28.128.3"
         override.vm.network "forwarded_port", guest: 2375, host: 2375
         
         v.memory = 2048
