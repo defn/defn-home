@@ -42,3 +42,5 @@ VBoxManage guestproperty enumerate $(cat .vagrant/machines/local/virtualbox/id) 
 ip route show | awk '$1 == "default" { print $3 }'
 
 route add -net xxx $(VBoxManage guestproperty get $(cat .vagrant/machines/local/virtualbox/id) '/VirtualBox/GuestInfo/Net/1/V4/IP' | awk '{print $2}') $(VBoxManage guestproperty get $(cat .vagrant/machines/local/virtualbox/id) '/VirtualBox/GuestInfo/Net/2/V4/Netmask' | awk '{print $2}')
+
+ensure locale is utf8 in docker, elixir wants it that way
