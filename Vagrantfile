@@ -33,7 +33,7 @@ Vagrant.configure("2") do |config|
         override.vm.network "forwarded_port", guest: 2375, host: 2375
         
         v.memory = 8000
-        v.cpus = 2
+        v.cpus = 4
 
         if File.exists?('cidata.iso')
           v.customize [ 
