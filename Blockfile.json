@@ -1,10 +1,6 @@
 {
   "require": [
-    [ 
-      "app",
-      "jq",
-      "pkgsrc"
-    ],
+    "fga",
     [
       "cue",
       "junas",
@@ -12,10 +8,6 @@
       "runmany",
       "deploy",
       "context"
-    ],
-    [
-      "basebox",
-      "basebox-vagrants"
     ],
     [
       "leiningen"
