@@ -1,6 +1,9 @@
 {
   "require": [
-    "fga",
+    [
+      "app",
+      "fga"
+    ],
     [
       "cue",
       "junas",
