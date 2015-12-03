@@ -121,6 +121,7 @@
 
 # letsencrupt
 /.local/share/letsencrypt
+/letsencrypt.log
 
 # docker
 /.docker
