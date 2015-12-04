@@ -17,7 +17,7 @@ function main {
 
   # clone home
   git clone git@github.com:defn/home home
-  mv home/.git .
+  mv home/.git . || rm -rf home/.git
   git reset --hard
   git clean -fd
 
