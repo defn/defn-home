@@ -32,7 +32,6 @@ function main {
   # bootstrap home
   script/bootstrap
   set +x; require; set -x
-  runmany 10 'cd $1 && git pull'
 
   # bootstrap everything
   app bootstrap
