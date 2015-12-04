@@ -8,6 +8,8 @@ function pkg_ensure {
 }
 
 function bootstrap_pkgsrc {
+  require || true
+
   pkg_ensure security/mozilla-rootcerts
   mozilla-rootcerts install || true
 
