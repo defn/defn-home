@@ -55,10 +55,10 @@ Vagrant.configure("2") do |config|
       region.vm.provider "docker" do |v, override|
         if nm_region == 0
           override.vm.provision "shell", path: "script/cibuild", privileged: false
-          v.image = "ubuntu:packer"
+          v.image = ENV['IMAGE'] || "ubuntu:packer"
           v.cmd = [ "bash", "-c", "install -d -m 0755 -o root -g root /var/run/sshd; exec /usr/sbin/sshd -D" ]
         else
-          v.image = "ubuntu:vagrant"
+          v.image = ENV['IMAGE'] || "ubuntu:vagrant"
           v.cmd = [ "/usr/sbin/sshd", "-D" ]
         end
         
