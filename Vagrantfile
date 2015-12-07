@@ -22,10 +22,10 @@ Vagrant.configure("2") do |config|
   
   ("local").split(" ").each do |nm_region|
     config.vm.define nm_region do |region|
+      region.vm.box = "ubuntu"
       region.vm.provider "virtualbox" do |v, override|
         override.vm.provision "shell", path: "script/cibuild", privileged: false
         override.ssh.private_key_path = ssh_key
-        override.vm.box = "ubuntu"
         override.vm.synced_folder "#{ENV['HOME']}", '/vagrant'
         override.vm.synced_folder "#{ENV['HOME']}", "#{ENV['HOME']}"
 
@@ -47,6 +47,13 @@ Vagrant.configure("2") do |config|
         end
 
       end
+    end
+  end
+
+  config.vm.define "osx" do |region|
+    region.vm.box = "osx"
+    region.vm.provider "vmware_desktop" do |v, override|
+      override.ssh.insert_key = false
     end
   end
 
@@ -90,10 +97,10 @@ Vagrant.configure("2") do |config|
 
   (ENV['DIGITALOCEAN_REGIONS']||"").split(" ").each do |nm_region|
     config.vm.define nm_region do |region|
+      region.vm.box = "ubuntu-#{nm_region}"
       region.vm.provider "digital_ocean" do |v, override|
         override.vm.provision "shell", path: "script/cibuild", privileged: false
         override.ssh.private_key_path = ssh_key
-        override.vm.box = "ubuntu-#{nm_region}"
         override.vm.synced_folder 'cache', '/vagrant/cache'
         override.vm.synced_folder 'distfiles', '/vagrant/distfiles'
         override.vm.synced_folder 'packages', '/vagrant/packages'
@@ -109,10 +116,10 @@ Vagrant.configure("2") do |config|
 
   (ENV['AWS_REGIONS']||"").split(" ").each do |nm_region|
     config.vm.define nm_region do |region|
+      region.vm.box = "ubuntu-#{nm_region}"
       region.vm.provider "aws" do |v, override|
         override.vm.provision "shell", path: "script/cibuild", privileged: false
         override.ssh.private_key_path = ssh_key
-        override.vm.box = "ubuntu-#{nm_region}"
         override.vm.synced_folder 'cache', '/vagrant/cache'
         override.vm.synced_folder 'distfiles', '/vagrant/distfiles'
         override.vm.synced_folder 'packages', '/vagrant/packages'
