@@ -54,6 +54,9 @@ Vagrant.configure("2") do |config|
     region.vm.box = "osx"
     region.vm.provider "vmware_desktop" do |v, override|
       override.ssh.insert_key = false
+      v.gui = false
+      v.vmx["memsize"] = "2048"
+      v.vmx["numvcpus"] = "2"
     end
   end
 
