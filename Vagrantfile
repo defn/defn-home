@@ -20,39 +20,10 @@ Vagrant.configure("2") do |config|
 
   ssh_key = "#{ENV['HOME']}/.ssh/vagrant"
   
-  ("local").split(" ").each do |nm_region|
-    config.vm.define nm_region do |region|
-      region.vm.box = "ubuntu"
-      region.vm.provider "virtualbox" do |v, override|
-        override.vm.provision "shell", path: "script/cibuild", privileged: false
-        override.ssh.private_key_path = ssh_key
-        override.vm.synced_folder "#{ENV['HOME']}", '/vagrant'
-        override.vm.synced_folder "#{ENV['HOME']}", "#{ENV['HOME']}"
-
-        override.vm.network "private_network", ip: "172.28.128.3"
-        override.vm.network "forwarded_port", guest: 2375, host: 2375
-        
-        v.memory = 8000
-        v.cpus = 4
-
-        if File.exists?('cidata.iso')
-          v.customize [ 
-            'storageattach', :id, 
-            '--storagectl', 'SATA Controller', 
-            '--port', 1, 
-            '--device', 0, 
-            '--type', 'dvddrive', 
-            '--medium', 'cidata.iso'
-          ]
-        end
-
-      end
-    end
-  end
-
   config.vm.define "osx" do |region|
     region.vm.box = "osx"
     region.ssh.insert_key = false
+
     region.vm.provider "vmware_fusion" do |v, override|
       v.gui = false
       v.vmx["memsize"] = "2048"
@@ -60,8 +31,40 @@ Vagrant.configure("2") do |config|
     end
   end
 
+  config.vm.define "fga" do |region|
+    region.vm.box = "ubuntu"
+    region.ssh.private_key_path = ssh_key
+    region.vm.synced_folder "#{ENV['HOME']}", '/vagrant'
+    region.vm.synced_folder "#{ENV['HOME']}", "#{ENV['HOME']}"
+    region.vm.provision "shell", path: "script/cibuild", privileged: false
+
+    region.vm.provider "virtualbox" do |v, override|
+      override.vm.network "private_network", ip: "172.28.128.3"
+      override.vm.network "forwarded_port", guest: 2375, host: 2375
+      
+      v.memory = 8000
+      v.cpus = 4
+
+      if File.exists?('cidata.iso')
+        v.customize [ 
+          'storageattach', :id, 
+          '--storagectl', 'SATA Controller', 
+          '--port', 1, 
+          '--device', 0, 
+          '--type', 'dvddrive', 
+          '--medium', 'cidata.iso'
+        ]
+      end
+
+    end
+  end
+
   (0..100).each do |nm_region|
     config.vm.define "fga#{nm_region}" do |region|
+      region.ssh.insert_key = false
+      region.vm.synced_folder "#{ENV['HOME']}", '/vagrant'
+      region.vm.synced_folder "#{ENV['HOME']}", "#{ENV['HOME']}"
+
       region.vm.provider "docker" do |v, override|
         if nm_region == 0
           override.vm.provision "shell", path: "script/cibuild", privileged: false
@@ -74,10 +77,6 @@ Vagrant.configure("2") do |config|
         
         v.has_ssh = true
         
-        override.vm.synced_folder "#{ENV['HOME']}", '/vagrant'
-        override.vm.synced_folder "#{ENV['HOME']}", "#{ENV['HOME']}"
-        override.ssh.insert_key = false
-
         module VagrantPlugins
           module DockerProvider
             class Provider < Vagrant.plugin("2", :provider)
@@ -101,13 +100,13 @@ Vagrant.configure("2") do |config|
   (ENV['DIGITALOCEAN_REGIONS']||"").split(" ").each do |nm_region|
     config.vm.define nm_region do |region|
       region.vm.box = "ubuntu-#{nm_region}"
-      region.vm.provider "digital_ocean" do |v, override|
-        override.vm.provision "shell", path: "script/cibuild", privileged: false
-        override.ssh.private_key_path = ssh_key
-        override.vm.synced_folder 'cache', '/vagrant/cache'
-        override.vm.synced_folder 'distfiles', '/vagrant/distfiles'
-        override.vm.synced_folder 'packages', '/vagrant/packages'
+      region.ssh.private_key_path = ssh_key
+      region.vm.synced_folder 'cache', '/vagrant/cache'
+      region.vm.synced_folder 'distfiles', '/vagrant/distfiles'
+      region.vm.synced_folder 'packages', '/vagrant/packages'
+      region.vm.provision "shell", path: "script/cibuild", privileged: false
 
+      region.vm.provider "digital_ocean" do |v, override|
         v.ssh_key_name = "vagrant-#{Digest::MD5.file(ssh_key).hexdigest}"
         v.token = ENV['DIGITALOCEAN_API_TOKEN']
         v.size = '2gb'
@@ -120,13 +119,13 @@ Vagrant.configure("2") do |config|
   (ENV['AWS_REGIONS']||"").split(" ").each do |nm_region|
     config.vm.define nm_region do |region|
       region.vm.box = "ubuntu-#{nm_region}"
-      region.vm.provider "aws" do |v, override|
-        override.vm.provision "shell", path: "script/cibuild", privileged: false
-        override.ssh.private_key_path = ssh_key
-        override.vm.synced_folder 'cache', '/vagrant/cache'
-        override.vm.synced_folder 'distfiles', '/vagrant/distfiles'
-        override.vm.synced_folder 'packages', '/vagrant/packages'
+      region.ssh.private_key_path = ssh_key
+      region.vm.synced_folder 'cache', '/vagrant/cache'
+      region.vm.synced_folder 'distfiles', '/vagrant/distfiles'
+      region.vm.synced_folder 'packages', '/vagrant/packages'
+      region.vm.provision "shell", path: "script/cibuild", privileged: false
 
+      region.vm.provider "aws" do |v, override|
         v.keypair_name = "vagrant-#{Digest::MD5.file(ssh_key).hexdigest}"
         v.instance_type = 'c4.large'
         v.region = nm_region
