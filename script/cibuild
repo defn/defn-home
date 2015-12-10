@@ -22,7 +22,11 @@ __EOF
 function main {
   # link cache files
   if [[ -d /vagrant ]]; then
-    ln -nfs /vagrant/{distfiles,cache,packages} ~/
+    for a in distfiles cache packages; do
+      if [[ ! -d ~/$a ]]; then
+        ln -nfs /vagrant/$a ~/
+      fi
+    done
   fi
 
   # make sure we are at home

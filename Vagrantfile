@@ -21,8 +21,10 @@ Vagrant.configure("2") do |config|
   ssh_key = "#{ENV['HOME']}/.ssh/vagrant"
   
   config.vm.define "osx" do |region|
-    region.vm.box = "osx"
+    region.vm.box = "ubuntu"
     region.ssh.insert_key = false
+    region.vm.synced_folder "#{ENV['HOME']}", '/vagrant'
+    region.vm.provision "shell", path: "script/cibuild", privileged: false
 
     region.vm.provider "vmware_fusion" do |v, override|
       v.gui = false
