@@ -19,11 +19,13 @@ function main {
       if [[ -z "${GIT_CACHE}" && ! -f ~/.git_cache ]]; then
         if [[ ! -d "${pth_cache}/$nm_user/$nm_repo" ]]; then
           mkdir -p "${pth_cache}/$nm_user"
-          git clone --mirror \
+          git clone --bare --mirror \
             "${ssh_remote}:$nm_user/$nm_repo" "${pth_cache}/$nm_user/$nm_repo"
         fi
 
         pushd "${pth_cache}/$nm_user/$nm_repo" >/dev/null
+        unset GIT_WORK_TREE
+        unset GIT_PREFIX
         git fetch --all
         popd >/dev/null
       fi
