@@ -58,6 +58,8 @@ function main {
 
   # bootstrap everything
   app bootstrap
+  app bootstrap
+  app bootstrap
 
   # build docker image
   if docker pull ubuntu; then
