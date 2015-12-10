@@ -6,6 +6,11 @@ function docker_stuff {
   sudo service bind9 restart
 
   # get docker0 up
+  cat | sudo tee -a /etc/default/docker <<"__EOF"
+DOCKER_OPTS="--dns $(ip route show | awk '$3 == "eth1" { print $NF }') -H tcp://0.0.0.0: --storage-driver=devicemapper"
+__EOF
+  sudo restart docker || sudo start docker
+
   docker tag ubuntu:latest ubuntu:packer-input
   basebox build docker
 
