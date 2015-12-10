@@ -3,6 +3,7 @@
 function main {
   exec 9>&1 1>&2
   unset GIT_SSH GIT_DIR
+  unset GIT_WORK_TREE GIT_PREFIX
 
   local ssh_remote="$1"; shift
   local hst_remote="${ssh_remote##*@}"
@@ -24,8 +25,6 @@ function main {
         fi
 
         pushd "${pth_cache}/$nm_user/$nm_repo" >/dev/null
-        unset GIT_WORK_TREE
-        unset GIT_PREFIX
         git fetch --all
         popd >/dev/null
       fi
