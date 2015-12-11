@@ -10,6 +10,7 @@ function docker_stuff {
 DOCKER_OPTS="--dns $(ip route show | awk '$3 == "eth1" { print $NF }') -H tcp://0.0.0.0: --storage-driver=devicemapper"
 __EOF
   sudo restart docker || sudo start docker
+  sleep 10
 
   docker tag ubuntu:latest ubuntu:packer-input
   basebox build docker
