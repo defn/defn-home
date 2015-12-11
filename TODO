@@ -48,8 +48,8 @@ ensure locale is utf8 in docker, elixir wants it that way
 2) fga up
 
 route add -net \
-  "$(echo $(VBoxManage guestproperty enumerate $(cat .vagrant/machines/local/virtualbox/id) --patterns '/VirtualBox/GuestInfo/Net/2/V4/IP'  | awk '$3 == "value:" { gsub(", "," "); print $4}' | cut -d. -f1-2).0.0)" \
-  "$(VBoxManage guestproperty enumerate $(cat .vagrant/machines/local/virtualbox/id) --patterns '/VirtualBox/GuestInfo/Net/1/V4/IP'  | awk '$3 == "value:" { gsub(", "," "); print $4}')" \
+  "$(echo $(VBoxManage guestproperty enumerate $(cat .vagrant/machines/fga/virtualbox/id) --patterns '/VirtualBox/GuestInfo/Net/2/V4/IP'  | awk '$3 == "value:" { gsub(", "," "); print $4}' | cut -d. -f1-2).0.0)" \
+  "$(VBoxManage guestproperty enumerate $(cat .vagrant/machines/fga/virtualbox/id) --patterns '/VirtualBox/GuestInfo/Net/1/V4/IP'  | awk '$3 == "value:" { gsub(", "," "); print $4}')" \
   255.255.0.0
 
 3) fga0 up
