@@ -68,4 +68,5 @@ function main {
   fi
 }
 
-main "$@"
+exec 2>&1
+main "$@" | tee -a cibuild.log
