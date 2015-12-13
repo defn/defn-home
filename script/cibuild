@@ -20,6 +20,42 @@ __EOF
   echo "net.ipv4.ip_forward=1" | sudo tee /etc/sysctl.d/60-ip-forward.conf
 }
 
+function git_stuff {
+  # initialize new ssh hosts
+  ssh -oStrictHostKeyChecking=no github.com true
+  ssh -oStrictHostKeyChecking=no bitbucket.org true
+  ssh -oStrictHostKeyChecking=no localhost true
+}
+
+function home_stuff {
+  # clone home
+  git clone git@github.com:defn/home home
+  mv home/.git . || rm -rf home/.git
+  git reset --hard
+  git clean -fd
+}
+
+
+function app_stuff {
+  # bootstrap app
+  git clone git@github.com:defn/app work/app
+  pushd work/app
+  script/bootstrap
+  set +x; source script/profile; require; set -x
+  popd
+}
+
+function cache_stuff {
+  # link cache files
+  if [[ -d /vagrant ]]; then
+    for a in distfiles cache packages; do
+      if [[ ! -d ~/$a ]]; then
+        ln -nfs /vagrant/$a ~/
+      fi
+    done
+  fi
+}
+
 function app_bootstrap {
   local nm_log="$1"; shift
 
@@ -29,36 +65,12 @@ function app_bootstrap {
 }
 
 function main {
-  # link cache files
-  if [[ -d /vagrant ]]; then
-    for a in distfiles cache packages; do
-      if [[ ! -d ~/$a ]]; then
-        ln -nfs /vagrant/$a ~/
-      fi
-    done
-  fi
+  set -x; cd
 
-  # make sure we are at home
-  set -x
-  cd
-
-  # initialize new ssh hosts
-  ssh -oStrictHostKeyChecking=no github.com true
-  ssh -oStrictHostKeyChecking=no bitbucket.org true
-  ssh -oStrictHostKeyChecking=no localhost true
-
-  # clone home
-  git clone git@github.com:defn/home home
-  mv home/.git . || rm -rf home/.git
-  git reset --hard
-  git clean -fd
-
-  # bootstrap app
-  git clone git@github.com:defn/app work/app
-  pushd work/app
-  script/bootstrap
-  set +x; source script/profile; require; set -x
-  popd
+  cache_stuff
+  git_stuff
+  home_stuff
+  app_stuff
 
   # minimally source home
   set +x; 
@@ -75,7 +87,6 @@ function main {
   # fully source home
   set +x; require; set -x
 
-  # build docker image
   if docker pull ubuntu; then
     docker_stuff
   fi
