@@ -125,3 +125,7 @@
 
 # docker
 /.docker
+
+# x11
+/.Xauthority
+/.rnd
