@@ -2,6 +2,7 @@
 /tmp
 /work
 /cache
+/*.log
 
 # initial mass ignore
 /.ansible/
