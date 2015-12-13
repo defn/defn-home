@@ -1,24 +1,24 @@
 #!/usr/bin/env bash
 
 function bootstrap_pkgsrc {
-  pkg_ensure security/mozilla-rootcerts
+  pkg ensure security/mozilla-rootcerts
   mozilla-rootcerts install || true
 
-  pkg_ensure security/spiped
-  pkg_ensure misc/tmux
-  pkg_ensure www/squid www/squid3
-  pkg_ensure devel/editline
-  pkg_ensure misc/rlwrap
-  pkg_ensure sysutils/runit
-  pkg_ensure sysutils/cdrtools
-  pkg_ensure www/nginx
-  pkg_ensure databases/redis
-  pkg_ensure databases/postgresql94-server
-  pkg_ensure databases/mysql-server databases/mysql55-server
-  pkg_ensure databases/percona-toolkit
-  pkg_ensure databases/mongodb
-  pkg_ensure chat/irssi
-  pkg_ensure x11/xtermset
+  pkg ensure security/spiped
+  pkg ensure misc/tmux
+  pkg ensure www/squid www/squid3
+  pkg ensure devel/editline
+  pkg ensure misc/rlwrap
+  pkg ensure sysutils/runit
+  pkg ensure sysutils/cdrtools
+  pkg ensure www/nginx
+  pkg ensure databases/redis
+  pkg ensure databases/postgresql94-server
+  pkg ensure databases/mysql-server databases/mysql55-server
+  pkg ensure databases/percona-toolkit
+  pkg ensure databases/mongodb
+  pkg ensure chat/irssi
+  pkg ensure x11/xtermset
  }
 
 function home_bootstrap {
