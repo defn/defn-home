@@ -61,6 +61,8 @@ function main {
   popd
 
   # bootstrap everything
+  set +x; source script/profile; set -x
+  app clone
   app_bootstrap 1.log || app_bootstrap 2.log || app_bootstrap 3.log
   set +x; require; set -x
 
