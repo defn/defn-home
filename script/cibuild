@@ -57,6 +57,7 @@ function main {
   git clone git@github.com:defn/app work/app
   pushd work/app
   set +x; source script/profile; set -x
+  script/bootstrap
   app bootstrap
   set +x; require; set -x
   popd
