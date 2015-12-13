@@ -30,6 +30,7 @@ function bootstrap_pkgsrc {
   pkg_ensure databases/mongodb
   pkg_ensure lang/erlang
   pkg_ensure chat/irssi
+  pkg_ensure x11/xtermset
  }
 
 function home_bootstrap {
