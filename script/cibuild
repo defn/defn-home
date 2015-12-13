@@ -62,7 +62,7 @@ function main {
 
   # bootstrap everything
   app_bootstrap 1.log || app_bootstrap 2.log || app_bootstrap 3.log
-  require
+  set +x; require; set -x
 
   # build docker image
   if docker pull ubuntu; then
