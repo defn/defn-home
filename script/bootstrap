@@ -1,9 +1,6 @@
 #!/usr/bin/env bash
 
 function bootstrap_pkgsrc {
-  pkg ensure security/mozilla-rootcerts
-  mozilla-rootcerts install || true
-
   pkg ensure security/spiped
   pkg ensure misc/tmux
   pkg ensure www/squid www/squid3
