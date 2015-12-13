@@ -1,12 +1,5 @@
 #!/usr/bin/env bash
 
-function pkg_ensure {
-  local nm_pkg="$1"; shift
-  local nm_build="${1:-$nm_pkg}"
-
-  pkg install "$nm_pkg" || { pkg package "$nm_build" && pkg install "$nm_pkg"; }
-}
-
 function bootstrap_pkgsrc {
   pkg_ensure security/mozilla-rootcerts
   mozilla-rootcerts install || true
