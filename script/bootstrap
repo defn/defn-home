@@ -5,11 +5,7 @@ function bootstrap_pkgsrc {
   mozilla-rootcerts install || true
 
   pkg_ensure security/spiped
-  pkg_ensure misc/getopt
   pkg_ensure misc/tmux
-  pkg_ensure net/wget
-  pkg_ensure www/curl
-  pkg_ensure devel/jq
   pkg_ensure www/squid www/squid3
   pkg_ensure devel/editline
   pkg_ensure misc/rlwrap
@@ -21,7 +17,6 @@ function bootstrap_pkgsrc {
   pkg_ensure databases/mysql-server databases/mysql55-server
   pkg_ensure databases/percona-toolkit
   pkg_ensure databases/mongodb
-  pkg_ensure lang/erlang
   pkg_ensure chat/irssi
   pkg_ensure x11/xtermset
  }
