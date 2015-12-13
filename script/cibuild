@@ -58,15 +58,11 @@ function main {
   pushd work/app
   script/bootstrap
   set +x; source script/profile; require; set -x
-  app bootstrap
   popd
-
-  # bootstrap home
-  script/bootstrap
-  set +x; require; set -x
 
   # bootstrap everything
   app_bootstrap 1.log || app_bootstrap 2.log || app_bootstrap 3.log
+  require
 
   # build docker image
   if docker pull ubuntu; then
