@@ -60,10 +60,19 @@ function main {
   set +x; source script/profile; require; set -x
   popd
 
-  # bootstrap everything
-  set +x; source script/profile; set -x
+  # minimally source home
+  set +x; 
+  source .profile.d/packer.pre
+  source .profile.d/pkgsrc.pre
+  source .profile.d/ruby.pre
+  source script/profile
+  set -x
+
+  # bootstrap
   app clone
   app_bootstrap 1.log || app_bootstrap 2.log || app_bootstrap 3.log
+
+  # fully source home
   set +x; require; set -x
 
   # build docker image
