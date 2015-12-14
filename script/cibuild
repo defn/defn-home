@@ -81,7 +81,7 @@ function main {
 
   # bootstrap
   app clone
-  app_bootstrap 1.log || app_bootstrap 2.log || app_bootstrap 3.log
+  app_bootstrap 1.log
 
   # fully source home
   set +x; require; set -x
