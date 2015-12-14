@@ -13,7 +13,6 @@ __EOF
   sleep 10
 
   docker tag ubuntu:latest ubuntu:packer-input
-  basebox build docker
 
   # configure routing
   echo 1 | sudo tee /proc/sys/net/ipv4/ip_forward  
@@ -87,7 +86,7 @@ function main {
   # fully source home
   set +x; require; set -x
 
-  if docker pull ubuntu; then
+  if docker pull ubuntu 2>&1 1>/dev/null; then
     docker_stuff
   fi
 }
