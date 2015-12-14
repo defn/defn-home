@@ -38,6 +38,7 @@ Vagrant.configure("2") do |config|
     region.ssh.private_key_path = ssh_key
     region.vm.synced_folder "#{ENV['HOME']}", '/vagrant'
     region.vm.synced_folder "#{ENV['HOME']}", "#{ENV['HOME']}"
+    region.vm.synced_folder "/tmp/vagrant", '/tmp/vagrant'
     region.vm.provision "shell", path: "script/cibuild", privileged: false
 
     region.vm.provider "virtualbox" do |v, override|
@@ -66,6 +67,7 @@ Vagrant.configure("2") do |config|
       region.ssh.insert_key = false
       region.vm.synced_folder "#{ENV['HOME']}", '/vagrant'
       region.vm.synced_folder "#{ENV['HOME']}", "#{ENV['HOME']}"
+      region.vm.synced_folder "/tmp/vagrant", '/tmp/vagrant'
 
       region.vm.provider "docker" do |v, override|
         if nm_region == 0
