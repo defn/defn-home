@@ -1,5 +1,7 @@
 require 'socket'
 
+shome=File.expand_path("..", __FILE__)
+
 Vagrant.configure("2") do |config|
   module Vagrant
     module Util
@@ -16,14 +18,14 @@ Vagrant.configure("2") do |config|
   config.ssh.username = "ubuntu"
   config.ssh.forward_agent = true
 
-  config.vm.synced_folder "#{ENV['HOME']}", '/vagrant', disabled: true
+  config.vm.synced_folder shome, '/vagrant', disabled: true
 
-  ssh_key = "#{ENV['HOME']}/.ssh/vagrant"
+  ssh_key = "#{shome}/.ssh/vagrant"
   
   config.vm.define "osx" do |region|
     region.vm.box = "ubuntu"
     region.ssh.insert_key = false
-    region.vm.synced_folder "#{ENV['HOME']}", '/vagrant'
+    region.vm.synced_folder shome, '/vagrant'
     region.vm.provision "shell", path: "script/cibuild", privileged: false
 
     region.vm.provider "vmware_fusion" do |v, override|
@@ -36,8 +38,8 @@ Vagrant.configure("2") do |config|
   config.vm.define "fga" do |region|
     region.vm.box = "ubuntu"
     region.ssh.private_key_path = ssh_key
-    region.vm.synced_folder "#{ENV['HOME']}", '/vagrant'
-    region.vm.synced_folder "#{ENV['HOME']}", "#{ENV['HOME']}"
+    region.vm.synced_folder shome, '/vagrant'
+    region.vm.synced_folder shome, shome
     region.vm.synced_folder "/tmp/vagrant", '/tmp/vagrant'
     region.vm.provision "shell", path: "script/cibuild", privileged: false
 
@@ -65,8 +67,8 @@ Vagrant.configure("2") do |config|
   (0..100).each do |nm_region|
     config.vm.define "fga#{nm_region}" do |region|
       region.ssh.insert_key = false
-      region.vm.synced_folder "#{ENV['HOME']}", '/vagrant'
-      region.vm.synced_folder "#{ENV['HOME']}", "#{ENV['HOME']}"
+      region.vm.synced_folder shome, '/vagrant'
+      region.vm.synced_folder shome, shome
       region.vm.synced_folder "/tmp/vagrant", '/tmp/vagrant'
 
       region.vm.provider "docker" do |v, override|
