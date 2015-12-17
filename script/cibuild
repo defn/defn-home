@@ -59,7 +59,6 @@ function app_bootstrap {
   local nm_log="$1"; shift
 
   exec 2>&1
-
   app bootstrap | tee "$nm_log"
 }
 
@@ -86,7 +85,7 @@ function main {
   # fully source home
   set +x; require; set -x
 
-  if docker pull ubuntu 2>&1 1>/dev/null; then
+  if docker pull ubuntu >/dev/null 2>&1; then
     docker_stuff
   fi
 }

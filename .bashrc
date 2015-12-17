@@ -17,7 +17,7 @@ function bashrc {
   local shome="$(cd -P -- "$(dirname "${BASH_SOURCE}")" && pwd -P)"
   source "$shome/work/app/script/profile"
 
-  if tty 2>&1 >/dev/null; then
+  if tty >/dev/null 2>&1; then
     require
     configure_cue
     set +exfu
