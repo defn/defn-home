@@ -15,7 +15,7 @@ function bootstrap_pkgsrc {
   pkg ensure databases/percona-toolkit
   pkg ensure databases/mongodb
   pkg ensure chat/irssi
-  pkg ensure x11/xtermset
+  pkg ensure x11/xtermset || true
  }
 
 function home_bootstrap {
