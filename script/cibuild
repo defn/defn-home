@@ -20,9 +20,10 @@ __EOF
 }
 
 function osx_stuff {
+  return 0
   local cmd_su="$(which softwareupdate 2>&- || true)"
   if [[ -x "$cmd_su" ]]; then
-    "$cmd_su" -i "$("$cmd_su" -l | grep "\*.*Command Line" | head -n 1 | awk -F"*" '{print $2}')" -v
+    "$cmd_su" -i -a -v
   fi
 }
 
