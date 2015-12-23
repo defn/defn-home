@@ -44,7 +44,6 @@ Vagrant.configure("2") do |config|
     region.vm.synced_folder "/tmp/vagrant", '/tmp/vagrant', type: "nfs"
     region.vm.provision "shell", path: "script/cibuild", privileged: false
     region.vm.network "private_network", ip: "172.28.128.3"
-    region.vm.network "forwarded_port", guest: 2375, host: 2375
 
     region.vm.provider "virtualbox" do |v|
       v.linked_clone = true
