@@ -30,6 +30,7 @@ Vagrant.configure("2") do |config|
 
     region.vm.provider "vmware_fusion" do |v, override|
       v.gui = false
+      v.linked_clone = true
       v.vmx["memsize"] = "2048"
       v.vmx["numvcpus"] = "2"
     end
@@ -47,6 +48,7 @@ Vagrant.configure("2") do |config|
       override.vm.network "private_network", ip: "172.28.128.3"
       override.vm.network "forwarded_port", guest: 2375, host: 2375
       
+      v.linked_clone = true
       v.memory = 8000
       v.cpus = 4
 
