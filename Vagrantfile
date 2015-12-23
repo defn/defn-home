@@ -28,7 +28,7 @@ Vagrant.configure("2") do |config|
     region.vm.synced_folder shome, '/vagrant', type: "nfs"
     region.vm.provision "shell", path: "script/cibuild", privileged: false
 
-    region.vm.provider "vmware_fusion" do |v, override|
+    region.vm.provider "vmware_fusion" do |v|
       v.gui = false
       v.linked_clone = true
       v.vmx["memsize"] = "2048"
@@ -46,7 +46,7 @@ Vagrant.configure("2") do |config|
     region.vm.network "private_network", ip: "172.28.128.3"
     region.vm.network "forwarded_port", guest: 2375, host: 2375
 
-    region.vm.provider "virtualbox" do |v, override|
+    region.vm.provider "virtualbox" do |v|
       v.linked_clone = true
       v.memory = 8000
       v.cpus = 4
@@ -72,9 +72,12 @@ Vagrant.configure("2") do |config|
       region.vm.synced_folder shome, shome
       region.vm.synced_folder "/tmp/vagrant", '/tmp/vagrant'
 
-      region.vm.provider "docker" do |v, override|
+      if nm_region == 0
+        region.vm.provision "shell", path: "script/cibuild", privileged: false
+      end
+
+      region.vm.provider "docker" do |v|
         if nm_region == 0
-          override.vm.provision "shell", path: "script/cibuild", privileged: false
           v.image = ENV['IMAGE'] || "ubuntu:packer"
           v.cmd = [ "bash", "-c", "install -d -m 0755 -o root -g root /var/run/sshd; exec /usr/sbin/sshd -D" ]
         else
@@ -113,7 +116,7 @@ Vagrant.configure("2") do |config|
       region.vm.synced_folder 'packages', '/vagrant/packages'
       region.vm.provision "shell", path: "script/cibuild", privileged: false
 
-      region.vm.provider "digital_ocean" do |v, override|
+      region.vm.provider "digital_ocean" do |v|
         v.ssh_key_name = "vagrant-#{Digest::MD5.file(ssh_key).hexdigest}"
         v.token = ENV['DIGITALOCEAN_API_TOKEN']
         v.size = '2gb'
@@ -132,7 +135,7 @@ Vagrant.configure("2") do |config|
       region.vm.synced_folder 'packages', '/vagrant/packages'
       region.vm.provision "shell", path: "script/cibuild", privileged: false
 
-      region.vm.provider "aws" do |v, override|
+      region.vm.provider "aws" do |v|
         v.keypair_name = "vagrant-#{Digest::MD5.file(ssh_key).hexdigest}"
         v.instance_type = 'c4.large'
         v.region = nm_region
