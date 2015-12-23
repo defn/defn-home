@@ -130,3 +130,6 @@
 # x11
 /.Xauthority
 /.rnd
+
+# bundler
+/.bundle
