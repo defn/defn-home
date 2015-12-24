@@ -27,7 +27,7 @@ Vagrant.configure("2") do |config|
   config.vm.define "osx" do |region|
     region.vm.box = "ubuntu"
     region.ssh.insert_key = false
-    region.vm.synced_folder shome, '/vagrant', type: "nfs"
+    region.vm.synced_folder shome, '/vagrant', type: "nfs", nfs_export: false, nfs_udp: false
     region.vm.provision "shell", path: "script/cibuild", privileged: false
 
     region.vm.provider "vmware_fusion" do |v|
@@ -41,9 +41,9 @@ Vagrant.configure("2") do |config|
   config.vm.define "fga" do |region|
     region.vm.box = "ubuntu"
     region.ssh.private_key_path = ssh_key
-    region.vm.synced_folder shome, '/vagrant', type: "nfs"
-    region.vm.synced_folder shome, shome, type: "nfs"
-    region.vm.synced_folder "/tmp/vagrant", '/tmp/vagrant', type: "nfs"
+    region.vm.synced_folder shome, '/vagrant', type: "nfs", nfs_export: false, nfs_udp: false
+    region.vm.synced_folder shome, shome, type: "nfs", nfs_export: false, nfs_udp: false
+    region.vm.synced_folder "/tmp/vagrant", '/tmp/vagrant', type: "nfs", nfs_export: false, nfs_udp: false
     region.vm.provision "shell", path: "script/cibuild", privileged: false
     region.vm.network "private_network", ip: "172.28.128.3"
     region.vm.network "forwarded_port", guest: 2375, host: 2375
