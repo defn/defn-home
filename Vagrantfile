@@ -2,6 +2,8 @@ require 'socket'
 
 shome=File.expand_path("..", __FILE__)
 
+Dir.mkdir("/tmp/vagrant") unless File.exists?("/tmp/vagrant") # TODO put this somewhere local
+
 Vagrant.configure("2") do |config|
   module Vagrant
     module Util
