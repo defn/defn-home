@@ -66,13 +66,6 @@ function cache_stuff {
   fi
 }
 
-function app_bootstrap {
-  local nm_log="$1"; shift
-
-  exec 2>&1
-  app bootstrap | tee "$nm_log"
-}
-
 function main {
   set -x; cd
 
@@ -92,8 +85,7 @@ function main {
 
   # bootstrap
   app clone
-  (set +x; require || true; set -x
-  app_bootstrap 1.log) # TODO bootstrap needs to source before calling stale
+  app bootstrap
 
   # fully source home
   set +x; require; set -x
