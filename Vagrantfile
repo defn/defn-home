@@ -33,7 +33,7 @@ Vagrant.configure("2") do |config|
     region.vm.provider "vmware_fusion" do |v|
       v.gui = false
       v.linked_clone = true
-      v.vmx["memsize"] = "2048"
+      v.vmx["memsize"] = "4096"
       v.vmx["numvcpus"] = "2"
     end
   end
@@ -50,7 +50,7 @@ Vagrant.configure("2") do |config|
 
     region.vm.provider "virtualbox" do |v|
       v.linked_clone = true
-      v.memory = 8000
+      v.memory = 4096
       v.cpus = 4
 
       if File.exists?('cidata.iso')
