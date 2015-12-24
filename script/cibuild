@@ -92,7 +92,8 @@ function main {
 
   # bootstrap
   app clone
-  app_bootstrap 1.log
+  (set +x; require || true; set -x
+  app_bootstrap 1.log) # TODO bootstrap needs to source before calling stale
 
   # fully source home
   set +x; require; set -x
