@@ -119,6 +119,7 @@
 # leiningen
 /.lein
 /.m2
+/.lein_history
 
 # letsencrupt
 /.local/share/letsencrypt
