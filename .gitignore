@@ -4,6 +4,9 @@
 /cache
 /*.log
 
+# overrides
+/.host-name
+
 # initial mass ignore
 /.ansible/
 /.bash_history
