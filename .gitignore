@@ -101,10 +101,6 @@
 # packer
 /.packer.d
 
-# vagrant
-/.vagrant.d
-/.vagrant
-
 # app
 /.bashrc.app
 /Blockfile.txt
