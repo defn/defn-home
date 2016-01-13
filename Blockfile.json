@@ -1,6 +1,6 @@
 {
   "require": [
-    "fga"
+    "fga",
     [
       "cue",
       "junas",
