@@ -17,6 +17,17 @@ function bootstrap_pkgsrc {
   pkg ensure x11/xtermset || true
   pkg ensure editors/vim
   pkg ensure devel/git
+
+  case "$(uname -s)" in
+    Darwin)
+      if [[ -x "$(which brew 1>&2 || true)" ]]; then
+        brew install runit htop
+      fi
+      ;;
+    Linux)
+      sudo aptitude install -y runit htop
+      ;;
+  esac
  }
 
 function home_bootstrap {
