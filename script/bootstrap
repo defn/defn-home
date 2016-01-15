@@ -2,7 +2,6 @@
 
 function bootstrap_pkgsrc {
   pkg ensure security/spiped
-  pkg ensure misc/tmux
   pkg ensure www/squid www/squid3
   pkg ensure devel/editline
   pkg ensure misc/rlwrap
@@ -15,8 +14,6 @@ function bootstrap_pkgsrc {
   pkg ensure databases/mongodb
   pkg ensure chat/irssi
   pkg ensure x11/xtermset || true
-  pkg ensure editors/vim
-  pkg ensure devel/git
  }
 
 function home_bootstrap {
