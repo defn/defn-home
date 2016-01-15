@@ -20,6 +20,7 @@ function main {
 
       local pth_cache="${BASEBOX_CACHE:-$shome}/cache/git/$hst_remote"
       if [[ -z "${GIT_CACHE}" && ! -f ~/.git_cache ]]; then
+        echo "INFO: updating git cache for ${pth_cache}/$nm_user/$nm_repo" 1>&2
         if [[ ! -d "${pth_cache}/$nm_user/$nm_repo" ]]; then
           mkdir -p "${pth_cache}/$nm_user"
           git clone --bare --mirror \
