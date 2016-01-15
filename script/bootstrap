@@ -6,7 +6,6 @@ function bootstrap_pkgsrc {
   pkg ensure www/squid www/squid3
   pkg ensure devel/editline
   pkg ensure misc/rlwrap
-  pkg ensure sysutils/runit
   pkg ensure sysutils/cdrtools
   pkg ensure www/nginx
   pkg ensure databases/redis
