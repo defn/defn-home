@@ -1,7 +1,6 @@
 # working areas
 /tmp
 /work
-/cache
 /*.log
 
 # overrides
@@ -78,8 +77,6 @@
 /install
 /tmp/pkgsrc
 /tmp/bootstrap
-/distfiles
-/packages
 
 # cue
 /.cue-scheme
