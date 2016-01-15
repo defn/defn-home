@@ -5,6 +5,7 @@ function profile {
 
   source "$shome/.profile.d/pkgsrc.pre"
   source "$shome/.profile.d/ruby.pre"
+  source "$shome/script/profile"
 }
 
 profile
