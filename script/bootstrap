@@ -21,11 +21,11 @@ function bootstrap_pkgsrc {
   case "$(uname -s)" in
     Darwin)
       if [[ -x "$(which brew 1>&2 || true)" ]]; then
-        brew install runit htop
+        brew install htop
       fi
       ;;
     Linux)
-      sudo aptitude install -y runit htop
+      sudo aptitude install -y htop
       ;;
   esac
  }
