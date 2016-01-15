@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 
 function main {
+  local shome="$(cd -P -- "${BASH_SOURCE%/*}/.." && pwd -P)"
+
   exec 9>&1 1>&2
   unset GIT_SSH GIT_DIR
   unset GIT_WORK_TREE GIT_PREFIX
@@ -16,7 +18,7 @@ function main {
       local nm_user="$(echo "$2" | cut -d/ -f1)"
       local nm_repo="$(echo "$2" | cut -d/ -f2)"
 
-      local pth_cache="$HOME/cache/git/$hst_remote"
+      local pth_cache="${BASEBOX_CACHE:$shome}/cache/git/$hst_remote"
       if [[ -z "${GIT_CACHE}" && ! -f ~/.git_cache ]]; then
         if [[ ! -d "${pth_cache}/$nm_user/$nm_repo" ]]; then
           mkdir -p "${pth_cache}/$nm_user"
