@@ -130,3 +130,5 @@
 # bundler
 /.bundle
 
+# cue
+/.name
