@@ -7,7 +7,8 @@ function main {
   PATH="$shome/bin:$shome/exec:$PATH"
   source "$shome/script/profile"
 
-  app runmany 10 'cd $1 && git pull && git push'
+  app runmany 10 'cd $1 && git pull && git push' || true
+  app runmany 10 'echo $1 $(cd $1 && gs)' | talign 3
 }
 
 source sub "$BASH_SOURCE" "$@"
