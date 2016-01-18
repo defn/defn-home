@@ -1,7 +1,7 @@
 {
   "require": [
     "basebox-cache",
-    "fga",
+    "box",
     [
       "cue",
       "junas",
