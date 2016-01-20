@@ -4,6 +4,7 @@ function bootstrap_pkgsrc {
   pkg ensure security/spiped
   pkg ensure chat/irssi
   pkg ensure x11/xtermset || true
+  pkg ensure misc/watch
  }
 
 function home_bootstrap {
