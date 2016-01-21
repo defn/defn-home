@@ -6,7 +6,7 @@ function main {
   local shome="$(cd -P -- "${BASH_SOURCE%/*}/.." && pwd -P)"
   source "$shome/script/profile"
 
-  local nm_host=""$(hostname -s)"
+  local nm_host="$(hostname -s)"
   if [[ -f "$shome/.host-name" ]]; then
     nm_host="$(cat "$shome/.host-name")"
   fi
