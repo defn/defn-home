@@ -14,7 +14,7 @@ function main {
   local nm_user="$(id -un)"
 
   cd "$shome/.ssh"
-  ssh-add "git-${nm_user}@${nm_host}" "ssh-${nm_user}@${nm_host}" "ssh-vagrant@${nm_host}" "ssh-vagrant-insecure"
+  ssh-add "git-${nm_user}@${nm_host}" "ssh-${nm_user}@${nm_host}" "ssh-vagrant" "ssh-vagrant-insecure"
 
 }
 

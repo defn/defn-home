@@ -17,6 +17,7 @@
 /.pentadactyl/
 /.ruby-version
 /.ssh/
+/.ssh-agent
 /.subversion/
 /.viminfo
 
