@@ -2,7 +2,14 @@ function configure_cue {
   : ${SHLVL_INITIAL:=0}
 
   function guess_scheme {
-    echo "${CUE_SCHEME:-${ITERM_PROFILE:-sdark}}"
+    case "${TERM_PROGRAM:-}" in
+      Apple_Terminal)
+        echo slight
+        ;;
+      *)
+        echo "${CUE_SCHEME:-${ITERM_PROFILE:-sdark}}"
+        ;;
+    esac
   }
 
   : ${CUE_SCHEME:="$(cat ~/.cue-scheme 2>&- || true)"}
