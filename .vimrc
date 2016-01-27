@@ -11,7 +11,7 @@ let cue_scheme=$CUE_SCHEME_VIM
 
 if cue_scheme == 'slight'
   " use the Solarized color scheme for light
-  colorscheme Solarized
+  colorscheme solarized
   set background=light
 else
   " use the xoria256 color scheme for dark
