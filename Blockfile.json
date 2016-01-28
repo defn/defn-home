@@ -12,21 +12,18 @@
     ],
     [
       "htop"
+      "rocco"
     ],
     [
       "leiningen"
-    ],
-    [
-      "ansible"
+      "ansible",
+      "poop"
     ],
     [
       "phoenix"
     ],
     [
       "letsencrypt"
-    ],
-    [
-      "rocco"
     ],
     [
       "lamda"
