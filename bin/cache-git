@@ -18,7 +18,7 @@ function main {
       local nm_user="$(echo "$2" | cut -d/ -f1)"
       local nm_repo="$(echo "$2" | cut -d/ -f2)"
 
-      local pth_cache="${BASEBOX_CACHE:-/vagrant/cache/git/$hst_remote}"
+      local pth_cache="${BASEBOX_CACHE:-/vagrant}/cache/git/$hst_remote"
       if [[ -z "${GIT_CACHE}" && ! -f ~/.git_cache ]]; then
         echo "INFO: updating git cache for ${pth_cache}/$nm_user/$nm_repo" 1>&2
         if [[ ! -d "${pth_cache}/$nm_user/$nm_repo" ]]; then
