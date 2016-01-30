@@ -1,32 +1,28 @@
 {
   "require": [
-    "basebox-cache",
-    "box",
     [
       "cue",
       "junas",
       "defn",
       "runmany",
       "deploy",
-      "context"
+      "context",
+      "htop"
     ],
     [
-      "htop",
-      "rocco"
-    ],
-    [
+      "rocco",
       "leiningen",
       "ansible",
       "poop"
     ],
     [
-      "phoenix"
-    ],
-    [
-      "letsencrypt"
-    ],
-    [
+      "phoenix",
+      "letsencrypt",
       "lamda"
+    ],
+    [
+      "basebox-cache",
+      "box"
     ]
   ]
 }
