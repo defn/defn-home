@@ -94,6 +94,7 @@
 
 # virtualbox
 /VirtualBox VMs
+/.config/VirtualBox
 
 # packer
 /.packer.d
