@@ -22,7 +22,8 @@
     ],
     [
       "basebox-cache",
-      "box"
+      "box",
+      "vagrant-shell"
     ]
   ]
 }
