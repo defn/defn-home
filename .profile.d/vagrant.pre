@@ -1,1 +1,1 @@
-export VAGRANT_HOME='/vagrant/home'
+export VAGRANT_HOME="/vagrant/home_$(hostname -s)"
