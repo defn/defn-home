@@ -6,7 +6,7 @@ function main {
 
   local nm_project="$1"; shift
   case "$nm_project" in
-    jq|pkgsrc|virtualbox|python|aws|gcloud|packer|vagrant|leiningen|ansible|erlang|elixir|phoenix|node|dnsimple|ruby|rocco|digitalocean|tugboat|docker|consul|openvpn|letsencrypt|redis|memcached|mysql|postgresql|sqlite|runit|htop|homebrew|dnsmasq|ssl|dtrace)
+    jq|pkgsrc|virtualbox|python|aws|gcloud|packer|vagrant|leiningen|ansible|erlang|elixir|phoenix|node|dnsimple|ruby|rocco|digitalocean|tugboat|docker|consul|openvpn|letsencrypt|redis|memcached|mysql|postgresql|sqlite|runit|htop|homebrew|dnsmasq|ssl|dtrace|go)
       echo "git@github.com:defn/app-$nm_project"
       ;;
     *)
