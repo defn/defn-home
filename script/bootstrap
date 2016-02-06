@@ -7,6 +7,7 @@ function bootstrap_pkgsrc {
   pkg ensure misc/watch
   pkg ensure sysutils/e2fsprogs
   pkg ensure shells/bash
+  pkg ensure sysutils/pv
  }
 
 function home_bootstrap {
