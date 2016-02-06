@@ -8,7 +8,8 @@
       "deploy",
       "context",
       "htop",
-      "dtrace"
+      "dtrace",
+      "github"
     ],
     [
       "rocco",
