@@ -135,3 +135,6 @@
 
 # cue
 /.name
+
+# vagrant
+/.vagrant.d
