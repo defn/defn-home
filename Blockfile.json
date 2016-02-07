@@ -24,8 +24,8 @@
       "lamda"
     ],
     [
-      "basebox-cache",
-      "box",
+      "cache",
+      "limbo",
       "vagrant-shell"
     ]
   ]
