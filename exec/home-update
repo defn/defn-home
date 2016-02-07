@@ -1,14 +1,15 @@
 #!/usr/bin/env bash
 
-umask 022
-
 function main {
   local shome="$(cd -P -- "${BASH_SOURCE%/*}/.." && pwd -P)"
-  PATH="$shome/bin:$shome/exec:$PATH"
   source "$shome/script/profile"
 
-  app runmany 10 'cd $1 && git pull && git push' || true
-  app runmany 10 'echo $1 $(cd $1 && gs)' | talign 3
+  local many="${1:-10}"
+  
+  umask 022
+
+  app runmany "$many" 'cd $1 && git pull && git push' || true
+  app runmany "$many" 'echo $1 $(cd $1 && gs)' | talign 3
 }
 
 source sub "$BASH_SOURCE" "$@"
