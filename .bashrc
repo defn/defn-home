@@ -22,7 +22,7 @@ function configure_cue {
 
 function bashrc {
   local shome="$(cd -P -- "$(dirname "${BASH_SOURCE}")" && pwd -P)"
-  source "$shome/work/app/script/profile"
+  source "$shome/work/block/script/profile"
 
   if tty >/dev/null 2>&1; then
     require
