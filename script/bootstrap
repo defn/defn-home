@@ -14,8 +14,6 @@ function home_bootstrap {
   local shome="$(cd -P -- "${BASH_SOURCE%/*}/.." && pwd -P)"
   source "$shome/script/profile"
 
-  app clone
-
   "$shome/script/update"
   source "$shome/script/profile"
 
