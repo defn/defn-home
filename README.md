@@ -1,5 +1,8 @@
-Setup
-=====
+Architect, implement, administer developer workstation environment to
+production aws vpc infrastructure.  Single source build scripts on
+vmware fusion (osx); ubuntu on virtualbox, docker, aws, digital ocean,
+linode, and bare-metal packet.net.
 
-For bash, source `script/profile` to expose utilities in the `home`
-project.  Requires the `defn/app` project installed and sourced.
+Development of tools to monitor, repair, and scale; systems for project
+stages through development, testing, and deployment, with zero/low
+downtime maintenance/migrations.
