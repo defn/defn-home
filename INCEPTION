@@ -1,40 +1,40 @@
-+--------------------------------------------------------------------------------------------------------------------------
-|osx ------->> 4017 pts/0    S+     0:00 ssh -F /Users/defn/work/vagrant/.vagrant-limbo-ssh-config limbo >----------------+
-|+--------------- 1 ?        Ss     0:01 /sbin/init                                                                       |
-||virtualbox    436 ?        S      0:00 upstart-udev-bridge --daemon                                                     |
-||              441 ?        Ss     0:00 /lib/systemd/systemd-udevd --daemon                                              |
-||              591 ?        Ss     0:00 rpcbind                                                                          |
-||              636 ?        Ss     0:00 rpc.statd -L                                                                     |
-||              641 ?        S      0:00 upstart-socket-bridge --daemon                                                   |
-||              745 ?        Ss     0:00 dhclient -1 -v -pf /run/dhclient.eth0.pid -lf /var/lib/dhcp/dhclient.eth0.leases eth0
-||              851 ?        Ss     0:02 dbus-daemon --system --fork                                                      |
-||             2101 ?        Ss     0:00 /usr/sbin/sshd -D                                                                |
-||             2477 ?        Ss     0:00  \_ sshd: ubuntu [priv] <--------------------------------------------------------+
-||             2495 ?        S      0:00  |   \_ sshd: ubuntu@pts/0  
-||             2496 pts/0    Ss     0:00  |       \_ -bash
-||+--------->> 4017 pts/0    S+     0:00  |           \_ ssh -F /home/ubuntu/work/vagrant/.vagrant-box100-ssh-config box100
-|||docker       865 ?        Ssl    0:25 /usr/bin/docker daemon -H tcp://0.0.0.0: --storage-driver=devicemapper           v
-|||+---------+ 3370 ?        Ss     0:00  \_ /usr/sbin/sshd -D                                                            |
-||||box100   | 4042 ?        Ss     0:00      \_ sshd: ubuntu [priv] <----------------------------------------------------+
-||||         | 4053 ?        S      0:00      |   \_ sshd: ubuntu@pts/0  
-||||         | 4054 pts/0    Ss     0:00      |       \_ -bash
-|||+------->> 15111 pts/0    S+     0:00      |           \_ ssh -F /home/ubuntu/work/vagrant/.vagrant-box100-ssh-config box100
-||||dind       5006 ?        Sl     1:47      \_ /usr/bin/docker daemon -p /var/run/docker.pid -H tcp://0.0.0.0: --storage-driver=devicemapper
-||||+-------+ 14485 ?        Ss     0:00          \_ /usr/sbin/sshd -D                                                    |
-|||||box100 | 15136 ?        Ss     0:00              \_ sshd: ubuntu [priv] <--------------------------------------------+
-|||||       | 15147 ?        S      0:00              |   \_ sshd: ubuntu@pts/0  
-|||||       | 15148 pts/0    Ss     0:00              |       \_ -bash
-||||+------>> 27887 pts/0    S+     0:00              |           \_ ssh -F /home/ubuntu/work/vagrant/.vagrant-box1-ssh-config box1
-|||||dind^2   15901 ?        Sl     1:47              \_ /usr/bin/docker daemon -p /var/run/docker.pid -H tcp://0.0.0.0: --storage-driver=devicemapper
-|||||+------+ 27266 ?        Ss     0:00                  \_ /usr/sbin/sshd -D                                            |
-||||||box1  | 27912 ?        Ss     0:00                      \_ sshd: ubuntu [priv] <------------------------------------+
-||||||      | 27923 ?        S      0:00                          \_ sshd: ubuntu@pts/0  
-||||||      | 27924 pts/0    Ss     0:00                              \_ -bash
-|||||+------+ 30407 pts/0    S+     0:00                                  \_ sleep 8888
-||||+----------------------------------- dind^2
-|||+---------------------------------------- dind
-||+--------------------------------------------- docker
-|+-------------------------------------------------- virtualbox
-+------------------------------------------------------- osx
++-----------------------------------------------------------------------------------------------------------------------------------------------------------+
+|osx ------->> 4017 pts/0    S+     0:00 ssh -F /Users/defn/work/vagrant/.vagrant-limbo-ssh-config limbo -v                                                 |
+|+--------------- 1 ?        Ss     0:01 /sbin/init ------------------------------------------------------|------------------------------------------------+|
+||virtualbox    436 ?        S      0:00 upstart-udev-bridge --daemon                                     |                                                ||
+||              441 ?        Ss     0:00 /lib/systemd/systemd-udevd --daemon                              |                                                ||
+||              591 ?        Ss     0:00 rpcbind                                                          |                                                ||
+||              636 ?        Ss     0:00 rpc.statd -L                                                     |                                                ||
+||              641 ?        S      0:00 upstart-socket-bridge --daemon                                   |                                                ||
+||              745 ?        Ss     0:00 dhclient -1 -v -pf /run/dhclient.eth0.pid -lf /var/lib/dhcp/dhclient.eth0.leases eth0                             ||
+||              851 ?        Ss     0:02 dbus-daemon --system --fork                                      |                                                ||
+||             2101 ?        Ss     0:00 /usr/sbin/sshd -D                                                |                                                ||
+||             2477 ?        Ss     0:00  \_ sshd: ubuntu [priv] <----------------------------------------+                                                ||
+||             2495 ?        S      0:00  |   \_ sshd: ubuntu@pts/0                                                                                        ||
+||             2496 pts/0    Ss     0:00  |       \_ -bash                                                                                                 ||
+||+----------- 4017 pts/0    S+     0:00  |           \_ ssh -F /home/ubuntu/work/vagrant/.vagrant-box100-ssh-config box100 -v                             ||
+|||docker       865 ?        Ssl    0:25 /usr/bin/docker daemon -H tcp://0.0.0.0: --storage-driver=devicemapper -------------|----------------------------+||
+|||---------+  3370 ?        Ss     0:00  \_ /usr/sbin/sshd -D                                                               |                            |||
+|||box100   |  4042 ?        Ss     0:00      \_ sshd: ubuntu [priv] <-------------------------------------------------------+                            |||
+|||         |  4053 ?        S      0:00      |   \_ sshd: ubuntu@pts/0                                                                                   |||
+|||         |  4054 pts/0    Ss     0:00      |       \_ -bash                                                                                            |||
+|||---------+  5111 pts/0    S+     0:00      |           \_ ssh -F /home/ubuntu/work/vagrant/.vagrant-box100-ssh-config box100 -v                        ||| 
+||||dind       5006 ?        Sl     1:47      \_ /usr/bin/docker daemon -p /var/run/docker.pid -H tcp://0.0.0.0: --storage-driver=devicemapper ----------+|||
+||||--------+  4485 ?        Ss     0:00          \_ /usr/sbin/sshd -D                                                           |                       ||||
+||||box100  |  5136 ?        Ss     0:00              \_ sshd: ubuntu [priv] <---------------------------------------------------+                       ||||
+||||        |  5147 ?        S      0:00              |   \_ sshd: ubuntu@pts/0                                                                          ||||
+||||        |  5148 pts/0    Ss     0:00              |       \_ -bash                                                                                   ||||
+||||--------+  7887 pts/0    S+     0:00              |           \_ ssh -F /home/ubuntu/work/vagrant/.vagrant-box1-ssh-config box1 -v                   ||||
+|||||dind^2    5901 ?        Sl     1:47              \_ /usr/bin/docker daemon -p /var/run/docker.pid -H tcp://0.0.0.0: --storage-driver=devicemapper -+||||
+|||||-------+  7266 ?        Ss     0:00                  \_ /usr/sbin/sshd -D                                                       |                  |||||
+|||||box1   |  7912 ?        Ss     0:00                      \_ sshd: ubuntu [priv] <-----------------------------------------------+                  |||||
+|||||       |  7923 ?        S      0:00                          \_ sshd: ubuntu@pts/0                                                                 |||||
+|||||       |  7924 pts/0    Ss     0:00                              \_ -bash                                                                          |||||
+|||||-------+  0407 pts/0    S+     0:00                                  \_ sleep 8888                                                                 |||||
+||||+----------------------------------- dind^2 --------------------------------------------------------------------------------------------------------+||||
+|||+---------------------------------------- dind -------------------------------------------------------------------------------------------------------+|||
+||+--------------------------------------------- docker --------------------------------------------------------------------------------------------------+||
+|+-------------------------------------------------- virtualbox -------------------------------------------------------------------------------------------+|
++------------------------------------------------------- osx -----------------------------------------------------------------------------------------------+
 
 
