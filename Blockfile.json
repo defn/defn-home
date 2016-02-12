@@ -26,6 +26,10 @@
     [
       "cache",
       "limbo"
+    ],
+    [
+      "it",
+      "defn.github.io"
     ]
   ]
 }
