@@ -3,13 +3,14 @@
 function main {
   local shome="$(cd -P -- "${BASH_SOURCE%/*}/.." && pwd -P)"
   source "$shome/script/profile"
-
-  local many="${1:-10}"
   
   umask 022
 
-  app runmany "$many" 'cd $1 && git pull && git push' || true
-  app runmany "$many" 'echo $1 $(cd $1 && gs)' | talign 3
+  local many="${1:-10}"
+  
+  block runmany "$many" 'cd $1 && git pull && git push' || true
+  block clone
+  block runmany "$many" 'echo $1 $(cd $1 && gs)' | talign 3
 }
 
 source sub "$BASH_SOURCE" "$@"
