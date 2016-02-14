@@ -1,5 +1,6 @@
 {
   "require": [
+    "block",
     [
       "cue",
       "junas",
