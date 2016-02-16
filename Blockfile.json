@@ -10,7 +10,8 @@
       "context",
       "htop",
       "dtrace",
-      "github"
+      "github",
+      "facts"
     ],
     [
       "docs",
@@ -31,9 +32,6 @@
     [
       "it",
       "defn.github.io"
-    ],
-    [
-      "chef"
     ]
   ]
 }
