@@ -60,6 +60,7 @@
 /.htoprc
 
 # aws
+/.aws
 /.saws.log
 /.sawsrc
 /.saws-history
