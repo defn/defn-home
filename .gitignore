@@ -138,3 +138,7 @@
 
 # vagrant
 /.vagrant.d
+
+# reviewboard
+/.rbtools-cookies
+/.reviewboardrc
