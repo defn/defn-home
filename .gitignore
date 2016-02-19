@@ -130,6 +130,7 @@
 # x11
 /.Xauthority
 /.rnd
+/.serverauth*
 
 # bundler
 /.bundle
@@ -143,3 +144,7 @@
 # reviewboard
 /.rbtools-cookies
 /.reviewboardrc
+
+# xmonad
+/.cabal/
+/.ghc/
