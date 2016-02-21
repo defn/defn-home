@@ -15,7 +15,6 @@
 /.irssi/
 /.lesshst
 /.pentadactyl/
-/.ruby-version
 /.ssh/
 /.ssh-agent
 /.subversion/
@@ -130,6 +129,7 @@
 # x11
 /.Xauthority
 /.rnd
+/.serverauth*
 
 # bundler
 /.bundle
@@ -143,3 +143,7 @@
 # reviewboard
 /.rbtools-cookies
 /.reviewboardrc
+
+# xmonad
+/.cabal/
+/.ghc/

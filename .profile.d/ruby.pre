@@ -3,7 +3,7 @@
 function home_pkg {
   local shome="$(cd -P -- "${BASH_SOURCE%/*}/.." && pwd -P)"
 
-  export RBENV_VERSION="2.2.4"
+  #export RBENV_VERSION="2.2.4"
 }
 
 home_pkg
