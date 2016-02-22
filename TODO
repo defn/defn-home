@@ -1,20 +1,24 @@
+Manual security items:
 lock desktop immediately
 encrypt hard disk
-apply updates
 
-install xcode tools
+Provide script to install xcode tools, apply updates
+
+Install these from app store:
+
 1password
 slack
 keyboard maestro
 
-chrome
-iterm
-sizeup
-firefox 44
-little snitch
-xquartz
-haskell platform
-java
+Find download URL for chrome
 
-tunnelblick
+Turn these into blocks:
 
+https://tunnelblick.net/release/Tunnelblick_3.5.7_build_4270.4517.dmg
+https://ftp.mozilla.org/pub/firefox/releases/44.0.2/mac/en-US/Firefox%2044.0.2.dmg
+https://dl.bintray.com/xquartz/legacy-downloads/SL/XQuartz-2.7.8.dmg
+https://haskell.org/platform/download/7.10.3/Haskell%20Platform%207.10.3%2064bit.pkg
+https://www.obdev.at/downloads/littlesnitch/LittleSnitch-3.6.3.dmg
+https://iterm2.com/downloads/beta/iTerm2-2_9_20160206.zip
+http://www.irradiatedsoftware.com/downloads/?file=SizeUp.zip
+http://www.shirt-pocket.com/downloads/SuperDuper!.dmg
