@@ -37,7 +37,7 @@ function main {
         hst_cache="${http_proxy#*/}"
         hst_cache="${hst_cache%%:*}"
       fi
-      exec /usr/bin/ssh -u defn "$hst_cache" "cd ${pth_cache} && $*" 1>&9 # TODO better way to find user@cache
+      exec /usr/bin/ssh -l defn "$hst_cache" "cd ${pth_cache} && $*" 1>&9 # TODO better way to find user@cache
       ;;
 
     *)
