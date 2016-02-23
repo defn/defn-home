@@ -32,7 +32,12 @@ function main {
         popd >/dev/null
       fi
 
-      exec /usr/bin/ssh localhost "cd ${pth_cache} && $*" 1>&9
+      local hst_cache="localhost"
+      if [[ -n "${http_proxy:-}" ]]; then
+        hst_cache="${http_proxy#*/}"
+        hst_cache="${hst_cache%%:*}"
+      fi
+      exec /usr/bin/ssh -u defn "$hst_cache" "cd ${pth_cache} && $*" 1>&9 # TODO better way to find user@cache
       ;;
 
     *)
