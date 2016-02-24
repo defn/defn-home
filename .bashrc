@@ -29,8 +29,8 @@ function bashrc {
   if tty >/dev/null 2>&1; then
     require
     configure_cue
-    set +exfu
   fi
 }
 
 bashrc || echo WARNING: "Something's wrong with .bashrc"
+set +exfu
