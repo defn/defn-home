@@ -30,3 +30,5 @@ function vim {
 function vi {
   vim "$@"
 }
+
+export EDITOR=vim
