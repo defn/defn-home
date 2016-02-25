@@ -147,3 +147,6 @@
 # xmonad
 /.cabal/
 /.ghc/
+
+# chef
+/.chefdk
