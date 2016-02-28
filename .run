@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+umask 022
+cd
+source .bashrc
+require
+exec "$@"
