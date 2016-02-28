@@ -41,4 +41,3 @@ function bashrc {
 }
 
 bashrc || echo WARNING: "Something's wrong with .bashrc"
-set +exfu
