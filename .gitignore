@@ -150,3 +150,6 @@
 
 # chef
 /.chefdk
+
+# berkshelf
+/.berkshelf
