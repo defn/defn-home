@@ -2,7 +2,6 @@
 
 function profile {
   local shome="$(cd -P -- "${BASH_SOURCE%/*}/.." && pwd -P)"
-
   source "$shome/.profile.d/pkgsrc.pre"
   source "$shome/.profile.d/ruby.pre"
   source "$shome/script/profile"
