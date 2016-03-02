@@ -153,3 +153,6 @@
 
 # berkshelf
 /.berkshelf
+
+# gnupg
+/.gnupg
