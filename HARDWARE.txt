@@ -1,29 +1,22 @@
-27-inch iMac with Retina 5K display
+27" iMac with Retina 5K display
 
-    3.2GHz quad-core Intel Core i5
-    16GB 1867MHz DDR3 SDRAM
-    256GB Flash Storage
-    Magic Mouse 2
-    Magic Keyboard
-    AppleCare
+    Quad CPU
+    32GB Memory
+    2TB Fusion Drive
 
-$2390
+22" System76 Sable
+    Quad CPU
+    16GB Memory
+    250GB SSD
 
-Kangaroo Mobile Desktop computer
-    Intel Atom x5-Z8500
-    54GB LPDDR3
-    64GB eMMC
-
-$170 x 4 = $680
+Keyboard Switch
 
 Solution Keyboard Platform
     https://www.kinesis-ergo.com/shop/solution-keyboard-platform-system/
     26" tray, 17" arm
 
-$230
-
 Advantage LF
     https://www.kinesis-ergo.com/shop/advantage-lf-for-pc-mac/
     
-$325
+Raspberry Pi Array
 
