@@ -156,3 +156,6 @@
 
 # get
 /.wget-hsts
+
+# gnupg
+/.gnupg
