@@ -160,3 +160,6 @@
 
 # gnupg
 /.gnupg
+
+# babel
+/.babel.json
