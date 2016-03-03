@@ -1,5 +1,7 @@
 #!/bin/bash
 
+export TERM='xterm-256color'
+
 cd
 
 xsetroot -solid '#000000'
