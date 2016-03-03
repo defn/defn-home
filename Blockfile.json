@@ -1,6 +1,13 @@
 {
   "require": [
-    "block",
+    [
+      "block",
+      "kit"
+    ],
+    [
+      "xcode",
+      "tunnelblick"
+    ],
     [
       "cue",
       "junas",
@@ -11,23 +18,22 @@
       "htop",
       "dtrace",
       "github",
-      "facts"
-    ],
-    [
+      "facts",
       "docs",
-      "leiningen",
+      "gandalf",
       "ansible",
-      "poop",
-      "kit"
+      "cache"
     ],
     [
+      "limbo"
+    ],
+    [
+      "rbtools",
+      "leiningen",
+      "poop",
       "phoenix",
       "letsencrypt",
       "lamda"
-    ],
-    [
-      "cache",
-      "limbo"
     ],
     [
       "it",
