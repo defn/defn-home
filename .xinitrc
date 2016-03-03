@@ -9,7 +9,10 @@ xmodmap .Xmodmap
 xset b 0
 xset r rate 250 60
 
-xterm -ls +sb -fb fixed &
-xterm -ls +sb -fb fixed &
-
-exec ~/Library/Haskell/bin/xmonad
+if [[ -x ~/Library/Haskell/bin/xmonad ]]; then
+  xterm -ls +sb -fb fixed &
+  xterm -ls +sb -fb fixed &
+  exec ~/Library/Haskell/bin/xmonad
+else
+  exec xterm -ls +sb -fb fixed
+fi
