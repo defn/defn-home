@@ -113,6 +113,7 @@
 
 # secrets
 /exec/home_secret
+/.profile.d/*-secret
 
 # leiningen
 /.lein
