@@ -39,7 +39,8 @@
       "defn.github.io"
     ],
     [
-      "sbt"
+      "sbt",
+      "reviewboard"
     ]
   ]
 }
