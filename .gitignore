@@ -76,9 +76,6 @@
 # java
 /.oracle_jre_usage
 
-# java build
-/.ivy2
-
 # pkgsrc
 /install
 /tmp/pkgsrc
@@ -169,3 +166,4 @@
 
 # sbt
 /.sbt
+/.ivy2/.sbt*
