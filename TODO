@@ -22,3 +22,5 @@ https://www.obdev.at/downloads/littlesnitch/LittleSnitch-3.6.3.dmg
 https://iterm2.com/downloads/beta/iTerm2-2_9_20160206.zip
 http://www.irradiatedsoftware.com/downloads/?file=SizeUp.zip
 http://www.shirt-pocket.com/downloads/SuperDuper!.dmg
+
+make sure bootstrap, etc. respect .profile.d/
