@@ -76,6 +76,9 @@
 # java
 /.oracle_jre_usage
 
+# java build
+/.ivy2
+
 # pkgsrc
 /install
 /tmp/pkgsrc
@@ -163,3 +166,6 @@
 
 # babel
 /.babel.json
+
+# sbt
+/.sbt
