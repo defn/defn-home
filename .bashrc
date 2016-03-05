@@ -23,9 +23,9 @@ function configure_cue {
 function bashrc {
   local shome="$(cd -P -- "$(dirname "${BASH_SOURCE}")" && pwd -P)"
 
-  export APP_PATH="$shome/work"
-  if [[ -f "$APP_PATH/block/script/profile" ]]; then
-    pushd "$APP_PATH/block" > /dev/null
+  export BLOCK_PATH="$shome/work"
+  if [[ -f "$BLOCK_PATH/block/script/profile" ]]; then
+    pushd "$BLOCK_PATH/block" > /dev/null
     source "script/profile"
     require
     popd > /dev/null
