@@ -8,9 +8,9 @@ function main {
 
   local many="${1:-10}"
   
-  block runmany "$many" 'cd $1 && git pull && gs' || true
+  block runmany "$many" 'cd $1 && git pull' || true
   block clone
-  block runmany "$many" 'cd $1 && git pull && gs' || sort | talign 3
+  block runmany "$many" 'cd $1 && gs' || sort | talign 3
 }
 
 source sub "$BASH_SOURCE" "$@"
