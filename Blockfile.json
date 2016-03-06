@@ -40,7 +40,8 @@
     ],
     [
       "sbt",
-      "reviewboard"
+      "reviewboard",
+      "master:isomorphic-clojurescript-reagent-node"
     ]
   ]
 }
