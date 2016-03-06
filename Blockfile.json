@@ -41,7 +41,7 @@
     [
       "sbt",
       "reviewboard",
-      "master:isomorphic-clojurescript-reagent-node"
+      "isomorphic-clojurescript-reagent-node"
     ]
   ]
 }
