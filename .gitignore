@@ -166,3 +166,7 @@
 # sbt
 /.sbt
 /.ivy2/.sbt*
+
+# cljs
+/hello
+/bye
