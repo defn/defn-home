@@ -5,7 +5,6 @@ function profile {
   PATH="$shome/bin:$shome/exec:$shome/node_modules/.bin:$PATH"
 
   source home_terminal
-  source home_cache
 
   if [[ -e "$shome/exec/home_secret" ]]; then
     source home_secret
