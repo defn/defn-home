@@ -1,9 +1,0 @@
-#!/usr/bin/env bash
-
-function home_cache {
-  if [[ -n "${http_proxy:-}" ]]; then # TODO find better way to set GIT_SSH
-    export GIT_SSH="$(which cache-git 2>&- || echo ssh)"
-  fi
-}
-
-home_cache
