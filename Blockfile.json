@@ -44,7 +44,8 @@
       "reviewboard",
       "isomorphic-clojurescript-reagent-node",
       "rust",
-      "cljs"
+      "cljs",
+      "linkerd"
     ]
   ]
 }
