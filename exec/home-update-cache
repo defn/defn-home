@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+
+function main {
+  local shome="$(cd -P -- "${BASH_SOURCE%/*}/.." && pwd -P)"
+  source "$shome/script/profile"
+  
+  umask 022
+
+  local many="${1:-10}"
+  
+  cd "${BASEBOX_CACHE}/cache/git"
+  runmany "$many" 'cd $1 && git fetch --all' */*/*
+}
+
+source sub "$BASH_SOURCE" "$@"
