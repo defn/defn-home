@@ -1,7 +1,8 @@
 {
   "require": [
     [
-      "defn-config"
+      "defn-config",
+      "scripts-to-rule-them-all"
     ],
     [
       "cache",
