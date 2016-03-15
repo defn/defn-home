@@ -1,3 +1,5 @@
+PATH="$(echo $PATH | tr ':' '\n' | sort -u | grep -v "$HOME" | grep -v "${PKG_HOME:-dont-find-anything}" | perl -ne '$m||={}; $$m{$_}++; if ($$m{$_}) { print "$_"; }' | perl -pe 's{\s+$}{:}')"
+
 function configure_cue {
   : ${SHLVL_INITIAL:=0}
 
