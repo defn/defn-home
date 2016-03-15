@@ -1,8 +1,9 @@
 [user]
-	name = Tom Bombadil
-	email = amanibhavam@destructuring.org
+  name = Tom Bombadil
+  email = amanibhavam@destructuring.org
 [push]
-	default = simple
+  default = simple
 [url "git@github.com:"]
-	insteadOf = git://github.com/
-	insteadOf = https://github.com/
+  insteadOf = git://github.com/
+  insteadOf = https://github.com/
+  insteadOf = ssh://git@github.com/
