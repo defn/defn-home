@@ -1,6 +1,6 @@
 defn-config ${BLOCK_PATH}/defn-config git@github.com:defn/defn-config 1415caf8118552ae6df9ff79f022a4c7cced157b master
 scripts-to-rule-them-all ${BLOCK_PATH}/scripts-to-rule-them-all git@github.com:defn/scripts-to-rule-them-all 7f5e884d6f7f225ae2a5829fed1d514ae82c5476 master
-cache ${BLOCK_PATH}/cache git@github.com:defn/cache 45d015bd4ae6e298bef4be3564ea8a945dbcabde master
+cache ${BLOCK_PATH}/cache git@github.com:defn/cache f96d71acb13ec2aa0309b9077d5b9f4876e19dda master
 sub ${BLOCK_PATH}/sub git@github.com:defn/sub a2796df0644dfa73ecbdd1eb5c1226b64940bda5 master
 runmany ${BLOCK_PATH}/runmany git@github.com:defn/runmany a87301c1739f93f15ce40c929e426f335caf3869 master
 block ${BLOCK_PATH}/block git@github.com:defn/block f020091cbc1a71bf968e991b2770bddb1546a6ce master
