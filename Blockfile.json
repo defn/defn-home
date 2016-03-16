@@ -49,6 +49,7 @@
       "rust",
       "cljs",
       "linkerd"
-    ]
+    ],
+    "iamdefn/voltron"
   ]
 }
