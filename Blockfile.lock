@@ -2,7 +2,8 @@ defn-config ${BLOCK_PATH}/defn-config git@github.com:defn/defn-config d5c1a66543
 scripts-to-rule-them-all ${BLOCK_PATH}/scripts-to-rule-them-all git@github.com:defn/scripts-to-rule-them-all 7f5e884d6f7f225ae2a5829fed1d514ae82c5476 master
 cache ${BLOCK_PATH}/cache git@github.com:defn/cache 52008e088f04c6fe198b4e72917f70cdba3d858f master
 sub ${BLOCK_PATH}/sub git@github.com:defn/sub a2796df0644dfa73ecbdd1eb5c1226b64940bda5 master
-block ${BLOCK_PATH}/block git@github.com:defn/block f330b1d31f3d05a63f830d2012d6f06c6a6f3b76 master
+runmany ${BLOCK_PATH}/runmany git@github.com:defn/runmany a87301c1739f93f15ce40c929e426f335caf3869 master
+block ${BLOCK_PATH}/block git@github.com:defn/block b5b35565a7903b6f46f8652752806bab0a4fc7b7 master
 board ${BLOCK_PATH}/board git@github.com:defn/board 8b542d7cc54bd274b58da4accb3648d2083e1100 master
 kit ${BLOCK_PATH}/kit git@github.com:defn/kit a8f27903101e6f6c667ced10d99bc8b8d05f5433 master
 xcode ${BLOCK_PATH}/xcode git@github.com:defn/xcode 7c76b8252095a7c7002aeb2ad264cb5e4a22cb05 master
@@ -10,7 +11,6 @@ tunnelblick ${BLOCK_PATH}/tunnelblick git@github.com:defn/tunnelblick a1ff7d775c
 cue ${BLOCK_PATH}/cue git@github.com:defn/cue 50885f087daba21069b9715017b15a8503c51bc5 master
 junas ${BLOCK_PATH}/junas git@github.com:defn/junas 80ba67e65a67d1f0816ad58f30d42a23c10ec253 master
 defn ${BLOCK_PATH}/defn git@github.com:defn/defn 2d867d873b65f3c829bf88eb65ac7e11e7664441 master
-runmany ${BLOCK_PATH}/runmany git@github.com:defn/runmany a87301c1739f93f15ce40c929e426f335caf3869 master
 deploy ${BLOCK_PATH}/deploy git@github.com:defn/deploy 8d54362210948316fcf68bc20029f7050c7557de master
 context ${BLOCK_PATH}/context git@github.com:defn/context e7c7401a60539a1dbd415dae0a02e09a8e5f6984 master
 homebrew ${BLOCK_PATH}/homebrew git@github.com:defn/homebrew 312f151b0df1be020a32eea7978ad507b400e0b9 master
