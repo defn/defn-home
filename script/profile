@@ -10,6 +10,8 @@ function profile {
     source home_secret
   fi
 
+  export SVDIR="$shome/service"
+
   source "$shome/script/rc"
 }
 

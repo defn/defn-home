@@ -2,9 +2,10 @@
 
 function home_update {
   local shome="$(cd -P -- "${BASH_SOURCE%/*}/.." && pwd -P)"
-
   source "$shome/script/profile"
-  "$shome/script/clean"
+
+  mkdir -p "$SVDIR"
+  ln -nfs "$BLOCK_PATH/limbo/sv/squid" "$SVDIR/squid"
 }
 
 home_update "$@"
