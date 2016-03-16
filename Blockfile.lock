@@ -2,7 +2,7 @@ defn-config /Users/defn/work/defn-config git@github.com:defn/defn-config d5c1a66
 scripts-to-rule-them-all /Users/defn/work/scripts-to-rule-them-all git@github.com:defn/scripts-to-rule-them-all 7f5e884d6f7f225ae2a5829fed1d514ae82c5476 master
 cache /Users/defn/work/cache git@github.com:defn/cache 52008e088f04c6fe198b4e72917f70cdba3d858f master
 sub /Users/defn/work/sub git@github.com:defn/sub a2796df0644dfa73ecbdd1eb5c1226b64940bda5 master
-block /Users/defn/work/block git@github.com:defn/block c0a36ee5476d39c8b3b8817c98fe13a289fb12b9 master
+block /Users/defn/work/block git@github.com:defn/block f330b1d31f3d05a63f830d2012d6f06c6a6f3b76 master
 board /Users/defn/work/board git@github.com:defn/board 8b542d7cc54bd274b58da4accb3648d2083e1100 master
 kit /Users/defn/work/kit git@github.com:defn/kit a8f27903101e6f6c667ced10d99bc8b8d05f5433 master
 xcode /Users/defn/work/xcode git@github.com:defn/xcode 7c76b8252095a7c7002aeb2ad264cb5e4a22cb05 master
@@ -85,4 +85,3 @@ iamdefn/blue /Users/defn/work/blue git@github.com:iamdefn/blue 7924b44ef904fa118
 iamdefn/earth /Users/defn/work/earth git@github.com:iamdefn/earth cded341679f6f55ce3205b9832d9f199e44b937a master
 iamdefn/yellow /Users/defn/work/yellow git@github.com:iamdefn/yellow e0302aac133b86bf9bfab44e1aeaca294aa4082f master
 iamdefn/voltron /Users/defn/work/voltron git@github.com:iamdefn/voltron 5848e9cafb27f0f86b75e5f202c4feeda09dc245 master
-home /Users/defn git@github.com:defn/home b46d5c4e8523b7115b43888ae8cba2fb564a8f08 master
