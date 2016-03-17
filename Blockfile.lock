@@ -58,7 +58,7 @@ limbo ${BLOCK_PATH}/limbo git@github.com:defn/limbo 8f793279eb3d0df01a22dd95ac7f
 rbtools ${BLOCK_PATH}/rbtools git@github.com:defn/rbtools 9cd26ee9c15c0a09b3e2be933733ba43313402c1 master
 leiningen ${BLOCK_PATH}/leiningen git@github.com:defn/leiningen 6c1440294ed77ccd7df2d62f0aff5965685648e9 master
 poop ${BLOCK_PATH}/poop git@github.com:defn/poop b1f53d84bd554d0136d366403929211bba97cec5 master
-node ${BLOCK_PATH}/node git@github.com:defn/node a01ad667bae63cb11ee2ddcc5e933b9607971b2c master
+node ${BLOCK_PATH}/node git@github.com:defn/node fb0438c22d0e611e62cff2e3cf7d656f9c8bb748 master
 postgresql ${BLOCK_PATH}/postgresql git@github.com:defn/postgresql 8206fa15fcaf0971950ad569397850fbfde71c5d master
 erlang ${BLOCK_PATH}/erlang git@github.com:defn/erlang e1f5f30bb0782609642619b43baef4c3f60b95a4 master
 elixir ${BLOCK_PATH}/elixir git@github.com:defn/elixir 9e096beed017f231e766dc1bcfd5dd1399d2023d master
