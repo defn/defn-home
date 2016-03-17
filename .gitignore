@@ -41,6 +41,7 @@
 /node_modules
 /npm-debug.log
 /.v8flags.*.json
+/.npmrc
 
 # bower
 /.config/configstore
