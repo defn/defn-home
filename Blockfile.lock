@@ -18,7 +18,7 @@ pkgsrc ${BLOCK_PATH}/pkgsrc git@github.com:defn/pkgsrc 5d851abbb8d4cfea84f93bb5b
 htop ${BLOCK_PATH}/htop git@github.com:defn/htop d96e4e0158858dcb446d58be0a383376cbb0fb9e master
 jq ${BLOCK_PATH}/jq git@github.com:defn/jq 587a98237536d3e1d411efa693637b17e6eae959 master
 build-essential ${BLOCK_PATH}/build-essential git@github.com:defn/build-essential 39370456db24b784d5b087d268b49e716ec191d4 master
-python ${BLOCK_PATH}/python git@github.com:defn/python 03dee8fab004f4c56cc7bd4f50f7622ccf1ff6fc master
+python ${BLOCK_PATH}/python git@github.com:defn/python 49c27da7946921d576d1421b7609790ab2559fdd master
 ansible ${BLOCK_PATH}/ansible git@github.com:defn/ansible 460ec70dd903f286188e4bedc63d3a781ddde711 master
 curl ${BLOCK_PATH}/curl git@github.com:defn/curl 9409557e5e2ee0516509ccc312831cb7197ca1cb master
 chef ${BLOCK_PATH}/chef git@github.com:defn/chef ee34d1c7d547a38582591da00e5d6d353df3b47a master
