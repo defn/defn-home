@@ -69,7 +69,7 @@ it ${BLOCK_PATH}/it git@github.com:defn/it eb9c4d07261c8ad2389dd72db3b06ef9d7a10
 defn.github.io ${BLOCK_PATH}/defn.github.io git@github.com:defn/defn.github.io df3eec829839f3b8d3ca143868d07536d131d28e master
 scala ${BLOCK_PATH}/scala git@github.com:defn/scala 1a72414a26fe17f212d9784386e8d7b99072549b master
 sbt ${BLOCK_PATH}/sbt git@github.com:defn/sbt 8793361ece0a50b03dca637b5522cfaf133adadb master
-reviewboard ${BLOCK_PATH}/reviewboard git@github.com:defn/reviewboard b6d1fe19b8c1c19d4580cbd43c4c1f6b272dde96 master
+reviewboard ${BLOCK_PATH}/reviewboard git@github.com:defn/reviewboard 00e8183bb236e5ecdf5b58717d617234965407ea master
 isomorphic-clojurescript-reagent-node ${BLOCK_PATH}/isomorphic-clojurescript-reagent-node git@github.com:defn/isomorphic-clojurescript-reagent-node 0e261b794a14745b9d069f93acde8d7f73c17a4f master
 rust ${BLOCK_PATH}/rust git@github.com:defn/rust 4b621907ddcdfc415d6b81c2024daf57389ffcf7 master
 maven ${BLOCK_PATH}/maven git@github.com:defn/maven 0297f740c763eb916b116e00e5fb62612655291e master
