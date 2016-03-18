@@ -104,6 +104,7 @@
 # app
 /.bashrc.app
 /Blockfile.txt
+/Blockfile.json.site
 
 # ubuntu
 /.aptitude
