@@ -3,7 +3,7 @@ scripts-to-rule-them-all ${BLOCK_PATH}/scripts-to-rule-them-all git@github.com:d
 cache ${BLOCK_PATH}/cache git@github.com:defn/cache 9cdb85e0a87151c2693e2c60154a16aab416393f master
 sub ${BLOCK_PATH}/sub git@github.com:defn/sub a2796df0644dfa73ecbdd1eb5c1226b64940bda5 master
 runmany ${BLOCK_PATH}/runmany git@github.com:defn/runmany a87301c1739f93f15ce40c929e426f335caf3869 master
-block ${BLOCK_PATH}/block git@github.com:defn/block ef2a149dbd15e32bc5905e96b27c50acbc8a3f84 master
+block ${BLOCK_PATH}/block git@github.com:defn/block ca0e8d623651246bc83257d5ea925d1693743c42 master
 board ${BLOCK_PATH}/board git@github.com:defn/board 8b542d7cc54bd274b58da4accb3648d2083e1100 master
 kit ${BLOCK_PATH}/kit git@github.com:defn/kit a8f27903101e6f6c667ced10d99bc8b8d05f5433 master
 xcode ${BLOCK_PATH}/xcode git@github.com:defn/xcode 7c76b8252095a7c7002aeb2ad264cb5e4a22cb05 master
@@ -54,7 +54,7 @@ dnsmasq ${BLOCK_PATH}/dnsmasq git@github.com:defn/dnsmasq ddfd938738d533b7f0809b
 runit ${BLOCK_PATH}/runit git@github.com:defn/runit 479b3a0d7e4b4030784b89f55fb6d4daa1d4a4c7 master
 java ${BLOCK_PATH}/java git@github.com:defn/java 4ff3db09ff69106d56387f7dcdbe9147e0515236 master
 linkerd ${BLOCK_PATH}/linkerd git@github.com:defn/linkerd 73284cc82e7442f6270714a1997e6c7fb14ef1ec master
-limbo ${BLOCK_PATH}/limbo git@github.com:defn/limbo 257d207352931f1e33caa5a288f3cdd9d1e74e37 master
+limbo ${BLOCK_PATH}/limbo git@github.com:defn/limbo 1731d35ccb7784656eb5664ccf4bcd0984b192f1 master
 rbtools ${BLOCK_PATH}/rbtools git@github.com:defn/rbtools 9cd26ee9c15c0a09b3e2be933733ba43313402c1 master
 leiningen ${BLOCK_PATH}/leiningen git@github.com:defn/leiningen ba29bcbbf378ab47813d0ce32cb6411fbe390f48 master
 poop ${BLOCK_PATH}/poop git@github.com:defn/poop b1f53d84bd554d0136d366403929211bba97cec5 master
