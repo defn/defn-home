@@ -27,9 +27,17 @@ function home_rc {
 
   set +efux
 
+  pushd "${BLOCK_PATH}/block" > /dev/null
+  source script/profile
+  require
+  popd > /dev/null
+
   source home_terminal
 
   if tty >/dev/null 2>&1; then
+    pushd "${BLOCK_PATH}/cue" > /dev/null
+    require
+    popd > /dev/null
     configure_cue
   fi
 
