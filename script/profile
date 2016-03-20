@@ -4,12 +4,6 @@ function profile {
   local shome="$(cd -P -- "${BASH_SOURCE%/*}/.." && pwd -P)"
   PATH="$shome/bin:$shome/exec:$shome/node_modules/.bin:$PATH"
 
-  source home_terminal
-
-  if [[ -e "$shome/exec/home_secret" ]]; then
-    source home_secret
-  fi
-
   export SVDIR="$shome/service"
 
   source "$shome/script/rc"
