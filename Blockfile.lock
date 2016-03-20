@@ -6,9 +6,10 @@ runmany ${BLOCK_PATH}/runmany git@github.com:defn/runmany a87301c1739f93f15ce40c
 block ${BLOCK_PATH}/block git@github.com:defn/block 75468c6e925c6f4f347a9c7305f4e699f0bc7d10 master
 board ${BLOCK_PATH}/board git@github.com:defn/board 8b542d7cc54bd274b58da4accb3648d2083e1100 master
 kit ${BLOCK_PATH}/kit git@github.com:defn/kit a8f27903101e6f6c667ced10d99bc8b8d05f5433 master
+rbenv ${BLOCK_PATH}/rbenv git@github.com:defn/rbenv b375bfc28e1329ee25ffd2881ff0cae8b2f5813c master
+ruby ${BLOCK_PATH}/ruby git@github.com:defn/ruby 3f5a2069fcef859d70ad8b713e06bdf7cc4f93cc master
 pkgsrc ${BLOCK_PATH}/pkgsrc git@github.com:defn/pkgsrc ab34592b2cd05e7cc5d7f3ec36faa2837a0d96c7 master
 build-essential ${BLOCK_PATH}/build-essential git@github.com:defn/build-essential a6889692a9c5be7c71e6d6e35c7187b9228a1d35 master
-ruby ${BLOCK_PATH}/ruby git@github.com:defn/ruby df39bacd071106a8c8b6c23ced894b26afc88c98 master
 curl ${BLOCK_PATH}/curl git@github.com:defn/curl 9409557e5e2ee0516509ccc312831cb7197ca1cb master
 node ${BLOCK_PATH}/node git@github.com:defn/node fb0438c22d0e611e62cff2e3cf7d656f9c8bb748 master
 xcode ${BLOCK_PATH}/xcode git@github.com:defn/xcode 7c76b8252095a7c7002aeb2ad264cb5e4a22cb05 master
