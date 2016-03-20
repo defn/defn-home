@@ -14,7 +14,7 @@ defn ${BLOCK_PATH}/defn git@github.com:defn/defn 2d867d873b65f3c829bf88eb65ac7e1
 deploy ${BLOCK_PATH}/deploy git@github.com:defn/deploy 8d54362210948316fcf68bc20029f7050c7557de master
 context ${BLOCK_PATH}/context git@github.com:defn/context e7c7401a60539a1dbd415dae0a02e09a8e5f6984 master
 homebrew ${BLOCK_PATH}/homebrew git@github.com:defn/homebrew 312f151b0df1be020a32eea7978ad507b400e0b9 master
-pkgsrc ${BLOCK_PATH}/pkgsrc git@github.com:defn/pkgsrc 5d851abbb8d4cfea84f93bb5bba5f54e745bdf26 master
+pkgsrc ${BLOCK_PATH}/pkgsrc git@github.com:defn/pkgsrc ab34592b2cd05e7cc5d7f3ec36faa2837a0d96c7 master
 htop ${BLOCK_PATH}/htop git@github.com:defn/htop d96e4e0158858dcb446d58be0a383376cbb0fb9e master
 jq ${BLOCK_PATH}/jq git@github.com:defn/jq 587a98237536d3e1d411efa693637b17e6eae959 master
 build-essential ${BLOCK_PATH}/build-essential git@github.com:defn/build-essential 39370456db24b784d5b087d268b49e716ec191d4 master
@@ -32,7 +32,7 @@ github ${BLOCK_PATH}/github git@github.com:defn/github ae142e04ad5daf82d3b1e5487
 docs ${BLOCK_PATH}/docs git@github.com:defn/docs 56f423889b2db50df6884f31d2171047193b944a master
 squid ${BLOCK_PATH}/squid git@github.com:defn/squid f039364eacb96cbb36fed45f936d79b0b4a177e6 master
 artifactory ${BLOCK_PATH}/artifactory git@github.com:defn/artifactory 057cdf6c4ce7c198540ef11d95959b81f2cae41a master
-packagecloud ${BLOCK_PATH}/packagecloud git@github.com:defn/packagecloud 5a837a66d443e09af3792e0ed54c76ae3e5a9fda master
+packagecloud ${BLOCK_PATH}/packagecloud git@github.com:defn/packagecloud a5a52b936543cfd92925b71631987204228a6ddf master
 buildkite ${BLOCK_PATH}/buildkite git@github.com:defn/buildkite 085a243e3e703dd162662366b35bdcea573ec914 master
 jenkins ${BLOCK_PATH}/jenkins git@github.com:defn/jenkins 4760c1a21679e8f8ec4b963c71da774c752b31f9 master
 artifacts ${BLOCK_PATH}/artifacts git@github.com:defn/artifacts dfe42c890aadd5afaa1914368c2deaae83bd6f9b master
@@ -69,9 +69,9 @@ it ${BLOCK_PATH}/it git@github.com:defn/it eb9c4d07261c8ad2389dd72db3b06ef9d7a10
 defn.github.io ${BLOCK_PATH}/defn.github.io git@github.com:defn/defn.github.io df3eec829839f3b8d3ca143868d07536d131d28e master
 scala ${BLOCK_PATH}/scala git@github.com:defn/scala 1a72414a26fe17f212d9784386e8d7b99072549b master
 sbt ${BLOCK_PATH}/sbt git@github.com:defn/sbt 8793361ece0a50b03dca637b5522cfaf133adadb master
-reviewboard ${BLOCK_PATH}/reviewboard git@github.com:defn/reviewboard 00e8183bb236e5ecdf5b58717d617234965407ea master
+reviewboard ${BLOCK_PATH}/reviewboard git@github.com:defn/reviewboard 2b821b3c61fc348458c956ad7018df47a2816676 master
 isomorphic-clojurescript-reagent-node ${BLOCK_PATH}/isomorphic-clojurescript-reagent-node git@github.com:defn/isomorphic-clojurescript-reagent-node 0e261b794a14745b9d069f93acde8d7f73c17a4f master
-rust ${BLOCK_PATH}/rust git@github.com:defn/rust 4b621907ddcdfc415d6b81c2024daf57389ffcf7 master
+rust ${BLOCK_PATH}/rust git@github.com:defn/rust 33c4312c80bc2ed0da40d4357bdece044094c375 master
 maven ${BLOCK_PATH}/maven git@github.com:defn/maven 0297f740c763eb916b116e00e5fb62612655291e master
 cljs ${BLOCK_PATH}/cljs git@github.com:defn/cljs bacce4d4e9628481ce1731cb71f43cba9e702bc3 master
 iamdefn/lightning ${BLOCK_PATH}/lightning git@github.com:iamdefn/lightning 11a3b4122fe81f46e49f63650cc937aca6bb1d39 master
