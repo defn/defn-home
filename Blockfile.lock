@@ -26,7 +26,7 @@ cloud ${BLOCK_PATH}/cloud git@github.com:defn/cloud 9e1ebbb99948e412a0accff5b940
 xcode ${BLOCK_PATH}/xcode git@github.com:defn/xcode 7c76b8252095a7c7002aeb2ad264cb5e4a22cb05 master
 tunnelblick ${BLOCK_PATH}/tunnelblick git@github.com:defn/tunnelblick a1ff7d775c0f83f72c12f46bfb5848568f6fa7d6 master
 cue ${BLOCK_PATH}/cue git@github.com:defn/cue 50885f087daba21069b9715017b15a8503c51bc5 master
-junas ${BLOCK_PATH}/junas git@github.com:defn/junas 0bca62f74893c8913a5fe76456a62fcd04b3826c master
+junas ${BLOCK_PATH}/junas git@github.com:defn/junas 8183e3f78c609f4f45e840e5398e97e9dd3b3100 master
 defn ${BLOCK_PATH}/defn git@github.com:defn/defn 2d867d873b65f3c829bf88eb65ac7e11e7664441 master
 deploy ${BLOCK_PATH}/deploy git@github.com:defn/deploy 8d54362210948316fcf68bc20029f7050c7557de master
 homebrew ${BLOCK_PATH}/homebrew git@github.com:defn/homebrew 312f151b0df1be020a32eea7978ad507b400e0b9 master
