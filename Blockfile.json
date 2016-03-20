@@ -8,8 +8,11 @@
       "cache",
       "block",
       "board",
-      "kit",
-      "cloud"
+      "kit"
+    ],
+    [
+      "ruby",
+      "node"
     ],
     [
       "xcode",
@@ -30,6 +33,7 @@
       "ansible"
     ],
     [
+      "cloud",
       "limbo"
     ],
     [
