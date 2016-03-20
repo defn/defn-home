@@ -38,10 +38,11 @@ azure ${BLOCK_PATH}/azure git@github.com:defn/azure 5c5c14bc7d73935cc7c4e72f5a98
 digitalocean ${BLOCK_PATH}/digitalocean git@github.com:defn/digitalocean b24632ca391165362f58836078e8dfc2cd194b28 master
 softlayer ${BLOCK_PATH}/softlayer git@github.com:defn/softlayer a90b49afbc54a0b3609fbd29df4a41062e7d6ac5 master
 ctl ${BLOCK_PATH}/ctl git@github.com:defn/ctl 42a1a1155d088a3b6b9cf75414fccfa6553d7621 master
-linode ${BLOCK_PATH}/linode git@github.com:defn/linode 58ad66b42daf2af2e194ce3198ddb48719e765a9 master
+linode ${BLOCK_PATH}/linode git@github.com:defn/linode 6a21f3e448506fdcf5471c063f42c9114c3d0cbe master
 packet ${BLOCK_PATH}/packet git@github.com:defn/packet f0e96237744cc087e3a673bc0ca6266debf8c1a5 master
 joyent ${BLOCK_PATH}/joyent git@github.com:defn/joyent 1fa9bc14612494c612a7dbc1a4ffcc4445428e47 master
-cloud ${BLOCK_PATH}/cloud git@github.com:defn/cloud 9e1ebbb99948e412a0accff5b9406b03b11dba4f master
+vca ${BLOCK_PATH}/vca git@github.com:defn/vca 7167ac4abb5c8ba830ffb2539bee47dd77293d37 master
+cloud ${BLOCK_PATH}/cloud git@github.com:defn/cloud 51233fbc953ccdae7f8ea32e32c838d29bb7d7ff master
 squid ${BLOCK_PATH}/squid git@github.com:defn/squid f039364eacb96cbb36fed45f936d79b0b4a177e6 master
 artifactory ${BLOCK_PATH}/artifactory git@github.com:defn/artifactory 057cdf6c4ce7c198540ef11d95959b81f2cae41a master
 packagecloud ${BLOCK_PATH}/packagecloud git@github.com:defn/packagecloud a5a52b936543cfd92925b71631987204228a6ddf master
