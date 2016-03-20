@@ -6,7 +6,7 @@ runmany ${BLOCK_PATH}/runmany git@github.com:defn/runmany a87301c1739f93f15ce40c
 block ${BLOCK_PATH}/block git@github.com:defn/block f7108c78dde917be48ba3d934aaef06cf212aeb7 master
 board ${BLOCK_PATH}/board git@github.com:defn/board 8b542d7cc54bd274b58da4accb3648d2083e1100 master
 kit ${BLOCK_PATH}/kit git@github.com:defn/kit a8f27903101e6f6c667ced10d99bc8b8d05f5433 master
-rbenv ${BLOCK_PATH}/rbenv git@github.com:defn/rbenv 03db5f22c651e94ecc50bc708d85c36d92b21494 master
+rbenv ${BLOCK_PATH}/rbenv git@github.com:defn/rbenv 14c55b9913ce7a0d289c265080f08fe8f0d691f6 master
 ruby ${BLOCK_PATH}/ruby git@github.com:defn/ruby 3f9e418a44fa67d72fd061777d60918dfbeadeb3 master
 pkgsrc ${BLOCK_PATH}/pkgsrc git@github.com:defn/pkgsrc ab34592b2cd05e7cc5d7f3ec36faa2837a0d96c7 master
 build-essential ${BLOCK_PATH}/build-essential git@github.com:defn/build-essential a6889692a9c5be7c71e6d6e35c7187b9228a1d35 master
