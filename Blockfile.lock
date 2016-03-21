@@ -36,7 +36,7 @@ parity ${BLOCK_PATH}/parity git@github.com:defn/parity 1410f4ededdb665d399a11639
 aws ${BLOCK_PATH}/aws git@github.com:defn/aws 0f0e2ea182f87534a016d3b23cd0bc3fb2761c1d master
 gcp ${BLOCK_PATH}/gcp git@github.com:defn/gcp 5a40f1fb026ef04751bbae6e75c19e36e1546260 master
 azure ${BLOCK_PATH}/azure git@github.com:defn/azure 5c5c14bc7d73935cc7c4e72f5a982d809e750185 master
-digitalocean ${BLOCK_PATH}/digitalocean git@github.com:defn/digitalocean 85d79a08d20f3e66c1af903b8ac78c1faab56588 master
+digitalocean ${BLOCK_PATH}/digitalocean git@github.com:defn/digitalocean 37bb12d539d41cc32dc42dd63c9d39f9f5b698cf master
 softlayer ${BLOCK_PATH}/softlayer git@github.com:defn/softlayer a90b49afbc54a0b3609fbd29df4a41062e7d6ac5 master
 ctl ${BLOCK_PATH}/ctl git@github.com:defn/ctl 42a1a1155d088a3b6b9cf75414fccfa6553d7621 master
 linode ${BLOCK_PATH}/linode git@github.com:defn/linode 58ad66b42daf2af2e194ce3198ddb48719e765a9 master
@@ -66,7 +66,7 @@ dnsmasq ${BLOCK_PATH}/dnsmasq git@github.com:defn/dnsmasq ddfd938738d533b7f0809b
 runit ${BLOCK_PATH}/runit git@github.com:defn/runit 43ac081a5dcb1ca0c95a19b31c932e7e2c1bb5e6 master
 java ${BLOCK_PATH}/java git@github.com:defn/java 4ff3db09ff69106d56387f7dcdbe9147e0515236 master
 linkerd ${BLOCK_PATH}/linkerd git@github.com:defn/linkerd 73284cc82e7442f6270714a1997e6c7fb14ef1ec master
-limbo ${BLOCK_PATH}/limbo git@github.com:defn/limbo 35cf9d90f1dce99d2cb9112f7595b66e221653d9 master
+limbo ${BLOCK_PATH}/limbo git@github.com:defn/limbo fc72365684a55630cad2727a327a090e93659191 master
 rbtools ${BLOCK_PATH}/rbtools git@github.com:defn/rbtools 9cd26ee9c15c0a09b3e2be933733ba43313402c1 master
 leiningen ${BLOCK_PATH}/leiningen git@github.com:defn/leiningen ba29bcbbf378ab47813d0ce32cb6411fbe390f48 master
 poop ${BLOCK_PATH}/poop git@github.com:defn/poop 50620517a2ef200afd1e986416005ab2781ea1ed master
