@@ -53,7 +53,7 @@ artifacts ${BLOCK_PATH}/artifacts git@github.com:defn/artifacts dfe42c890aadd5af
 launch-config ${BLOCK_PATH}/launch-config git@github.com:defn/launch-config a00f0d1e8cc4f7f8eee9a95c3bf56d3306a058ed master
 virtualbox ${BLOCK_PATH}/virtualbox git@github.com:defn/virtualbox 02b091b295dc57c02fec486cb8b7453f7369b701 master
 docker ${BLOCK_PATH}/docker git@github.com:defn/docker 864bbe42f545dc902262484dc8dd90a7f8cf4897 master
-packer ${BLOCK_PATH}/packer git@github.com:defn/packer 86a563699f82ae9f220f5132d5ec3fef808526e8 master
+packer ${BLOCK_PATH}/packer git@github.com:defn/packer 81d8f04bb6ff4da93b6c0556e1a21462219b87b8 master
 vagrant ${BLOCK_PATH}/vagrant git@github.com:defn/vagrant 126006eb3f9b1d3809833d7246c1395f2093f9e0 master
 basebox ${BLOCK_PATH}/basebox git@github.com:defn/basebox 946869b2f626ab5dd284a87bc23e380ecf0c95f1 master
 basebox-ubuntu ${BLOCK_PATH}/basebox-ubuntu git@github.com:defn/basebox-ubuntu 04827300af93f4a8244f87af45f7c6e01777f3b4 master
@@ -66,7 +66,7 @@ dnsmasq ${BLOCK_PATH}/dnsmasq git@github.com:defn/dnsmasq ddfd938738d533b7f0809b
 runit ${BLOCK_PATH}/runit git@github.com:defn/runit 43ac081a5dcb1ca0c95a19b31c932e7e2c1bb5e6 master
 java ${BLOCK_PATH}/java git@github.com:defn/java 4ff3db09ff69106d56387f7dcdbe9147e0515236 master
 linkerd ${BLOCK_PATH}/linkerd git@github.com:defn/linkerd 73284cc82e7442f6270714a1997e6c7fb14ef1ec master
-limbo ${BLOCK_PATH}/limbo git@github.com:defn/limbo fc72365684a55630cad2727a327a090e93659191 master
+limbo ${BLOCK_PATH}/limbo git@github.com:defn/limbo 97c210402cac33f035844c20692a83c5d6cab5b4 master
 rbtools ${BLOCK_PATH}/rbtools git@github.com:defn/rbtools 9cd26ee9c15c0a09b3e2be933733ba43313402c1 master
 leiningen ${BLOCK_PATH}/leiningen git@github.com:defn/leiningen ba29bcbbf378ab47813d0ce32cb6411fbe390f48 master
 poop ${BLOCK_PATH}/poop git@github.com:defn/poop 50620517a2ef200afd1e986416005ab2781ea1ed master
