@@ -7,13 +7,13 @@ block ${BLOCK_PATH}/block git@github.com:defn/block fdc433e589f58d99f84ecc520426
 board ${BLOCK_PATH}/board git@github.com:defn/board 8b542d7cc54bd274b58da4accb3648d2083e1100 master
 kit ${BLOCK_PATH}/kit git@github.com:defn/kit a8f27903101e6f6c667ced10d99bc8b8d05f5433 master
 rbenv ${BLOCK_PATH}/rbenv git@github.com:defn/rbenv 531b836a1273e642413d085d030f2c6df59f184f master
-ruby ${BLOCK_PATH}/ruby git@github.com:defn/ruby 738ecc05e0814d2341af1257b272c1b2dc5f0ec7 master
+ruby ${BLOCK_PATH}/ruby git@github.com:defn/ruby fb3cbe3511591a94f2a8f550be255d7e5b4061e2 master
 pkgsrc ${BLOCK_PATH}/pkgsrc git@github.com:defn/pkgsrc ab34592b2cd05e7cc5d7f3ec36faa2837a0d96c7 master
 build-essential ${BLOCK_PATH}/build-essential git@github.com:defn/build-essential a6889692a9c5be7c71e6d6e35c7187b9228a1d35 master
 curl ${BLOCK_PATH}/curl git@github.com:defn/curl 9409557e5e2ee0516509ccc312831cb7197ca1cb master
 node ${BLOCK_PATH}/node git@github.com:defn/node fb0438c22d0e611e62cff2e3cf7d656f9c8bb748 master
 xcode ${BLOCK_PATH}/xcode git@github.com:defn/xcode 7c76b8252095a7c7002aeb2ad264cb5e4a22cb05 master
-tunnelblick ${BLOCK_PATH}/tunnelblick git@github.com:defn/tunnelblick a1ff7d775c0f83f72c12f46bfb5848568f6fa7d6 master
+tunnelblick ${BLOCK_PATH}/tunnelblick git@github.com:defn/tunnelblick d204941e88dc9ca9df703e99f08b62003e963b22 master
 cue ${BLOCK_PATH}/cue git@github.com:defn/cue 50885f087daba21069b9715017b15a8503c51bc5 master
 junas ${BLOCK_PATH}/junas git@github.com:defn/junas 8183e3f78c609f4f45e840e5398e97e9dd3b3100 master
 defn ${BLOCK_PATH}/defn git@github.com:defn/defn 2d867d873b65f3c829bf88eb65ac7e11e7664441 master
