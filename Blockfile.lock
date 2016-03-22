@@ -8,7 +8,7 @@ board ${BLOCK_PATH}/board git@github.com:defn/board 8b542d7cc54bd274b58da4accb36
 kit ${BLOCK_PATH}/kit git@github.com:defn/kit a8f27903101e6f6c667ced10d99bc8b8d05f5433 master
 pkgsrc ${BLOCK_PATH}/pkgsrc git@github.com:defn/pkgsrc ab34592b2cd05e7cc5d7f3ec36faa2837a0d96c7 master
 build-essential ${BLOCK_PATH}/build-essential git@github.com:defn/build-essential 4657a43703b59f5c9821ddb44f8db6ace2c95fed master
-rbenv ${BLOCK_PATH}/rbenv git@github.com:defn/rbenv 531b836a1273e642413d085d030f2c6df59f184f master
+rbenv ${BLOCK_PATH}/rbenv git@github.com:defn/rbenv 5221a20a4e81b27fb3fa2b0f7efb95972f623f03 master
 ruby ${BLOCK_PATH}/ruby git@github.com:defn/ruby 2c18d1dbfdf42ff11ba471f73f1b405ec7cdd433 master
 curl ${BLOCK_PATH}/curl git@github.com:defn/curl 9409557e5e2ee0516509ccc312831cb7197ca1cb master
 node ${BLOCK_PATH}/node git@github.com:defn/node 0809e1ae5ce34d4d4c7371a8b7e372a05d8445b8 master
@@ -54,7 +54,7 @@ launch-config ${BLOCK_PATH}/launch-config git@github.com:defn/launch-config a00f
 apt-mirror ${BLOCK_PATH}/apt-mirror git@github.com:defn/apt-mirror a5b1a1b40dd9fc6acae409abb26c6d16ac5454e0 master
 virtualbox ${BLOCK_PATH}/virtualbox git@github.com:defn/virtualbox 02b091b295dc57c02fec486cb8b7453f7369b701 master
 docker ${BLOCK_PATH}/docker git@github.com:defn/docker 864bbe42f545dc902262484dc8dd90a7f8cf4897 master
-packer ${BLOCK_PATH}/packer git@github.com:defn/packer 81d8f04bb6ff4da93b6c0556e1a21462219b87b8 master
+packer ${BLOCK_PATH}/packer git@github.com:defn/packer 3d62d1fca51bf7a5736fbfbf5885fbb429eae967 master
 vagrant ${BLOCK_PATH}/vagrant git@github.com:defn/vagrant 126006eb3f9b1d3809833d7246c1395f2093f9e0 master
 basebox ${BLOCK_PATH}/basebox git@github.com:defn/basebox 946869b2f626ab5dd284a87bc23e380ecf0c95f1 master
 basebox-ubuntu ${BLOCK_PATH}/basebox-ubuntu git@github.com:defn/basebox-ubuntu 04827300af93f4a8244f87af45f7c6e01777f3b4 master
