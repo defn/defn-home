@@ -6,10 +6,10 @@ runmany ${BLOCK_PATH}/runmany git@github.com:defn/runmany a87301c1739f93f15ce40c
 block ${BLOCK_PATH}/block git@github.com:defn/block fdc433e589f58d99f84ecc5204267c7ac3f48fb5 master
 board ${BLOCK_PATH}/board git@github.com:defn/board 8b542d7cc54bd274b58da4accb3648d2083e1100 master
 kit ${BLOCK_PATH}/kit git@github.com:defn/kit a8f27903101e6f6c667ced10d99bc8b8d05f5433 master
-rbenv ${BLOCK_PATH}/rbenv git@github.com:defn/rbenv 531b836a1273e642413d085d030f2c6df59f184f master
-ruby ${BLOCK_PATH}/ruby git@github.com:defn/ruby fb3cbe3511591a94f2a8f550be255d7e5b4061e2 master
 pkgsrc ${BLOCK_PATH}/pkgsrc git@github.com:defn/pkgsrc ab34592b2cd05e7cc5d7f3ec36faa2837a0d96c7 master
 build-essential ${BLOCK_PATH}/build-essential git@github.com:defn/build-essential a6889692a9c5be7c71e6d6e35c7187b9228a1d35 master
+rbenv ${BLOCK_PATH}/rbenv git@github.com:defn/rbenv 531b836a1273e642413d085d030f2c6df59f184f master
+ruby ${BLOCK_PATH}/ruby git@github.com:defn/ruby 2c18d1dbfdf42ff11ba471f73f1b405ec7cdd433 master
 curl ${BLOCK_PATH}/curl git@github.com:defn/curl 9409557e5e2ee0516509ccc312831cb7197ca1cb master
 node ${BLOCK_PATH}/node git@github.com:defn/node fb0438c22d0e611e62cff2e3cf7d656f9c8bb748 master
 xcode ${BLOCK_PATH}/xcode git@github.com:defn/xcode 7c76b8252095a7c7002aeb2ad264cb5e4a22cb05 master
@@ -66,7 +66,7 @@ dnsmasq ${BLOCK_PATH}/dnsmasq git@github.com:defn/dnsmasq ddfd938738d533b7f0809b
 runit ${BLOCK_PATH}/runit git@github.com:defn/runit 95500a14adf031e32add3ef1118f25a6c9194885 master
 java ${BLOCK_PATH}/java git@github.com:defn/java 4ff3db09ff69106d56387f7dcdbe9147e0515236 master
 linkerd ${BLOCK_PATH}/linkerd git@github.com:defn/linkerd 73284cc82e7442f6270714a1997e6c7fb14ef1ec master
-limbo ${BLOCK_PATH}/limbo git@github.com:defn/limbo 1962058cf5ded3437f66ea3a8290f02577637b49 master
+limbo ${BLOCK_PATH}/limbo git@github.com:defn/limbo ae2b79f236b72bd68bb8c930e360e5a039852d4f master
 rbtools ${BLOCK_PATH}/rbtools git@github.com:defn/rbtools 9cd26ee9c15c0a09b3e2be933733ba43313402c1 master
 leiningen ${BLOCK_PATH}/leiningen git@github.com:defn/leiningen ba29bcbbf378ab47813d0ce32cb6411fbe390f48 master
 poop ${BLOCK_PATH}/poop git@github.com:defn/poop 50620517a2ef200afd1e986416005ab2781ea1ed master
