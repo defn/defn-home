@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-export BOX_NAME='box'
+export BOX_NAME='fn'
 export BASEBOX_NAME='defn'
 export BASEBOX_HOME_URL='git@github.com:defn/home'
 
