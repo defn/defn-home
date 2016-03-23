@@ -72,7 +72,7 @@ limbo ${BLOCK_PATH}/limbo git@github.com:defn/limbo 1c849d5db18b22dda3bc762471b2
 inception ${BLOCK_PATH}/inception git@github.com:defn/inception 899bbfeabcec7f1246e7230dd756c45e8e606b56 master
 rbtools ${BLOCK_PATH}/rbtools git@github.com:defn/rbtools 9cd26ee9c15c0a09b3e2be933733ba43313402c1 master
 leiningen ${BLOCK_PATH}/leiningen git@github.com:defn/leiningen ba29bcbbf378ab47813d0ce32cb6411fbe390f48 master
-poop ${BLOCK_PATH}/poop git@github.com:defn/poop 50620517a2ef200afd1e986416005ab2781ea1ed master
+poop ${BLOCK_PATH}/poop git@github.com:defn/poop 90e62a0d52533ec05addd55269103151c93d4c6f master
 postgresql ${BLOCK_PATH}/postgresql git@github.com:defn/postgresql 8206fa15fcaf0971950ad569397850fbfde71c5d master
 erlang ${BLOCK_PATH}/erlang git@github.com:defn/erlang e1f5f30bb0782609642619b43baef4c3f60b95a4 master
 elixir ${BLOCK_PATH}/elixir git@github.com:defn/elixir 9e096beed017f231e766dc1bcfd5dd1399d2023d master
