@@ -32,6 +32,7 @@ minimal-block ${BLOCK_PATH}/minimal-block git@github.com:defn/minimal-block a60e
 minimal-app ${BLOCK_PATH}/minimal-app git@github.com:defn/minimal-app 0cdd6b902c48bd3ad436a2fb21c1e09b30fc0514 master
 github ${BLOCK_PATH}/github git@github.com:defn/github ae142e04ad5daf82d3b1e5487c65c3d80df97bda master
 docs ${BLOCK_PATH}/docs git@github.com:defn/docs 56f423889b2db50df6884f31d2171047193b944a master
+bash4 ${BLOCK_PATH}/bash4 git@github.com:defn/bash4 502b9b0fb895e28bda97e8c5e32e3c4d4be50a45 master
 parity ${BLOCK_PATH}/parity git@github.com:defn/parity 1410f4ededdb665d399a11639a63509ef00ad387 master
 aws ${BLOCK_PATH}/aws git@github.com:defn/aws 0f0e2ea182f87534a016d3b23cd0bc3fb2761c1d master
 gcp ${BLOCK_PATH}/gcp git@github.com:defn/gcp 5a40f1fb026ef04751bbae6e75c19e36e1546260 master

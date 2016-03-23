@@ -30,7 +30,8 @@
       "github",
       "facts",
       "docs",
-      "ansible"
+      "ansible",
+      "bash4"
     ],
     [
       "cloud",
