@@ -15,7 +15,7 @@ node ${BLOCK_PATH}/node git@github.com:defn/node 0809e1ae5ce34d4d4c7371a8b7e372a
 xcode ${BLOCK_PATH}/xcode git@github.com:defn/xcode 7c76b8252095a7c7002aeb2ad264cb5e4a22cb05 master
 tunnelblick ${BLOCK_PATH}/tunnelblick git@github.com:defn/tunnelblick d204941e88dc9ca9df703e99f08b62003e963b22 master
 cue ${BLOCK_PATH}/cue git@github.com:defn/cue 50885f087daba21069b9715017b15a8503c51bc5 master
-junas ${BLOCK_PATH}/junas git@github.com:defn/junas 8183e3f78c609f4f45e840e5398e97e9dd3b3100 master
+junas ${BLOCK_PATH}/junas git@github.com:defn/junas cdd6ac5bc52daa0ca25be63c4a5d415d671b5d2d master
 defn ${BLOCK_PATH}/defn git@github.com:defn/defn 2d867d873b65f3c829bf88eb65ac7e11e7664441 master
 deploy ${BLOCK_PATH}/deploy git@github.com:defn/deploy 8d54362210948316fcf68bc20029f7050c7557de master
 context ${BLOCK_PATH}/context git@github.com:defn/context e7c7401a60539a1dbd415dae0a02e09a8e5f6984 master
@@ -53,11 +53,11 @@ artifacts ${BLOCK_PATH}/artifacts git@github.com:defn/artifacts dfe42c890aadd5af
 launch-config ${BLOCK_PATH}/launch-config git@github.com:defn/launch-config a00f0d1e8cc4f7f8eee9a95c3bf56d3306a058ed master
 apt-mirror ${BLOCK_PATH}/apt-mirror git@github.com:defn/apt-mirror a5b1a1b40dd9fc6acae409abb26c6d16ac5454e0 master
 virtualbox ${BLOCK_PATH}/virtualbox git@github.com:defn/virtualbox 02b091b295dc57c02fec486cb8b7453f7369b701 master
-docker ${BLOCK_PATH}/docker git@github.com:defn/docker 864bbe42f545dc902262484dc8dd90a7f8cf4897 master
+docker ${BLOCK_PATH}/docker git@github.com:defn/docker 5d6b26858c4cb347fb557b81a9d44165cce1a079 master
 packer ${BLOCK_PATH}/packer git@github.com:defn/packer 3d62d1fca51bf7a5736fbfbf5885fbb429eae967 master
 vagrant ${BLOCK_PATH}/vagrant git@github.com:defn/vagrant 763bd21d9b29892cffe3b18c328da6dbe515d60c master
 basebox ${BLOCK_PATH}/basebox git@github.com:defn/basebox 946869b2f626ab5dd284a87bc23e380ecf0c95f1 master
-basebox-ubuntu ${BLOCK_PATH}/basebox-ubuntu git@github.com:defn/basebox-ubuntu 04827300af93f4a8244f87af45f7c6e01777f3b4 master
+basebox-ubuntu ${BLOCK_PATH}/basebox-ubuntu git@github.com:defn/basebox-ubuntu c5f0c08430e2cbe68e890361edc6ce4166421f31 master
 basebox-osx ${BLOCK_PATH}/basebox-osx git@github.com:defn/basebox-osx cb60c078e91d902161e25c893d506fe494670f11 master
 vagrant-shell ${BLOCK_PATH}/vagrant-shell git@github.com:defn/vagrant-shell 7fefa070c7390b488740e894141baf0a37dbfaac master
 consul ${BLOCK_PATH}/consul git@github.com:defn/consul 0a9b184c8b9da69bb147886bbbdd7798034f329a master
