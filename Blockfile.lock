@@ -68,7 +68,7 @@ dnsmasq ${BLOCK_PATH}/dnsmasq git@github.com:defn/dnsmasq ddfd938738d533b7f0809b
 runit ${BLOCK_PATH}/runit git@github.com:defn/runit 95500a14adf031e32add3ef1118f25a6c9194885 master
 java ${BLOCK_PATH}/java git@github.com:defn/java 4ff3db09ff69106d56387f7dcdbe9147e0515236 master
 linkerd ${BLOCK_PATH}/linkerd git@github.com:defn/linkerd 73284cc82e7442f6270714a1997e6c7fb14ef1ec master
-limbo ${BLOCK_PATH}/limbo git@github.com:defn/limbo 1c849d5db18b22dda3bc762471b2f61854629231 master
+limbo ${BLOCK_PATH}/limbo git@github.com:defn/limbo e9c0db78dd7be01d54b276ecde5f6ee04a678038 master
 inception ${BLOCK_PATH}/inception git@github.com:defn/inception 899bbfeabcec7f1246e7230dd756c45e8e606b56 master
 rbtools ${BLOCK_PATH}/rbtools git@github.com:defn/rbtools 9cd26ee9c15c0a09b3e2be933733ba43313402c1 master
 leiningen ${BLOCK_PATH}/leiningen git@github.com:defn/leiningen ba29bcbbf378ab47813d0ce32cb6411fbe390f48 master
