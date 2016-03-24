@@ -6,8 +6,8 @@ function main {
   
   cd "$shome"
   block lock
-  git diff
-  git add Blockfile.json
+  git add Blockfile.json.lock
+  git diff --cached
   git commit -v
 }
 
