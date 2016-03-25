@@ -10,7 +10,7 @@ function main {
   
   block runmany "$many" 'cd $1 && git pull' || true
   block clone
-
+  block lock
   home status
 }
 
