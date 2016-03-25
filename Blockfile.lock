@@ -54,7 +54,7 @@ artifacts ${BLOCK_PATH}/artifacts git@github.com:defn/artifacts dfe42c890aadd5af
 launch-config ${BLOCK_PATH}/launch-config git@github.com:defn/launch-config a00f0d1e8cc4f7f8eee9a95c3bf56d3306a058ed master
 apt-mirror ${BLOCK_PATH}/apt-mirror git@github.com:defn/apt-mirror a5b1a1b40dd9fc6acae409abb26c6d16ac5454e0 master
 virtualbox ${BLOCK_PATH}/virtualbox git@github.com:defn/virtualbox 02b091b295dc57c02fec486cb8b7453f7369b701 master
-docker ${BLOCK_PATH}/docker git@github.com:defn/docker c5a2bb7c6615ee27d9b9e1bdea4729772d153636 master
+docker ${BLOCK_PATH}/docker git@github.com:defn/docker 1b6ae29ba7fdb589fcbf38a945749a47148efd73 master
 packer ${BLOCK_PATH}/packer git@github.com:defn/packer 3d62d1fca51bf7a5736fbfbf5885fbb429eae967 master
 vagrant ${BLOCK_PATH}/vagrant git@github.com:defn/vagrant 71d6ef7daff9dd20097455cf3307d923b1d412eb master
 basebox ${BLOCK_PATH}/basebox git@github.com:defn/basebox 946869b2f626ab5dd284a87bc23e380ecf0c95f1 master
