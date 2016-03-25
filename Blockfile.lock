@@ -69,7 +69,7 @@ runit ${BLOCK_PATH}/runit git@github.com:defn/runit fbd4021027731af28d0d16d98602
 java ${BLOCK_PATH}/java git@github.com:defn/java 4ff3db09ff69106d56387f7dcdbe9147e0515236 master
 linkerd ${BLOCK_PATH}/linkerd git@github.com:defn/linkerd 73284cc82e7442f6270714a1997e6c7fb14ef1ec master
 limbo ${BLOCK_PATH}/limbo git@github.com:defn/limbo 1b240413d32262075994d8281d0b02e3ee4970b1 master
-inception ${BLOCK_PATH}/inception git@github.com:defn/inception 440a7ff24893e4ea1216ef0c54fc4f758ba76039 master
+inception ${BLOCK_PATH}/inception git@github.com:defn/inception 12735256f898dbfa7709da1cdd33674c1d8720e0 master
 rbtools ${BLOCK_PATH}/rbtools git@github.com:defn/rbtools 9cd26ee9c15c0a09b3e2be933733ba43313402c1 master
 leiningen ${BLOCK_PATH}/leiningen git@github.com:defn/leiningen ba29bcbbf378ab47813d0ce32cb6411fbe390f48 master
 poop ${BLOCK_PATH}/poop git@github.com:defn/poop 872217c6ed3fa30ff8c675e6a4484713b6b5910e master
