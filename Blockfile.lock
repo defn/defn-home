@@ -79,7 +79,7 @@ elixir ${BLOCK_PATH}/elixir git@github.com:defn/elixir 9e096beed017f231e766dc1bc
 phoenix ${BLOCK_PATH}/phoenix git@github.com:defn/phoenix 1991bc9c5ec3e4e43b0ad0bae718a83057331925 master
 letsencrypt ${BLOCK_PATH}/letsencrypt git@github.com:defn/letsencrypt 1d3c617b60dcbbbf7b78ebc51f5de29f81f9cd30 master
 lamda ${BLOCK_PATH}/lamda git@github.com:defn/lamda 80e7b0e146c44f0d92798fd774bffd275e0367da master
-it ${BLOCK_PATH}/it git@github.com:defn/it e25a6b8d0ed6bd3364bdb8ca5b51e6869fb04eac gh-pages
+it ${BLOCK_PATH}/it git@github.com:defn/it facd2bd5482fcf3c5e9f422dcc62d7574472265f gh-pages
 defn.github.io ${BLOCK_PATH}/defn.github.io git@github.com:defn/defn.github.io 51b3eddcc122c1b9460eb62b017588e1ce5fa5df master
 scala ${BLOCK_PATH}/scala git@github.com:defn/scala 1a72414a26fe17f212d9784386e8d7b99072549b master
 sbt ${BLOCK_PATH}/sbt git@github.com:defn/sbt 8793361ece0a50b03dca637b5522cfaf133adadb master
