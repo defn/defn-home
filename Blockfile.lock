@@ -68,7 +68,7 @@ dnsmasq ${BLOCK_PATH}/dnsmasq git@github.com:defn/dnsmasq ddfd938738d533b7f0809b
 runit ${BLOCK_PATH}/runit git@github.com:defn/runit fbd4021027731af28d0d16d9860259ead0d09569 master
 java ${BLOCK_PATH}/java git@github.com:defn/java 4ff3db09ff69106d56387f7dcdbe9147e0515236 master
 linkerd ${BLOCK_PATH}/linkerd git@github.com:defn/linkerd 73284cc82e7442f6270714a1997e6c7fb14ef1ec master
-limbo ${BLOCK_PATH}/limbo git@github.com:defn/limbo 813ff1a6fba04b3633b3c875254d987f01af9bb4 master
+limbo ${BLOCK_PATH}/limbo git@github.com:defn/limbo e81b3777c7aad6d116ca3031daf5110d9e95d785 master
 inception ${BLOCK_PATH}/inception git@github.com:defn/inception 6840f854729cd6bcaacd075dda2f91d9761acf85 master
 rbtools ${BLOCK_PATH}/rbtools git@github.com:defn/rbtools 9cd26ee9c15c0a09b3e2be933733ba43313402c1 master
 leiningen ${BLOCK_PATH}/leiningen git@github.com:defn/leiningen ba29bcbbf378ab47813d0ce32cb6411fbe390f48 master
@@ -79,7 +79,7 @@ elixir ${BLOCK_PATH}/elixir git@github.com:defn/elixir 9e096beed017f231e766dc1bc
 phoenix ${BLOCK_PATH}/phoenix git@github.com:defn/phoenix 1991bc9c5ec3e4e43b0ad0bae718a83057331925 master
 letsencrypt ${BLOCK_PATH}/letsencrypt git@github.com:defn/letsencrypt 1d3c617b60dcbbbf7b78ebc51f5de29f81f9cd30 master
 lamda ${BLOCK_PATH}/lamda git@github.com:defn/lamda 80e7b0e146c44f0d92798fd774bffd275e0367da master
-it ${BLOCK_PATH}/it git@github.com:defn/it e25a6b8d0ed6bd3364bdb8ca5b51e6869fb04eac gh-pages
+it ${BLOCK_PATH}/it git@github.com:defn/it facd2bd5482fcf3c5e9f422dcc62d7574472265f gh-pages
 defn.github.io ${BLOCK_PATH}/defn.github.io git@github.com:defn/defn.github.io 51b3eddcc122c1b9460eb62b017588e1ce5fa5df master
 scala ${BLOCK_PATH}/scala git@github.com:defn/scala 1a72414a26fe17f212d9784386e8d7b99072549b master
 sbt ${BLOCK_PATH}/sbt git@github.com:defn/sbt 8793361ece0a50b03dca637b5522cfaf133adadb master
