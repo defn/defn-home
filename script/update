@@ -9,6 +9,7 @@ function home_update {
   block compile service
 
   ln -nfs "$BLOCK_PATH/limbo/sv/squid" "$SVDIR/squid"
+  ln -nfs "$BLOCK_PATH/webterm/sv/webterm" "$SVDIR/webterm"
   ln -nfs "$shome/sv/apt-mirror" "$SVDIR/apt-mirror"
 }
 
