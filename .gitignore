@@ -9,6 +9,7 @@
 # initial mass ignore
 /.ansible/
 /.bash_history
+/.sh_history
 /.cups/
 /.dropbox/
 /.gem/
