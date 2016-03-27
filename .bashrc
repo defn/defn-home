@@ -46,3 +46,7 @@ function bashrc {
 }
 
 bashrc || echo WARNING: "Something's wrong with .bashrc"
+
+if [[ "${TERM:-}" == "screen" ]]; then
+  TERM="screen-256color"
+fi
