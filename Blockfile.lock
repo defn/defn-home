@@ -99,4 +99,4 @@ iamdefn/blue ${BLOCK_PATH}/blue git@github.com:iamdefn/blue 7d8160d304546b00e3c4
 iamdefn/earth ${BLOCK_PATH}/earth git@github.com:iamdefn/earth fdf7f6ea986d5d42322b4f2fc47216f3a661148a master
 iamdefn/yellow ${BLOCK_PATH}/yellow git@github.com:iamdefn/yellow 172cdc634810f5fb3c22768f9635d2242581d621 master
 iamdefn/voltron ${BLOCK_PATH}/voltron git@github.com:iamdefn/voltron 3e5c6394e7cfccfbc4c94203e1fb40585a8e8cfc master
-webterm ${BLOCK_PATH}/webterm git@github.com:defn/webterm 9f8039417bf79d7b8795910473601f60bc5e43bb master
+webterm ${BLOCK_PATH}/webterm git@github.com:defn/webterm 9810fa273cc44f0aaf6cdd7b0ce8d693920a55ef master
