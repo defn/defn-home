@@ -47,6 +47,12 @@ function bashrc {
 
 bashrc || echo WARNING: "Something's wrong with .bashrc"
 
-if [[ "${TERM:-}" == "screen" ]]; then
-  TERM="screen-256color"
-fi
+case "${TERM:-}" in
+  screen*)
+    TERM="screen-256color"
+    ;;
+  *)
+    TERM="xterm-256color"
+    ;;
+esac
+export TERM
