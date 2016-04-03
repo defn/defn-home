@@ -68,7 +68,7 @@ dnsmasq ${BLOCK_PATH}/dnsmasq git@github.com:defn/dnsmasq ddfd938738d533b7f0809b
 runit ${BLOCK_PATH}/runit git@github.com:defn/runit fbd4021027731af28d0d16d9860259ead0d09569 master
 java ${BLOCK_PATH}/java git@github.com:defn/java 4ff3db09ff69106d56387f7dcdbe9147e0515236 master
 linkerd ${BLOCK_PATH}/linkerd git@github.com:defn/linkerd 73284cc82e7442f6270714a1997e6c7fb14ef1ec master
-limbo ${BLOCK_PATH}/limbo git@github.com:defn/limbo 625b53d743ed8608104955abfa325a397527498f master
+limbo ${BLOCK_PATH}/limbo git@github.com:defn/limbo 7d3864ff09b397f44be5a5462f91710bd7a653b8 master
 inception ${BLOCK_PATH}/inception git@github.com:defn/inception c138050ece43907c15dd72924904dcae67547d34 master
 rbtools ${BLOCK_PATH}/rbtools git@github.com:defn/rbtools 9cd26ee9c15c0a09b3e2be933733ba43313402c1 master
 leiningen ${BLOCK_PATH}/leiningen git@github.com:defn/leiningen ba29bcbbf378ab47813d0ce32cb6411fbe390f48 master
@@ -99,4 +99,4 @@ iamdefn/blue ${BLOCK_PATH}/blue git@github.com:iamdefn/blue 7d8160d304546b00e3c4
 iamdefn/earth ${BLOCK_PATH}/earth git@github.com:iamdefn/earth fdf7f6ea986d5d42322b4f2fc47216f3a661148a master
 iamdefn/yellow ${BLOCK_PATH}/yellow git@github.com:iamdefn/yellow 172cdc634810f5fb3c22768f9635d2242581d621 master
 iamdefn/voltron ${BLOCK_PATH}/voltron git@github.com:iamdefn/voltron 3e5c6394e7cfccfbc4c94203e1fb40585a8e8cfc master
-webterm ${BLOCK_PATH}/webterm git@github.com:defn/webterm ad424d94088067015aef0b38e7dca64062ac3c92 master
+webterm ${BLOCK_PATH}/webterm git@github.com:defn/webterm bc8648fa5a8f505078e486d0b7d9f24710bd0178 master
