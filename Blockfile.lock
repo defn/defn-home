@@ -3,7 +3,7 @@ scripts-to-rule-them-all ${BLOCK_PATH}/scripts-to-rule-them-all git@github.com:d
 cache ${BLOCK_PATH}/cache git@github.com:defn/cache 6ac23be7031a6f909bfb634895164d7edb34f940 master
 sub ${BLOCK_PATH}/sub git@github.com:defn/sub a2796df0644dfa73ecbdd1eb5c1226b64940bda5 master
 runmany ${BLOCK_PATH}/runmany git@github.com:defn/runmany a87301c1739f93f15ce40c929e426f335caf3869 master
-block ${BLOCK_PATH}/block git@github.com:defn/block df04ccf742eed72f96b09895aef40943f7af3038 master
+block ${BLOCK_PATH}/block git@github.com:defn/block 9c1103635b601fc933e9d69fb5b846a992ca4089 master
 board ${BLOCK_PATH}/board git@github.com:defn/board 8b542d7cc54bd274b58da4accb3648d2083e1100 master
 kit ${BLOCK_PATH}/kit git@github.com:defn/kit a8f27903101e6f6c667ced10d99bc8b8d05f5433 master
 pkgsrc ${BLOCK_PATH}/pkgsrc git@github.com:defn/pkgsrc ab34592b2cd05e7cc5d7f3ec36faa2837a0d96c7 master
@@ -58,7 +58,7 @@ docker ${BLOCK_PATH}/docker git@github.com:defn/docker 1b6ae29ba7fdb589fcbf38a94
 packer ${BLOCK_PATH}/packer git@github.com:defn/packer 3d62d1fca51bf7a5736fbfbf5885fbb429eae967 master
 vagrant ${BLOCK_PATH}/vagrant git@github.com:defn/vagrant 71d6ef7daff9dd20097455cf3307d923b1d412eb master
 basebox ${BLOCK_PATH}/basebox git@github.com:defn/basebox 946869b2f626ab5dd284a87bc23e380ecf0c95f1 master
-basebox-ubuntu ${BLOCK_PATH}/basebox-ubuntu git@github.com:defn/basebox-ubuntu 0635580d3901a158ddfa7f46ecb5d18ebcdd7243 master
+basebox-ubuntu ${BLOCK_PATH}/basebox-ubuntu git@github.com:defn/basebox-ubuntu 2034b91ee29af467533d4748237f72fd26c3b42c master
 basebox-osx ${BLOCK_PATH}/basebox-osx git@github.com:defn/basebox-osx cb60c078e91d902161e25c893d506fe494670f11 master
 vagrant-shell ${BLOCK_PATH}/vagrant-shell git@github.com:defn/vagrant-shell 7fefa070c7390b488740e894141baf0a37dbfaac master
 consul ${BLOCK_PATH}/consul git@github.com:defn/consul 0a9b184c8b9da69bb147886bbbdd7798034f329a master
@@ -68,7 +68,7 @@ dnsmasq ${BLOCK_PATH}/dnsmasq git@github.com:defn/dnsmasq ddfd938738d533b7f0809b
 runit ${BLOCK_PATH}/runit git@github.com:defn/runit fbd4021027731af28d0d16d9860259ead0d09569 master
 java ${BLOCK_PATH}/java git@github.com:defn/java 4ff3db09ff69106d56387f7dcdbe9147e0515236 master
 linkerd ${BLOCK_PATH}/linkerd git@github.com:defn/linkerd 73284cc82e7442f6270714a1997e6c7fb14ef1ec master
-limbo ${BLOCK_PATH}/limbo git@github.com:defn/limbo 211829005e665147a5e67c8e17215547dc1f2004 master
+limbo ${BLOCK_PATH}/limbo git@github.com:defn/limbo 94bb935340928a9cf0b164ead2429426cf2b3edb master
 inception ${BLOCK_PATH}/inception git@github.com:defn/inception acbc0ac18960e354bc0bb60e17c4640a89c1d1a2 master
 rbtools ${BLOCK_PATH}/rbtools git@github.com:defn/rbtools 9cd26ee9c15c0a09b3e2be933733ba43313402c1 master
 leiningen ${BLOCK_PATH}/leiningen git@github.com:defn/leiningen ba29bcbbf378ab47813d0ce32cb6411fbe390f48 master
