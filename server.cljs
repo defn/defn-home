@@ -3,6 +3,6 @@
 
 (defn -main []
   (let [app (express)]
-    (.use app (serve-static "/vagrant/cache/apt-mirror/mirror/archive.ubuntu.com"))
+    (.use app (serve-static "/vagrant/cache/apt-mirror/mirror/archive.ubuntu.com/"))
     (.listen app 3000 (fn []
                         (println "Server started on port 3000")))))
