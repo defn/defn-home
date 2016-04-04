@@ -178,3 +178,6 @@
 # services
 /service
 /sv
+
+# jenkins
+/.jenkins
