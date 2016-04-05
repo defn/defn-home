@@ -3,11 +3,11 @@ scripts-to-rule-them-all ${BLOCK_PATH}/scripts-to-rule-them-all git@github.com:d
 cache ${BLOCK_PATH}/cache git@github.com:defn/cache 6ac23be7031a6f909bfb634895164d7edb34f940 master
 sub ${BLOCK_PATH}/sub git@github.com:defn/sub a2796df0644dfa73ecbdd1eb5c1226b64940bda5 master
 runmany ${BLOCK_PATH}/runmany git@github.com:defn/runmany a87301c1739f93f15ce40c929e426f335caf3869 master
-block ${BLOCK_PATH}/block git@github.com:defn/block df04ccf742eed72f96b09895aef40943f7af3038 master
+block ${BLOCK_PATH}/block git@github.com:defn/block f5caad4429001f5258852669ad4c88a10b251357 master
 board ${BLOCK_PATH}/board git@github.com:defn/board 8b542d7cc54bd274b58da4accb3648d2083e1100 master
 kit ${BLOCK_PATH}/kit git@github.com:defn/kit a8f27903101e6f6c667ced10d99bc8b8d05f5433 master
 pkgsrc ${BLOCK_PATH}/pkgsrc git@github.com:defn/pkgsrc ab34592b2cd05e7cc5d7f3ec36faa2837a0d96c7 master
-build-essential ${BLOCK_PATH}/build-essential git@github.com:defn/build-essential 4657a43703b59f5c9821ddb44f8db6ace2c95fed master
+build-essential ${BLOCK_PATH}/build-essential git@github.com:defn/build-essential 610d2ba5880ae09a712239980b90859c82366095 master
 rbenv ${BLOCK_PATH}/rbenv git@github.com:defn/rbenv 5221a20a4e81b27fb3fa2b0f7efb95972f623f03 master
 ruby ${BLOCK_PATH}/ruby git@github.com:defn/ruby 2c18d1dbfdf42ff11ba471f73f1b405ec7cdd433 master
 curl ${BLOCK_PATH}/curl git@github.com:defn/curl 9409557e5e2ee0516509ccc312831cb7197ca1cb master
@@ -22,7 +22,7 @@ context ${BLOCK_PATH}/context git@github.com:defn/context e7c7401a60539a1dbd415d
 homebrew ${BLOCK_PATH}/homebrew git@github.com:defn/homebrew 312f151b0df1be020a32eea7978ad507b400e0b9 master
 htop ${BLOCK_PATH}/htop git@github.com:defn/htop d96e4e0158858dcb446d58be0a383376cbb0fb9e master
 jq ${BLOCK_PATH}/jq git@github.com:defn/jq 587a98237536d3e1d411efa693637b17e6eae959 master
-python ${BLOCK_PATH}/python git@github.com:defn/python 49c27da7946921d576d1421b7609790ab2559fdd master
+python ${BLOCK_PATH}/python git@github.com:defn/python 355a0e5b89c52e013f9faccf9e886302f0f9462b master
 ansible ${BLOCK_PATH}/ansible git@github.com:defn/ansible 460ec70dd903f286188e4bedc63d3a781ddde711 master
 chef ${BLOCK_PATH}/chef git@github.com:defn/chef ee34d1c7d547a38582591da00e5d6d353df3b47a master
 facts ${BLOCK_PATH}/facts git@github.com:defn/facts 5ed2c0aaa25dcf29a3e5a6aa77192a79de14a42d master
@@ -49,16 +49,19 @@ squid ${BLOCK_PATH}/squid git@github.com:defn/squid f039364eacb96cbb36fed45f936d
 artifactory ${BLOCK_PATH}/artifactory git@github.com:defn/artifactory 057cdf6c4ce7c198540ef11d95959b81f2cae41a master
 packagecloud ${BLOCK_PATH}/packagecloud git@github.com:defn/packagecloud a5a52b936543cfd92925b71631987204228a6ddf master
 buildkite ${BLOCK_PATH}/buildkite git@github.com:defn/buildkite 085a243e3e703dd162662366b35bdcea573ec914 master
-jenkins ${BLOCK_PATH}/jenkins git@github.com:defn/jenkins 4760c1a21679e8f8ec4b963c71da774c752b31f9 master
+jenkins ${BLOCK_PATH}/jenkins git@github.com:defn/jenkins 24fe7ab5115dc7e74f0944bd29a534382f0261f8 master
 artifacts ${BLOCK_PATH}/artifacts git@github.com:defn/artifacts dfe42c890aadd5afaa1914368c2deaae83bd6f9b master
 launch-config ${BLOCK_PATH}/launch-config git@github.com:defn/launch-config a00f0d1e8cc4f7f8eee9a95c3bf56d3306a058ed master
-apt-mirror ${BLOCK_PATH}/apt-mirror git@github.com:defn/apt-mirror 9e7d5c9575b363e19d94266f3902e3c518837329 master
+java ${BLOCK_PATH}/java git@github.com:defn/java 4ff3db09ff69106d56387f7dcdbe9147e0515236 master
+maven ${BLOCK_PATH}/maven git@github.com:defn/maven 0297f740c763eb916b116e00e5fb62612655291e master
+cljs ${BLOCK_PATH}/cljs git@github.com:defn/cljs bacce4d4e9628481ce1731cb71f43cba9e702bc3 master
+apt-mirror ${BLOCK_PATH}/apt-mirror git@github.com:defn/apt-mirror 24d812fde327a9e24128e09fb4953e3dc7b181f9 master
 virtualbox ${BLOCK_PATH}/virtualbox git@github.com:defn/virtualbox 02b091b295dc57c02fec486cb8b7453f7369b701 master
 docker ${BLOCK_PATH}/docker git@github.com:defn/docker 1b6ae29ba7fdb589fcbf38a945749a47148efd73 master
 packer ${BLOCK_PATH}/packer git@github.com:defn/packer 3d62d1fca51bf7a5736fbfbf5885fbb429eae967 master
 vagrant ${BLOCK_PATH}/vagrant git@github.com:defn/vagrant 71d6ef7daff9dd20097455cf3307d923b1d412eb master
 basebox ${BLOCK_PATH}/basebox git@github.com:defn/basebox 946869b2f626ab5dd284a87bc23e380ecf0c95f1 master
-basebox-ubuntu ${BLOCK_PATH}/basebox-ubuntu git@github.com:defn/basebox-ubuntu f17263bd2e243e089aa939cb3d2fb45a34a33fe2 master
+basebox-ubuntu ${BLOCK_PATH}/basebox-ubuntu git@github.com:defn/basebox-ubuntu 4b665eae1b752ec2eb5829c681e47d894171e371 master
 basebox-osx ${BLOCK_PATH}/basebox-osx git@github.com:defn/basebox-osx cb60c078e91d902161e25c893d506fe494670f11 master
 vagrant-shell ${BLOCK_PATH}/vagrant-shell git@github.com:defn/vagrant-shell 7fefa070c7390b488740e894141baf0a37dbfaac master
 consul ${BLOCK_PATH}/consul git@github.com:defn/consul 0a9b184c8b9da69bb147886bbbdd7798034f329a master
@@ -66,7 +69,6 @@ vault ${BLOCK_PATH}/vault git@github.com:defn/vault d40520a5e6319e02a73b2ea75a11
 openvpn ${BLOCK_PATH}/openvpn git@github.com:defn/openvpn df0486ba8bd21ffb090ce98427eab136074e5388 master
 dnsmasq ${BLOCK_PATH}/dnsmasq git@github.com:defn/dnsmasq ddfd938738d533b7f0809bbf11e7a77d1879bb86 master
 runit ${BLOCK_PATH}/runit git@github.com:defn/runit fbd4021027731af28d0d16d9860259ead0d09569 master
-java ${BLOCK_PATH}/java git@github.com:defn/java 4ff3db09ff69106d56387f7dcdbe9147e0515236 master
 linkerd ${BLOCK_PATH}/linkerd git@github.com:defn/linkerd 73284cc82e7442f6270714a1997e6c7fb14ef1ec master
 limbo ${BLOCK_PATH}/limbo git@github.com:defn/limbo 4beb06daf920e16476d4971567a2455440f422db master
 inception ${BLOCK_PATH}/inception git@github.com:defn/inception 13f639546d976865ae0b25e02eeeb696279617ff master
@@ -86,8 +88,6 @@ sbt ${BLOCK_PATH}/sbt git@github.com:defn/sbt 8793361ece0a50b03dca637b5522cfaf13
 reviewboard ${BLOCK_PATH}/reviewboard git@github.com:defn/reviewboard 2b821b3c61fc348458c956ad7018df47a2816676 master
 isomorphic-clojurescript-reagent-node ${BLOCK_PATH}/isomorphic-clojurescript-reagent-node git@github.com:defn/isomorphic-clojurescript-reagent-node 0e261b794a14745b9d069f93acde8d7f73c17a4f master
 rust ${BLOCK_PATH}/rust git@github.com:defn/rust 33c4312c80bc2ed0da40d4357bdece044094c375 master
-maven ${BLOCK_PATH}/maven git@github.com:defn/maven 0297f740c763eb916b116e00e5fb62612655291e master
-cljs ${BLOCK_PATH}/cljs git@github.com:defn/cljs bacce4d4e9628481ce1731cb71f43cba9e702bc3 master
 iamdefn/lightning ${BLOCK_PATH}/lightning git@github.com:iamdefn/lightning bbb2b509df9f2968ca90d938bae733a51dc0a27c master
 iamdefn/black ${BLOCK_PATH}/black git@github.com:iamdefn/black 499e6ee83351e4cc5dd19e1879af3b4e93055afe master
 iamdefn/fire ${BLOCK_PATH}/fire git@github.com:iamdefn/fire 53718ed3017846b7692c3f7ad98068764db594c0 master
@@ -99,3 +99,4 @@ iamdefn/blue ${BLOCK_PATH}/blue git@github.com:iamdefn/blue 7d8160d304546b00e3c4
 iamdefn/earth ${BLOCK_PATH}/earth git@github.com:iamdefn/earth fdf7f6ea986d5d42322b4f2fc47216f3a661148a master
 iamdefn/yellow ${BLOCK_PATH}/yellow git@github.com:iamdefn/yellow 172cdc634810f5fb3c22768f9635d2242581d621 master
 iamdefn/voltron ${BLOCK_PATH}/voltron git@github.com:iamdefn/voltron 3e5c6394e7cfccfbc4c94203e1fb40585a8e8cfc master
+webterm ${BLOCK_PATH}/webterm git@github.com:defn/webterm 88e1466569616def74bc7386c5fec9d654c60a76 master

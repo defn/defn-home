@@ -46,3 +46,13 @@ function bashrc {
 }
 
 bashrc || echo WARNING: "Something's wrong with .bashrc"
+
+case "${TERM:-}" in
+  screen*)
+    TERM="screen-256color"
+    ;;
+  *)
+    TERM="xterm-256color"
+    ;;
+esac
+export TERM

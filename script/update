@@ -5,7 +5,11 @@ function home_update {
   source "$shome/script/profile"
 
   mkdir -p "$SVDIR"
+
   ln -nfs "$BLOCK_PATH/limbo/sv/squid" "$SVDIR/squid"
+  ln -nfs "$BLOCK_PATH/webterm/sv/webterm" "$SVDIR/webterm"
+  ln -nfs "$BLOCK_PATH/jenkins/sv/jenkins" "$SVDIR/jenkins"
+  ln -nfs "$BLOCK_PATH/apt-mirror/sv/apt-mirror" "$SVDIR/apt-mirror"
 }
 
 home_update "$@"

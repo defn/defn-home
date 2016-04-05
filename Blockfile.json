@@ -57,6 +57,7 @@
       "cljs",
       "linkerd"
     ],
-    "iamdefn/voltron"
+    "iamdefn/voltron",
+    "webterm"
   ]
 }

@@ -46,6 +46,8 @@ set diffexpr="-w -b -B"
 
 set guioptions=
 
+au BufRead,BufNewFile *.md set filetype=Markdown
+
 " to prevent screen restores
 " see http://wiki.bash-hackers.org/scripting/terminalcodes#background_coloring
 " set t_ti= t_te=
