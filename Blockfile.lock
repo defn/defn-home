@@ -71,7 +71,7 @@ dnsmasq ${BLOCK_PATH}/dnsmasq git@github.com:defn/dnsmasq ddfd938738d533b7f0809b
 runit ${BLOCK_PATH}/runit git@github.com:defn/runit fbd4021027731af28d0d16d9860259ead0d09569 master
 linkerd ${BLOCK_PATH}/linkerd git@github.com:defn/linkerd 73284cc82e7442f6270714a1997e6c7fb14ef1ec master
 limbo ${BLOCK_PATH}/limbo git@github.com:defn/limbo 7683ec9bb91921c244287b097a0595dfc4fc58ba master
-inception ${BLOCK_PATH}/inception git@github.com:defn/inception b710d389c01b7f82a06bc42a2e7fb5e89febe0ff master
+inception ${BLOCK_PATH}/inception git@github.com:defn/inception 60e2515fd4ce055db09e8bf684e3e12e5ee8b223 master
 rbtools ${BLOCK_PATH}/rbtools git@github.com:defn/rbtools 9cd26ee9c15c0a09b3e2be933733ba43313402c1 master
 leiningen ${BLOCK_PATH}/leiningen git@github.com:defn/leiningen ba29bcbbf378ab47813d0ce32cb6411fbe390f48 master
 poop ${BLOCK_PATH}/poop git@github.com:defn/poop 872217c6ed3fa30ff8c675e6a4484713b6b5910e master
