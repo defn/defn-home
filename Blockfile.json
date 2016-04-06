@@ -8,7 +8,8 @@
       "cache",
       "block",
       "board",
-      "kit"
+      "kit",
+      "runit"
     ],
     [
       "ruby",
