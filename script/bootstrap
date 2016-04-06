@@ -22,8 +22,6 @@ function home_bootstrap {
   source "$shome/script/profile"
 
   bootstrap_pkgsrc
-
-  npm install
 }
 
 home_bootstrap "$@"
