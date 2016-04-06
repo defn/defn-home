@@ -57,7 +57,7 @@ maven ${BLOCK_PATH}/maven git@github.com:defn/maven 0297f740c763eb916b116e00e5fb
 cljs ${BLOCK_PATH}/cljs git@github.com:defn/cljs 4b447cbd674a9c41279b04de2adf1c4ee9c5a17a master
 apt-mirror ${BLOCK_PATH}/apt-mirror git@github.com:defn/apt-mirror b618818391a854409a3df8c8f0e2c16fda0c4190 master
 virtualbox ${BLOCK_PATH}/virtualbox git@github.com:defn/virtualbox 02b091b295dc57c02fec486cb8b7453f7369b701 master
-docker ${BLOCK_PATH}/docker git@github.com:defn/docker 544745c4aa0b429d19b92d74432af31d80d007b9 master
+docker ${BLOCK_PATH}/docker git@github.com:defn/docker 1d03c0dd8b4a293d8ee3d6ab710a6254fa5c704e master
 packer ${BLOCK_PATH}/packer git@github.com:defn/packer 3d62d1fca51bf7a5736fbfbf5885fbb429eae967 master
 vagrant ${BLOCK_PATH}/vagrant git@github.com:defn/vagrant 71d6ef7daff9dd20097455cf3307d923b1d412eb master
 basebox ${BLOCK_PATH}/basebox git@github.com:defn/basebox 946869b2f626ab5dd284a87bc23e380ecf0c95f1 master
