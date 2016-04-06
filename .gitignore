@@ -182,3 +182,6 @@
 
 # jenkins
 /.jenkins
+
+# lxd
+/.config/lxc
