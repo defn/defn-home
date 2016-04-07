@@ -55,7 +55,7 @@ artifacts ${BLOCK_PATH}/artifacts git@github.com:defn/artifacts dfe42c890aadd5af
 launch-config ${BLOCK_PATH}/launch-config git@github.com:defn/launch-config a00f0d1e8cc4f7f8eee9a95c3bf56d3306a058ed master
 java ${BLOCK_PATH}/java git@github.com:defn/java 4ff3db09ff69106d56387f7dcdbe9147e0515236 master
 maven ${BLOCK_PATH}/maven git@github.com:defn/maven 0297f740c763eb916b116e00e5fb62612655291e master
-cljs ${BLOCK_PATH}/cljs git@github.com:defn/cljs 4b447cbd674a9c41279b04de2adf1c4ee9c5a17a master
+cljs ${BLOCK_PATH}/cljs git@github.com:defn/cljs ee57e1e7f881d32fb37ba23bac2b805301459209 master
 apt-mirror ${BLOCK_PATH}/apt-mirror git@github.com:defn/apt-mirror 72da3f5e6b84d9fb2c5502a36c3c9e57de10c3e2 master
 virtualbox ${BLOCK_PATH}/virtualbox git@github.com:defn/virtualbox 43bb581e9b8faf0e521db1a6cd56dacd52bbf824 master
 docker ${BLOCK_PATH}/docker git@github.com:defn/docker 1d03c0dd8b4a293d8ee3d6ab710a6254fa5c704e master
