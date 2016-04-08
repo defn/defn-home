@@ -32,7 +32,8 @@
       "facts",
       "docs",
       "ansible",
-      "bash4"
+      "bash4",
+      "hugo"
     ],
     [
       "cloud",

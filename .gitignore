@@ -185,3 +185,6 @@
 
 # lxd
 /.config/lxc
+
+# hugo
+/themes/hugo-material-docs
