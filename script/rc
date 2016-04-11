@@ -41,11 +41,10 @@ function home_rc {
     configure_cue
   fi
 
-  alias bl='block'
-
   if [[ -e "$shome/exec/home_secret" ]]; then
     source home_secret
   fi
 }
 
+alias b='block'
 home_rc
