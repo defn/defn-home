@@ -47,4 +47,5 @@ function home_rc {
 }
 
 alias b='block'
+alias tf='terraform'
 home_rc

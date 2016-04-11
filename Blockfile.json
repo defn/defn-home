@@ -59,6 +59,7 @@
       "linkerd"
     ],
     "iamdefn/voltron",
-    "webterm"
+    "webterm",
+    "terraform"
   ]
 }
