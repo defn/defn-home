@@ -16,7 +16,7 @@ node ${BLOCK_PATH}/node git@github.com:defn/node 0809e1ae5ce34d4d4c7371a8b7e372a
 xcode ${BLOCK_PATH}/xcode git@github.com:defn/xcode 7c76b8252095a7c7002aeb2ad264cb5e4a22cb05 master
 tunnelblick ${BLOCK_PATH}/tunnelblick git@github.com:defn/tunnelblick d204941e88dc9ca9df703e99f08b62003e963b22 master
 cue ${BLOCK_PATH}/cue git@github.com:defn/cue 50885f087daba21069b9715017b15a8503c51bc5 master
-junas ${BLOCK_PATH}/junas git@github.com:defn/junas cdd6ac5bc52daa0ca25be63c4a5d415d671b5d2d master
+junas ${BLOCK_PATH}/junas git@github.com:defn/junas c9591a13b46d1fac2d4e58f281fa483c6724b984 master
 defn ${BLOCK_PATH}/defn git@github.com:defn/defn 2d867d873b65f3c829bf88eb65ac7e11e7664441 master
 deploy ${BLOCK_PATH}/deploy git@github.com:defn/deploy 8d54362210948316fcf68bc20029f7050c7557de master
 context ${BLOCK_PATH}/context git@github.com:defn/context e7c7401a60539a1dbd415dae0a02e09a8e5f6984 master
@@ -81,7 +81,8 @@ elixir ${BLOCK_PATH}/elixir git@github.com:defn/elixir 9e096beed017f231e766dc1bc
 phoenix ${BLOCK_PATH}/phoenix git@github.com:defn/phoenix 1991bc9c5ec3e4e43b0ad0bae718a83057331925 master
 letsencrypt ${BLOCK_PATH}/letsencrypt git@github.com:defn/letsencrypt 1d3c617b60dcbbbf7b78ebc51f5de29f81f9cd30 master
 lamda ${BLOCK_PATH}/lamda git@github.com:defn/lamda 80e7b0e146c44f0d92798fd774bffd275e0367da master
-it ${BLOCK_PATH}/it git@github.com:defn/it facd2bd5482fcf3c5e9f422dcc62d7574472265f gh-pages
+hugo ${BLOCK_PATH}/hugo git@github.com:defn/hugo e20e2293e07419e7b64cb78220034d0ceba345f6 master
+it ${BLOCK_PATH}/it git@github.com:defn/it fa9a716ebdc4bd32dac4d413bbefc648441bb1fa gh-pages
 defn.github.io ${BLOCK_PATH}/defn.github.io git@github.com:defn/defn.github.io 51b3eddcc122c1b9460eb62b017588e1ce5fa5df master
 scala ${BLOCK_PATH}/scala git@github.com:defn/scala 1a72414a26fe17f212d9784386e8d7b99072549b master
 sbt ${BLOCK_PATH}/sbt git@github.com:defn/sbt 8793361ece0a50b03dca637b5522cfaf133adadb master
@@ -99,4 +100,4 @@ iamdefn/blue ${BLOCK_PATH}/blue git@github.com:iamdefn/blue 7d8160d304546b00e3c4
 iamdefn/earth ${BLOCK_PATH}/earth git@github.com:iamdefn/earth fdf7f6ea986d5d42322b4f2fc47216f3a661148a master
 iamdefn/yellow ${BLOCK_PATH}/yellow git@github.com:iamdefn/yellow 172cdc634810f5fb3c22768f9635d2242581d621 master
 iamdefn/voltron ${BLOCK_PATH}/voltron git@github.com:iamdefn/voltron 3e5c6394e7cfccfbc4c94203e1fb40585a8e8cfc master
-webterm ${BLOCK_PATH}/webterm git@github.com:defn/webterm 5e0a39a42340def076accae9eddb7eda99845787 master
+webterm ${BLOCK_PATH}/webterm git@github.com:defn/webterm 46acc819ce33164617f91419066c64acf5cbe062 master
