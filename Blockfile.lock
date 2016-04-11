@@ -82,7 +82,7 @@ phoenix ${BLOCK_PATH}/phoenix git@github.com:defn/phoenix 1991bc9c5ec3e4e43b0ad0
 letsencrypt ${BLOCK_PATH}/letsencrypt git@github.com:defn/letsencrypt 1d3c617b60dcbbbf7b78ebc51f5de29f81f9cd30 master
 lamda ${BLOCK_PATH}/lamda git@github.com:defn/lamda 80e7b0e146c44f0d92798fd774bffd275e0367da master
 hugo ${BLOCK_PATH}/hugo git@github.com:defn/hugo e20e2293e07419e7b64cb78220034d0ceba345f6 master
-it ${BLOCK_PATH}/it git@github.com:defn/it d47d468e5d443b5a8143af226ae324b323ac471c gh-pages
+it ${BLOCK_PATH}/it git@github.com:defn/it c1742e918b9dd727b3f7cb0e16cc4bd95cb04adf gh-pages
 defn.github.io ${BLOCK_PATH}/defn.github.io git@github.com:defn/defn.github.io 51b3eddcc122c1b9460eb62b017588e1ce5fa5df master
 scala ${BLOCK_PATH}/scala git@github.com:defn/scala 1a72414a26fe17f212d9784386e8d7b99072549b master
 sbt ${BLOCK_PATH}/sbt git@github.com:defn/sbt 8793361ece0a50b03dca637b5522cfaf133adadb master
@@ -101,3 +101,4 @@ iamdefn/earth ${BLOCK_PATH}/earth git@github.com:iamdefn/earth fdf7f6ea986d5d423
 iamdefn/yellow ${BLOCK_PATH}/yellow git@github.com:iamdefn/yellow 172cdc634810f5fb3c22768f9635d2242581d621 master
 iamdefn/voltron ${BLOCK_PATH}/voltron git@github.com:iamdefn/voltron 3e5c6394e7cfccfbc4c94203e1fb40585a8e8cfc master
 webterm ${BLOCK_PATH}/webterm git@github.com:defn/webterm 46acc819ce33164617f91419066c64acf5cbe062 master
+terraform ${BLOCK_PATH}/terraform git@github.com:defn/terraform 667e8301e1125a7179c5f41328875000df73b2ae master
