@@ -185,3 +185,6 @@
 
 # lxd
 /.config/lxc
+
+# terraform
+/.terraform.d
