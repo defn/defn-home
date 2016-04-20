@@ -4,6 +4,8 @@ function main {
   local shome="$(cd -P -- "${BASH_SOURCE%/*}/.." && pwd -P)"
   source "$shome/script/profile"
 
+  export CONTEXT_ORG="${0##*/}"
+
   exec staging us-west-1 "$@"
 }
 
