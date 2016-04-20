@@ -35,7 +35,7 @@ github ${BLOCK_PATH}/github git@github.com:defn/github ae142e04ad5daf82d3b1e5487
 docs ${BLOCK_PATH}/docs git@github.com:defn/docs 56f423889b2db50df6884f31d2171047193b944a master
 bash4 ${BLOCK_PATH}/bash4 git@github.com:defn/bash4 95c495a9867d0ac4c0d1ef2a1e2af92eb19a8ea2 master
 parity ${BLOCK_PATH}/parity git@github.com:defn/parity 1410f4ededdb665d399a11639a63509ef00ad387 master
-aws ${BLOCK_PATH}/aws git@github.com:defn/aws 0efb85b8959075bff08a1c10b736b0ec05b283b9 master
+aws ${BLOCK_PATH}/aws git@github.com:defn/aws 977c3004748b851d6a11a43d1d7e6c7ac0ac2024 master
 gcp ${BLOCK_PATH}/gcp git@github.com:defn/gcp 5a40f1fb026ef04751bbae6e75c19e36e1546260 master
 azure ${BLOCK_PATH}/azure git@github.com:defn/azure 5c5c14bc7d73935cc7c4e72f5a982d809e750185 master
 cloud ${BLOCK_PATH}/cloud git@github.com:defn/cloud 52200a2b06d9713f3cf71cbe550d779bf0bf99d9 master
