@@ -38,7 +38,7 @@ function home_rc {
     pushd "${BLOCK_PATH}/cue" > /dev/null
     require
     popd > /dev/null
-    configure_cue
+    configure_cue > /dev/null
   fi
 
   if [[ -e "$shome/exec/home_secret" ]]; then
