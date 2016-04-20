@@ -6,7 +6,7 @@ function main {
 
   export CONTEXT_ORG="${0##*/}"
 
-  exec staging us-west-1 "$@"
+  exec development us-west-1 "$@"
 }
 
 source sub "$BASH_SOURCE" "$@"

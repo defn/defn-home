@@ -19,7 +19,7 @@ cue ${BLOCK_PATH}/cue git@github.com:defn/cue 50885f087daba21069b9715017b15a8503
 junas ${BLOCK_PATH}/junas git@github.com:defn/junas c9591a13b46d1fac2d4e58f281fa483c6724b984 master
 defn ${BLOCK_PATH}/defn git@github.com:defn/defn 4e9856afdc66347fd02ad0ea63b9241aa30b1eea master
 deploy ${BLOCK_PATH}/deploy git@github.com:defn/deploy 8d54362210948316fcf68bc20029f7050c7557de master
-context ${BLOCK_PATH}/context git@github.com:defn/context efe1e21baf52c893e5382379915a6c96aa8ad76a master
+context ${BLOCK_PATH}/context git@github.com:defn/context 0c46a9c3963817bf3f4dd4cfcb64e3c76f1e0f68 master
 homebrew ${BLOCK_PATH}/homebrew git@github.com:defn/homebrew 312f151b0df1be020a32eea7978ad507b400e0b9 master
 htop ${BLOCK_PATH}/htop git@github.com:defn/htop d96e4e0158858dcb446d58be0a383376cbb0fb9e master
 jq ${BLOCK_PATH}/jq git@github.com:defn/jq 587a98237536d3e1d411efa693637b17e6eae959 master
@@ -96,4 +96,4 @@ webterm ${BLOCK_PATH}/webterm git@github.com:defn/webterm 46acc819ce33164617f914
 terraform ${BLOCK_PATH}/terraform git@github.com:defn/terraform 667e8301e1125a7179c5f41328875000df73b2ae master
 wtf ${BLOCK_PATH}/wtf git@github.com:defn/wtf f6a1fc82266509f741d02b262beb482e33fe763e master
 fogg ${BLOCK_PATH}/fogg git@github.com:defn/fogg f0fc26d891ab7c08ffe7755cf6de5596adbf9e5c master
-awesome ${BLOCK_PATH}/awesome git@github.com:defn/awesome 2bdf7ce17e73aa26951bc4cf55e435493adbea25 master
+awesome ${BLOCK_PATH}/awesome git@github.com:defn/awesome b6ce9438065b74719a29a38d904d05cda169b0d7 master
