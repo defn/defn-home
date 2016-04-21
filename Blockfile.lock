@@ -35,7 +35,7 @@ github ${BLOCK_PATH}/github git@github.com:defn/github ae142e04ad5daf82d3b1e5487
 docs ${BLOCK_PATH}/docs git@github.com:defn/docs 56f423889b2db50df6884f31d2171047193b944a master
 bash4 ${BLOCK_PATH}/bash4 git@github.com:defn/bash4 95c495a9867d0ac4c0d1ef2a1e2af92eb19a8ea2 master
 parity ${BLOCK_PATH}/parity git@github.com:defn/parity 1410f4ededdb665d399a11639a63509ef00ad387 master
-aws ${BLOCK_PATH}/aws git@github.com:defn/aws 977c3004748b851d6a11a43d1d7e6c7ac0ac2024 master
+aws ${BLOCK_PATH}/aws git@github.com:defn/aws a6b2b0ca6e9fbff077c323fb9176ebb729637596 master
 gcp ${BLOCK_PATH}/gcp git@github.com:defn/gcp 5a40f1fb026ef04751bbae6e75c19e36e1546260 master
 azure ${BLOCK_PATH}/azure git@github.com:defn/azure 5c5c14bc7d73935cc7c4e72f5a982d809e750185 master
 cloud ${BLOCK_PATH}/cloud git@github.com:defn/cloud 52200a2b06d9713f3cf71cbe550d779bf0bf99d9 master
@@ -93,7 +93,7 @@ iamdefn/earth ${BLOCK_PATH}/earth git@github.com:iamdefn/earth fdf7f6ea986d5d423
 iamdefn/yellow ${BLOCK_PATH}/yellow git@github.com:iamdefn/yellow 172cdc634810f5fb3c22768f9635d2242581d621 master
 iamdefn/voltron ${BLOCK_PATH}/voltron git@github.com:iamdefn/voltron 3e5c6394e7cfccfbc4c94203e1fb40585a8e8cfc master
 webterm ${BLOCK_PATH}/webterm git@github.com:defn/webterm 46acc819ce33164617f91419066c64acf5cbe062 master
-terraform ${BLOCK_PATH}/terraform git@github.com:defn/terraform 667e8301e1125a7179c5f41328875000df73b2ae master
+terraform ${BLOCK_PATH}/terraform git@github.com:defn/terraform 190f43ea04710034fcb97ef9ef65657910c46e60 master
 wtf ${BLOCK_PATH}/wtf git@github.com:defn/wtf f6a1fc82266509f741d02b262beb482e33fe763e master
 fogg ${BLOCK_PATH}/fogg git@github.com:defn/fogg f0fc26d891ab7c08ffe7755cf6de5596adbf9e5c master
-awesome ${BLOCK_PATH}/awesome git@github.com:defn/awesome 8a290d10ec746ac8db1085a6c7c7a27cbbd536de master
+awesome ${BLOCK_PATH}/awesome git@github.com:defn/awesome 4c0a70b3d0f61c61885769411cb50d0f7a1d6f69 master
