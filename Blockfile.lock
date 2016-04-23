@@ -93,7 +93,7 @@ iamdefn/earth ${BLOCK_PATH}/earth git@github.com:iamdefn/earth fdf7f6ea986d5d423
 iamdefn/yellow ${BLOCK_PATH}/yellow git@github.com:iamdefn/yellow 172cdc634810f5fb3c22768f9635d2242581d621 master
 iamdefn/voltron ${BLOCK_PATH}/voltron git@github.com:iamdefn/voltron 3e5c6394e7cfccfbc4c94203e1fb40585a8e8cfc master
 webterm ${BLOCK_PATH}/webterm git@github.com:defn/webterm 46acc819ce33164617f91419066c64acf5cbe062 master
-terraform ${BLOCK_PATH}/terraform git@github.com:defn/terraform 190f43ea04710034fcb97ef9ef65657910c46e60 master
+terraform ${BLOCK_PATH}/terraform git@github.com:defn/terraform 572a1ca71b52b6edd7ed49ea9d30000b3a1a3931 master
 wtf ${BLOCK_PATH}/wtf git@github.com:defn/wtf f6a1fc82266509f741d02b262beb482e33fe763e master
 fogg ${BLOCK_PATH}/fogg git@github.com:defn/fogg f0fc26d891ab7c08ffe7755cf6de5596adbf9e5c master
 awesome ${BLOCK_PATH}/awesome git@github.com:defn/awesome 4c0a70b3d0f61c61885769411cb50d0f7a1d6f69 master
