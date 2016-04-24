@@ -188,3 +188,7 @@
 
 # terraform
 /.terraform.d
+
+# python
+/vendor
+/.ptpython
