@@ -23,6 +23,8 @@ function home_bootstrap {
   source "$shome/script/profile"
 
   bootstrap_pkgsrc
+
+  block compile virtualenv
 }
 
 home_bootstrap "$@"
