@@ -12,7 +12,6 @@ function bootstrap_pkgsrc {
   pkg ensure sysutils/pstree
   pkg ensure www/pound
   pkg ensure net/socat
-  pkg ensure lang/python35
  }
 
 function home_bootstrap {
