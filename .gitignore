@@ -43,6 +43,7 @@
 /npm-debug.log
 /.v8flags.*.json
 /.npmrc
+/.node_repl_history
 
 # bower
 /.config/configstore
