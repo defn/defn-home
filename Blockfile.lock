@@ -12,7 +12,7 @@ build-essential ${BLOCK_PATH}/build-essential git@github.com:defn/build-essentia
 rbenv ${BLOCK_PATH}/rbenv git@github.com:defn/rbenv 5221a20a4e81b27fb3fa2b0f7efb95972f623f03 master
 ruby ${BLOCK_PATH}/ruby git@github.com:defn/ruby 2c18d1dbfdf42ff11ba471f73f1b405ec7cdd433 master
 curl ${BLOCK_PATH}/curl git@github.com:defn/curl 9409557e5e2ee0516509ccc312831cb7197ca1cb master
-node ${BLOCK_PATH}/node git@github.com:defn/node 0809e1ae5ce34d4d4c7371a8b7e372a05d8445b8 master
+node ${BLOCK_PATH}/node git@github.com:defn/node a729606490d9caf794af110e14b6f2fe3f41f048 master
 xcode ${BLOCK_PATH}/xcode git@github.com:defn/xcode 7c76b8252095a7c7002aeb2ad264cb5e4a22cb05 master
 tunnelblick ${BLOCK_PATH}/tunnelblick git@github.com:defn/tunnelblick d204941e88dc9ca9df703e99f08b62003e963b22 master
 cue ${BLOCK_PATH}/cue git@github.com:defn/cue 50885f087daba21069b9715017b15a8503c51bc5 master
