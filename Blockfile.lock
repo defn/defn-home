@@ -7,7 +7,7 @@ block ${BLOCK_PATH}/block git@github.com:defn/block ee7da0ffa263267ef5891dea3b11
 board ${BLOCK_PATH}/board git@github.com:defn/board 8b542d7cc54bd274b58da4accb3648d2083e1100 master
 kit ${BLOCK_PATH}/kit git@github.com:defn/kit a8f27903101e6f6c667ced10d99bc8b8d05f5433 master
 pkgsrc ${BLOCK_PATH}/pkgsrc git@github.com:defn/pkgsrc ab34592b2cd05e7cc5d7f3ec36faa2837a0d96c7 master
-runit ${BLOCK_PATH}/runit git@github.com:defn/runit fbd4021027731af28d0d16d9860259ead0d09569 master
+runit ${BLOCK_PATH}/runit git@github.com:defn/runit 57a60d599c81659bb82bcf2af2c074a9d89fdb2d master
 build-essential ${BLOCK_PATH}/build-essential git@github.com:defn/build-essential 8aac30f57df1270630ebacdb97f6b61570de818b master
 rbenv ${BLOCK_PATH}/rbenv git@github.com:defn/rbenv 5221a20a4e81b27fb3fa2b0f7efb95972f623f03 master
 ruby ${BLOCK_PATH}/ruby git@github.com:defn/ruby 2c18d1dbfdf42ff11ba471f73f1b405ec7cdd433 master
@@ -79,7 +79,7 @@ defn.github.io ${BLOCK_PATH}/defn.github.io git@github.com:defn/defn.github.io 5
 scala ${BLOCK_PATH}/scala git@github.com:defn/scala 1a72414a26fe17f212d9784386e8d7b99072549b master
 sbt ${BLOCK_PATH}/sbt git@github.com:defn/sbt 8793361ece0a50b03dca637b5522cfaf133adadb master
 reviewboard ${BLOCK_PATH}/reviewboard git@github.com:defn/reviewboard 5eede3b4f51106d98ee0121010a1aa5f1857844f master
-isomorphic-clojurescript-reagent-node ${BLOCK_PATH}/isomorphic-clojurescript-reagent-node git@github.com:defn/isomorphic-clojurescript-reagent-node 4028bcbb6d953b3b99d525627a3e6ab13dc3fc68 master
+isomorphic-clojurescript-reagent-node ${BLOCK_PATH}/isomorphic-clojurescript-reagent-node git@github.com:defn/isomorphic-clojurescript-reagent-node bd63f4a0f19a867ecf65075643c23a06696bb33a master
 rust ${BLOCK_PATH}/rust git@github.com:defn/rust 33c4312c80bc2ed0da40d4357bdece044094c375 master
 iamdefn/lightning ${BLOCK_PATH}/lightning git@github.com:iamdefn/lightning bbb2b509df9f2968ca90d938bae733a51dc0a27c master
 iamdefn/black ${BLOCK_PATH}/black git@github.com:iamdefn/black 499e6ee83351e4cc5dd19e1879af3b4e93055afe master
