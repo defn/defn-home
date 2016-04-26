@@ -193,6 +193,7 @@
 # python
 /vendor
 /.ptpython
+/.ipython
 
 # homebrew
 /.homebrew_analytics_user_uuid
