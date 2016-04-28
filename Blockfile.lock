@@ -1,9 +1,9 @@
-defn-config ${BLOCK_PATH}/defn-config git@github.com:defn/defn-config 1bbd8b58d96ffe82b57d4c758f137f95073aa95c master
+defn-config ${BLOCK_PATH}/defn-config git@github.com:defn/defn-config ebf7be482aa9a67236dd1224a52b35aedde7518f master
 scripts-to-rule-them-all ${BLOCK_PATH}/scripts-to-rule-them-all git@github.com:defn/scripts-to-rule-them-all 7f5e884d6f7f225ae2a5829fed1d514ae82c5476 master
 cache ${BLOCK_PATH}/cache git@github.com:defn/cache a1a98e5591ea08d93224057b60ca4b594ed358d2 master
 sub ${BLOCK_PATH}/sub git@github.com:defn/sub a2796df0644dfa73ecbdd1eb5c1226b64940bda5 master
 runmany ${BLOCK_PATH}/runmany git@github.com:defn/runmany 8653891591e9093638995de22b66f5ce6e1351b4 master
-block ${BLOCK_PATH}/block git@github.com:defn/block 7d91b0a6e592d3ef511fd4a2d2434c83edc77dde master
+block ${BLOCK_PATH}/block git@github.com:defn/block 289b8c2eb2a2b88e28cce64c59b4dd7e7104da57 master
 board ${BLOCK_PATH}/board git@github.com:defn/board 8b542d7cc54bd274b58da4accb3648d2083e1100 master
 kit ${BLOCK_PATH}/kit git@github.com:defn/kit a8f27903101e6f6c667ced10d99bc8b8d05f5433 master
 pkgsrc ${BLOCK_PATH}/pkgsrc git@github.com:defn/pkgsrc ab34592b2cd05e7cc5d7f3ec36faa2837a0d96c7 master
@@ -62,7 +62,7 @@ vault ${BLOCK_PATH}/vault git@github.com:defn/vault d40520a5e6319e02a73b2ea75a11
 openvpn ${BLOCK_PATH}/openvpn git@github.com:defn/openvpn df0486ba8bd21ffb090ce98427eab136074e5388 master
 dnsmasq ${BLOCK_PATH}/dnsmasq git@github.com:defn/dnsmasq ddfd938738d533b7f0809bbf11e7a77d1879bb86 master
 linkerd ${BLOCK_PATH}/linkerd git@github.com:defn/linkerd b11307fe1220f41ca5602929fcc51e4f05cf68bd master
-limbo ${BLOCK_PATH}/limbo git@github.com:defn/limbo c20014013d5a58cbd4830680a8c88328884f0638 master
+limbo ${BLOCK_PATH}/limbo git@github.com:defn/limbo 253fc6fe44e9db19aac60364a1c8339c982e549f master
 inception ${BLOCK_PATH}/inception git@github.com:defn/inception 3f4d21b898d06b9fdf99fe02600a2b700d1cd7d8 master
 rbtools ${BLOCK_PATH}/rbtools git@github.com:defn/rbtools 30b2b3d9538b2e616969d8bf1c5685f2bfca97b7 master
 leiningen ${BLOCK_PATH}/leiningen git@github.com:defn/leiningen ba29bcbbf378ab47813d0ce32cb6411fbe390f48 master
