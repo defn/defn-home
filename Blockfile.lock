@@ -71,14 +71,14 @@ postgresql ${BLOCK_PATH}/postgresql git@github.com:defn/postgresql 8206fa15fcaf0
 erlang ${BLOCK_PATH}/erlang git@github.com:defn/erlang e1f5f30bb0782609642619b43baef4c3f60b95a4 master
 elixir ${BLOCK_PATH}/elixir git@github.com:defn/elixir db8ec17f65638e075cf2f25cf61667f60e5ff7c2 master
 phoenix ${BLOCK_PATH}/phoenix git@github.com:defn/phoenix 1991bc9c5ec3e4e43b0ad0bae718a83057331925 master
-letsencrypt ${BLOCK_PATH}/letsencrypt git@github.com:defn/letsencrypt 4fb009b54ded44975682d1b873ccbeacf8a55614 master
+letsencrypt ${BLOCK_PATH}/letsencrypt git@github.com:defn/letsencrypt dabdf4e9dd79d713d6b9c5e67d6b6cd7021bf64b master
 lamda ${BLOCK_PATH}/lamda git@github.com:defn/lamda 80e7b0e146c44f0d92798fd774bffd275e0367da master
 hugo ${BLOCK_PATH}/hugo git@github.com:defn/hugo e20e2293e07419e7b64cb78220034d0ceba345f6 master
 it ${BLOCK_PATH}/it git@github.com:defn/it c1742e918b9dd727b3f7cb0e16cc4bd95cb04adf gh-pages
 defn.github.io ${BLOCK_PATH}/defn.github.io git@github.com:defn/defn.github.io 51b3eddcc122c1b9460eb62b017588e1ce5fa5df master
 scala ${BLOCK_PATH}/scala git@github.com:defn/scala 1a72414a26fe17f212d9784386e8d7b99072549b master
 sbt ${BLOCK_PATH}/sbt git@github.com:defn/sbt 8793361ece0a50b03dca637b5522cfaf133adadb master
-reviewboard ${BLOCK_PATH}/reviewboard git@github.com:defn/reviewboard 5eede3b4f51106d98ee0121010a1aa5f1857844f master
+reviewboard ${BLOCK_PATH}/reviewboard git@github.com:defn/reviewboard ae0af0ca8056a5cecd830daa21420a243fdb6fdf master
 isomorphic-clojurescript-reagent-node ${BLOCK_PATH}/isomorphic-clojurescript-reagent-node git@github.com:defn/isomorphic-clojurescript-reagent-node b10422cc54eb51120bde59debf90b8aaae15fabf master
 rust ${BLOCK_PATH}/rust git@github.com:defn/rust 33c4312c80bc2ed0da40d4357bdece044094c375 master
 iamdefn/lightning ${BLOCK_PATH}/lightning git@github.com:iamdefn/lightning bbb2b509df9f2968ca90d938bae733a51dc0a27c master
