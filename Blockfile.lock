@@ -54,7 +54,7 @@ docker ${BLOCK_PATH}/docker git@github.com:defn/docker 1d03c0dd8b4a293d8ee3d6ab7
 packer ${BLOCK_PATH}/packer git@github.com:defn/packer 3d62d1fca51bf7a5736fbfbf5885fbb429eae967 master
 vagrant ${BLOCK_PATH}/vagrant git@github.com:defn/vagrant 7fd02da13c3d92f9f3a315bd40c41755c21a7fa6 master
 basebox ${BLOCK_PATH}/basebox git@github.com:defn/basebox 946869b2f626ab5dd284a87bc23e380ecf0c95f1 master
-basebox-ubuntu ${BLOCK_PATH}/basebox-ubuntu git@github.com:defn/basebox-ubuntu 4c375a8cd7404ce75846084afe2e37b18e2dd5b1 master
+basebox-ubuntu ${BLOCK_PATH}/basebox-ubuntu git@github.com:defn/basebox-ubuntu 22c8508dc2d691f44a72b19f01ae69548e46c2b4 master
 basebox-osx ${BLOCK_PATH}/basebox-osx git@github.com:defn/basebox-osx cb60c078e91d902161e25c893d506fe494670f11 master
 vagrant-shell ${BLOCK_PATH}/vagrant-shell git@github.com:defn/vagrant-shell 7fefa070c7390b488740e894141baf0a37dbfaac master
 consul ${BLOCK_PATH}/consul git@github.com:defn/consul 0a9b184c8b9da69bb147886bbbdd7798034f329a master
@@ -62,7 +62,7 @@ vault ${BLOCK_PATH}/vault git@github.com:defn/vault d40520a5e6319e02a73b2ea75a11
 openvpn ${BLOCK_PATH}/openvpn git@github.com:defn/openvpn df0486ba8bd21ffb090ce98427eab136074e5388 master
 dnsmasq ${BLOCK_PATH}/dnsmasq git@github.com:defn/dnsmasq ddfd938738d533b7f0809bbf11e7a77d1879bb86 master
 linkerd ${BLOCK_PATH}/linkerd git@github.com:defn/linkerd b11307fe1220f41ca5602929fcc51e4f05cf68bd master
-limbo ${BLOCK_PATH}/limbo git@github.com:defn/limbo a098fb7ad9fd6a1532d838b82727145422b8a495 master
+limbo ${BLOCK_PATH}/limbo git@github.com:defn/limbo 07f3b75278f171e7726f598fe1b158b0bed5b208 master
 inception ${BLOCK_PATH}/inception git@github.com:defn/inception 3f4d21b898d06b9fdf99fe02600a2b700d1cd7d8 master
 rbtools ${BLOCK_PATH}/rbtools git@github.com:defn/rbtools 30b2b3d9538b2e616969d8bf1c5685f2bfca97b7 master
 leiningen ${BLOCK_PATH}/leiningen git@github.com:defn/leiningen ba29bcbbf378ab47813d0ce32cb6411fbe390f48 master
