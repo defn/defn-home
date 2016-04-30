@@ -23,7 +23,7 @@ context ${BLOCK_PATH}/context git@github.com:defn/context 3334b465a0484f217403c7
 homebrew ${BLOCK_PATH}/homebrew git@github.com:defn/homebrew 312f151b0df1be020a32eea7978ad507b400e0b9 master
 htop ${BLOCK_PATH}/htop git@github.com:defn/htop d96e4e0158858dcb446d58be0a383376cbb0fb9e master
 jq ${BLOCK_PATH}/jq git@github.com:defn/jq 587a98237536d3e1d411efa693637b17e6eae959 master
-python ${BLOCK_PATH}/python git@github.com:defn/python 0d6bb62a469835ad61077a2169da10f57f514b9c master
+python ${BLOCK_PATH}/python git@github.com:defn/python 831dc16da144adae4ddf9ee866e89cb55ed8642e master
 ansible ${BLOCK_PATH}/ansible git@github.com:defn/ansible 460ec70dd903f286188e4bedc63d3a781ddde711 master
 chef ${BLOCK_PATH}/chef git@github.com:defn/chef ee34d1c7d547a38582591da00e5d6d353df3b47a master
 facts ${BLOCK_PATH}/facts git@github.com:defn/facts 5ed2c0aaa25dcf29a3e5a6aa77192a79de14a42d master
@@ -71,14 +71,14 @@ postgresql ${BLOCK_PATH}/postgresql git@github.com:defn/postgresql 8206fa15fcaf0
 erlang ${BLOCK_PATH}/erlang git@github.com:defn/erlang e1f5f30bb0782609642619b43baef4c3f60b95a4 master
 elixir ${BLOCK_PATH}/elixir git@github.com:defn/elixir db8ec17f65638e075cf2f25cf61667f60e5ff7c2 master
 phoenix ${BLOCK_PATH}/phoenix git@github.com:defn/phoenix 1991bc9c5ec3e4e43b0ad0bae718a83057331925 master
-letsencrypt ${BLOCK_PATH}/letsencrypt git@github.com:defn/letsencrypt dabdf4e9dd79d713d6b9c5e67d6b6cd7021bf64b master
+letsencrypt ${BLOCK_PATH}/letsencrypt git@github.com:defn/letsencrypt 215b11bf5b25feb07771b6e6a2b7962dbbc295c7 master
 lamda ${BLOCK_PATH}/lamda git@github.com:defn/lamda 80e7b0e146c44f0d92798fd774bffd275e0367da master
 hugo ${BLOCK_PATH}/hugo git@github.com:defn/hugo e20e2293e07419e7b64cb78220034d0ceba345f6 master
 it ${BLOCK_PATH}/it git@github.com:defn/it c1742e918b9dd727b3f7cb0e16cc4bd95cb04adf gh-pages
 defn.github.io ${BLOCK_PATH}/defn.github.io git@github.com:defn/defn.github.io 51b3eddcc122c1b9460eb62b017588e1ce5fa5df master
 scala ${BLOCK_PATH}/scala git@github.com:defn/scala 1a72414a26fe17f212d9784386e8d7b99072549b master
 sbt ${BLOCK_PATH}/sbt git@github.com:defn/sbt 8793361ece0a50b03dca637b5522cfaf133adadb master
-reviewboard ${BLOCK_PATH}/reviewboard git@github.com:defn/reviewboard ae0af0ca8056a5cecd830daa21420a243fdb6fdf master
+reviewboard ${BLOCK_PATH}/reviewboard git@github.com:defn/reviewboard e9a15dd22e708c2e1f185a7e6a7efed839d240dc master
 isomorphic-clojurescript-reagent-node ${BLOCK_PATH}/isomorphic-clojurescript-reagent-node git@github.com:defn/isomorphic-clojurescript-reagent-node b10422cc54eb51120bde59debf90b8aaae15fabf master
 rust ${BLOCK_PATH}/rust git@github.com:defn/rust 33c4312c80bc2ed0da40d4357bdece044094c375 master
 iamdefn/lightning ${BLOCK_PATH}/lightning git@github.com:iamdefn/lightning bbb2b509df9f2968ca90d938bae733a51dc0a27c master
