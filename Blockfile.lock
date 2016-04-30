@@ -61,7 +61,7 @@ consul ${BLOCK_PATH}/consul git@github.com:defn/consul 0a9b184c8b9da69bb147886bb
 vault ${BLOCK_PATH}/vault git@github.com:defn/vault d40520a5e6319e02a73b2ea75a110bc8caf8ec27 master
 openvpn ${BLOCK_PATH}/openvpn git@github.com:defn/openvpn df0486ba8bd21ffb090ce98427eab136074e5388 master
 dnsmasq ${BLOCK_PATH}/dnsmasq git@github.com:defn/dnsmasq ddfd938738d533b7f0809bbf11e7a77d1879bb86 master
-linkerd ${BLOCK_PATH}/linkerd git@github.com:defn/linkerd b11307fe1220f41ca5602929fcc51e4f05cf68bd master
+linkerd ${BLOCK_PATH}/linkerd git@github.com:defn/linkerd c868bd7b9ec55fed47b923ef03e9de846ba814f1 master
 limbo ${BLOCK_PATH}/limbo git@github.com:defn/limbo d4c78a9c76b28da2320f5a786c359bf71914197e master
 inception ${BLOCK_PATH}/inception git@github.com:defn/inception 3f4d21b898d06b9fdf99fe02600a2b700d1cd7d8 master
 rbtools ${BLOCK_PATH}/rbtools git@github.com:defn/rbtools 30b2b3d9538b2e616969d8bf1c5685f2bfca97b7 master
@@ -80,7 +80,7 @@ scala ${BLOCK_PATH}/scala git@github.com:defn/scala 1a72414a26fe17f212d9784386e8
 sbt ${BLOCK_PATH}/sbt git@github.com:defn/sbt 8793361ece0a50b03dca637b5522cfaf133adadb master
 reviewboard ${BLOCK_PATH}/reviewboard git@github.com:defn/reviewboard e9a15dd22e708c2e1f185a7e6a7efed839d240dc master
 isomorphic-clojurescript-reagent-node ${BLOCK_PATH}/isomorphic-clojurescript-reagent-node git@github.com:defn/isomorphic-clojurescript-reagent-node b10422cc54eb51120bde59debf90b8aaae15fabf master
-rust ${BLOCK_PATH}/rust git@github.com:defn/rust 33c4312c80bc2ed0da40d4357bdece044094c375 master
+rust ${BLOCK_PATH}/rust git@github.com:defn/rust 5b467e7d4cafe4c93d9627df676e024917453c0f master
 iamdefn/lightning ${BLOCK_PATH}/lightning git@github.com:iamdefn/lightning bbb2b509df9f2968ca90d938bae733a51dc0a27c master
 iamdefn/black ${BLOCK_PATH}/black git@github.com:iamdefn/black 499e6ee83351e4cc5dd19e1879af3b4e93055afe master
 iamdefn/fire ${BLOCK_PATH}/fire git@github.com:iamdefn/fire 53718ed3017846b7692c3f7ad98068764db594c0 master
