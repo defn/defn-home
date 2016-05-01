@@ -6,7 +6,7 @@ runmany ${BLOCK_PATH}/runmany git@github.com:defn/runmany 8653891591e9093638995d
 block ${BLOCK_PATH}/block git@github.com:defn/block afd924bcdce88995291cb140fa6a171ceca41d27 master
 board ${BLOCK_PATH}/board git@github.com:defn/board 8b542d7cc54bd274b58da4accb3648d2083e1100 master
 kit ${BLOCK_PATH}/kit git@github.com:defn/kit a8f27903101e6f6c667ced10d99bc8b8d05f5433 master
-pkgsrc ${BLOCK_PATH}/pkgsrc git@github.com:defn/pkgsrc 73705ac1d46dcc5c0b39ed744e59fae896312059 master
+pkgsrc ${BLOCK_PATH}/pkgsrc git@github.com:defn/pkgsrc f15810de2bf67917037abed0b9dd8d9f03475978 master
 runit ${BLOCK_PATH}/runit git@github.com:defn/runit 57a60d599c81659bb82bcf2af2c074a9d89fdb2d master
 build-essential ${BLOCK_PATH}/build-essential git@github.com:defn/build-essential 8aac30f57df1270630ebacdb97f6b61570de818b master
 rbenv ${BLOCK_PATH}/rbenv git@github.com:defn/rbenv 5221a20a4e81b27fb3fa2b0f7efb95972f623f03 master
@@ -48,7 +48,7 @@ launch-config ${BLOCK_PATH}/launch-config git@github.com:defn/launch-config a00f
 java ${BLOCK_PATH}/java git@github.com:defn/java 4ff3db09ff69106d56387f7dcdbe9147e0515236 master
 maven ${BLOCK_PATH}/maven git@github.com:defn/maven 0297f740c763eb916b116e00e5fb62612655291e master
 cljs ${BLOCK_PATH}/cljs git@github.com:defn/cljs ee57e1e7f881d32fb37ba23bac2b805301459209 master
-apt-mirror ${BLOCK_PATH}/apt-mirror git@github.com:defn/apt-mirror d9c2ea27fc203f03ec620e3fabbb83cf80b4194b master
+apt-mirror ${BLOCK_PATH}/apt-mirror git@github.com:defn/apt-mirror 3688776f0345ff98a750cc9ee98da8702377ad8e master
 virtualbox ${BLOCK_PATH}/virtualbox git@github.com:defn/virtualbox 11e1766a0bce1011e88e8d257540597939e245a6 master
 docker ${BLOCK_PATH}/docker git@github.com:defn/docker 1d03c0dd8b4a293d8ee3d6ab710a6254fa5c704e master
 packer ${BLOCK_PATH}/packer git@github.com:defn/packer 9704f5e45adab2954666cff6287e8b21e745f9d2 master
