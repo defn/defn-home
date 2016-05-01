@@ -6,7 +6,7 @@ runmany ${BLOCK_PATH}/runmany git@github.com:defn/runmany 8653891591e9093638995d
 block ${BLOCK_PATH}/block git@github.com:defn/block afd924bcdce88995291cb140fa6a171ceca41d27 master
 board ${BLOCK_PATH}/board git@github.com:defn/board 8b542d7cc54bd274b58da4accb3648d2083e1100 master
 kit ${BLOCK_PATH}/kit git@github.com:defn/kit a8f27903101e6f6c667ced10d99bc8b8d05f5433 master
-pkgsrc ${BLOCK_PATH}/pkgsrc git@github.com:defn/pkgsrc 73705ac1d46dcc5c0b39ed744e59fae896312059 master
+pkgsrc ${BLOCK_PATH}/pkgsrc git@github.com:defn/pkgsrc f6b2afce91a4b1012bdf99e8c7f68790e64b8451 master
 runit ${BLOCK_PATH}/runit git@github.com:defn/runit 57a60d599c81659bb82bcf2af2c074a9d89fdb2d master
 build-essential ${BLOCK_PATH}/build-essential git@github.com:defn/build-essential 8aac30f57df1270630ebacdb97f6b61570de818b master
 rbenv ${BLOCK_PATH}/rbenv git@github.com:defn/rbenv 5221a20a4e81b27fb3fa2b0f7efb95972f623f03 master
