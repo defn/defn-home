@@ -23,7 +23,7 @@ context ${BLOCK_PATH}/context git@github.com:defn/context 3334b465a0484f217403c7
 homebrew ${BLOCK_PATH}/homebrew git@github.com:defn/homebrew 312f151b0df1be020a32eea7978ad507b400e0b9 master
 htop ${BLOCK_PATH}/htop git@github.com:defn/htop d96e4e0158858dcb446d58be0a383376cbb0fb9e master
 jq ${BLOCK_PATH}/jq git@github.com:defn/jq 587a98237536d3e1d411efa693637b17e6eae959 master
-python ${BLOCK_PATH}/python git@github.com:defn/python b46487800a8df9bf197116f1f1d69cc8d21e9112 master
+python ${BLOCK_PATH}/python git@github.com:defn/python e6002e4aceb8accbff6457b15b3e18f9b895bb43 master
 ansible ${BLOCK_PATH}/ansible git@github.com:defn/ansible ef2aaaed31b6027e4ce0b2c7d9eddec40b6fa545 master
 chef ${BLOCK_PATH}/chef git@github.com:defn/chef ee34d1c7d547a38582591da00e5d6d353df3b47a master
 facts ${BLOCK_PATH}/facts git@github.com:defn/facts 5ed2c0aaa25dcf29a3e5a6aa77192a79de14a42d master
