@@ -8,8 +8,9 @@ function main {
 
   local many="${1:-10}"
   
-  git pull
-  block lock sync
+  block runmany "$many" 'cd $1 && git pull && git push' || true
+  block clone
+  block lock
   home status
 }
 
