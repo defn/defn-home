@@ -48,7 +48,7 @@ launch-config ${BLOCK_PATH}/launch-config git@github.com:defn/launch-config a00f
 java ${BLOCK_PATH}/java git@github.com:defn/java 4ff3db09ff69106d56387f7dcdbe9147e0515236 master
 maven ${BLOCK_PATH}/maven git@github.com:defn/maven 0297f740c763eb916b116e00e5fb62612655291e master
 cljs ${BLOCK_PATH}/cljs git@github.com:defn/cljs ee57e1e7f881d32fb37ba23bac2b805301459209 master
-apt-mirror ${BLOCK_PATH}/apt-mirror git@github.com:defn/apt-mirror 3688776f0345ff98a750cc9ee98da8702377ad8e master
+apt-mirror ${BLOCK_PATH}/apt-mirror git@github.com:defn/apt-mirror cab2c28c5e75df404c819448398efdfe8fda0ad4 master
 virtualbox ${BLOCK_PATH}/virtualbox git@github.com:defn/virtualbox 11e1766a0bce1011e88e8d257540597939e245a6 master
 docker ${BLOCK_PATH}/docker git@github.com:defn/docker 1d03c0dd8b4a293d8ee3d6ab710a6254fa5c704e master
 packer ${BLOCK_PATH}/packer git@github.com:defn/packer 9704f5e45adab2954666cff6287e8b21e745f9d2 master
