@@ -12,6 +12,7 @@ function bootstrap_pkgsrc {
   pkg ensure sysutils/pstree
   pkg ensure www/pound
   pkg ensure net/socat
+  pkg ensure devel/gettext-tools
  }
 
 function home_bootstrap {
