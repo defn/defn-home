@@ -7,7 +7,7 @@ block ${BLOCK_PATH}/block git@github.com:defn/block afd924bcdce88995291cb140fa6a
 block-shortcuts ${BLOCK_PATH}/block-shortcuts git@github.com:defn/block-shortcuts af53b33ed511deaf7cde3d5ead70fe49d4877cd5 master
 board ${BLOCK_PATH}/board git@github.com:defn/board 8b542d7cc54bd274b58da4accb3648d2083e1100 master
 kit ${BLOCK_PATH}/kit git@github.com:defn/kit a8f27903101e6f6c667ced10d99bc8b8d05f5433 master
-pkgsrc ${BLOCK_PATH}/pkgsrc git@github.com:defn/pkgsrc f4320d4d2b7ed41d9308323e957775eff9803845 master
+pkgsrc ${BLOCK_PATH}/pkgsrc git@github.com:defn/pkgsrc d0db118bfc1d1bad87f0c63094af5809f69c5da1 master
 runit ${BLOCK_PATH}/runit git@github.com:defn/runit 57a60d599c81659bb82bcf2af2c074a9d89fdb2d master
 build-essential ${BLOCK_PATH}/build-essential git@github.com:defn/build-essential 8aac30f57df1270630ebacdb97f6b61570de818b master
 rbenv ${BLOCK_PATH}/rbenv git@github.com:defn/rbenv 5221a20a4e81b27fb3fa2b0f7efb95972f623f03 master
@@ -37,9 +37,9 @@ docs ${BLOCK_PATH}/docs git@github.com:defn/docs 56f423889b2db50df6884f31d217104
 bash4 ${BLOCK_PATH}/bash4 git@github.com:defn/bash4 95c495a9867d0ac4c0d1ef2a1e2af92eb19a8ea2 master
 parity ${BLOCK_PATH}/parity git@github.com:defn/parity 1410f4ededdb665d399a11639a63509ef00ad387 master
 aws ${BLOCK_PATH}/aws git@github.com:defn/aws 2b20f6aff1019752eaedca2b7fff7b6903699757 master
-gcp ${BLOCK_PATH}/gcp git@github.com:defn/gcp 5a40f1fb026ef04751bbae6e75c19e36e1546260 master
 azure ${BLOCK_PATH}/azure git@github.com:defn/azure 5c5c14bc7d73935cc7c4e72f5a982d809e750185 master
-cloud ${BLOCK_PATH}/cloud git@github.com:defn/cloud 52200a2b06d9713f3cf71cbe550d779bf0bf99d9 master
+packet ${BLOCK_PATH}/packet git@github.com:defn/packet f0e96237744cc087e3a673bc0ca6266debf8c1a5 master
+cloud ${BLOCK_PATH}/cloud git@github.com:defn/cloud 2cc0ec3643531352931d017944d02f05348e47b5 master
 squid ${BLOCK_PATH}/squid git@github.com:defn/squid f039364eacb96cbb36fed45f936d79b0b4a177e6 master
 packagecloud ${BLOCK_PATH}/packagecloud git@github.com:defn/packagecloud a5a52b936543cfd92925b71631987204228a6ddf master
 buildkite ${BLOCK_PATH}/buildkite git@github.com:defn/buildkite 085a243e3e703dd162662366b35bdcea573ec914 master
