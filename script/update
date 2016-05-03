@@ -10,6 +10,7 @@ function home_update {
   ln -nfs "$BLOCK_PATH/webterm/sv/webterm" "$SVDIR/webterm"
   ln -nfs "$BLOCK_PATH/jenkins/sv/jenkins" "$SVDIR/jenkins"
   ln -nfs "$BLOCK_PATH/apt-mirror/sv/apt-mirror" "$SVDIR/apt-mirror"
+  ln -nfs "$BLOCK_PATH/linkerd/sv/linkerd" "$SVDIR/linkerd"
 }
 
 home_update "$@"
