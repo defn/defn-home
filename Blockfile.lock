@@ -24,7 +24,7 @@ context ${BLOCK_PATH}/context git@github.com:defn/context 3334b465a0484f217403c7
 homebrew ${BLOCK_PATH}/homebrew git@github.com:defn/homebrew 312f151b0df1be020a32eea7978ad507b400e0b9 master
 htop ${BLOCK_PATH}/htop git@github.com:defn/htop d96e4e0158858dcb446d58be0a383376cbb0fb9e master
 jq ${BLOCK_PATH}/jq git@github.com:defn/jq 587a98237536d3e1d411efa693637b17e6eae959 master
-python ${BLOCK_PATH}/python git@github.com:defn/python e6002e4aceb8accbff6457b15b3e18f9b895bb43 master
+python ${BLOCK_PATH}/python git@github.com:defn/python c1c265d4a59470db7327b90cb629c9681efa8152 master
 ansible ${BLOCK_PATH}/ansible git@github.com:defn/ansible ef2aaaed31b6027e4ce0b2c7d9eddec40b6fa545 master
 chef ${BLOCK_PATH}/chef git@github.com:defn/chef ee34d1c7d547a38582591da00e5d6d353df3b47a master
 facts ${BLOCK_PATH}/facts git@github.com:defn/facts 5ed2c0aaa25dcf29a3e5a6aa77192a79de14a42d master
@@ -63,7 +63,7 @@ vault ${BLOCK_PATH}/vault git@github.com:defn/vault d40520a5e6319e02a73b2ea75a11
 openvpn ${BLOCK_PATH}/openvpn git@github.com:defn/openvpn df0486ba8bd21ffb090ce98427eab136074e5388 master
 dnsmasq ${BLOCK_PATH}/dnsmasq git@github.com:defn/dnsmasq ddfd938738d533b7f0809bbf11e7a77d1879bb86 master
 linkerd ${BLOCK_PATH}/linkerd git@github.com:defn/linkerd fed422e0ec5c31aecef8697ea010fe9cf5dfacbc master
-limbo ${BLOCK_PATH}/limbo git@github.com:defn/limbo ad58024feb1ea1f50ce8a5045d35d8b4ee37c16c master
+limbo ${BLOCK_PATH}/limbo git@github.com:defn/limbo 413d48318d4cb9e924570c9f62e84497dd72cb61 master
 inception ${BLOCK_PATH}/inception git@github.com:defn/inception 3f4d21b898d06b9fdf99fe02600a2b700d1cd7d8 master
 rbtools ${BLOCK_PATH}/rbtools git@github.com:defn/rbtools 30b2b3d9538b2e616969d8bf1c5685f2bfca97b7 master
 leiningen ${BLOCK_PATH}/leiningen git@github.com:defn/leiningen ba29bcbbf378ab47813d0ce32cb6411fbe390f48 master
