@@ -100,6 +100,7 @@
 # virtualbox
 /VirtualBox VMs
 /.config/VirtualBox
+/.vbox_version
 
 # packer
 /.packer.d
