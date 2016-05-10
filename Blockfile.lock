@@ -3,7 +3,7 @@ scripts-to-rule-them-all ${BLOCK_PATH}/scripts-to-rule-them-all git@github.com:d
 cache ${BLOCK_PATH}/cache git@github.com:defn/cache faa0c4c54584e2b782f143fddc0521586d1a899d master
 sub ${BLOCK_PATH}/sub git@github.com:defn/sub a2796df0644dfa73ecbdd1eb5c1226b64940bda5 master
 runmany ${BLOCK_PATH}/runmany git@github.com:defn/runmany 8653891591e9093638995de22b66f5ce6e1351b4 master
-block ${BLOCK_PATH}/block git@github.com:defn/block 1187eba5655257d8327be5f1a2ee6c2236b6fe58 master
+block ${BLOCK_PATH}/block git@github.com:defn/block 6d6eee6b38e54a60452f7dd2ec1c110903b882a6 master
 block-shortcuts ${BLOCK_PATH}/block-shortcuts git@github.com:defn/block-shortcuts cee2fe14e646dd9ea2638a4c7bfd9ded73e84b28 master
 board ${BLOCK_PATH}/board git@github.com:defn/board 8b542d7cc54bd274b58da4accb3648d2083e1100 master
 kit ${BLOCK_PATH}/kit git@github.com:defn/kit a8f27903101e6f6c667ced10d99bc8b8d05f5433 master
