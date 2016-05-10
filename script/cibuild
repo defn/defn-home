@@ -6,11 +6,11 @@ function home_cibuild {
 
   if [[ ! -f "Blockfile.lock" ]]; then
     block clone
+  else
+    block lock sync
 	fi
 
-  block lock sync
-
-  "$shome/script/bootstrap" 
+  block bootstrap
 }
 
 home_cibuild
