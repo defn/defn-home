@@ -42,7 +42,7 @@ packet ${BLOCK_PATH}/packet git@github.com:defn/packet f0e96237744cc087e3a673bc0
 cloud ${BLOCK_PATH}/cloud git@github.com:defn/cloud 2cc0ec3643531352931d017944d02f05348e47b5 master
 squid ${BLOCK_PATH}/squid git@github.com:defn/squid f039364eacb96cbb36fed45f936d79b0b4a177e6 master
 packagecloud ${BLOCK_PATH}/packagecloud git@github.com:defn/packagecloud a5a52b936543cfd92925b71631987204228a6ddf master
-buildkite ${BLOCK_PATH}/buildkite git@github.com:defn/buildkite 085a243e3e703dd162662366b35bdcea573ec914 master
+buildkite ${BLOCK_PATH}/buildkite git@github.com:defn/buildkite b0186399e6651ded8e712bb63bad6f3cf99770ab master
 sinopia ${BLOCK_PATH}/sinopia git@github.com:defn/sinopia 1875209ad8ba575706959c7723d06bbb0e05e4e1 master
 artifacts ${BLOCK_PATH}/artifacts git@github.com:defn/artifacts 9f188acc643620a763b9bcb3d3e5aedd55731ca2 master
 launch-config ${BLOCK_PATH}/launch-config git@github.com:defn/launch-config a00f0d1e8cc4f7f8eee9a95c3bf56d3306a058ed master
@@ -63,7 +63,7 @@ vault ${BLOCK_PATH}/vault git@github.com:defn/vault d40520a5e6319e02a73b2ea75a11
 openvpn ${BLOCK_PATH}/openvpn git@github.com:defn/openvpn df0486ba8bd21ffb090ce98427eab136074e5388 master
 dnsmasq ${BLOCK_PATH}/dnsmasq git@github.com:defn/dnsmasq ddfd938738d533b7f0809bbf11e7a77d1879bb86 master
 linkerd ${BLOCK_PATH}/linkerd git@github.com:defn/linkerd fed422e0ec5c31aecef8697ea010fe9cf5dfacbc master
-limbo ${BLOCK_PATH}/limbo git@github.com:defn/limbo 4c35afa536ea33f7bbbf44b64e7ff3eb533a9eaf master
+limbo ${BLOCK_PATH}/limbo git@github.com:defn/limbo 48504cd9bc3d6b44fc2d30fc813d910d668489b3 master
 inception ${BLOCK_PATH}/inception git@github.com:defn/inception 6ff80bfdd1a4b6004cf5f8b244f8d9e426d6c919 master
 rbtools ${BLOCK_PATH}/rbtools git@github.com:defn/rbtools 30b2b3d9538b2e616969d8bf1c5685f2bfca97b7 master
 leiningen ${BLOCK_PATH}/leiningen git@github.com:defn/leiningen ba29bcbbf378ab47813d0ce32cb6411fbe390f48 master
