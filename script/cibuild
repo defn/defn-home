@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+
+function home_cibuild {
+  local shome="$(cd -P -- "${BASH_SOURCE%/*}/.." && pwd -P)"
+  source "$shome/script/profile"
+
+  if [[ ! -f "Blockfile.lock" ]]; then
+    block clone
+	fi
+
+  block lock sync
+
+  "$shome/script/bootstrap" 
+}
+
+home_cibuild
