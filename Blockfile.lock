@@ -98,3 +98,5 @@ terraform ${BLOCK_PATH}/terraform git@github.com:defn/terraform 5c52af872e3856bf
 wtf ${BLOCK_PATH}/wtf git@github.com:defn/wtf f6a1fc82266509f741d02b262beb482e33fe763e master
 fogg ${BLOCK_PATH}/fogg git@github.com:defn/fogg f0fc26d891ab7c08ffe7755cf6de5596adbf9e5c master
 awesome ${BLOCK_PATH}/awesome git@github.com:defn/awesome a517c68af646ce31236d866fbbd18907a1af7a37 master
+lock ${BLOCK_PATH}/lock git@github.com:defn/lock ceeeaf14c2c2a5ab5b0efe8ed333592b20332231 master
+rundeck ${BLOCK_PATH}/rundeck git@github.com:defn/rundeck 7e511c5791d74e583d46fc49c7a7d18f5d6bfe4d master
