@@ -61,6 +61,7 @@
     ],
     "iamdefn/voltron",
     "webterm",
-    "fogg", "awesome"
+    "fogg", "awesome",
+    "lock", "rundeck"
   ]
 }
