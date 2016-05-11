@@ -7,7 +7,7 @@ block ${BLOCK_PATH}/block git@github.com:defn/block 572cad86a703b01a3156c9289b4b
 block-shortcuts ${BLOCK_PATH}/block-shortcuts git@github.com:defn/block-shortcuts cee2fe14e646dd9ea2638a4c7bfd9ded73e84b28 master
 board ${BLOCK_PATH}/board git@github.com:defn/board 8b542d7cc54bd274b58da4accb3648d2083e1100 master
 kit ${BLOCK_PATH}/kit git@github.com:defn/kit a8f27903101e6f6c667ced10d99bc8b8d05f5433 master
-pkgsrc ${BLOCK_PATH}/pkgsrc git@github.com:defn/pkgsrc c1e81298089e7b29c9e40454af4191d808e89dac master
+pkgsrc ${BLOCK_PATH}/pkgsrc git@github.com:defn/pkgsrc 816538f057ace8f9c843dc2ec75fa92b59bdde15 master
 runit ${BLOCK_PATH}/runit git@github.com:defn/runit 57a60d599c81659bb82bcf2af2c074a9d89fdb2d master
 build-essential ${BLOCK_PATH}/build-essential git@github.com:defn/build-essential 8aac30f57df1270630ebacdb97f6b61570de818b master
 rbenv ${BLOCK_PATH}/rbenv git@github.com:defn/rbenv 5221a20a4e81b27fb3fa2b0f7efb95972f623f03 master
