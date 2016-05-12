@@ -46,7 +46,7 @@ buildkite ${BLOCK_PATH}/buildkite git@github.com:defn/buildkite b0186399e6651ded
 sinopia ${BLOCK_PATH}/sinopia git@github.com:defn/sinopia 1875209ad8ba575706959c7723d06bbb0e05e4e1 master
 artifacts ${BLOCK_PATH}/artifacts git@github.com:defn/artifacts 9f188acc643620a763b9bcb3d3e5aedd55731ca2 master
 launch-config ${BLOCK_PATH}/launch-config git@github.com:defn/launch-config a00f0d1e8cc4f7f8eee9a95c3bf56d3306a058ed master
-java ${BLOCK_PATH}/java git@github.com:defn/java fcfa22bc84c830f0675693101e0c309c7e5da8de master
+java ${BLOCK_PATH}/java git@github.com:defn/java 2b50f37f8ffb6b727e58862671c4bcf6f744769e master
 maven ${BLOCK_PATH}/maven git@github.com:defn/maven 0297f740c763eb916b116e00e5fb62612655291e master
 cljs ${BLOCK_PATH}/cljs git@github.com:defn/cljs ee57e1e7f881d32fb37ba23bac2b805301459209 master
 apt-mirror ${BLOCK_PATH}/apt-mirror git@github.com:defn/apt-mirror cab2c28c5e75df404c819448398efdfe8fda0ad4 master
