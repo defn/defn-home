@@ -3,7 +3,7 @@ scripts-to-rule-them-all ${BLOCK_PATH}/scripts-to-rule-them-all git@github.com:d
 cache ${BLOCK_PATH}/cache git@github.com:defn/cache faa0c4c54584e2b782f143fddc0521586d1a899d master
 sub ${BLOCK_PATH}/sub git@github.com:defn/sub a2796df0644dfa73ecbdd1eb5c1226b64940bda5 master
 runmany ${BLOCK_PATH}/runmany git@github.com:defn/runmany 8653891591e9093638995de22b66f5ce6e1351b4 master
-block ${BLOCK_PATH}/block git@github.com:defn/block 572cad86a703b01a3156c9289b4bfca5c36ef5d8 master
+block ${BLOCK_PATH}/block git@github.com:defn/block 0ea94700577a94c49021ee0bec50137875c22d1f master
 block-shortcuts ${BLOCK_PATH}/block-shortcuts git@github.com:defn/block-shortcuts cee2fe14e646dd9ea2638a4c7bfd9ded73e84b28 master
 board ${BLOCK_PATH}/board git@github.com:defn/board 8b542d7cc54bd274b58da4accb3648d2083e1100 master
 kit ${BLOCK_PATH}/kit git@github.com:defn/kit a8f27903101e6f6c667ced10d99bc8b8d05f5433 master
@@ -61,10 +61,10 @@ vagrant-shell ${BLOCK_PATH}/vagrant-shell git@github.com:defn/vagrant-shell 7fef
 consul ${BLOCK_PATH}/consul git@github.com:defn/consul ba52dfe8d160622e75d5533b6d82844bf588cc77 master
 vault ${BLOCK_PATH}/vault git@github.com:defn/vault d40520a5e6319e02a73b2ea75a110bc8caf8ec27 master
 openvpn ${BLOCK_PATH}/openvpn git@github.com:defn/openvpn df0486ba8bd21ffb090ce98427eab136074e5388 master
-dnsmasq ${BLOCK_PATH}/dnsmasq git@github.com:defn/dnsmasq ddfd938738d533b7f0809bbf11e7a77d1879bb86 master
+dnsmasq ${BLOCK_PATH}/dnsmasq git@github.com:defn/dnsmasq 856accee190837ede9f7965b2f9182b1c5eaa7c4 master
 linkerd ${BLOCK_PATH}/linkerd git@github.com:defn/linkerd fed422e0ec5c31aecef8697ea010fe9cf5dfacbc master
-limbo ${BLOCK_PATH}/limbo git@github.com:defn/limbo 4b29f2a06c2d118884873a88203cf6a5a5b00abe master
-inception ${BLOCK_PATH}/inception git@github.com:defn/inception 42f53f2755176bd2034fea9ded553da8d593b41c master
+limbo ${BLOCK_PATH}/limbo git@github.com:defn/limbo 882c1a98ff2a9fcffbeca201bd3d316e62fca96b master
+inception ${BLOCK_PATH}/inception git@github.com:defn/inception 3d142a19e5f3efd0766df66059a2a8733e2afcdf master
 rbtools ${BLOCK_PATH}/rbtools git@github.com:defn/rbtools 30b2b3d9538b2e616969d8bf1c5685f2bfca97b7 master
 leiningen ${BLOCK_PATH}/leiningen git@github.com:defn/leiningen ba29bcbbf378ab47813d0ce32cb6411fbe390f48 master
 poop ${BLOCK_PATH}/poop git@github.com:defn/poop 872217c6ed3fa30ff8c675e6a4484713b6b5910e master
