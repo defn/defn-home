@@ -18,7 +18,7 @@ xcode ${BLOCK_PATH}/xcode git@github.com:defn/xcode 7c76b8252095a7c7002aeb2ad264
 tunnelblick ${BLOCK_PATH}/tunnelblick git@github.com:defn/tunnelblick d204941e88dc9ca9df703e99f08b62003e963b22 master
 cue ${BLOCK_PATH}/cue git@github.com:defn/cue 50885f087daba21069b9715017b15a8503c51bc5 master
 junas ${BLOCK_PATH}/junas git@github.com:defn/junas c9591a13b46d1fac2d4e58f281fa483c6724b984 master
-defn ${BLOCK_PATH}/defn git@github.com:defn/defn 7752edacfd2db7f0e882a69a1519b9af2aeecfa6 master
+defn ${BLOCK_PATH}/defn git@github.com:defn/defn 600b1e8b432f54810b0c2706b2569b36c0cb864c master
 deploy ${BLOCK_PATH}/deploy git@github.com:defn/deploy 8d54362210948316fcf68bc20029f7050c7557de master
 context ${BLOCK_PATH}/context git@github.com:defn/context 3334b465a0484f217403c77c23b3517d4ea7b30f master
 homebrew ${BLOCK_PATH}/homebrew git@github.com:defn/homebrew 312f151b0df1be020a32eea7978ad507b400e0b9 master
@@ -64,7 +64,7 @@ vault ${BLOCK_PATH}/vault git@github.com:defn/vault d40520a5e6319e02a73b2ea75a11
 openvpn ${BLOCK_PATH}/openvpn git@github.com:defn/openvpn df0486ba8bd21ffb090ce98427eab136074e5388 master
 dnsmasq ${BLOCK_PATH}/dnsmasq git@github.com:defn/dnsmasq 856accee190837ede9f7965b2f9182b1c5eaa7c4 master
 linkerd ${BLOCK_PATH}/linkerd git@github.com:defn/linkerd fed422e0ec5c31aecef8697ea010fe9cf5dfacbc master
-limbo ${BLOCK_PATH}/limbo git@github.com:defn/limbo eb9155cbd27e66bda5c6710bf5ba5cfbced5b820 master
+limbo ${BLOCK_PATH}/limbo git@github.com:defn/limbo 4f64de572ea8ca9114f5088ef0837690928ee302 master
 inception ${BLOCK_PATH}/inception git@github.com:defn/inception 3d142a19e5f3efd0766df66059a2a8733e2afcdf master
 rbtools ${BLOCK_PATH}/rbtools git@github.com:defn/rbtools 30b2b3d9538b2e616969d8bf1c5685f2bfca97b7 master
 leiningen ${BLOCK_PATH}/leiningen git@github.com:defn/leiningen ba29bcbbf378ab47813d0ce32cb6411fbe390f48 master
