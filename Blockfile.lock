@@ -13,7 +13,7 @@ build-essential ${BLOCK_PATH}/build-essential git@github.com:defn/build-essentia
 rbenv ${BLOCK_PATH}/rbenv git@github.com:defn/rbenv 5221a20a4e81b27fb3fa2b0f7efb95972f623f03 master
 ruby ${BLOCK_PATH}/ruby git@github.com:defn/ruby dad026e63cd8b146a9f0e18aaeaf4c66c3cc1c26 master
 curl ${BLOCK_PATH}/curl git@github.com:defn/curl 9409557e5e2ee0516509ccc312831cb7197ca1cb master
-node ${BLOCK_PATH}/node git@github.com:defn/node e71042f9c7627f53b3d8526f31f62c8e7f25727b master
+node ${BLOCK_PATH}/node git@github.com:defn/node 1e9658d795a02a1776fd8337b98ea83f6873330f master
 xcode ${BLOCK_PATH}/xcode git@github.com:defn/xcode 7c76b8252095a7c7002aeb2ad264cb5e4a22cb05 master
 tunnelblick ${BLOCK_PATH}/tunnelblick git@github.com:defn/tunnelblick d204941e88dc9ca9df703e99f08b62003e963b22 master
 cue ${BLOCK_PATH}/cue git@github.com:defn/cue 50885f087daba21069b9715017b15a8503c51bc5 master
@@ -43,7 +43,7 @@ cloud ${BLOCK_PATH}/cloud git@github.com:defn/cloud 2cc0ec3643531352931d017944d0
 squid ${BLOCK_PATH}/squid git@github.com:defn/squid f039364eacb96cbb36fed45f936d79b0b4a177e6 master
 packagecloud ${BLOCK_PATH}/packagecloud git@github.com:defn/packagecloud a5a52b936543cfd92925b71631987204228a6ddf master
 buildkite ${BLOCK_PATH}/buildkite git@github.com:defn/buildkite b0186399e6651ded8e712bb63bad6f3cf99770ab master
-sinopia ${BLOCK_PATH}/sinopia git@github.com:defn/sinopia dd30d62073a56c343ca71aac1f66912b625601fc master
+sinopia ${BLOCK_PATH}/sinopia git@github.com:defn/sinopia fe6ca38633a5ef2a98c979df639a7a7edfc1ddd1 master
 artifacts ${BLOCK_PATH}/artifacts git@github.com:defn/artifacts 9f188acc643620a763b9bcb3d3e5aedd55731ca2 master
 launch-config ${BLOCK_PATH}/launch-config git@github.com:defn/launch-config a00f0d1e8cc4f7f8eee9a95c3bf56d3306a058ed master
 java ${BLOCK_PATH}/java git@github.com:defn/java 7c879436fea62d36c95b4779ce8780eb69fd7bf4 master
