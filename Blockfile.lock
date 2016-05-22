@@ -13,7 +13,7 @@ build-essential ${BLOCK_PATH}/build-essential git@github.com:defn/build-essentia
 rbenv ${BLOCK_PATH}/rbenv git@github.com:defn/rbenv 5221a20a4e81b27fb3fa2b0f7efb95972f623f03 master
 ruby ${BLOCK_PATH}/ruby git@github.com:defn/ruby dad026e63cd8b146a9f0e18aaeaf4c66c3cc1c26 master
 curl ${BLOCK_PATH}/curl git@github.com:defn/curl 9409557e5e2ee0516509ccc312831cb7197ca1cb master
-node ${BLOCK_PATH}/node git@github.com:defn/node 1186c21da725a2382f0d935bb292d961abacc017 master
+node ${BLOCK_PATH}/node git@github.com:defn/node e71042f9c7627f53b3d8526f31f62c8e7f25727b master
 xcode ${BLOCK_PATH}/xcode git@github.com:defn/xcode 7c76b8252095a7c7002aeb2ad264cb5e4a22cb05 master
 tunnelblick ${BLOCK_PATH}/tunnelblick git@github.com:defn/tunnelblick d204941e88dc9ca9df703e99f08b62003e963b22 master
 cue ${BLOCK_PATH}/cue git@github.com:defn/cue 50885f087daba21069b9715017b15a8503c51bc5 master
@@ -24,7 +24,7 @@ context ${BLOCK_PATH}/context git@github.com:defn/context 3334b465a0484f217403c7
 homebrew ${BLOCK_PATH}/homebrew git@github.com:defn/homebrew 312f151b0df1be020a32eea7978ad507b400e0b9 master
 htop ${BLOCK_PATH}/htop git@github.com:defn/htop d96e4e0158858dcb446d58be0a383376cbb0fb9e master
 jq ${BLOCK_PATH}/jq git@github.com:defn/jq 587a98237536d3e1d411efa693637b17e6eae959 master
-python ${BLOCK_PATH}/python git@github.com:defn/python c505911197eebe26020d0370bcd9846e05478530 master
+python ${BLOCK_PATH}/python git@github.com:defn/python 45accb215c9182677042970910aaef3526761a18 master
 ansible ${BLOCK_PATH}/ansible git@github.com:defn/ansible ef2aaaed31b6027e4ce0b2c7d9eddec40b6fa545 master
 chef ${BLOCK_PATH}/chef git@github.com:defn/chef 60c79d6c1c5647abaa6cd1b1c7f2993453bfcd4a master
 facts ${BLOCK_PATH}/facts git@github.com:defn/facts 5ed2c0aaa25dcf29a3e5a6aa77192a79de14a42d master
@@ -43,7 +43,7 @@ cloud ${BLOCK_PATH}/cloud git@github.com:defn/cloud 2cc0ec3643531352931d017944d0
 squid ${BLOCK_PATH}/squid git@github.com:defn/squid f039364eacb96cbb36fed45f936d79b0b4a177e6 master
 packagecloud ${BLOCK_PATH}/packagecloud git@github.com:defn/packagecloud a5a52b936543cfd92925b71631987204228a6ddf master
 buildkite ${BLOCK_PATH}/buildkite git@github.com:defn/buildkite b0186399e6651ded8e712bb63bad6f3cf99770ab master
-sinopia ${BLOCK_PATH}/sinopia git@github.com:defn/sinopia 1875209ad8ba575706959c7723d06bbb0e05e4e1 master
+sinopia ${BLOCK_PATH}/sinopia git@github.com:defn/sinopia dd30d62073a56c343ca71aac1f66912b625601fc master
 artifacts ${BLOCK_PATH}/artifacts git@github.com:defn/artifacts 9f188acc643620a763b9bcb3d3e5aedd55731ca2 master
 launch-config ${BLOCK_PATH}/launch-config git@github.com:defn/launch-config a00f0d1e8cc4f7f8eee9a95c3bf56d3306a058ed master
 java ${BLOCK_PATH}/java git@github.com:defn/java 7c879436fea62d36c95b4779ce8780eb69fd7bf4 master
@@ -66,7 +66,7 @@ dnsmasq ${BLOCK_PATH}/dnsmasq git@github.com:defn/dnsmasq 856accee190837ede9f796
 linkerd ${BLOCK_PATH}/linkerd git@github.com:defn/linkerd c8bda31f148c408070b07d15db2e2eb4115280e2 master
 limbo ${BLOCK_PATH}/limbo git@github.com:defn/limbo 8a5d6a71505385b62f927fd2bae5b08479862d32 master
 inception ${BLOCK_PATH}/inception git@github.com:defn/inception 9abd6574dccd4bda2993cd98916ef32bad848a34 master
-rbtools ${BLOCK_PATH}/rbtools git@github.com:defn/rbtools 30b2b3d9538b2e616969d8bf1c5685f2bfca97b7 master
+rbtools ${BLOCK_PATH}/rbtools git@github.com:defn/rbtools f51165c4a52f20a99034896a102db5e1098e6949 master
 leiningen ${BLOCK_PATH}/leiningen git@github.com:defn/leiningen ba29bcbbf378ab47813d0ce32cb6411fbe390f48 master
 poop ${BLOCK_PATH}/poop git@github.com:defn/poop 872217c6ed3fa30ff8c675e6a4484713b6b5910e master
 postgresql ${BLOCK_PATH}/postgresql git@github.com:defn/postgresql 8206fa15fcaf0971950ad569397850fbfde71c5d master
