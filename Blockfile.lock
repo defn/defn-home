@@ -11,7 +11,7 @@ pkgsrc ${BLOCK_PATH}/pkgsrc git@github.com:defn/pkgsrc 7cb7c29e2932c8087e749da46
 runit ${BLOCK_PATH}/runit git@github.com:defn/runit 57a60d599c81659bb82bcf2af2c074a9d89fdb2d master
 build-essential ${BLOCK_PATH}/build-essential git@github.com:defn/build-essential 8aac30f57df1270630ebacdb97f6b61570de818b master
 rbenv ${BLOCK_PATH}/rbenv git@github.com:defn/rbenv 5221a20a4e81b27fb3fa2b0f7efb95972f623f03 master
-ruby ${BLOCK_PATH}/ruby git@github.com:defn/ruby b0f2c636f074e13dd28ed3f6da855ab1dee445bd master
+ruby ${BLOCK_PATH}/ruby git@github.com:defn/ruby dad026e63cd8b146a9f0e18aaeaf4c66c3cc1c26 master
 curl ${BLOCK_PATH}/curl git@github.com:defn/curl 9409557e5e2ee0516509ccc312831cb7197ca1cb master
 node ${BLOCK_PATH}/node git@github.com:defn/node 1186c21da725a2382f0d935bb292d961abacc017 master
 xcode ${BLOCK_PATH}/xcode git@github.com:defn/xcode 7c76b8252095a7c7002aeb2ad264cb5e4a22cb05 master
@@ -24,7 +24,7 @@ context ${BLOCK_PATH}/context git@github.com:defn/context 3334b465a0484f217403c7
 homebrew ${BLOCK_PATH}/homebrew git@github.com:defn/homebrew 312f151b0df1be020a32eea7978ad507b400e0b9 master
 htop ${BLOCK_PATH}/htop git@github.com:defn/htop d96e4e0158858dcb446d58be0a383376cbb0fb9e master
 jq ${BLOCK_PATH}/jq git@github.com:defn/jq 587a98237536d3e1d411efa693637b17e6eae959 master
-python ${BLOCK_PATH}/python git@github.com:defn/python 99f0ba1e35c3270323e8f5555edc7f46675b5aa1 master
+python ${BLOCK_PATH}/python git@github.com:defn/python c505911197eebe26020d0370bcd9846e05478530 master
 ansible ${BLOCK_PATH}/ansible git@github.com:defn/ansible ef2aaaed31b6027e4ce0b2c7d9eddec40b6fa545 master
 chef ${BLOCK_PATH}/chef git@github.com:defn/chef 60c79d6c1c5647abaa6cd1b1c7f2993453bfcd4a master
 facts ${BLOCK_PATH}/facts git@github.com:defn/facts 5ed2c0aaa25dcf29a3e5a6aa77192a79de14a42d master
@@ -46,7 +46,7 @@ buildkite ${BLOCK_PATH}/buildkite git@github.com:defn/buildkite b0186399e6651ded
 sinopia ${BLOCK_PATH}/sinopia git@github.com:defn/sinopia 1875209ad8ba575706959c7723d06bbb0e05e4e1 master
 artifacts ${BLOCK_PATH}/artifacts git@github.com:defn/artifacts 9f188acc643620a763b9bcb3d3e5aedd55731ca2 master
 launch-config ${BLOCK_PATH}/launch-config git@github.com:defn/launch-config a00f0d1e8cc4f7f8eee9a95c3bf56d3306a058ed master
-java ${BLOCK_PATH}/java git@github.com:defn/java b3a2c4323a7a4a4588c3608feada8cbb81d7bd4e master
+java ${BLOCK_PATH}/java git@github.com:defn/java 7c879436fea62d36c95b4779ce8780eb69fd7bf4 master
 maven ${BLOCK_PATH}/maven git@github.com:defn/maven 0297f740c763eb916b116e00e5fb62612655291e master
 cljs ${BLOCK_PATH}/cljs git@github.com:defn/cljs ee57e1e7f881d32fb37ba23bac2b805301459209 master
 apt-mirror ${BLOCK_PATH}/apt-mirror git@github.com:defn/apt-mirror cab2c28c5e75df404c819448398efdfe8fda0ad4 master
