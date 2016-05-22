@@ -82,7 +82,7 @@ scala ${BLOCK_PATH}/scala git@github.com:defn/scala 1a72414a26fe17f212d9784386e8
 sbt ${BLOCK_PATH}/sbt git@github.com:defn/sbt 8793361ece0a50b03dca637b5522cfaf133adadb master
 reviewboard ${BLOCK_PATH}/reviewboard git@github.com:defn/reviewboard e9a15dd22e708c2e1f185a7e6a7efed839d240dc master
 isomorphic-clojurescript-reagent-node ${BLOCK_PATH}/isomorphic-clojurescript-reagent-node git@github.com:defn/isomorphic-clojurescript-reagent-node b10422cc54eb51120bde59debf90b8aaae15fabf master
-rust ${BLOCK_PATH}/rust git@github.com:defn/rust 5b467e7d4cafe4c93d9627df676e024917453c0f master
+rust ${BLOCK_PATH}/rust git@github.com:defn/rust 6d84db82e6ae9eb47a68edf316dd1fb75307471d master
 iamdefn/lightning ${BLOCK_PATH}/lightning git@github.com:iamdefn/lightning bbb2b509df9f2968ca90d938bae733a51dc0a27c master
 iamdefn/black ${BLOCK_PATH}/black git@github.com:iamdefn/black 499e6ee83351e4cc5dd19e1879af3b4e93055afe master
 iamdefn/fire ${BLOCK_PATH}/fire git@github.com:iamdefn/fire 53718ed3017846b7692c3f7ad98068764db594c0 master
