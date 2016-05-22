@@ -43,7 +43,7 @@ cloud ${BLOCK_PATH}/cloud git@github.com:defn/cloud 2cc0ec3643531352931d017944d0
 squid ${BLOCK_PATH}/squid git@github.com:defn/squid f039364eacb96cbb36fed45f936d79b0b4a177e6 master
 packagecloud ${BLOCK_PATH}/packagecloud git@github.com:defn/packagecloud a5a52b936543cfd92925b71631987204228a6ddf master
 buildkite ${BLOCK_PATH}/buildkite git@github.com:defn/buildkite b0186399e6651ded8e712bb63bad6f3cf99770ab master
-sinopia ${BLOCK_PATH}/sinopia git@github.com:defn/sinopia c922705a77fb9fc68cb12eeb11e2dfc500be638e master
+sinopia ${BLOCK_PATH}/sinopia git@github.com:defn/sinopia 696bb8f151cfedb846d754e8cd1ea6c29eabf0dd master
 artifacts ${BLOCK_PATH}/artifacts git@github.com:defn/artifacts 9f188acc643620a763b9bcb3d3e5aedd55731ca2 master
 launch-config ${BLOCK_PATH}/launch-config git@github.com:defn/launch-config a00f0d1e8cc4f7f8eee9a95c3bf56d3306a058ed master
 java ${BLOCK_PATH}/java git@github.com:defn/java 7c879436fea62d36c95b4779ce8780eb69fd7bf4 master
