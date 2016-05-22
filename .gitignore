@@ -42,7 +42,6 @@
 /node_modules
 /npm-debug.log
 /.v8flags.*.json
-/.npmrc
 /.node_repl_history
 
 # bower
@@ -198,3 +197,6 @@
 
 # homebrew
 /.homebrew_analytics_user_uuid
+
+# sinopia
+/sinopia
