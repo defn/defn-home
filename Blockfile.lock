@@ -1,4 +1,4 @@
-defn-config ${BLOCK_PATH}/defn-config git@github.com:defn/defn-config ebf7be482aa9a67236dd1224a52b35aedde7518f master
+defn-config ${BLOCK_PATH}/defn-config git@github.com:defn/defn-config 91d557b58a53b3977e2f41ae838d115bcc12374c master
 scripts-to-rule-them-all ${BLOCK_PATH}/scripts-to-rule-them-all git@github.com:defn/scripts-to-rule-them-all 7f5e884d6f7f225ae2a5829fed1d514ae82c5476 master
 cache ${BLOCK_PATH}/cache git@github.com:defn/cache 388910c3e0a0a770c52d48524c9da1d0b2b4e95f master
 sub ${BLOCK_PATH}/sub git@github.com:defn/sub a2796df0644dfa73ecbdd1eb5c1226b64940bda5 master
