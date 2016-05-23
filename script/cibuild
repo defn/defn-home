@@ -8,7 +8,7 @@ function home_cibuild {
     block clone
   else
     block lock sync
-	fi
+  fi
 
   block bootstrap
 }
