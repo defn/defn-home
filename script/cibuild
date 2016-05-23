@@ -1,7 +1,31 @@
 #!/usr/bin/env bash
 
+function setup_kit {
+  local git_block="$1"; shift
+  local nm_block="${1:-"${git_block##*/}"}"
+
+  if [[ -d "$BLOCK_PATH/$nm_block" ]]; then
+    pushd "$BLOCK_PATH/$nm_block"
+    git fetch
+    git reset --hard origin/master
+    popd
+  else
+    git clone "$git_block" "$BLOCK_PATH/$nm_block" || true
+  fi
+
+  pushd "$BLOCK_PATH/$nm_block"
+  make
+  source script/profile
+  popd
+}
+
 function home_cibuild {
   local shome="$(cd -P -- "${BASH_SOURCE%/*}/.." && pwd -P)"
+
+  setup_kit git@github.com:defn/defn-config
+  setup_kit git@github.com:defn/block
+  setup_kit git@github.com:defn/cache
+
   source "$shome/script/profile"
 
   if [[ ! -f "Blockfile.lock" ]]; then
@@ -10,7 +34,7 @@ function home_cibuild {
     block lock sync
   fi
 
-  block bootstrap
+  block bootstrap "$@"
 }
 
-home_cibuild
+home_cibuild "$@"
