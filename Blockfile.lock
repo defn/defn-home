@@ -3,7 +3,7 @@ scripts-to-rule-them-all ${BLOCK_PATH}/scripts-to-rule-them-all git@github.com:d
 cache ${BLOCK_PATH}/cache git@github.com:defn/cache 388910c3e0a0a770c52d48524c9da1d0b2b4e95f master
 sub ${BLOCK_PATH}/sub git@github.com:defn/sub a2796df0644dfa73ecbdd1eb5c1226b64940bda5 master
 runmany ${BLOCK_PATH}/runmany git@github.com:defn/runmany 8653891591e9093638995de22b66f5ce6e1351b4 master
-block ${BLOCK_PATH}/block git@github.com:defn/block 437c70d2ee4bd323b454a5d45e7c7b042a070f1c master
+block ${BLOCK_PATH}/block git@github.com:defn/block 67798241966f7ac2b3a30a4928341c31a27879be master
 block-shortcuts ${BLOCK_PATH}/block-shortcuts git@github.com:defn/block-shortcuts cee2fe14e646dd9ea2638a4c7bfd9ded73e84b28 master
 board ${BLOCK_PATH}/board git@github.com:defn/board 8b542d7cc54bd274b58da4accb3648d2083e1100 master
 kit ${BLOCK_PATH}/kit git@github.com:defn/kit a8f27903101e6f6c667ced10d99bc8b8d05f5433 master
@@ -24,7 +24,7 @@ context ${BLOCK_PATH}/context git@github.com:defn/context 3334b465a0484f217403c7
 homebrew ${BLOCK_PATH}/homebrew git@github.com:defn/homebrew 312f151b0df1be020a32eea7978ad507b400e0b9 master
 htop ${BLOCK_PATH}/htop git@github.com:defn/htop d96e4e0158858dcb446d58be0a383376cbb0fb9e master
 jq ${BLOCK_PATH}/jq git@github.com:defn/jq 587a98237536d3e1d411efa693637b17e6eae959 master
-python ${BLOCK_PATH}/python git@github.com:defn/python 45accb215c9182677042970910aaef3526761a18 master
+python ${BLOCK_PATH}/python git@github.com:defn/python f74b88db866e623ceba7af3e0cd05f12cef807d9 master
 ansible ${BLOCK_PATH}/ansible git@github.com:defn/ansible 3b83a35eeb5a1155031e4b89f4f0163c34aa9bbb master
 chef ${BLOCK_PATH}/chef git@github.com:defn/chef 3d20a7876dfd637375e68954100a9575ff5a195d master
 facts ${BLOCK_PATH}/facts git@github.com:defn/facts 5ed2c0aaa25dcf29a3e5a6aa77192a79de14a42d master
@@ -94,7 +94,7 @@ iamdefn/blue ${BLOCK_PATH}/blue git@github.com:iamdefn/blue 7d8160d304546b00e3c4
 iamdefn/earth ${BLOCK_PATH}/earth git@github.com:iamdefn/earth fdf7f6ea986d5d42322b4f2fc47216f3a661148a master
 iamdefn/yellow ${BLOCK_PATH}/yellow git@github.com:iamdefn/yellow 172cdc634810f5fb3c22768f9635d2242581d621 master
 iamdefn/voltron ${BLOCK_PATH}/voltron git@github.com:iamdefn/voltron 3e5c6394e7cfccfbc4c94203e1fb40585a8e8cfc master
-webterm ${BLOCK_PATH}/webterm git@github.com:defn/webterm 46acc819ce33164617f91419066c64acf5cbe062 master
+webterm ${BLOCK_PATH}/webterm git@github.com:defn/webterm 4e1a108e35dfb27dce44e39a3238062692161888 master
 terraform ${BLOCK_PATH}/terraform git@github.com:defn/terraform 5c52af872e3856bfbb511df049c7e88617e7a0d8 master
 wtf ${BLOCK_PATH}/wtf git@github.com:defn/wtf f6a1fc82266509f741d02b262beb482e33fe763e master
 fogg ${BLOCK_PATH}/fogg git@github.com:defn/fogg f0fc26d891ab7c08ffe7755cf6de5596adbf9e5c master
