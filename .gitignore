@@ -200,3 +200,7 @@
 
 # sinopia
 /sinopia
+
+# jupyter
+/.jupyter
+/bin/jupyter*

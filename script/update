@@ -13,6 +13,8 @@ function home_update {
   ln -nfs "$BLOCK_PATH/linkerd/sv/linkerd" "$SVDIR/linkerd"
   ln -nfs "$BLOCK_PATH/consul/sv/consul" "$SVDIR/consul"
   ln -nfs "$BLOCK_PATH/sinopia/sv/sinopia" "$SVDIR/sinopia"
+
+  ln -nfs "../vendor/virtualenv/bin/jupyter-console" "$shome/bin/"
 }
 
 home_update "$@"
