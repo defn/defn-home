@@ -65,8 +65,8 @@ vault ${BLOCK_PATH}/vault git@github.com:defn/vault 3716c30a1958fc4e1fa1602aba64
 openvpn ${BLOCK_PATH}/openvpn git@github.com:defn/openvpn df0486ba8bd21ffb090ce98427eab136074e5388 master
 dnsmasq ${BLOCK_PATH}/dnsmasq git@github.com:defn/dnsmasq 856accee190837ede9f7965b2f9182b1c5eaa7c4 master
 linkerd ${BLOCK_PATH}/linkerd git@github.com:defn/linkerd 85b35fdeb6978ffbe735469fb48d467511734a9c master
-limbo ${BLOCK_PATH}/limbo git@github.com:defn/limbo f6fad6244886b782bbbf2d6b0da32093375d6ee1 master
-inception ${BLOCK_PATH}/inception git@github.com:defn/inception 702514cf829a3efb7d67887e189b71e7b04738d4 master
+limbo ${BLOCK_PATH}/limbo git@github.com:defn/limbo 0a68ba2aaad0da7bcd6bd39b208d1c5540286864 master
+inception ${BLOCK_PATH}/inception git@github.com:defn/inception d68baa375b51540bea49c68dea5a23070968883e master
 rbtools ${BLOCK_PATH}/rbtools git@github.com:defn/rbtools f51165c4a52f20a99034896a102db5e1098e6949 master
 leiningen ${BLOCK_PATH}/leiningen git@github.com:defn/leiningen ba29bcbbf378ab47813d0ce32cb6411fbe390f48 master
 poop ${BLOCK_PATH}/poop git@github.com:defn/poop 872217c6ed3fa30ff8c675e6a4484713b6b5910e master
