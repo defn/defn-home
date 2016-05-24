@@ -204,3 +204,6 @@
 # jupyter
 /.jupyter
 /bin/jupyter*
+
+# builds
+cibuild-*.log
