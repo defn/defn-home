@@ -23,7 +23,7 @@ deploy ${BLOCK_PATH}/deploy git@github.com:defn/deploy 8d54362210948316fcf68bc20
 context ${BLOCK_PATH}/context git@github.com:defn/context 3334b465a0484f217403c77c23b3517d4ea7b30f master
 homebrew ${BLOCK_PATH}/homebrew git@github.com:defn/homebrew 312f151b0df1be020a32eea7978ad507b400e0b9 master
 htop ${BLOCK_PATH}/htop git@github.com:defn/htop d96e4e0158858dcb446d58be0a383376cbb0fb9e master
-go ${BLOCK_PATH}/go git@github.com:defn/go 157bc5cbe2168a72882d0060b583c5e8dfcba79e master
+go ${BLOCK_PATH}/go git@github.com:defn/go 1474f3afbe5e47572c9c6e06b5876eeca9b3e1bb master
 minimal-block ${BLOCK_PATH}/minimal-block git@github.com:defn/minimal-block a60e4524d261ae7209b95823cce02342be7efb6b master
 minimal-app ${BLOCK_PATH}/minimal-app git@github.com:defn/minimal-app 0cdd6b902c48bd3ad436a2fb21c1e09b30fc0514 master
 github ${BLOCK_PATH}/github git@github.com:defn/github ae142e04ad5daf82d3b1e5487c65c3d80df97bda master
@@ -59,12 +59,13 @@ basebox-osx ${BLOCK_PATH}/basebox-osx git@github.com:defn/basebox-osx bf3d88b32d
 vagrant-shell ${BLOCK_PATH}/vagrant-shell git@github.com:defn/vagrant-shell 7fefa070c7390b488740e894141baf0a37dbfaac master
 vagrant-limbo ${BLOCK_PATH}/vagrant-limbo git@github.com:defn/vagrant-limbo c8a09a4f0e9bac897a6c4909fb2fcab1e9b7e130 master
 docker-swarm ${BLOCK_PATH}/docker-swarm git@github.com:defn/docker-swarm 83fdcee4ad911a7b71cee6bdc43d43c424401fac master
+docker-distribution ${BLOCK_PATH}/docker-distribution git@github.com:defn/docker-distribution 20025eed8fdc8103d310337556b03332a13df60e master
 consul ${BLOCK_PATH}/consul git@github.com:defn/consul e2ce310f4c1f38e03eb9ad3c98c735922e4150ef master
 vault ${BLOCK_PATH}/vault git@github.com:defn/vault 3716c30a1958fc4e1fa1602aba64f1c49db54622 master
 openvpn ${BLOCK_PATH}/openvpn git@github.com:defn/openvpn df0486ba8bd21ffb090ce98427eab136074e5388 master
 dnsmasq ${BLOCK_PATH}/dnsmasq git@github.com:defn/dnsmasq 856accee190837ede9f7965b2f9182b1c5eaa7c4 master
 linkerd ${BLOCK_PATH}/linkerd git@github.com:defn/linkerd 85b35fdeb6978ffbe735469fb48d467511734a9c master
-limbo ${BLOCK_PATH}/limbo git@github.com:defn/limbo 0f4a50e40c7f95d3772454089db8493186e7dab7 master
+limbo ${BLOCK_PATH}/limbo git@github.com:defn/limbo db3f24f58e5afd9744ae1392ac8399a1f4322ecd master
 inception ${BLOCK_PATH}/inception git@github.com:defn/inception 92ef60065275e737d19d98fa85e4e826cd26dfd5 master
 rbtools ${BLOCK_PATH}/rbtools git@github.com:defn/rbtools f51165c4a52f20a99034896a102db5e1098e6949 master
 leiningen ${BLOCK_PATH}/leiningen git@github.com:defn/leiningen ba29bcbbf378ab47813d0ce32cb6411fbe390f48 master
