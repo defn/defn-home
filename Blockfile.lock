@@ -64,7 +64,7 @@ openvpn ${BLOCK_PATH}/openvpn git@github.com:defn/openvpn df0486ba8bd21ffb090ce9
 dnsmasq ${BLOCK_PATH}/dnsmasq git@github.com:defn/dnsmasq 856accee190837ede9f7965b2f9182b1c5eaa7c4 master
 linkerd ${BLOCK_PATH}/linkerd git@github.com:defn/linkerd 85b35fdeb6978ffbe735469fb48d467511734a9c master
 limbo ${BLOCK_PATH}/limbo git@github.com:defn/limbo d4387a79a29018628f643ba3898c8ecb06773d88 master
-inception ${BLOCK_PATH}/inception git@github.com:defn/inception 92ef60065275e737d19d98fa85e4e826cd26dfd5 master
+inception ${BLOCK_PATH}/inception git@github.com:defn/inception a68e6b9684a2553e144c2378ef2d193f5136c3a5 master
 rbtools ${BLOCK_PATH}/rbtools git@github.com:defn/rbtools f51165c4a52f20a99034896a102db5e1098e6949 master
 leiningen ${BLOCK_PATH}/leiningen git@github.com:defn/leiningen ba29bcbbf378ab47813d0ce32cb6411fbe390f48 master
 poop ${BLOCK_PATH}/poop git@github.com:defn/poop 872217c6ed3fa30ff8c675e6a4484713b6b5910e master
@@ -95,7 +95,7 @@ iamdefn/yellow ${BLOCK_PATH}/yellow git@github.com:iamdefn/yellow 172cdc634810f5
 iamdefn/voltron ${BLOCK_PATH}/voltron git@github.com:iamdefn/voltron 3e5c6394e7cfccfbc4c94203e1fb40585a8e8cfc master
 webterm ${BLOCK_PATH}/webterm git@github.com:defn/webterm 4e1a108e35dfb27dce44e39a3238062692161888 master
 terraform ${BLOCK_PATH}/terraform git@github.com:defn/terraform 5c52af872e3856bfbb511df049c7e88617e7a0d8 master
-wtf ${BLOCK_PATH}/wtf git@github.com:defn/wtf f6a1fc82266509f741d02b262beb482e33fe763e master
+wtf ${BLOCK_PATH}/wtf git@github.com:defn/wtf 4c3d2ad10aaab507bff38a71bde5836de2ec732c master
 fogg ${BLOCK_PATH}/fogg git@github.com:defn/fogg f0fc26d891ab7c08ffe7755cf6de5596adbf9e5c master
 awesome ${BLOCK_PATH}/awesome git@github.com:defn/awesome a517c68af646ce31236d866fbbd18907a1af7a37 master
 lock ${BLOCK_PATH}/lock git@github.com:defn/lock ceeeaf14c2c2a5ab5b0efe8ed333592b20332231 master
