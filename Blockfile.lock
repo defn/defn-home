@@ -95,8 +95,13 @@ iamdefn/yellow ${BLOCK_PATH}/yellow git@github.com:iamdefn/yellow 172cdc634810f5
 iamdefn/voltron ${BLOCK_PATH}/voltron git@github.com:iamdefn/voltron 3e5c6394e7cfccfbc4c94203e1fb40585a8e8cfc master
 webterm ${BLOCK_PATH}/webterm git@github.com:defn/webterm 507b4ec0afbd2fffee415757d03e1235a92dff59 master
 terraform ${BLOCK_PATH}/terraform git@github.com:defn/terraform 96390a79d233f188429db6963f8f458504087a1f master
-wtf ${BLOCK_PATH}/wtf git@github.com:defn/wtf a6835ef50bd6c86952dbf73294285671bd615870 master
+wtf ${BLOCK_PATH}/wtf git@github.com:defn/wtf 88d0cea854e36d66362633850ad38ed2c129ba70 master
 fogg ${BLOCK_PATH}/fogg git@github.com:defn/fogg f0fc26d891ab7c08ffe7755cf6de5596adbf9e5c master
 awesome ${BLOCK_PATH}/awesome git@github.com:defn/awesome a517c68af646ce31236d866fbbd18907a1af7a37 master
 lock ${BLOCK_PATH}/lock git@github.com:defn/lock ceeeaf14c2c2a5ab5b0efe8ed333592b20332231 master
 rundeck ${BLOCK_PATH}/rundeck git@github.com:defn/rundeck 7e511c5791d74e583d46fc49c7a7d18f5d6bfe4d master
+module-aws-per_az ${BLOCK_PATH}/module-aws-per_az git@github.com:defn/module-aws-per_az 2d3c907df3259e5ef356d16bf6de6d17b4cbb1cd master
+module-aws-vpc ${BLOCK_PATH}/module-aws-vpc git@github.com:defn/module-aws-vpc 219a4634ac0a4e10135005d58edeede06473c028 master
+module-aws-env ${BLOCK_PATH}/module-aws-env git@github.com:defn/module-aws-env 43e7e0e3618f0c6ed72072d7b54facbe7259462d master
+env-defn ${BLOCK_PATH}/env-defn git@github.com:defn/env-defn af775a011f76cfe9650d315c81976e12bf470744 master
+env-imma ${BLOCK_PATH}/env-imma git@github.com:defn/env-imma 272a261772cc9e2b988b4c95b52a780e53c4c180 master
