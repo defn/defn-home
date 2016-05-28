@@ -106,4 +106,4 @@ module-aws-vpc ${BLOCK_PATH}/module-aws-vpc git@github.com:defn/module-aws-vpc 2
 module-aws-per_az ${BLOCK_PATH}/module-aws-per_az git@github.com:defn/module-aws-per_az 7519e4fadd80b5abe842c02e97ddbb7848f88088 master
 module-aws-env ${BLOCK_PATH}/module-aws-env git@github.com:defn/module-aws-env 08cc37120d3cc61d053d21a94e7aadb9c49f0113 master
 env-defn ${BLOCK_PATH}/env-defn git@github.com:defn/env-defn 73e7fb60541ad9a9d2794a1f027cd77523a71bd1 master
-env-imma ${BLOCK_PATH}/env-imma git@github.com:defn/env-imma b8567887afde2cd7e33d4d0deef9514cb660eeec master
+env-imma ${BLOCK_PATH}/env-imma git@github.com:defn/env-imma 2b86feb096f4097394cb7d4fa62c36396505a153 master
