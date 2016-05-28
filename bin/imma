@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+
+function main {
+  local shome="$(cd -P -- "${BASH_SOURCE%/*}/.." && pwd -P)"
+  source "$shome/script/profile"
+
+  export CONTEXT_ORG="${0##*/}"
+
+  exec development us-west-1 "$@"
+}
+
+source sub "$BASH_SOURCE" "$@"

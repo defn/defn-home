@@ -61,6 +61,10 @@
     "iamdefn/voltron",
     "webterm",
     "fogg", "awesome",
-    "lock", "rundeck"
+    "lock", "rundeck",
+    [
+      "env-defn",
+      "env-imma"
+    ]
   ]
 }
