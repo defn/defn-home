@@ -30,7 +30,7 @@ github ${BLOCK_PATH}/github git@github.com:defn/github 1d3b234c4b234a47c84dde535
 jq ${BLOCK_PATH}/jq git@github.com:defn/jq 587a98237536d3e1d411efa693637b17e6eae959 master
 python ${BLOCK_PATH}/python git@github.com:defn/python eb42e506aff84e378e40d6af64b156518d705ad4 master
 ansible ${BLOCK_PATH}/ansible git@github.com:defn/ansible 3b83a35eeb5a1155031e4b89f4f0163c34aa9bbb master
-chef ${BLOCK_PATH}/chef git@github.com:defn/chef 3d20a7876dfd637375e68954100a9575ff5a195d master
+chef ${BLOCK_PATH}/chef git@github.com:defn/chef 9c51cc47642a14fca280df44f92a84011f698215 master
 facts ${BLOCK_PATH}/facts git@github.com:defn/facts 5ed2c0aaa25dcf29a3e5a6aa77192a79de14a42d master
 docs ${BLOCK_PATH}/docs git@github.com:defn/docs 56f423889b2db50df6884f31d2171047193b944a master
 bash4 ${BLOCK_PATH}/bash4 git@github.com:defn/bash4 95c495a9867d0ac4c0d1ef2a1e2af92eb19a8ea2 master
@@ -49,10 +49,10 @@ java ${BLOCK_PATH}/java git@github.com:defn/java 7c879436fea62d36c95b4779ce8780e
 maven ${BLOCK_PATH}/maven git@github.com:defn/maven 0297f740c763eb916b116e00e5fb62612655291e master
 cljs ${BLOCK_PATH}/cljs git@github.com:defn/cljs e47fe860111a00c9464b03d7420fb14c721d53a2 master
 apt-mirror ${BLOCK_PATH}/apt-mirror git@github.com:defn/apt-mirror 980948a74614ac0737cc82245954939b92cc500e master
-virtualbox ${BLOCK_PATH}/virtualbox git@github.com:defn/virtualbox 10bcaa8a2a69a54779be36774da1230bb6607603 master
+virtualbox ${BLOCK_PATH}/virtualbox git@github.com:defn/virtualbox 8b220f5301744b5504fd8e51167e7658d643c747 master
 docker-machine ${BLOCK_PATH}/docker-machine git@github.com:defn/docker-machine 3b33602a9e686e5388ea142a7cc7c25a79c0d61c master
 docker-compose ${BLOCK_PATH}/docker-compose git@github.com:defn/docker-compose db1666d6b9187e8f94c2c1d61bb508aabdbc7f5d master
-docker ${BLOCK_PATH}/docker git@github.com:defn/docker 49663243ab0cd4368b412b8612e0baca73ef1aa2 master
+docker ${BLOCK_PATH}/docker git@github.com:defn/docker a003586d2d876a0932dd1171add465f94657fd7d master
 packer ${BLOCK_PATH}/packer git@github.com:defn/packer de5e4baf56628c7b2cc76a327c1d3e7936dff825 master
 vagrant ${BLOCK_PATH}/vagrant git@github.com:defn/vagrant 1efa7e4cf1ceb15f5d7b84aa7297cc473075435a master
 basebox ${BLOCK_PATH}/basebox git@github.com:defn/basebox 0dc06aa11d2eb594b9ca4fc2369941a0b4fae5b3 master
@@ -71,7 +71,7 @@ rbtools ${BLOCK_PATH}/rbtools git@github.com:defn/rbtools f51165c4a52f20a9903489
 leiningen ${BLOCK_PATH}/leiningen git@github.com:defn/leiningen ba29bcbbf378ab47813d0ce32cb6411fbe390f48 master
 poop ${BLOCK_PATH}/poop git@github.com:defn/poop 872217c6ed3fa30ff8c675e6a4484713b6b5910e master
 postgresql ${BLOCK_PATH}/postgresql git@github.com:defn/postgresql 8206fa15fcaf0971950ad569397850fbfde71c5d master
-erlang ${BLOCK_PATH}/erlang git@github.com:defn/erlang 7a6e289ce1c3b0aaf3e0c6cbb6eadbdaed35cdfc master
+erlang ${BLOCK_PATH}/erlang git@github.com:defn/erlang 6525219f7ba8781c60bfbb59246c1a82c3bd5760 master
 elixir ${BLOCK_PATH}/elixir git@github.com:defn/elixir f621e45373d1f5a270e740c0ed33650e147f5652 master
 phoenix ${BLOCK_PATH}/phoenix git@github.com:defn/phoenix 2ee34c62abc519cb5526c6467b4661b2765216ee master
 letsencrypt ${BLOCK_PATH}/letsencrypt git@github.com:defn/letsencrypt 215b11bf5b25feb07771b6e6a2b7962dbbc295c7 master
@@ -83,7 +83,7 @@ scala ${BLOCK_PATH}/scala git@github.com:defn/scala 1a72414a26fe17f212d9784386e8
 sbt ${BLOCK_PATH}/sbt git@github.com:defn/sbt 11a317421bb8cf3656ff13d505cead8f4be7d615 master
 reviewboard ${BLOCK_PATH}/reviewboard git@github.com:defn/reviewboard e9a15dd22e708c2e1f185a7e6a7efed839d240dc master
 isomorphic-clojurescript-reagent-node ${BLOCK_PATH}/isomorphic-clojurescript-reagent-node git@github.com:defn/isomorphic-clojurescript-reagent-node a952f8a02dfff5b98724e0a8d9ad473aade36dfa master
-rust ${BLOCK_PATH}/rust git@github.com:defn/rust 6d84db82e6ae9eb47a68edf316dd1fb75307471d master
+rust ${BLOCK_PATH}/rust git@github.com:defn/rust 21c536f2084f18f216b06d535815f23cfd6dd65a master
 iamdefn/lightning ${BLOCK_PATH}/lightning git@github.com:iamdefn/lightning bbb2b509df9f2968ca90d938bae733a51dc0a27c master
 iamdefn/black ${BLOCK_PATH}/black git@github.com:iamdefn/black 499e6ee83351e4cc5dd19e1879af3b4e93055afe master
 iamdefn/fire ${BLOCK_PATH}/fire git@github.com:iamdefn/fire 53718ed3017846b7692c3f7ad98068764db594c0 master
