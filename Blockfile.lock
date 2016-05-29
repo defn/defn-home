@@ -13,7 +13,7 @@ build-essential ${BLOCK_PATH}/build-essential git@github.com:defn/build-essentia
 rbenv ${BLOCK_PATH}/rbenv git@github.com:defn/rbenv 5221a20a4e81b27fb3fa2b0f7efb95972f623f03 master
 ruby ${BLOCK_PATH}/ruby git@github.com:defn/ruby 67d97151cb3b22ee22aa4b460ce067b72b65f0dc master
 curl ${BLOCK_PATH}/curl git@github.com:defn/curl 9409557e5e2ee0516509ccc312831cb7197ca1cb master
-node ${BLOCK_PATH}/node git@github.com:defn/node 8d5b09ced3cd92af1ac75e79486e3893f82299df master
+node ${BLOCK_PATH}/node git@github.com:defn/node 0567335c574cdf61af4e0e6c043d181db9f5155b master
 xcode ${BLOCK_PATH}/xcode git@github.com:defn/xcode 7c76b8252095a7c7002aeb2ad264cb5e4a22cb05 master
 tunnelblick ${BLOCK_PATH}/tunnelblick git@github.com:defn/tunnelblick d204941e88dc9ca9df703e99f08b62003e963b22 master
 cue ${BLOCK_PATH}/cue git@github.com:defn/cue 50885f087daba21069b9715017b15a8503c51bc5 master
@@ -47,7 +47,7 @@ artifacts ${BLOCK_PATH}/artifacts git@github.com:defn/artifacts 9f188acc643620a7
 launch-config ${BLOCK_PATH}/launch-config git@github.com:defn/launch-config a00f0d1e8cc4f7f8eee9a95c3bf56d3306a058ed master
 java ${BLOCK_PATH}/java git@github.com:defn/java 7c879436fea62d36c95b4779ce8780eb69fd7bf4 master
 maven ${BLOCK_PATH}/maven git@github.com:defn/maven 0297f740c763eb916b116e00e5fb62612655291e master
-cljs ${BLOCK_PATH}/cljs git@github.com:defn/cljs e47fe860111a00c9464b03d7420fb14c721d53a2 master
+cljs ${BLOCK_PATH}/cljs git@github.com:defn/cljs dfd198a2e8579bf34129a4fbbfffeb81481448b8 master
 apt-mirror ${BLOCK_PATH}/apt-mirror git@github.com:defn/apt-mirror 980948a74614ac0737cc82245954939b92cc500e master
 virtualbox ${BLOCK_PATH}/virtualbox git@github.com:defn/virtualbox 8b220f5301744b5504fd8e51167e7658d643c747 master
 docker-machine ${BLOCK_PATH}/docker-machine git@github.com:defn/docker-machine 3b33602a9e686e5388ea142a7cc7c25a79c0d61c master
@@ -68,7 +68,7 @@ linkerd ${BLOCK_PATH}/linkerd git@github.com:defn/linkerd a5e05d8a4fc165df4274e4
 limbo ${BLOCK_PATH}/limbo git@github.com:defn/limbo 444a26ba6dd4c09b6699c5a6ae1adf671d4dde08 master
 inception ${BLOCK_PATH}/inception git@github.com:defn/inception 0d0e2bf12c63a2a84d8c44c553459d4411d07d65 master
 rbtools ${BLOCK_PATH}/rbtools git@github.com:defn/rbtools f51165c4a52f20a99034896a102db5e1098e6949 master
-leiningen ${BLOCK_PATH}/leiningen git@github.com:defn/leiningen ba29bcbbf378ab47813d0ce32cb6411fbe390f48 master
+leiningen ${BLOCK_PATH}/leiningen git@github.com:defn/leiningen 21bbd0a513dacd4c42b2996b00e5c48a51b6a591 master
 poop ${BLOCK_PATH}/poop git@github.com:defn/poop 872217c6ed3fa30ff8c675e6a4484713b6b5910e master
 postgresql ${BLOCK_PATH}/postgresql git@github.com:defn/postgresql 8206fa15fcaf0971950ad569397850fbfde71c5d master
 erlang ${BLOCK_PATH}/erlang git@github.com:defn/erlang 6525219f7ba8781c60bfbb59246c1a82c3bd5760 master
@@ -82,7 +82,7 @@ defn.github.io ${BLOCK_PATH}/defn.github.io git@github.com:defn/defn.github.io 5
 scala ${BLOCK_PATH}/scala git@github.com:defn/scala 1a72414a26fe17f212d9784386e8d7b99072549b master
 sbt ${BLOCK_PATH}/sbt git@github.com:defn/sbt 11a317421bb8cf3656ff13d505cead8f4be7d615 master
 reviewboard ${BLOCK_PATH}/reviewboard git@github.com:defn/reviewboard e9a15dd22e708c2e1f185a7e6a7efed839d240dc master
-isomorphic-clojurescript-reagent-node ${BLOCK_PATH}/isomorphic-clojurescript-reagent-node git@github.com:defn/isomorphic-clojurescript-reagent-node a952f8a02dfff5b98724e0a8d9ad473aade36dfa master
+isomorphic-clojurescript-reagent-node ${BLOCK_PATH}/isomorphic-clojurescript-reagent-node git@github.com:defn/isomorphic-clojurescript-reagent-node d6565fe03f5ff80e059c9387ef047759031d33c6 master
 rust ${BLOCK_PATH}/rust git@github.com:defn/rust 21c536f2084f18f216b06d535815f23cfd6dd65a master
 iamdefn/lightning ${BLOCK_PATH}/lightning git@github.com:iamdefn/lightning bbb2b509df9f2968ca90d938bae733a51dc0a27c master
 iamdefn/black ${BLOCK_PATH}/black git@github.com:iamdefn/black 499e6ee83351e4cc5dd19e1879af3b4e93055afe master
