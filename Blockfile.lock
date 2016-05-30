@@ -71,7 +71,7 @@ rbtools ${BLOCK_PATH}/rbtools git@github.com:defn/rbtools f51165c4a52f20a9903489
 leiningen ${BLOCK_PATH}/leiningen git@github.com:defn/leiningen 21bbd0a513dacd4c42b2996b00e5c48a51b6a591 master
 poop ${BLOCK_PATH}/poop git@github.com:defn/poop 872217c6ed3fa30ff8c675e6a4484713b6b5910e master
 postgresql ${BLOCK_PATH}/postgresql git@github.com:defn/postgresql 8206fa15fcaf0971950ad569397850fbfde71c5d master
-erlang ${BLOCK_PATH}/erlang git@github.com:defn/erlang bf2cb638135c85561edb44e256bfb1b3ff82cc57 master
+erlang ${BLOCK_PATH}/erlang git@github.com:defn/erlang 211470aab5874ee063b2e8f3db8a9baf26dea120 master
 elixir ${BLOCK_PATH}/elixir git@github.com:defn/elixir 1e8e9981afd2b9d473514d103504a666e255f5c8 master
 phoenix ${BLOCK_PATH}/phoenix git@github.com:defn/phoenix 2ee34c62abc519cb5526c6467b4661b2765216ee master
 letsencrypt ${BLOCK_PATH}/letsencrypt git@github.com:defn/letsencrypt 215b11bf5b25feb07771b6e6a2b7962dbbc295c7 master
