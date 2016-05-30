@@ -28,7 +28,7 @@ minimal-block ${BLOCK_PATH}/minimal-block git@github.com:defn/minimal-block a60e
 minimal-app ${BLOCK_PATH}/minimal-app git@github.com:defn/minimal-app 0cdd6b902c48bd3ad436a2fb21c1e09b30fc0514 master
 github ${BLOCK_PATH}/github git@github.com:defn/github 275b9978059ab5cd505c53e2a16faae7356c9049 master
 jq ${BLOCK_PATH}/jq git@github.com:defn/jq 587a98237536d3e1d411efa693637b17e6eae959 master
-python ${BLOCK_PATH}/python git@github.com:defn/python eb42e506aff84e378e40d6af64b156518d705ad4 master
+python ${BLOCK_PATH}/python git@github.com:defn/python 7026b2d089ca8ef4506199666be23c8ad1830fe2 master
 ansible ${BLOCK_PATH}/ansible git@github.com:defn/ansible 3b83a35eeb5a1155031e4b89f4f0163c34aa9bbb master
 chef ${BLOCK_PATH}/chef git@github.com:defn/chef 9c51cc47642a14fca280df44f92a84011f698215 master
 facts ${BLOCK_PATH}/facts git@github.com:defn/facts 5ed2c0aaa25dcf29a3e5a6aa77192a79de14a42d master
