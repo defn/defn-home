@@ -56,7 +56,8 @@
       "isomorphic-clojurescript-reagent-node",
       "rust",
       "cljs",
-      "linkerd"
+      "linkerd",
+      "rethinkdb"
     ],
     "iamdefn/voltron",
     "webterm",

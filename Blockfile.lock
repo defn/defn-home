@@ -65,8 +65,8 @@ vault ${BLOCK_PATH}/vault git@github.com:defn/vault 3716c30a1958fc4e1fa1602aba64
 openvpn ${BLOCK_PATH}/openvpn git@github.com:defn/openvpn df0486ba8bd21ffb090ce98427eab136074e5388 master
 dnsmasq ${BLOCK_PATH}/dnsmasq git@github.com:defn/dnsmasq 856accee190837ede9f7965b2f9182b1c5eaa7c4 master
 linkerd ${BLOCK_PATH}/linkerd git@github.com:defn/linkerd a5e05d8a4fc165df4274e4f81bf2889b1d339a4f master
-limbo ${BLOCK_PATH}/limbo git@github.com:defn/limbo 2c00442b8cfe8de14b2fa48085a685ce019736cb master
-inception ${BLOCK_PATH}/inception git@github.com:defn/inception 168ad063b8569c444aa9f9976c0ef7935dca27f0 master
+limbo ${BLOCK_PATH}/limbo git@github.com:defn/limbo ceb38dd76b6230a9e927b27044c28e43a9d09535 master
+inception ${BLOCK_PATH}/inception git@github.com:defn/inception 20af0cf9856423ef1c30abafe38a106d57786a7f master
 rbtools ${BLOCK_PATH}/rbtools git@github.com:defn/rbtools f51165c4a52f20a99034896a102db5e1098e6949 master
 leiningen ${BLOCK_PATH}/leiningen git@github.com:defn/leiningen 21bbd0a513dacd4c42b2996b00e5c48a51b6a591 master
 poop ${BLOCK_PATH}/poop git@github.com:defn/poop 872217c6ed3fa30ff8c675e6a4484713b6b5910e master
@@ -84,6 +84,7 @@ sbt ${BLOCK_PATH}/sbt git@github.com:defn/sbt 11a317421bb8cf3656ff13d505cead8f4b
 reviewboard ${BLOCK_PATH}/reviewboard git@github.com:defn/reviewboard e9a15dd22e708c2e1f185a7e6a7efed839d240dc master
 isomorphic-clojurescript-reagent-node ${BLOCK_PATH}/isomorphic-clojurescript-reagent-node git@github.com:defn/isomorphic-clojurescript-reagent-node d6565fe03f5ff80e059c9387ef047759031d33c6 master
 rust ${BLOCK_PATH}/rust git@github.com:defn/rust 21c536f2084f18f216b06d535815f23cfd6dd65a master
+rethinkdb ${BLOCK_PATH}/rethinkdb git@github.com:defn/rethinkdb dd7f3e5dbcc2c89cff0da374e5916a89b9523867 master
 iamdefn/lightning ${BLOCK_PATH}/lightning git@github.com:iamdefn/lightning bbb2b509df9f2968ca90d938bae733a51dc0a27c master
 iamdefn/black ${BLOCK_PATH}/black git@github.com:iamdefn/black 499e6ee83351e4cc5dd19e1879af3b4e93055afe master
 iamdefn/fire ${BLOCK_PATH}/fire git@github.com:iamdefn/fire 53718ed3017846b7692c3f7ad98068764db594c0 master
