@@ -15,7 +15,12 @@ function setup_kit {
 
   pushd "$BLOCK_PATH/$nm_block"
   make
-  source script/profile
+
+  if type require 2>&- >/dev/null; then
+    require
+  else
+    source script/profile ''
+  fi
   popd
 }
 
@@ -28,12 +33,7 @@ function home_cibuild {
 
   source "$shome/script/profile"
 
-  if [[ ! -f "Blockfile.lock" ]]; then
-    block clone
-  else
-    block lock sync
-  fi
-
+  block lock sync
   block bootstrap "$@"
 }
 
