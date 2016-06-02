@@ -4,23 +4,21 @@ function setup_kit {
   local git_block="$1"; shift
   local nm_block="${1:-"${git_block##*/}"}"
 
-  if [[ -d "$BLOCK_PATH/$nm_block" ]]; then
-    pushd "$BLOCK_PATH/$nm_block"
-    git fetch
-    git reset --hard origin/master
-    popd
-  else
+  if [[ ! -d "$BLOCK_PATH/$nm_block" ]]; then
     git clone "$git_block" "$BLOCK_PATH/$nm_block" || true
   fi
 
   pushd "$BLOCK_PATH/$nm_block"
-  make
+    git fetch
+    git reset --hard origin/master
+  
+    make
 
-  if ! type require 2>&- >/dev/null; then
-    source script/profile ''
-  fi
+    if ! type require 2>&- >/dev/null; then
+      source script/profile ''
+    fi
 
-  require
+    require
   popd
 }
 
