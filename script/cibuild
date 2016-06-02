@@ -16,11 +16,11 @@ function setup_kit {
   pushd "$BLOCK_PATH/$nm_block"
   make
 
-  if type require 2>&- >/dev/null; then
-    require
-  else
+  if ! type require 2>&- >/dev/null; then
     source script/profile ''
   fi
+
+  require
   popd
 }
 
