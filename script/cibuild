@@ -27,8 +27,8 @@ function setup_kit {
 function home_cibuild {
   local shome="$(cd -P -- "${BASH_SOURCE%/*}/.." && pwd -P)"
 
-  setup_kit git@github.com:defn/defn-config
   setup_kit git@github.com:defn/block
+  setup_kit git@github.com:defn/defn-config
   setup_kit git@github.com:defn/cache
 
   source "$shome/script/profile"
