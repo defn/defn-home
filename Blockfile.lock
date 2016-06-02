@@ -66,7 +66,7 @@ openvpn ${BLOCK_PATH}/openvpn git@github.com:defn/openvpn df0486ba8bd21ffb090ce9
 dnsmasq ${BLOCK_PATH}/dnsmasq git@github.com:defn/dnsmasq 856accee190837ede9f7965b2f9182b1c5eaa7c4 master
 linkerd ${BLOCK_PATH}/linkerd git@github.com:defn/linkerd a5e05d8a4fc165df4274e4f81bf2889b1d339a4f master
 limbo ${BLOCK_PATH}/limbo git@github.com:defn/limbo b4d23eae5ac6e4441d8ed5bf2c7ddbdd24381d00 master
-inception ${BLOCK_PATH}/inception git@github.com:defn/inception 469ef8717841acb1a7425edba4e3b7b9f7ce0ac8 master
+inception ${BLOCK_PATH}/inception git@github.com:defn/inception 9ad074fa6466dbff5423d39db3d0e79a8b29244e master
 rbtools ${BLOCK_PATH}/rbtools git@github.com:defn/rbtools f51165c4a52f20a99034896a102db5e1098e6949 master
 leiningen ${BLOCK_PATH}/leiningen git@github.com:defn/leiningen 21bbd0a513dacd4c42b2996b00e5c48a51b6a591 master
 poop ${BLOCK_PATH}/poop git@github.com:defn/poop 872217c6ed3fa30ff8c675e6a4484713b6b5910e master
@@ -106,5 +106,7 @@ rundeck ${BLOCK_PATH}/rundeck git@github.com:defn/rundeck 7e511c5791d74e583d46fc
 module-aws-vpc ${BLOCK_PATH}/module-aws-vpc git@github.com:defn/module-aws-vpc 20afa57901ec3abf459f08823939bdc4aecd0bea master
 module-aws-per_az ${BLOCK_PATH}/module-aws-per_az git@github.com:defn/module-aws-per_az 7519e4fadd80b5abe842c02e97ddbb7848f88088 master
 module-aws-env ${BLOCK_PATH}/module-aws-env git@github.com:defn/module-aws-env 08cc37120d3cc61d053d21a94e7aadb9c49f0113 master
-env-defn ${BLOCK_PATH}/env-defn git@github.com:defn/env-defn 73e7fb60541ad9a9d2794a1f027cd77523a71bd1 master
+module-aws-service ${BLOCK_PATH}/module-aws-service git@github.com:defn/module-aws-service 60e4cc6c08bed5ccfd44808b3d103d20b44dda33 master
+module-aws-app ${BLOCK_PATH}/module-aws-app git@github.com:defn/module-aws-app 1bba37fa17e9962db14d39488fcd8d0200adcc13 master
+env-defn ${BLOCK_PATH}/env-defn git@github.com:defn/env-defn 86f4cc91bf0cdfa6fae65e718b5417f6df6bacc0 master
 env-imma ${BLOCK_PATH}/env-imma git@github.com:defn/env-imma 2b86feb096f4097394cb7d4fa62c36396505a153 master
