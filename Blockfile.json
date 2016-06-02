@@ -1,12 +1,12 @@
 {
   "require": [
     [
+      "block",
       "defn-config",
-      "scripts-to-rule-them-all"
+      "cache"
     ],
     [
-      "cache",
-      "block",
+      "scripts-to-rule-them-all",
       "block-shortcuts",
       "board",
       "kit",
