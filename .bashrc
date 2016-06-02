@@ -26,13 +26,7 @@ function configure_cue {
 function bashrc {
   local shome="$(cd -P -- "$(dirname "${BASH_SOURCE}")" && pwd -P)"
 
-  pushd ~/work/block > /dev/null
-  source "script/profile"
-  popd > /dev/null
-
-  pushd "$shome" > /dev/null
-  require
-  popd > /dev/null
+  source ~/work/block/script/profile "$shome"
 
   if tty >/dev/null 2>&1; then
     configure_cue
