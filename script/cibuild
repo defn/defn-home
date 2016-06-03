@@ -12,7 +12,8 @@ function home_cibuild {
   git fetch
   git reset --hard origin/master
   script/cibuild "$@"
-  source script/profile
+  source script/profile ''
+  require
   popd
 
   block lock sync
