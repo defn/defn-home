@@ -6,6 +6,7 @@ function home_cibuild {
   mkdir -p "$shome/work"
   pushd "$shome/work"
   git clone git@github.com:defn/block || true
+  cd block
   script/cibuild "$@"
   popd
 }
