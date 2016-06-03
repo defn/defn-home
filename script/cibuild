@@ -6,18 +6,8 @@ function home_cibuild {
   mkdir -p "$shome/work"
   pushd "$shome/work"
   git clone git@github.com:defn/block || true
-  popd
-
-  pushd "$shome/work/block"
-  git fetch
-  git reset --hard origin/master
   script/cibuild "$@"
-  source script/profile ''
-  require
   popd
-
-  block lock sync
-  block bootstrap
 }
 
 home_cibuild "$@"
