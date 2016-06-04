@@ -99,7 +99,7 @@ iamdefn/yellow ${BLOCK_PATH}/yellow git@github.com:iamdefn/yellow 172cdc634810f5
 iamdefn/voltron ${BLOCK_PATH}/voltron git@github.com:iamdefn/voltron 3e5c6394e7cfccfbc4c94203e1fb40585a8e8cfc master
 webterm ${BLOCK_PATH}/webterm git@github.com:defn/webterm 507b4ec0afbd2fffee415757d03e1235a92dff59 master
 terraform ${BLOCK_PATH}/terraform git@github.com:defn/terraform 96390a79d233f188429db6963f8f458504087a1f master
-wtf ${BLOCK_PATH}/wtf git@github.com:defn/wtf 3727d7f97d137fd5e4364601623fc2755a918b9f master
+wtf ${BLOCK_PATH}/wtf git@github.com:defn/wtf dd8bccd9042707991df1688e63a2e3e34dc51ded master
 fogg ${BLOCK_PATH}/fogg git@github.com:defn/fogg f0fc26d891ab7c08ffe7755cf6de5596adbf9e5c master
 awesome ${BLOCK_PATH}/awesome git@github.com:defn/awesome a517c68af646ce31236d866fbbd18907a1af7a37 master
 lock ${BLOCK_PATH}/lock git@github.com:defn/lock ceeeaf14c2c2a5ab5b0efe8ed333592b20332231 master
