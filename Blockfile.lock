@@ -1,4 +1,4 @@
-shflags ${BLOCK_PATH}/shflags git@github.com:defn/shflags 5d5df42443089a1569bf90060c19be7d7da0cf92 master
+shflags ${BLOCK_PATH}/shflags git@github.com:defn/shflags 58523861fff726e2ea03189b5b6b09d3fab7c486 master
 sub ${BLOCK_PATH}/sub git@github.com:defn/sub a2796df0644dfa73ecbdd1eb5c1226b64940bda5 master
 runmany ${BLOCK_PATH}/runmany git@github.com:defn/runmany 8653891591e9093638995de22b66f5ce6e1351b4 master
 block ${BLOCK_PATH}/block git@github.com:defn/block d54461e5c6e23a769ffa88aa3a85931927fcb879 master
