@@ -1,8 +1,16 @@
 #!/usr/bin/env bash
 
+function args {
+  source shflags
+
+  DEFINE_string "name" "" "whatever"
+}
+
 function main {
   local shome="$(cd -P -- "${BASH_SOURCE%/*}/.." && pwd -P)"
   source "$shome/script/profile"
+
+  echo "${FLAGS_name:+${FLAGS_name}${1:+: $@}}"
 
   export CONTEXT_ORG="${0##*/}"
 
