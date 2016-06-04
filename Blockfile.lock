@@ -10,10 +10,11 @@ board ${BLOCK_PATH}/board git@github.com:defn/board 8b542d7cc54bd274b58da4accb36
 kit ${BLOCK_PATH}/kit git@github.com:defn/kit a8f27903101e6f6c667ced10d99bc8b8d05f5433 master
 pkgsrc ${BLOCK_PATH}/pkgsrc git@github.com:defn/pkgsrc e8a347aff7e8103388c0d98b4a420256145349f2 master
 runit ${BLOCK_PATH}/runit git@github.com:defn/runit 57a60d599c81659bb82bcf2af2c074a9d89fdb2d master
+curl ${BLOCK_PATH}/curl git@github.com:defn/curl 9409557e5e2ee0516509ccc312831cb7197ca1cb master
+java ${BLOCK_PATH}/java git@github.com:defn/java 7c879436fea62d36c95b4779ce8780eb69fd7bf4 master
 build-essential ${BLOCK_PATH}/build-essential git@github.com:defn/build-essential 8aac30f57df1270630ebacdb97f6b61570de818b master
 rbenv ${BLOCK_PATH}/rbenv git@github.com:defn/rbenv 5221a20a4e81b27fb3fa2b0f7efb95972f623f03 master
 ruby ${BLOCK_PATH}/ruby git@github.com:defn/ruby 67d97151cb3b22ee22aa4b460ce067b72b65f0dc master
-curl ${BLOCK_PATH}/curl git@github.com:defn/curl 9409557e5e2ee0516509ccc312831cb7197ca1cb master
 node ${BLOCK_PATH}/node git@github.com:defn/node 0567335c574cdf61af4e0e6c043d181db9f5155b master
 xcode ${BLOCK_PATH}/xcode git@github.com:defn/xcode 7c76b8252095a7c7002aeb2ad264cb5e4a22cb05 master
 tunnelblick ${BLOCK_PATH}/tunnelblick git@github.com:defn/tunnelblick bfee8838750055c3e78d9d52424548be1b38d307 master
@@ -46,7 +47,6 @@ buildkite ${BLOCK_PATH}/buildkite git@github.com:defn/buildkite b0186399e6651ded
 sinopia ${BLOCK_PATH}/sinopia git@github.com:defn/sinopia fa9ca7cbaf9917206f37cd5bbb5c5ba5fbc8d2b9 master
 artifacts ${BLOCK_PATH}/artifacts git@github.com:defn/artifacts 9f188acc643620a763b9bcb3d3e5aedd55731ca2 master
 launch-config ${BLOCK_PATH}/launch-config git@github.com:defn/launch-config a00f0d1e8cc4f7f8eee9a95c3bf56d3306a058ed master
-java ${BLOCK_PATH}/java git@github.com:defn/java 7c879436fea62d36c95b4779ce8780eb69fd7bf4 master
 maven ${BLOCK_PATH}/maven git@github.com:defn/maven 0297f740c763eb916b116e00e5fb62612655291e master
 cljs ${BLOCK_PATH}/cljs git@github.com:defn/cljs dfd198a2e8579bf34129a4fbbfffeb81481448b8 master
 apt-mirror ${BLOCK_PATH}/apt-mirror git@github.com:defn/apt-mirror 645c65de75b072a0bd166f216eea71845a196eca master
