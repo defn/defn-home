@@ -1,4 +1,4 @@
-shflags ${BLOCK_PATH}/shflags git@github.com:defn/shflags 670ba2b256979f43af30726f37d9edde62b6265f master
+shflags ${BLOCK_PATH}/shflags git@github.com:defn/shflags 99bac23db1dc5718590e05f8dd3cb2024c5e066b master
 sub ${BLOCK_PATH}/sub git@github.com:defn/sub a2796df0644dfa73ecbdd1eb5c1226b64940bda5 master
 runmany ${BLOCK_PATH}/runmany git@github.com:defn/runmany 8653891591e9093638995de22b66f5ce6e1351b4 master
 block ${BLOCK_PATH}/block git@github.com:defn/block d54461e5c6e23a769ffa88aa3a85931927fcb879 master
@@ -16,7 +16,7 @@ ruby ${BLOCK_PATH}/ruby git@github.com:defn/ruby 67d97151cb3b22ee22aa4b460ce067b
 curl ${BLOCK_PATH}/curl git@github.com:defn/curl 9409557e5e2ee0516509ccc312831cb7197ca1cb master
 node ${BLOCK_PATH}/node git@github.com:defn/node 0567335c574cdf61af4e0e6c043d181db9f5155b master
 xcode ${BLOCK_PATH}/xcode git@github.com:defn/xcode 7c76b8252095a7c7002aeb2ad264cb5e4a22cb05 master
-tunnelblick ${BLOCK_PATH}/tunnelblick git@github.com:defn/tunnelblick d204941e88dc9ca9df703e99f08b62003e963b22 master
+tunnelblick ${BLOCK_PATH}/tunnelblick git@github.com:defn/tunnelblick bfee8838750055c3e78d9d52424548be1b38d307 master
 cue ${BLOCK_PATH}/cue git@github.com:defn/cue 50885f087daba21069b9715017b15a8503c51bc5 master
 junas ${BLOCK_PATH}/junas git@github.com:defn/junas c9591a13b46d1fac2d4e58f281fa483c6724b984 master
 defn ${BLOCK_PATH}/defn git@github.com:defn/defn 600b1e8b432f54810b0c2706b2569b36c0cb864c master
