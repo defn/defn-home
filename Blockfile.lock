@@ -1,7 +1,7 @@
-shflags ${BLOCK_PATH}/shflags git@github.com:defn/shflags 58523861fff726e2ea03189b5b6b09d3fab7c486 master
-sub ${BLOCK_PATH}/sub git@github.com:defn/sub a2796df0644dfa73ecbdd1eb5c1226b64940bda5 master
+shflags ${BLOCK_PATH}/shflags git@github.com:defn/shflags 9d935f072447f0fb9834fb97e32935b637bdb435 master
+sub ${BLOCK_PATH}/sub git@github.com:defn/sub 6df93869065377dccc54642621d58cd126d73c56 master
 runmany ${BLOCK_PATH}/runmany git@github.com:defn/runmany 8653891591e9093638995de22b66f5ce6e1351b4 master
-block ${BLOCK_PATH}/block git@github.com:defn/block d54461e5c6e23a769ffa88aa3a85931927fcb879 master
+block ${BLOCK_PATH}/block git@github.com:defn/block 26b71dcee557d9ff55cd52a5a21aa0a73c602f3c master
 defn-config ${BLOCK_PATH}/defn-config git@github.com:defn/defn-config 91d557b58a53b3977e2f41ae838d115bcc12374c master
 cache ${BLOCK_PATH}/cache git@github.com:defn/cache 388910c3e0a0a770c52d48524c9da1d0b2b4e95f master
 scripts-to-rule-them-all ${BLOCK_PATH}/scripts-to-rule-them-all git@github.com:defn/scripts-to-rule-them-all 7f5e884d6f7f225ae2a5829fed1d514ae82c5476 master
