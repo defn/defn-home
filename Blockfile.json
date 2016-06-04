@@ -13,6 +13,7 @@
       "runit"
     ],
     [
+      "java",
       "ruby",
       "node"
     ],
