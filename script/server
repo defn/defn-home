@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+function main {
+  exec "$BLOCK_PATH/runit/script/server" "$@"
+}
+
+main "$@"
