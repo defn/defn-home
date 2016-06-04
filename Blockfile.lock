@@ -19,7 +19,7 @@ node ${BLOCK_PATH}/node git@github.com:defn/node 0567335c574cdf61af4e0e6c043d181
 xcode ${BLOCK_PATH}/xcode git@github.com:defn/xcode 7c76b8252095a7c7002aeb2ad264cb5e4a22cb05 master
 tunnelblick ${BLOCK_PATH}/tunnelblick git@github.com:defn/tunnelblick bfee8838750055c3e78d9d52424548be1b38d307 master
 cue ${BLOCK_PATH}/cue git@github.com:defn/cue 50885f087daba21069b9715017b15a8503c51bc5 master
-junas ${BLOCK_PATH}/junas git@github.com:defn/junas c9591a13b46d1fac2d4e58f281fa483c6724b984 master
+junas ${BLOCK_PATH}/junas git@github.com:defn/junas bdd633121a554398d01497babd4c81cf1804e7c9 master
 defn ${BLOCK_PATH}/defn git@github.com:defn/defn 600b1e8b432f54810b0c2706b2569b36c0cb864c master
 deploy ${BLOCK_PATH}/deploy git@github.com:defn/deploy 8d54362210948316fcf68bc20029f7050c7557de master
 context ${BLOCK_PATH}/context git@github.com:defn/context 3334b465a0484f217403c77c23b3517d4ea7b30f master
