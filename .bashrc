@@ -33,7 +33,7 @@ function configure_cue {
 }
 
 function bashrc {
-  local shome="$(cd -P -- "$(dirname "${BASH_SOURCE}")" && pwd -P)"
+  local shome="${_defn_home_home:-"$(cd -P -- "$(dirname "${BASH_SOURCE}")" && pwd -P)"}"
 
   source ~/work/block/script/profile "$shome"
 

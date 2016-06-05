@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 function home_cibuild {
-  local shome="$(cd -P -- "${BASH_SOURCE%/*}/.." && pwd -P)"
+  local shome="${_defn_home_home:-"$(cd -P -- "${BASH_SOURCE%/*}/.." && pwd -P)"}"
 
   mkdir -p "$shome/work"
   cd "$shome/work"

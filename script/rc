@@ -23,7 +23,7 @@ function configure_cue {
 }
 
 function home_rc {
-  local shome="$(cd -P -- "${BASH_SOURCE%/*}/.." && pwd -P)"
+  local shome="${_defn_home_home:-"$(cd -P -- "${BASH_SOURCE%/*}/.." && pwd -P)"}"
 
   set +efux
 
