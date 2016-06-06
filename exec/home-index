@@ -15,7 +15,7 @@ function main {
 
   cd "$shome"
 
-  block list | { 
+  block list | sort | { 
     echo '<tt>'
     while read -r name dir git meh; do 
       {
