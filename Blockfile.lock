@@ -1,7 +1,7 @@
 shflags ${BLOCK_PATH}/shflags git@github.com:defn/shflags c4fd1b384a5be50d682edadc0b92995ede06dc2f master
 sub ${BLOCK_PATH}/sub git@github.com:defn/sub 96f5b9b0df34cf0f14bc6e2ae8557d38ee66a4dd master
 runmany ${BLOCK_PATH}/runmany git@github.com:defn/runmany 88b00bda81db72af99eb87aa603a3f1ba7874d2b master
-block ${BLOCK_PATH}/block git@github.com:defn/block b7184a8220f0f0853551a74d07af49ab4cc8baad master
+block ${BLOCK_PATH}/block git@github.com:defn/block 1bfc0fc2085864ce9ef9e73e061e5870730b33ae master
 defn-config ${BLOCK_PATH}/defn-config git@github.com:defn/defn-config f64fb8e4d5268796c7325b08869e4d5bb0beb1eb master
 cache ${BLOCK_PATH}/cache git@github.com:defn/cache 00699cefebd43ed0055396096125575016275b04 master
 pkgsrc ${BLOCK_PATH}/pkgsrc git@github.com:defn/pkgsrc 35c1eb1176236628855aff3caf61fdea3ae010d9 master
@@ -34,7 +34,7 @@ github ${BLOCK_PATH}/github git@github.com:defn/github 6ce10674f69896b97823666de
 jq ${BLOCK_PATH}/jq git@github.com:defn/jq e606f912a350bbba29c99d9f18b647d26eb5de41 master
 ansible ${BLOCK_PATH}/ansible git@github.com:defn/ansible e3c78f166e457b42df25e0447bc2fed51a972ea9 master
 chef ${BLOCK_PATH}/chef git@github.com:defn/chef cd9b6a6372c4f349806d62d3bb41435820164dce master
-facts ${BLOCK_PATH}/facts git@github.com:defn/facts 36f11f5bf1fcf12d3e7820b9ecbfc2d15764b2e7 master
+facts ${BLOCK_PATH}/facts git@github.com:defn/facts ca0435ec456dbfdb2aabbc83d2f23bdde5583aaa master
 bash4 ${BLOCK_PATH}/bash4 git@github.com:defn/bash4 d6650342ac5a1ddd05d1a1c44658b34c5809d2b3 master
 parity ${BLOCK_PATH}/parity git@github.com:defn/parity e82035fe1370d53c12730c29804b755b035763c1 master
 aws ${BLOCK_PATH}/aws git@github.com:defn/aws bf28b2d783a3c0ae0d062e0353b14be69c759a96 master
@@ -49,7 +49,7 @@ artifacts ${BLOCK_PATH}/artifacts git@github.com:defn/artifacts fe4b9b92a2503874
 launch-config ${BLOCK_PATH}/launch-config git@github.com:defn/launch-config 782d3c9f2df47fa3efc734d9d78be096fe117069 master
 maven ${BLOCK_PATH}/maven git@github.com:defn/maven b11401bd58b12e75d9bb19f25d153b2fbe312214 master
 cljs ${BLOCK_PATH}/cljs git@github.com:defn/cljs e190ead00370d283a90249d713bce5babb191916 master
-apt-mirror ${BLOCK_PATH}/apt-mirror git@github.com:defn/apt-mirror ca0d81faaa4930dd0ba50fb0e61b7d659d01ce41 master
+apt-mirror ${BLOCK_PATH}/apt-mirror git@github.com:defn/apt-mirror da07b204b2f19d77d52199ea2dbd103ca7d9e4d9 master
 virtualbox ${BLOCK_PATH}/virtualbox git@github.com:defn/virtualbox d2a5fe5743f3f21bbebc6c29b8d7e2a9f13f531c master
 docker-machine ${BLOCK_PATH}/docker-machine git@github.com:defn/docker-machine 3b619fed696a2bf1b45dc1f952d8314a8cf29bd0 master
 docker-compose ${BLOCK_PATH}/docker-compose git@github.com:defn/docker-compose caad925229c21b5adb4e394faba3b26d013e623c master
