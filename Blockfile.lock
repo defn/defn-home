@@ -79,7 +79,7 @@ letsencrypt ${BLOCK_PATH}/letsencrypt git@github.com:defn/letsencrypt 8204f4a0c4
 lamda ${BLOCK_PATH}/lamda git@github.com:defn/lamda 9bef10542603efbd7ba2424c67647c1bf0300a38 master
 hugo ${BLOCK_PATH}/hugo git@github.com:defn/hugo 854f4edc41ece4c75be8804b7c35b8a451512e34 master
 it ${BLOCK_PATH}/it git@github.com:defn/it 7abbe9f425a46bee45d336a7d8af9c9b58b6ee99 gh-pages
-defn.github.io ${BLOCK_PATH}/defn.github.io git@github.com:defn/defn.github.io 51b3eddcc122c1b9460eb62b017588e1ce5fa5df master
+defn.github.io ${BLOCK_PATH}/defn.github.io git@github.com:defn/defn.github.io 3604a2bf606d4948de0df2655a89ab720bc72915 master
 scala ${BLOCK_PATH}/scala git@github.com:defn/scala ec7b8c40fe2963934114a89778f850cc14b7ed96 master
 sbt ${BLOCK_PATH}/sbt git@github.com:defn/sbt 9e5afc8d587003247cfa488fc5269da9a17d8064 master
 reviewboard ${BLOCK_PATH}/reviewboard git@github.com:defn/reviewboard 616991de623abf0b338c0ff47fac045997360356 master
