@@ -1,7 +1,7 @@
 shflags ${BLOCK_PATH}/shflags git@github.com:defn/shflags c4fd1b384a5be50d682edadc0b92995ede06dc2f master
 sub ${BLOCK_PATH}/sub git@github.com:defn/sub 96f5b9b0df34cf0f14bc6e2ae8557d38ee66a4dd master
 runmany ${BLOCK_PATH}/runmany git@github.com:defn/runmany 88b00bda81db72af99eb87aa603a3f1ba7874d2b master
-block ${BLOCK_PATH}/block git@github.com:defn/block 3d3be050a62e0c387245b35a191d39362d1a05d5 master
+block ${BLOCK_PATH}/block git@github.com:defn/block b182be7fdded7432c3c73bfb8afffadeddc2264d master
 defn-config ${BLOCK_PATH}/defn-config git@github.com:defn/defn-config f64fb8e4d5268796c7325b08869e4d5bb0beb1eb master
 cache ${BLOCK_PATH}/cache git@github.com:defn/cache 00699cefebd43ed0055396096125575016275b04 master
 scripts-to-rule-them-all ${BLOCK_PATH}/scripts-to-rule-them-all git@github.com:defn/scripts-to-rule-them-all a0772ebda9a3b6c8bf453670840b0580d87a7ec8 master
