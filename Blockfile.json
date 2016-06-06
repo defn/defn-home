@@ -3,7 +3,8 @@
     [
       "block",
       "defn-config",
-      "cache"
+      "cache",
+      "docs"
     ],
     [
       "scripts-to-rule-them-all",
@@ -31,7 +32,6 @@
       "htop",
       "github",
       "facts",
-      "docs",
       "ansible",
       "bash4"
     ],
