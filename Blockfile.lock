@@ -4,7 +4,7 @@ runmany ${BLOCK_PATH}/runmany git@github.com:defn/runmany 88b00bda81db72af99eb87
 block ${BLOCK_PATH}/block git@github.com:defn/block b7184a8220f0f0853551a74d07af49ab4cc8baad master
 defn-config ${BLOCK_PATH}/defn-config git@github.com:defn/defn-config f64fb8e4d5268796c7325b08869e4d5bb0beb1eb master
 cache ${BLOCK_PATH}/cache git@github.com:defn/cache 00699cefebd43ed0055396096125575016275b04 master
-pkgsrc ${BLOCK_PATH}/pkgsrc git@github.com:defn/pkgsrc 783e14cf95c07c89e76ab82aad96bbd60d99234d master
+pkgsrc ${BLOCK_PATH}/pkgsrc git@github.com:defn/pkgsrc 35c1eb1176236628855aff3caf61fdea3ae010d9 master
 build-essential ${BLOCK_PATH}/build-essential git@github.com:defn/build-essential f0762a0bddd0ea6679aa9e52342cd7c8485a4b97 master
 python ${BLOCK_PATH}/python git@github.com:defn/python 866567c8bab099c1a95c54106adc62db20be8f39 master
 docs ${BLOCK_PATH}/docs git@github.com:defn/docs e55f36cfb78c0da99eb8c73a6fa3fba024533822 master
@@ -14,7 +14,7 @@ board ${BLOCK_PATH}/board git@github.com:defn/board 41b1050191293757580d30032e80
 kit ${BLOCK_PATH}/kit git@github.com:defn/kit 01dc3217131a738362f7dd650b4c29ede87170e0 master
 runit ${BLOCK_PATH}/runit git@github.com:defn/runit daea3c353e7107bf4674fd677cda5c3c3cda9d9c master
 curl ${BLOCK_PATH}/curl git@github.com:defn/curl 063af495fde8b9af4f7c4b8cad88eb9a208dd6e1 master
-java ${BLOCK_PATH}/java git@github.com:defn/java 28fa1c3c0e06de51b28245a79c3892a5c1c6ccdd master
+java ${BLOCK_PATH}/java git@github.com:defn/java 9570e328a010d517d42eb7c6e4629d0840dd58ce master
 rbenv ${BLOCK_PATH}/rbenv git@github.com:defn/rbenv 5b39bcdaa7823a667de4f847a7240f4146d0f256 master
 ruby ${BLOCK_PATH}/ruby git@github.com:defn/ruby 33816654e16a75a7d2dc27ff88d8465d8bdd0466 master
 node ${BLOCK_PATH}/node git@github.com:defn/node 7b2ed7244baa385633acbf7bc690e449c5c7fd80 master
