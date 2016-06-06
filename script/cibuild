@@ -4,11 +4,8 @@ function home_cibuild {
   local shome="${_defn_home_home:-"$(cd -P -- "${BASH_SOURCE%/*}/.." && pwd -P)"}"
 
   mkdir -p "$shome/work"
-  cd "$shome/work"
-  git clone git@github.com:defn/block || true
-
-  cd block
-  script/cibuild "$@"
+  git clone git@github.com:defn/block "$shome/work/block" || true
+  ~/work/block/script/cibuild "$@"
 }
 
 home_cibuild "$@"
