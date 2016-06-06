@@ -1,6 +1,13 @@
 #!/usr/bin/env bash
 
-umask 022
+function git_to_url {
+  local git="$1"; shift
+
+  git="${git/:/\/}"
+  git="${git/git@/https:\/\/}"
+
+  echo $git
+}
 
 function main {
   local shome="${_defn_home_home:-"$(cd -P -- "${BASH_SOURCE%/*}/.." && pwd -P)"}"
@@ -11,16 +18,17 @@ function main {
   block list | { 
     echo '<tt>'
     while read -r name dir git meh; do 
-      echo "$name" 1>&2
-      echo "$name"
-      echo "<a href='$git'>git</a>"
-      if [[ -f $dir/gh-pages/index.html ]]; then
-        echo "<a href='$name'>docs</a>"
-      fi
-      echo "<br/>"
+      {
+        echo "$name"
+        echo "<a href='$(git_to_url "$git")'>git</a>"
+        if [[ -f $dir/gh-pages/index.html ]]; then
+          echo "<a href='$name'>docs</a>"
+        fi
+        echo "<br/>"
+      } | xargs
     done
     echo '</tt>'
-  } > $BLOCK_PATH/defn.github.io/index.html
+  } | tee $BLOCK_PATH/defn.github.io/index.html
 }
 
 source sub "$BASH_SOURCE" "$@"
