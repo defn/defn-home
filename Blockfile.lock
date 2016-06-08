@@ -25,7 +25,7 @@ cue ${BLOCK_PATH}/cue git@github.com:defn/cue 76639b0f53287cb13a171e375df2436fbe
 junas ${BLOCK_PATH}/junas git@github.com:defn/junas e4758b3e1cff323ee16e2f14bb0881bb9658f9a9 master
 defn ${BLOCK_PATH}/defn git@github.com:defn/defn 34849f2c7aae9edddea11519258600f2f2fb0444 master
 deploy ${BLOCK_PATH}/deploy git@github.com:defn/deploy f07a42bd5f1a028eba58ad6516f826a8a11b64de master
-context ${BLOCK_PATH}/context git@github.com:defn/context 964ff4b876289c1b3506eb278ac18cfdff20ccd6 master
+context ${BLOCK_PATH}/context git@github.com:defn/context c0828b8e0e63901d0a3035901421f99e205f5ad9 master
 homebrew ${BLOCK_PATH}/homebrew git@github.com:defn/homebrew 5ceccebbc996137c467a903518c544d381e7ba01 master
 htop ${BLOCK_PATH}/htop git@github.com:defn/htop 9103d17dc1f92d7ebf9444f5e2c56963f5072dd1 master
 git ${BLOCK_PATH}/git git@github.com:defn/git fa4638f6706ed1c8eb8bb67dfb747895118a7cea master
@@ -59,7 +59,7 @@ docker ${BLOCK_PATH}/docker git@github.com:defn/docker 0c5eed4d65b1e4aef47f8862f
 packer ${BLOCK_PATH}/packer git@github.com:defn/packer ccb79cb68a44bf0bca0aef3adac84789b846797e master
 vagrant ${BLOCK_PATH}/vagrant git@github.com:defn/vagrant 31f5ed3bf93222731fb94854b062dd797240b903 master
 basebox ${BLOCK_PATH}/basebox git@github.com:defn/basebox 5c47a322ed1f4dc85f88b0213d04f0050082cb05 master
-basebox-ubuntu ${BLOCK_PATH}/basebox-ubuntu git@github.com:defn/basebox-ubuntu 58500b994b9a3a588824bb97b96a03a70f96dcbd master
+basebox-ubuntu ${BLOCK_PATH}/basebox-ubuntu git@github.com:defn/basebox-ubuntu 339b4cb1359edb80804004881c9f88506e12475b master
 basebox-osx ${BLOCK_PATH}/basebox-osx git@github.com:defn/basebox-osx 51d03dedbd1469ff43cc26d37f34933f82d52c21 master
 vagrant-shell ${BLOCK_PATH}/vagrant-shell git@github.com:defn/vagrant-shell 8c3e0a774e2e1bb8339c66b7fa4bf4f360ef4de3 master
 vagrant-limbo ${BLOCK_PATH}/vagrant-limbo git@github.com:defn/vagrant-limbo 740b29b534cd6ac6a88676e51d1cddbffddffe4d master
@@ -68,7 +68,7 @@ vault ${BLOCK_PATH}/vault git@github.com:defn/vault e1778748854c3934938e41fe8169
 openvpn ${BLOCK_PATH}/openvpn git@github.com:defn/openvpn 531751702651895ecc16e6dbded48fde53313ad4 master
 dnsmasq ${BLOCK_PATH}/dnsmasq git@github.com:defn/dnsmasq 25d4a84b81403538f51d07db0706910f9d80ff73 master
 linkerd ${BLOCK_PATH}/linkerd git@github.com:defn/linkerd 19a4ed44c6b9289d1570bd06ed2b9d23f5b49f02 master
-limbo ${BLOCK_PATH}/limbo git@github.com:defn/limbo bb2a143349ef5af8c4cdf39ce096538d2b667a3e master
+limbo ${BLOCK_PATH}/limbo git@github.com:defn/limbo 4d8ecca0991c862525c22c0f1476ef0caad4cd88 master
 inception ${BLOCK_PATH}/inception git@github.com:defn/inception 20faf77750f9b25a2f9094dd6eb423ad0cd24265 master
 rbtools ${BLOCK_PATH}/rbtools git@github.com:defn/rbtools fb1527c194b4e000beb7b3068004d204d1cc65bd master
 leiningen ${BLOCK_PATH}/leiningen git@github.com:defn/leiningen b9f7c1383fded52e71fb6b292fb2f3d2a2b3ed7e master
@@ -101,9 +101,9 @@ iamdefn/yellow ${BLOCK_PATH}/yellow git@github.com:iamdefn/yellow 9951f4b4c6262e
 iamdefn/voltron ${BLOCK_PATH}/voltron git@github.com:iamdefn/voltron 9044b07d70c207fa75f3c6bd77277734b7023d63 master
 webterm ${BLOCK_PATH}/webterm git@github.com:defn/webterm 3422373957a5599454e89c740276439bb9eada3f master
 terraform ${BLOCK_PATH}/terraform git@github.com:defn/terraform 47cb5008b3cbf03a60b4ca6a9c265f10d314ed36 master
-wtf ${BLOCK_PATH}/wtf git@github.com:defn/wtf d2051fcf441baf85c57d48cef8e1b3dca8b4dedb master
+wtf ${BLOCK_PATH}/wtf git@github.com:defn/wtf 4c72b3ef365777ffa3285f99f8c9a1926a260d5f master
 fogg ${BLOCK_PATH}/fogg git@github.com:defn/fogg d220be06745d34c7caec450f6b1a57fa527195b9 master
-awesome ${BLOCK_PATH}/awesome git@github.com:defn/awesome bb8dbc7e6fb20790cecc7af42dc875489b5def9e master
+awesome ${BLOCK_PATH}/awesome git@github.com:defn/awesome 4c687704cfb2bf20a8977c1a36e10f904ef01560 master
 lock ${BLOCK_PATH}/lock git@github.com:defn/lock 1445412c88f9693aed372629eb238bb9e925f9e4 master
 rundeck ${BLOCK_PATH}/rundeck git@github.com:defn/rundeck cb8f24b64fe87ccb7d67ad7ab12697466d5b1e6f master
 module-aws-vpc ${BLOCK_PATH}/module-aws-vpc git@github.com:defn/module-aws-vpc e4f8058ec935ad5fbfc5278893f7f69d78c0a49d master
@@ -111,5 +111,5 @@ module-aws-per_az ${BLOCK_PATH}/module-aws-per_az git@github.com:defn/module-aws
 module-aws-env ${BLOCK_PATH}/module-aws-env git@github.com:defn/module-aws-env e23badb864d225732cc622fde3c96767d2ca25f4 master
 module-aws-service ${BLOCK_PATH}/module-aws-service git@github.com:defn/module-aws-service 0a747657ea2ff140b7d00d22f2b327865800e3d9 master
 module-aws-app ${BLOCK_PATH}/module-aws-app git@github.com:defn/module-aws-app c09bfa44e9f7c0e3daf55a81af5a679fcab4db98 master
-env-defn ${BLOCK_PATH}/env-defn git@github.com:defn/env-defn 9b13f74c2333cf2980879fdc8e2d286c2410ea83 master
-env-imma ${BLOCK_PATH}/env-imma git@github.com:defn/env-imma 9b1fa482e649cefd755e22520a8c4eceacea829d master
+env-defn ${BLOCK_PATH}/env-defn git@github.com:defn/env-defn bb4d713ac3bd0f93a3ef12d0dbccbecc5f29606b master
+env-imma ${BLOCK_PATH}/env-imma git@github.com:defn/env-imma a1ec6ba53625ab7c9445eecc054282543c73b23b master
