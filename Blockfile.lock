@@ -6,7 +6,7 @@ block ${BLOCK_PATH}/block git@github.com:defn/block 2e676b57a3276bd80f3e48fdcd04
 defn-config ${BLOCK_PATH}/defn-config git@github.com:defn/defn-config 0e0dc6d45d76cdf971c3d3987a8d8f55277cca92 master
 cache ${BLOCK_PATH}/cache git@github.com:defn/cache bf65166e1d1c269b556795b44aea644a3c324f8f master
 pkgsrc ${BLOCK_PATH}/pkgsrc git@github.com:defn/pkgsrc 9ee6ee657c34d8adca1b5890aa29be027e868651 master
-build-essential ${BLOCK_PATH}/build-essential git@github.com:defn/build-essential e2e5a0396a7ac56b3507f6985ace7bb3c33df6c4 master
+build-essential ${BLOCK_PATH}/build-essential git@github.com:defn/build-essential ce28be8e33d991ffb8e1475fc1aecd73584e720d master
 python ${BLOCK_PATH}/python git@github.com:defn/python 4e8632178c0798f208ed6fd14cc7a9bdeb634808 master
 docs ${BLOCK_PATH}/docs git@github.com:defn/docs fa20ad4f1a6e91ca198a737e991ead912f8d4104 master
 scripts-to-rule-them-all ${BLOCK_PATH}/scripts-to-rule-them-all git@github.com:defn/scripts-to-rule-them-all 956b0aeb5af16be9652a5dc84ccf0dd50d344949 master
@@ -110,10 +110,11 @@ module-aws-vpc ${BLOCK_PATH}/module-aws-vpc git@github.com:defn/module-aws-vpc e
 module-aws-per_az ${BLOCK_PATH}/module-aws-per_az git@github.com:defn/module-aws-per_az e86085a7ef52897dd959902fb58db857b1352f93 master
 module-aws-env ${BLOCK_PATH}/module-aws-env git@github.com:defn/module-aws-env 236e8d78d8bd6a75e64d641b4dd9a3eaca93b7a0 master
 module-aws-service ${BLOCK_PATH}/module-aws-service git@github.com:defn/module-aws-service 0a747657ea2ff140b7d00d22f2b327865800e3d9 master
-module-aws-app ${BLOCK_PATH}/module-aws-app git@github.com:defn/module-aws-app c09bfa44e9f7c0e3daf55a81af5a679fcab4db98 master
-env-defn ${BLOCK_PATH}/env-defn git@github.com:defn/env-defn bb4d713ac3bd0f93a3ef12d0dbccbecc5f29606b master
+module-aws-app ${BLOCK_PATH}/module-aws-app git@github.com:defn/module-aws-app 91046157027e702d3fb99d6742c839c08040bda6 master
+env-defn ${BLOCK_PATH}/env-defn git@github.com:defn/env-defn e88012d38f029683d396c9e7b2b6c0b37584b71a master
 module-aws-global ${BLOCK_PATH}/module-aws-global git@github.com:defn/module-aws-global 28345ccec6e091de93a503178c7dbdfa28cb8331 master
 env-imma-global ${BLOCK_PATH}/env-imma-global git@github.com:defn/env-imma-global 80464d65f361842cce19caee6c0f52af32f75c6a master
-env-imma ${BLOCK_PATH}/env-imma git@github.com:defn/env-imma 5cfae97d2ea38aa5610035512a50d01bf3e7eb72 master
+app-consul ${BLOCK_PATH}/app-consul git@github.com:defn/app-consul 45d5c8315319e393e6c282a8b73e5a77824a5e1a master
+env-imma ${BLOCK_PATH}/env-imma git@github.com:defn/env-imma a9c5018ddfacf0ee8009f814cbc72833f0c3bafa master
 env-imma-admin ${BLOCK_PATH}/env-imma-admin git@github.com:defn/env-imma-admin ce19e73accc4911b6815b2f59b6db98cc7227752 master
-env-imma-dev ${BLOCK_PATH}/env-imma-dev git@github.com:defn/env-imma-dev d5666a755670e1e41dc1c3cae447f38325594b25 master
+env-imma-dev ${BLOCK_PATH}/env-imma-dev git@github.com:defn/env-imma-dev 8987c540051950f85dca4dfd4a5469fed432dc07 master
