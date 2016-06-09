@@ -70,7 +70,8 @@
     [
       "env-imma-global",
       "env-imma-admin",
-      "env-imma-dev"
+      "env-imma-dev",
+      "env-imma-dev-consul"
     ]
   ]
 }
