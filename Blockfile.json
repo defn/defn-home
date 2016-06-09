@@ -65,9 +65,6 @@
     "fogg", "awesome",
     "lock", "rundeck",
     [
-      "env-defn"
-    ],
-    [
       "env-imma-global",
       "env-imma-admin",
       "env-imma-dev-consul",
