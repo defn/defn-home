@@ -109,13 +109,13 @@ rundeck ${BLOCK_PATH}/rundeck git@github.com:defn/rundeck cb8f24b64fe87ccb7d67ad
 module-aws-global ${BLOCK_PATH}/module-aws-global git@github.com:defn/module-aws-global 83b9bf61f1230de8370e1e026e093f2cdd83b652 master
 env-imma-global ${BLOCK_PATH}/env-imma-global git@github.com:defn/env-imma-global c6c5c36450665ed32befd836681f619e57e42ce9 master
 module-aws-vpc ${BLOCK_PATH}/module-aws-vpc git@github.com:defn/module-aws-vpc 29a29cd796a4a81cb215c69bab35c3f866b204bb master
-module-aws-env ${BLOCK_PATH}/module-aws-env git@github.com:defn/module-aws-env b578e4b90921c290607cd0acb9cabaf60c259a46 master
+module-aws-env ${BLOCK_PATH}/module-aws-env git@github.com:defn/module-aws-env 508429cb2b0103536d910f103b20848ed2b186c9 master
 module-aws-service ${BLOCK_PATH}/module-aws-service git@github.com:defn/module-aws-service d3aa2d67a4194dd302e1baae076c2c4e3a33bc4c master
 module-aws-app ${BLOCK_PATH}/module-aws-app git@github.com:defn/module-aws-app 2629534863e20fa62ae28ab37a5abfce81bf64ae master
 app-consul ${BLOCK_PATH}/app-consul git@github.com:defn/app-consul 293189804899497184800b8e3758e01405991a78 master
 env-imma ${BLOCK_PATH}/env-imma git@github.com:defn/env-imma 3379941fd90b6df7803fcab4fb595dda00bcaa8f master
 env-imma-admin ${BLOCK_PATH}/env-imma-admin git@github.com:defn/env-imma-admin f2b907eb698e5681f980fbd25df6842a2d2b7033 master
-env-imma-dev ${BLOCK_PATH}/env-imma-dev git@github.com:defn/env-imma-dev 8987c540051950f85dca4dfd4a5469fed432dc07 master
+env-imma-dev ${BLOCK_PATH}/env-imma-dev git@github.com:defn/env-imma-dev 752a9fe66dcfaa70796b751efce4389343b00fcc master
 env-imma-dev-consul ${BLOCK_PATH}/env-imma-dev-consul git@github.com:defn/env-imma-dev-consul f157786eb4a2f21f2023bdd6ed0c8d3a55711f04 master
 app-nat ${BLOCK_PATH}/app-nat git@github.com:defn/app-nat 70834fc250eec9701b3e579b5ece551444bf6380 master
 env-imma-dev-nat ${BLOCK_PATH}/env-imma-dev-nat git@github.com:defn/env-imma-dev-nat bd4d06669d374bb7748b7aaeb2604346a72ad49c master
