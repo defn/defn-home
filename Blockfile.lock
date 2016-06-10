@@ -116,5 +116,6 @@ app-consul ${BLOCK_PATH}/app-consul git@github.com:defn/app-consul 2931898048994
 env-imma ${BLOCK_PATH}/env-imma git@github.com:defn/env-imma 3379941fd90b6df7803fcab4fb595dda00bcaa8f master
 env-imma-admin ${BLOCK_PATH}/env-imma-admin git@github.com:defn/env-imma-admin f2b907eb698e5681f980fbd25df6842a2d2b7033 master
 env-imma-dev ${BLOCK_PATH}/env-imma-dev git@github.com:defn/env-imma-dev 8987c540051950f85dca4dfd4a5469fed432dc07 master
-env-imma-dev-consul ${BLOCK_PATH}/env-imma-dev-consul git@github.com:defn/env-imma-dev-consul 2fe755fbbf76adef06cda966749a9427cb3cc0cd master
-env-imma-dev-nat ${BLOCK_PATH}/env-imma-dev-nat git@github.com:defn/env-imma-dev-nat fd9d3a9ffcb537a6367cfe8fad59d43ad50fb65e master
+env-imma-dev-consul ${BLOCK_PATH}/env-imma-dev-consul git@github.com:defn/env-imma-dev-consul f157786eb4a2f21f2023bdd6ed0c8d3a55711f04 master
+app-nat ${BLOCK_PATH}/app-nat git@github.com:defn/app-nat
+env-imma-dev-nat ${BLOCK_PATH}/env-imma-dev-nat git@github.com:defn/env-imma-dev-nat bd4d06669d374bb7748b7aaeb2604346a72ad49c master
