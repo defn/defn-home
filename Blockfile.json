@@ -66,9 +66,8 @@
     "lock", "rundeck",
     [
       "env-imma-global",
-      "env-imma-admin",
-      "env-imma-dev-consul",
-      "env-imma-dev-nat"
+      "env-imma-admin-shared",
+      "env-imma-dev-shared"
     ]
   ]
 }
