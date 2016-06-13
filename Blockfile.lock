@@ -101,7 +101,7 @@ iamdefn/yellow ${BLOCK_PATH}/yellow git@github.com:iamdefn/yellow 9951f4b4c6262e
 iamdefn/voltron ${BLOCK_PATH}/voltron git@github.com:iamdefn/voltron 9044b07d70c207fa75f3c6bd77277734b7023d63 master
 webterm ${BLOCK_PATH}/webterm git@github.com:defn/webterm 3422373957a5599454e89c740276439bb9eada3f master
 terraform ${BLOCK_PATH}/terraform git@github.com:defn/terraform 47cb5008b3cbf03a60b4ca6a9c265f10d314ed36 master
-wtf ${BLOCK_PATH}/wtf git@github.com:defn/wtf 09f845fa473230d415dcb6444314ca269ce0a672 master
+wtf ${BLOCK_PATH}/wtf git@github.com:defn/wtf c4c518205dc6d6f7f8e41ad1ee4c17a4fb606a07 master
 fogg ${BLOCK_PATH}/fogg git@github.com:defn/fogg d220be06745d34c7caec450f6b1a57fa527195b9 master
 awesome ${BLOCK_PATH}/awesome git@github.com:defn/awesome 7434e4c2bdc50ffe877008915db31d7a47e57349 master
 lock ${BLOCK_PATH}/lock git@github.com:defn/lock 1445412c88f9693aed372629eb238bb9e925f9e4 master
@@ -118,6 +118,6 @@ env-imma-admin ${BLOCK_PATH}/env-imma-admin git@github.com:defn/env-imma-admin 9
 app-nat ${BLOCK_PATH}/app-nat git@github.com:defn/app-nat f2336ce28fbe9917bf4abcc8b8cc5661139c84cb master
 app-vpn ${BLOCK_PATH}/app-vpn git@github.com:defn/app-vpn 3e57dd9c3f5751bc07b75e9dea99c9c25328e193 master
 app-jump ${BLOCK_PATH}/app-jump git@github.com:defn/app-jump 3125b33b09495376f9912fb8cd3d6372e35b29fa master
-env-imma-admin-shared ${BLOCK_PATH}/env-imma-admin-shared git@github.com:defn/env-imma-admin-shared 051946655e64129f53cc1e8b158292c8f7871dc8 master
+env-imma-admin-shared ${BLOCK_PATH}/env-imma-admin-shared git@github.com:defn/env-imma-admin-shared b278b81b7847a5d919bd463e98e1e36ca2f68863 master
 env-imma-dev ${BLOCK_PATH}/env-imma-dev git@github.com:defn/env-imma-dev a031fba2c9d64a65731fc73bb9c64aa55e6dd4b1 master
-env-imma-dev-shared ${BLOCK_PATH}/env-imma-dev-shared git@github.com:defn/env-imma-dev-shared 7c85d94407927fef3454abbbd02022832823ff12 master
+env-imma-dev-shared ${BLOCK_PATH}/env-imma-dev-shared git@github.com:defn/env-imma-dev-shared f49d32501ab0a4be4cc9b332db3cc63ce1cef7de master
