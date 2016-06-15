@@ -62,8 +62,9 @@
     ],
     "iamdefn/voltron",
     "webterm",
-    "fogg", "awesome",
+    "awesome",
     "lock", "rundeck",
+    "fluentd",
     [
       "env-imma-admin-shared",
       "env-imma-dev-shared"

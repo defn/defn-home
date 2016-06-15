@@ -100,11 +100,12 @@ iamdefn/earth ${BLOCK_PATH}/earth git@github.com:iamdefn/earth 93e90800af8ba9e93
 iamdefn/yellow ${BLOCK_PATH}/yellow git@github.com:iamdefn/yellow 9951f4b4c6262e420696d22c190f6115df557b32 master
 iamdefn/voltron ${BLOCK_PATH}/voltron git@github.com:iamdefn/voltron 9044b07d70c207fa75f3c6bd77277734b7023d63 master
 webterm ${BLOCK_PATH}/webterm git@github.com:defn/webterm 3422373957a5599454e89c740276439bb9eada3f master
-fogg ${BLOCK_PATH}/fogg git@github.com:defn/fogg 11d7da8077ec47b68dbf6d4eb42bd17b5ff89f5b master
 awesome ${BLOCK_PATH}/awesome git@github.com:defn/awesome 12bebe6aa000d2134aab6977ad2bc106faa596b5 master
 lock ${BLOCK_PATH}/lock git@github.com:defn/lock 1445412c88f9693aed372629eb238bb9e925f9e4 master
 rundeck ${BLOCK_PATH}/rundeck git@github.com:defn/rundeck cb8f24b64fe87ccb7d67ad7ab12697466d5b1e6f master
+fluentd ${BLOCK_PATH}/fluentd git@github.com:defn/fluentd a411222c7ae42c1d4d495c1b63cc9c2e298b7d02 master
 terraform ${BLOCK_PATH}/terraform git@github.com:defn/terraform 47cb5008b3cbf03a60b4ca6a9c265f10d314ed36 master
+fogg ${BLOCK_PATH}/fogg git@github.com:defn/fogg c825c0a1ef2a683c5a2882ba76c1e5f6d7d9fab3 master
 wtf ${BLOCK_PATH}/wtf git@github.com:defn/wtf dba1ca2d6f36e3162b5b266ff04be89ceb98c64b master
 module-aws-global ${BLOCK_PATH}/module-aws-global git@github.com:defn/module-aws-global 7bf079f696d496b36eba80bfee2de04bd578328a master
 module-aws-vpc ${BLOCK_PATH}/module-aws-vpc git@github.com:defn/module-aws-vpc b785967716ab1d3eac2cdc0485d95a4c95e804bb master
