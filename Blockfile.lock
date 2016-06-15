@@ -103,7 +103,7 @@ webterm ${BLOCK_PATH}/webterm git@github.com:defn/webterm 3422373957a5599454e89c
 awesome ${BLOCK_PATH}/awesome git@github.com:defn/awesome 12bebe6aa000d2134aab6977ad2bc106faa596b5 master
 lock ${BLOCK_PATH}/lock git@github.com:defn/lock 1445412c88f9693aed372629eb238bb9e925f9e4 master
 rundeck ${BLOCK_PATH}/rundeck git@github.com:defn/rundeck cb8f24b64fe87ccb7d67ad7ab12697466d5b1e6f master
-fluentd ${BLOCK_PATH}/fluentd git@github.com:defn/fluentd a411222c7ae42c1d4d495c1b63cc9c2e298b7d02 master
+fluentd ${BLOCK_PATH}/fluentd git@github.com:defn/fluentd 6272f2580a92cdb0396b77818bddd2dc802d2c00 master
 terraform ${BLOCK_PATH}/terraform git@github.com:defn/terraform 47cb5008b3cbf03a60b4ca6a9c265f10d314ed36 master
 fogg ${BLOCK_PATH}/fogg git@github.com:defn/fogg c825c0a1ef2a683c5a2882ba76c1e5f6d7d9fab3 master
 wtf ${BLOCK_PATH}/wtf git@github.com:defn/wtf dba1ca2d6f36e3162b5b266ff04be89ceb98c64b master
