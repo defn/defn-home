@@ -51,7 +51,7 @@ artifacts ${BLOCK_PATH}/artifacts git@github.com:defn/artifacts be16698a1ced7164
 launch-config ${BLOCK_PATH}/launch-config git@github.com:defn/launch-config a8f3168b4290e57eed8112da28e79bcf6579dd83 master
 maven ${BLOCK_PATH}/maven git@github.com:defn/maven c7416a48d1a7e1e4c17d3fed7c5b9404e2d694ce master
 cljs ${BLOCK_PATH}/cljs git@github.com:defn/cljs 6f7bef2288d21e0f33343f3fdd5ceb29a003c621 master
-apt-mirror ${BLOCK_PATH}/apt-mirror git@github.com:defn/apt-mirror 4d612e9d7d2f3d8cd9e7929c8554192a3e7e257e master
+apt-mirror ${BLOCK_PATH}/apt-mirror git@github.com:defn/apt-mirror f162e4acefdec959f0b12f1a37b7d7ca2618cd9a master
 virtualbox ${BLOCK_PATH}/virtualbox git@github.com:defn/virtualbox e629a6c1b5f6bbd4fd2a245f6bc1e94511c74c38 master
 docker-machine ${BLOCK_PATH}/docker-machine git@github.com:defn/docker-machine adc9c942fb64a462395f0d810125555e2b34815d master
 docker-compose ${BLOCK_PATH}/docker-compose git@github.com:defn/docker-compose 32b86901a703a45f52cd834bc3d50aa667d1f457 master
@@ -103,7 +103,7 @@ webterm ${BLOCK_PATH}/webterm git@github.com:defn/webterm 3422373957a5599454e89c
 awesome ${BLOCK_PATH}/awesome git@github.com:defn/awesome 12bebe6aa000d2134aab6977ad2bc106faa596b5 master
 lock ${BLOCK_PATH}/lock git@github.com:defn/lock 1445412c88f9693aed372629eb238bb9e925f9e4 master
 rundeck ${BLOCK_PATH}/rundeck git@github.com:defn/rundeck cb8f24b64fe87ccb7d67ad7ab12697466d5b1e6f master
-fluentd ${BLOCK_PATH}/fluentd git@github.com:defn/fluentd d74c976191aae050f0f772e1b3bbec5964bc0cc7 master
+fluentd ${BLOCK_PATH}/fluentd git@github.com:defn/fluentd d9ad28a52a95f1ef296fb61fe0b89538ad5faaa0 master
 terraform ${BLOCK_PATH}/terraform git@github.com:defn/terraform 47cb5008b3cbf03a60b4ca6a9c265f10d314ed36 master
 fogg ${BLOCK_PATH}/fogg git@github.com:defn/fogg c825c0a1ef2a683c5a2882ba76c1e5f6d7d9fab3 master
 wtf ${BLOCK_PATH}/wtf git@github.com:defn/wtf dba1ca2d6f36e3162b5b266ff04be89ceb98c64b master
