@@ -112,8 +112,8 @@ module-aws-vpc ${BLOCK_PATH}/module-aws-vpc git@github.com:defn/module-aws-vpc b
 module-aws-env ${BLOCK_PATH}/module-aws-env git@github.com:defn/module-aws-env a5fa5c8e0f0dc02b57adacabfa0b4757744915af master
 env-imma ${BLOCK_PATH}/env-imma git@github.com:defn/env-imma 79d2332588b3761d3b0f9deb05b3cf3240114091 master
 env-imma-admin ${BLOCK_PATH}/env-imma-admin git@github.com:defn/env-imma-admin d4c60ac91ee40cb8871a14dc804b6a29c3845bd9 master
-module-aws-service ${BLOCK_PATH}/module-aws-service git@github.com:defn/module-aws-service 94066ceb8a3aa2c00534a549f28f85087b4b1434 master
-module-aws-app ${BLOCK_PATH}/module-aws-app git@github.com:defn/module-aws-app 5c5754d34e4f794e0d77faf50621da52e9a2d376 master
+module-aws-service ${BLOCK_PATH}/module-aws-service git@github.com:defn/module-aws-service 6c2f35f97f6f9843a037289ea25639023dd07f09 master
+module-aws-app ${BLOCK_PATH}/module-aws-app git@github.com:defn/module-aws-app 800671c44abffcb8971c41551e1e8c13bf225814 master
 app-nat ${BLOCK_PATH}/app-nat git@github.com:defn/app-nat 413ff3e7f6b66fda0bd2232209f4c9c56cc075a6 master
 app-vpn ${BLOCK_PATH}/app-vpn git@github.com:defn/app-vpn 2344002b57e24dbe10db4017eadd42a06064a324 master
 app-jump ${BLOCK_PATH}/app-jump git@github.com:defn/app-jump 0d22d5c398a34ae8dbedd240a5697ad60cbbaac1 master
