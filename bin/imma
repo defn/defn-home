@@ -6,6 +6,7 @@ function main {
 
   export CONTEXT_ORG="${0##*/}"
 
+  export TF_VAR_az_count=2
   exec us-west-1 "$@"
 }
 
