@@ -1,4 +1,4 @@
-PATH="$(echo $PATH | tr ':' '\n' | sort -u | grep -v "$HOME" | grep -v "${PKG_HOME:-dont-find-anything}" | perl -pe 's{\s+$}{:}')"
+PATH="$(echo $PATH | tr ':' '\n' | uniq | grep -v "$HOME" | grep -v "${PKG_HOME:-dont-find-anything}" | perl -ne 'm{^\s*$} && next; s{\s*$}{:}; print')"
 
 function configure_cue {
   case "${TERM:-}" in
