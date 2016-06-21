@@ -13,7 +13,7 @@ scripts-to-rule-them-all ${BLOCK_PATH}/scripts-to-rule-them-all git@github.com:d
 block-shortcuts ${BLOCK_PATH}/block-shortcuts git@github.com:defn/block-shortcuts 8cefbaff0f4e992f92d540e40449e6fe0b3fbe19 master
 board ${BLOCK_PATH}/board git@github.com:defn/board 8a63c5c72227d70d7d8ff4fa3cb757063757b990 master
 kit ${BLOCK_PATH}/kit git@github.com:defn/kit f26436cfbc4b9851e577444610f6aff22f40c932 master
-runit ${BLOCK_PATH}/runit git@github.com:defn/runit ac57db19a976d19527408dfa4ab4a5d1d753a69c master
+runit ${BLOCK_PATH}/runit git@github.com:defn/runit fe377db01327398da4570bb7c3a16e192141d732 master
 curl ${BLOCK_PATH}/curl git@github.com:defn/curl c5152c93420272ae98fd09d63d50798997d96b70 master
 java ${BLOCK_PATH}/java git@github.com:defn/java 704a41ffcff5656bef13973f288aefbf2a7ed631 master
 rbenv ${BLOCK_PATH}/rbenv git@github.com:defn/rbenv 0c885729549c3965b66ce124f6fd2455768806c3 master
@@ -56,14 +56,14 @@ virtualbox ${BLOCK_PATH}/virtualbox git@github.com:defn/virtualbox 288106f6445d6
 docker-machine ${BLOCK_PATH}/docker-machine git@github.com:defn/docker-machine adc9c942fb64a462395f0d810125555e2b34815d master
 docker-compose ${BLOCK_PATH}/docker-compose git@github.com:defn/docker-compose 32b86901a703a45f52cd834bc3d50aa667d1f457 master
 docker ${BLOCK_PATH}/docker git@github.com:defn/docker 0c5eed4d65b1e4aef47f8862fbb56d1ade98946f master
-packer ${BLOCK_PATH}/packer git@github.com:defn/packer ccb79cb68a44bf0bca0aef3adac84789b846797e master
+packer ${BLOCK_PATH}/packer git@github.com:defn/packer 1b7b456c93f822e15c7f8acd45fa2709dcfdb2de master
 vagrant ${BLOCK_PATH}/vagrant git@github.com:defn/vagrant 31f5ed3bf93222731fb94854b062dd797240b903 master
 basebox ${BLOCK_PATH}/basebox git@github.com:defn/basebox 5c47a322ed1f4dc85f88b0213d04f0050082cb05 master
 basebox-ubuntu ${BLOCK_PATH}/basebox-ubuntu git@github.com:defn/basebox-ubuntu 2fa543357d1cb416c599f460241e497dc8a0455f master
 basebox-osx ${BLOCK_PATH}/basebox-osx git@github.com:defn/basebox-osx fadad49d79bb531b51ee01dc10dbd71316c0266b master
 vagrant-shell ${BLOCK_PATH}/vagrant-shell git@github.com:defn/vagrant-shell 8c3e0a774e2e1bb8339c66b7fa4bf4f360ef4de3 master
 vagrant-limbo ${BLOCK_PATH}/vagrant-limbo git@github.com:defn/vagrant-limbo 740b29b534cd6ac6a88676e51d1cddbffddffe4d master
-consul ${BLOCK_PATH}/consul git@github.com:defn/consul e9cd776ef1e40d5c8e61debd7fe4a85b406e743c master
+consul ${BLOCK_PATH}/consul git@github.com:defn/consul 8dce83a24f316f00d6f56367f9b0e35dbfcecdd8 master
 vault ${BLOCK_PATH}/vault git@github.com:defn/vault cfbce2e7bd5de8ad1161325a9b413326260c70a6 master
 openvpn ${BLOCK_PATH}/openvpn git@github.com:defn/openvpn 531751702651895ecc16e6dbded48fde53313ad4 master
 dnsmasq ${BLOCK_PATH}/dnsmasq git@github.com:defn/dnsmasq 25d4a84b81403538f51d07db0706910f9d80ff73 master
