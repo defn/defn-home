@@ -10,7 +10,7 @@ build-essential ${BLOCK_PATH}/build-essential git@github.com:defn/build-essentia
 python ${BLOCK_PATH}/python git@github.com:defn/python 4e8632178c0798f208ed6fd14cc7a9bdeb634808 master
 docs ${BLOCK_PATH}/docs git@github.com:defn/docs fa20ad4f1a6e91ca198a737e991ead912f8d4104 master
 scripts-to-rule-them-all ${BLOCK_PATH}/scripts-to-rule-them-all git@github.com:defn/scripts-to-rule-them-all 956b0aeb5af16be9652a5dc84ccf0dd50d344949 master
-block-shortcuts ${BLOCK_PATH}/block-shortcuts git@github.com:defn/block-shortcuts 554fdbc30bbacfcf9445bd1b27d87165a02e3653 master
+block-shortcuts ${BLOCK_PATH}/block-shortcuts git@github.com:defn/block-shortcuts 8cefbaff0f4e992f92d540e40449e6fe0b3fbe19 master
 board ${BLOCK_PATH}/board git@github.com:defn/board 8a63c5c72227d70d7d8ff4fa3cb757063757b990 master
 kit ${BLOCK_PATH}/kit git@github.com:defn/kit f26436cfbc4b9851e577444610f6aff22f40c932 master
 runit ${BLOCK_PATH}/runit git@github.com:defn/runit ac57db19a976d19527408dfa4ab4a5d1d753a69c master
@@ -18,7 +18,7 @@ curl ${BLOCK_PATH}/curl git@github.com:defn/curl c5152c93420272ae98fd09d63d50798
 java ${BLOCK_PATH}/java git@github.com:defn/java 704a41ffcff5656bef13973f288aefbf2a7ed631 master
 rbenv ${BLOCK_PATH}/rbenv git@github.com:defn/rbenv 0c885729549c3965b66ce124f6fd2455768806c3 master
 ruby ${BLOCK_PATH}/ruby git@github.com:defn/ruby 98b3037008060150e1ad556b912b8a8eb1f09ec0 master
-node ${BLOCK_PATH}/node git@github.com:defn/node 7f4942aacf561f274333bd3345e169fdd69b1021 master
+node ${BLOCK_PATH}/node git@github.com:defn/node c66d4dd9c09f3519d74d372509f4770b3349a08f master
 xcode ${BLOCK_PATH}/xcode git@github.com:defn/xcode ede3f23dd00d0b580b6b9b5f0b802f7596b209c3 master
 tunnelblick ${BLOCK_PATH}/tunnelblick git@github.com:defn/tunnelblick 83e3ac2b49b49e1daec2e3203c2f4d5ad684cc7f master
 cue ${BLOCK_PATH}/cue git@github.com:defn/cue 76639b0f53287cb13a171e375df2436fbe560db4 master
