@@ -23,7 +23,7 @@ xcode ${BLOCK_PATH}/xcode git@github.com:defn/xcode ede3f23dd00d0b580b6b9b5f0b80
 tunnelblick ${BLOCK_PATH}/tunnelblick git@github.com:defn/tunnelblick 83e3ac2b49b49e1daec2e3203c2f4d5ad684cc7f master
 cue ${BLOCK_PATH}/cue git@github.com:defn/cue 76639b0f53287cb13a171e375df2436fbe560db4 master
 junas ${BLOCK_PATH}/junas git@github.com:defn/junas e4758b3e1cff323ee16e2f14bb0881bb9658f9a9 master
-defn ${BLOCK_PATH}/defn git@github.com:defn/defn 34849f2c7aae9edddea11519258600f2f2fb0444 master
+defn ${BLOCK_PATH}/defn git@github.com:defn/defn 7843b163ab320b5825e67eefd204a9898975b190 master
 deploy ${BLOCK_PATH}/deploy git@github.com:defn/deploy f07a42bd5f1a028eba58ad6516f826a8a11b64de master
 context ${BLOCK_PATH}/context git@github.com:defn/context b91c4b594765eeade11411ce0f4f13fd7d3dd82e master
 homebrew ${BLOCK_PATH}/homebrew git@github.com:defn/homebrew 5ceccebbc996137c467a903518c544d381e7ba01 master
@@ -39,11 +39,11 @@ chef ${BLOCK_PATH}/chef git@github.com:defn/chef 0c2adeb4e00783201605a56eea5968f
 facts ${BLOCK_PATH}/facts git@github.com:defn/facts d071a0ce04fcc2a6aa860c3335819f7b05a496c3 master
 bash4 ${BLOCK_PATH}/bash4 git@github.com:defn/bash4 6f1dad2cb42e3066a628fef6d29d1cf8544c4397 master
 parity ${BLOCK_PATH}/parity git@github.com:defn/parity a263b68c89234956b54a287302b22c0160a7bdb5 master
-aws ${BLOCK_PATH}/aws git@github.com:defn/aws 010e959828e7a9c0434ce6d450d845173fc45027 master
+aws ${BLOCK_PATH}/aws git@github.com:defn/aws fb8432c540503d1b2f9439bfce4d45d07bd5ad60 master
 azure ${BLOCK_PATH}/azure git@github.com:defn/azure 69061031ae06ea0f7c289d33e390597ce8421f68 master
 packet ${BLOCK_PATH}/packet git@github.com:defn/packet e19db545c9311ca33ff7c1958c0d03d0c1e9dcf9 master
 cloud ${BLOCK_PATH}/cloud git@github.com:defn/cloud a99afdc814f2227823d2b69cd9974b325802dd36 master
-squid ${BLOCK_PATH}/squid git@github.com:defn/squid 81eaccffdd804600454b7a455b1035430e0275d9 master
+squid ${BLOCK_PATH}/squid git@github.com:defn/squid 8ae8fc1e9dec2424df3fb5b94161c5c15bdbe1e2 master
 packagecloud ${BLOCK_PATH}/packagecloud git@github.com:defn/packagecloud e0de85545ded4ed7c1a9c156db62ab08da616c7c master
 buildkite ${BLOCK_PATH}/buildkite git@github.com:defn/buildkite e8d63e7e5214a5a611850098d8d9ec55e34e76c2 master
 sinopia ${BLOCK_PATH}/sinopia git@github.com:defn/sinopia 6ee0ecf0659fa59a7ca2c4f32970d8716df6940c master
@@ -79,7 +79,7 @@ elixir ${BLOCK_PATH}/elixir git@github.com:defn/elixir 6ea8917c6219f8e827f5a0b0a
 phoenix ${BLOCK_PATH}/phoenix git@github.com:defn/phoenix 34979a9b324681c53bdc429b43933d1376bb4310 master
 letsencrypt ${BLOCK_PATH}/letsencrypt git@github.com:defn/letsencrypt 25752a8b311b61b98adf68ddd900f2fb592a0c82 master
 lamda ${BLOCK_PATH}/lamda git@github.com:defn/lamda 058ff871df72050134ffbb6e9ab729e54556438a master
-hugo ${BLOCK_PATH}/hugo git@github.com:defn/hugo 529ab22e3ede0e877730dd234d26bda7a379b0d3 master
+hugo ${BLOCK_PATH}/hugo git@github.com:defn/hugo a3cdbe6da2262e33818700baf109ea7c943bf508 master
 it ${BLOCK_PATH}/it git@github.com:defn/it 37b609cd2a51793355460caf60949bf6de20d5fa gh-pages
 defn.github.io ${BLOCK_PATH}/defn.github.io git@github.com:defn/defn.github.io 99cd998d72f681fe2aee047d9d287929762159d7 master
 scala ${BLOCK_PATH}/scala git@github.com:defn/scala b92ea334bf1eb8920159dc1f805b528a6e3a594a master
@@ -99,12 +99,12 @@ iamdefn/blue ${BLOCK_PATH}/blue git@github.com:iamdefn/blue 89568ed2606e77d28554
 iamdefn/earth ${BLOCK_PATH}/earth git@github.com:iamdefn/earth 93e90800af8ba9e93d7e2a316bfe39aabc23ff34 master
 iamdefn/yellow ${BLOCK_PATH}/yellow git@github.com:iamdefn/yellow 9951f4b4c6262e420696d22c190f6115df557b32 master
 iamdefn/voltron ${BLOCK_PATH}/voltron git@github.com:iamdefn/voltron 9044b07d70c207fa75f3c6bd77277734b7023d63 master
-webterm ${BLOCK_PATH}/webterm git@github.com:defn/webterm 3422373957a5599454e89c740276439bb9eada3f master
+webterm ${BLOCK_PATH}/webterm git@github.com:defn/webterm e4d1534773b5ee62d65725c9512a1778a9859b72 master
 awesome ${BLOCK_PATH}/awesome git@github.com:defn/awesome 12bebe6aa000d2134aab6977ad2bc106faa596b5 master
 lock ${BLOCK_PATH}/lock git@github.com:defn/lock 1445412c88f9693aed372629eb238bb9e925f9e4 master
 rundeck ${BLOCK_PATH}/rundeck git@github.com:defn/rundeck cb8f24b64fe87ccb7d67ad7ab12697466d5b1e6f master
 fluentd ${BLOCK_PATH}/fluentd git@github.com:defn/fluentd d9ad28a52a95f1ef296fb61fe0b89538ad5faaa0 master
-terraform ${BLOCK_PATH}/terraform git@github.com:defn/terraform 4dd0536aae2b6c56e88381ba674709c5e876400a master
+terraform ${BLOCK_PATH}/terraform git@github.com:defn/terraform eb9dc1b6cb3563c688df76ee2bdfc13c76e695eb master
 module-aws-vpc ${BLOCK_PATH}/module-aws-vpc git@github.com:defn/module-aws-vpc b785967716ab1d3eac2cdc0485d95a4c95e804bb master
 module-aws-env ${BLOCK_PATH}/module-aws-env git@github.com:defn/module-aws-env ba16a558ffe6ecefb3f274beef6690768ec31567 master
 module-aws-service ${BLOCK_PATH}/module-aws-service git@github.com:defn/module-aws-service 13707860ee04b604a31000b838e2bc1398abcb50 master
