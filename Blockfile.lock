@@ -51,7 +51,7 @@ artifacts ${BLOCK_PATH}/artifacts git@github.com:defn/artifacts be16698a1ced7164
 launch-config ${BLOCK_PATH}/launch-config git@github.com:defn/launch-config a8f3168b4290e57eed8112da28e79bcf6579dd83 master
 maven ${BLOCK_PATH}/maven git@github.com:defn/maven c7416a48d1a7e1e4c17d3fed7c5b9404e2d694ce master
 cljs ${BLOCK_PATH}/cljs git@github.com:defn/cljs 6f7bef2288d21e0f33343f3fdd5ceb29a003c621 master
-apt-mirror ${BLOCK_PATH}/apt-mirror git@github.com:defn/apt-mirror 2534c5e566a18b7bbd60fe759be9a7931b57ad95 master
+apt-mirror ${BLOCK_PATH}/apt-mirror git@github.com:defn/apt-mirror 0f03ddc397fbf13d14ee35e236ebe1a56c2a650f master
 virtualbox ${BLOCK_PATH}/virtualbox git@github.com:defn/virtualbox 288106f6445d64447180e347fe2efbaf06d30356 master
 docker-machine ${BLOCK_PATH}/docker-machine git@github.com:defn/docker-machine adc9c942fb64a462395f0d810125555e2b34815d master
 docker-compose ${BLOCK_PATH}/docker-compose git@github.com:defn/docker-compose 32b86901a703a45f52cd834bc3d50aa667d1f457 master
@@ -105,12 +105,12 @@ lock ${BLOCK_PATH}/lock git@github.com:defn/lock 1445412c88f9693aed372629eb238bb
 rundeck ${BLOCK_PATH}/rundeck git@github.com:defn/rundeck cb8f24b64fe87ccb7d67ad7ab12697466d5b1e6f master
 fluentd ${BLOCK_PATH}/fluentd git@github.com:defn/fluentd d9ad28a52a95f1ef296fb61fe0b89538ad5faaa0 master
 terraform ${BLOCK_PATH}/terraform git@github.com:defn/terraform eb9dc1b6cb3563c688df76ee2bdfc13c76e695eb master
-module-aws-vpc ${BLOCK_PATH}/module-aws-vpc git@github.com:defn/module-aws-vpc b785967716ab1d3eac2cdc0485d95a4c95e804bb master
-module-aws-env ${BLOCK_PATH}/module-aws-env git@github.com:defn/module-aws-env ba16a558ffe6ecefb3f274beef6690768ec31567 master
+module-aws-vpc ${BLOCK_PATH}/module-aws-vpc git@github.com:defn/module-aws-vpc 9dd590199f5aff7189bfb350718a2c9b16fc7055 master
+module-aws-env ${BLOCK_PATH}/module-aws-env git@github.com:defn/module-aws-env 508584d8e862a11d02bed2b22bc7d8e6c8215164 master
 module-aws-service ${BLOCK_PATH}/module-aws-service git@github.com:defn/module-aws-service 13707860ee04b604a31000b838e2bc1398abcb50 master
 module-aws-app ${BLOCK_PATH}/module-aws-app git@github.com:defn/module-aws-app 65e050f3104bf52ada541060de89e6883d649b77 master
 app-xxx ${BLOCK_PATH}/app-xxx git@github.com:defn/app-xxx 39215bf25a05e0cdc81feeb307041d2de29ff3b8 master
-env-xxx ${BLOCK_PATH}/env-xxx git@github.com:defn/env-xxx 47c1b983d1663609fa9d693f7103cb75a661227b master
+env-xxx ${BLOCK_PATH}/env-xxx git@github.com:defn/env-xxx 4778b0d797ee92a23c96a975be666463e151543b master
 module-aws-global ${BLOCK_PATH}/module-aws-global git@github.com:defn/module-aws-global 9317dc5843862ec758e6a532932c280ac9becfcd master
 global-xxx ${BLOCK_PATH}/global-xxx git@github.com:defn/global-xxx b7ee7a821ee791277a493fcc9f7defb228221724 master
 fogg ${BLOCK_PATH}/fogg git@github.com:defn/fogg 88ba640a33d23a580e048fde09e15d82e9d2fcc4 master
@@ -122,6 +122,6 @@ app-vpn ${BLOCK_PATH}/app-vpn git@github.com:defn/app-vpn 0bd3566428f172f9248dc6
 app-jump ${BLOCK_PATH}/app-jump git@github.com:defn/app-jump fd92609f63d54aa050fdd2af4e11fa90b28cba03 master
 app-consul ${BLOCK_PATH}/app-consul git@github.com:defn/app-consul 99733570482f87236b52b7d53d095d24d7c6e2c7 master
 app-cache ${BLOCK_PATH}/app-cache git@github.com:defn/app-cache 08ecdd43af1b960b83c00316f5704625e35f250b master
-env-imma-admin-shared ${BLOCK_PATH}/env-imma-admin-shared git@github.com:defn/env-imma-admin-shared 1e8a165ee9ed49e7d8e2a086eac6a829821017a5 master
+env-imma-admin-shared ${BLOCK_PATH}/env-imma-admin-shared git@github.com:defn/env-imma-admin-shared 4dc111424f1afdbb04780a41e5602043f2971187 master
 env-imma-dev ${BLOCK_PATH}/env-imma-dev git@github.com:defn/env-imma-dev d93b50d834345124c06881800ffec018042cd8b8 master
-env-imma-dev-shared ${BLOCK_PATH}/env-imma-dev-shared git@github.com:defn/env-imma-dev-shared 107eb7155ccecd774aa35b57344d9ac3ba34f046 master
+env-imma-dev-shared ${BLOCK_PATH}/env-imma-dev-shared git@github.com:defn/env-imma-dev-shared f0760a32d8c06a490f47d131d39388417b84cb4b master
