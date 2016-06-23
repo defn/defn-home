@@ -13,6 +13,14 @@ function home_update {
   ln -nfs "$BLOCK_PATH/linkerd/sv/linkerd" "$SVDIR/linkerd"
   ln -nfs "$BLOCK_PATH/consul/sv/consul" "$SVDIR/consul"
   ln -nfs "$BLOCK_PATH/sinopia/sv/sinopia" "$SVDIR/sinopia"
+
+  case "$(uname -s)" in
+    Darwin)
+      if ! ifconfig -a | grep "${CACHE_VIP}"; then
+        sudo ifconfig en0 alias "${CACHE_VIP}/24" up
+      fi
+      ;;
+  esac
 }
 
 home_update "$@"
