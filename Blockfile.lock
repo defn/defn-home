@@ -58,7 +58,7 @@ docker ${BLOCK_PATH}/docker git@github.com:defn/docker 0c5eed4d65b1e4aef47f8862f
 packer ${BLOCK_PATH}/packer git@github.com:defn/packer 1b7b456c93f822e15c7f8acd45fa2709dcfdb2de master
 vagrant ${BLOCK_PATH}/vagrant git@github.com:defn/vagrant 31f5ed3bf93222731fb94854b062dd797240b903 master
 basebox ${BLOCK_PATH}/basebox git@github.com:defn/basebox 5c47a322ed1f4dc85f88b0213d04f0050082cb05 master
-basebox-ubuntu ${BLOCK_PATH}/basebox-ubuntu git@github.com:defn/basebox-ubuntu 2fa543357d1cb416c599f460241e497dc8a0455f master
+basebox-ubuntu ${BLOCK_PATH}/basebox-ubuntu git@github.com:defn/basebox-ubuntu 21587ca01b152dc915f85d089ce5c315c53e06b7 master
 basebox-osx ${BLOCK_PATH}/basebox-osx git@github.com:defn/basebox-osx fadad49d79bb531b51ee01dc10dbd71316c0266b master
 vagrant-shell ${BLOCK_PATH}/vagrant-shell git@github.com:defn/vagrant-shell 8c3e0a774e2e1bb8339c66b7fa4bf4f360ef4de3 master
 vagrant-limbo ${BLOCK_PATH}/vagrant-limbo git@github.com:defn/vagrant-limbo 740b29b534cd6ac6a88676e51d1cddbffddffe4d master
