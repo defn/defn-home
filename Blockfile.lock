@@ -33,7 +33,7 @@ go ${BLOCK_PATH}/go git@github.com:defn/go e3a7c70cff02338307e76abaa6ddc8f056487
 minimal-block ${BLOCK_PATH}/minimal-block git@github.com:defn/minimal-block 1ecb0a9bc555bc3a57b6b69c319cee7810445cf6 master
 minimal-app ${BLOCK_PATH}/minimal-app git@github.com:defn/minimal-app a25ea711dfb2d80b7045efb8471e4f6473ea6681 master
 github ${BLOCK_PATH}/github git@github.com:defn/github a05f299a179689a8034d6cc53a2961aeccc763c9 master
-jq ${BLOCK_PATH}/jq git@github.com:defn/jq cf4ff03ff88b44b9d9f578229d18dc861778cd7f master
+jq ${BLOCK_PATH}/jq git@github.com:defn/jq 107f795c5e581c4a5eb052f168bf4c0acafd80a8 master
 ansible ${BLOCK_PATH}/ansible git@github.com:defn/ansible 35db67b65b8ebe2e42e8acaa9f2618cd0789533a master
 chef ${BLOCK_PATH}/chef git@github.com:defn/chef 0c2adeb4e00783201605a56eea5968ff3308e8b1 master
 facts ${BLOCK_PATH}/facts git@github.com:defn/facts d071a0ce04fcc2a6aa860c3335819f7b05a496c3 master
