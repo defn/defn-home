@@ -21,7 +21,7 @@ ruby ${BLOCK_PATH}/ruby git@github.com:defn/ruby 98b3037008060150e1ad556b912b8a8
 node ${BLOCK_PATH}/node git@github.com:defn/node ec1dc8a51114871af4c604a4b1e615291f160ca8 master
 xcode ${BLOCK_PATH}/xcode git@github.com:defn/xcode ede3f23dd00d0b580b6b9b5f0b802f7596b209c3 master
 tunnelblick ${BLOCK_PATH}/tunnelblick git@github.com:defn/tunnelblick 83e3ac2b49b49e1daec2e3203c2f4d5ad684cc7f master
-cue ${BLOCK_PATH}/cue git@github.com:defn/cue 76639b0f53287cb13a171e375df2436fbe560db4 master
+cue ${BLOCK_PATH}/cue git@github.com:defn/cue fca2bac89638ce1ee5b5cb6a318e386a11cc28ed master
 junas ${BLOCK_PATH}/junas git@github.com:defn/junas e4758b3e1cff323ee16e2f14bb0881bb9658f9a9 master
 defn ${BLOCK_PATH}/defn git@github.com:defn/defn 7843b163ab320b5825e67eefd204a9898975b190 master
 deploy ${BLOCK_PATH}/deploy git@github.com:defn/deploy f07a42bd5f1a028eba58ad6516f826a8a11b64de master
