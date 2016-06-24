@@ -67,7 +67,7 @@ vault ${BLOCK_PATH}/vault git@github.com:defn/vault cfbce2e7bd5de8ad1161325a9b41
 openvpn ${BLOCK_PATH}/openvpn git@github.com:defn/openvpn 531751702651895ecc16e6dbded48fde53313ad4 master
 dnsmasq ${BLOCK_PATH}/dnsmasq git@github.com:defn/dnsmasq 25d4a84b81403538f51d07db0706910f9d80ff73 master
 linkerd ${BLOCK_PATH}/linkerd git@github.com:defn/linkerd 19a4ed44c6b9289d1570bd06ed2b9d23f5b49f02 master
-limbo ${BLOCK_PATH}/limbo git@github.com:defn/limbo 3889ceeda2210e5c2d2173da3b4ae76ac2f51d96 master
+limbo ${BLOCK_PATH}/limbo git@github.com:defn/limbo 62277a2d2a980e170aa11f0a9c20284b2ea4a328 master
 inception ${BLOCK_PATH}/inception git@github.com:defn/inception 07e7dd39d503baf6803c116236029a140c9e5040 master
 rbtools ${BLOCK_PATH}/rbtools git@github.com:defn/rbtools fb1527c194b4e000beb7b3068004d204d1cc65bd master
 leiningen ${BLOCK_PATH}/leiningen git@github.com:defn/leiningen b9f7c1383fded52e71fb6b292fb2f3d2a2b3ed7e master
