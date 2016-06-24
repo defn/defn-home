@@ -2,7 +2,7 @@ shflags ${BLOCK_PATH}/shflags git@github.com:defn/shflags 2ff91c52a23cf4085ca6a6
 normalize ${BLOCK_PATH}/normalize git@github.com:defn/normalize 35ea6c72f7b03d205572df88a4fcd70bdcb03445 master
 sub ${BLOCK_PATH}/sub git@github.com:defn/sub 1624481f0fe13b3f4dbf58f10edcd6985514f845 master
 runmany ${BLOCK_PATH}/runmany git@github.com:defn/runmany c36e8ebe7b7faa220c628fb97caa8b95c4f9fa2f master
-block ${BLOCK_PATH}/block git@github.com:defn/block 4e53eed5d2b4de68b3db471a607ce031c53cb79d master
+block ${BLOCK_PATH}/block git@github.com:defn/block afe10a4db7d15f4215da73ab9285fd9562f23256 master
 defn-config ${BLOCK_PATH}/defn-config git@github.com:defn/defn-config 0e0dc6d45d76cdf971c3d3987a8d8f55277cca92 master
 cache ${BLOCK_PATH}/cache git@github.com:defn/cache 7bcab8bd5f9d6d79a9e038f74046faad988e5876 master
 pkgsrc ${BLOCK_PATH}/pkgsrc git@github.com:defn/pkgsrc 9ee6ee657c34d8adca1b5890aa29be027e868651 master
@@ -68,7 +68,7 @@ openvpn ${BLOCK_PATH}/openvpn git@github.com:defn/openvpn 531751702651895ecc16e6
 dnsmasq ${BLOCK_PATH}/dnsmasq git@github.com:defn/dnsmasq 25d4a84b81403538f51d07db0706910f9d80ff73 master
 linkerd ${BLOCK_PATH}/linkerd git@github.com:defn/linkerd 19a4ed44c6b9289d1570bd06ed2b9d23f5b49f02 master
 limbo ${BLOCK_PATH}/limbo git@github.com:defn/limbo ed575b0f289ea5c239e1be21ee648f0322d05ca2 master
-inception ${BLOCK_PATH}/inception git@github.com:defn/inception 20faf77750f9b25a2f9094dd6eb423ad0cd24265 master
+inception ${BLOCK_PATH}/inception git@github.com:defn/inception 07e7dd39d503baf6803c116236029a140c9e5040 master
 rbtools ${BLOCK_PATH}/rbtools git@github.com:defn/rbtools fb1527c194b4e000beb7b3068004d204d1cc65bd master
 leiningen ${BLOCK_PATH}/leiningen git@github.com:defn/leiningen b9f7c1383fded52e71fb6b292fb2f3d2a2b3ed7e master
 poop ${BLOCK_PATH}/poop git@github.com:defn/poop 68be732890f4901f05a1d2c2bb5977fdfc003d84 master
