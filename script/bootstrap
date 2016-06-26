@@ -10,7 +10,6 @@ function bootstrap_pkgsrc {
   pkg ensure sysutils/pv
   pkg ensure sysutils/tree
   pkg ensure sysutils/pstree
-  pkg ensure www/pound
  }
 
 function home_bootstrap {
