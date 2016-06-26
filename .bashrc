@@ -35,7 +35,8 @@ function configure_cue {
 function bashrc {
   local shome="${_defn_home_home:-"$(cd -P -- "$(dirname "${BASH_SOURCE}")" && pwd -P)"}"
 
-  source ~/work/block/script/profile "$shome"
+  source "$shome/work/block/script/profile" "$shome"
+  source "$shome/.ssh-agent"
 
   if tty >/dev/null 2>&1; then
     configure_cue
