@@ -109,7 +109,7 @@ global-xxx ${BLOCK_PATH}/global-xxx git@github.com:defn/global-xxx d2206fcb8df3d
 module-aws-vpc ${BLOCK_PATH}/module-aws-vpc git@github.com:defn/module-aws-vpc 9dd590199f5aff7189bfb350718a2c9b16fc7055 master
 module-aws-env ${BLOCK_PATH}/module-aws-env git@github.com:defn/module-aws-env b819137bad25ffa15e0a071701e946fcb52c355e master
 env-xxx ${BLOCK_PATH}/env-xxx git@github.com:defn/env-xxx 620be0af1ff143315c70cdac35114a1670166a9e master
-module-aws-service ${BLOCK_PATH}/module-aws-service git@github.com:defn/module-aws-service 208fe60bba62f2dc3af87bff71d2bc8d68e497a8 master
+module-aws-service ${BLOCK_PATH}/module-aws-service git@github.com:defn/module-aws-service ae0ca391c25ec31bc1b1f17c61b63c23d915bdc0 master
 module-aws-app ${BLOCK_PATH}/module-aws-app git@github.com:defn/module-aws-app 0776000f7da2457f8d50eda6a3d03a3f69726425 master
 app-xxx ${BLOCK_PATH}/app-xxx git@github.com:defn/app-xxx d29963f47a310308e63febb1dcd4c2438d8b8017 master
 fogg ${BLOCK_PATH}/fogg git@github.com:defn/fogg d11f4d94f8da47ef165ec43f71707c1b34686db8 master
