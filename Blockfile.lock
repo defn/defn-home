@@ -1,8 +1,8 @@
 shflags ${BLOCK_PATH}/shflags git@github.com:defn/shflags 2ff91c52a23cf4085ca6a6eae56be17031aeade7 master
-normalize ${BLOCK_PATH}/normalize git@github.com:defn/normalize 35ea6c72f7b03d205572df88a4fcd70bdcb03445 master
+normalize ${BLOCK_PATH}/normalize git@github.com:defn/normalize fc1fb9275392476ad57f28647cf7f79788c636fd master
 sub ${BLOCK_PATH}/sub git@github.com:defn/sub 1624481f0fe13b3f4dbf58f10edcd6985514f845 master
 runmany ${BLOCK_PATH}/runmany git@github.com:defn/runmany c36e8ebe7b7faa220c628fb97caa8b95c4f9fa2f master
-block ${BLOCK_PATH}/block git@github.com:defn/block 45d03abcb885b8d503fdc2edd401b367a43cada2 master
+block ${BLOCK_PATH}/block git@github.com:defn/block 1d4fcd279f1dcc69ba2fdaced6b33305da3b272b master
 defn-config ${BLOCK_PATH}/defn-config git@github.com:defn/defn-config 0e0dc6d45d76cdf971c3d3987a8d8f55277cca92 master
 cache ${BLOCK_PATH}/cache git@github.com:defn/cache 8259cd2da5cefda528a2e560460f3731e0f84a26 master
 pkgsrc ${BLOCK_PATH}/pkgsrc git@github.com:defn/pkgsrc 9ee6ee657c34d8adca1b5890aa29be027e868651 master
