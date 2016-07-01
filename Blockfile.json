@@ -65,6 +65,7 @@
     "awesome",
     "lock", "rundeck",
     "fluentd",
+    "ssh-agent",
     [
       "env-imma-global",
       "env-imma-admin",
