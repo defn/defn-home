@@ -6,7 +6,6 @@ function bootstrap_pkgsrc {
   pkg ensure x11/xtermset || true
   pkg ensure misc/watch
   pkg ensure sysutils/e2fsprogs
-  pkg ensure shells/bash
   pkg ensure sysutils/pv
   pkg ensure sysutils/tree
   pkg ensure sysutils/pstree
