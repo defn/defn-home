@@ -117,11 +117,11 @@ fogg ${BLOCK_PATH}/fogg git@github.com:defn/fogg d11f4d94f8da47ef165ec43f71707c1
 wtf ${BLOCK_PATH}/wtf git@github.com:defn/wtf 23fb6fd083eb32b11127e9f31048f84f9864501d master
 env-imma-global ${BLOCK_PATH}/env-imma-global git@github.com:defn/env-imma-global 6188bd91e3d12ccf7b1da9a748f5fae542fbddc1 master
 env-imma-admin ${BLOCK_PATH}/env-imma-admin git@github.com:defn/env-imma-admin 87706a4456bd16eea8274681c949e1d88092b1d1 master
-app-nat ${BLOCK_PATH}/app-nat git@github.com:defn/app-nat 3ec75fc8da0f70f8958e56fead4208ad30077ceb master
+app-nat ${BLOCK_PATH}/app-nat git@github.com:defn/app-nat dd421047385b743d8c011f7825bb1c43febfd5e6 master
 app-vpn ${BLOCK_PATH}/app-vpn git@github.com:defn/app-vpn 754317e585ef48678aa02ec1cb72cd4d8db6713a master
 app-jump ${BLOCK_PATH}/app-jump git@github.com:defn/app-jump 8a4be7249e531155ba23f23dfe89ed451b7a4db8 master
 app-consul ${BLOCK_PATH}/app-consul git@github.com:defn/app-consul b7b3361e518a7d6ef54b3478f34ebf6bfdc541b1 master
 app-cache ${BLOCK_PATH}/app-cache git@github.com:defn/app-cache 380c7704f5b5d676db3f5f0d6310e8e31a7f55d5 master
-env-imma-admin-shared ${BLOCK_PATH}/env-imma-admin-shared git@github.com:defn/env-imma-admin-shared 642310e5fc8010ac3d109a2303412fd2e81a4013 master
+env-imma-admin-shared ${BLOCK_PATH}/env-imma-admin-shared git@github.com:defn/env-imma-admin-shared 00547c8fca80043b4a9f545ec592ef0899d87ff4 master
 env-imma-dev ${BLOCK_PATH}/env-imma-dev git@github.com:defn/env-imma-dev fae6b60e2258bbc091a796cc16b9c3a7c7dbc618 master
-env-imma-dev-shared ${BLOCK_PATH}/env-imma-dev-shared git@github.com:defn/env-imma-dev-shared ee4bc7cee37d8a9b58324f3c253d99eac22317a1 master
+env-imma-dev-shared ${BLOCK_PATH}/env-imma-dev-shared git@github.com:defn/env-imma-dev-shared 68f1c6f6e8964c15bbb8dfff55ed6006a8fab1c9 master
