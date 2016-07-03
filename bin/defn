@@ -10,8 +10,6 @@ function main {
   local shome="${_defn_home_home:-"$(cd -P -- "${BASH_SOURCE%/*}/.." && pwd -P)"}"
   source "$shome/script/profile"
 
-  echo "${FLAGS_name:+${FLAGS_name}${1:+: $@}}"
-
   export CONTEXT_ORG="${0##*/}"
 
   exec dev us-east-1 "$@"
