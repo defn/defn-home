@@ -69,8 +69,10 @@
     [
       "env-imma-global",
       "env-imma-admin",
+      "env-imma-admin-nat",
       "env-imma-admin-shared",
       "env-imma-dev",
+      "env-imma-dev-nat",
       "env-imma-dev-shared"
     ]
   ]
