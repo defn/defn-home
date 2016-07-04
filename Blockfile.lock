@@ -107,12 +107,12 @@ ssh-agent ${BLOCK_PATH}/ssh-agent git@github.com:defn/ssh-agent 88798c4ad32b3f16
 terraform ${BLOCK_PATH}/terraform git@github.com:defn/terraform eb9dc1b6cb3563c688df76ee2bdfc13c76e695eb master
 module-aws-global ${BLOCK_PATH}/module-aws-global git@github.com:defn/module-aws-global a9c91762a4a9d5ff235b2b7cae3f7dd5ff9be385 master
 global-xxx ${BLOCK_PATH}/global-xxx git@github.com:defn/global-xxx 3da6d9e62d4e0db1eb168dd1d59c0e7027ceca6d master
-module-aws-vpc ${BLOCK_PATH}/module-aws-vpc git@github.com:defn/module-aws-vpc 07c1e122f4433d945c46a3dad61f844e967ff856 master
-module-aws-env ${BLOCK_PATH}/module-aws-env git@github.com:defn/module-aws-env 074db24fdb6653c02b8d9aa4ab27b65a612cd1db master
-env-xxx ${BLOCK_PATH}/env-xxx git@github.com:defn/env-xxx 1e1a5b2aa11eda0fa35e7e6d2506afd26804c47c master
-module-aws-service ${BLOCK_PATH}/module-aws-service git@github.com:defn/module-aws-service 738fd051d4261204b2591e7e32214dafa8fc8c5f master
-module-aws-app ${BLOCK_PATH}/module-aws-app git@github.com:defn/module-aws-app ffed7dd055cf632162f78af0986bb7642773a0d4 master
-app-xxx ${BLOCK_PATH}/app-xxx git@github.com:defn/app-xxx 572fc6f3399045ce3ea83411fbbf5dd64b074d62 master
+module-aws-vpc ${BLOCK_PATH}/module-aws-vpc git@github.com:defn/module-aws-vpc 01c4c093e300f8116d4078ca00d58f8bc6561871 master
+module-aws-env ${BLOCK_PATH}/module-aws-env git@github.com:defn/module-aws-env c532a9c85732829def24a873de9a5ac3da0d04ce master
+env-xxx ${BLOCK_PATH}/env-xxx git@github.com:defn/env-xxx 5713c36bc9ba161edc99435092bda3b700706944 master
+module-aws-service ${BLOCK_PATH}/module-aws-service git@github.com:defn/module-aws-service 9a2d5224a48d3cba56f2926dc5d9ddf6e0c73331 master
+module-aws-app ${BLOCK_PATH}/module-aws-app git@github.com:defn/module-aws-app 5227622fb210b5f0cfdaca897977576abf8c14b8 master
+app-xxx ${BLOCK_PATH}/app-xxx git@github.com:defn/app-xxx 3a174c6e9a46e01018e3fce5a2c6ad2278c678c0 master
 fogg ${BLOCK_PATH}/fogg git@github.com:defn/fogg 4e2426d686755f1932d2b54f73e74745f64152fe master
 wtf ${BLOCK_PATH}/wtf git@github.com:defn/wtf 23fb6fd083eb32b11127e9f31048f84f9864501d master
 env-imma-global ${BLOCK_PATH}/env-imma-global git@github.com:defn/env-imma-global 99f8cc3743b9b6c2299b8e1ef70f6fbc2ec82942 master
@@ -126,4 +126,4 @@ env-imma-admin-nat ${BLOCK_PATH}/env-imma-admin-nat git@github.com:defn/env-imma
 env-imma-admin-shared ${BLOCK_PATH}/env-imma-admin-shared git@github.com:defn/env-imma-admin-shared 27797e6f0a661e7fab38a1db4cb8c0f5397f70e5 master
 env-imma-dev ${BLOCK_PATH}/env-imma-dev git@github.com:defn/env-imma-dev 17f594424977ea4ae82ca9347588cc6a91fce5a6 master
 env-imma-dev-nat ${BLOCK_PATH}/env-imma-dev-nat git@github.com:defn/env-imma-dev-nat 761da0d3cbaa42d68ca5596b72e4b7f8055a0191 master
-env-imma-dev-shared ${BLOCK_PATH}/env-imma-dev-shared git@github.com:defn/env-imma-dev-shared ee4bc7cee37d8a9b58324f3c253d99eac22317a1 master
+env-imma-dev-shared ${BLOCK_PATH}/env-imma-dev-shared git@github.com:defn/env-imma-dev-shared ae4f36a042e02a0b6f564c070014e6cb5d667655 master
