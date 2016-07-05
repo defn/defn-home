@@ -126,4 +126,4 @@ env-imma-admin-nat ${BLOCK_PATH}/env-imma-admin-nat git@github.com:defn/env-imma
 env-imma-admin-shared ${BLOCK_PATH}/env-imma-admin-shared git@github.com:defn/env-imma-admin-shared 1b38cce1f793852553de532f0abfa653457dec3e master
 env-imma-dev ${BLOCK_PATH}/env-imma-dev git@github.com:defn/env-imma-dev 17f594424977ea4ae82ca9347588cc6a91fce5a6 master
 env-imma-dev-nat ${BLOCK_PATH}/env-imma-dev-nat git@github.com:defn/env-imma-dev-nat 761da0d3cbaa42d68ca5596b72e4b7f8055a0191 master
-env-imma-dev-shared ${BLOCK_PATH}/env-imma-dev-shared git@github.com:defn/env-imma-dev-shared 0314bdfdc45dae06c219ddf7358141ff12352e2d master
+env-imma-dev-shared ${BLOCK_PATH}/env-imma-dev-shared git@github.com:defn/env-imma-dev-shared 5e6e19402a5d409e881972250e79d4c81bebe5b0 master
