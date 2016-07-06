@@ -110,7 +110,7 @@ global-xxx ${BLOCK_PATH}/global-xxx git@github.com:defn/global-xxx 6cd653ee74b76
 module-aws-vpc ${BLOCK_PATH}/module-aws-vpc git@github.com:defn/module-aws-vpc 17660f87a423d8b8de86cd1b395dc0d7592a5550 master
 module-aws-env ${BLOCK_PATH}/module-aws-env git@github.com:defn/module-aws-env cb610eb5deee5859eb543b25b01c5e3ce3d243c2 master
 env-xxx ${BLOCK_PATH}/env-xxx git@github.com:defn/env-xxx 0218ea04840faf6fa2e181ffc332dfdf686c3a8e master
-module-aws-service ${BLOCK_PATH}/module-aws-service git@github.com:defn/module-aws-service 70ed6b2b689a0868541f3fc9388c3474085b64a8 master
+module-aws-service ${BLOCK_PATH}/module-aws-service git@github.com:defn/module-aws-service 1542edbc09effa8fc247d0046c96ee12da9aa71a master
 module-aws-app ${BLOCK_PATH}/module-aws-app git@github.com:defn/module-aws-app 77584163ef1e105d76162b811a7fc5310a07102c master
 app-xxx ${BLOCK_PATH}/app-xxx git@github.com:defn/app-xxx bb05f0c3a51d8a020e59649084aeae5f0805700e master
 fogg ${BLOCK_PATH}/fogg git@github.com:defn/fogg 4e2426d686755f1932d2b54f73e74745f64152fe master
@@ -123,7 +123,7 @@ app-jump ${BLOCK_PATH}/app-jump git@github.com:defn/app-jump fddec66d3df9b9a9891
 app-consul ${BLOCK_PATH}/app-consul git@github.com:defn/app-consul b7b3361e518a7d6ef54b3478f34ebf6bfdc541b1 master
 app-cache ${BLOCK_PATH}/app-cache git@github.com:defn/app-cache 380c7704f5b5d676db3f5f0d6310e8e31a7f55d5 master
 env-imma-admin-nat ${BLOCK_PATH}/env-imma-admin-nat git@github.com:defn/env-imma-admin-nat 18ad5b8ef32d7845d2c7ca70ecacba48c7037c36 master
-env-imma-admin-shared ${BLOCK_PATH}/env-imma-admin-shared git@github.com:defn/env-imma-admin-shared 1b38cce1f793852553de532f0abfa653457dec3e master
+env-imma-admin-shared ${BLOCK_PATH}/env-imma-admin-shared git@github.com:defn/env-imma-admin-shared 8cd06e78c69f039c18f85ac087919307485df2c0 master
 env-imma-dev ${BLOCK_PATH}/env-imma-dev git@github.com:defn/env-imma-dev 17f594424977ea4ae82ca9347588cc6a91fce5a6 master
 env-imma-dev-nat ${BLOCK_PATH}/env-imma-dev-nat git@github.com:defn/env-imma-dev-nat 761da0d3cbaa42d68ca5596b72e4b7f8055a0191 master
 env-imma-dev-shared ${BLOCK_PATH}/env-imma-dev-shared git@github.com:defn/env-imma-dev-shared 5e6e19402a5d409e881972250e79d4c81bebe5b0 master
