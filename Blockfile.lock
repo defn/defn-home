@@ -66,7 +66,7 @@ consul ${BLOCK_PATH}/consul git@github.com:defn/consul 8dce83a24f316f00d6f56367f
 vault ${BLOCK_PATH}/vault git@github.com:defn/vault cfbce2e7bd5de8ad1161325a9b413326260c70a6 master
 openvpn ${BLOCK_PATH}/openvpn git@github.com:defn/openvpn 531751702651895ecc16e6dbded48fde53313ad4 master
 dnsmasq ${BLOCK_PATH}/dnsmasq git@github.com:defn/dnsmasq 25d4a84b81403538f51d07db0706910f9d80ff73 master
-linkerd ${BLOCK_PATH}/linkerd git@github.com:defn/linkerd 8b62a5821141e214008d8c5bf609d73e5f500bab master
+linkerd ${BLOCK_PATH}/linkerd git@github.com:defn/linkerd 428947bfdcf977c76f2b327736276c71c331756c master
 limbo ${BLOCK_PATH}/limbo git@github.com:defn/limbo a144da39bff21a6ffdb641260ae6df87c716f553 master
 inception ${BLOCK_PATH}/inception git@github.com:defn/inception cfa16bc691933d2a32ae3a8f4984317a23fd5b2e master
 rbtools ${BLOCK_PATH}/rbtools git@github.com:defn/rbtools fb1527c194b4e000beb7b3068004d204d1cc65bd master
