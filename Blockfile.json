@@ -40,7 +40,6 @@
       "inception"
     ],
     [
-      "rbtools",
       "leiningen",
       "poop",
       "phoenix",
@@ -52,8 +51,6 @@
       "defn.github.io"
     ],
     [
-      "sbt",
-      "reviewboard",
       "isomorphic-clojurescript-reagent-node",
       "rust",
       "cljs",

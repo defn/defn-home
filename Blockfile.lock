@@ -22,7 +22,7 @@ node ${BLOCK_PATH}/node git@github.com:defn/node ec1dc8a51114871af4c604a4b1e6152
 xcode ${BLOCK_PATH}/xcode git@github.com:defn/xcode ede3f23dd00d0b580b6b9b5f0b802f7596b209c3 master
 tunnelblick ${BLOCK_PATH}/tunnelblick git@github.com:defn/tunnelblick 83e3ac2b49b49e1daec2e3203c2f4d5ad684cc7f master
 cue ${BLOCK_PATH}/cue git@github.com:defn/cue fca2bac89638ce1ee5b5cb6a318e386a11cc28ed master
-junas ${BLOCK_PATH}/junas git@github.com:defn/junas e4758b3e1cff323ee16e2f14bb0881bb9658f9a9 master
+junas ${BLOCK_PATH}/junas git@github.com:defn/junas 64fefeeb4720efc34ad9979c498beefb39227f64 master
 defn ${BLOCK_PATH}/defn git@github.com:defn/defn 7843b163ab320b5825e67eefd204a9898975b190 master
 deploy ${BLOCK_PATH}/deploy git@github.com:defn/deploy f07a42bd5f1a028eba58ad6516f826a8a11b64de master
 context ${BLOCK_PATH}/context git@github.com:defn/context b91c4b594765eeade11411ce0f4f13fd7d3dd82e master
@@ -69,7 +69,6 @@ dnsmasq ${BLOCK_PATH}/dnsmasq git@github.com:defn/dnsmasq 25d4a84b81403538f51d07
 linkerd ${BLOCK_PATH}/linkerd git@github.com:defn/linkerd 428947bfdcf977c76f2b327736276c71c331756c master
 limbo ${BLOCK_PATH}/limbo git@github.com:defn/limbo a144da39bff21a6ffdb641260ae6df87c716f553 master
 inception ${BLOCK_PATH}/inception git@github.com:defn/inception cfa16bc691933d2a32ae3a8f4984317a23fd5b2e master
-rbtools ${BLOCK_PATH}/rbtools git@github.com:defn/rbtools fb1527c194b4e000beb7b3068004d204d1cc65bd master
 leiningen ${BLOCK_PATH}/leiningen git@github.com:defn/leiningen b9f7c1383fded52e71fb6b292fb2f3d2a2b3ed7e master
 poop ${BLOCK_PATH}/poop git@github.com:defn/poop 300200133ec93cf0576e087928e83d5bd2372e01 master
 postgresql ${BLOCK_PATH}/postgresql git@github.com:defn/postgresql 0f4a6777360dd0322b04b6029bb5cbe6520b6fac master
@@ -81,9 +80,6 @@ lamda ${BLOCK_PATH}/lamda git@github.com:defn/lamda 058ff871df72050134ffbb6e9ab7
 hugo ${BLOCK_PATH}/hugo git@github.com:defn/hugo a3cdbe6da2262e33818700baf109ea7c943bf508 master
 it ${BLOCK_PATH}/it git@github.com:defn/it 37b609cd2a51793355460caf60949bf6de20d5fa gh-pages
 defn.github.io ${BLOCK_PATH}/defn.github.io git@github.com:defn/defn.github.io 99cd998d72f681fe2aee047d9d287929762159d7 master
-scala ${BLOCK_PATH}/scala git@github.com:defn/scala b92ea334bf1eb8920159dc1f805b528a6e3a594a master
-sbt ${BLOCK_PATH}/sbt git@github.com:defn/sbt 4363c3af1d7bad41f335c66ff8187d89f7063767 master
-reviewboard ${BLOCK_PATH}/reviewboard git@github.com:defn/reviewboard 5335baf0aaaede2ecd7dc16be0585fa56fc66812 master
 isomorphic-clojurescript-reagent-node ${BLOCK_PATH}/isomorphic-clojurescript-reagent-node git@github.com:defn/isomorphic-clojurescript-reagent-node 9bedfac1b4ce49130a42b609b38df1cf20c0a1d8 master
 rust ${BLOCK_PATH}/rust git@github.com:defn/rust bd1ad0f366427ea770691d4f99eddb5fa1520501 master
 rethinkdb ${BLOCK_PATH}/rethinkdb git@github.com:defn/rethinkdb 89ff89995e01f276671a2e3874c1d55cea403ae7 master
