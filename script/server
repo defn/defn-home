@@ -11,7 +11,7 @@ function squid_server {
   case "${1:-}" in
     screen)
       shift
-      exec "$shome/script/server" "$@"
+      exec screen -DRR runit "$shome/script/server" "$@"
       ;;
     default)
       exec "$BLOCK_PATH/runit/script/server" "$@"
