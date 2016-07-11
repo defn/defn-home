@@ -200,6 +200,7 @@
 
 # sinopia
 /sinopia
+/.config/sinopia
 
 # jupyter
 /.jupyter
