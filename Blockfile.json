@@ -72,5 +72,12 @@
       "env-imma-dev-nat",
       "env-imma-dev-shared"
     ]
-  ]
+  ],
+  "run": {
+    "squid": {},
+    "jenkins": {},
+    "apt-mirror": {},
+    "consul": {},
+    "sinopia": {}
+  }
 }
