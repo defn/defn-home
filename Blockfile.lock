@@ -13,7 +13,7 @@ scripts-to-rule-them-all ${BLOCK_PATH}/scripts-to-rule-them-all git@github.com:d
 block-shortcuts ${BLOCK_PATH}/block-shortcuts git@github.com:defn/block-shortcuts 8cefbaff0f4e992f92d540e40449e6fe0b3fbe19 master
 board ${BLOCK_PATH}/board git@github.com:defn/board 8a63c5c72227d70d7d8ff4fa3cb757063757b990 master
 kit ${BLOCK_PATH}/kit git@github.com:defn/kit f26436cfbc4b9851e577444610f6aff22f40c932 master
-runit ${BLOCK_PATH}/runit git@github.com:defn/runit fe377db01327398da4570bb7c3a16e192141d732 master
+runit ${BLOCK_PATH}/runit git@github.com:defn/runit cc8353e81dd66832229bda65cb2e06d50bcbba4a master
 curl ${BLOCK_PATH}/curl git@github.com:defn/curl c5152c93420272ae98fd09d63d50798997d96b70 master
 java ${BLOCK_PATH}/java git@github.com:defn/java 704a41ffcff5656bef13973f288aefbf2a7ed631 master
 rbenv ${BLOCK_PATH}/rbenv git@github.com:defn/rbenv 0c885729549c3965b66ce124f6fd2455768806c3 master
@@ -48,9 +48,10 @@ sinopia ${BLOCK_PATH}/sinopia git@github.com:defn/sinopia 93937f7351c654e8fdf6b4
 jenkins ${BLOCK_PATH}/jenkins git@github.com:defn/jenkins e98b8494a4fc29569c217a8c4585867ed40809ff master
 artifacts ${BLOCK_PATH}/artifacts git@github.com:defn/artifacts a0bc93ad97ac13b39dbe772f8062ddbb4d45a8bb master
 launch-config ${BLOCK_PATH}/launch-config git@github.com:defn/launch-config a8f3168b4290e57eed8112da28e79bcf6579dd83 master
+service ${BLOCK_PATH}/service git@github.com:defn/service 58063befeb1b6a550e3e12293aeeb3cbcf723886 master
 maven ${BLOCK_PATH}/maven git@github.com:defn/maven c7416a48d1a7e1e4c17d3fed7c5b9404e2d694ce master
 cljs ${BLOCK_PATH}/cljs git@github.com:defn/cljs 6f7bef2288d21e0f33343f3fdd5ceb29a003c621 master
-apt-mirror ${BLOCK_PATH}/apt-mirror git@github.com:defn/apt-mirror 494dcb6e0ff0f75c86616d510832e986d7995a07 master
+apt-mirror ${BLOCK_PATH}/apt-mirror git@github.com:defn/apt-mirror 8d5adf181e544907c8505221f7e606a8c3da8fcc master
 virtualbox ${BLOCK_PATH}/virtualbox git@github.com:defn/virtualbox 288106f6445d64447180e347fe2efbaf06d30356 master
 docker-machine ${BLOCK_PATH}/docker-machine git@github.com:defn/docker-machine dc936fdabee12aa888bb282e6036fc09573b5706 master
 docker-compose ${BLOCK_PATH}/docker-compose git@github.com:defn/docker-compose da604da8eb8f2c52bbdf000ed35eaf54400d1421 master
@@ -62,12 +63,12 @@ basebox-ubuntu ${BLOCK_PATH}/basebox-ubuntu git@github.com:defn/basebox-ubuntu b
 basebox-osx ${BLOCK_PATH}/basebox-osx git@github.com:defn/basebox-osx fadad49d79bb531b51ee01dc10dbd71316c0266b master
 vagrant-shell ${BLOCK_PATH}/vagrant-shell git@github.com:defn/vagrant-shell 8c3e0a774e2e1bb8339c66b7fa4bf4f360ef4de3 master
 vagrant-limbo ${BLOCK_PATH}/vagrant-limbo git@github.com:defn/vagrant-limbo 740b29b534cd6ac6a88676e51d1cddbffddffe4d master
-consul ${BLOCK_PATH}/consul git@github.com:defn/consul ef2db9d18669f2a92dad8af29314d0b4ae4ef352 master
+consul ${BLOCK_PATH}/consul git@github.com:defn/consul aa578f6769dc941ba4472c20a430fceb970048aa master
 vault ${BLOCK_PATH}/vault git@github.com:defn/vault cfbce2e7bd5de8ad1161325a9b413326260c70a6 master
 openvpn ${BLOCK_PATH}/openvpn git@github.com:defn/openvpn 531751702651895ecc16e6dbded48fde53313ad4 master
 dnsmasq ${BLOCK_PATH}/dnsmasq git@github.com:defn/dnsmasq 25d4a84b81403538f51d07db0706910f9d80ff73 master
 linkerd ${BLOCK_PATH}/linkerd git@github.com:defn/linkerd 7b49cd89d5dcba794b948ee761d6721ba4b4fd07 master
-limbo ${BLOCK_PATH}/limbo git@github.com:defn/limbo b8430d35191a5c2d08dc8ea686aad0a3d5a6582c master
+limbo ${BLOCK_PATH}/limbo git@github.com:defn/limbo 4c4f5e4d9000139f0994889f0a0fd6a840744307 master
 inception ${BLOCK_PATH}/inception git@github.com:defn/inception cfa16bc691933d2a32ae3a8f4984317a23fd5b2e master
 leiningen ${BLOCK_PATH}/leiningen git@github.com:defn/leiningen b9f7c1383fded52e71fb6b292fb2f3d2a2b3ed7e master
 poop ${BLOCK_PATH}/poop git@github.com:defn/poop 300200133ec93cf0576e087928e83d5bd2372e01 master
