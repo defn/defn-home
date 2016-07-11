@@ -1,7 +1,35 @@
 #!/usr/bin/env bash
 
-function main {
-  exec "$BLOCK_PATH/runit/script/server" "$@"
+function squid_server {
+  local shome="${_squid_home:-"$(cd -P -- "${BASH_SOURCE%/*}/.." && pwd -P)"}"
+  source "$shome/script/profile"
+
+  if [[ "$#" == 0 ]]; then
+    set -- default
+  fi
+
+  case "${1:-}" in
+    screen)
+      shift
+      exec "$shome/script/server" "$@"
+      ;;
+    default)
+      exec "$BLOCK_PATH/runit/script/server" "$@"
+      ;;
+    *)
+      echo "ERROR: unknown server command: ${1:-/not-supplied/}" 1>&2
+      return 1
+      ;;
+  esac
+}
+
+squid_server "$@"
+
+}
+
+bootstrap
+
 }
 
 main "$@"
+
