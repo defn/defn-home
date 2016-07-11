@@ -15,12 +15,13 @@ function home_bootstrap {
   local shome="${_defn_home_home:-"$(cd -P -- "${BASH_SOURCE%/*}/.." && pwd -P)"}"
   source "$shome/script/profile"
 
-  "$shome/script/update"
   source "$shome/script/profile"
 
   bootstrap_pkgsrc
 
   block compile virtualenv
+
+  "$shome/script/update"
 }
 
 home_bootstrap "$@"
