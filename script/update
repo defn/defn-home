@@ -4,14 +4,6 @@ function home_update {
   local shome="${_defn_home_home:-"$(cd -P -- "${BASH_SOURCE%/*}/.." && pwd -P)"}"
   source "$shome/script/profile"
 
-  mkdir -p "$SVDIR"
-
-  ln -nfs "$BLOCK_PATH/limbo/sv/squid" "$SVDIR/squid"
-  ln -nfs "$BLOCK_PATH/jenkins/sv/jenkins" "$SVDIR/jenkins"
-  ln -nfs "$BLOCK_PATH/apt-mirror/sv/apt-mirror" "$SVDIR/apt-mirror"
-  ln -nfs "$BLOCK_PATH/consul/sv/consul" "$SVDIR/consul"
-  ln -nfs "$BLOCK_PATH/sinopia/sv/sinopia" "$SVDIR/sinopia"
-
   if [[ "$#" -gt 0 ]]; then
     if ! ifconfig -a | grep "${CACHE_VIP}"; then
       case "$(uname -s)" in
@@ -24,6 +16,10 @@ function home_update {
       esac
     fi
   fi
+
+  mkdir -p "$SVDIR"
+
+  block compile service
 }
 
 home_update "$@"
