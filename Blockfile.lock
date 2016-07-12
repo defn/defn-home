@@ -5,7 +5,7 @@ runmany ${BLOCK_PATH}/runmany git@github.com:defn/runmany c36e8ebe7b7faa220c628f
 block ${BLOCK_PATH}/block git@github.com:defn/block 1d4fcd279f1dcc69ba2fdaced6b33305da3b272b master
 defn-config ${BLOCK_PATH}/defn-config git@github.com:defn/defn-config 0e0dc6d45d76cdf971c3d3987a8d8f55277cca92 master
 cache ${BLOCK_PATH}/cache git@github.com:defn/cache 8259cd2da5cefda528a2e560460f3731e0f84a26 master
-homebrew ${BLOCK_PATH}/homebrew git@github.com:defn/homebrew 5ceccebbc996137c467a903518c544d381e7ba01 master
+homebrew ${BLOCK_PATH}/homebrew git@github.com:defn/homebrew 2573ef1dfe6e1d7f472012a071e11d81bc96cfe6 master
 defn-osx ${BLOCK_PATH}/defn-osx git@github.com:defn/defn-osx 74693639bbf1b7a2f7003437dbcec17e2f4de0fb master
 pkgsrc ${BLOCK_PATH}/pkgsrc git@github.com:defn/pkgsrc e27b8201f633c9e1a9910b7b9ad553a07bb19c4b master
 curl ${BLOCK_PATH}/curl git@github.com:defn/curl c5152c93420272ae98fd09d63d50798997d96b70 master
@@ -24,7 +24,7 @@ board ${BLOCK_PATH}/board git@github.com:defn/board 8a63c5c72227d70d7d8ff4fa3cb7
 kit ${BLOCK_PATH}/kit git@github.com:defn/kit f26436cfbc4b9851e577444610f6aff22f40c932 master
 runit ${BLOCK_PATH}/runit git@github.com:defn/runit cc8353e81dd66832229bda65cb2e06d50bcbba4a master
 xcode ${BLOCK_PATH}/xcode git@github.com:defn/xcode ede3f23dd00d0b580b6b9b5f0b802f7596b209c3 master
-tunnelblick ${BLOCK_PATH}/tunnelblick git@github.com:defn/tunnelblick 83e3ac2b49b49e1daec2e3203c2f4d5ad684cc7f master
+tunnelblick ${BLOCK_PATH}/tunnelblick git@github.com:defn/tunnelblick 788cde9429dbbc17d6d0c916a185d69f6ee3d86a master
 defn ${BLOCK_PATH}/defn git@github.com:defn/defn 7843b163ab320b5825e67eefd204a9898975b190 master
 deploy ${BLOCK_PATH}/deploy git@github.com:defn/deploy f07a42bd5f1a028eba58ad6516f826a8a11b64de master
 context ${BLOCK_PATH}/context git@github.com:defn/context b91c4b594765eeade11411ce0f4f13fd7d3dd82e master
