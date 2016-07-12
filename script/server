@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
-function squid_server {
-  local shome="${_squid_home:-"$(cd -P -- "${BASH_SOURCE%/*}/.." && pwd -P)"}"
+function main {
+  local shome="${_defn_home_home:-"$(cd -P -- "${BASH_SOURCE%/*}/.." && pwd -P)"}"
   source "$shome/script/profile"
 
   if [[ "$#" == 0 ]]; then
@@ -21,14 +21,6 @@ function squid_server {
       return 1
       ;;
   esac
-}
-
-squid_server "$@"
-
-}
-
-bootstrap
-
 }
 
 main "$@"
