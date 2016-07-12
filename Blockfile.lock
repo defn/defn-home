@@ -14,7 +14,7 @@ build-essential ${BLOCK_PATH}/build-essential git@github.com:defn/build-essentia
 rbenv ${BLOCK_PATH}/rbenv git@github.com:defn/rbenv 0c885729549c3965b66ce124f6fd2455768806c3 master
 ruby ${BLOCK_PATH}/ruby git@github.com:defn/ruby 98b3037008060150e1ad556b912b8a8eb1f09ec0 master
 node ${BLOCK_PATH}/node git@github.com:defn/node ec1dc8a51114871af4c604a4b1e615291f160ca8 master
-junas ${BLOCK_PATH}/junas git@github.com:defn/junas 64fefeeb4720efc34ad9979c498beefb39227f64 master
+junas ${BLOCK_PATH}/junas git@github.com:defn/junas 3fdf7e934e1da5ee1fe5e1698771404040a91c31 master
 cue ${BLOCK_PATH}/cue git@github.com:defn/cue fca2bac89638ce1ee5b5cb6a318e386a11cc28ed master
 python ${BLOCK_PATH}/python git@github.com:defn/python 4e8632178c0798f208ed6fd14cc7a9bdeb634808 master
 docs ${BLOCK_PATH}/docs git@github.com:defn/docs fa20ad4f1a6e91ca198a737e991ead912f8d4104 master
