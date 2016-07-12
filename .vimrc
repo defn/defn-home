@@ -5,7 +5,7 @@ source ~/.vim/junas.vimrc
 silent call Bundle(["vim-go", "vim-toml", "vim-clojure-static", "fireplace", "vim-clojure-highlight"])
 silent call Bundle(["dispatch"])
 silent call Bundle(["xoria256", "Solarized"])
-silent call Bundle(["surround", "repeat", "Rainbow_Parenthesis", "matchit.zip", "eregex"])
+silent call Bundle(["surround", "repeat", "eregex"])
 
 let cue_scheme=$CUE_SCHEME_VIM
 
