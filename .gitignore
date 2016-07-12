@@ -120,6 +120,10 @@
 /exec/home_secret
 /.profile.d/*-secret
 
+# site specific
+/bin/site
+/.aws/config-site
+
 # leiningen
 /.lein
 /.lein_history
