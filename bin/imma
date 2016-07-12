@@ -6,6 +6,8 @@ function main {
 
   export CONTEXT_ORG="${0##*/}"
 
+  export AWS_CONFIG_FILE="$HOME/.aws/config-${CONTEXT_ORG}"
+
   exec us-west-1 "$@"
 }
 
