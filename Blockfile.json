@@ -3,10 +3,18 @@
     [
       "block",
       "defn-config",
-      "cache",
-      "docs"
+      "cache"
     ],
     [
+      "defn-osx",
+      "java",
+      "ruby",
+      "node",
+      "junas",
+      "cue"
+    ],
+    [
+      "docs",
       "scripts-to-rule-them-all",
       "block-shortcuts",
       "board",
@@ -14,17 +22,10 @@
       "runit"
     ],
     [
-      "java",
-      "ruby",
-      "node"
-    ],
-    [
       "xcode",
       "tunnelblick"
     ],
     [
-      "cue",
-      "junas",
       "defn",
       "runmany",
       "deploy",
