@@ -103,7 +103,7 @@ rundeck ${BLOCK_PATH}/rundeck git@github.com:defn/rundeck 7e7e94e6477ad8ee4da764
 fluentd ${BLOCK_PATH}/fluentd git@github.com:defn/fluentd d9ad28a52a95f1ef296fb61fe0b89538ad5faaa0 master
 openresty ${BLOCK_PATH}/openresty git@github.com:defn/openresty a8db4c0a4daa188bcdc8e30131b4aad4970a099e master
 ssh-agent ${BLOCK_PATH}/ssh-agent git@github.com:defn/ssh-agent 88798c4ad32b3f1621ae5af4af2df6326ffd183b master
-terraform ${BLOCK_PATH}/terraform git@github.com:defn/terraform eb9dc1b6cb3563c688df76ee2bdfc13c76e695eb master
+terraform ${BLOCK_PATH}/terraform git@github.com:defn/terraform 13fa9089548dcf8c6b27de9d8c116090d9df977e master
 module-aws-global ${BLOCK_PATH}/module-aws-global git@github.com:defn/module-aws-global bde6d53313d9317b93bf06ff397157db0e482b5c master
 global-xxx ${BLOCK_PATH}/global-xxx git@github.com:defn/global-xxx 6cd653ee74b766c8a462a293507a44e933870a30 master
 module-aws-vpc ${BLOCK_PATH}/module-aws-vpc git@github.com:defn/module-aws-vpc 17660f87a423d8b8de86cd1b395dc0d7592a5550 master
