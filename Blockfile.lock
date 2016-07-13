@@ -101,6 +101,7 @@ awesome ${BLOCK_PATH}/awesome git@github.com:defn/awesome 12bebe6aa000d2134aab69
 lock ${BLOCK_PATH}/lock git@github.com:defn/lock 1445412c88f9693aed372629eb238bb9e925f9e4 master
 rundeck ${BLOCK_PATH}/rundeck git@github.com:defn/rundeck 7e7e94e6477ad8ee4da76404383042d3885d72ec master
 fluentd ${BLOCK_PATH}/fluentd git@github.com:defn/fluentd d9ad28a52a95f1ef296fb61fe0b89538ad5faaa0 master
+openresty ${BLOCK_PATH}/openresty git@github.com:defn/openresty ca9cd3f90c40a7d56386855dfc9e17f34841f393 master
 ssh-agent ${BLOCK_PATH}/ssh-agent git@github.com:defn/ssh-agent 88798c4ad32b3f1621ae5af4af2df6326ffd183b master
 terraform ${BLOCK_PATH}/terraform git@github.com:defn/terraform eb9dc1b6cb3563c688df76ee2bdfc13c76e695eb master
 module-aws-global ${BLOCK_PATH}/module-aws-global git@github.com:defn/module-aws-global bde6d53313d9317b93bf06ff397157db0e482b5c master

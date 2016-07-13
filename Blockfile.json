@@ -62,7 +62,7 @@
     "webterm",
     "awesome",
     "lock", "rundeck",
-    "fluentd",
+    "fluentd", "openresty",
     "ssh-agent",
     [
       "env-imma-global",
