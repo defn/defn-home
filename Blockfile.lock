@@ -14,7 +14,7 @@ build-essential ${BLOCK_PATH}/build-essential git@github.com:defn/build-essentia
 rbenv ${BLOCK_PATH}/rbenv git@github.com:defn/rbenv 0c885729549c3965b66ce124f6fd2455768806c3 master
 ruby ${BLOCK_PATH}/ruby git@github.com:defn/ruby 98b3037008060150e1ad556b912b8a8eb1f09ec0 master
 node ${BLOCK_PATH}/node git@github.com:defn/node ec1dc8a51114871af4c604a4b1e615291f160ca8 master
-junas ${BLOCK_PATH}/junas git@github.com:defn/junas 3fdf7e934e1da5ee1fe5e1698771404040a91c31 master
+junas ${BLOCK_PATH}/junas git@github.com:defn/junas 667822c335c7fe9c1ab6997556cd89ef1defbfb1 master
 cue ${BLOCK_PATH}/cue git@github.com:defn/cue fca2bac89638ce1ee5b5cb6a318e386a11cc28ed master
 python ${BLOCK_PATH}/python git@github.com:defn/python 4e8632178c0798f208ed6fd14cc7a9bdeb634808 master
 docs ${BLOCK_PATH}/docs git@github.com:defn/docs fa20ad4f1a6e91ca198a737e991ead912f8d4104 master
@@ -101,7 +101,7 @@ awesome ${BLOCK_PATH}/awesome git@github.com:defn/awesome 12bebe6aa000d2134aab69
 lock ${BLOCK_PATH}/lock git@github.com:defn/lock 1445412c88f9693aed372629eb238bb9e925f9e4 master
 rundeck ${BLOCK_PATH}/rundeck git@github.com:defn/rundeck 7e7e94e6477ad8ee4da76404383042d3885d72ec master
 fluentd ${BLOCK_PATH}/fluentd git@github.com:defn/fluentd d9ad28a52a95f1ef296fb61fe0b89538ad5faaa0 master
-openresty ${BLOCK_PATH}/openresty git@github.com:defn/openresty ca9cd3f90c40a7d56386855dfc9e17f34841f393 master
+openresty ${BLOCK_PATH}/openresty git@github.com:defn/openresty a8db4c0a4daa188bcdc8e30131b4aad4970a099e master
 ssh-agent ${BLOCK_PATH}/ssh-agent git@github.com:defn/ssh-agent 88798c4ad32b3f1621ae5af4af2df6326ffd183b master
 terraform ${BLOCK_PATH}/terraform git@github.com:defn/terraform eb9dc1b6cb3563c688df76ee2bdfc13c76e695eb master
 module-aws-global ${BLOCK_PATH}/module-aws-global git@github.com:defn/module-aws-global bde6d53313d9317b93bf06ff397157db0e482b5c master
