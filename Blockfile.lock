@@ -25,7 +25,8 @@ kit ${BLOCK_PATH}/kit git@github.com:defn/kit f26436cfbc4b9851e577444610f6aff22f
 runit ${BLOCK_PATH}/runit git@github.com:defn/runit cc8353e81dd66832229bda65cb2e06d50bcbba4a master
 xcode ${BLOCK_PATH}/xcode git@github.com:defn/xcode ede3f23dd00d0b580b6b9b5f0b802f7596b209c3 master
 tunnelblick ${BLOCK_PATH}/tunnelblick git@github.com:defn/tunnelblick 80628958928fc486f9ec14acc68f6362bf25a4d3 master
-defn ${BLOCK_PATH}/defn git@github.com:defn/defn 7843b163ab320b5825e67eefd204a9898975b190 master
+talign ${BLOCK_PATH}/talign git@github.com:defn/talign ed828e0c48a10d0dd95dff649c24471f95e0e897 master
+defn ${BLOCK_PATH}/defn git@github.com:defn/defn 5ca290abc034e37df609048a44a45649f7303bec master
 deploy ${BLOCK_PATH}/deploy git@github.com:defn/deploy f07a42bd5f1a028eba58ad6516f826a8a11b64de master
 context ${BLOCK_PATH}/context git@github.com:defn/context b91c4b594765eeade11411ce0f4f13fd7d3dd82e master
 htop ${BLOCK_PATH}/htop git@github.com:defn/htop 9103d17dc1f92d7ebf9444f5e2c56963f5072dd1 master
