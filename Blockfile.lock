@@ -106,7 +106,8 @@ openresty ${BLOCK_PATH}/openresty git@github.com:defn/openresty 6ec292035b213e1e
 ssh-agent ${BLOCK_PATH}/ssh-agent git@github.com:defn/ssh-agent 88798c4ad32b3f1621ae5af4af2df6326ffd183b master
 t ${BLOCK_PATH}/t git@github.com:defn/t a82d0cfdc260f23c2f28c03580c7086f27f63255 master
 git-crypt ${BLOCK_PATH}/git-crypt git@github.com:defn/git-crypt 116ff08cffc4c239810fb01c70f7b63f7bb1f344 master
-bumpversion ${BLOCK_PATH}/bumpversion git@github.com:defn/bumpversion 95576ef9aaaebcaaf60dffe97a90c944ed37d6c0 master
+bumpversion ${BLOCK_PATH}/bumpversion git@github.com:defn/bumpversion df02bb3db98834a088352c482222ddc0cad1174c master
+gpg ${BLOCK_PATH}/gpg git@github.com:defn/gpg 92b0f377c9134ca2a415451febedc3f2d08d1828 master
 terraform ${BLOCK_PATH}/terraform git@github.com:defn/terraform 13fa9089548dcf8c6b27de9d8c116090d9df977e master
 module-aws-global ${BLOCK_PATH}/module-aws-global git@github.com:defn/module-aws-global bde6d53313d9317b93bf06ff397157db0e482b5c master
 global-xxx ${BLOCK_PATH}/global-xxx git@github.com:defn/global-xxx 6cd653ee74b766c8a462a293507a44e933870a30 master
