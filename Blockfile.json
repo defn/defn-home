@@ -64,6 +64,7 @@
     "lock", "rundeck",
     "fluentd", "openresty",
     "ssh-agent", "t",
+    "git-crypt",
     [
       "env-imma-global",
       "env-imma-admin",
