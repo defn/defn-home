@@ -214,3 +214,6 @@ cibuild-*.log
 
 # local
 /.local
+
+#
+/.trc

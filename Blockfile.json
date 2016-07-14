@@ -63,7 +63,7 @@
     "awesome",
     "lock", "rundeck",
     "fluentd", "openresty",
-    "ssh-agent",
+    "ssh-agent", "t",
     [
       "env-imma-global",
       "env-imma-admin",
