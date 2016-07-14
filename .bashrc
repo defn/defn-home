@@ -49,6 +49,6 @@ function bashrc {
   fi
 }
 
-if [[ "${BLOCK_PATH:-}" == "$HOME/work" ]]; then
+if [[ -z "${BLOCK_PATH:-}" || "${BLOCK_PATH:-}" == "$HOME/work" ]]; then
   bashrc || echo WARNING: "Something's wrong with .bashrc"
 fi
