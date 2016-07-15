@@ -80,6 +80,7 @@
     "jenkins": {},
     "apt-mirror": {},
     "consul": {},
-    "sinopia": {}
+    "sinopia": {},
+    "isomorphic-clojurescript-reagent-node": {}
   }
 }
