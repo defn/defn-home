@@ -27,8 +27,4 @@ function vim {
   snormal
 }
 
-function vi {
-  vim "$@"
-}
-
 export EDITOR=vim
