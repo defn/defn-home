@@ -4,7 +4,7 @@ sub ${BLOCK_PATH}/sub git@github.com:defn/sub 1624481f0fe13b3f4dbf58f10edcd69855
 runmany ${BLOCK_PATH}/runmany git@github.com:defn/runmany c36e8ebe7b7faa220c628fb97caa8b95c4f9fa2f master
 block ${BLOCK_PATH}/block git@github.com:defn/block 1d4fcd279f1dcc69ba2fdaced6b33305da3b272b master
 defn-config ${BLOCK_PATH}/defn-config git@github.com:defn/defn-config 0e0dc6d45d76cdf971c3d3987a8d8f55277cca92 master
-cache ${BLOCK_PATH}/cache git@github.com:defn/cache 8259cd2da5cefda528a2e560460f3731e0f84a26 master
+cache ${BLOCK_PATH}/cache git@github.com:defn/cache 123bdcdff02ae55555d54588a2e7fa1e74d967ea master
 homebrew ${BLOCK_PATH}/homebrew git@github.com:defn/homebrew 2573ef1dfe6e1d7f472012a071e11d81bc96cfe6 master
 defn-osx ${BLOCK_PATH}/defn-osx git@github.com:defn/defn-osx 6f6808eb39de8ee7a6617671fe78217ef45bc40c master
 pkgsrc ${BLOCK_PATH}/pkgsrc git@github.com:defn/pkgsrc 9eb6c2f1efba47ccac80b5be6bd6cb92efe37d42 master
