@@ -50,7 +50,7 @@ sinopia ${BLOCK_PATH}/sinopia git@github.com:defn/sinopia 0b47b3e4fafde3eb039f75
 jenkins ${BLOCK_PATH}/jenkins git@github.com:defn/jenkins bbdc53e7345f41f0a5abd6a147eff19fa59d0ce9 master
 artifacts ${BLOCK_PATH}/artifacts git@github.com:defn/artifacts a0bc93ad97ac13b39dbe772f8062ddbb4d45a8bb master
 launch-config ${BLOCK_PATH}/launch-config git@github.com:defn/launch-config a8f3168b4290e57eed8112da28e79bcf6579dd83 master
-service ${BLOCK_PATH}/service git@github.com:defn/service 063c17a6bbd4cee694b3224b978ae51daad42356 master
+service ${BLOCK_PATH}/service git@github.com:defn/service cf61338abe8903e4d4b6cc639e39817f3ba5e3b3 master
 maven ${BLOCK_PATH}/maven git@github.com:defn/maven c7416a48d1a7e1e4c17d3fed7c5b9404e2d694ce master
 cljs ${BLOCK_PATH}/cljs git@github.com:defn/cljs 3c76dedfb6f05fcfcd1b599e292b4b01b3b8606a master
 apt-mirror ${BLOCK_PATH}/apt-mirror git@github.com:defn/apt-mirror bf794e53ca1be35f3485e3065b38ac06d450201f master
