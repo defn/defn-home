@@ -1,7 +1,7 @@
 shflags ${BLOCK_PATH}/shflags git@github.com:defn/shflags 2ff91c52a23cf4085ca6a6eae56be17031aeade7 master
 normalize ${BLOCK_PATH}/normalize git@github.com:defn/normalize fc1fb9275392476ad57f28647cf7f79788c636fd master
 sub ${BLOCK_PATH}/sub git@github.com:defn/sub 1624481f0fe13b3f4dbf58f10edcd6985514f845 master
-runmany ${BLOCK_PATH}/runmany git@github.com:defn/runmany c36e8ebe7b7faa220c628fb97caa8b95c4f9fa2f master
+runmany ${BLOCK_PATH}/runmany git@github.com:defn/runmany 7aa3c9fee92b44d91cedbcceb2c38a657fb8b73c master
 block ${BLOCK_PATH}/block git@github.com:defn/block 1d4fcd279f1dcc69ba2fdaced6b33305da3b272b master
 defn-config ${BLOCK_PATH}/defn-config git@github.com:defn/defn-config 0e0dc6d45d76cdf971c3d3987a8d8f55277cca92 master
 cache ${BLOCK_PATH}/cache git@github.com:defn/cache b08c66cca8a2e06ec51868fa6259d7a313b3b7b1 master
@@ -14,7 +14,7 @@ build-essential ${BLOCK_PATH}/build-essential git@github.com:defn/build-essentia
 rbenv ${BLOCK_PATH}/rbenv git@github.com:defn/rbenv 0c885729549c3965b66ce124f6fd2455768806c3 master
 ruby ${BLOCK_PATH}/ruby git@github.com:defn/ruby 98b3037008060150e1ad556b912b8a8eb1f09ec0 master
 node ${BLOCK_PATH}/node git@github.com:defn/node 8ec75d8c028f0cbd9980bddcfa34b90e77c42663 master
-junas ${BLOCK_PATH}/junas git@github.com:defn/junas 667822c335c7fe9c1ab6997556cd89ef1defbfb1 master
+junas ${BLOCK_PATH}/junas git@github.com:defn/junas 0c27674958656d514d840203babb93715c86f632 master
 cue ${BLOCK_PATH}/cue git@github.com:defn/cue fca2bac89638ce1ee5b5cb6a318e386a11cc28ed master
 python ${BLOCK_PATH}/python git@github.com:defn/python 4e8632178c0798f208ed6fd14cc7a9bdeb634808 master
 docs ${BLOCK_PATH}/docs git@github.com:defn/docs fa20ad4f1a6e91ca198a737e991ead912f8d4104 master
@@ -26,7 +26,7 @@ runit ${BLOCK_PATH}/runit git@github.com:defn/runit 14902d69b86e86573831a43ef438
 xcode ${BLOCK_PATH}/xcode git@github.com:defn/xcode ede3f23dd00d0b580b6b9b5f0b802f7596b209c3 master
 tunnelblick ${BLOCK_PATH}/tunnelblick git@github.com:defn/tunnelblick 80628958928fc486f9ec14acc68f6362bf25a4d3 master
 talign ${BLOCK_PATH}/talign git@github.com:defn/talign ed828e0c48a10d0dd95dff649c24471f95e0e897 master
-defn ${BLOCK_PATH}/defn git@github.com:defn/defn 5ca290abc034e37df609048a44a45649f7303bec master
+defn ${BLOCK_PATH}/defn git@github.com:defn/defn 022ebb8e7b63e043de474fc6d60a6fb3c6cda753 master
 deploy ${BLOCK_PATH}/deploy git@github.com:defn/deploy f07a42bd5f1a028eba58ad6516f826a8a11b64de master
 context ${BLOCK_PATH}/context git@github.com:defn/context b91c4b594765eeade11411ce0f4f13fd7d3dd82e master
 htop ${BLOCK_PATH}/htop git@github.com:defn/htop 1b7848f398cceecea2e70782352c86f730dc8d9c master
