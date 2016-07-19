@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+
+umask 022
+
+function main {
+  local shome="${_defn_home_home:-"$(cd -P -- "${BASH_SOURCE%/*}/.." && pwd -P)"}"
+  source "$shome/script/profile"
+
+  local nm_host="$(hostname -s)"
+  if [[ -f "$shome/.host-name" ]]; then
+    nm_host="$(cat "$shome/.host-name")"
+  fi
+
+  local nm_user="$(id -un)"
+
+  cd "$shome/.ssh"
+  for a in "git-${nm_user}@${nm_host}" "ssh-${nm_user}@${nm_host}" "${BASEBOX_CACHE}/.ssh/ssh-vagrant"; do
+    ssh-keygen -f "$a"
+  done
+}
+
+source sub "$BASH_SOURCE" "$@"
