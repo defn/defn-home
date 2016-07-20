@@ -59,7 +59,7 @@ docker-machine ${BLOCK_PATH}/docker-machine git@github.com:defn/docker-machine d
 docker-compose ${BLOCK_PATH}/docker-compose git@github.com:defn/docker-compose da604da8eb8f2c52bbdf000ed35eaf54400d1421 master
 docker ${BLOCK_PATH}/docker git@github.com:defn/docker 0c5eed4d65b1e4aef47f8862fbb56d1ade98946f master
 packer ${BLOCK_PATH}/packer git@github.com:defn/packer 1b7b456c93f822e15c7f8acd45fa2709dcfdb2de master
-vagrant ${BLOCK_PATH}/vagrant git@github.com:defn/vagrant 31f5ed3bf93222731fb94854b062dd797240b903 master
+vagrant ${BLOCK_PATH}/vagrant git@github.com:defn/vagrant 5cad6ccc6184bbaae8345c1998b0d86d0493ceaf master
 basebox ${BLOCK_PATH}/basebox git@github.com:defn/basebox 5c47a322ed1f4dc85f88b0213d04f0050082cb05 master
 basebox-ubuntu ${BLOCK_PATH}/basebox-ubuntu git@github.com:defn/basebox-ubuntu b3ecd5f7ec51c05f774eaef0c4de0f7e28fce6c0 master
 basebox-osx ${BLOCK_PATH}/basebox-osx git@github.com:defn/basebox-osx fadad49d79bb531b51ee01dc10dbd71316c0266b master
