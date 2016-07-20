@@ -54,7 +54,7 @@ sinopia ${BLOCK_PATH}/sinopia git@github.com:defn/sinopia 0b47b3e4fafde3eb039f75
 jenkins ${BLOCK_PATH}/jenkins git@github.com:defn/jenkins bbdc53e7345f41f0a5abd6a147eff19fa59d0ce9 master
 artifacts ${BLOCK_PATH}/artifacts git@github.com:defn/artifacts a0bc93ad97ac13b39dbe772f8062ddbb4d45a8bb master
 launch-config ${BLOCK_PATH}/launch-config git@github.com:defn/launch-config a8f3168b4290e57eed8112da28e79bcf6579dd83 master
-virtualbox ${BLOCK_PATH}/virtualbox git@github.com:defn/virtualbox 56a8e1d880ab8f34cc6567c9bf3e892cd9159901 master
+virtualbox ${BLOCK_PATH}/virtualbox git@github.com:defn/virtualbox e1074295fad77ea4278a2b5d7d7525392e21d6ab master
 docker-machine ${BLOCK_PATH}/docker-machine git@github.com:defn/docker-machine dc936fdabee12aa888bb282e6036fc09573b5706 master
 docker-compose ${BLOCK_PATH}/docker-compose git@github.com:defn/docker-compose da604da8eb8f2c52bbdf000ed35eaf54400d1421 master
 docker ${BLOCK_PATH}/docker git@github.com:defn/docker 0c5eed4d65b1e4aef47f8862fbb56d1ade98946f master
