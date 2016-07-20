@@ -215,5 +215,8 @@ cibuild-*.log
 # local
 /.local
 
-#
+# t
 /.trc
+
+# maven
+/.m2
