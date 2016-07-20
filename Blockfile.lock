@@ -45,7 +45,7 @@ aws ${BLOCK_PATH}/aws git@github.com:defn/aws fb8432c540503d1b2f9439bfce4d45d07b
 azure ${BLOCK_PATH}/azure git@github.com:defn/azure 69061031ae06ea0f7c289d33e390597ce8421f68 master
 packet ${BLOCK_PATH}/packet git@github.com:defn/packet e19db545c9311ca33ff7c1958c0d03d0c1e9dcf9 master
 cloud ${BLOCK_PATH}/cloud git@github.com:defn/cloud a99afdc814f2227823d2b69cd9974b325802dd36 master
-service ${BLOCK_PATH}/service git@github.com:defn/service cf61338abe8903e4d4b6cc639e39817f3ba5e3b3 master
+service ${BLOCK_PATH}/service git@github.com:defn/service 8b323028bc932bd33bea5f92b2da5fba82ac2093 master
 maven ${BLOCK_PATH}/maven git@github.com:defn/maven c7416a48d1a7e1e4c17d3fed7c5b9404e2d694ce master
 cljs ${BLOCK_PATH}/cljs git@github.com:defn/cljs 3c76dedfb6f05fcfcd1b599e292b4b01b3b8606a master
 apt-mirror ${BLOCK_PATH}/apt-mirror git@github.com:defn/apt-mirror bf794e53ca1be35f3485e3065b38ac06d450201f master
