@@ -55,11 +55,11 @@ sinopia ${BLOCK_PATH}/sinopia git@github.com:defn/sinopia 4c31866bb253caad40cca5
 jenkins ${BLOCK_PATH}/jenkins git@github.com:defn/jenkins bbdc53e7345f41f0a5abd6a147eff19fa59d0ce9 master
 artifacts ${BLOCK_PATH}/artifacts git@github.com:defn/artifacts a0bc93ad97ac13b39dbe772f8062ddbb4d45a8bb master
 launch-config ${BLOCK_PATH}/launch-config git@github.com:defn/launch-config a8f3168b4290e57eed8112da28e79bcf6579dd83 master
+packer ${BLOCK_PATH}/packer git@github.com:defn/packer c9767606d6a3ed7e108e9e7026cf60bca2704d16 master
 virtualbox ${BLOCK_PATH}/virtualbox git@github.com:defn/virtualbox 62b6c1c4411a9a57c4470dfc5b8f850f29d21b95 master
 docker-machine ${BLOCK_PATH}/docker-machine git@github.com:defn/docker-machine dc936fdabee12aa888bb282e6036fc09573b5706 master
 docker-compose ${BLOCK_PATH}/docker-compose git@github.com:defn/docker-compose da604da8eb8f2c52bbdf000ed35eaf54400d1421 master
 docker ${BLOCK_PATH}/docker git@github.com:defn/docker 0c5eed4d65b1e4aef47f8862fbb56d1ade98946f master
-packer ${BLOCK_PATH}/packer git@github.com:defn/packer 1b7b456c93f822e15c7f8acd45fa2709dcfdb2de master
 vagrant ${BLOCK_PATH}/vagrant git@github.com:defn/vagrant 5cad6ccc6184bbaae8345c1998b0d86d0493ceaf master
 basebox ${BLOCK_PATH}/basebox git@github.com:defn/basebox 5c47a322ed1f4dc85f88b0213d04f0050082cb05 master
 basebox-ubuntu ${BLOCK_PATH}/basebox-ubuntu git@github.com:defn/basebox-ubuntu b3ecd5f7ec51c05f774eaef0c4de0f7e28fce6c0 master
@@ -71,7 +71,7 @@ vault ${BLOCK_PATH}/vault git@github.com:defn/vault cfbce2e7bd5de8ad1161325a9b41
 openvpn ${BLOCK_PATH}/openvpn git@github.com:defn/openvpn 531751702651895ecc16e6dbded48fde53313ad4 master
 dnsmasq ${BLOCK_PATH}/dnsmasq git@github.com:defn/dnsmasq 25d4a84b81403538f51d07db0706910f9d80ff73 master
 linkerd ${BLOCK_PATH}/linkerd git@github.com:defn/linkerd c40310f68fb525b7848dbb5e451a76c0bb080067 master
-limbo ${BLOCK_PATH}/limbo git@github.com:defn/limbo 96282a5825503e88017574c0c75593a32965332d master
+limbo ${BLOCK_PATH}/limbo git@github.com:defn/limbo 75dcea0c61267b20b94c77e3ac88aa6daa4adb80 master
 inception ${BLOCK_PATH}/inception git@github.com:defn/inception f090a756a150e22100a756296cc689cde84fa65c master
 leiningen ${BLOCK_PATH}/leiningen git@github.com:defn/leiningen b9f7c1383fded52e71fb6b292fb2f3d2a2b3ed7e master
 poop ${BLOCK_PATH}/poop git@github.com:defn/poop 300200133ec93cf0576e087928e83d5bd2372e01 master
