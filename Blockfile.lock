@@ -50,7 +50,8 @@ maven ${BLOCK_PATH}/maven git@github.com:defn/maven c7416a48d1a7e1e4c17d3fed7c5b
 cljs ${BLOCK_PATH}/cljs git@github.com:defn/cljs 3c76dedfb6f05fcfcd1b599e292b4b01b3b8606a master
 apt-mirror ${BLOCK_PATH}/apt-mirror git@github.com:defn/apt-mirror bf794e53ca1be35f3485e3065b38ac06d450201f master
 squid ${BLOCK_PATH}/squid git@github.com:defn/squid c32e1e6ddab6799a79926a2391206731c1a06ea0 master
-sinopia ${BLOCK_PATH}/sinopia git@github.com:defn/sinopia 0b47b3e4fafde3eb039f75e15fca82963877da67 master
+nodeenv ${BLOCK_PATH}/nodeenv git@github.com:defn/nodeenv 2b6bf49ae3a4e2d2b8397a4d0571e7ba3f3ef50d master
+sinopia ${BLOCK_PATH}/sinopia git@github.com:defn/sinopia 4ce09ac53ca64995b8395d050f740738ade907ea master
 jenkins ${BLOCK_PATH}/jenkins git@github.com:defn/jenkins bbdc53e7345f41f0a5abd6a147eff19fa59d0ce9 master
 artifacts ${BLOCK_PATH}/artifacts git@github.com:defn/artifacts a0bc93ad97ac13b39dbe772f8062ddbb4d45a8bb master
 launch-config ${BLOCK_PATH}/launch-config git@github.com:defn/launch-config a8f3168b4290e57eed8112da28e79bcf6579dd83 master
@@ -111,7 +112,6 @@ gpg ${BLOCK_PATH}/gpg git@github.com:defn/gpg 92b0f377c9134ca2a415451febedc3f2d0
 dd-agent ${BLOCK_PATH}/dd-agent git@github.com:defn/dd-agent 123632a6c70cdcd63f1cad4ab0c441b1c024ae3a master
 nexus ${BLOCK_PATH}/nexus git@github.com:defn/nexus 157ebf0fcb6aa64d97d54e60038a0b85cf0ce21b master
 aptly ${BLOCK_PATH}/aptly git@github.com:defn/aptly 56306e5b5e549ce609327eeb938e62fd284ee74b master
-nodeenv ${BLOCK_PATH}/nodeenv git@github.com:defn/nodeenv f767b59a11ed2ebfc278a9935b20c00c3e3758ec master
 terraform ${BLOCK_PATH}/terraform git@github.com:defn/terraform e030ac326ba2d8a03cc6393b1ce8d02fe22169d4 master
 module-aws-global ${BLOCK_PATH}/module-aws-global git@github.com:defn/module-aws-global bde6d53313d9317b93bf06ff397157db0e482b5c master
 global-xxx ${BLOCK_PATH}/global-xxx git@github.com:defn/global-xxx 6cd653ee74b766c8a462a293507a44e933870a30 master
