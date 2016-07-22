@@ -13,10 +13,11 @@ java ${BLOCK_PATH}/java git@github.com:defn/java 704a41ffcff5656bef13973f288aefb
 build-essential ${BLOCK_PATH}/build-essential git@github.com:defn/build-essential ce28be8e33d991ffb8e1475fc1aecd73584e720d master
 rbenv ${BLOCK_PATH}/rbenv git@github.com:defn/rbenv 0c885729549c3965b66ce124f6fd2455768806c3 master
 ruby ${BLOCK_PATH}/ruby git@github.com:defn/ruby 98b3037008060150e1ad556b912b8a8eb1f09ec0 master
-node ${BLOCK_PATH}/node git@github.com:defn/node 8ec75d8c028f0cbd9980bddcfa34b90e77c42663 master
+python ${BLOCK_PATH}/python git@github.com:defn/python 4e8632178c0798f208ed6fd14cc7a9bdeb634808 master
+nodeenv ${BLOCK_PATH}/nodeenv git@github.com:defn/nodeenv fefd7e1da080c17b06bdd414208639343bfa062d master
+node ${BLOCK_PATH}/node git@github.com:defn/node a1edcff4b65b2f1e832c3ca2a784b2c3da0877f7 master
 junas ${BLOCK_PATH}/junas git@github.com:defn/junas 0c27674958656d514d840203babb93715c86f632 master
 cue ${BLOCK_PATH}/cue git@github.com:defn/cue fca2bac89638ce1ee5b5cb6a318e386a11cc28ed master
-python ${BLOCK_PATH}/python git@github.com:defn/python 4e8632178c0798f208ed6fd14cc7a9bdeb634808 master
 docs ${BLOCK_PATH}/docs git@github.com:defn/docs fa20ad4f1a6e91ca198a737e991ead912f8d4104 master
 scripts-to-rule-them-all ${BLOCK_PATH}/scripts-to-rule-them-all git@github.com:defn/scripts-to-rule-them-all 956b0aeb5af16be9652a5dc84ccf0dd50d344949 master
 block-shortcuts ${BLOCK_PATH}/block-shortcuts git@github.com:defn/block-shortcuts 8cefbaff0f4e992f92d540e40449e6fe0b3fbe19 master
@@ -46,12 +47,11 @@ azure ${BLOCK_PATH}/azure git@github.com:defn/azure 69061031ae06ea0f7c289d33e390
 packet ${BLOCK_PATH}/packet git@github.com:defn/packet e19db545c9311ca33ff7c1958c0d03d0c1e9dcf9 master
 cloud ${BLOCK_PATH}/cloud git@github.com:defn/cloud a99afdc814f2227823d2b69cd9974b325802dd36 master
 service ${BLOCK_PATH}/service git@github.com:defn/service 8b323028bc932bd33bea5f92b2da5fba82ac2093 master
-nodeenv ${BLOCK_PATH}/nodeenv git@github.com:defn/nodeenv 2b6bf49ae3a4e2d2b8397a4d0571e7ba3f3ef50d master
 maven ${BLOCK_PATH}/maven git@github.com:defn/maven c7416a48d1a7e1e4c17d3fed7c5b9404e2d694ce master
-cljs ${BLOCK_PATH}/cljs git@github.com:defn/cljs c8f8d3a8e0e472f09df6d1a34d7d79f8e830394e master
+cljs ${BLOCK_PATH}/cljs git@github.com:defn/cljs 505b7ff51f152fa66890d7f82290e9fc8dd339b8 master
 apt-mirror ${BLOCK_PATH}/apt-mirror git@github.com:defn/apt-mirror bf794e53ca1be35f3485e3065b38ac06d450201f master
 squid ${BLOCK_PATH}/squid git@github.com:defn/squid c32e1e6ddab6799a79926a2391206731c1a06ea0 master
-sinopia ${BLOCK_PATH}/sinopia git@github.com:defn/sinopia 4c31866bb253caad40cca59ad4ac1f94ce18d090 master
+sinopia ${BLOCK_PATH}/sinopia git@github.com:defn/sinopia 101924a6f178f466ad5f92472eaececf6fb47b9b master
 jenkins ${BLOCK_PATH}/jenkins git@github.com:defn/jenkins bbdc53e7345f41f0a5abd6a147eff19fa59d0ce9 master
 artifacts ${BLOCK_PATH}/artifacts git@github.com:defn/artifacts a0bc93ad97ac13b39dbe772f8062ddbb4d45a8bb master
 launch-config ${BLOCK_PATH}/launch-config git@github.com:defn/launch-config a8f3168b4290e57eed8112da28e79bcf6579dd83 master
@@ -84,7 +84,7 @@ lamda ${BLOCK_PATH}/lamda git@github.com:defn/lamda 058ff871df72050134ffbb6e9ab7
 hugo ${BLOCK_PATH}/hugo git@github.com:defn/hugo a3cdbe6da2262e33818700baf109ea7c943bf508 master
 it ${BLOCK_PATH}/it git@github.com:defn/it cc012d8045ffb7c6037afd414f5853945e8e64af gh-pages
 defn.github.io ${BLOCK_PATH}/defn.github.io git@github.com:defn/defn.github.io 99cd998d72f681fe2aee047d9d287929762159d7 master
-isomorphic-clojurescript-reagent-node ${BLOCK_PATH}/isomorphic-clojurescript-reagent-node git@github.com:defn/isomorphic-clojurescript-reagent-node c2230ca6a7017d9411032c59be120441f990d548 master
+isomorphic-clojurescript-reagent-node ${BLOCK_PATH}/isomorphic-clojurescript-reagent-node git@github.com:defn/isomorphic-clojurescript-reagent-node 3f04355319ceceba5a616420385a6c710cb712ee master
 rust ${BLOCK_PATH}/rust git@github.com:defn/rust bd1ad0f366427ea770691d4f99eddb5fa1520501 master
 rethinkdb ${BLOCK_PATH}/rethinkdb git@github.com:defn/rethinkdb 111ac2eab48d152147e96b270f74a64e3e668fe8 master
 iamdefn/lightning ${BLOCK_PATH}/lightning git@github.com:iamdefn/lightning e6c86d1f5f3dbb6b4b7dc4020977c91ad7f6d30c master
@@ -98,7 +98,7 @@ iamdefn/blue ${BLOCK_PATH}/blue git@github.com:iamdefn/blue 89568ed2606e77d28554
 iamdefn/earth ${BLOCK_PATH}/earth git@github.com:iamdefn/earth 93e90800af8ba9e93d7e2a316bfe39aabc23ff34 master
 iamdefn/yellow ${BLOCK_PATH}/yellow git@github.com:iamdefn/yellow 9951f4b4c6262e420696d22c190f6115df557b32 master
 iamdefn/voltron ${BLOCK_PATH}/voltron git@github.com:iamdefn/voltron 9044b07d70c207fa75f3c6bd77277734b7023d63 master
-webterm ${BLOCK_PATH}/webterm git@github.com:defn/webterm cb2a87073a86038ec9dc35843dec2be255b75c24 master
+webterm ${BLOCK_PATH}/webterm git@github.com:defn/webterm 127ff7365abdcde2e810ae340639c3dfaa61918d master
 awesome ${BLOCK_PATH}/awesome git@github.com:defn/awesome 12bebe6aa000d2134aab6977ad2bc106faa596b5 master
 lock ${BLOCK_PATH}/lock git@github.com:defn/lock 1445412c88f9693aed372629eb238bb9e925f9e4 master
 rundeck ${BLOCK_PATH}/rundeck git@github.com:defn/rundeck 7e7e94e6477ad8ee4da76404383042d3885d72ec master
