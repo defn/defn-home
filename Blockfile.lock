@@ -15,7 +15,7 @@ rbenv ${BLOCK_PATH}/rbenv git@github.com:defn/rbenv 0c885729549c3965b66ce124f6fd
 ruby ${BLOCK_PATH}/ruby git@github.com:defn/ruby 98b3037008060150e1ad556b912b8a8eb1f09ec0 master
 python ${BLOCK_PATH}/python git@github.com:defn/python 4e8632178c0798f208ed6fd14cc7a9bdeb634808 master
 nodeenv ${BLOCK_PATH}/nodeenv git@github.com:defn/nodeenv fefd7e1da080c17b06bdd414208639343bfa062d master
-node ${BLOCK_PATH}/node git@github.com:defn/node a1edcff4b65b2f1e832c3ca2a784b2c3da0877f7 master
+node ${BLOCK_PATH}/node git@github.com:defn/node fdf35079e8a9578a35e5b6a128e4e72dfc32371c master
 junas ${BLOCK_PATH}/junas git@github.com:defn/junas 0c27674958656d514d840203babb93715c86f632 master
 cue ${BLOCK_PATH}/cue git@github.com:defn/cue fca2bac89638ce1ee5b5cb6a318e386a11cc28ed master
 docs ${BLOCK_PATH}/docs git@github.com:defn/docs fa20ad4f1a6e91ca198a737e991ead912f8d4104 master
