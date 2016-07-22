@@ -46,11 +46,11 @@ azure ${BLOCK_PATH}/azure git@github.com:defn/azure 69061031ae06ea0f7c289d33e390
 packet ${BLOCK_PATH}/packet git@github.com:defn/packet e19db545c9311ca33ff7c1958c0d03d0c1e9dcf9 master
 cloud ${BLOCK_PATH}/cloud git@github.com:defn/cloud a99afdc814f2227823d2b69cd9974b325802dd36 master
 service ${BLOCK_PATH}/service git@github.com:defn/service 8b323028bc932bd33bea5f92b2da5fba82ac2093 master
+nodeenv ${BLOCK_PATH}/nodeenv git@github.com:defn/nodeenv 2b6bf49ae3a4e2d2b8397a4d0571e7ba3f3ef50d master
 maven ${BLOCK_PATH}/maven git@github.com:defn/maven c7416a48d1a7e1e4c17d3fed7c5b9404e2d694ce master
-cljs ${BLOCK_PATH}/cljs git@github.com:defn/cljs 3c76dedfb6f05fcfcd1b599e292b4b01b3b8606a master
+cljs ${BLOCK_PATH}/cljs git@github.com:defn/cljs c8f8d3a8e0e472f09df6d1a34d7d79f8e830394e master
 apt-mirror ${BLOCK_PATH}/apt-mirror git@github.com:defn/apt-mirror bf794e53ca1be35f3485e3065b38ac06d450201f master
 squid ${BLOCK_PATH}/squid git@github.com:defn/squid c32e1e6ddab6799a79926a2391206731c1a06ea0 master
-nodeenv ${BLOCK_PATH}/nodeenv git@github.com:defn/nodeenv 2b6bf49ae3a4e2d2b8397a4d0571e7ba3f3ef50d master
 sinopia ${BLOCK_PATH}/sinopia git@github.com:defn/sinopia 4c31866bb253caad40cca59ad4ac1f94ce18d090 master
 jenkins ${BLOCK_PATH}/jenkins git@github.com:defn/jenkins bbdc53e7345f41f0a5abd6a147eff19fa59d0ce9 master
 artifacts ${BLOCK_PATH}/artifacts git@github.com:defn/artifacts a0bc93ad97ac13b39dbe772f8062ddbb4d45a8bb master
@@ -84,7 +84,7 @@ lamda ${BLOCK_PATH}/lamda git@github.com:defn/lamda 058ff871df72050134ffbb6e9ab7
 hugo ${BLOCK_PATH}/hugo git@github.com:defn/hugo a3cdbe6da2262e33818700baf109ea7c943bf508 master
 it ${BLOCK_PATH}/it git@github.com:defn/it cc012d8045ffb7c6037afd414f5853945e8e64af gh-pages
 defn.github.io ${BLOCK_PATH}/defn.github.io git@github.com:defn/defn.github.io 99cd998d72f681fe2aee047d9d287929762159d7 master
-isomorphic-clojurescript-reagent-node ${BLOCK_PATH}/isomorphic-clojurescript-reagent-node git@github.com:defn/isomorphic-clojurescript-reagent-node 7c113611fabc7bade6cf7f9b52de9d61ef794077 master
+isomorphic-clojurescript-reagent-node ${BLOCK_PATH}/isomorphic-clojurescript-reagent-node git@github.com:defn/isomorphic-clojurescript-reagent-node c2230ca6a7017d9411032c59be120441f990d548 master
 rust ${BLOCK_PATH}/rust git@github.com:defn/rust bd1ad0f366427ea770691d4f99eddb5fa1520501 master
 rethinkdb ${BLOCK_PATH}/rethinkdb git@github.com:defn/rethinkdb 111ac2eab48d152147e96b270f74a64e3e668fe8 master
 iamdefn/lightning ${BLOCK_PATH}/lightning git@github.com:iamdefn/lightning e6c86d1f5f3dbb6b4b7dc4020977c91ad7f6d30c master
@@ -98,7 +98,7 @@ iamdefn/blue ${BLOCK_PATH}/blue git@github.com:iamdefn/blue 89568ed2606e77d28554
 iamdefn/earth ${BLOCK_PATH}/earth git@github.com:iamdefn/earth 93e90800af8ba9e93d7e2a316bfe39aabc23ff34 master
 iamdefn/yellow ${BLOCK_PATH}/yellow git@github.com:iamdefn/yellow 9951f4b4c6262e420696d22c190f6115df557b32 master
 iamdefn/voltron ${BLOCK_PATH}/voltron git@github.com:iamdefn/voltron 9044b07d70c207fa75f3c6bd77277734b7023d63 master
-webterm ${BLOCK_PATH}/webterm git@github.com:defn/webterm 76b76bd89f74e063d0f0b093ba7fcc3eec6bff66 master
+webterm ${BLOCK_PATH}/webterm git@github.com:defn/webterm cb2a87073a86038ec9dc35843dec2be255b75c24 master
 awesome ${BLOCK_PATH}/awesome git@github.com:defn/awesome 12bebe6aa000d2134aab6977ad2bc106faa596b5 master
 lock ${BLOCK_PATH}/lock git@github.com:defn/lock 1445412c88f9693aed372629eb238bb9e925f9e4 master
 rundeck ${BLOCK_PATH}/rundeck git@github.com:defn/rundeck 7e7e94e6477ad8ee4da76404383042d3885d72ec master
