@@ -3,13 +3,11 @@
     [
       "block",
       "defn-config",
-      "cache"
+      "cache",
+      "defn-lang"
     ],
     [
       "defn-osx",
-      "java",
-      "ruby",
-      "node",
       "junas",
       "cue"
     ],
@@ -33,8 +31,7 @@
       "htop",
       "github",
       "facts",
-      "ansible",
-      "bash4"
+      "ansible"
     ],
     [
       "cloud",
@@ -64,7 +61,7 @@
     "lock", "rundeck",
     "fluentd", "openresty",
     "ssh-agent", "t",
-    "git-crypt", "bumpversion", "gpg", "dd-agent", "nexus", "aptly", "nodeenv", "teamcity",
+    "git-crypt", "bumpversion", "gpg", "dd-agent", "nexus", "aptly", "teamcity",
     [
       "env-imma-global",
       "env-imma-admin",

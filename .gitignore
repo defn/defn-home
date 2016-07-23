@@ -220,3 +220,6 @@ cibuild-*.log
 
 # maven
 /.m2
+
+# teamcity
+/.BuildServer
