@@ -111,9 +111,9 @@ git-crypt ${BLOCK_PATH}/git-crypt git@github.com:defn/git-crypt 116ff08cffc4c239
 bumpversion ${BLOCK_PATH}/bumpversion git@github.com:defn/bumpversion df02bb3db98834a088352c482222ddc0cad1174c master
 gpg ${BLOCK_PATH}/gpg git@github.com:defn/gpg 92b0f377c9134ca2a415451febedc3f2d08d1828 master
 dd-agent ${BLOCK_PATH}/dd-agent git@github.com:defn/dd-agent 123632a6c70cdcd63f1cad4ab0c441b1c024ae3a master
-nexus ${BLOCK_PATH}/nexus git@github.com:defn/nexus 337f6796edb95b2e5507c8ddbc5d1382b28896ba master
+nexus ${BLOCK_PATH}/nexus git@github.com:defn/nexus 50acf9aa3fc724562cbc9ac8a74886537c31671b master
 aptly ${BLOCK_PATH}/aptly git@github.com:defn/aptly 56306e5b5e549ce609327eeb938e62fd284ee74b master
-teamcity ${BLOCK_PATH}/teamcity git@github.com:defn/teamcity 89f5944ab057cf0cabb8292e0705d6742c18207f master
+teamcity ${BLOCK_PATH}/teamcity git@github.com:defn/teamcity a9444c1560b0b192868f08fc7ecf99c037183ec4 master
 terraform ${BLOCK_PATH}/terraform git@github.com:defn/terraform e030ac326ba2d8a03cc6393b1ce8d02fe22169d4 master
 module-aws-global ${BLOCK_PATH}/module-aws-global git@github.com:defn/module-aws-global bde6d53313d9317b93bf06ff397157db0e482b5c master
 global-xxx ${BLOCK_PATH}/global-xxx git@github.com:defn/global-xxx 6cd653ee74b766c8a462a293507a44e933870a30 master
