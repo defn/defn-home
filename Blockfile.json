@@ -64,7 +64,7 @@
     "lock", "rundeck",
     "fluentd", "openresty",
     "ssh-agent", "t",
-    "git-crypt", "bumpversion", "gpg", "dd-agent", "nexus", "aptly", "nodeenv",
+    "git-crypt", "bumpversion", "gpg", "dd-agent", "nexus", "aptly", "nodeenv", "teamcity",
     [
       "env-imma-global",
       "env-imma-admin",
@@ -78,6 +78,7 @@
   "run": {
     "squid": {},
     "jenkins": {},
+    "teamcity": {},
     "apt-mirror": {},
     "consul": {},
     "sinopia": {},
