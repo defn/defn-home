@@ -12,7 +12,7 @@ python ${BLOCK_PATH}/python git@github.com:defn/python 4e8632178c0798f208ed6fd14
 nodeenv ${BLOCK_PATH}/nodeenv git@github.com:defn/nodeenv fefd7e1da080c17b06bdd414208639343bfa062d master
 node ${BLOCK_PATH}/node git@github.com:defn/node fdf35079e8a9578a35e5b6a128e4e72dfc32371c master
 rbenv ${BLOCK_PATH}/rbenv git@github.com:defn/rbenv 0c885729549c3965b66ce124f6fd2455768806c3 master
-ruby ${BLOCK_PATH}/ruby git@github.com:defn/ruby 98b3037008060150e1ad556b912b8a8eb1f09ec0 master
+ruby ${BLOCK_PATH}/ruby git@github.com:defn/ruby dca109172464930ad088e7ecdf051edf5ccebc89 master
 java ${BLOCK_PATH}/java git@github.com:defn/java 704a41ffcff5656bef13973f288aefbf2a7ed631 master
 bash4 ${BLOCK_PATH}/bash4 git@github.com:defn/bash4 6f1dad2cb42e3066a628fef6d29d1cf8544c4397 master
 defn-lang ${BLOCK_PATH}/defn-lang git@github.com:defn/defn-lang 9bc6dcb95a8368a0d88e6366dcc9bd3775da3d65 master
