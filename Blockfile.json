@@ -76,6 +76,7 @@
     "squid": {},
     "jenkins": {},
     "teamcity": {},
+    "nexus": {},
     "apt-mirror": {},
     "consul": {},
     "sinopia": {},

@@ -223,3 +223,6 @@ cibuild-*.log
 
 # teamcity
 /.BuildServer
+
+# nexus
+/.install4j

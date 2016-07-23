@@ -15,7 +15,7 @@ rbenv ${BLOCK_PATH}/rbenv git@github.com:defn/rbenv 0c885729549c3965b66ce124f6fd
 ruby ${BLOCK_PATH}/ruby git@github.com:defn/ruby dca109172464930ad088e7ecdf051edf5ccebc89 master
 java ${BLOCK_PATH}/java git@github.com:defn/java 704a41ffcff5656bef13973f288aefbf2a7ed631 master
 bash4 ${BLOCK_PATH}/bash4 git@github.com:defn/bash4 6f1dad2cb42e3066a628fef6d29d1cf8544c4397 master
-defn-lang ${BLOCK_PATH}/defn-lang git@github.com:defn/defn-lang 9bc6dcb95a8368a0d88e6366dcc9bd3775da3d65 master
+defn-lang ${BLOCK_PATH}/defn-lang git@github.com:defn/defn-lang eb62ec87b7c0e750088dee8e8cee1e7ca3bf79ca master
 homebrew ${BLOCK_PATH}/homebrew git@github.com:defn/homebrew 2573ef1dfe6e1d7f472012a071e11d81bc96cfe6 master
 defn-osx ${BLOCK_PATH}/defn-osx git@github.com:defn/defn-osx 6f6808eb39de8ee7a6617671fe78217ef45bc40c master
 junas ${BLOCK_PATH}/junas git@github.com:defn/junas 0c27674958656d514d840203babb93715c86f632 master
@@ -111,7 +111,7 @@ git-crypt ${BLOCK_PATH}/git-crypt git@github.com:defn/git-crypt 116ff08cffc4c239
 bumpversion ${BLOCK_PATH}/bumpversion git@github.com:defn/bumpversion df02bb3db98834a088352c482222ddc0cad1174c master
 gpg ${BLOCK_PATH}/gpg git@github.com:defn/gpg 92b0f377c9134ca2a415451febedc3f2d08d1828 master
 dd-agent ${BLOCK_PATH}/dd-agent git@github.com:defn/dd-agent 123632a6c70cdcd63f1cad4ab0c441b1c024ae3a master
-nexus ${BLOCK_PATH}/nexus git@github.com:defn/nexus 157ebf0fcb6aa64d97d54e60038a0b85cf0ce21b master
+nexus ${BLOCK_PATH}/nexus git@github.com:defn/nexus 337f6796edb95b2e5507c8ddbc5d1382b28896ba master
 aptly ${BLOCK_PATH}/aptly git@github.com:defn/aptly 56306e5b5e549ce609327eeb938e62fd284ee74b master
 teamcity ${BLOCK_PATH}/teamcity git@github.com:defn/teamcity 89f5944ab057cf0cabb8292e0705d6742c18207f master
 terraform ${BLOCK_PATH}/terraform git@github.com:defn/terraform e030ac326ba2d8a03cc6393b1ce8d02fe22169d4 master
