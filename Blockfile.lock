@@ -1,6 +1,6 @@
 shflags ${BLOCK_PATH}/shflags git@github.com:defn/shflags 2ff91c52a23cf4085ca6a6eae56be17031aeade7 master
 normalize ${BLOCK_PATH}/normalize git@github.com:defn/normalize fc1fb9275392476ad57f28647cf7f79788c636fd master
-sub ${BLOCK_PATH}/sub git@github.com:defn/sub becc195783e8ec41adc1ff030be2098c1574c57e master
+sub ${BLOCK_PATH}/sub git@github.com:defn/sub 9425ea97c94fc072a3c9d4689784ead74ae28ae5 master
 runmany ${BLOCK_PATH}/runmany git@github.com:defn/runmany 7aa3c9fee92b44d91cedbcceb2c38a657fb8b73c master
 block ${BLOCK_PATH}/block git@github.com:defn/block 1d4fcd279f1dcc69ba2fdaced6b33305da3b272b master
 defn-config ${BLOCK_PATH}/defn-config git@github.com:defn/defn-config 0e0dc6d45d76cdf971c3d3987a8d8f55277cca92 master
@@ -43,7 +43,7 @@ ansible ${BLOCK_PATH}/ansible git@github.com:defn/ansible 35db67b65b8ebe2e42e8ac
 chef ${BLOCK_PATH}/chef git@github.com:defn/chef 0c2adeb4e00783201605a56eea5968ff3308e8b1 master
 facts ${BLOCK_PATH}/facts git@github.com:defn/facts b8d7030ba52440aa0f5f51aeaea96fd08c78a2ea master
 parity ${BLOCK_PATH}/parity git@github.com:defn/parity a263b68c89234956b54a287302b22c0160a7bdb5 master
-aws ${BLOCK_PATH}/aws git@github.com:defn/aws fb8432c540503d1b2f9439bfce4d45d07bd5ad60 master
+aws ${BLOCK_PATH}/aws git@github.com:defn/aws 72c01bad343cbba6b27187d53b5ecbf078809024 master
 azure ${BLOCK_PATH}/azure git@github.com:defn/azure 69061031ae06ea0f7c289d33e390597ce8421f68 master
 packet ${BLOCK_PATH}/packet git@github.com:defn/packet e19db545c9311ca33ff7c1958c0d03d0c1e9dcf9 master
 cloud ${BLOCK_PATH}/cloud git@github.com:defn/cloud a99afdc814f2227823d2b69cd9974b325802dd36 master
@@ -59,7 +59,7 @@ launch-config ${BLOCK_PATH}/launch-config git@github.com:defn/launch-config a8f3
 packer ${BLOCK_PATH}/packer git@github.com:defn/packer c9767606d6a3ed7e108e9e7026cf60bca2704d16 master
 vagrant ${BLOCK_PATH}/vagrant git@github.com:defn/vagrant b416d48fa9639c4bdb44c8a0ab0045e9e45d29db master
 basebox ${BLOCK_PATH}/basebox git@github.com:defn/basebox 5c47a322ed1f4dc85f88b0213d04f0050082cb05 master
-basebox-ubuntu ${BLOCK_PATH}/basebox-ubuntu git@github.com:defn/basebox-ubuntu b3ecd5f7ec51c05f774eaef0c4de0f7e28fce6c0 master
+basebox-ubuntu ${BLOCK_PATH}/basebox-ubuntu git@github.com:defn/basebox-ubuntu af019cb88c756748d6839b8e65ee1bb2312b179f master
 basebox-osx ${BLOCK_PATH}/basebox-osx git@github.com:defn/basebox-osx fadad49d79bb531b51ee01dc10dbd71316c0266b master
 vagrant-shell ${BLOCK_PATH}/vagrant-shell git@github.com:defn/vagrant-shell 8c3e0a774e2e1bb8339c66b7fa4bf4f360ef4de3 master
 vagrant-limbo ${BLOCK_PATH}/vagrant-limbo git@github.com:defn/vagrant-limbo 740b29b534cd6ac6a88676e51d1cddbffddffe4d master
@@ -72,8 +72,8 @@ virtualbox ${BLOCK_PATH}/virtualbox git@github.com:defn/virtualbox 62b6c1c4411a9
 docker-machine ${BLOCK_PATH}/docker-machine git@github.com:defn/docker-machine dc936fdabee12aa888bb282e6036fc09573b5706 master
 docker-compose ${BLOCK_PATH}/docker-compose git@github.com:defn/docker-compose da604da8eb8f2c52bbdf000ed35eaf54400d1421 master
 docker ${BLOCK_PATH}/docker git@github.com:defn/docker 0c5eed4d65b1e4aef47f8862fbb56d1ade98946f master
-limbo ${BLOCK_PATH}/limbo git@github.com:defn/limbo 75dcea0c61267b20b94c77e3ac88aa6daa4adb80 master
-inception ${BLOCK_PATH}/inception git@github.com:defn/inception f090a756a150e22100a756296cc689cde84fa65c master
+limbo ${BLOCK_PATH}/limbo git@github.com:defn/limbo 7c1ff1c29547711424a060b8731e1dd3a7a65d3b master
+inception ${BLOCK_PATH}/inception git@github.com:defn/inception 143f85464774e23e27f46efd9c34675b88cc77a7 master
 leiningen ${BLOCK_PATH}/leiningen git@github.com:defn/leiningen b9f7c1383fded52e71fb6b292fb2f3d2a2b3ed7e master
 poop ${BLOCK_PATH}/poop git@github.com:defn/poop 300200133ec93cf0576e087928e83d5bd2372e01 master
 postgresql ${BLOCK_PATH}/postgresql git@github.com:defn/postgresql 0f4a6777360dd0322b04b6029bb5cbe6520b6fac master
@@ -100,7 +100,7 @@ iamdefn/earth ${BLOCK_PATH}/earth git@github.com:iamdefn/earth 93e90800af8ba9e93
 iamdefn/yellow ${BLOCK_PATH}/yellow git@github.com:iamdefn/yellow 9951f4b4c6262e420696d22c190f6115df557b32 master
 iamdefn/voltron ${BLOCK_PATH}/voltron git@github.com:iamdefn/voltron 9044b07d70c207fa75f3c6bd77277734b7023d63 master
 webterm ${BLOCK_PATH}/webterm git@github.com:defn/webterm 4d4abeffb0d288c7d504abc51f53f2ba51d1021e master
-awesome ${BLOCK_PATH}/awesome git@github.com:defn/awesome 12bebe6aa000d2134aab6977ad2bc106faa596b5 master
+awesome ${BLOCK_PATH}/awesome git@github.com:defn/awesome bd2d27e83f2b0b809669edb5980b3575114f8f43 master
 lock ${BLOCK_PATH}/lock git@github.com:defn/lock 1445412c88f9693aed372629eb238bb9e925f9e4 master
 rundeck ${BLOCK_PATH}/rundeck git@github.com:defn/rundeck 7e7e94e6477ad8ee4da76404383042d3885d72ec master
 fluentd ${BLOCK_PATH}/fluentd git@github.com:defn/fluentd d9ad28a52a95f1ef296fb61fe0b89538ad5faaa0 master
