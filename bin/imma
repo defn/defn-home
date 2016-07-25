@@ -9,4 +9,4 @@ function main {
   exec aws us-west-1 exec "$@"
 }
 
-source sub "$BASH_SOURCE" "$@"
+source sub-chain "$BASH_SOURCE" "$@"
