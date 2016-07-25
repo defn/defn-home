@@ -73,7 +73,7 @@ docker-machine ${BLOCK_PATH}/docker-machine git@github.com:defn/docker-machine d
 docker-compose ${BLOCK_PATH}/docker-compose git@github.com:defn/docker-compose da604da8eb8f2c52bbdf000ed35eaf54400d1421 master
 docker ${BLOCK_PATH}/docker git@github.com:defn/docker 0c5eed4d65b1e4aef47f8862fbb56d1ade98946f master
 limbo ${BLOCK_PATH}/limbo git@github.com:defn/limbo 3348b378fe7cb86a845a072ca92ea58848ff575e master
-inception ${BLOCK_PATH}/inception git@github.com:defn/inception 19286fdb4cbcb45bef8f03ecac3330a2907bebc1 master
+inception ${BLOCK_PATH}/inception git@github.com:defn/inception e5ed20278b135cca3ef5431679cf8867aa68e654 master
 leiningen ${BLOCK_PATH}/leiningen git@github.com:defn/leiningen b9f7c1383fded52e71fb6b292fb2f3d2a2b3ed7e master
 poop ${BLOCK_PATH}/poop git@github.com:defn/poop 300200133ec93cf0576e087928e83d5bd2372e01 master
 postgresql ${BLOCK_PATH}/postgresql git@github.com:defn/postgresql 0f4a6777360dd0322b04b6029bb5cbe6520b6fac master
