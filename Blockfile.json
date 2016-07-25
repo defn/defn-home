@@ -76,6 +76,7 @@
     "squid": {},
     "jenkins": {},
     "teamcity": {},
+    "teamcity.agent": {},
     "nexus": {},
     "apt-mirror": {},
     "consul": {},

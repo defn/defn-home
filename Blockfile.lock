@@ -29,7 +29,7 @@ runit ${BLOCK_PATH}/runit git@github.com:defn/runit 14902d69b86e86573831a43ef438
 xcode ${BLOCK_PATH}/xcode git@github.com:defn/xcode ede3f23dd00d0b580b6b9b5f0b802f7596b209c3 master
 tunnelblick ${BLOCK_PATH}/tunnelblick git@github.com:defn/tunnelblick 80628958928fc486f9ec14acc68f6362bf25a4d3 master
 talign ${BLOCK_PATH}/talign git@github.com:defn/talign 5b5fc3530d159781342f4e449dd12fc222cb6db5 master
-defn ${BLOCK_PATH}/defn git@github.com:defn/defn d4afb37476aa8477e0dd18b46d459ce76fbb51cd master
+defn ${BLOCK_PATH}/defn git@github.com:defn/defn dc894c44643a177c19e17d5cfe5ba82fffd90c32 master
 deploy ${BLOCK_PATH}/deploy git@github.com:defn/deploy f07a42bd5f1a028eba58ad6516f826a8a11b64de master
 context ${BLOCK_PATH}/context git@github.com:defn/context b91c4b594765eeade11411ce0f4f13fd7d3dd82e master
 htop ${BLOCK_PATH}/htop git@github.com:defn/htop 1b7848f398cceecea2e70782352c86f730dc8d9c master
@@ -113,7 +113,7 @@ gpg ${BLOCK_PATH}/gpg git@github.com:defn/gpg 92b0f377c9134ca2a415451febedc3f2d0
 dd-agent ${BLOCK_PATH}/dd-agent git@github.com:defn/dd-agent 123632a6c70cdcd63f1cad4ab0c441b1c024ae3a master
 nexus ${BLOCK_PATH}/nexus git@github.com:defn/nexus 50acf9aa3fc724562cbc9ac8a74886537c31671b master
 aptly ${BLOCK_PATH}/aptly git@github.com:defn/aptly 56306e5b5e549ce609327eeb938e62fd284ee74b master
-teamcity ${BLOCK_PATH}/teamcity git@github.com:defn/teamcity a9444c1560b0b192868f08fc7ecf99c037183ec4 master
+teamcity ${BLOCK_PATH}/teamcity git@github.com:defn/teamcity 5caaec188d01598a791202cbd3278cb04eaaecd7 master
 terraform ${BLOCK_PATH}/terraform git@github.com:defn/terraform e030ac326ba2d8a03cc6393b1ce8d02fe22169d4 master
 module-aws-global ${BLOCK_PATH}/module-aws-global git@github.com:defn/module-aws-global bde6d53313d9317b93bf06ff397157db0e482b5c master
 global-xxx ${BLOCK_PATH}/global-xxx git@github.com:defn/global-xxx 6cd653ee74b766c8a462a293507a44e933870a30 master
