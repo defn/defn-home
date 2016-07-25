@@ -1,6 +1,6 @@
 shflags ${BLOCK_PATH}/shflags git@github.com:defn/shflags 2ff91c52a23cf4085ca6a6eae56be17031aeade7 master
 normalize ${BLOCK_PATH}/normalize git@github.com:defn/normalize fc1fb9275392476ad57f28647cf7f79788c636fd master
-sub ${BLOCK_PATH}/sub git@github.com:defn/sub 6932b00f02b370d87c832509d199b165af348869 master
+sub ${BLOCK_PATH}/sub git@github.com:defn/sub a057031fd3d1dcdda22cac40f27243bae82eee83 master
 runmany ${BLOCK_PATH}/runmany git@github.com:defn/runmany 7aa3c9fee92b44d91cedbcceb2c38a657fb8b73c master
 block ${BLOCK_PATH}/block git@github.com:defn/block 1d4fcd279f1dcc69ba2fdaced6b33305da3b272b master
 defn-config ${BLOCK_PATH}/defn-config git@github.com:defn/defn-config 0e0dc6d45d76cdf971c3d3987a8d8f55277cca92 master
@@ -43,7 +43,7 @@ ansible ${BLOCK_PATH}/ansible git@github.com:defn/ansible 35db67b65b8ebe2e42e8ac
 chef ${BLOCK_PATH}/chef git@github.com:defn/chef 0c2adeb4e00783201605a56eea5968ff3308e8b1 master
 facts ${BLOCK_PATH}/facts git@github.com:defn/facts b8d7030ba52440aa0f5f51aeaea96fd08c78a2ea master
 parity ${BLOCK_PATH}/parity git@github.com:defn/parity a263b68c89234956b54a287302b22c0160a7bdb5 master
-aws ${BLOCK_PATH}/aws git@github.com:defn/aws 72c01bad343cbba6b27187d53b5ecbf078809024 master
+aws ${BLOCK_PATH}/aws git@github.com:defn/aws 7b4001a6375262e210206ab1e93fae91097397b4 master
 azure ${BLOCK_PATH}/azure git@github.com:defn/azure 69061031ae06ea0f7c289d33e390597ce8421f68 master
 packet ${BLOCK_PATH}/packet git@github.com:defn/packet e19db545c9311ca33ff7c1958c0d03d0c1e9dcf9 master
 cloud ${BLOCK_PATH}/cloud git@github.com:defn/cloud a99afdc814f2227823d2b69cd9974b325802dd36 master
@@ -72,8 +72,8 @@ virtualbox ${BLOCK_PATH}/virtualbox git@github.com:defn/virtualbox 62b6c1c4411a9
 docker-machine ${BLOCK_PATH}/docker-machine git@github.com:defn/docker-machine dc936fdabee12aa888bb282e6036fc09573b5706 master
 docker-compose ${BLOCK_PATH}/docker-compose git@github.com:defn/docker-compose da604da8eb8f2c52bbdf000ed35eaf54400d1421 master
 docker ${BLOCK_PATH}/docker git@github.com:defn/docker 0c5eed4d65b1e4aef47f8862fbb56d1ade98946f master
-limbo ${BLOCK_PATH}/limbo git@github.com:defn/limbo 7c1ff1c29547711424a060b8731e1dd3a7a65d3b master
-inception ${BLOCK_PATH}/inception git@github.com:defn/inception 37169d07b269b61038839be8f189b479f6f03df3 master
+limbo ${BLOCK_PATH}/limbo git@github.com:defn/limbo 5c8a7e021adef14f2f6c6fa2e86c96d16013bc87 master
+inception ${BLOCK_PATH}/inception git@github.com:defn/inception 19286fdb4cbcb45bef8f03ecac3330a2907bebc1 master
 leiningen ${BLOCK_PATH}/leiningen git@github.com:defn/leiningen b9f7c1383fded52e71fb6b292fb2f3d2a2b3ed7e master
 poop ${BLOCK_PATH}/poop git@github.com:defn/poop 300200133ec93cf0576e087928e83d5bd2372e01 master
 postgresql ${BLOCK_PATH}/postgresql git@github.com:defn/postgresql 0f4a6777360dd0322b04b6029bb5cbe6520b6fac master
