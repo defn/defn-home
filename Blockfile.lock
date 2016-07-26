@@ -72,7 +72,7 @@ virtualbox ${BLOCK_PATH}/virtualbox git@github.com:defn/virtualbox 62b6c1c4411a9
 docker-machine ${BLOCK_PATH}/docker-machine git@github.com:defn/docker-machine dc936fdabee12aa888bb282e6036fc09573b5706 master
 docker-compose ${BLOCK_PATH}/docker-compose git@github.com:defn/docker-compose da604da8eb8f2c52bbdf000ed35eaf54400d1421 master
 docker ${BLOCK_PATH}/docker git@github.com:defn/docker 0c5eed4d65b1e4aef47f8862fbb56d1ade98946f master
-limbo ${BLOCK_PATH}/limbo git@github.com:defn/limbo 42ee43d704c09dae46f9f82f44d31f50a1041114 master
+limbo ${BLOCK_PATH}/limbo git@github.com:defn/limbo 2459aa96b72806ff429b441d4527b8c410928c36 master
 inception ${BLOCK_PATH}/inception git@github.com:defn/inception e5ed20278b135cca3ef5431679cf8867aa68e654 master
 leiningen ${BLOCK_PATH}/leiningen git@github.com:defn/leiningen b9f7c1383fded52e71fb6b292fb2f3d2a2b3ed7e master
 poop ${BLOCK_PATH}/poop git@github.com:defn/poop 300200133ec93cf0576e087928e83d5bd2372e01 master
@@ -113,7 +113,7 @@ gpg ${BLOCK_PATH}/gpg git@github.com:defn/gpg 92b0f377c9134ca2a415451febedc3f2d0
 dd-agent ${BLOCK_PATH}/dd-agent git@github.com:defn/dd-agent 123632a6c70cdcd63f1cad4ab0c441b1c024ae3a master
 nexus ${BLOCK_PATH}/nexus git@github.com:defn/nexus 50acf9aa3fc724562cbc9ac8a74886537c31671b master
 aptly ${BLOCK_PATH}/aptly git@github.com:defn/aptly 56306e5b5e549ce609327eeb938e62fd284ee74b master
-teamcity ${BLOCK_PATH}/teamcity git@github.com:defn/teamcity 5caaec188d01598a791202cbd3278cb04eaaecd7 master
+teamcity ${BLOCK_PATH}/teamcity git@github.com:defn/teamcity decee5688df6550f25e2583009687a684887ce40 master
 terraform ${BLOCK_PATH}/terraform git@github.com:defn/terraform e030ac326ba2d8a03cc6393b1ce8d02fe22169d4 master
 module-aws-global ${BLOCK_PATH}/module-aws-global git@github.com:defn/module-aws-global bde6d53313d9317b93bf06ff397157db0e482b5c master
 global-xxx ${BLOCK_PATH}/global-xxx git@github.com:defn/global-xxx 6cd653ee74b766c8a462a293507a44e933870a30 master
