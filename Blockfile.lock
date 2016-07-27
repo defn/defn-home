@@ -18,7 +18,7 @@ bash4 ${BLOCK_PATH}/bash4 git@github.com:defn/bash4 6f1dad2cb42e3066a628fef6d29d
 defn-lang ${BLOCK_PATH}/defn-lang git@github.com:defn/defn-lang eb62ec87b7c0e750088dee8e8cee1e7ca3bf79ca master
 homebrew ${BLOCK_PATH}/homebrew git@github.com:defn/homebrew 2573ef1dfe6e1d7f472012a071e11d81bc96cfe6 master
 defn-osx ${BLOCK_PATH}/defn-osx git@github.com:defn/defn-osx 6f6808eb39de8ee7a6617671fe78217ef45bc40c master
-junas ${BLOCK_PATH}/junas git@github.com:defn/junas 0c27674958656d514d840203babb93715c86f632 master
+junas ${BLOCK_PATH}/junas git@github.com:defn/junas 52ce86ce4c2c437761b9190ef8874dd104abc722 master
 cue ${BLOCK_PATH}/cue git@github.com:defn/cue fca2bac89638ce1ee5b5cb6a318e386a11cc28ed master
 docs ${BLOCK_PATH}/docs git@github.com:defn/docs fa20ad4f1a6e91ca198a737e991ead912f8d4104 master
 scripts-to-rule-them-all ${BLOCK_PATH}/scripts-to-rule-them-all git@github.com:defn/scripts-to-rule-them-all 956b0aeb5af16be9652a5dc84ccf0dd50d344949 master
@@ -72,8 +72,8 @@ virtualbox ${BLOCK_PATH}/virtualbox git@github.com:defn/virtualbox 62b6c1c4411a9
 docker-machine ${BLOCK_PATH}/docker-machine git@github.com:defn/docker-machine dc936fdabee12aa888bb282e6036fc09573b5706 master
 docker-compose ${BLOCK_PATH}/docker-compose git@github.com:defn/docker-compose da604da8eb8f2c52bbdf000ed35eaf54400d1421 master
 docker ${BLOCK_PATH}/docker git@github.com:defn/docker 0c5eed4d65b1e4aef47f8862fbb56d1ade98946f master
-limbo ${BLOCK_PATH}/limbo git@github.com:defn/limbo 2459aa96b72806ff429b441d4527b8c410928c36 master
-inception ${BLOCK_PATH}/inception git@github.com:defn/inception 50c24cc094597148634ae8477ee3972434b735ca master
+limbo ${BLOCK_PATH}/limbo git@github.com:defn/limbo f94f563bf065a3f683eaa9be55249e9c9917e7d0 master
+inception ${BLOCK_PATH}/inception git@github.com:defn/inception 89b84241c1d6def624487bf656aed0b5435b94f0 master
 leiningen ${BLOCK_PATH}/leiningen git@github.com:defn/leiningen b9f7c1383fded52e71fb6b292fb2f3d2a2b3ed7e master
 poop ${BLOCK_PATH}/poop git@github.com:defn/poop 300200133ec93cf0576e087928e83d5bd2372e01 master
 postgresql ${BLOCK_PATH}/postgresql git@github.com:defn/postgresql 0f4a6777360dd0322b04b6029bb5cbe6520b6fac master
