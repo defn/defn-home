@@ -5,6 +5,12 @@ function home_update {
   source "$shome/script/profile"
 
   block compile service
+
+  for a in plane van hotel snow; do
+    for b in virtualbox vmware; do
+      $a $b update
+    done
+  done
 }
 
 home_update "$@"
