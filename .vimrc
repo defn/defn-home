@@ -1,12 +1,6 @@
 " source junas
 source ~/.vim/junas.vimrc
 
-" install whatever bundles over the net
-silent call Bundle(["vim-go", "vim-toml", "vim-clojure-static", "fireplace", "vim-clojure-highlight"])
-silent call Bundle(["dispatch"])
-silent call Bundle(["xoria256", "Solarized"])
-silent call Bundle(["surround", "repeat", "eregex"])
-
 let cue_scheme=$CUE_SCHEME_VIM
 
 if cue_scheme == 'slight'
