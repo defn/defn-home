@@ -1,6 +1,6 @@
 shflags ${BLOCK_PATH}/shflags git@github.com:defn/shflags 2ff91c52a23cf4085ca6a6eae56be17031aeade7 master
 normalize ${BLOCK_PATH}/normalize git@github.com:defn/normalize fc1fb9275392476ad57f28647cf7f79788c636fd master
-sub ${BLOCK_PATH}/sub git@github.com:defn/sub 16a6145372ce426578632bfa4d39c16197ec919c master
+sub ${BLOCK_PATH}/sub git@github.com:defn/sub 0fd7dc9cdb4f3f91db8835e36571d49ffeaf3ebb master
 runmany ${BLOCK_PATH}/runmany git@github.com:defn/runmany 7aa3c9fee92b44d91cedbcceb2c38a657fb8b73c master
 block ${BLOCK_PATH}/block git@github.com:defn/block 1d4fcd279f1dcc69ba2fdaced6b33305da3b272b master
 defn-config ${BLOCK_PATH}/defn-config git@github.com:defn/defn-config 0e0dc6d45d76cdf971c3d3987a8d8f55277cca92 master
@@ -18,7 +18,7 @@ bash4 ${BLOCK_PATH}/bash4 git@github.com:defn/bash4 6f1dad2cb42e3066a628fef6d29d
 defn-lang ${BLOCK_PATH}/defn-lang git@github.com:defn/defn-lang eb62ec87b7c0e750088dee8e8cee1e7ca3bf79ca master
 homebrew ${BLOCK_PATH}/homebrew git@github.com:defn/homebrew 2573ef1dfe6e1d7f472012a071e11d81bc96cfe6 master
 defn-osx ${BLOCK_PATH}/defn-osx git@github.com:defn/defn-osx 6f6808eb39de8ee7a6617671fe78217ef45bc40c master
-junas ${BLOCK_PATH}/junas git@github.com:defn/junas 52ce86ce4c2c437761b9190ef8874dd104abc722 master
+junas ${BLOCK_PATH}/junas git@github.com:defn/junas 281ef8301ec64259bb75d1aed57b6eb03339090a master
 cue ${BLOCK_PATH}/cue git@github.com:defn/cue fca2bac89638ce1ee5b5cb6a318e386a11cc28ed master
 docs ${BLOCK_PATH}/docs git@github.com:defn/docs fa20ad4f1a6e91ca198a737e991ead912f8d4104 master
 scripts-to-rule-them-all ${BLOCK_PATH}/scripts-to-rule-them-all git@github.com:defn/scripts-to-rule-them-all 956b0aeb5af16be9652a5dc84ccf0dd50d344949 master
