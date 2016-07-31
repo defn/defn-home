@@ -61,7 +61,7 @@
     "lock", "rundeck",
     "fluentd", "openresty",
     "ssh-agent", "t",
-    "git-crypt", "bumpversion", "gpg", "dd-agent", "nexus", "aptly", "teamcity", "inventory",
+    "git-crypt", "bumpversion", "gpg", "dd-agent", "nexus", "aptly", "teamcity", "inventory", "aq",
     [
       "env-imma-global",
       "env-imma-admin",
