@@ -6,11 +6,17 @@ function home_update {
 
   block compile service
 
-  for a in plane van hotel snow; do
-    for b in virtualbox vmware; do
-      $a $b update
-    done
-  done
+  local virt_role="$(facts '.virtualization_role')"
+
+  case "$virt_role" in
+    host|"")
+      for a in plane van hotel snow; do
+        for b in virtualbox vmware; do
+          $a $b update
+        done
+      done
+      ;;
+  esac
 }
 
 home_update "$@"
