@@ -73,7 +73,7 @@ docker-machine ${BLOCK_PATH}/docker-machine git@github.com:defn/docker-machine 2
 docker-compose ${BLOCK_PATH}/docker-compose git@github.com:defn/docker-compose 3c76433b11a37875d0898e588f5ec6fa9a23ae79 master
 docker ${BLOCK_PATH}/docker git@github.com:defn/docker 4a5ea651c4fdfbcad9a90acd27cca4b666901f76 master
 limbo ${BLOCK_PATH}/limbo git@github.com:defn/limbo fe05cf02e495dabb3d33a948037d0890df892dc5 master
-inception ${BLOCK_PATH}/inception git@github.com:defn/inception e989bdfeadd0dcb9569fd0bc984bb6228f30321d master
+inception ${BLOCK_PATH}/inception git@github.com:defn/inception 6c26423c377673d2128bfc711f7dcdd4151a8802 master
 leiningen ${BLOCK_PATH}/leiningen git@github.com:defn/leiningen b9f7c1383fded52e71fb6b292fb2f3d2a2b3ed7e master
 poop ${BLOCK_PATH}/poop git@github.com:defn/poop 300200133ec93cf0576e087928e83d5bd2372e01 master
 postgresql ${BLOCK_PATH}/postgresql git@github.com:defn/postgresql 0f4a6777360dd0322b04b6029bb5cbe6520b6fac master
@@ -114,7 +114,7 @@ dd-agent ${BLOCK_PATH}/dd-agent git@github.com:defn/dd-agent 123632a6c70cdcd63f1
 nexus ${BLOCK_PATH}/nexus git@github.com:defn/nexus 50acf9aa3fc724562cbc9ac8a74886537c31671b master
 aptly ${BLOCK_PATH}/aptly git@github.com:defn/aptly 56306e5b5e549ce609327eeb938e62fd284ee74b master
 teamcity ${BLOCK_PATH}/teamcity git@github.com:defn/teamcity decee5688df6550f25e2583009687a684887ce40 master
-inventory ${BLOCK_PATH}/inventory git@github.com:defn/inventory 95d8ff47316fdf59c90f5cccde02db94329bc414 master
+inventory ${BLOCK_PATH}/inventory git@github.com:defn/inventory 602e51f722121ff5ac9750035a9ec1d5d74496cb master
 aq ${BLOCK_PATH}/aq git@github.com:defn/aq 07e9c8fd5aad85e22a2fbe2c4378b17e5326d73e master
 terraform ${BLOCK_PATH}/terraform git@github.com:defn/terraform 2abc76b2c6bd2f722315a203b058a6849779c765 master
 module-aws-global ${BLOCK_PATH}/module-aws-global git@github.com:defn/module-aws-global bde6d53313d9317b93bf06ff397157db0e482b5c master
