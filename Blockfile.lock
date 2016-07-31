@@ -50,7 +50,7 @@ cloud ${BLOCK_PATH}/cloud git@github.com:defn/cloud a99afdc814f2227823d2b69cd997
 service ${BLOCK_PATH}/service git@github.com:defn/service 8b323028bc932bd33bea5f92b2da5fba82ac2093 master
 maven ${BLOCK_PATH}/maven git@github.com:defn/maven c7416a48d1a7e1e4c17d3fed7c5b9404e2d694ce master
 cljs ${BLOCK_PATH}/cljs git@github.com:defn/cljs 4f9e6eecaae665e660dc067dc05f752a23b5b753 master
-apt-mirror ${BLOCK_PATH}/apt-mirror git@github.com:defn/apt-mirror 7da1b62c274810072f02098948edaa44f48af773 master
+apt-mirror ${BLOCK_PATH}/apt-mirror git@github.com:defn/apt-mirror 810761d9c4ef3deff91c43a7bc581a2bb63b8d57 master
 squid ${BLOCK_PATH}/squid git@github.com:defn/squid c32e1e6ddab6799a79926a2391206731c1a06ea0 master
 sinopia ${BLOCK_PATH}/sinopia git@github.com:defn/sinopia 3459a7c38cc258d35269124df7ad682de6a21157 master
 jenkins ${BLOCK_PATH}/jenkins git@github.com:defn/jenkins 51b854579cd042ff549a21ebce34f22b3131cf9a master
@@ -59,7 +59,7 @@ launch-config ${BLOCK_PATH}/launch-config git@github.com:defn/launch-config a8f3
 packer ${BLOCK_PATH}/packer git@github.com:defn/packer c9767606d6a3ed7e108e9e7026cf60bca2704d16 master
 vagrant ${BLOCK_PATH}/vagrant git@github.com:defn/vagrant b416d48fa9639c4bdb44c8a0ab0045e9e45d29db master
 basebox ${BLOCK_PATH}/basebox git@github.com:defn/basebox f6fad3b14b08f3bb01698f57ca1ee3fa1ffa6090 master
-basebox-ubuntu ${BLOCK_PATH}/basebox-ubuntu git@github.com:defn/basebox-ubuntu 00b3b3a5ca359284bac672d79bea8135f4ecba18 master
+basebox-ubuntu ${BLOCK_PATH}/basebox-ubuntu git@github.com:defn/basebox-ubuntu 876a9177d0fcdd5f46aa6b332dd2becd21486de6 master
 basebox-osx ${BLOCK_PATH}/basebox-osx git@github.com:defn/basebox-osx fadad49d79bb531b51ee01dc10dbd71316c0266b master
 vagrant-shell ${BLOCK_PATH}/vagrant-shell git@github.com:defn/vagrant-shell 8c3e0a774e2e1bb8339c66b7fa4bf4f360ef4de3 master
 vagrant-limbo ${BLOCK_PATH}/vagrant-limbo git@github.com:defn/vagrant-limbo 740b29b534cd6ac6a88676e51d1cddbffddffe4d master
