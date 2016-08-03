@@ -8,13 +8,11 @@ function bootstrap_pkgsrc {
   pkg ensure sysutils/e2fsprogs
   pkg ensure sysutils/pv
   pkg ensure sysutils/tree
-  pkg ensure sysutils/pstree
+  pkg ensure misc/figlet
  }
 
 function home_bootstrap {
   local shome="${_defn_home_home:-"$(cd -P -- "${BASH_SOURCE%/*}/.." && pwd -P)"}"
-  source "$shome/script/profile"
-
   source "$shome/script/profile"
 
   bootstrap_pkgsrc
