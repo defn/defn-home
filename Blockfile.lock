@@ -115,7 +115,7 @@ nexus ${BLOCK_PATH}/nexus git@github.com:defn/nexus 50acf9aa3fc724562cbc9ac8a748
 aptly ${BLOCK_PATH}/aptly git@github.com:defn/aptly 56306e5b5e549ce609327eeb938e62fd284ee74b master
 teamcity ${BLOCK_PATH}/teamcity git@github.com:defn/teamcity decee5688df6550f25e2583009687a684887ce40 master
 inventory ${BLOCK_PATH}/inventory git@github.com:defn/inventory e68bccd7f4085778b288fb22efa7bb41ebd0d986 master
-aq ${BLOCK_PATH}/aq git@github.com:defn/aq cd6f28d1b41545f3d162e781f52ac35eb069e6a0 master
+aq ${BLOCK_PATH}/aq git@github.com:defn/aq a4def29c9594cd6049df40a9b7b0efdcf12d6892 master
 terraform ${BLOCK_PATH}/terraform git@github.com:defn/terraform 2abc76b2c6bd2f722315a203b058a6849779c765 master
 module-aws-global ${BLOCK_PATH}/module-aws-global git@github.com:defn/module-aws-global bde6d53313d9317b93bf06ff397157db0e482b5c master
 global-xxx ${BLOCK_PATH}/global-xxx git@github.com:defn/global-xxx 6cd653ee74b766c8a462a293507a44e933870a30 master
