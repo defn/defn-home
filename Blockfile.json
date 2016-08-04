@@ -1,10 +1,12 @@
 {
   "require": [
+    "defn-config",
+    "defn-lang",
+    "block-home",
+    "pl-home",
     [
       "block",
-      "defn-config",
-      "cache",
-      "defn-lang"
+      "cache"
     ],
     [
       "defn-osx",
