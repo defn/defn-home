@@ -18,61 +18,38 @@
       "scripts-to-rule-them-all",
       "block-shortcuts",
       "board",
-      "kit",
-      "runit"
+      "kit"
     ],
     [
-      "xcode",
-      "tunnelblick"
+      "runit",
+      "htop"
     ],
-    [
+    [ 
       "defn",
       "runmany",
       "deploy",
       "context",
-      "htop",
       "github",
-      "facts",
-      "ansible"
+      "facts"
     ],
     [
       "cloud",
       "inception"
     ],
     [
-      "leiningen",
       "poop",
-      "phoenix",
-      "letsencrypt",
       "lamda"
     ],
     [
       "it",
       "defn.github.io"
     ],
-    [
-      "isomorphic-clojurescript-reagent-node",
-      "rust",
-      "cljs",
-      "linkerd",
-      "rethinkdb"
-    ],
+    "isomorphic-clojurescript-reagent-node",
     "iamdefn/voltron",
-    "webterm",
-    "awesome",
-    "lock", "rundeck",
-    "fluentd", "openresty",
-    "ssh-agent", "t",
-    "git-crypt", "bumpversion", "gpg", "dd-agent", "nexus", "aptly", "teamcity", "inventory", "aq",
-    [
-      "env-imma-global",
-      "env-imma-admin",
-      "env-imma-admin-nat",
-      "env-imma-admin-shared",
-      "env-imma-dev",
-      "env-imma-dev-nat",
-      "env-imma-dev-shared"
-    ]
+    "t",
+    "security",
+    "bumpversion", "aqq",
+    "imma"
   ],
   "run": {
     "squid": {},
