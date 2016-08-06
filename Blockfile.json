@@ -6,7 +6,8 @@
     "pl-home",
     [
       "block",
-      "cache"
+      "cache",
+      "normalize"
     ],
     [
       "defn-osx",
