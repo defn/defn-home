@@ -20,10 +20,6 @@
       "board",
       "kit"
     ],
-    [
-      "runit",
-      "htop"
-    ],
     [ 
       "defn",
       "runmany",
@@ -48,6 +44,7 @@
     "iamdefn/voltron",
     "t",
     "security",
+    "inspect",
     "console",
     "bumpversion",
     "imma"

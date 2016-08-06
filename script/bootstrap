@@ -2,8 +2,6 @@
 
 function bootstrap_pkgsrc {
   pkg ensure chat/irssi
-  pkg ensure x11/xtermset || true
-  pkg ensure misc/watch
   pkg ensure sysutils/e2fsprogs
   pkg ensure sysutils/tree
  }
