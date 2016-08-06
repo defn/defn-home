@@ -1,10 +1,9 @@
 #!/usr/bin/env bash
 
-umask 022
-
 function main {
   local shome="${_defn_home_home:-"$(cd -P -- "${BASH_SOURCE%/*}/.." && pwd -P)"}"
   source "$shome/script/profile"
+  source normalize
 
   if [[ -f "$shome/.ssh-agent" ]]; then
     source "$shome/.ssh-agent"

@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
 
-umask 022
-
 function main {
   local shome="${_defn_home_home:-"$(cd -P -- "${BASH_SOURCE%/*}/.." && pwd -P)"}"
   PATH="$shome/bin:$shome/exec:$PATH"
+
   source "$shome/script/profile"
+  source normalize
 }
 
 source sub "$BASH_SOURCE" "$@"
