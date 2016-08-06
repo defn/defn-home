@@ -15,9 +15,9 @@ block-home ${BLOCK_PATH}/block-home git@github.com:defn/block-home 3904d86c7f9aa
 pl-home ${BLOCK_PATH}/pl-home git@github.com:defn/pl-home 5fdfcb22db48ea064dd40f6fb0677e7243076e65 master
 shflags ${BLOCK_PATH}/shflags git@github.com:defn/shflags 2ff91c52a23cf4085ca6a6eae56be17031aeade7 master
 normalize ${BLOCK_PATH}/normalize git@github.com:defn/normalize fc1fb9275392476ad57f28647cf7f79788c636fd master
-sub ${BLOCK_PATH}/sub git@github.com:defn/sub 5a24d65f6541b5082e42aed07ccd5776f28d9f3e master
+sub ${BLOCK_PATH}/sub git@github.com:defn/sub 0f9f0877707855593bb01ef8b074eb56b199e21d master
 runmany ${BLOCK_PATH}/runmany git@github.com:defn/runmany 7aa3c9fee92b44d91cedbcceb2c38a657fb8b73c master
-block ${BLOCK_PATH}/block git@github.com:defn/block 1d4fcd279f1dcc69ba2fdaced6b33305da3b272b master
+block ${BLOCK_PATH}/block git@github.com:defn/block 6740e3c0ec32a18654254c3bbfc395dd6fa88594 master
 homebrew ${BLOCK_PATH}/homebrew git@github.com:defn/homebrew 2573ef1dfe6e1d7f472012a071e11d81bc96cfe6 master
 xcode ${BLOCK_PATH}/xcode git@github.com:defn/xcode ede3f23dd00d0b580b6b9b5f0b802f7596b209c3 master
 tunnelblick ${BLOCK_PATH}/tunnelblick git@github.com:defn/tunnelblick 80628958928fc486f9ec14acc68f6362bf25a4d3 master
@@ -104,7 +104,7 @@ lock ${BLOCK_PATH}/lock git@github.com:defn/lock 1445412c88f9693aed372629eb238bb
 security ${BLOCK_PATH}/security git@github.com:defn/security ac4ce3869857b91e3d56fc8ec7cc9c514f7ac8af master
 bumpversion ${BLOCK_PATH}/bumpversion git@github.com:defn/bumpversion df02bb3db98834a088352c482222ddc0cad1174c master
 awesome ${BLOCK_PATH}/awesome git@github.com:defn/awesome 1cccd8a3dc92248828404506c5223485b6f8988f master
-terraform ${BLOCK_PATH}/terraform git@github.com:defn/terraform 2abc76b2c6bd2f722315a203b058a6849779c765 master
+terraform ${BLOCK_PATH}/terraform git@github.com:defn/terraform 26186f25abf843e565d9329df6fb326b55f35ed0 master
 module-aws-global ${BLOCK_PATH}/module-aws-global git@github.com:defn/module-aws-global bde6d53313d9317b93bf06ff397157db0e482b5c master
 global-xxx ${BLOCK_PATH}/global-xxx git@github.com:defn/global-xxx 6cd653ee74b766c8a462a293507a44e933870a30 master
 module-aws-vpc ${BLOCK_PATH}/module-aws-vpc git@github.com:defn/module-aws-vpc 17660f87a423d8b8de86cd1b395dc0d7592a5550 master
@@ -127,4 +127,4 @@ env-imma-admin-shared ${BLOCK_PATH}/env-imma-admin-shared git@github.com:defn/en
 env-imma-dev ${BLOCK_PATH}/env-imma-dev git@github.com:defn/env-imma-dev 17f594424977ea4ae82ca9347588cc6a91fce5a6 master
 env-imma-dev-nat ${BLOCK_PATH}/env-imma-dev-nat git@github.com:defn/env-imma-dev-nat 761da0d3cbaa42d68ca5596b72e4b7f8055a0191 master
 env-imma-dev-shared ${BLOCK_PATH}/env-imma-dev-shared git@github.com:defn/env-imma-dev-shared 5e6e19402a5d409e881972250e79d4c81bebe5b0 master
-imma ${BLOCK_PATH}/imma git@github.com:defn/imma 0471be2d980206fefcb6fe529d489731d2719ef9 master
+imma ${BLOCK_PATH}/imma git@github.com:defn/imma 212833cfd1a327627d068f37fcbd276ef2e2c8c9 master
