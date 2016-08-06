@@ -15,7 +15,7 @@ block-home ${BLOCK_PATH}/block-home git@github.com:defn/block-home 3904d86c7f9aa
 pl-home ${BLOCK_PATH}/pl-home git@github.com:defn/pl-home 5fdfcb22db48ea064dd40f6fb0677e7243076e65 master
 shflags ${BLOCK_PATH}/shflags git@github.com:defn/shflags 2ff91c52a23cf4085ca6a6eae56be17031aeade7 master
 normalize ${BLOCK_PATH}/normalize git@github.com:defn/normalize fc1fb9275392476ad57f28647cf7f79788c636fd master
-sub ${BLOCK_PATH}/sub git@github.com:defn/sub 0fd7dc9cdb4f3f91db8835e36571d49ffeaf3ebb master
+sub ${BLOCK_PATH}/sub git@github.com:defn/sub 5a24d65f6541b5082e42aed07ccd5776f28d9f3e master
 runmany ${BLOCK_PATH}/runmany git@github.com:defn/runmany 7aa3c9fee92b44d91cedbcceb2c38a657fb8b73c master
 block ${BLOCK_PATH}/block git@github.com:defn/block 1d4fcd279f1dcc69ba2fdaced6b33305da3b272b master
 homebrew ${BLOCK_PATH}/homebrew git@github.com:defn/homebrew 2573ef1dfe6e1d7f472012a071e11d81bc96cfe6 master
@@ -42,9 +42,7 @@ deploy ${BLOCK_PATH}/deploy git@github.com:defn/deploy 5b7ff9c94260c8ffa3da93a94
 context ${BLOCK_PATH}/context git@github.com:defn/context b91c4b594765eeade11411ce0f4f13fd7d3dd82e master
 git ${BLOCK_PATH}/git git@github.com:defn/git 2d1435c2f0f926ec7c442108df45d14b8ae28e54 master
 go ${BLOCK_PATH}/go git@github.com:defn/go e3a7c70cff02338307e76abaa6ddc8f056487299 master
-minimal-block ${BLOCK_PATH}/minimal-block git@github.com:defn/minimal-block 1ecb0a9bc555bc3a57b6b69c319cee7810445cf6 master
-minimal-app ${BLOCK_PATH}/minimal-app git@github.com:defn/minimal-app a25ea711dfb2d80b7045efb8471e4f6473ea6681 master
-github ${BLOCK_PATH}/github git@github.com:defn/github a05f299a179689a8034d6cc53a2961aeccc763c9 master
+github ${BLOCK_PATH}/github git@github.com:defn/github dc087c7fbf3b9e6629b039d5359958e7d921edbc master
 chef ${BLOCK_PATH}/chef git@github.com:defn/chef 0c2adeb4e00783201605a56eea5968ff3308e8b1 master
 facts ${BLOCK_PATH}/facts git@github.com:defn/facts b8d7030ba52440aa0f5f51aeaea96fd08c78a2ea master
 parity ${BLOCK_PATH}/parity git@github.com:defn/parity a263b68c89234956b54a287302b22c0160a7bdb5 master
@@ -105,6 +103,7 @@ letsencrypt ${BLOCK_PATH}/letsencrypt git@github.com:defn/letsencrypt 25752a8b31
 lock ${BLOCK_PATH}/lock git@github.com:defn/lock 1445412c88f9693aed372629eb238bb9e925f9e4 master
 security ${BLOCK_PATH}/security git@github.com:defn/security ac4ce3869857b91e3d56fc8ec7cc9c514f7ac8af master
 bumpversion ${BLOCK_PATH}/bumpversion git@github.com:defn/bumpversion df02bb3db98834a088352c482222ddc0cad1174c master
+awesome ${BLOCK_PATH}/awesome git@github.com:defn/awesome 1cccd8a3dc92248828404506c5223485b6f8988f master
 terraform ${BLOCK_PATH}/terraform git@github.com:defn/terraform 2abc76b2c6bd2f722315a203b058a6849779c765 master
 module-aws-global ${BLOCK_PATH}/module-aws-global git@github.com:defn/module-aws-global bde6d53313d9317b93bf06ff397157db0e482b5c master
 global-xxx ${BLOCK_PATH}/global-xxx git@github.com:defn/global-xxx 6cd653ee74b766c8a462a293507a44e933870a30 master
