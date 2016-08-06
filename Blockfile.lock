@@ -102,6 +102,7 @@ ssh-agent ${BLOCK_PATH}/ssh-agent git@github.com:defn/ssh-agent 88798c4ad32b3f16
 letsencrypt ${BLOCK_PATH}/letsencrypt git@github.com:defn/letsencrypt 25752a8b311b61b98adf68ddd900f2fb592a0c82 master
 lock ${BLOCK_PATH}/lock git@github.com:defn/lock 1445412c88f9693aed372629eb238bb9e925f9e4 master
 security ${BLOCK_PATH}/security git@github.com:defn/security ac4ce3869857b91e3d56fc8ec7cc9c514f7ac8af master
+console ${BLOCK_PATH}/console git@github.com:defn/console cb0a2a3a059b832af85346b5b8f8998f7ae98dc2 master
 bumpversion ${BLOCK_PATH}/bumpversion git@github.com:defn/bumpversion df02bb3db98834a088352c482222ddc0cad1174c master
 awesome ${BLOCK_PATH}/awesome git@github.com:defn/awesome 1cccd8a3dc92248828404506c5223485b6f8988f master
 terraform ${BLOCK_PATH}/terraform git@github.com:defn/terraform 26186f25abf843e565d9329df6fb326b55f35ed0 master

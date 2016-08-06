@@ -48,6 +48,7 @@
     "iamdefn/voltron",
     "t",
     "security",
+    "console",
     "bumpversion",
     "imma"
   ],
