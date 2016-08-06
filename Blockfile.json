@@ -48,7 +48,7 @@
     "iamdefn/voltron",
     "t",
     "security",
-    "bumpversion", "aqq",
+    "bumpversion",
     "imma"
   ],
   "run": {
