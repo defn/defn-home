@@ -32,7 +32,7 @@ function configure_cue {
 
 function source_blocks {
   source "$shome/work/block/script/profile" "$shome"
-  block emit > $shome/.bashrc.cache.$$
+  block gen profile > $shome/.bashrc.cache.$$
   mv $shome/.bashrc.cache.$$ $shome/.bashrc.cache
 }
 
@@ -64,4 +64,4 @@ function setup {
   fi
 }
 
-setup
+time setup
