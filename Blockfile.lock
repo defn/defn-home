@@ -17,7 +17,7 @@ shflags ${BLOCK_PATH}/shflags git@github.com:defn/shflags d2d0a410187d8c1e76b5fd
 normalize ${BLOCK_PATH}/normalize git@github.com:defn/normalize b156ba1ec79f2da218d463c9b86f4192bcbeab54 master
 sub ${BLOCK_PATH}/sub git@github.com:defn/sub 64325a72e94306ae5d6fe4cd4304e1246e3a2954 master
 runmany ${BLOCK_PATH}/runmany git@github.com:defn/runmany 83214538c0e90b1244cd8bfbb8c8d3aef7d11c19 master
-block ${BLOCK_PATH}/block git@github.com:defn/block 64e32af9ae15b4fed801db857cd7574222bc2b5f master
+block ${BLOCK_PATH}/block git@github.com:defn/block 7673aedd075bd2781eaf1a5bcee3455ec3f3ebb9 master
 homebrew ${BLOCK_PATH}/homebrew git@github.com:defn/homebrew a7997c72f29b3d87dc7accbac934314522495083 master
 xcode ${BLOCK_PATH}/xcode git@github.com:defn/xcode d2c041d38f4655e172b349c430d263c4f6920ed0 master
 tunnelblick ${BLOCK_PATH}/tunnelblick git@github.com:defn/tunnelblick 7f84abaaff6edc0c695f8f8db214e58848d02eda master
@@ -27,12 +27,12 @@ defn-osx ${BLOCK_PATH}/defn-osx git@github.com:defn/defn-osx cf48ea08e37c1cc411d
 junas ${BLOCK_PATH}/junas git@github.com:defn/junas 772dc562a9cb4009e988fa3afbc60c1dc8218c7a master
 cue ${BLOCK_PATH}/cue git@github.com:defn/cue 0083766ab6b26cf83c767c5fee32db4aa0ea9fd3 master
 docs ${BLOCK_PATH}/docs git@github.com:defn/docs 5c0a2287aa74533fffe361196cc42f67131d9ccb master
-scripts-to-rule-them-all ${BLOCK_PATH}/scripts-to-rule-them-all git@github.com:defn/scripts-to-rule-them-all 58c5661846ff1909762c4c03a12c355b2c718ec0 master
+scripts-to-rule-them-all ${BLOCK_PATH}/scripts-to-rule-them-all git@github.com:defn/scripts-to-rule-them-all 36a4a9c1a2724b49af970473e21c110c5d6d5460 master
 block-shortcuts ${BLOCK_PATH}/block-shortcuts git@github.com:defn/block-shortcuts a798b5df90d6ac46713133b9d1f42577a09e0761 master
 board ${BLOCK_PATH}/board git@github.com:defn/board 303ebb09a1cefd336dda8a89f561045f0a26a40d master
 kit ${BLOCK_PATH}/kit git@github.com:defn/kit a2d205c05d8fb8c6ae68eb9d1f943600e8e58f48 master
 talign ${BLOCK_PATH}/talign git@github.com:defn/talign 1db084ed06de0c10679e2384c8f88be047934909 master
-defn ${BLOCK_PATH}/defn git@github.com:defn/defn 8341502a7c54b5f31b62dea056f7d69786cb8942 master
+defn ${BLOCK_PATH}/defn git@github.com:defn/defn a2b8e5455d2aa0a2bd6bc9c3b0daceddc153a40d master
 jq ${BLOCK_PATH}/jq git@github.com:defn/jq 43643184f952e58edfd09a2a105e48e5fb5f39d5 master
 ansible ${BLOCK_PATH}/ansible git@github.com:defn/ansible 1b34e0ec72b8f59a844f6b4eea14e6f83b2dd61f master
 aq ${BLOCK_PATH}/aq git@github.com:defn/aq 2805fa1fe74e728e25e2752addea5d6e219dd62c master
