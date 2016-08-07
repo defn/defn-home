@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-function profile {
+function _defn_home_profile {
   local shome="${_defn_home_home:-"$(cd -P -- "${BASH_SOURCE%/*}/.." && pwd -P)"}"
   PATH="$shome/bin:$shome/exec:$PATH"
 
@@ -9,4 +9,4 @@ function profile {
   source "$shome/script/rc"
 }
 
-profile
+_defn_home_profile
