@@ -112,6 +112,7 @@
 # ubuntu
 /.aptitude
 /.cache
+/.bashrc.cache
 
 # tugboat
 /.tugboat
