@@ -17,7 +17,7 @@ shflags ${BLOCK_PATH}/shflags git@github.com:defn/shflags d2d0a410187d8c1e76b5fd
 normalize ${BLOCK_PATH}/normalize git@github.com:defn/normalize b156ba1ec79f2da218d463c9b86f4192bcbeab54 master
 sub ${BLOCK_PATH}/sub git@github.com:defn/sub 64325a72e94306ae5d6fe4cd4304e1246e3a2954 master
 runmany ${BLOCK_PATH}/runmany git@github.com:defn/runmany 83214538c0e90b1244cd8bfbb8c8d3aef7d11c19 master
-block ${BLOCK_PATH}/block git@github.com:defn/block b1afd7c40d54509851d59f512ac90b72c682bf26 master
+block ${BLOCK_PATH}/block git@github.com:defn/block 996623cc64feeceb40aec0a7d4a63c19b53fae0d master
 homebrew ${BLOCK_PATH}/homebrew git@github.com:defn/homebrew a7997c72f29b3d87dc7accbac934314522495083 master
 xcode ${BLOCK_PATH}/xcode git@github.com:defn/xcode d2c041d38f4655e172b349c430d263c4f6920ed0 master
 tunnelblick ${BLOCK_PATH}/tunnelblick git@github.com:defn/tunnelblick 7f84abaaff6edc0c695f8f8db214e58848d02eda master
@@ -106,7 +106,7 @@ inspect ${BLOCK_PATH}/inspect git@github.com:defn/inspect 570edbf1b449622ba7b685
 console ${BLOCK_PATH}/console git@github.com:defn/console 5b204bfca0d501290603b55f8a83117e85b62713 master
 bumpversion ${BLOCK_PATH}/bumpversion git@github.com:defn/bumpversion df02bb3db98834a088352c482222ddc0cad1174c master
 awesome ${BLOCK_PATH}/awesome git@github.com:defn/awesome 775a281d2bd2f005f86a06b1d0a2425958eea3af master
-terraform ${BLOCK_PATH}/terraform git@github.com:defn/terraform b8af2dce59312c924e7c67fed7a88796ac570b47 master
+terraform ${BLOCK_PATH}/terraform git@github.com:defn/terraform 658f58e4f5791ef37c731566b589dc6a937c9c91 master
 module-aws-global ${BLOCK_PATH}/module-aws-global git@github.com:defn/module-aws-global bde6d53313d9317b93bf06ff397157db0e482b5c master
 global-xxx ${BLOCK_PATH}/global-xxx git@github.com:defn/global-xxx 6cd653ee74b766c8a462a293507a44e933870a30 master
 module-aws-vpc ${BLOCK_PATH}/module-aws-vpc git@github.com:defn/module-aws-vpc 17660f87a423d8b8de86cd1b395dc0d7592a5550 master
