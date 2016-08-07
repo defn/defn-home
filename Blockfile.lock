@@ -17,7 +17,7 @@ shflags ${BLOCK_PATH}/shflags git@github.com:defn/shflags d2d0a410187d8c1e76b5fd
 normalize ${BLOCK_PATH}/normalize git@github.com:defn/normalize b156ba1ec79f2da218d463c9b86f4192bcbeab54 master
 sub ${BLOCK_PATH}/sub git@github.com:defn/sub 64325a72e94306ae5d6fe4cd4304e1246e3a2954 master
 runmany ${BLOCK_PATH}/runmany git@github.com:defn/runmany 83214538c0e90b1244cd8bfbb8c8d3aef7d11c19 master
-block ${BLOCK_PATH}/block git@github.com:defn/block 7673aedd075bd2781eaf1a5bcee3455ec3f3ebb9 master
+block ${BLOCK_PATH}/block git@github.com:defn/block b1afd7c40d54509851d59f512ac90b72c682bf26 master
 homebrew ${BLOCK_PATH}/homebrew git@github.com:defn/homebrew a7997c72f29b3d87dc7accbac934314522495083 master
 xcode ${BLOCK_PATH}/xcode git@github.com:defn/xcode d2c041d38f4655e172b349c430d263c4f6920ed0 master
 tunnelblick ${BLOCK_PATH}/tunnelblick git@github.com:defn/tunnelblick 7f84abaaff6edc0c695f8f8db214e58848d02eda master
@@ -63,7 +63,7 @@ packer ${BLOCK_PATH}/packer git@github.com:defn/packer 5791558560a897562fd76687a
 vagrant ${BLOCK_PATH}/vagrant git@github.com:defn/vagrant 8dba0891402f630bee924e395c409ebb2017ecdf master
 basebox ${BLOCK_PATH}/basebox git@github.com:defn/basebox 8b7815913999e9ffde16858de44587391ba53452 master
 basebox-ubuntu ${BLOCK_PATH}/basebox-ubuntu git@github.com:defn/basebox-ubuntu a09811f8fa2040c31ff11319344c24f009a1cfe7 master
-basebox-osx ${BLOCK_PATH}/basebox-osx git@github.com:defn/basebox-osx 31d2641cdd27e6c380628e65d7dd4b6c6bf1a392 master
+basebox-osx ${BLOCK_PATH}/basebox-osx git@github.com:defn/basebox-osx fbaa540b290de37e07da36c87b210f0402a56840 master
 vagrant-shell ${BLOCK_PATH}/vagrant-shell git@github.com:defn/vagrant-shell 5f270ad4eb31fb5eeccac50ac5e9904189cadb0e master
 vagrant-limbo ${BLOCK_PATH}/vagrant-limbo git@github.com:defn/vagrant-limbo 740b29b534cd6ac6a88676e51d1cddbffddffe4d master
 consul ${BLOCK_PATH}/consul git@github.com:defn/consul 2a56a22ab283462b20050994627541fb3348a362 master

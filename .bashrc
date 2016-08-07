@@ -36,11 +36,12 @@ function bashrc {
   local shome="${_defn_home_home:-"$(cd -P -- "$(dirname "${BASH_SOURCE}")" && pwd -P)"}"
 
   if [[ -f "$shome/.bashrc.cache" ]]; then
-    source "$shome/.bashrc.cache" profile
+    source "$shome/.bashrc.cache"
+    _profile
   else
     source "$shome/work/block/script/profile" "$shome"
-    #block emit > $shome/.bashrc.cache.$$
-    #mv $shome/.bashrc.cache.$$ $shome/.bashrc.cache
+    block emit > $shome/.bashrc.cache.$$
+    mv $shome/.bashrc.cache.$$ $shome/.bashrc.cache
   fi
 
   if tty >/dev/null 2>&1; then
