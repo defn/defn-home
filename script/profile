@@ -5,6 +5,8 @@ function profile {
   PATH="$shome/bin:$shome/exec:$PATH"
 
   export SVDIR="$shome/service"
+
+  source "$shome/script/rc"
 }
 
 profile

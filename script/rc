@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+function nodebug {
+  unset DEBUG
+}
+
+function debug {
+  export DEBUG=1
+}
