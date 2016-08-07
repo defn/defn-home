@@ -30,16 +30,26 @@ function configure_cue {
   esac
 }
 
+function source_blocks {
+  source "$shome/work/block/script/profile" "$shome"
+  block emit > $shome/.bashrc.cache.$$
+  mv $shome/.bashrc.cache.$$ $shome/.bashrc.cache
+}
+
+function source_cache {
+  source "$shome/.bashrc.cache"
+  _profile
+}
+
 function bashrc {
   local shome="${_defn_home_home:-"$(cd -P -- "$(dirname "${BASH_SOURCE}")" && pwd -P)"}"
 
   if [[ -f "$shome/.bashrc.cache" ]]; then
-    source "$shome/.bashrc.cache"
-    _profile
+    if ! source_cache; then
+      source_blocks
+    fi
   else
-    source "$shome/work/block/script/profile" "$shome"
-    block emit > $shome/.bashrc.cache.$$
-    mv $shome/.bashrc.cache.$$ $shome/.bashrc.cache
+    source_blocks
   fi
 
   if tty >/dev/null 2>&1; then
@@ -54,4 +64,4 @@ function setup {
   fi
 }
 
-time setup
+setup
