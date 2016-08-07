@@ -1,5 +1,3 @@
-PATH="$(echo $PATH | tr ':' '\n' | uniq | grep -v "$HOME" | grep -v "${PKG_HOME:-dont-find-anything}" | perl -ne 'm{^\s*$} && next; s{\s*$}{:}; print')"
-
 function configure_cue {
   case "${TERM:-}" in
     screen*)
@@ -49,6 +47,11 @@ function bashrc {
   fi
 }
 
-if [[ -z "${BLOCK_PATH:-}" || "${BLOCK_PATH:-}" == "$HOME/work" ]]; then
-  bashrc || echo WARNING: "Something's wrong with .bashrc"
-fi
+function setup {
+  PATH="$(echo $PATH | tr ':' '\n' | uniq | grep -v "$HOME" | grep -v "${PKG_HOME:-dont-find-anything}" | perl -ne 'm{^\s*$} && next; s{\s*$}{:}; print')"
+  if [[ -z "${BLOCK_PATH:-}" || "${BLOCK_PATH:-}" == "$HOME/work" ]]; then
+    bashrc || echo WARNING: "Something's wrong with .bashrc"
+  fi
+}
+
+time setup
