@@ -65,3 +65,4 @@ function setup {
 }
 
 time setup
+source ~/exec/home_secret
