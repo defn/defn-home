@@ -105,7 +105,7 @@ security ${BLOCK_PATH}/security git@github.com:defn/security ac4ce3869857b91e3d5
 inspect ${BLOCK_PATH}/inspect git@github.com:defn/inspect 570edbf1b449622ba7b68501eca3d8b819fc069d master
 console ${BLOCK_PATH}/console git@github.com:defn/console 5b204bfca0d501290603b55f8a83117e85b62713 master
 bumpversion ${BLOCK_PATH}/bumpversion git@github.com:defn/bumpversion df02bb3db98834a088352c482222ddc0cad1174c master
-awesome ${BLOCK_PATH}/awesome git@github.com:defn/awesome 1cccd8a3dc92248828404506c5223485b6f8988f master
+awesome ${BLOCK_PATH}/awesome git@github.com:defn/awesome 775a281d2bd2f005f86a06b1d0a2425958eea3af master
 terraform ${BLOCK_PATH}/terraform git@github.com:defn/terraform 658f58e4f5791ef37c731566b589dc6a937c9c91 master
 module-aws-global ${BLOCK_PATH}/module-aws-global git@github.com:defn/module-aws-global bde6d53313d9317b93bf06ff397157db0e482b5c master
 global-xxx ${BLOCK_PATH}/global-xxx git@github.com:defn/global-xxx 6cd653ee74b766c8a462a293507a44e933870a30 master
