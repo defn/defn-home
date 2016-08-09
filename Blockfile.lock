@@ -27,7 +27,7 @@ defn-osx ${BLOCK_PATH}/defn-osx git@github.com:defn/defn-osx cf48ea08e37c1cc411d
 junas ${BLOCK_PATH}/junas git@github.com:defn/junas f1e09d04a19509f94b05581636e07ebd477ed714 master
 cue ${BLOCK_PATH}/cue git@github.com:defn/cue 0083766ab6b26cf83c767c5fee32db4aa0ea9fd3 master
 docs ${BLOCK_PATH}/docs git@github.com:defn/docs 5c0a2287aa74533fffe361196cc42f67131d9ccb master
-scripts-to-rule-them-all ${BLOCK_PATH}/scripts-to-rule-them-all git@github.com:defn/scripts-to-rule-them-all 36a4a9c1a2724b49af970473e21c110c5d6d5460 master
+scripts-to-rule-them-all ${BLOCK_PATH}/scripts-to-rule-them-all git@github.com:defn/scripts-to-rule-them-all 102a9601c8c34c31a165fe114339c8dfa6c766f2 master
 block-shortcuts ${BLOCK_PATH}/block-shortcuts git@github.com:defn/block-shortcuts a798b5df90d6ac46713133b9d1f42577a09e0761 master
 board ${BLOCK_PATH}/board git@github.com:defn/board 303ebb09a1cefd336dda8a89f561045f0a26a40d master
 kit ${BLOCK_PATH}/kit git@github.com:defn/kit a2d205c05d8fb8c6ae68eb9d1f943600e8e58f48 master
@@ -41,7 +41,7 @@ inventory ${BLOCK_PATH}/inventory git@github.com:defn/inventory 3d325d9c45b76bff
 deploy ${BLOCK_PATH}/deploy git@github.com:defn/deploy 1af5bbade8957c9efbafbb2849de9804752a8899 master
 context ${BLOCK_PATH}/context git@github.com:defn/context 3a3db97712df8212f5bf1f57aeab70e932b21578 master
 git ${BLOCK_PATH}/git git@github.com:defn/git f75bb94c57a4bc8cd3d161a07d600e93c796fb6c master
-go ${BLOCK_PATH}/go git@github.com:defn/go ca32b8a8b98f5b50c71501d0efa9922076b537ad master
+go ${BLOCK_PATH}/go git@github.com:defn/go 3109408b379d4587bbe9b4be42d6504165021ed7 master
 github ${BLOCK_PATH}/github git@github.com:defn/github e6cf621cedb75aea0f3bf2a1aba0f23de91a4776 master
 chef ${BLOCK_PATH}/chef git@github.com:defn/chef 5e65644ffe71d0e1c6ba9e3b92f4fae1e786fa45 master
 facts ${BLOCK_PATH}/facts git@github.com:defn/facts f65c5af8dc571575bfd39ca839ddb7b496caa8be master
@@ -56,7 +56,7 @@ cljs ${BLOCK_PATH}/cljs git@github.com:defn/cljs b8c69bfd5f723d40e3eebaf6c491919
 apt-mirror ${BLOCK_PATH}/apt-mirror git@github.com:defn/apt-mirror 1bf31ff80cbd1ef9f4891e37fb2ace86b61ed36c master
 squid ${BLOCK_PATH}/squid git@github.com:defn/squid 0fd60074e396a5857c5fa8b9c834b3657fced01b master
 sinopia ${BLOCK_PATH}/sinopia git@github.com:defn/sinopia 0e7a28a28eaecaa02aa46a367d3f516c487b9a5c master
-jenkins ${BLOCK_PATH}/jenkins git@github.com:defn/jenkins 4499caab73be087af20139cb75d00261c376cb22 master
+jenkins ${BLOCK_PATH}/jenkins git@github.com:defn/jenkins 20a8a5d342ee49ba70dd154222578ed910ec5744 master
 artifacts ${BLOCK_PATH}/artifacts git@github.com:defn/artifacts 3a47658b6a0f689ba9ad4e58aa50cfdcf308e122 master
 launch-config ${BLOCK_PATH}/launch-config git@github.com:defn/launch-config 7982b6a216c9745db348e4aff3efe72b2da23949 master
 packer ${BLOCK_PATH}/packer git@github.com:defn/packer 5791558560a897562fd76687ae3c22d3c9747e20 master
@@ -96,7 +96,7 @@ iamdefn/earth ${BLOCK_PATH}/earth git@github.com:iamdefn/earth 93e90800af8ba9e93
 iamdefn/yellow ${BLOCK_PATH}/yellow git@github.com:iamdefn/yellow 9951f4b4c6262e420696d22c190f6115df557b32 master
 iamdefn/voltron ${BLOCK_PATH}/voltron git@github.com:iamdefn/voltron 9044b07d70c207fa75f3c6bd77277734b7023d63 master
 t ${BLOCK_PATH}/t git@github.com:defn/t a82d0cfdc260f23c2f28c03580c7086f27f63255 master
-git-crypt ${BLOCK_PATH}/git-crypt git@github.com:defn/git-crypt 116ff08cffc4c239810fb01c70f7b63f7bb1f344 master
+git-crypt ${BLOCK_PATH}/git-crypt git@github.com:defn/git-crypt 526837cef204a7f79f1dced59d1d49f4ce9b9db3 master
 gpg ${BLOCK_PATH}/gpg git@github.com:defn/gpg 92b0f377c9134ca2a415451febedc3f2d08d1828 master
 ssh-agent ${BLOCK_PATH}/ssh-agent git@github.com:defn/ssh-agent 88798c4ad32b3f1621ae5af4af2df6326ffd183b master
 letsencrypt ${BLOCK_PATH}/letsencrypt git@github.com:defn/letsencrypt 61203ac37e6a249e5635525aec012bd4c251769a master
@@ -129,4 +129,4 @@ env-imma-admin-shared ${BLOCK_PATH}/env-imma-admin-shared git@github.com:defn/en
 env-imma-dev ${BLOCK_PATH}/env-imma-dev git@github.com:defn/env-imma-dev 17f594424977ea4ae82ca9347588cc6a91fce5a6 master
 env-imma-dev-nat ${BLOCK_PATH}/env-imma-dev-nat git@github.com:defn/env-imma-dev-nat 761da0d3cbaa42d68ca5596b72e4b7f8055a0191 master
 env-imma-dev-shared ${BLOCK_PATH}/env-imma-dev-shared git@github.com:defn/env-imma-dev-shared 5e6e19402a5d409e881972250e79d4c81bebe5b0 master
-imma ${BLOCK_PATH}/imma git@github.com:defn/imma 5cdf21d382691fefd62427d96c51e47f0c078892 master
+imma ${BLOCK_PATH}/imma git@github.com:defn/imma 0ec06b6ce26f580f861f0da582962c60994914fb master
