@@ -15,7 +15,7 @@ block-home ${BLOCK_PATH}/block-home git@github.com:defn/block-home 3904d86c7f9aa
 pl-home ${BLOCK_PATH}/pl-home git@github.com:defn/pl-home 5fdfcb22db48ea064dd40f6fb0677e7243076e65 master
 shflags ${BLOCK_PATH}/shflags git@github.com:defn/shflags d2d0a410187d8c1e76b5fd679f8a5691ab726d9e master
 normalize ${BLOCK_PATH}/normalize git@github.com:defn/normalize b156ba1ec79f2da218d463c9b86f4192bcbeab54 master
-sub ${BLOCK_PATH}/sub git@github.com:defn/sub 64325a72e94306ae5d6fe4cd4304e1246e3a2954 master
+sub ${BLOCK_PATH}/sub git@github.com:defn/sub 92f8e3f25588d0d8aeb07558710514010b7d255b master
 runmany ${BLOCK_PATH}/runmany git@github.com:defn/runmany 83214538c0e90b1244cd8bfbb8c8d3aef7d11c19 master
 block ${BLOCK_PATH}/block git@github.com:defn/block 996623cc64feeceb40aec0a7d4a63c19b53fae0d master
 homebrew ${BLOCK_PATH}/homebrew git@github.com:defn/homebrew a7997c72f29b3d87dc7accbac934314522495083 master
@@ -35,8 +35,8 @@ talign ${BLOCK_PATH}/talign git@github.com:defn/talign 1db084ed06de0c10679e2384c
 defn ${BLOCK_PATH}/defn git@github.com:defn/defn a2b8e5455d2aa0a2bd6bc9c3b0daceddc153a40d master
 jq ${BLOCK_PATH}/jq git@github.com:defn/jq 43643184f952e58edfd09a2a105e48e5fb5f39d5 master
 ansible ${BLOCK_PATH}/ansible git@github.com:defn/ansible 1b34e0ec72b8f59a844f6b4eea14e6f83b2dd61f master
-aq ${BLOCK_PATH}/aq git@github.com:defn/aq a47a6c30068e10ad1ad791f336c3fcc1ee0fe75d master
-aqq ${BLOCK_PATH}/aqq git@github.com:defn/aqq 9a8fbe7726ddc9f74a4566e80061cf30c5f1c760 master
+aq ${BLOCK_PATH}/aq git@github.com:defn/aq ee8eadef577ab29c14a6e19729eaab9f0b7f5224 master
+aqq ${BLOCK_PATH}/aqq git@github.com:defn/aqq a424ffa18a5b9bb6ce0006e7e0e716c8e8bece63 master
 inventory ${BLOCK_PATH}/inventory git@github.com:defn/inventory 3d325d9c45b76bffca0eab7627741518c0d83415 master
 deploy ${BLOCK_PATH}/deploy git@github.com:defn/deploy 1af5bbade8957c9efbafbb2849de9804752a8899 master
 context ${BLOCK_PATH}/context git@github.com:defn/context 3a3db97712df8212f5bf1f57aeab70e932b21578 master
