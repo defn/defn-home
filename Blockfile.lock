@@ -96,6 +96,7 @@ iamdefn/earth ${BLOCK_PATH}/earth git@github.com:iamdefn/earth 93e90800af8ba9e93
 iamdefn/yellow ${BLOCK_PATH}/yellow git@github.com:iamdefn/yellow 9951f4b4c6262e420696d22c190f6115df557b32 master
 iamdefn/voltron ${BLOCK_PATH}/voltron git@github.com:iamdefn/voltron 9044b07d70c207fa75f3c6bd77277734b7023d63 master
 t ${BLOCK_PATH}/t git@github.com:defn/t a82d0cfdc260f23c2f28c03580c7086f27f63255 master
+irssi ${BLOCK_PATH}/irssi git@github.com:defn/irssi dae57519dc639f1f83e8eb94686814357f082ec5 master
 git-crypt ${BLOCK_PATH}/git-crypt git@github.com:defn/git-crypt 526837cef204a7f79f1dced59d1d49f4ce9b9db3 master
 gpg ${BLOCK_PATH}/gpg git@github.com:defn/gpg 92b0f377c9134ca2a415451febedc3f2d08d1828 master
 ssh-agent ${BLOCK_PATH}/ssh-agent git@github.com:defn/ssh-agent 88798c4ad32b3f1621ae5af4af2df6326ffd183b master

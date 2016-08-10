@@ -43,7 +43,9 @@
     ],
     "isomorphic-clojurescript-reagent-node",
     "iamdefn/voltron",
-    "t",
+    [
+      "t", "irssi"
+    ],
     "security",
     "inspect",
     "console",
