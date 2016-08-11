@@ -227,3 +227,6 @@ cibuild-*.log
 
 # nexus
 /.install4j
+
+# cpan
+/.cpan
