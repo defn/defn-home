@@ -15,3 +15,5 @@ if [[ -n "$check_ssh_agent" && -f "$HOME/.ssh-agent" ]]; then
 fi
 
 source ~/.bashrc
+
+eval $(perl -Mlocal::lib="$HOME/install-p5") || true
