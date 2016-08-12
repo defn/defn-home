@@ -230,3 +230,6 @@ cibuild-*.log
 
 # cpan
 /.cpan
+
+# local::lib
+/install-p5
