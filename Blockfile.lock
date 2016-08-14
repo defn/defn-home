@@ -17,7 +17,7 @@ shflags ${BLOCK_PATH}/shflags git@github.com:defn/shflags d2d0a410187d8c1e76b5fd
 normalize ${BLOCK_PATH}/normalize git@github.com:defn/normalize b156ba1ec79f2da218d463c9b86f4192bcbeab54 master
 sub ${BLOCK_PATH}/sub git@github.com:defn/sub 92f8e3f25588d0d8aeb07558710514010b7d255b master
 runmany ${BLOCK_PATH}/runmany git@github.com:defn/runmany 83214538c0e90b1244cd8bfbb8c8d3aef7d11c19 master
-block ${BLOCK_PATH}/block git@github.com:defn/block 996623cc64feeceb40aec0a7d4a63c19b53fae0d master
+block ${BLOCK_PATH}/block git@github.com:defn/block 60bdd22c1665635b44eaa53126ede7c1c13cb2c0 master
 homebrew ${BLOCK_PATH}/homebrew git@github.com:defn/homebrew a7997c72f29b3d87dc7accbac934314522495083 master
 xcode ${BLOCK_PATH}/xcode git@github.com:defn/xcode d2c041d38f4655e172b349c430d263c4f6920ed0 master
 tunnelblick ${BLOCK_PATH}/tunnelblick git@github.com:defn/tunnelblick 7f84abaaff6edc0c695f8f8db214e58848d02eda master
