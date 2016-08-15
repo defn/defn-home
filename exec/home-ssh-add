@@ -13,7 +13,7 @@ function main {
   local nm_user="$(id -un)"
 
   cd "$shome/.ssh"
-  ssh-add "git-${nm_user}@${nm_host}" "ssh-${nm_user}@${nm_host}" "${BASEBOX_CACHE}/.ssh/ssh-vagrant" "${BASEBOX_CACHE}/.ssh/ssh-vagrant-insecure"
+  ssh-add "git-${nm_user}@${nm_host}" "ssh-${nm_user}@${nm_host}"
 
 }
 
