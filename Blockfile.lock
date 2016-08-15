@@ -32,7 +32,7 @@ block-shortcuts ${BLOCK_PATH}/block-shortcuts git@github.com:defn/block-shortcut
 board ${BLOCK_PATH}/board git@github.com:defn/board 303ebb09a1cefd336dda8a89f561045f0a26a40d master
 kit ${BLOCK_PATH}/kit git@github.com:defn/kit a2d205c05d8fb8c6ae68eb9d1f943600e8e58f48 master
 talign ${BLOCK_PATH}/talign git@github.com:defn/talign 1db084ed06de0c10679e2384c8f88be047934909 master
-defn ${BLOCK_PATH}/defn git@github.com:defn/defn a2b8e5455d2aa0a2bd6bc9c3b0daceddc153a40d master
+defn ${BLOCK_PATH}/defn git@github.com:defn/defn 120f2691d2e17ec4a226f74ee0f13c87b1b20cbb master
 jq ${BLOCK_PATH}/jq git@github.com:defn/jq 43643184f952e58edfd09a2a105e48e5fb5f39d5 master
 ansible ${BLOCK_PATH}/ansible git@github.com:defn/ansible 1b34e0ec72b8f59a844f6b4eea14e6f83b2dd61f master
 aq ${BLOCK_PATH}/aq git@github.com:defn/aq 4840e9e7f7840a5a28358fd6eae2846e2c697733 master
@@ -42,7 +42,7 @@ deploy ${BLOCK_PATH}/deploy git@github.com:defn/deploy 1af5bbade8957c9efbafbb284
 context ${BLOCK_PATH}/context git@github.com:defn/context 3a3db97712df8212f5bf1f57aeab70e932b21578 master
 git ${BLOCK_PATH}/git git@github.com:defn/git f75bb94c57a4bc8cd3d161a07d600e93c796fb6c master
 go ${BLOCK_PATH}/go git@github.com:defn/go 3109408b379d4587bbe9b4be42d6504165021ed7 master
-github ${BLOCK_PATH}/github git@github.com:defn/github e6cf621cedb75aea0f3bf2a1aba0f23de91a4776 master
+github ${BLOCK_PATH}/github git@github.com:defn/github d1f9bb849196527555c23121c8498f0187eccbba master
 chef ${BLOCK_PATH}/chef git@github.com:defn/chef 5e65644ffe71d0e1c6ba9e3b92f4fae1e786fa45 master
 facts ${BLOCK_PATH}/facts git@github.com:defn/facts f65c5af8dc571575bfd39ca839ddb7b496caa8be master
 parity ${BLOCK_PATH}/parity git@github.com:defn/parity 932ae42c1975401fa8f2df8e1d9b77ce1ad90775 master
