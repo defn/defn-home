@@ -55,6 +55,10 @@ function bashrc {
   if tty >/dev/null 2>&1; then
     configure_cue
   fi
+
+  if [[ -f "$shome/exec/home_secret" ]]; then
+    source "$shome/exec/home_secret"
+  fi
 }
 
 function setup {
@@ -65,4 +69,3 @@ function setup {
 }
 
 time setup
-source ~/exec/home_secret
