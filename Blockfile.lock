@@ -35,8 +35,8 @@ talign ${BLOCK_PATH}/talign git@github.com:defn/talign 1db084ed06de0c10679e2384c
 defn ${BLOCK_PATH}/defn git@github.com:defn/defn 120f2691d2e17ec4a226f74ee0f13c87b1b20cbb master
 jq ${BLOCK_PATH}/jq git@github.com:defn/jq 43643184f952e58edfd09a2a105e48e5fb5f39d5 master
 ansible ${BLOCK_PATH}/ansible git@github.com:defn/ansible 1b34e0ec72b8f59a844f6b4eea14e6f83b2dd61f master
-aq ${BLOCK_PATH}/aq git@github.com:defn/aq 4840e9e7f7840a5a28358fd6eae2846e2c697733 master
-aqq ${BLOCK_PATH}/aqq git@github.com:defn/aqq ddc01a3627cbd35d7436db2036d6a0c119d481a4 master
+aq ${BLOCK_PATH}/aq git@github.com:defn/aq 99ff0513ebd5adc0d033d3e5368da0a5953f21f7 master
+aqq ${BLOCK_PATH}/aqq git@github.com:defn/aqq 5fcbd9a9594684346c79d0f20099db59f157bd18 master
 inventory ${BLOCK_PATH}/inventory git@github.com:defn/inventory 3d325d9c45b76bffca0eab7627741518c0d83415 master
 deploy ${BLOCK_PATH}/deploy git@github.com:defn/deploy 1af5bbade8957c9efbafbb2849de9804752a8899 master
 context ${BLOCK_PATH}/context git@github.com:defn/context 3a3db97712df8212f5bf1f57aeab70e932b21578 master
