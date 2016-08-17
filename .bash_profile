@@ -33,7 +33,7 @@ function configure_cue {
 function home_profile {
   local shome="$(cd -P -- "$(dirname "${BASH_SOURCE}")" && pwd -P)"
 
-  check_ssh_agent=1
+  local check_ssh_agent=1
 
   if ssh-add -l >/dev/null 2>&1; then
     check_ssh_agent=
@@ -45,11 +45,11 @@ function home_profile {
     esac
   fi
 
-  if [[ -n "$check_ssh_agent" && -f "$HOME/.ssh-agent" ]]; then
-    source "$HOME/.ssh-agent" >/dev/null
+  if [[ -n "$check_ssh_agent" && -f "$shome/.ssh-agent" ]]; then
+    source "$shome/.ssh-agent" >/dev/null
   fi
 
-  source "$shome/.bashrc"
+  time source "$shome/.bashrc"
 
   if tty >/dev/null 2>&1; then
     configure_cue
@@ -58,4 +58,4 @@ function home_profile {
   debug_on
 }
 
-home_profile
+time home_profile
