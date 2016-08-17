@@ -53,7 +53,7 @@ cloud ${BLOCK_PATH}/cloud git@github.com:defn/cloud 616141c3784c233aac7831b19b5a
 service ${BLOCK_PATH}/service git@github.com:defn/service 0fc87c65e702b0dccc2bc7fc1c2a6be3a00e15f6 master
 maven ${BLOCK_PATH}/maven git@github.com:defn/maven f826158d7d4a07267dd45e0a3b8b522d8351354a master
 cljs ${BLOCK_PATH}/cljs git@github.com:defn/cljs b8c69bfd5f723d40e3eebaf6c491919d01b7a9d6 master
-apt-mirror ${BLOCK_PATH}/apt-mirror git@github.com:defn/apt-mirror 1bf31ff80cbd1ef9f4891e37fb2ace86b61ed36c master
+apt-mirror ${BLOCK_PATH}/apt-mirror git@github.com:defn/apt-mirror d21ad2d7ba53f08ff4b39340d87133a4ef06ca6c master
 squid ${BLOCK_PATH}/squid git@github.com:defn/squid 0fd60074e396a5857c5fa8b9c834b3657fced01b master
 sinopia ${BLOCK_PATH}/sinopia git@github.com:defn/sinopia 0e7a28a28eaecaa02aa46a367d3f516c487b9a5c master
 jenkins ${BLOCK_PATH}/jenkins git@github.com:defn/jenkins 20a8a5d342ee49ba70dd154222578ed910ec5744 master
@@ -75,7 +75,7 @@ virtualbox ${BLOCK_PATH}/virtualbox git@github.com:defn/virtualbox 6e6d93a9657d9
 docker-machine ${BLOCK_PATH}/docker-machine git@github.com:defn/docker-machine 01f7092261401c52229c383ef91ea866800ad037 master
 docker-compose ${BLOCK_PATH}/docker-compose git@github.com:defn/docker-compose 9207362e6fabeb7594df647f5606f8d0fc69e168 master
 docker ${BLOCK_PATH}/docker git@github.com:defn/docker 2b8991f10ae0e79e5c0b2c09b736c47471dbcca9 master
-limbo ${BLOCK_PATH}/limbo git@github.com:defn/limbo 7a42f4231b510ff2806fbc515a4ce6c549912666 master
+limbo ${BLOCK_PATH}/limbo git@github.com:defn/limbo 417243c672007af0969c8a3c5727014b35040607 master
 inception ${BLOCK_PATH}/inception git@github.com:defn/inception dc79e12f2d277ccb7ac6900a2e5f3138a1cd65f1 master
 poop ${BLOCK_PATH}/poop git@github.com:defn/poop e990c87aaae4bdeb742161ca2f1d6bdc5ac6327c master
 lamda ${BLOCK_PATH}/lamda git@github.com:defn/lamda b1c6b48ea6e9bb4f6eb13afc4b133e35828047c2 master
