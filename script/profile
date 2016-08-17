@@ -1,13 +1,5 @@
 #!/usr/bin/env bash
 
-function nodebug {
-  unset DEBUG
-}
-
-function debug {
-  export DEBUG=1
-}
-
 function _defn_home_profile {
   local shome="${_defn_home_home:-"$(cd -P -- "${BASH_SOURCE%/*}/.." && pwd -P)"}"
   PATH="$shome/bin:$shome/exec:$PATH"
