@@ -26,6 +26,8 @@ function bashrc {
 }
 
 function home_bashrc {
+  local shome="${shome:-"$(cd -P -- "$(dirname "${BASH_SOURCE}")" && pwd -P)"}"
+
   PATH="$(echo $PATH | tr ':' '\n' | uniq | grep -v "$shome" | grep -v "${PKG_HOME:-dont-find-anything}" | perl -ne 'm{^\s*$} && next; s{\s*$}{:}; print')"
   if [[ -z "${BLOCK_PATH:-}" || "${BLOCK_PATH:-}" == "$shome/work" ]]; then
     bashrc || echo WARNING: "Something's wrong with .bashrc"
