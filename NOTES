@@ -1,0 +1,9 @@
+git rev-parse --is-inside-work-tree
+
+GIT_BRANCH=$(git rev-parse --abbrev-ref HEAD)
+GIT_COMMIT=$(git rev-parse HEAD)
+
+FILESIZE=$(stat -c %s $FILENAME 2>/dev/null)
+COLUMNS=$(tput cols)
+
+/statusbar window remove time
