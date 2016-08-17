@@ -15,7 +15,8 @@ block-home ${BLOCK_PATH}/block-home git@github.com:defn/block-home 3904d86c7f9aa
 pl-home ${BLOCK_PATH}/pl-home git@github.com:defn/pl-home 5fdfcb22db48ea064dd40f6fb0677e7243076e65 master
 shflags ${BLOCK_PATH}/shflags git@github.com:defn/shflags d2d0a410187d8c1e76b5fd679f8a5691ab726d9e master
 normalize ${BLOCK_PATH}/normalize git@github.com:defn/normalize b156ba1ec79f2da218d463c9b86f4192bcbeab54 master
-sub ${BLOCK_PATH}/sub git@github.com:defn/sub c62ce3fc13f86a702c847bf668c01d51970425ba master
+bash-preexec ${BLOCK_PATH}/bash-preexec git@github.com:defn/bash-preexec 58d40e639c7507b839b2dec0ce651270ddeca66f master
+sub ${BLOCK_PATH}/sub git@github.com:defn/sub de64ba6f0aa29dfb95534c127e5af78ad2a0c8ec master
 runmany ${BLOCK_PATH}/runmany git@github.com:defn/runmany 83214538c0e90b1244cd8bfbb8c8d3aef7d11c19 master
 block ${BLOCK_PATH}/block git@github.com:defn/block f30d9302e30b01f3793377dfe8e32cd3f64a0712 master
 homebrew ${BLOCK_PATH}/homebrew git@github.com:defn/homebrew a7997c72f29b3d87dc7accbac934314522495083 master
@@ -105,7 +106,6 @@ lock ${BLOCK_PATH}/lock git@github.com:defn/lock 8f3dca28b3624ee3bd8fd248fa8c61e
 security ${BLOCK_PATH}/security git@github.com:defn/security ac4ce3869857b91e3d56fc8ec7cc9c514f7ac8af master
 inspect ${BLOCK_PATH}/inspect git@github.com:defn/inspect 570edbf1b449622ba7b68501eca3d8b819fc069d master
 console ${BLOCK_PATH}/console git@github.com:defn/console 5b204bfca0d501290603b55f8a83117e85b62713 master
-bumpversion ${BLOCK_PATH}/bumpversion git@github.com:defn/bumpversion df02bb3db98834a088352c482222ddc0cad1174c master
 awesome ${BLOCK_PATH}/awesome git@github.com:defn/awesome 775a281d2bd2f005f86a06b1d0a2425958eea3af master
 terraform ${BLOCK_PATH}/terraform git@github.com:defn/terraform 658f58e4f5791ef37c731566b589dc6a937c9c91 master
 module-aws-global ${BLOCK_PATH}/module-aws-global git@github.com:defn/module-aws-global bde6d53313d9317b93bf06ff397157db0e482b5c master
@@ -131,4 +131,3 @@ env-imma-dev ${BLOCK_PATH}/env-imma-dev git@github.com:defn/env-imma-dev 17f5944
 env-imma-dev-nat ${BLOCK_PATH}/env-imma-dev-nat git@github.com:defn/env-imma-dev-nat 610ebb70daf504fe5d698e434f60da918ad2cae7 master
 env-imma-dev-shared ${BLOCK_PATH}/env-imma-dev-shared git@github.com:defn/env-imma-dev-shared 5e6e19402a5d409e881972250e79d4c81bebe5b0 master
 imma ${BLOCK_PATH}/imma git@github.com:defn/imma 0ec06b6ce26f580f861f0da582962c60994914fb master
-bash-preexec ${BLOCK_PATH}/bash-preexec git@github.com:defn/bash-preexec 58d40e639c7507b839b2dec0ce651270ddeca66f master
