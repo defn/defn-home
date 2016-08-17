@@ -105,14 +105,13 @@
 /.packer.d
 
 # app
-/.bashrc.app
 /Blockfile.txt
 /Blockfile.json.site
 
 # ubuntu
 /.aptitude
 /.cache
-/.bashrc.cache
+/.bashrc.*
 
 # tugboat
 /.tugboat
