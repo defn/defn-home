@@ -54,8 +54,6 @@ function home_profile {
   if tty >/dev/null 2>&1; then
     configure_cue
   fi
-
-  debug_on
 }
 
 time home_profile
