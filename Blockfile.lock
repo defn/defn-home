@@ -25,7 +25,7 @@ htop ${BLOCK_PATH}/htop git@github.com:defn/htop 0fcb84c124426fe185b6aa0c392efac
 runit ${BLOCK_PATH}/runit git@github.com:defn/runit 456fb5b65f0013ebe7ab0e3ad4380349c01857e8 master
 defn-osx ${BLOCK_PATH}/defn-osx git@github.com:defn/defn-osx ab9cf10467e5f1c703ab9ea18499c6ca5f3f9ede master
 junas ${BLOCK_PATH}/junas git@github.com:defn/junas 611734a31271156ae3eba84f9a3442ffa8deed7a master
-cue ${BLOCK_PATH}/cue git@github.com:defn/cue 0083766ab6b26cf83c767c5fee32db4aa0ea9fd3 master
+cue ${BLOCK_PATH}/cue git@github.com:defn/cue 4d914b6d73a07fbcba783109821ff75c93af5477 master
 docs ${BLOCK_PATH}/docs git@github.com:defn/docs 5c0a2287aa74533fffe361196cc42f67131d9ccb master
 scripts-to-rule-them-all ${BLOCK_PATH}/scripts-to-rule-them-all git@github.com:defn/scripts-to-rule-them-all 102a9601c8c34c31a165fe114339c8dfa6c766f2 master
 block-shortcuts ${BLOCK_PATH}/block-shortcuts git@github.com:defn/block-shortcuts a798b5df90d6ac46713133b9d1f42577a09e0761 master
@@ -62,7 +62,7 @@ launch-config ${BLOCK_PATH}/launch-config git@github.com:defn/launch-config 7982
 packer ${BLOCK_PATH}/packer git@github.com:defn/packer 5791558560a897562fd76687ae3c22d3c9747e20 master
 vagrant ${BLOCK_PATH}/vagrant git@github.com:defn/vagrant 8dba0891402f630bee924e395c409ebb2017ecdf master
 basebox ${BLOCK_PATH}/basebox git@github.com:defn/basebox d08439a078dec152e5d430d60cb1334b6c837292 master
-basebox-ubuntu ${BLOCK_PATH}/basebox-ubuntu git@github.com:defn/basebox-ubuntu aaffb3d26ac82ed9f683540d136f4b88e8aaab98 master
+basebox-ubuntu ${BLOCK_PATH}/basebox-ubuntu git@github.com:defn/basebox-ubuntu 0de8716b1d0767446c4a03c4f78e36ddaa70723c master
 basebox-osx ${BLOCK_PATH}/basebox-osx git@github.com:defn/basebox-osx fbaa540b290de37e07da36c87b210f0402a56840 master
 vagrant-shell ${BLOCK_PATH}/vagrant-shell git@github.com:defn/vagrant-shell 5f270ad4eb31fb5eeccac50ac5e9904189cadb0e master
 vagrant-limbo ${BLOCK_PATH}/vagrant-limbo git@github.com:defn/vagrant-limbo 740b29b534cd6ac6a88676e51d1cddbffddffe4d master
@@ -131,3 +131,4 @@ env-imma-dev ${BLOCK_PATH}/env-imma-dev git@github.com:defn/env-imma-dev 17f5944
 env-imma-dev-nat ${BLOCK_PATH}/env-imma-dev-nat git@github.com:defn/env-imma-dev-nat 610ebb70daf504fe5d698e434f60da918ad2cae7 master
 env-imma-dev-shared ${BLOCK_PATH}/env-imma-dev-shared git@github.com:defn/env-imma-dev-shared 5e6e19402a5d409e881972250e79d4c81bebe5b0 master
 imma ${BLOCK_PATH}/imma git@github.com:defn/imma 0ec06b6ce26f580f861f0da582962c60994914fb master
+bash-preexec ${BLOCK_PATH}/bash-preexec git@github.com:defn/bash-preexec 58d40e639c7507b839b2dec0ce651270ddeca66f master

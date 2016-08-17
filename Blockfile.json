@@ -50,7 +50,8 @@
     "inspect",
     "console",
     "bumpversion",
-    "imma"
+    "imma",
+    "bash-preexec"
   ],
   "run": {
     "squid": {},
