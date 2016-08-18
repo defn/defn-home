@@ -49,11 +49,11 @@ function home_profile {
     source "$shome/.ssh-agent" >/dev/null
   fi
 
-  time source "$shome/.bashrc"
+  source "$shome/.bashrc"
 
   if tty >/dev/null 2>&1; then
     configure_cue
   fi
 }
 
-time home_profile
+home_profile
