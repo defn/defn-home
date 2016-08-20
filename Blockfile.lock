@@ -76,8 +76,9 @@ virtualbox ${BLOCK_PATH}/virtualbox git@github.com:defn/virtualbox 6e6d93a9657d9
 docker-machine ${BLOCK_PATH}/docker-machine git@github.com:defn/docker-machine 01f7092261401c52229c383ef91ea866800ad037 master
 docker-compose ${BLOCK_PATH}/docker-compose git@github.com:defn/docker-compose 9207362e6fabeb7594df647f5606f8d0fc69e168 master
 docker ${BLOCK_PATH}/docker git@github.com:defn/docker 2b8991f10ae0e79e5c0b2c09b736c47471dbcca9 master
-limbo ${BLOCK_PATH}/limbo git@github.com:defn/limbo a5ff9e6d814a705cfad1206913f8fea7d7456b53 master
-inception ${BLOCK_PATH}/inception git@github.com:defn/inception dc79e12f2d277ccb7ac6900a2e5f3138a1cd65f1 master
+limbo ${BLOCK_PATH}/limbo git@github.com:defn/limbo c7a823743bf481b7e00702be68ad190fdcfd0e02 master
+limbo-swarm ${BLOCK_PATH}/limbo-swarm git@github.com:defn/limbo-swarm dc322ab08aa21df08d2328a308fc6e0a00d6aecf master
+inception ${BLOCK_PATH}/inception git@github.com:defn/inception 0657bc61f6d8da5bd29bcdb281f9a0bf6f784ffa master
 poop ${BLOCK_PATH}/poop git@github.com:defn/poop e990c87aaae4bdeb742161ca2f1d6bdc5ac6327c master
 lamda ${BLOCK_PATH}/lamda git@github.com:defn/lamda b1c6b48ea6e9bb4f6eb13afc4b133e35828047c2 master
 hugo ${BLOCK_PATH}/hugo git@github.com:defn/hugo e2a10491939963db3d8e0a89ef4715f8e8380097 master
