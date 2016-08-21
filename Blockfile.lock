@@ -24,7 +24,7 @@ xcode ${BLOCK_PATH}/xcode git@github.com:defn/xcode d2c041d38f4655e172b349c430d2
 tunnelblick ${BLOCK_PATH}/tunnelblick git@github.com:defn/tunnelblick 7f84abaaff6edc0c695f8f8db214e58848d02eda master
 htop ${BLOCK_PATH}/htop git@github.com:defn/htop 0fcb84c124426fe185b6aa0c392efac3c22b9c74 master
 runit ${BLOCK_PATH}/runit git@github.com:defn/runit 456fb5b65f0013ebe7ab0e3ad4380349c01857e8 master
-defn-osx ${BLOCK_PATH}/defn-osx git@github.com:defn/defn-osx ab9cf10467e5f1c703ab9ea18499c6ca5f3f9ede master
+defn-osx ${BLOCK_PATH}/defn-osx git@github.com:defn/defn-osx 495cda8fcf93930ae7fe69a314e03b40ba80aaba master
 junas ${BLOCK_PATH}/junas git@github.com:defn/junas 611734a31271156ae3eba84f9a3442ffa8deed7a master
 cue ${BLOCK_PATH}/cue git@github.com:defn/cue 4d914b6d73a07fbcba783109821ff75c93af5477 master
 docs ${BLOCK_PATH}/docs git@github.com:defn/docs 5c0a2287aa74533fffe361196cc42f67131d9ccb master
