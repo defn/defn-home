@@ -1,5 +1,5 @@
 defn-config ${BLOCK_PATH}/defn-config git@github.com:defn/defn-config 69a63c9ba242463508d3fced2525d19006b3cd8f master
-pkgsrc ${BLOCK_PATH}/pkgsrc git@github.com:defn/pkgsrc dfd5821856f51dce8249c485ed0caf1e1ea96283 master
+pkgsrc ${BLOCK_PATH}/pkgsrc git@github.com:defn/pkgsrc 977a0769d7e71bc12da988b69088a181418ca9b4 master
 build-essential ${BLOCK_PATH}/build-essential git@github.com:defn/build-essential ce28be8e33d991ffb8e1475fc1aecd73584e720d master
 cache ${BLOCK_PATH}/cache git@github.com:defn/cache 488f86859852fedca71bf1eeea58f3903fb7c692 master
 curl ${BLOCK_PATH}/curl git@github.com:defn/curl d1df9829d627fc04a7dfe498d394571e9d336570 master
@@ -63,7 +63,7 @@ launch-config ${BLOCK_PATH}/launch-config git@github.com:defn/launch-config 7982
 packer ${BLOCK_PATH}/packer git@github.com:defn/packer 5791558560a897562fd76687ae3c22d3c9747e20 master
 vagrant ${BLOCK_PATH}/vagrant git@github.com:defn/vagrant 8dba0891402f630bee924e395c409ebb2017ecdf master
 basebox ${BLOCK_PATH}/basebox git@github.com:defn/basebox d08439a078dec152e5d430d60cb1334b6c837292 master
-basebox-ubuntu ${BLOCK_PATH}/basebox-ubuntu git@github.com:defn/basebox-ubuntu 9966afcd8fe4164c68b1bf375fbb1aa81b419f73 master
+basebox-ubuntu ${BLOCK_PATH}/basebox-ubuntu git@github.com:defn/basebox-ubuntu 77fde5b9ffd00295b0d75ecaa545d5be076b833e master
 basebox-osx ${BLOCK_PATH}/basebox-osx git@github.com:defn/basebox-osx fbaa540b290de37e07da36c87b210f0402a56840 master
 vagrant-shell ${BLOCK_PATH}/vagrant-shell git@github.com:defn/vagrant-shell 5f270ad4eb31fb5eeccac50ac5e9904189cadb0e master
 vagrant-limbo ${BLOCK_PATH}/vagrant-limbo git@github.com:defn/vagrant-limbo 740b29b534cd6ac6a88676e51d1cddbffddffe4d master
@@ -76,9 +76,9 @@ virtualbox ${BLOCK_PATH}/virtualbox git@github.com:defn/virtualbox 6e6d93a9657d9
 docker-machine ${BLOCK_PATH}/docker-machine git@github.com:defn/docker-machine 01f7092261401c52229c383ef91ea866800ad037 master
 docker-compose ${BLOCK_PATH}/docker-compose git@github.com:defn/docker-compose 9207362e6fabeb7594df647f5606f8d0fc69e168 master
 docker ${BLOCK_PATH}/docker git@github.com:defn/docker 2b8991f10ae0e79e5c0b2c09b736c47471dbcca9 master
-limbo ${BLOCK_PATH}/limbo git@github.com:defn/limbo d1b5f1f3461ba05eff0e56a46c3841312611d0ce master
+limbo ${BLOCK_PATH}/limbo git@github.com:defn/limbo 906dd49e0e1df2b1b566d5f49a84194739f0cff5 master
 limbo-swarm ${BLOCK_PATH}/limbo-swarm git@github.com:defn/limbo-swarm dc322ab08aa21df08d2328a308fc6e0a00d6aecf master
-inception ${BLOCK_PATH}/inception git@github.com:defn/inception c9e21013b818a5fb9b10d642eff97f60c112cc4d master
+inception ${BLOCK_PATH}/inception git@github.com:defn/inception 6ea406d421c99d5b1c6074dd1a391018d3477d05 master
 poop ${BLOCK_PATH}/poop git@github.com:defn/poop e990c87aaae4bdeb742161ca2f1d6bdc5ac6327c master
 lamda ${BLOCK_PATH}/lamda git@github.com:defn/lamda b1c6b48ea6e9bb4f6eb13afc4b133e35828047c2 master
 hugo ${BLOCK_PATH}/hugo git@github.com:defn/hugo e2a10491939963db3d8e0a89ef4715f8e8380097 master
