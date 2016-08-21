@@ -3,7 +3,7 @@ pkgsrc ${BLOCK_PATH}/pkgsrc git@github.com:defn/pkgsrc dfd5821856f51dce8249c485e
 build-essential ${BLOCK_PATH}/build-essential git@github.com:defn/build-essential ce28be8e33d991ffb8e1475fc1aecd73584e720d master
 cache ${BLOCK_PATH}/cache git@github.com:defn/cache 488f86859852fedca71bf1eeea58f3903fb7c692 master
 curl ${BLOCK_PATH}/curl git@github.com:defn/curl d1df9829d627fc04a7dfe498d394571e9d336570 master
-python ${BLOCK_PATH}/python git@github.com:defn/python 1c8856258dab2b0841623315e67eb3aedd3cc627 master
+python ${BLOCK_PATH}/python git@github.com:defn/python 6392c6466e7fca408f0f30b49e768a1ec65b0c9f master
 nodeenv ${BLOCK_PATH}/nodeenv git@github.com:defn/nodeenv 233ae6daed34b1190c6f39b7414e255085120fa5 master
 node ${BLOCK_PATH}/node git@github.com:defn/node a7b19210de83179ab9ff4e6e4495bf47b3d5a956 master
 rbenv ${BLOCK_PATH}/rbenv git@github.com:defn/rbenv 48d6d5ae841a6f5b9497eade814e5ceced43d39b master
