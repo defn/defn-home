@@ -4,11 +4,19 @@ function home_cibuild {
   local shome="${_defn_home_home:-"$(cd -P -- "${BASH_SOURCE%/*}/.." && pwd -P)"}"
 
   mkdir -p "$shome/work"
-  git clone git@github.com:defn/block "$shome/work/block" 2>&- || true
+
+  (cd "$shome/work" && git clone git@github.com:defn/block 2>&- || true)
+  "$shome/work/block/script/cibuild"
+  source "$shome/work/block/script/profile"
+
+  (cd "$shome/work" && git clone git@github.com:defn/cache 2>&- || true)
+  "$shome/work/block/script/cibuild" "$shome/work/cache"
+  pushd "$shome/work/cache" >/dev/null
+  require
+  popd >/dev/null
 
   "$shome/work/block/script/cibuild" "$@"
-
-  source "$shome/work/block/script/profile" "$@"
+  require
 
   facts cache
 }
