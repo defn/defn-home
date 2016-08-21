@@ -7,7 +7,7 @@ function main {
 
   local many="${1:-10}"
   
-  block runmany "$many" 'echo $1 $(cd $1 && gs)' | sort | talign 2
+  block runmany "$many" 'echo $1 $(cd $1 && gs)' | sort -k4 | talign 3
 }
 
 source sub "$BASH_SOURCE" "$@"
