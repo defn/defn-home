@@ -34,7 +34,7 @@ board ${BLOCK_PATH}/board git@github.com:defn/board 303ebb09a1cefd336dda8a89f561
 kit ${BLOCK_PATH}/kit git@github.com:defn/kit a2d205c05d8fb8c6ae68eb9d1f943600e8e58f48 master
 talign ${BLOCK_PATH}/talign git@github.com:defn/talign 1db084ed06de0c10679e2384c8f88be047934909 master
 defn ${BLOCK_PATH}/defn git@github.com:defn/defn 120f2691d2e17ec4a226f74ee0f13c87b1b20cbb master
-jq ${BLOCK_PATH}/jq git@github.com:defn/jq 43643184f952e58edfd09a2a105e48e5fb5f39d5 master
+jq ${BLOCK_PATH}/jq git@github.com:defn/jq d77c024e40af3918bff27c94d6baba7b955f4e91 master
 ansible ${BLOCK_PATH}/ansible git@github.com:defn/ansible 1b34e0ec72b8f59a844f6b4eea14e6f83b2dd61f master
 aq ${BLOCK_PATH}/aq git@github.com:defn/aq 99ff0513ebd5adc0d033d3e5368da0a5953f21f7 master
 aqq ${BLOCK_PATH}/aqq git@github.com:defn/aqq 5fcbd9a9594684346c79d0f20099db59f157bd18 master
@@ -63,7 +63,7 @@ launch-config ${BLOCK_PATH}/launch-config git@github.com:defn/launch-config 7982
 packer ${BLOCK_PATH}/packer git@github.com:defn/packer 5791558560a897562fd76687ae3c22d3c9747e20 master
 vagrant ${BLOCK_PATH}/vagrant git@github.com:defn/vagrant 8dba0891402f630bee924e395c409ebb2017ecdf master
 basebox ${BLOCK_PATH}/basebox git@github.com:defn/basebox 2015777b6bd43ff856c075eb402fd42249ef35c6 master
-basebox-ubuntu ${BLOCK_PATH}/basebox-ubuntu git@github.com:defn/basebox-ubuntu 5593fcf77ffd6450473d2be901cc8697e28b76e5 master
+basebox-ubuntu ${BLOCK_PATH}/basebox-ubuntu git@github.com:defn/basebox-ubuntu f8bcb4e98bf280e7ce5921decf680986b907e183 master
 basebox-osx ${BLOCK_PATH}/basebox-osx git@github.com:defn/basebox-osx fbaa540b290de37e07da36c87b210f0402a56840 master
 vagrant-shell ${BLOCK_PATH}/vagrant-shell git@github.com:defn/vagrant-shell 5f270ad4eb31fb5eeccac50ac5e9904189cadb0e master
 vagrant-limbo ${BLOCK_PATH}/vagrant-limbo git@github.com:defn/vagrant-limbo 740b29b534cd6ac6a88676e51d1cddbffddffe4d master
@@ -76,9 +76,9 @@ virtualbox ${BLOCK_PATH}/virtualbox git@github.com:defn/virtualbox 6e6d93a9657d9
 docker-machine ${BLOCK_PATH}/docker-machine git@github.com:defn/docker-machine 01f7092261401c52229c383ef91ea866800ad037 master
 docker-compose ${BLOCK_PATH}/docker-compose git@github.com:defn/docker-compose 9207362e6fabeb7594df647f5606f8d0fc69e168 master
 docker ${BLOCK_PATH}/docker git@github.com:defn/docker 2b8991f10ae0e79e5c0b2c09b736c47471dbcca9 master
-limbo ${BLOCK_PATH}/limbo git@github.com:defn/limbo ec59f05cbd73b7358cfde586029b8669731c9a96 master
-limbo-swarm ${BLOCK_PATH}/limbo-swarm git@github.com:defn/limbo-swarm 59aedd029fa390beca107167488245a7c77bae6c master
-inception ${BLOCK_PATH}/inception git@github.com:defn/inception 24ec41d708b5278d5cb6e5b99af206168084203d master
+limbo ${BLOCK_PATH}/limbo git@github.com:defn/limbo e3ff6537a6a72c94dee3edf20cf0ccd06ac61523 master
+limbo-swarm ${BLOCK_PATH}/limbo-swarm git@github.com:defn/limbo-swarm af8d4ee533745c37b17db1e0a6988fc4f7ee69f3 master
+inception ${BLOCK_PATH}/inception git@github.com:defn/inception ac686037a140b56ddbc23ded53d23d6ba3b0733f master
 poop ${BLOCK_PATH}/poop git@github.com:defn/poop e990c87aaae4bdeb742161ca2f1d6bdc5ac6327c master
 lamda ${BLOCK_PATH}/lamda git@github.com:defn/lamda b1c6b48ea6e9bb4f6eb13afc4b133e35828047c2 master
 hugo ${BLOCK_PATH}/hugo git@github.com:defn/hugo e2a10491939963db3d8e0a89ef4715f8e8380097 master
@@ -108,7 +108,7 @@ security ${BLOCK_PATH}/security git@github.com:defn/security ac4ce3869857b91e3d5
 inspect ${BLOCK_PATH}/inspect git@github.com:defn/inspect 570edbf1b449622ba7b68501eca3d8b819fc069d master
 console ${BLOCK_PATH}/console git@github.com:defn/console 5b204bfca0d501290603b55f8a83117e85b62713 master
 awesome ${BLOCK_PATH}/awesome git@github.com:defn/awesome 775a281d2bd2f005f86a06b1d0a2425958eea3af master
-terraform ${BLOCK_PATH}/terraform git@github.com:defn/terraform 658f58e4f5791ef37c731566b589dc6a937c9c91 master
+terraform ${BLOCK_PATH}/terraform git@github.com:defn/terraform f6732665e7406b83b2d7bffc68d7c64b232aa6af master
 module-aws-global ${BLOCK_PATH}/module-aws-global git@github.com:defn/module-aws-global bde6d53313d9317b93bf06ff397157db0e482b5c master
 global-xxx ${BLOCK_PATH}/global-xxx git@github.com:defn/global-xxx 6cd653ee74b766c8a462a293507a44e933870a30 master
 module-aws-vpc ${BLOCK_PATH}/module-aws-vpc git@github.com:defn/module-aws-vpc 17660f87a423d8b8de86cd1b395dc0d7592a5550 master
