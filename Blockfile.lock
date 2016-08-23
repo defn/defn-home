@@ -34,7 +34,7 @@ board ${BLOCK_PATH}/board git@github.com:defn/board 303ebb09a1cefd336dda8a89f561
 kit ${BLOCK_PATH}/kit git@github.com:defn/kit a2d205c05d8fb8c6ae68eb9d1f943600e8e58f48 master
 talign ${BLOCK_PATH}/talign git@github.com:defn/talign 1db084ed06de0c10679e2384c8f88be047934909 master
 defn ${BLOCK_PATH}/defn git@github.com:defn/defn 120f2691d2e17ec4a226f74ee0f13c87b1b20cbb master
-jq ${BLOCK_PATH}/jq git@github.com:defn/jq 43643184f952e58edfd09a2a105e48e5fb5f39d5 master
+jq ${BLOCK_PATH}/jq git@github.com:defn/jq d77c024e40af3918bff27c94d6baba7b955f4e91 master
 ansible ${BLOCK_PATH}/ansible git@github.com:defn/ansible 1b34e0ec72b8f59a844f6b4eea14e6f83b2dd61f master
 aq ${BLOCK_PATH}/aq git@github.com:defn/aq 99ff0513ebd5adc0d033d3e5368da0a5953f21f7 master
 aqq ${BLOCK_PATH}/aqq git@github.com:defn/aqq 5fcbd9a9594684346c79d0f20099db59f157bd18 master
@@ -108,7 +108,7 @@ security ${BLOCK_PATH}/security git@github.com:defn/security ac4ce3869857b91e3d5
 inspect ${BLOCK_PATH}/inspect git@github.com:defn/inspect 570edbf1b449622ba7b68501eca3d8b819fc069d master
 console ${BLOCK_PATH}/console git@github.com:defn/console 5b204bfca0d501290603b55f8a83117e85b62713 master
 awesome ${BLOCK_PATH}/awesome git@github.com:defn/awesome 775a281d2bd2f005f86a06b1d0a2425958eea3af master
-terraform ${BLOCK_PATH}/terraform git@github.com:defn/terraform 658f58e4f5791ef37c731566b589dc6a937c9c91 master
+terraform ${BLOCK_PATH}/terraform git@github.com:defn/terraform f6732665e7406b83b2d7bffc68d7c64b232aa6af master
 module-aws-global ${BLOCK_PATH}/module-aws-global git@github.com:defn/module-aws-global bde6d53313d9317b93bf06ff397157db0e482b5c master
 global-xxx ${BLOCK_PATH}/global-xxx git@github.com:defn/global-xxx 6cd653ee74b766c8a462a293507a44e933870a30 master
 module-aws-vpc ${BLOCK_PATH}/module-aws-vpc git@github.com:defn/module-aws-vpc 17660f87a423d8b8de86cd1b395dc0d7592a5550 master
