@@ -16,7 +16,7 @@ pl-home ${BLOCK_PATH}/pl-home git@github.com:defn/pl-home 5fdfcb22db48ea064dd40f
 shflags ${BLOCK_PATH}/shflags git@github.com:defn/shflags d2d0a410187d8c1e76b5fd679f8a5691ab726d9e master
 normalize ${BLOCK_PATH}/normalize git@github.com:defn/normalize b156ba1ec79f2da218d463c9b86f4192bcbeab54 master
 bash-preexec ${BLOCK_PATH}/bash-preexec git@github.com:defn/bash-preexec 58d40e639c7507b839b2dec0ce651270ddeca66f master
-sub ${BLOCK_PATH}/sub git@github.com:defn/sub 1d14a77751f281a73f056f084089c07694c0a4d2 master
+sub ${BLOCK_PATH}/sub git@github.com:defn/sub 5b449bc646febd204fad091f48e2e812f0830f2f master
 runmany ${BLOCK_PATH}/runmany git@github.com:defn/runmany 83214538c0e90b1244cd8bfbb8c8d3aef7d11c19 master
 block ${BLOCK_PATH}/block git@github.com:defn/block dac20021a18d2f3f6afb2f594c53b5b35d9d80f7 master
 homebrew ${BLOCK_PATH}/homebrew git@github.com:defn/homebrew a7997c72f29b3d87dc7accbac934314522495083 master
@@ -78,7 +78,7 @@ docker-compose ${BLOCK_PATH}/docker-compose git@github.com:defn/docker-compose 9
 docker ${BLOCK_PATH}/docker git@github.com:defn/docker 2b8991f10ae0e79e5c0b2c09b736c47471dbcca9 master
 limbo ${BLOCK_PATH}/limbo git@github.com:defn/limbo 54fc58a30c494b3416ed36cf88aac32f361f9533 master
 limbo-swarm ${BLOCK_PATH}/limbo-swarm git@github.com:defn/limbo-swarm af8d4ee533745c37b17db1e0a6988fc4f7ee69f3 master
-inception ${BLOCK_PATH}/inception git@github.com:defn/inception d464a508a6d69d59d7a435835b1bce466e732478 master
+inception ${BLOCK_PATH}/inception git@github.com:defn/inception 3a50849879c532a4deaeeb0a08d3b0d32f120a5f master
 poop ${BLOCK_PATH}/poop git@github.com:defn/poop e990c87aaae4bdeb742161ca2f1d6bdc5ac6327c master
 lamda ${BLOCK_PATH}/lamda git@github.com:defn/lamda b1c6b48ea6e9bb4f6eb13afc4b133e35828047c2 master
 hugo ${BLOCK_PATH}/hugo git@github.com:defn/hugo e2a10491939963db3d8e0a89ef4715f8e8380097 master
