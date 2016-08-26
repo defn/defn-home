@@ -18,7 +18,7 @@ normalize ${BLOCK_PATH}/normalize git@github.com:defn/normalize b156ba1ec79f2da2
 bash-preexec ${BLOCK_PATH}/bash-preexec git@github.com:defn/bash-preexec 58d40e639c7507b839b2dec0ce651270ddeca66f master
 sub ${BLOCK_PATH}/sub git@github.com:defn/sub 5b449bc646febd204fad091f48e2e812f0830f2f master
 runmany ${BLOCK_PATH}/runmany git@github.com:defn/runmany 83214538c0e90b1244cd8bfbb8c8d3aef7d11c19 master
-block ${BLOCK_PATH}/block git@github.com:defn/block dac20021a18d2f3f6afb2f594c53b5b35d9d80f7 master
+block ${BLOCK_PATH}/block git@github.com:defn/block 5ae5c4e500d64d243b8807ca8de68de6b66ed01d master
 homebrew ${BLOCK_PATH}/homebrew git@github.com:defn/homebrew a7997c72f29b3d87dc7accbac934314522495083 master
 xcode ${BLOCK_PATH}/xcode git@github.com:defn/xcode d2c041d38f4655e172b349c430d263c4f6920ed0 master
 tunnelblick ${BLOCK_PATH}/tunnelblick git@github.com:defn/tunnelblick 7f84abaaff6edc0c695f8f8db214e58848d02eda master
@@ -76,7 +76,7 @@ virtualbox ${BLOCK_PATH}/virtualbox git@github.com:defn/virtualbox 6e6d93a9657d9
 docker-machine ${BLOCK_PATH}/docker-machine git@github.com:defn/docker-machine 01f7092261401c52229c383ef91ea866800ad037 master
 docker-compose ${BLOCK_PATH}/docker-compose git@github.com:defn/docker-compose 9207362e6fabeb7594df647f5606f8d0fc69e168 master
 docker ${BLOCK_PATH}/docker git@github.com:defn/docker 2b8991f10ae0e79e5c0b2c09b736c47471dbcca9 master
-limbo ${BLOCK_PATH}/limbo git@github.com:defn/limbo be6ab1043bbcfb3ff387411c77c0fd952c15e2c9 master
+limbo ${BLOCK_PATH}/limbo git@github.com:defn/limbo e6294d246f0d669fc2e14501a1170be3fa3fd149 master
 limbo-swarm ${BLOCK_PATH}/limbo-swarm git@github.com:defn/limbo-swarm af8d4ee533745c37b17db1e0a6988fc4f7ee69f3 master
 inception ${BLOCK_PATH}/inception git@github.com:defn/inception 30ec8a0f651cf975eb60825446adaf9e5d272914 master
 poop ${BLOCK_PATH}/poop git@github.com:defn/poop e990c87aaae4bdeb742161ca2f1d6bdc5ac6327c master
