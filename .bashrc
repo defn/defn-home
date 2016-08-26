@@ -25,12 +25,34 @@ function bashrc {
   fi
 }
 
+function guess_scheme {
+  case "${TERM_PROGRAM:-}" in
+    Apple_Terminal)
+      echo slight
+      ;;
+    *)
+      echo "${CUE_SCHEME:-${ITERM_PROFILE:-sdark}}"
+      ;;
+  esac
+}
+
+function set_scheme {
+  case "$(guess_scheme)" in
+    slight) slight || true ;;
+    *)      sdark  || true ;;
+  esac
+}
+
 function home_bashrc {
   local shome="${shome:-"$(cd -P -- "$(dirname "${BASH_SOURCE}")" && pwd -P)"}"
 
   PATH="$(echo $PATH | tr ':' '\n' | uniq | grep -v "$shome" | grep -v "${PKG_HOME:-"$shome"}" | perl -ne 'm{^\s*$} && next; s{\s*$}{:}; print')"
   if [[ "$(type -t require)" != "function" ]]; then
-    bashrc || echo WARNING: "Something's wrong with .bashrc"
+    if bashrc; then
+      set_scheme
+    else
+      echo WARNING: "Something's wrong with .bashrc"
+    fi
   fi
 }
 
