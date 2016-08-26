@@ -63,7 +63,7 @@ launch-config ${BLOCK_PATH}/launch-config git@github.com:defn/launch-config 7982
 packer ${BLOCK_PATH}/packer git@github.com:defn/packer 5791558560a897562fd76687ae3c22d3c9747e20 master
 vagrant ${BLOCK_PATH}/vagrant git@github.com:defn/vagrant 8dba0891402f630bee924e395c409ebb2017ecdf master
 basebox ${BLOCK_PATH}/basebox git@github.com:defn/basebox e53af6412964f0cda3607e60060efb67c7ae812e master
-basebox-ubuntu ${BLOCK_PATH}/basebox-ubuntu git@github.com:defn/basebox-ubuntu b061e18e3e9f748e6bdcfa49640ee8a2f54bdc0e master
+basebox-ubuntu ${BLOCK_PATH}/basebox-ubuntu git@github.com:defn/basebox-ubuntu dc8e569e560a0215066afe806ea8acb2b491a8e5 master
 basebox-osx ${BLOCK_PATH}/basebox-osx git@github.com:defn/basebox-osx fbaa540b290de37e07da36c87b210f0402a56840 master
 vagrant-shell ${BLOCK_PATH}/vagrant-shell git@github.com:defn/vagrant-shell 5f270ad4eb31fb5eeccac50ac5e9904189cadb0e master
 vagrant-limbo ${BLOCK_PATH}/vagrant-limbo git@github.com:defn/vagrant-limbo 740b29b534cd6ac6a88676e51d1cddbffddffe4d master
@@ -76,9 +76,9 @@ virtualbox ${BLOCK_PATH}/virtualbox git@github.com:defn/virtualbox 6e6d93a9657d9
 docker-machine ${BLOCK_PATH}/docker-machine git@github.com:defn/docker-machine 01f7092261401c52229c383ef91ea866800ad037 master
 docker-compose ${BLOCK_PATH}/docker-compose git@github.com:defn/docker-compose 9207362e6fabeb7594df647f5606f8d0fc69e168 master
 docker ${BLOCK_PATH}/docker git@github.com:defn/docker 2b8991f10ae0e79e5c0b2c09b736c47471dbcca9 master
-limbo ${BLOCK_PATH}/limbo git@github.com:defn/limbo e6294d246f0d669fc2e14501a1170be3fa3fd149 master
+limbo ${BLOCK_PATH}/limbo git@github.com:defn/limbo ade784a4b2e0c53396210deab635ea4c6e6159ad master
 limbo-swarm ${BLOCK_PATH}/limbo-swarm git@github.com:defn/limbo-swarm af8d4ee533745c37b17db1e0a6988fc4f7ee69f3 master
-inception ${BLOCK_PATH}/inception git@github.com:defn/inception 30ec8a0f651cf975eb60825446adaf9e5d272914 master
+inception ${BLOCK_PATH}/inception git@github.com:defn/inception 9b8f655fab76a4f17f8726c5ef2817c2cba83535 master
 poop ${BLOCK_PATH}/poop git@github.com:defn/poop e990c87aaae4bdeb742161ca2f1d6bdc5ac6327c master
 lamda ${BLOCK_PATH}/lamda git@github.com:defn/lamda b1c6b48ea6e9bb4f6eb13afc4b133e35828047c2 master
 hugo ${BLOCK_PATH}/hugo git@github.com:defn/hugo e2a10491939963db3d8e0a89ef4715f8e8380097 master
