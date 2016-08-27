@@ -76,7 +76,7 @@ virtualbox ${BLOCK_PATH}/virtualbox git@github.com:defn/virtualbox 6e6d93a9657d9
 docker-machine ${BLOCK_PATH}/docker-machine git@github.com:defn/docker-machine 01f7092261401c52229c383ef91ea866800ad037 master
 docker-compose ${BLOCK_PATH}/docker-compose git@github.com:defn/docker-compose 9207362e6fabeb7594df647f5606f8d0fc69e168 master
 docker ${BLOCK_PATH}/docker git@github.com:defn/docker 2b8991f10ae0e79e5c0b2c09b736c47471dbcca9 master
-limbo ${BLOCK_PATH}/limbo git@github.com:defn/limbo 4301c17643a4c2592d75c27b5225d934ae690627 master
+limbo ${BLOCK_PATH}/limbo git@github.com:defn/limbo 3503e3ff02c5d415a5894d6c87783d8cd540737e master
 limbo-swarm ${BLOCK_PATH}/limbo-swarm git@github.com:defn/limbo-swarm af8d4ee533745c37b17db1e0a6988fc4f7ee69f3 master
 inception ${BLOCK_PATH}/inception git@github.com:defn/inception 281202f3a94fd078cc1dd83cde41523e8d378db0 master
 poop ${BLOCK_PATH}/poop git@github.com:defn/poop e990c87aaae4bdeb742161ca2f1d6bdc5ac6327c master
