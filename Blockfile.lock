@@ -63,7 +63,7 @@ artifacts ${BLOCK_PATH}/artifacts git@github.com:defn/artifacts 3a47658b6a0f689b
 launch-config ${BLOCK_PATH}/launch-config git@github.com:defn/launch-config 7982b6a216c9745db348e4aff3efe72b2da23949 master
 packer ${BLOCK_PATH}/packer git@github.com:defn/packer 5791558560a897562fd76687ae3c22d3c9747e20 master
 vagrant ${BLOCK_PATH}/vagrant git@github.com:defn/vagrant c9edf723550e2c1a5c1c428c012d64fb896179c1 master
-dream ${BLOCK_PATH}/dream git@github.com:defn/dream 769ee5a1bb8cc51311cdc99f2b7d9a9a9509e078 master
+dream ${BLOCK_PATH}/dream git@github.com:defn/dream a108398ea4823a2654ce815e2e89ca8aa0fe11bb master
 consul ${BLOCK_PATH}/consul git@github.com:defn/consul 2a56a22ab283462b20050994627541fb3348a362 master
 vault ${BLOCK_PATH}/vault git@github.com:defn/vault bc22b8233e7bd072227a152eb046bc71a3cad157 master
 openvpn ${BLOCK_PATH}/openvpn git@github.com:defn/openvpn 0b6c01fd0125483ddd38c9e3c2aabfdf699933b0 master
@@ -75,8 +75,8 @@ docker-compose ${BLOCK_PATH}/docker-compose git@github.com:defn/docker-compose 9
 docker ${BLOCK_PATH}/docker git@github.com:defn/docker 2b8991f10ae0e79e5c0b2c09b736c47471dbcca9 master
 lxc ${BLOCK_PATH}/lxc git@github.com:defn/lxc df8ff1f56b6eb0840f790b282c90f8e860329b93 master
 limbo ${BLOCK_PATH}/limbo git@github.com:defn/limbo 4be3c8a734973862eb90c491b8bad417e6970aa4 master
-limbo-swarm ${BLOCK_PATH}/limbo-swarm git@github.com:defn/limbo-swarm 00d69e4333b0153645352007add4aa43c3018399 master
-inception ${BLOCK_PATH}/inception git@github.com:defn/inception 759ee58149069787d4317c6d8d3c0c33eff6be24 master
+limbo-swarm ${BLOCK_PATH}/limbo-swarm git@github.com:defn/limbo-swarm 9bbd033a13c733ead68dd06b18b5184d916b2b99 master
+inception ${BLOCK_PATH}/inception git@github.com:defn/inception fdbe79b27e4997c27508604402b4c9d9e9f43a5f master
 poop ${BLOCK_PATH}/poop git@github.com:defn/poop e990c87aaae4bdeb742161ca2f1d6bdc5ac6327c master
 lamda ${BLOCK_PATH}/lamda git@github.com:defn/lamda b1c6b48ea6e9bb4f6eb13afc4b133e35828047c2 master
 hugo ${BLOCK_PATH}/hugo git@github.com:defn/hugo e2a10491939963db3d8e0a89ef4715f8e8380097 master
@@ -105,7 +105,7 @@ lock ${BLOCK_PATH}/lock git@github.com:defn/lock 8f3dca28b3624ee3bd8fd248fa8c61e
 security ${BLOCK_PATH}/security git@github.com:defn/security ac4ce3869857b91e3d56fc8ec7cc9c514f7ac8af master
 inspect ${BLOCK_PATH}/inspect git@github.com:defn/inspect 570edbf1b449622ba7b68501eca3d8b819fc069d master
 console ${BLOCK_PATH}/console git@github.com:defn/console 5b204bfca0d501290603b55f8a83117e85b62713 master
-awesome ${BLOCK_PATH}/awesome git@github.com:defn/awesome ad2b4caa99e530710ea4da10b64f90043aed43fb master
+awesome ${BLOCK_PATH}/awesome git@github.com:defn/awesome ea362c64a985d7fd115b700820233bcc5c403463 master
 terraform ${BLOCK_PATH}/terraform git@github.com:defn/terraform f6732665e7406b83b2d7bffc68d7c64b232aa6af master
 module-aws-global ${BLOCK_PATH}/module-aws-global git@github.com:defn/module-aws-global bde6d53313d9317b93bf06ff397157db0e482b5c master
 global-xxx ${BLOCK_PATH}/global-xxx git@github.com:defn/global-xxx 6cd653ee74b766c8a462a293507a44e933870a30 master
