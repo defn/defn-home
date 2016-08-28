@@ -62,11 +62,7 @@ artifacts ${BLOCK_PATH}/artifacts git@github.com:defn/artifacts 3a47658b6a0f689b
 launch-config ${BLOCK_PATH}/launch-config git@github.com:defn/launch-config 7982b6a216c9745db348e4aff3efe72b2da23949 master
 packer ${BLOCK_PATH}/packer git@github.com:defn/packer 5791558560a897562fd76687ae3c22d3c9747e20 master
 vagrant ${BLOCK_PATH}/vagrant git@github.com:defn/vagrant c9edf723550e2c1a5c1c428c012d64fb896179c1 master
-basebox ${BLOCK_PATH}/basebox git@github.com:defn/basebox e53af6412964f0cda3607e60060efb67c7ae812e master
-basebox-ubuntu ${BLOCK_PATH}/basebox-ubuntu git@github.com:defn/basebox-ubuntu b6cb4d31f6e8dde230867b8de137ca3ced77504d master
-basebox-osx ${BLOCK_PATH}/basebox-osx git@github.com:defn/basebox-osx fbaa540b290de37e07da36c87b210f0402a56840 master
-vagrant-shell ${BLOCK_PATH}/vagrant-shell git@github.com:defn/vagrant-shell 5f270ad4eb31fb5eeccac50ac5e9904189cadb0e master
-vagrant-limbo ${BLOCK_PATH}/vagrant-limbo git@github.com:defn/vagrant-limbo 740b29b534cd6ac6a88676e51d1cddbffddffe4d master
+basebox ${BLOCK_PATH}/basebox git@github.com:defn/basebox caf668991b936f2296675cedbdc8e1a23e6482a2 master
 consul ${BLOCK_PATH}/consul git@github.com:defn/consul 2a56a22ab283462b20050994627541fb3348a362 master
 vault ${BLOCK_PATH}/vault git@github.com:defn/vault bc22b8233e7bd072227a152eb046bc71a3cad157 master
 openvpn ${BLOCK_PATH}/openvpn git@github.com:defn/openvpn 0b6c01fd0125483ddd38c9e3c2aabfdf699933b0 master
@@ -77,7 +73,7 @@ docker-machine ${BLOCK_PATH}/docker-machine git@github.com:defn/docker-machine 0
 docker-compose ${BLOCK_PATH}/docker-compose git@github.com:defn/docker-compose 9207362e6fabeb7594df647f5606f8d0fc69e168 master
 docker ${BLOCK_PATH}/docker git@github.com:defn/docker 2b8991f10ae0e79e5c0b2c09b736c47471dbcca9 master
 lxc ${BLOCK_PATH}/lxc git@github.com:defn/lxc df8ff1f56b6eb0840f790b282c90f8e860329b93 master
-limbo ${BLOCK_PATH}/limbo git@github.com:defn/limbo 006939e49cb5afbc0d7febd9fe1f4eff398dc499 master
+limbo ${BLOCK_PATH}/limbo git@github.com:defn/limbo 80412deaaf0f881dfb82b88d2e3b8d18e5eaad67 master
 limbo-swarm ${BLOCK_PATH}/limbo-swarm git@github.com:defn/limbo-swarm 00d69e4333b0153645352007add4aa43c3018399 master
 inception ${BLOCK_PATH}/inception git@github.com:defn/inception f4abd57d97c50d1f44b916f5a5021fbeccd263f9 master
 poop ${BLOCK_PATH}/poop git@github.com:defn/poop e990c87aaae4bdeb742161ca2f1d6bdc5ac6327c master
