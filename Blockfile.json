@@ -50,7 +50,13 @@
     "security",
     "inspect",
     "console",
-    "imma"
+    "imma",
+    "consul",
+    "vault",
+    "openvpn",
+    "dnsmasq",
+    "linkerd",
+    "virtualbox"
   ],
   "run": {
     "squid": {},
