@@ -19,6 +19,7 @@ bash-preexec ${BLOCK_PATH}/bash-preexec git@github.com:defn/bash-preexec 58d40e6
 sub ${BLOCK_PATH}/sub git@github.com:defn/sub ff9ef20546292ae05c8986dfdba5760e61d7f456 master
 runmany ${BLOCK_PATH}/runmany git@github.com:defn/runmany 83214538c0e90b1244cd8bfbb8c8d3aef7d11c19 master
 block ${BLOCK_PATH}/block git@github.com:defn/block 5ae5c4e500d64d243b8807ca8de68de6b66ed01d master
+bash-oo-framework ${BLOCK_PATH}/bash-oo-framework git@github.com:defn/bash-oo-framework 75447ff7fcb7c032bd5bf3754659b0a81c401873 master
 homebrew ${BLOCK_PATH}/homebrew git@github.com:defn/homebrew a7997c72f29b3d87dc7accbac934314522495083 master
 xcode ${BLOCK_PATH}/xcode git@github.com:defn/xcode d2c041d38f4655e172b349c430d263c4f6920ed0 master
 tunnelblick ${BLOCK_PATH}/tunnelblick git@github.com:defn/tunnelblick 7f84abaaff6edc0c695f8f8db214e58848d02eda master
@@ -62,7 +63,7 @@ artifacts ${BLOCK_PATH}/artifacts git@github.com:defn/artifacts 3a47658b6a0f689b
 launch-config ${BLOCK_PATH}/launch-config git@github.com:defn/launch-config 7982b6a216c9745db348e4aff3efe72b2da23949 master
 packer ${BLOCK_PATH}/packer git@github.com:defn/packer 5791558560a897562fd76687ae3c22d3c9747e20 master
 vagrant ${BLOCK_PATH}/vagrant git@github.com:defn/vagrant c9edf723550e2c1a5c1c428c012d64fb896179c1 master
-dream ${BLOCK_PATH}/dream git@github.com:defn/dream caf668991b936f2296675cedbdc8e1a23e6482a2 master
+dream ${BLOCK_PATH}/dream git@github.com:defn/dream 24f664ccca10322810af03a4a9bcfb113c251813 master
 consul ${BLOCK_PATH}/consul git@github.com:defn/consul 2a56a22ab283462b20050994627541fb3348a362 master
 vault ${BLOCK_PATH}/vault git@github.com:defn/vault bc22b8233e7bd072227a152eb046bc71a3cad157 master
 openvpn ${BLOCK_PATH}/openvpn git@github.com:defn/openvpn 0b6c01fd0125483ddd38c9e3c2aabfdf699933b0 master
