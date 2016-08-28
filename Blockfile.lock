@@ -63,7 +63,7 @@ artifacts ${BLOCK_PATH}/artifacts git@github.com:defn/artifacts 3a47658b6a0f689b
 launch-config ${BLOCK_PATH}/launch-config git@github.com:defn/launch-config 7982b6a216c9745db348e4aff3efe72b2da23949 master
 packer ${BLOCK_PATH}/packer git@github.com:defn/packer 5791558560a897562fd76687ae3c22d3c9747e20 master
 vagrant ${BLOCK_PATH}/vagrant git@github.com:defn/vagrant c9edf723550e2c1a5c1c428c012d64fb896179c1 master
-dream ${BLOCK_PATH}/dream git@github.com:defn/dream 013bf2c68130a39e6e1499712e89c1e17a9c8951 master
+dream ${BLOCK_PATH}/dream git@github.com:defn/dream 769ee5a1bb8cc51311cdc99f2b7d9a9a9509e078 master
 consul ${BLOCK_PATH}/consul git@github.com:defn/consul 2a56a22ab283462b20050994627541fb3348a362 master
 vault ${BLOCK_PATH}/vault git@github.com:defn/vault bc22b8233e7bd072227a152eb046bc71a3cad157 master
 openvpn ${BLOCK_PATH}/openvpn git@github.com:defn/openvpn 0b6c01fd0125483ddd38c9e3c2aabfdf699933b0 master
