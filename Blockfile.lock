@@ -63,11 +63,11 @@ artifacts ${BLOCK_PATH}/artifacts git@github.com:defn/artifacts 3a47658b6a0f689b
 launch-config ${BLOCK_PATH}/launch-config git@github.com:defn/launch-config 7982b6a216c9745db348e4aff3efe72b2da23949 master
 packer ${BLOCK_PATH}/packer git@github.com:defn/packer 5791558560a897562fd76687ae3c22d3c9747e20 master
 vagrant ${BLOCK_PATH}/vagrant git@github.com:defn/vagrant c9edf723550e2c1a5c1c428c012d64fb896179c1 master
-dream ${BLOCK_PATH}/dream git@github.com:defn/dream fa565c47b455f6f5231b5be3269043517f27c450 master
+dream ${BLOCK_PATH}/dream git@github.com:defn/dream 6e1cdb19a64135531aad99c7a7df94b11fc6deb5 master
 limbo ${BLOCK_PATH}/limbo git@github.com:defn/limbo 27e0c9eef3800bb3e499eaab88e63056034a99b1 master
 docker-machine ${BLOCK_PATH}/docker-machine git@github.com:defn/docker-machine 01f7092261401c52229c383ef91ea866800ad037 master
 docker-compose ${BLOCK_PATH}/docker-compose git@github.com:defn/docker-compose 9207362e6fabeb7594df647f5606f8d0fc69e168 master
-docker ${BLOCK_PATH}/docker git@github.com:defn/docker 2b8991f10ae0e79e5c0b2c09b736c47471dbcca9 master
+docker ${BLOCK_PATH}/docker git@github.com:defn/docker 6236d4e017a35c95f83721ce92cdb9177af40237 master
 limbo-swarm ${BLOCK_PATH}/limbo-swarm git@github.com:defn/limbo-swarm 9bbd033a13c733ead68dd06b18b5184d916b2b99 master
 lxc ${BLOCK_PATH}/lxc git@github.com:defn/lxc df8ff1f56b6eb0840f790b282c90f8e860329b93 master
 limbo-lxd ${BLOCK_PATH}/limbo-lxd git@github.com:defn/limbo-lxd 6b48e98ffdf834c5587881fc9673791605d529fe master
