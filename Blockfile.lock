@@ -52,6 +52,9 @@ aws ${BLOCK_PATH}/aws git@github.com:defn/aws 7ffe9a8f053b20ce51a06df5f9c75d41c3
 azure ${BLOCK_PATH}/azure git@github.com:defn/azure 69061031ae06ea0f7c289d33e390597ce8421f68 master
 packet ${BLOCK_PATH}/packet git@github.com:defn/packet e19db545c9311ca33ff7c1958c0d03d0c1e9dcf9 master
 cloud ${BLOCK_PATH}/cloud git@github.com:defn/cloud 616141c3784c233aac7831b19b5ae34e7caf0596 master
+docker-machine ${BLOCK_PATH}/docker-machine git@github.com:defn/docker-machine 01f7092261401c52229c383ef91ea866800ad037 master
+docker-compose ${BLOCK_PATH}/docker-compose git@github.com:defn/docker-compose 9207362e6fabeb7594df647f5606f8d0fc69e168 master
+docker ${BLOCK_PATH}/docker git@github.com:defn/docker d69eea2dc78a4af93c60c33a05eb31ffebd867c8 master
 service ${BLOCK_PATH}/service git@github.com:defn/service 0fc87c65e702b0dccc2bc7fc1c2a6be3a00e15f6 master
 maven ${BLOCK_PATH}/maven git@github.com:defn/maven f826158d7d4a07267dd45e0a3b8b522d8351354a master
 cljs ${BLOCK_PATH}/cljs git@github.com:defn/cljs b8c69bfd5f723d40e3eebaf6c491919d01b7a9d6 master
@@ -65,13 +68,9 @@ packer ${BLOCK_PATH}/packer git@github.com:defn/packer 5791558560a897562fd76687a
 vagrant ${BLOCK_PATH}/vagrant git@github.com:defn/vagrant c9edf723550e2c1a5c1c428c012d64fb896179c1 master
 dream ${BLOCK_PATH}/dream git@github.com:defn/dream 6e1cdb19a64135531aad99c7a7df94b11fc6deb5 master
 limbo ${BLOCK_PATH}/limbo git@github.com:defn/limbo cab99fbcc038b3cb5bc34a54ed075b7d997cea01 master
-docker-machine ${BLOCK_PATH}/docker-machine git@github.com:defn/docker-machine 01f7092261401c52229c383ef91ea866800ad037 master
-docker-compose ${BLOCK_PATH}/docker-compose git@github.com:defn/docker-compose 9207362e6fabeb7594df647f5606f8d0fc69e168 master
-docker ${BLOCK_PATH}/docker git@github.com:defn/docker d69eea2dc78a4af93c60c33a05eb31ffebd867c8 master
-limbo-swarm ${BLOCK_PATH}/limbo-swarm git@github.com:defn/limbo-swarm 9bbd033a13c733ead68dd06b18b5184d916b2b99 master
 lxc ${BLOCK_PATH}/lxc git@github.com:defn/lxc df8ff1f56b6eb0840f790b282c90f8e860329b93 master
-limbo-lxd ${BLOCK_PATH}/limbo-lxd git@github.com:defn/limbo-lxd fc4e736fc6ce9561c5ecac77ad8db88d00bb2cb3 master
-inception ${BLOCK_PATH}/inception git@github.com:defn/inception a11a8b8165e7605f967dee46e8869ea69869cb4b master
+limbo-lxd ${BLOCK_PATH}/limbo-lxd git@github.com:defn/limbo-lxd 8216db3f686f4646f57ff083af666321e3e22f6a master
+inception ${BLOCK_PATH}/inception git@github.com:defn/inception e780a6d8199dd1eb08521ff5678b0342f77fee4a master
 poop ${BLOCK_PATH}/poop git@github.com:defn/poop e990c87aaae4bdeb742161ca2f1d6bdc5ac6327c master
 lamda ${BLOCK_PATH}/lamda git@github.com:defn/lamda b1c6b48ea6e9bb4f6eb13afc4b133e35828047c2 master
 hugo ${BLOCK_PATH}/hugo git@github.com:defn/hugo e2a10491939963db3d8e0a89ef4715f8e8380097 master
