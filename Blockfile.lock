@@ -43,7 +43,7 @@ inventory ${BLOCK_PATH}/inventory git@github.com:defn/inventory 3d325d9c45b76bff
 deploy ${BLOCK_PATH}/deploy git@github.com:defn/deploy 1af5bbade8957c9efbafbb2849de9804752a8899 master
 context ${BLOCK_PATH}/context git@github.com:defn/context 3a3db97712df8212f5bf1f57aeab70e932b21578 master
 git ${BLOCK_PATH}/git git@github.com:defn/git f75bb94c57a4bc8cd3d161a07d600e93c796fb6c master
-go ${BLOCK_PATH}/go git@github.com:defn/go 3109408b379d4587bbe9b4be42d6504165021ed7 master
+go ${BLOCK_PATH}/go git@github.com:defn/go 0933652492786faa190731a9c36e224a08dca120 master
 github ${BLOCK_PATH}/github git@github.com:defn/github d1f9bb849196527555c23121c8498f0187eccbba master
 chef ${BLOCK_PATH}/chef git@github.com:defn/chef 5e65644ffe71d0e1c6ba9e3b92f4fae1e786fa45 master
 facts ${BLOCK_PATH}/facts git@github.com:defn/facts f65c5af8dc571575bfd39ca839ddb7b496caa8be master
