@@ -64,7 +64,7 @@ launch-config ${BLOCK_PATH}/launch-config git@github.com:defn/launch-config 7982
 packer ${BLOCK_PATH}/packer git@github.com:defn/packer 5791558560a897562fd76687ae3c22d3c9747e20 master
 vagrant ${BLOCK_PATH}/vagrant git@github.com:defn/vagrant c9edf723550e2c1a5c1c428c012d64fb896179c1 master
 dream ${BLOCK_PATH}/dream git@github.com:defn/dream 6e1cdb19a64135531aad99c7a7df94b11fc6deb5 master
-limbo ${BLOCK_PATH}/limbo git@github.com:defn/limbo 27e0c9eef3800bb3e499eaab88e63056034a99b1 master
+limbo ${BLOCK_PATH}/limbo git@github.com:defn/limbo ad11680ab84b83a3e57d2dc2b76b40e684b3e336 master
 docker-machine ${BLOCK_PATH}/docker-machine git@github.com:defn/docker-machine 01f7092261401c52229c383ef91ea866800ad037 master
 docker-compose ${BLOCK_PATH}/docker-compose git@github.com:defn/docker-compose 9207362e6fabeb7594df647f5606f8d0fc69e168 master
 docker ${BLOCK_PATH}/docker git@github.com:defn/docker 6236d4e017a35c95f83721ce92cdb9177af40237 master
