@@ -53,7 +53,7 @@ packet ${BLOCK_PATH}/packet git@github.com:defn/packet e19db545c9311ca33ff7c1958
 cloud ${BLOCK_PATH}/cloud git@github.com:defn/cloud 616141c3784c233aac7831b19b5ae34e7caf0596 master
 docker-machine ${BLOCK_PATH}/docker-machine git@github.com:defn/docker-machine 01f7092261401c52229c383ef91ea866800ad037 master
 docker-compose ${BLOCK_PATH}/docker-compose git@github.com:defn/docker-compose 9207362e6fabeb7594df647f5606f8d0fc69e168 master
-docker ${BLOCK_PATH}/docker git@github.com:defn/docker d69eea2dc78a4af93c60c33a05eb31ffebd867c8 master
+docker ${BLOCK_PATH}/docker git@github.com:defn/docker 415c97ba43c1736c7e956864007d655328eba9b4 master
 service ${BLOCK_PATH}/service git@github.com:defn/service 0fc87c65e702b0dccc2bc7fc1c2a6be3a00e15f6 master
 maven ${BLOCK_PATH}/maven git@github.com:defn/maven f826158d7d4a07267dd45e0a3b8b522d8351354a master
 cljs ${BLOCK_PATH}/cljs git@github.com:defn/cljs b8c69bfd5f723d40e3eebaf6c491919d01b7a9d6 master
