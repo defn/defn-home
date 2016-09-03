@@ -1,7 +1,7 @@
 defn-config ${BLOCK_PATH}/defn-config git@github.com:defn/defn-config 69a63c9ba242463508d3fced2525d19006b3cd8f master
 pkgsrc ${BLOCK_PATH}/pkgsrc git@github.com:defn/pkgsrc 977a0769d7e71bc12da988b69088a181418ca9b4 master
 build-essential ${BLOCK_PATH}/build-essential git@github.com:defn/build-essential ce28be8e33d991ffb8e1475fc1aecd73584e720d master
-cache ${BLOCK_PATH}/cache git@github.com:defn/cache be8cff80705fb422c87f5e77e3539c1865eb0812 master
+cache ${BLOCK_PATH}/cache git@github.com:defn/cache 7e3cfa61c09fdeffbe8c62da0a48d8041efee70e master
 curl ${BLOCK_PATH}/curl git@github.com:defn/curl d1df9829d627fc04a7dfe498d394571e9d336570 master
 python ${BLOCK_PATH}/python git@github.com:defn/python 6392c6466e7fca408f0f30b49e768a1ec65b0c9f master
 nodeenv ${BLOCK_PATH}/nodeenv git@github.com:defn/nodeenv 233ae6daed34b1190c6f39b7414e255085120fa5 master
