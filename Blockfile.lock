@@ -63,10 +63,10 @@ sinopia ${BLOCK_PATH}/sinopia git@github.com:defn/sinopia 0e7a28a28eaecaa02aa46a
 jenkins ${BLOCK_PATH}/jenkins git@github.com:defn/jenkins 20a8a5d342ee49ba70dd154222578ed910ec5744 master
 artifacts ${BLOCK_PATH}/artifacts git@github.com:defn/artifacts 3a47658b6a0f689ba9ad4e58aa50cfdcf308e122 master
 launch-config ${BLOCK_PATH}/launch-config git@github.com:defn/launch-config 7982b6a216c9745db348e4aff3efe72b2da23949 master
-packer ${BLOCK_PATH}/packer git@github.com:defn/packer 5791558560a897562fd76687ae3c22d3c9747e20 master
+packer ${BLOCK_PATH}/packer git@github.com:defn/packer ed9d35d1cf108000b1aabe50bd2c6e8d5f0d6751 master
 vagrant ${BLOCK_PATH}/vagrant git@github.com:defn/vagrant c9edf723550e2c1a5c1c428c012d64fb896179c1 master
-dream ${BLOCK_PATH}/dream git@github.com:defn/dream 6e1cdb19a64135531aad99c7a7df94b11fc6deb5 master
-limbo ${BLOCK_PATH}/limbo git@github.com:defn/limbo 17eb3465f8a4b50b80cb1d11d1f9a8a7ab4c54ef master
+dream ${BLOCK_PATH}/dream git@github.com:defn/dream e61d66774dd64a02d6d1df330fd1712bbff9ebd9 master
+limbo ${BLOCK_PATH}/limbo git@github.com:defn/limbo 234217788cf7110bd35b4ef05592ba47c5ba56c7 master
 lxc ${BLOCK_PATH}/lxc git@github.com:defn/lxc df8ff1f56b6eb0840f790b282c90f8e860329b93 master
 limbo-lxd ${BLOCK_PATH}/limbo-lxd git@github.com:defn/limbo-lxd 59b03c2e007d2aca5669751a9a661cc6de0faeda master
 limbo-docker ${BLOCK_PATH}/limbo-docker git@github.com:defn/limbo-docker 19abd50ceaacfb7502774f734177b389890c59f0 master
