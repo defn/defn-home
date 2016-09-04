@@ -56,7 +56,8 @@
     "openvpn",
     "dnsmasq",
     "linkerd",
-    "virtualbox"
+    "virtualbox",
+    "nexus"
   ],
   "run": {
     "squid": {},
