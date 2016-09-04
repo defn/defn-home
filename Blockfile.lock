@@ -52,8 +52,8 @@ facts ${BLOCK_PATH}/facts git@github.com:defn/facts 22bc66c72f74143b987e77e32d54
 parity ${BLOCK_PATH}/parity git@github.com:defn/parity 932ae42c1975401fa8f2df8e1d9b77ce1ad90775 master
 aws ${BLOCK_PATH}/aws git@github.com:defn/aws 7ffe9a8f053b20ce51a06df5f9c75d41c316469a master
 azure ${BLOCK_PATH}/azure git@github.com:defn/azure 69061031ae06ea0f7c289d33e390597ce8421f68 master
-packet ${BLOCK_PATH}/packet git@github.com:defn/packet e19db545c9311ca33ff7c1958c0d03d0c1e9dcf9 master
-cloud ${BLOCK_PATH}/cloud git@github.com:defn/cloud 616141c3784c233aac7831b19b5ae34e7caf0596 master
+gcp ${BLOCK_PATH}/gcp git@github.com:defn/gcp 5a40f1fb026ef04751bbae6e75c19e36e1546260 master
+cloud ${BLOCK_PATH}/cloud git@github.com:defn/cloud 109d48ed60057a0117b8f9c440469b5f7ceca656 master
 docker-machine ${BLOCK_PATH}/docker-machine git@github.com:defn/docker-machine 01f7092261401c52229c383ef91ea866800ad037 master
 docker-compose ${BLOCK_PATH}/docker-compose git@github.com:defn/docker-compose 9207362e6fabeb7594df647f5606f8d0fc69e168 master
 docker ${BLOCK_PATH}/docker git@github.com:defn/docker 415c97ba43c1736c7e956864007d655328eba9b4 master
