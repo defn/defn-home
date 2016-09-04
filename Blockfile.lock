@@ -10,7 +10,11 @@ rbenv ${BLOCK_PATH}/rbenv git@github.com:defn/rbenv 48d6d5ae841a6f5b9497eade814e
 ruby ${BLOCK_PATH}/ruby git@github.com:defn/ruby ec54e394b1598a3d9a350a68b1f6e44929c36477 master
 java ${BLOCK_PATH}/java git@github.com:defn/java 84477bd12b0a0384c33d10d02addd1e293bc81f4 master
 bash4 ${BLOCK_PATH}/bash4 git@github.com:defn/bash4 69a40647ea1a9bdc15a683b8b9bde97baba579a9 master
-defn-lang ${BLOCK_PATH}/defn-lang git@github.com:defn/defn-lang d58ef220a1a65046fbfe9fb13e91f07deb27a870 master
+go ${BLOCK_PATH}/go git@github.com:defn/go 0933652492786faa190731a9c36e224a08dca120 master
+rust ${BLOCK_PATH}/rust git@github.com:defn/rust 404481f56b275506ad28db13b7dda6263a23ccf5 master
+erlang ${BLOCK_PATH}/erlang git@github.com:defn/erlang f2bed67187c2c72192c4d07e59f1e0daf7b4d351 master
+elixir ${BLOCK_PATH}/elixir git@github.com:defn/elixir 368b6d7159d31fd3e6520e30b44c28f7c202f529 master
+defn-lang ${BLOCK_PATH}/defn-lang git@github.com:defn/defn-lang 6cd3cb5637d4ecb9b6b340174d565e32da1da65f master
 block-home ${BLOCK_PATH}/block-home git@github.com:defn/block-home 3904d86c7f9aa9fbcc25f09215f547ac8bbd2eee master
 pl-home ${BLOCK_PATH}/pl-home git@github.com:defn/pl-home 5fdfcb22db48ea064dd40f6fb0677e7243076e65 master
 shflags ${BLOCK_PATH}/shflags git@github.com:defn/shflags d2d0a410187d8c1e76b5fd679f8a5691ab726d9e master
@@ -43,7 +47,6 @@ inventory ${BLOCK_PATH}/inventory git@github.com:defn/inventory 3d325d9c45b76bff
 deploy ${BLOCK_PATH}/deploy git@github.com:defn/deploy 1af5bbade8957c9efbafbb2849de9804752a8899 master
 context ${BLOCK_PATH}/context git@github.com:defn/context 3a3db97712df8212f5bf1f57aeab70e932b21578 master
 git ${BLOCK_PATH}/git git@github.com:defn/git f75bb94c57a4bc8cd3d161a07d600e93c796fb6c master
-go ${BLOCK_PATH}/go git@github.com:defn/go 0933652492786faa190731a9c36e224a08dca120 master
 github ${BLOCK_PATH}/github git@github.com:defn/github d1f9bb849196527555c23121c8498f0187eccbba master
 facts ${BLOCK_PATH}/facts git@github.com:defn/facts 22bc66c72f74143b987e77e32d54c8d6ef533e94 master
 parity ${BLOCK_PATH}/parity git@github.com:defn/parity 932ae42c1975401fa8f2df8e1d9b77ce1ad90775 master
