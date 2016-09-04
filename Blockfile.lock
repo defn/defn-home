@@ -133,3 +133,4 @@ openvpn ${BLOCK_PATH}/openvpn git@github.com:defn/openvpn 0b6c01fd0125483ddd38c9
 dnsmasq ${BLOCK_PATH}/dnsmasq git@github.com:defn/dnsmasq 8d499698c38b3640476107d8df97bb2c492a6425 master
 linkerd ${BLOCK_PATH}/linkerd git@github.com:defn/linkerd 223a4691e415e0f2894600d7d27b9d7ec5d342ef master
 virtualbox ${BLOCK_PATH}/virtualbox git@github.com:defn/virtualbox 6e6d93a9657d9819b032be469fbb9c7229576aca master
+nexus ${BLOCK_PATH}/nexus git@github.com:defn/nexus 50acf9aa3fc724562cbc9ac8a74886537c31671b master
