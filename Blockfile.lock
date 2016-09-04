@@ -10,7 +10,7 @@ rbenv ${BLOCK_PATH}/rbenv git@github.com:defn/rbenv 48d6d5ae841a6f5b9497eade814e
 ruby ${BLOCK_PATH}/ruby git@github.com:defn/ruby ec54e394b1598a3d9a350a68b1f6e44929c36477 master
 java ${BLOCK_PATH}/java git@github.com:defn/java 84477bd12b0a0384c33d10d02addd1e293bc81f4 master
 bash4 ${BLOCK_PATH}/bash4 git@github.com:defn/bash4 69a40647ea1a9bdc15a683b8b9bde97baba579a9 master
-defn-lang ${BLOCK_PATH}/defn-lang git@github.com:defn/defn-lang 76a5663068e167c39f73da00d144fe2ac125ea83 master
+defn-lang ${BLOCK_PATH}/defn-lang git@github.com:defn/defn-lang d58ef220a1a65046fbfe9fb13e91f07deb27a870 master
 block-home ${BLOCK_PATH}/block-home git@github.com:defn/block-home 3904d86c7f9aa9fbcc25f09215f547ac8bbd2eee master
 pl-home ${BLOCK_PATH}/pl-home git@github.com:defn/pl-home 5fdfcb22db48ea064dd40f6fb0677e7243076e65 master
 shflags ${BLOCK_PATH}/shflags git@github.com:defn/shflags d2d0a410187d8c1e76b5fd679f8a5691ab726d9e master
