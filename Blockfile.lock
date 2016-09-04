@@ -10,13 +10,13 @@ rbenv ${BLOCK_PATH}/rbenv git@github.com:defn/rbenv 48d6d5ae841a6f5b9497eade814e
 ruby ${BLOCK_PATH}/ruby git@github.com:defn/ruby ec54e394b1598a3d9a350a68b1f6e44929c36477 master
 java ${BLOCK_PATH}/java git@github.com:defn/java 84477bd12b0a0384c33d10d02addd1e293bc81f4 master
 bash4 ${BLOCK_PATH}/bash4 git@github.com:defn/bash4 69a40647ea1a9bdc15a683b8b9bde97baba579a9 master
-defn-lang ${BLOCK_PATH}/defn-lang git@github.com:defn/defn-lang 0ba1fde9f6db12de415c66ed9c127e5dd93b4845 master
+defn-lang ${BLOCK_PATH}/defn-lang git@github.com:defn/defn-lang 76a5663068e167c39f73da00d144fe2ac125ea83 master
 block-home ${BLOCK_PATH}/block-home git@github.com:defn/block-home 3904d86c7f9aa9fbcc25f09215f547ac8bbd2eee master
 pl-home ${BLOCK_PATH}/pl-home git@github.com:defn/pl-home 5fdfcb22db48ea064dd40f6fb0677e7243076e65 master
 shflags ${BLOCK_PATH}/shflags git@github.com:defn/shflags d2d0a410187d8c1e76b5fd679f8a5691ab726d9e master
 normalize ${BLOCK_PATH}/normalize git@github.com:defn/normalize b156ba1ec79f2da218d463c9b86f4192bcbeab54 master
 bash-preexec ${BLOCK_PATH}/bash-preexec git@github.com:defn/bash-preexec 58d40e639c7507b839b2dec0ce651270ddeca66f master
-sub ${BLOCK_PATH}/sub git@github.com:defn/sub ff9ef20546292ae05c8986dfdba5760e61d7f456 master
+sub ${BLOCK_PATH}/sub git@github.com:defn/sub 5adabce8b4c41e0fac7611d5024beb98f20fad17 master
 runmany ${BLOCK_PATH}/runmany git@github.com:defn/runmany 83214538c0e90b1244cd8bfbb8c8d3aef7d11c19 master
 block ${BLOCK_PATH}/block git@github.com:defn/block fefb30e07ad405a8ecbc232e13536f04c41f0eb9 master
 bash-oo-framework ${BLOCK_PATH}/bash-oo-framework git@github.com:defn/bash-oo-framework 75447ff7fcb7c032bd5bf3754659b0a81c401873 master
@@ -66,7 +66,7 @@ launch-config ${BLOCK_PATH}/launch-config git@github.com:defn/launch-config 7982
 packer ${BLOCK_PATH}/packer git@github.com:defn/packer ed9d35d1cf108000b1aabe50bd2c6e8d5f0d6751 master
 vagrant ${BLOCK_PATH}/vagrant git@github.com:defn/vagrant c9edf723550e2c1a5c1c428c012d64fb896179c1 master
 dream ${BLOCK_PATH}/dream git@github.com:defn/dream cc6deec7dd2ba28de6bcb74211101b671c2adff2 master
-limbo ${BLOCK_PATH}/limbo git@github.com:defn/limbo a27301496ab71c400745c89a2cd43ff51d96fd24 master
+limbo ${BLOCK_PATH}/limbo git@github.com:defn/limbo 45c88f9ca28836a0e59e6a15f9f5cc1f8cdbc0ba master
 lxc ${BLOCK_PATH}/lxc git@github.com:defn/lxc df8ff1f56b6eb0840f790b282c90f8e860329b93 master
 limbo-lxd ${BLOCK_PATH}/limbo-lxd git@github.com:defn/limbo-lxd 61e8b8f96c1314f2e2142a5b80b73652522141c4 master
 limbo-docker ${BLOCK_PATH}/limbo-docker git@github.com:defn/limbo-docker 19abd50ceaacfb7502774f734177b389890c59f0 master
