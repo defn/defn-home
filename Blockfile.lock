@@ -18,7 +18,7 @@ normalize ${BLOCK_PATH}/normalize git@github.com:defn/normalize b156ba1ec79f2da2
 bash-preexec ${BLOCK_PATH}/bash-preexec git@github.com:defn/bash-preexec 58d40e639c7507b839b2dec0ce651270ddeca66f master
 sub ${BLOCK_PATH}/sub git@github.com:defn/sub 5adabce8b4c41e0fac7611d5024beb98f20fad17 master
 runmany ${BLOCK_PATH}/runmany git@github.com:defn/runmany 83214538c0e90b1244cd8bfbb8c8d3aef7d11c19 master
-block ${BLOCK_PATH}/block git@github.com:defn/block fefb30e07ad405a8ecbc232e13536f04c41f0eb9 master
+block ${BLOCK_PATH}/block git@github.com:defn/block 546c760328115de216ea50d5dfbc70188db5fe81 master
 bash-oo-framework ${BLOCK_PATH}/bash-oo-framework git@github.com:defn/bash-oo-framework 75447ff7fcb7c032bd5bf3754659b0a81c401873 master
 homebrew ${BLOCK_PATH}/homebrew git@github.com:defn/homebrew a7997c72f29b3d87dc7accbac934314522495083 master
 xcode ${BLOCK_PATH}/xcode git@github.com:defn/xcode d2c041d38f4655e172b349c430d263c4f6920ed0 master
@@ -58,7 +58,7 @@ service ${BLOCK_PATH}/service git@github.com:defn/service 0fc87c65e702b0dccc2bc7
 maven ${BLOCK_PATH}/maven git@github.com:defn/maven f826158d7d4a07267dd45e0a3b8b522d8351354a master
 cljs ${BLOCK_PATH}/cljs git@github.com:defn/cljs b8c69bfd5f723d40e3eebaf6c491919d01b7a9d6 master
 apt-mirror ${BLOCK_PATH}/apt-mirror git@github.com:defn/apt-mirror d21ad2d7ba53f08ff4b39340d87133a4ef06ca6c master
-squid ${BLOCK_PATH}/squid git@github.com:defn/squid 0fd60074e396a5857c5fa8b9c834b3657fced01b master
+squid ${BLOCK_PATH}/squid git@github.com:defn/squid 46e50e3b3c9b1ed0fdff01d70f586aef76bf559f master
 sinopia ${BLOCK_PATH}/sinopia git@github.com:defn/sinopia 0e7a28a28eaecaa02aa46a367d3f516c487b9a5c master
 jenkins ${BLOCK_PATH}/jenkins git@github.com:defn/jenkins 20a8a5d342ee49ba70dd154222578ed910ec5744 master
 artifacts ${BLOCK_PATH}/artifacts git@github.com:defn/artifacts 3a47658b6a0f689ba9ad4e58aa50cfdcf308e122 master
