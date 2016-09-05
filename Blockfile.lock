@@ -62,9 +62,10 @@ maven ${BLOCK_PATH}/maven git@github.com:defn/maven f826158d7d4a07267dd45e0a3b8b
 cljs ${BLOCK_PATH}/cljs git@github.com:defn/cljs b8c69bfd5f723d40e3eebaf6c491919d01b7a9d6 master
 apt-mirror ${BLOCK_PATH}/apt-mirror git@github.com:defn/apt-mirror da83728ba5c3d081c2b70efd0ec3691b3f2e39ba master
 squid ${BLOCK_PATH}/squid git@github.com:defn/squid 46e50e3b3c9b1ed0fdff01d70f586aef76bf559f master
-sinopia ${BLOCK_PATH}/sinopia git@github.com:defn/sinopia 0e7a28a28eaecaa02aa46a367d3f516c487b9a5c master
+nexus ${BLOCK_PATH}/nexus git@github.com:defn/nexus 50acf9aa3fc724562cbc9ac8a74886537c31671b master
+aptly ${BLOCK_PATH}/aptly git@github.com:defn/aptly 56306e5b5e549ce609327eeb938e62fd284ee74b master
 jenkins ${BLOCK_PATH}/jenkins git@github.com:defn/jenkins 0a19965bf4d31f8e5d5c858fd491f6736ac04af9 master
-artifacts ${BLOCK_PATH}/artifacts git@github.com:defn/artifacts 3a47658b6a0f689ba9ad4e58aa50cfdcf308e122 master
+artifacts ${BLOCK_PATH}/artifacts git@github.com:defn/artifacts 81b0a7a77500e08532d977508747237004ca0c33 master
 launch-config ${BLOCK_PATH}/launch-config git@github.com:defn/launch-config 7982b6a216c9745db348e4aff3efe72b2da23949 master
 packer ${BLOCK_PATH}/packer git@github.com:defn/packer 0553a06e3b71d0db538d6c9fdb3c359b4f4f4b63 master
 vagrant ${BLOCK_PATH}/vagrant git@github.com:defn/vagrant aff8f4eee479e26c686e471495984649a114d770 master
@@ -133,4 +134,3 @@ openvpn ${BLOCK_PATH}/openvpn git@github.com:defn/openvpn 0b6c01fd0125483ddd38c9
 dnsmasq ${BLOCK_PATH}/dnsmasq git@github.com:defn/dnsmasq 8d499698c38b3640476107d8df97bb2c492a6425 master
 linkerd ${BLOCK_PATH}/linkerd git@github.com:defn/linkerd 3c678be3bd87401c7b2258c4f75b92c99bd98488 master
 virtualbox ${BLOCK_PATH}/virtualbox git@github.com:defn/virtualbox 6e6d93a9657d9819b032be469fbb9c7229576aca master
-nexus ${BLOCK_PATH}/nexus git@github.com:defn/nexus 50acf9aa3fc724562cbc9ac8a74886537c31671b master
