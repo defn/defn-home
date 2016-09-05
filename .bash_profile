@@ -11,7 +11,7 @@ function configure_cue {
 
   : ${SHLVL_INITIAL:=0}
 
-  : ${CUE_SCHEME:="$(cat "$shome/.cue-scheme" 2>&- || true)"}
+  : ${CUE_SCHEME:="$(cat "$shome/.cue-scheme" 2>/dev/null || true)"}
   export CUE_SCHEME
 }
 
