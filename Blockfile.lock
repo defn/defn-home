@@ -70,10 +70,10 @@ launch-config ${BLOCK_PATH}/launch-config git@github.com:defn/launch-config 7982
 packer ${BLOCK_PATH}/packer git@github.com:defn/packer 0553a06e3b71d0db538d6c9fdb3c359b4f4f4b63 master
 vagrant ${BLOCK_PATH}/vagrant git@github.com:defn/vagrant aff8f4eee479e26c686e471495984649a114d770 master
 dream ${BLOCK_PATH}/dream git@github.com:defn/dream dc45d1b68aafe07e8837f348e02dedfdcbd157aa master
-limbo ${BLOCK_PATH}/limbo git@github.com:defn/limbo 6ce142369f6ab04807d24fef0e8845fe6de25dec master
+limbo ${BLOCK_PATH}/limbo git@github.com:defn/limbo 587ad2bc67f7070a10547e07ae1eed0d1b770b47 master
 lxc ${BLOCK_PATH}/lxc git@github.com:defn/lxc df8ff1f56b6eb0840f790b282c90f8e860329b93 master
 limbo-lxd ${BLOCK_PATH}/limbo-lxd git@github.com:defn/limbo-lxd eb9bf9eccbc0eb6fefe39ae76bcf2d1b382ca2ee master
-limbo-docker ${BLOCK_PATH}/limbo-docker git@github.com:defn/limbo-docker 7d6c672c98c87157b608c94f3a3964a9a1253b3e master
+limbo-docker ${BLOCK_PATH}/limbo-docker git@github.com:defn/limbo-docker 98212a872274b7eab20de5e8ab226322cc5cbda1 master
 inception ${BLOCK_PATH}/inception git@github.com:defn/inception 9c7738fe7db8fa32b5ecfc396d91d9f20a6d911a master
 poop ${BLOCK_PATH}/poop git@github.com:defn/poop e990c87aaae4bdeb742161ca2f1d6bdc5ac6327c master
 lamda ${BLOCK_PATH}/lamda git@github.com:defn/lamda b1c6b48ea6e9bb4f6eb13afc4b133e35828047c2 master
