@@ -11,9 +11,9 @@ ruby ${BLOCK_PATH}/ruby git@github.com:defn/ruby 8f6466d115388a50d7a97a15c10fd4e
 java ${BLOCK_PATH}/java git@github.com:defn/java 84477bd12b0a0384c33d10d02addd1e293bc81f4 master
 bash4 ${BLOCK_PATH}/bash4 git@github.com:defn/bash4 69a40647ea1a9bdc15a683b8b9bde97baba579a9 master
 go ${BLOCK_PATH}/go git@github.com:defn/go 259ac11ddab731a0cc4cff1c53723462ab294838 master
-rust ${BLOCK_PATH}/rust git@github.com:defn/rust 404481f56b275506ad28db13b7dda6263a23ccf5 master
-erlang ${BLOCK_PATH}/erlang git@github.com:defn/erlang f2bed67187c2c72192c4d07e59f1e0daf7b4d351 master
-elixir ${BLOCK_PATH}/elixir git@github.com:defn/elixir 368b6d7159d31fd3e6520e30b44c28f7c202f529 master
+rust ${BLOCK_PATH}/rust git@github.com:defn/rust c826211354069610c967bf11d1c85e794d5028d4 master
+erlang ${BLOCK_PATH}/erlang git@github.com:defn/erlang 2339f825e623d5969c0060a33955db5fcfff7313 master
+elixir ${BLOCK_PATH}/elixir git@github.com:defn/elixir a0579be737b55398de432430e3ccf99e65b2f459 master
 defn-lang ${BLOCK_PATH}/defn-lang git@github.com:defn/defn-lang 6cd3cb5637d4ecb9b6b340174d565e32da1da65f master
 block-home ${BLOCK_PATH}/block-home git@github.com:defn/block-home 3904d86c7f9aa9fbcc25f09215f547ac8bbd2eee master
 pl-home ${BLOCK_PATH}/pl-home git@github.com:defn/pl-home 5fdfcb22db48ea064dd40f6fb0677e7243076e65 master
