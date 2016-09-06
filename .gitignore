@@ -232,3 +232,6 @@ cibuild-*.log
 
 # local::lib
 /install-p5
+
+# vault
+.vault-token

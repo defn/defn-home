@@ -67,6 +67,7 @@
     "nexus": {},
     "apt-mirror": {},
     "consul": {},
+    "vault": {},
     "sinopia": {},
     "isomorphic-clojurescript-reagent-node": {}
   }
