@@ -7,6 +7,8 @@ function main {
 
   local many="${1:-10}"
   
+  unset GIT_SSH ssh_gateway ssh_gateway_user
+
   block runmany "$many" 'cd $1 && git pull' || true
   block clone
   block lock
