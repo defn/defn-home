@@ -66,8 +66,8 @@ launch-config ${BLOCK_PATH}/launch-config git@github.com:defn/launch-config 7982
 service ${BLOCK_PATH}/service git@github.com:defn/service 49619ef21d527fa580bd6598cb9dc2e5a762e0b1 master
 packer ${BLOCK_PATH}/packer git@github.com:defn/packer 0553a06e3b71d0db538d6c9fdb3c359b4f4f4b63 master
 vagrant ${BLOCK_PATH}/vagrant git@github.com:defn/vagrant aff8f4eee479e26c686e471495984649a114d770 master
-dream ${BLOCK_PATH}/dream git@github.com:defn/dream 1e679daa8d742775a200aa788b6f84416658b88f master
-limbo ${BLOCK_PATH}/limbo git@github.com:defn/limbo ab297a8827ce5a307f93b16d1ce101208fe2e04d master
+dream ${BLOCK_PATH}/dream git@github.com:defn/dream f6ee196291b6a27777d6e6bf01c2b518efa44140 master
+limbo ${BLOCK_PATH}/limbo git@github.com:defn/limbo 45894fab9ac592e41744a2da1ff3ab2a9d6e6064 master
 lxc ${BLOCK_PATH}/lxc git@github.com:defn/lxc df8ff1f56b6eb0840f790b282c90f8e860329b93 master
 limbo-lxd ${BLOCK_PATH}/limbo-lxd git@github.com:defn/limbo-lxd 4be902c07d2452ce86c6effcd82be32e0f40dff6 master
 limbo-docker ${BLOCK_PATH}/limbo-docker git@github.com:defn/limbo-docker 71ce16ebe2acc1d5a94eb81e34184c5612cf4da9 master
