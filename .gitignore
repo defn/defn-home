@@ -112,6 +112,7 @@
 /.aptitude
 /.cache
 /.bashrc.*
+/.sudo_as_admin_successful
 
 # tugboat
 /.tugboat
