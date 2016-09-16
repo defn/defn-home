@@ -3,6 +3,7 @@
 function bootstrap_pkgsrc {
   pkg ensure sysutils/e2fsprogs
   pkg ensure sysutils/tree
+  pkg ensure misc/screen
  }
 
 function home_bootstrap {
