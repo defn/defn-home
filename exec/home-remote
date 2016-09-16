@@ -7,14 +7,6 @@ function main {
 
   set -x
 
-  if ! "$@" test -d .git; then
-    "$@" ssh -o StrictHostKeyChecking=no github.com true || true
-    "$@" -A git clone git@github.com:defn/home 
-    "$@" mv home/.git .
-    "$@" git reset --hard
-    "$@" rm -rf home .profile
-  fi
-
   "$@" -A env http_proxy=$http_proxy https_proxy=$https_proxy ssh_gateway=$ssh_gateway ssh_gateway_user=$LOGNAME script/cibuild '~'
   "$@" block compile service
 }

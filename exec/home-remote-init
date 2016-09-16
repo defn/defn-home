@@ -7,8 +7,11 @@ function main {
 
   set -x
 
-  "$@" -A git pull
-  "$@" -A home update
+  "$@" ssh -o StrictHostKeyChecking=no github.com true || true
+  "$@" -A git clone git@github.com:defn/home
+  "$@" mv home/.git .
+  "$@" git reset --hard
+  "$@" rm -rf home .profile
 
   home remote "$@"
 }
