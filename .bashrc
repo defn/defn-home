@@ -40,10 +40,12 @@ function guess_scheme {
 }
 
 function set_scheme {
-  case "$(guess_scheme)" in
-    slight) slight || true ;;
-    *)      sdark  || true ;;
-  esac
+  if type -t sdark >/dev/null; then
+    case "$(guess_scheme)" in
+      slight) slight || true ;;
+      *)      sdark  || true ;;
+    esac
+  fi
 }
 
 function home_bashrc {
