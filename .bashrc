@@ -1,7 +1,10 @@
 function source_blocks {
-  source "$shome/work/block/script/profile" "$shome"
-  block gen profile > $shome/.bashrc.cache.$$
-  mv $shome/.bashrc.cache.$$ $shome/.bashrc.cache
+  if [[ -f "$shome/work/block/script/profile" ]]; then
+    source "$shome/work/block/script/profile" "$shome"
+    if block gen profile > $shome/.bashrc.cache.$$; then
+      mv $shome/.bashrc.cache.$$ $shome/.bashrc.cache
+    fi
+  fi
 }
 
 function source_cache {
