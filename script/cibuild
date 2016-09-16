@@ -5,11 +5,15 @@ function home_cibuild {
 
   mkdir -p "$shome/work"
 
-  (cd "$shome/work" && git clone git@github.com:defn/block 2>/dev/null || true)
+  if [[ ! -d "$shome/work/block/.git" ]]; then
+    (cd "$shome/work" && git clone git@github.com:defn/block)
+  fi
   "$shome/work/block/script/cibuild"
   source "$shome/work/block/script/profile"
 
-  (cd "$shome/work" && git clone git@github.com:defn/cache 2>/dev/null || true)
+  if [[ ! -d "$shome/work/cache/.git" ]]; then
+    (cd "$shome/work" && git clone git@github.com:defn/cache)
+  fi
   "$shome/work/block/script/cibuild" "$shome/work/cache"
   pushd "$shome/work/cache" >/dev/null
   require
