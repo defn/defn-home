@@ -70,7 +70,7 @@ dream ${BLOCK_PATH}/dream git@github.com:defn/dream 33db2de9037a9e7c0018ba9901c2
 limbo ${BLOCK_PATH}/limbo git@github.com:defn/limbo a89d96ac15331d9480ef16c6b1c7c38e88937983 master
 lxc ${BLOCK_PATH}/lxc git@github.com:defn/lxc df8ff1f56b6eb0840f790b282c90f8e860329b93 master
 limbo-lxd ${BLOCK_PATH}/limbo-lxd git@github.com:defn/limbo-lxd b7d8a2cca0b684633b9d86175c709e79f2f64ffa master
-limbo-docker ${BLOCK_PATH}/limbo-docker git@github.com:defn/limbo-docker 85d5911b5f5b8192c2bafc608da193de2b7fa514 master
+limbo-docker ${BLOCK_PATH}/limbo-docker git@github.com:defn/limbo-docker e83db7ca0725786c47c9ca4d5ce004f396a67bda master
 inception ${BLOCK_PATH}/inception git@github.com:defn/inception 5a2fb26d70c761fe40cf506dc1fafdc49d56ae58 master
 poop ${BLOCK_PATH}/poop git@github.com:defn/poop e990c87aaae4bdeb742161ca2f1d6bdc5ac6327c master
 lamda ${BLOCK_PATH}/lamda git@github.com:defn/lamda b1c6b48ea6e9bb4f6eb13afc4b133e35828047c2 master
@@ -127,7 +127,7 @@ env-imma-dev ${BLOCK_PATH}/env-imma-dev git@github.com:defn/env-imma-dev 17f5944
 env-imma-dev-nat ${BLOCK_PATH}/env-imma-dev-nat git@github.com:defn/env-imma-dev-nat 610ebb70daf504fe5d698e434f60da918ad2cae7 master
 env-imma-dev-shared ${BLOCK_PATH}/env-imma-dev-shared git@github.com:defn/env-imma-dev-shared 5e6e19402a5d409e881972250e79d4c81bebe5b0 master
 imma ${BLOCK_PATH}/imma git@github.com:defn/imma 5a8fd2c2c57ed8136363e21f156ca5d4b8c32320 master
-consul ${BLOCK_PATH}/consul git@github.com:defn/consul be7a4f3065ea07600cc0cfc46f83df3a41001ba4 master
+consul ${BLOCK_PATH}/consul git@github.com:defn/consul a1b6d87c43acc3936dd1f7847483cf25e7526e2f master
 vault ${BLOCK_PATH}/vault git@github.com:defn/vault 2030781eeefa2da3cad8d797e12c84c9624b4107 master
 openvpn ${BLOCK_PATH}/openvpn git@github.com:defn/openvpn 0b6c01fd0125483ddd38c9e3c2aabfdf699933b0 master
 dnsmasq ${BLOCK_PATH}/dnsmasq git@github.com:defn/dnsmasq 8d499698c38b3640476107d8df97bb2c492a6425 master

@@ -62,11 +62,12 @@
   "run": {
     "squid": {},
     "jenkins": {},
+    "teamcity.server": {},
     "teamcity": {},
-    "teamcity.agent": {},
     "nexus": {},
     "apt-mirror": {},
     "consul": {},
+    "consul.server": {},
     "vault": {},
     "sinopia": {},
     "isomorphic-clojurescript-reagent-node": {}
