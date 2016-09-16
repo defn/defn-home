@@ -12,6 +12,7 @@ function main {
     "$@" -A git clone git@github.com:defn/home 
     "$@" mv home/.git .
     "$@" git reset --hard
+    "$@" rm -rf home .profile
   fi
 
   "$@" env http_proxy=$http_proxy https_proxy=$https_proxy ssh_gateway=$ssh_gateway ssh_gateway_user=$LOGNAME script/cibuild '~'

@@ -71,7 +71,7 @@ limbo ${BLOCK_PATH}/limbo git@github.com:defn/limbo a89d96ac15331d9480ef16c6b1c7
 lxc ${BLOCK_PATH}/lxc git@github.com:defn/lxc df8ff1f56b6eb0840f790b282c90f8e860329b93 master
 limbo-lxd ${BLOCK_PATH}/limbo-lxd git@github.com:defn/limbo-lxd b7d8a2cca0b684633b9d86175c709e79f2f64ffa master
 limbo-docker ${BLOCK_PATH}/limbo-docker git@github.com:defn/limbo-docker e83db7ca0725786c47c9ca4d5ce004f396a67bda master
-inception ${BLOCK_PATH}/inception git@github.com:defn/inception 50016b7e986821bf151bd7c6a48347e97f708543 master
+inception ${BLOCK_PATH}/inception git@github.com:defn/inception 7702d685a1c7df5e8504abdba70e7ae2b7c5e621 master
 poop ${BLOCK_PATH}/poop git@github.com:defn/poop e990c87aaae4bdeb742161ca2f1d6bdc5ac6327c master
 lamda ${BLOCK_PATH}/lamda git@github.com:defn/lamda b1c6b48ea6e9bb4f6eb13afc4b133e35828047c2 master
 hugo ${BLOCK_PATH}/hugo git@github.com:defn/hugo fb6f8e468eb942fd95021edf52f8657c2654b6bc master
