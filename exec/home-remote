@@ -16,6 +16,9 @@ function main {
   fi
 
   "$@" env http_proxy=$http_proxy https_proxy=$https_proxy ssh_gateway=$ssh_gateway ssh_gateway_user=$LOGNAME script/cibuild '~'
+  "$@" rm -rf .profile home
+  "$@" block compile service
+  "$@" pkg ensure misc/screen
 }
 
 source sub "$BASH_SOURCE" "$@"
