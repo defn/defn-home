@@ -7,7 +7,7 @@ function main {
 
   "$@" -A git pull
   "$@" -A home update
-  home update "$@"
+  home remote "$@"
 }
 
 source sub "$BASH_SOURCE" "$@"
