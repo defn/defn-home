@@ -70,8 +70,8 @@ dream ${BLOCK_PATH}/dream git@github.com:defn/dream c9b33ca4a45586aff7b6a13edef5
 limbo ${BLOCK_PATH}/limbo git@github.com:defn/limbo 773556f9b0bf8d8f5032ed614edf64fb8a4eca14 master
 lxc ${BLOCK_PATH}/lxc git@github.com:defn/lxc df8ff1f56b6eb0840f790b282c90f8e860329b93 master
 limbo-lxd ${BLOCK_PATH}/limbo-lxd git@github.com:defn/limbo-lxd f2dc1b58d80e1a6dd695221fe8575745f769c494 master
-limbo-docker ${BLOCK_PATH}/limbo-docker git@github.com:defn/limbo-docker 0c6ac26a736e29e7f233ace99b9b40ad25de05e1 master
-inception ${BLOCK_PATH}/inception git@github.com:defn/inception e9d87bbdb1d4d13b9ea3fe6d4b1a54be90879b2b master
+limbo-docker ${BLOCK_PATH}/limbo-docker git@github.com:defn/limbo-docker 6eb60534844b1280381d4ccc967f79e62dab73f3 master
+inception ${BLOCK_PATH}/inception git@github.com:defn/inception 6ee37a42a96c2576025a2cde4d787c53a0878b26 master
 poop ${BLOCK_PATH}/poop git@github.com:defn/poop e67e05c5ebd6b88daaf9bbc8ed24c80819a78aab master
 lamda ${BLOCK_PATH}/lamda git@github.com:defn/lamda b1c6b48ea6e9bb4f6eb13afc4b133e35828047c2 master
 hugo ${BLOCK_PATH}/hugo git@github.com:defn/hugo 97136e459d2c342b9708db0f2da4dc4580ef9eec master
