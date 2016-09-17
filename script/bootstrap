@@ -7,7 +7,7 @@ function bootstrap_pkgsrc {
  }
 
 function home_bootstrap {
-  local shome="${_defn_home_home:-"$(cd -P -- "${BASH_SOURCE%/*}/.." && pwd -P)"}"
+  local shome="$(cd -P -- "${BASH_SOURCE%/*}/.." && pwd -P)"
   source "$shome/script/profile"
 
   bootstrap_pkgsrc

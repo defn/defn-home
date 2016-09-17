@@ -13,7 +13,7 @@ function source_cache {
 }
 
 function bashrc {
-  local shome="${_defn_home_home:-"$(cd -P -- "$(dirname "${BASH_SOURCE}")" && pwd -P)"}"
+  local shome="$(cd -P -- "${BASH_SOURCE%/*}/.." && pwd -P)"
 
   if [[ -f "$shome/.bashrc.cache" ]]; then
     if ! source_cache; then
@@ -49,7 +49,7 @@ function set_scheme {
 }
 
 function home_bashrc {
-  local shome="${shome:-"$(cd -P -- "$(dirname "${BASH_SOURCE}")" && pwd -P)"}"
+  local shome="$(cd -P -- "${BASH_SOURCE%/*}/.." && pwd -P)"
 
   PATH="$(echo $PATH | tr ':' '\n' | uniq | grep -v "$shome" | grep -v "${PKG_HOME:-"$shome"}" | perl -ne 'm{^\s*$} && next; s{\s*$}{:}; print')"
   if [[ "$(type -t require)" != "function" ]]; then
