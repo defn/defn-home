@@ -4,7 +4,7 @@ build-essential ${BLOCK_PATH}/build-essential git@github.com:defn/build-essentia
 cache ${BLOCK_PATH}/cache git@github.com:defn/cache 8a17cc0c86b202a3444c3fc17dd01d9d7f6d3456 master
 curl ${BLOCK_PATH}/curl git@github.com:defn/curl d1df9829d627fc04a7dfe498d394571e9d336570 master
 python ${BLOCK_PATH}/python git@github.com:defn/python 6392c6466e7fca408f0f30b49e768a1ec65b0c9f master
-nodeenv ${BLOCK_PATH}/nodeenv git@github.com:defn/nodeenv 233ae6daed34b1190c6f39b7414e255085120fa5 master
+nodeenv ${BLOCK_PATH}/nodeenv git@github.com:defn/nodeenv cc6df24546822c136e3f60d1b193150a02c5babf master
 node ${BLOCK_PATH}/node git@github.com:defn/node a7b19210de83179ab9ff4e6e4495bf47b3d5a956 master
 rbenv ${BLOCK_PATH}/rbenv git@github.com:defn/rbenv 48d6d5ae841a6f5b9497eade814e5ceced43d39b master
 ruby ${BLOCK_PATH}/ruby git@github.com:defn/ruby 8f6466d115388a50d7a97a15c10fd4ecfb905c2a master
@@ -14,13 +14,13 @@ go ${BLOCK_PATH}/go git@github.com:defn/go 259ac11ddab731a0cc4cff1c53723462ab294
 rust ${BLOCK_PATH}/rust git@github.com:defn/rust c826211354069610c967bf11d1c85e794d5028d4 master
 erlang ${BLOCK_PATH}/erlang git@github.com:defn/erlang 2339f825e623d5969c0060a33955db5fcfff7313 master
 elixir ${BLOCK_PATH}/elixir git@github.com:defn/elixir a0579be737b55398de432430e3ccf99e65b2f459 master
-defn-lang ${BLOCK_PATH}/defn-lang git@github.com:defn/defn-lang 6cd3cb5637d4ecb9b6b340174d565e32da1da65f master
+defn-lang ${BLOCK_PATH}/defn-lang git@github.com:defn/defn-lang 4ba73556df3286f9dbd02189c5d6b34e8e8f2638 master
 block-home ${BLOCK_PATH}/block-home git@github.com:defn/block-home 3904d86c7f9aa9fbcc25f09215f547ac8bbd2eee master
 pl-home ${BLOCK_PATH}/pl-home git@github.com:defn/pl-home 5fdfcb22db48ea064dd40f6fb0677e7243076e65 master
 shflags ${BLOCK_PATH}/shflags git@github.com:defn/shflags d2d0a410187d8c1e76b5fd679f8a5691ab726d9e master
 normalize ${BLOCK_PATH}/normalize git@github.com:defn/normalize b156ba1ec79f2da218d463c9b86f4192bcbeab54 master
 bash-preexec ${BLOCK_PATH}/bash-preexec git@github.com:defn/bash-preexec a875da52509f0925b9436bb626c2444713f6835d master
-sub ${BLOCK_PATH}/sub git@github.com:defn/sub 7abbd23b653c80e39be4964d1a4472784fb51ec4 master
+sub ${BLOCK_PATH}/sub git@github.com:defn/sub 062a65e087e86659f212da82f0311815a12244f1 master
 runmany ${BLOCK_PATH}/runmany git@github.com:defn/runmany 83214538c0e90b1244cd8bfbb8c8d3aef7d11c19 master
 block ${BLOCK_PATH}/block git@github.com:defn/block 7fc17f176584b4e7993e7620c6c20f85f6019ad7 master
 bash-oo-framework ${BLOCK_PATH}/bash-oo-framework git@github.com:defn/bash-oo-framework 75447ff7fcb7c032bd5bf3754659b0a81c401873 master
@@ -47,7 +47,7 @@ inventory ${BLOCK_PATH}/inventory git@github.com:defn/inventory 3d325d9c45b76bff
 deploy ${BLOCK_PATH}/deploy git@github.com:defn/deploy 1af5bbade8957c9efbafbb2849de9804752a8899 master
 context ${BLOCK_PATH}/context git@github.com:defn/context 3a3db97712df8212f5bf1f57aeab70e932b21578 master
 git ${BLOCK_PATH}/git git@github.com:defn/git f75bb94c57a4bc8cd3d161a07d600e93c796fb6c master
-github ${BLOCK_PATH}/github git@github.com:defn/github 2d291c5cc8847dc2785e66a8035033b490e11ce4 master
+github ${BLOCK_PATH}/github git@github.com:defn/github dd3b3a67ffb7a4433e1d5c2de224ff92ef5b4a92 master
 facts ${BLOCK_PATH}/facts git@github.com:defn/facts 22bc66c72f74143b987e77e32d54c8d6ef533e94 master
 parity ${BLOCK_PATH}/parity git@github.com:defn/parity 932ae42c1975401fa8f2df8e1d9b77ce1ad90775 master
 aws ${BLOCK_PATH}/aws git@github.com:defn/aws 7ffe9a8f053b20ce51a06df5f9c75d41c316469a master
@@ -58,7 +58,7 @@ docker-machine ${BLOCK_PATH}/docker-machine git@github.com:defn/docker-machine b
 docker-compose ${BLOCK_PATH}/docker-compose git@github.com:defn/docker-compose 4df653b10046c905b5a9e7108633e64c9c9405a0 master
 docker ${BLOCK_PATH}/docker git@github.com:defn/docker 880d4962a11172372cb14d94dba7f0cbaa9252b2 master
 squid ${BLOCK_PATH}/squid git@github.com:defn/squid 3ed0a43f3efcec896b1af30bd2593a3157676f8f master
-nexus ${BLOCK_PATH}/nexus git@github.com:defn/nexus 50acf9aa3fc724562cbc9ac8a74886537c31671b master
+nexus ${BLOCK_PATH}/nexus git@github.com:defn/nexus 186668776d867d1065fa4d2ec91bf734a68e6b22 master
 aptly ${BLOCK_PATH}/aptly git@github.com:defn/aptly 56306e5b5e549ce609327eeb938e62fd284ee74b master
 jenkins ${BLOCK_PATH}/jenkins git@github.com:defn/jenkins 0a19965bf4d31f8e5d5c858fd491f6736ac04af9 master
 artifacts ${BLOCK_PATH}/artifacts git@github.com:defn/artifacts 81b0a7a77500e08532d977508747237004ca0c33 master
@@ -66,8 +66,8 @@ launch-config ${BLOCK_PATH}/launch-config git@github.com:defn/launch-config 7982
 service ${BLOCK_PATH}/service git@github.com:defn/service 49619ef21d527fa580bd6598cb9dc2e5a762e0b1 master
 packer ${BLOCK_PATH}/packer git@github.com:defn/packer 0553a06e3b71d0db538d6c9fdb3c359b4f4f4b63 master
 vagrant ${BLOCK_PATH}/vagrant git@github.com:defn/vagrant aff8f4eee479e26c686e471495984649a114d770 master
-dream ${BLOCK_PATH}/dream git@github.com:defn/dream 33db2de9037a9e7c0018ba9901c24ef847abdf30 master
-limbo ${BLOCK_PATH}/limbo git@github.com:defn/limbo 9ecdb23aefd523154dac63bb155ae9769acabd57 master
+dream ${BLOCK_PATH}/dream git@github.com:defn/dream 4ac99a2211c6abce1a0e386cd4d6bcfe752e37e4 master
+limbo ${BLOCK_PATH}/limbo git@github.com:defn/limbo d9e79f3d37b8b39fc453e110e5f06a7b548f58e0 master
 lxc ${BLOCK_PATH}/lxc git@github.com:defn/lxc df8ff1f56b6eb0840f790b282c90f8e860329b93 master
 limbo-lxd ${BLOCK_PATH}/limbo-lxd git@github.com:defn/limbo-lxd b7d8a2cca0b684633b9d86175c709e79f2f64ffa master
 limbo-docker ${BLOCK_PATH}/limbo-docker git@github.com:defn/limbo-docker 2132b5ff1ad2db0be8e8f231e9869a5bfff2a730 master
@@ -92,7 +92,7 @@ iamdefn/blue ${BLOCK_PATH}/blue git@github.com:iamdefn/blue 89568ed2606e77d28554
 iamdefn/earth ${BLOCK_PATH}/earth git@github.com:iamdefn/earth 93e90800af8ba9e93d7e2a316bfe39aabc23ff34 master
 iamdefn/yellow ${BLOCK_PATH}/yellow git@github.com:iamdefn/yellow 9951f4b4c6262e420696d22c190f6115df557b32 master
 iamdefn/voltron ${BLOCK_PATH}/voltron git@github.com:iamdefn/voltron 9044b07d70c207fa75f3c6bd77277734b7023d63 master
-t ${BLOCK_PATH}/t git@github.com:defn/t c45b3446965a9ca0c7a71bd6834ef791a0637a04 master
+t ${BLOCK_PATH}/t git@github.com:defn/t e961d7c1d562630a9b917f167b900b933aec2ac6 master
 irssi ${BLOCK_PATH}/irssi git@github.com:defn/irssi dae57519dc639f1f83e8eb94686814357f082ec5 master
 git-crypt ${BLOCK_PATH}/git-crypt git@github.com:defn/git-crypt 0005a405122a093dd29937151fc3d2ba993d6b6a master
 gpg ${BLOCK_PATH}/gpg git@github.com:defn/gpg 072e2b76ed7d88880ef1600e2131c2a59fe68da8 master
