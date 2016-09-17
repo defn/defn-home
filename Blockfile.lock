@@ -3,9 +3,9 @@ pkgsrc ${BLOCK_PATH}/pkgsrc git@github.com:defn/pkgsrc e2afcc527e2e9b537a0da1b24
 build-essential ${BLOCK_PATH}/build-essential git@github.com:defn/build-essential ce28be8e33d991ffb8e1475fc1aecd73584e720d master
 cache ${BLOCK_PATH}/cache git@github.com:defn/cache 8a17cc0c86b202a3444c3fc17dd01d9d7f6d3456 master
 curl ${BLOCK_PATH}/curl git@github.com:defn/curl d1df9829d627fc04a7dfe498d394571e9d336570 master
-python ${BLOCK_PATH}/python git@github.com:defn/python 6392c6466e7fca408f0f30b49e768a1ec65b0c9f master
+python ${BLOCK_PATH}/python git@github.com:defn/python e77a5c3efeb72cf2e8434a7656d04ea61e7570b4 master
 nodeenv ${BLOCK_PATH}/nodeenv git@github.com:defn/nodeenv cc6df24546822c136e3f60d1b193150a02c5babf master
-node ${BLOCK_PATH}/node git@github.com:defn/node a7b19210de83179ab9ff4e6e4495bf47b3d5a956 master
+node ${BLOCK_PATH}/node git@github.com:defn/node 744dd5f176012996ba5afc1c68dc1621605776fd master
 rbenv ${BLOCK_PATH}/rbenv git@github.com:defn/rbenv 48d6d5ae841a6f5b9497eade814e5ceced43d39b master
 ruby ${BLOCK_PATH}/ruby git@github.com:defn/ruby 8f6466d115388a50d7a97a15c10fd4ecfb905c2a master
 java ${BLOCK_PATH}/java git@github.com:defn/java 84477bd12b0a0384c33d10d02addd1e293bc81f4 master
@@ -70,8 +70,8 @@ dream ${BLOCK_PATH}/dream git@github.com:defn/dream 4ac99a2211c6abce1a0e386cd4d6
 limbo ${BLOCK_PATH}/limbo git@github.com:defn/limbo d9e79f3d37b8b39fc453e110e5f06a7b548f58e0 master
 lxc ${BLOCK_PATH}/lxc git@github.com:defn/lxc df8ff1f56b6eb0840f790b282c90f8e860329b93 master
 limbo-lxd ${BLOCK_PATH}/limbo-lxd git@github.com:defn/limbo-lxd b7d8a2cca0b684633b9d86175c709e79f2f64ffa master
-limbo-docker ${BLOCK_PATH}/limbo-docker git@github.com:defn/limbo-docker 2132b5ff1ad2db0be8e8f231e9869a5bfff2a730 master
-inception ${BLOCK_PATH}/inception git@github.com:defn/inception 7702d685a1c7df5e8504abdba70e7ae2b7c5e621 master
+limbo-docker ${BLOCK_PATH}/limbo-docker git@github.com:defn/limbo-docker 242118cd27f5b68092c785fceb4d12f92101e31f master
+inception ${BLOCK_PATH}/inception git@github.com:defn/inception 9adfd7afdb8de43cada4d73f1f8a5a798efb8d3f master
 poop ${BLOCK_PATH}/poop git@github.com:defn/poop e990c87aaae4bdeb742161ca2f1d6bdc5ac6327c master
 lamda ${BLOCK_PATH}/lamda git@github.com:defn/lamda b1c6b48ea6e9bb4f6eb13afc4b133e35828047c2 master
 hugo ${BLOCK_PATH}/hugo git@github.com:defn/hugo fb6f8e468eb942fd95021edf52f8657c2654b6bc master
