@@ -16,7 +16,7 @@ function configure_cue {
 }
 
 function home_profile {
-  local shome="$(cd -P -- "${BASH_SOURCE%/*}/.." && pwd -P)"
+  local shome="$(cd -P -- "${BASH_SOURCE%/*}" && pwd -P)"
 
   local check_ssh_agent=1
 
