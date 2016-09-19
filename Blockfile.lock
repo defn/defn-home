@@ -32,7 +32,8 @@ runit ${BLOCK_PATH}/runit git@github.com:defn/runit 8dd6434b906a89ffadff34d11335
 defn-osx ${BLOCK_PATH}/defn-osx git@github.com:defn/defn-osx 915660daa482d71a491deea8c486605888b46be5 master
 junas ${BLOCK_PATH}/junas git@github.com:defn/junas f93e7b2618a5109bc8aa9833ae809979852e526e master
 cue ${BLOCK_PATH}/cue git@github.com:defn/cue 4d914b6d73a07fbcba783109821ff75c93af5477 master
-docs ${BLOCK_PATH}/docs git@github.com:defn/docs 8b9656eeef02bfb5479466655a77fb54ad1e6e99 master
+hugo ${BLOCK_PATH}/hugo git@github.com:defn/hugo 97136e459d2c342b9708db0f2da4dc4580ef9eec master
+docs ${BLOCK_PATH}/docs git@github.com:defn/docs f771f746eff41b0425ed9c2ae1db9a5bf2924ce7 master
 scripts-to-rule-them-all ${BLOCK_PATH}/scripts-to-rule-them-all git@github.com:defn/scripts-to-rule-them-all 8b8cc60620f27a1db42332ba83d39812387900df master
 block-shortcuts ${BLOCK_PATH}/block-shortcuts git@github.com:defn/block-shortcuts f4326e23f70534ca36dc109c8c2fe03f9b0db96d master
 board ${BLOCK_PATH}/board git@github.com:defn/board bde332e3907f5ed79a566839c46d98b7ccef6415 master
@@ -73,7 +74,6 @@ limbo-lxd ${BLOCK_PATH}/limbo-lxd git@github.com:defn/limbo-lxd 48d9bdf08cab74cf
 inception ${BLOCK_PATH}/inception git@github.com:defn/inception a88944fb25800179f1c88850d833df0c88678397 master
 poop ${BLOCK_PATH}/poop git@github.com:defn/poop e67e05c5ebd6b88daaf9bbc8ed24c80819a78aab master
 lamda ${BLOCK_PATH}/lamda git@github.com:defn/lamda b1c6b48ea6e9bb4f6eb13afc4b133e35828047c2 master
-hugo ${BLOCK_PATH}/hugo git@github.com:defn/hugo 97136e459d2c342b9708db0f2da4dc4580ef9eec master
 it ${BLOCK_PATH}/it git@github.com:defn/it 3caa8665fa09d618eca2bd277929e9850479036c gh-pages
 defn.github.io ${BLOCK_PATH}/defn.github.io git@github.com:defn/defn.github.io 99cd998d72f681fe2aee047d9d287929762159d7 master
 leiningen ${BLOCK_PATH}/leiningen git@github.com:defn/leiningen dbcfdafd1333f5ab81702c33be991f6296a8bcdd master
