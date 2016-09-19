@@ -6,8 +6,7 @@ curl ${BLOCK_PATH}/curl git@github.com:defn/curl 97d61e5fbf6f01b20012636075b8485
 python ${BLOCK_PATH}/python git@github.com:defn/python 5bb27c8f2df17a41ee7ace939d4bbbba9cba5644 master
 nodeenv ${BLOCK_PATH}/nodeenv git@github.com:defn/nodeenv 29401e313bca9abf28a83e1dcf0174b95488bcd0 master
 node ${BLOCK_PATH}/node git@github.com:defn/node 88ede3ba20620f127e7f01651213ad39985c25b3 master
-rbenv ${BLOCK_PATH}/rbenv git@github.com:defn/rbenv a607cf7580dbce506a72f47ee4bdc708b6142752 master
-ruby ${BLOCK_PATH}/ruby git@github.com:defn/ruby fa1a63025e8ba255136f04a4c7a9f8fd36a460da master
+ruby ${BLOCK_PATH}/ruby git@github.com:defn/ruby 30da06f17b1d5f5159e3b8b263381dd0ccb8d199 master
 java ${BLOCK_PATH}/java git@github.com:defn/java 6c001f13e4bd6be4cbc5c29e5554d38a71a7bb47 master
 bash4 ${BLOCK_PATH}/bash4 git@github.com:defn/bash4 00cb2c6e43902ccc4ff92ae6ee06e0f46ee14908 master
 go ${BLOCK_PATH}/go git@github.com:defn/go 0880e70e5fa923692f65562b08c4ae4fe101d452 master
