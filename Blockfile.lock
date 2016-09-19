@@ -2,7 +2,7 @@ defn-config ${BLOCK_PATH}/defn-config git@github.com:defn/defn-config 69a63c9ba2
 pkgsrc ${BLOCK_PATH}/pkgsrc git@github.com:defn/pkgsrc 37d9d2202f54a6b0102adc6da8f885da35407112 master
 build-essential ${BLOCK_PATH}/build-essential git@github.com:defn/build-essential fdb5e7e338a652136b1f53c76c9a5ec41a6e239f master
 cache ${BLOCK_PATH}/cache git@github.com:defn/cache e5898409a2d588ff95b0836d3036ea0954782d60 master
-curl ${BLOCK_PATH}/curl git@github.com:defn/curl 6a98a91766192c36f6a8a46bd011caabc3fb9d33 master
+curl ${BLOCK_PATH}/curl git@github.com:defn/curl 412fa201291be73af148503ed438a398c6cf2fe1 master
 python ${BLOCK_PATH}/python git@github.com:defn/python 5bb27c8f2df17a41ee7ace939d4bbbba9cba5644 master
 nodeenv ${BLOCK_PATH}/nodeenv git@github.com:defn/nodeenv 29401e313bca9abf28a83e1dcf0174b95488bcd0 master
 node ${BLOCK_PATH}/node git@github.com:defn/node 88ede3ba20620f127e7f01651213ad39985c25b3 master
@@ -22,7 +22,7 @@ normalize ${BLOCK_PATH}/normalize git@github.com:defn/normalize b156ba1ec79f2da2
 bash-preexec ${BLOCK_PATH}/bash-preexec git@github.com:defn/bash-preexec a875da52509f0925b9436bb626c2444713f6835d master
 sub ${BLOCK_PATH}/sub git@github.com:defn/sub 062a65e087e86659f212da82f0311815a12244f1 master
 runmany ${BLOCK_PATH}/runmany git@github.com:defn/runmany 83214538c0e90b1244cd8bfbb8c8d3aef7d11c19 master
-block ${BLOCK_PATH}/block git@github.com:defn/block bd586ff6318b66bb5da87eebaa4bcd6e194c34cf master
+block ${BLOCK_PATH}/block git@github.com:defn/block 5161ffadbbf7098e4e5fb0675ad9bdb3ef01cef3 master
 bash-oo-framework ${BLOCK_PATH}/bash-oo-framework git@github.com:defn/bash-oo-framework 75447ff7fcb7c032bd5bf3754659b0a81c401873 master
 homebrew ${BLOCK_PATH}/homebrew git@github.com:defn/homebrew 7dca75347f27df4ffcec95f97bf9fabca2979526 master
 xcode ${BLOCK_PATH}/xcode git@github.com:defn/xcode cd456ae6d715f46ca723cad8258f1c1181c04a5c master
@@ -70,7 +70,6 @@ dream ${BLOCK_PATH}/dream git@github.com:defn/dream c9b33ca4a45586aff7b6a13edef5
 limbo ${BLOCK_PATH}/limbo git@github.com:defn/limbo ec99393d43953a6b926d81934f32e29bd581bde8 master
 lxc ${BLOCK_PATH}/lxc git@github.com:defn/lxc df8ff1f56b6eb0840f790b282c90f8e860329b93 master
 limbo-lxd ${BLOCK_PATH}/limbo-lxd git@github.com:defn/limbo-lxd f9765c896f8c102605ab665c63f57b9b42bd050b master
-limbo-docker ${BLOCK_PATH}/limbo-docker git@github.com:defn/limbo-docker 620470dc26cc34f5b3ec33957f4da13135c08d4a master
 inception ${BLOCK_PATH}/inception git@github.com:defn/inception 3c71934fa66d7863fc0fd9dc5cb2ffa1b0fc7755 master
 poop ${BLOCK_PATH}/poop git@github.com:defn/poop e67e05c5ebd6b88daaf9bbc8ed24c80819a78aab master
 lamda ${BLOCK_PATH}/lamda git@github.com:defn/lamda b1c6b48ea6e9bb4f6eb13afc4b133e35828047c2 master
@@ -131,5 +130,5 @@ consul ${BLOCK_PATH}/consul git@github.com:defn/consul a2b9c1079b9abba0f85af21c5
 vault ${BLOCK_PATH}/vault git@github.com:defn/vault 9017a516375eedde6815c8368077f107c0974ab5 master
 openvpn ${BLOCK_PATH}/openvpn git@github.com:defn/openvpn cc486eab7e1efec99b290f2809090b41281576b4 master
 dnsmasq ${BLOCK_PATH}/dnsmasq git@github.com:defn/dnsmasq a6cae942f2e9b5db01e0feccb7b812437e1ca2d9 master
-linkerd ${BLOCK_PATH}/linkerd git@github.com:defn/linkerd 30ad2064584b606ae4d3cbced011ca284e373d8e master
+linkerd ${BLOCK_PATH}/linkerd git@github.com:defn/linkerd a1af1f8280a59125900b003954d95e78a67fcaf5 master
 virtualbox ${BLOCK_PATH}/virtualbox git@github.com:defn/virtualbox dc0675908b0d78131818f20bd5d699371a462bf1 master

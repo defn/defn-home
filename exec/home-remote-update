@@ -7,8 +7,8 @@ function main {
 
   set -x
 
-  "$@" -A git pull
-  "$@" -A home update
+  "$@" git pull
+  "$@" home update
 
   home remote "$@"
 }
