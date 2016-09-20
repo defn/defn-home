@@ -135,8 +135,8 @@ virtualbox ${BLOCK_PATH}/virtualbox git@github.com:defn/virtualbox dc0675908b0d7
 dd-agent ${BLOCK_PATH}/dd-agent git@github.com:defn/dd-agent 123632a6c70cdcd63f1cad4ab0c441b1c024ae3a master
 fluentd ${BLOCK_PATH}/fluentd git@github.com:defn/fluentd 1e65ddcb06230e08685e994693573d0a89a83cb7 master
 irssi-bot ${BLOCK_PATH}/irssi-bot git@github.com:defn/irssi-bot f4b0228b7e3359b3680fa2f6bebc4ae26b272112 master
-openresty ${BLOCK_PATH}/openresty git@github.com:defn/openresty 6ec292035b213e1e7bd0c1bb444fe5fc03e78915 master
+openresty ${BLOCK_PATH}/openresty git@github.com:defn/openresty bb6482e05d3498e773363729d1360b1072b74d38 master
 postgresql ${BLOCK_PATH}/postgresql git@github.com:defn/postgresql 0f4a6777360dd0322b04b6029bb5cbe6520b6fac master
 phoenix ${BLOCK_PATH}/phoenix git@github.com:defn/phoenix 34979a9b324681c53bdc429b43933d1376bb4310 master
-rethinkdb ${BLOCK_PATH}/rethinkdb git@github.com:defn/rethinkdb 111ac2eab48d152147e96b270f74a64e3e668fe8 master
-rundeck ${BLOCK_PATH}/rundeck git@github.com:defn/rundeck 7e7e94e6477ad8ee4da76404383042d3885d72ec master
+rethinkdb ${BLOCK_PATH}/rethinkdb git@github.com:defn/rethinkdb a2e6b23c2d34a261ae7edb034a58556364290808 master
+rundeck ${BLOCK_PATH}/rundeck git@github.com:defn/rundeck e72c252821e9e50b5449a4bd6feb9f3cd86cccdb master
