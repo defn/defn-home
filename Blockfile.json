@@ -57,19 +57,21 @@
     "dnsmasq",
     "linkerd",
     "virtualbox",
-    "nexus"
+    "dd-agent",
+    "fluentd",
+    "irssi-bot",
+    "openresty",
+    "phoenix",
+    "rethinkdb",
+    "rundeck" 
   ],
   "run": {
     "squid": {},
     "jenkins": {},
-    "teamcity.server": {},
-    "teamcity": {},
     "nexus": {},
-    "apt-mirror": {},
     "consul": {},
     "consul.server": {},
     "vault": {},
-    "sinopia": {},
     "isomorphic-clojurescript-reagent-node": {}
   }
 }
