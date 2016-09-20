@@ -132,7 +132,6 @@ openvpn ${BLOCK_PATH}/openvpn git@github.com:defn/openvpn cc486eab7e1efec99b290f
 dnsmasq ${BLOCK_PATH}/dnsmasq git@github.com:defn/dnsmasq a6cae942f2e9b5db01e0feccb7b812437e1ca2d9 master
 linkerd ${BLOCK_PATH}/linkerd git@github.com:defn/linkerd a1af1f8280a59125900b003954d95e78a67fcaf5 master
 virtualbox ${BLOCK_PATH}/virtualbox git@github.com:defn/virtualbox dc0675908b0d78131818f20bd5d699371a462bf1 master
-dd-agent ${BLOCK_PATH}/dd-agent git@github.com:defn/dd-agent 123632a6c70cdcd63f1cad4ab0c441b1c024ae3a master
 fluentd ${BLOCK_PATH}/fluentd git@github.com:defn/fluentd 1e65ddcb06230e08685e994693573d0a89a83cb7 master
 irssi-bot ${BLOCK_PATH}/irssi-bot git@github.com:defn/irssi-bot f4b0228b7e3359b3680fa2f6bebc4ae26b272112 master
 openresty ${BLOCK_PATH}/openresty git@github.com:defn/openresty bb6482e05d3498e773363729d1360b1072b74d38 master
