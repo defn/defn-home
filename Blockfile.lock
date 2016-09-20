@@ -78,7 +78,7 @@ it ${BLOCK_PATH}/it git@github.com:defn/it 3caa8665fa09d618eca2bd277929e98504790
 defn.github.io ${BLOCK_PATH}/defn.github.io git@github.com:defn/defn.github.io 99cd998d72f681fe2aee047d9d287929762159d7 master
 leiningen ${BLOCK_PATH}/leiningen git@github.com:defn/leiningen dbcfdafd1333f5ab81702c33be991f6296a8bcdd master
 maven ${BLOCK_PATH}/maven git@github.com:defn/maven b14fdd1d57b691aa6c23a5df70d98667af55a1e1 master
-cljs ${BLOCK_PATH}/cljs git@github.com:defn/cljs 87a711440cc3ca313397c59fc486767966012c12 master
+cljs ${BLOCK_PATH}/cljs git@github.com:defn/cljs bc2d4b09fb3bfaeedc70b36721361aa5fe76b704 master
 isomorphic-clojurescript-reagent-node ${BLOCK_PATH}/isomorphic-clojurescript-reagent-node git@github.com:defn/isomorphic-clojurescript-reagent-node 8eef760d0314ef4689748e459bfd76661a9b7f20 master
 iamdefn/lightning ${BLOCK_PATH}/lightning git@github.com:iamdefn/lightning e6c86d1f5f3dbb6b4b7dc4020977c91ad7f6d30c master
 iamdefn/black ${BLOCK_PATH}/black git@github.com:iamdefn/black a6fda79338c5999739625879359888ef9fc8ccb6 master
