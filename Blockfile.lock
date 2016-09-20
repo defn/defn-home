@@ -32,7 +32,7 @@ defn-osx ${BLOCK_PATH}/defn-osx git@github.com:defn/defn-osx 915660daa482d71a491
 junas ${BLOCK_PATH}/junas git@github.com:defn/junas f93e7b2618a5109bc8aa9833ae809979852e526e master
 cue ${BLOCK_PATH}/cue git@github.com:defn/cue 4d914b6d73a07fbcba783109821ff75c93af5477 master
 hugo ${BLOCK_PATH}/hugo git@github.com:defn/hugo 97136e459d2c342b9708db0f2da4dc4580ef9eec master
-slate ${BLOCK_PATH}/slate git@github.com:defn/slate 98185386dcb0ab0c3f34934b38cf6a1c5849eb5b master
+slate ${BLOCK_PATH}/slate git@github.com:defn/slate cb75c1876851abb74c4e09ff219a76c971c0986f master
 docs ${BLOCK_PATH}/docs git@github.com:defn/docs cecaa005f199b27797d25372cca098c2cac8272e master
 scripts-to-rule-them-all ${BLOCK_PATH}/scripts-to-rule-them-all git@github.com:defn/scripts-to-rule-them-all 8b8cc60620f27a1db42332ba83d39812387900df master
 block-shortcuts ${BLOCK_PATH}/block-shortcuts git@github.com:defn/block-shortcuts f4326e23f70534ca36dc109c8c2fe03f9b0db96d master
@@ -48,7 +48,7 @@ inventory ${BLOCK_PATH}/inventory git@github.com:defn/inventory 3d325d9c45b76bff
 deploy ${BLOCK_PATH}/deploy git@github.com:defn/deploy 1af5bbade8957c9efbafbb2849de9804752a8899 master
 context ${BLOCK_PATH}/context git@github.com:defn/context 4e2703af38b8a6f518d9710f4b5c5cddea378395 master
 git ${BLOCK_PATH}/git git@github.com:defn/git cd17b468fcd34101db0e7db28e77470079439cf6 master
-github ${BLOCK_PATH}/github git@github.com:defn/github 38bb33f49764bb3206e152acf86eeb364e7db656 master
+github ${BLOCK_PATH}/github git@github.com:defn/github 7ee26bdcaea6e5a90be9b7fb674ab7439231588c master
 facts ${BLOCK_PATH}/facts git@github.com:defn/facts 5a53640c7390b7ba31be96e46b4205ea14c10566 master
 parity ${BLOCK_PATH}/parity git@github.com:defn/parity 932ae42c1975401fa8f2df8e1d9b77ce1ad90775 master
 aws ${BLOCK_PATH}/aws git@github.com:defn/aws 88610390c84de534131efd69793268e34e6fe1d4 master
@@ -64,7 +64,7 @@ aptly ${BLOCK_PATH}/aptly git@github.com:defn/aptly fefa8846a316ec493fff2a9484e2
 jenkins ${BLOCK_PATH}/jenkins git@github.com:defn/jenkins e3451f24af7a231ed43eb37828eee14bfa57571d master
 artifacts ${BLOCK_PATH}/artifacts git@github.com:defn/artifacts 81b0a7a77500e08532d977508747237004ca0c33 master
 launch-config ${BLOCK_PATH}/launch-config git@github.com:defn/launch-config 7982b6a216c9745db348e4aff3efe72b2da23949 master
-service ${BLOCK_PATH}/service git@github.com:defn/service 04da85bf21ea01cd458c6f80c0357fb483eae97f master
+service ${BLOCK_PATH}/service git@github.com:defn/service e41b1ab670a07131072d8158720acbd439b21ab4 master
 packer ${BLOCK_PATH}/packer git@github.com:defn/packer 5f0bbedaa8ffe4bfcb8350ea301c93efd4aa39d4 master
 vagrant ${BLOCK_PATH}/vagrant git@github.com:defn/vagrant 5b06b6368ba44ace83aa902f34d4e92b228df4c1 master
 dream ${BLOCK_PATH}/dream git@github.com:defn/dream 278c8dfa4eddc7e03b7d0ba2329c958e0f9d80aa master
@@ -91,7 +91,7 @@ iamdefn/blue ${BLOCK_PATH}/blue git@github.com:iamdefn/blue 89568ed2606e77d28554
 iamdefn/earth ${BLOCK_PATH}/earth git@github.com:iamdefn/earth 93e90800af8ba9e93d7e2a316bfe39aabc23ff34 master
 iamdefn/yellow ${BLOCK_PATH}/yellow git@github.com:iamdefn/yellow 9951f4b4c6262e420696d22c190f6115df557b32 master
 iamdefn/voltron ${BLOCK_PATH}/voltron git@github.com:iamdefn/voltron 9044b07d70c207fa75f3c6bd77277734b7023d63 master
-t ${BLOCK_PATH}/t git@github.com:defn/t 5912754381d879228f9ea60337056d58ee65f501 master
+t ${BLOCK_PATH}/t git@github.com:defn/t 360827c92889c6b6c029674810a92edd5c279ec5 master
 irssi ${BLOCK_PATH}/irssi git@github.com:defn/irssi dae57519dc639f1f83e8eb94686814357f082ec5 master
 git-crypt ${BLOCK_PATH}/git-crypt git@github.com:defn/git-crypt 97c682f181ce17677bd92bde37884e86f74f1415 master
 gpg ${BLOCK_PATH}/gpg git@github.com:defn/gpg 353af726778bc7c5d1e1a2920b5dc84eecbcb8b3 master
