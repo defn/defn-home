@@ -21,7 +21,7 @@ normalize ${BLOCK_PATH}/normalize git@github.com:defn/normalize b156ba1ec79f2da2
 bash-preexec ${BLOCK_PATH}/bash-preexec git@github.com:defn/bash-preexec a875da52509f0925b9436bb626c2444713f6835d master
 sub ${BLOCK_PATH}/sub git@github.com:defn/sub 062a65e087e86659f212da82f0311815a12244f1 master
 runmany ${BLOCK_PATH}/runmany git@github.com:defn/runmany 83214538c0e90b1244cd8bfbb8c8d3aef7d11c19 master
-block ${BLOCK_PATH}/block git@github.com:defn/block 5161ffadbbf7098e4e5fb0675ad9bdb3ef01cef3 master
+block ${BLOCK_PATH}/block git@github.com:defn/block b99326d8d23bf4d25f59e3bcc4e4b4b56fd88a84 master
 bash-oo-framework ${BLOCK_PATH}/bash-oo-framework git@github.com:defn/bash-oo-framework 75447ff7fcb7c032bd5bf3754659b0a81c401873 master
 homebrew ${BLOCK_PATH}/homebrew git@github.com:defn/homebrew 7dca75347f27df4ffcec95f97bf9fabca2979526 master
 xcode ${BLOCK_PATH}/xcode git@github.com:defn/xcode cd456ae6d715f46ca723cad8258f1c1181c04a5c master
