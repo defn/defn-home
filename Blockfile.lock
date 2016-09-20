@@ -32,7 +32,7 @@ defn-osx ${BLOCK_PATH}/defn-osx git@github.com:defn/defn-osx 915660daa482d71a491
 junas ${BLOCK_PATH}/junas git@github.com:defn/junas f93e7b2618a5109bc8aa9833ae809979852e526e master
 cue ${BLOCK_PATH}/cue git@github.com:defn/cue 4d914b6d73a07fbcba783109821ff75c93af5477 master
 hugo ${BLOCK_PATH}/hugo git@github.com:defn/hugo 97136e459d2c342b9708db0f2da4dc4580ef9eec master
-slate ${BLOCK_PATH}/slate git@github.com:defn/slate ea0490616121c981b4c5e95c5cd689cda581d8aa master
+slate ${BLOCK_PATH}/slate git@github.com:defn/slate 98185386dcb0ab0c3f34934b38cf6a1c5849eb5b master
 docs ${BLOCK_PATH}/docs git@github.com:defn/docs cecaa005f199b27797d25372cca098c2cac8272e master
 scripts-to-rule-them-all ${BLOCK_PATH}/scripts-to-rule-them-all git@github.com:defn/scripts-to-rule-them-all 8b8cc60620f27a1db42332ba83d39812387900df master
 block-shortcuts ${BLOCK_PATH}/block-shortcuts git@github.com:defn/block-shortcuts f4326e23f70534ca36dc109c8c2fe03f9b0db96d master
