@@ -57,8 +57,6 @@
     "dnsmasq",
     "linkerd",
     "virtualbox",
-    "fluentd",
-    "irssi-bot",
     "openresty",
     "phoenix",
     "rethinkdb",
