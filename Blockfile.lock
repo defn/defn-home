@@ -5,7 +5,7 @@ cache ${BLOCK_PATH}/cache git@github.com:defn/cache e5898409a2d588ff95b0836d3036
 curl ${BLOCK_PATH}/curl git@github.com:defn/curl 22f2493e53d15bac4aac2c079f00d1b270fe3224 master
 python ${BLOCK_PATH}/python git@github.com:defn/python 5bb27c8f2df17a41ee7ace939d4bbbba9cba5644 master
 nodeenv ${BLOCK_PATH}/nodeenv git@github.com:defn/nodeenv 29401e313bca9abf28a83e1dcf0174b95488bcd0 master
-node ${BLOCK_PATH}/node git@github.com:defn/node 70ae3c41050eb45c7740b7401bd60369513c9720 master
+node ${BLOCK_PATH}/node git@github.com:defn/node 88ede3ba20620f127e7f01651213ad39985c25b3 master
 ruby ${BLOCK_PATH}/ruby git@github.com:defn/ruby 30da06f17b1d5f5159e3b8b263381dd0ccb8d199 master
 java ${BLOCK_PATH}/java git@github.com:defn/java 7222b5e9ab0b7e7a7513511b0790d8da89987443 master
 bash4 ${BLOCK_PATH}/bash4 git@github.com:defn/bash4 00cb2c6e43902ccc4ff92ae6ee06e0f46ee14908 master
@@ -71,7 +71,7 @@ dream ${BLOCK_PATH}/dream git@github.com:defn/dream 278c8dfa4eddc7e03b7d0ba2329c
 limbo ${BLOCK_PATH}/limbo git@github.com:defn/limbo 1ecbb379e08f26556b675bbf79353e9ea8b8c9e9 master
 lxc ${BLOCK_PATH}/lxc git@github.com:defn/lxc df8ff1f56b6eb0840f790b282c90f8e860329b93 master
 limbo-lxd ${BLOCK_PATH}/limbo-lxd git@github.com:defn/limbo-lxd f10a269e0c0050854fb603b645f3cc5fbbc88e0f master
-inception ${BLOCK_PATH}/inception git@github.com:defn/inception 72a5e88a9325b2017733f3c362afeab8e4b07262 master
+inception ${BLOCK_PATH}/inception git@github.com:defn/inception 3b9c76728bb487ac3a086b88c7e4b0cd9c567e2a master
 poop ${BLOCK_PATH}/poop git@github.com:defn/poop e67e05c5ebd6b88daaf9bbc8ed24c80819a78aab master
 lamda ${BLOCK_PATH}/lamda git@github.com:defn/lamda b1c6b48ea6e9bb4f6eb13afc4b133e35828047c2 master
 it ${BLOCK_PATH}/it git@github.com:defn/it 3caa8665fa09d618eca2bd277929e9850479036c gh-pages
