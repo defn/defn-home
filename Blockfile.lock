@@ -5,7 +5,7 @@ cache ${BLOCK_PATH}/cache git@github.com:defn/cache e5898409a2d588ff95b0836d3036
 curl ${BLOCK_PATH}/curl git@github.com:defn/curl 22f2493e53d15bac4aac2c079f00d1b270fe3224 master
 python ${BLOCK_PATH}/python git@github.com:defn/python 5bb27c8f2df17a41ee7ace939d4bbbba9cba5644 master
 nodeenv ${BLOCK_PATH}/nodeenv git@github.com:defn/nodeenv 29401e313bca9abf28a83e1dcf0174b95488bcd0 master
-node ${BLOCK_PATH}/node git@github.com:defn/node 88ede3ba20620f127e7f01651213ad39985c25b3 master
+node ${BLOCK_PATH}/node git@github.com:defn/node 70ae3c41050eb45c7740b7401bd60369513c9720 master
 ruby ${BLOCK_PATH}/ruby git@github.com:defn/ruby 30da06f17b1d5f5159e3b8b263381dd0ccb8d199 master
 java ${BLOCK_PATH}/java git@github.com:defn/java 7222b5e9ab0b7e7a7513511b0790d8da89987443 master
 bash4 ${BLOCK_PATH}/bash4 git@github.com:defn/bash4 00cb2c6e43902ccc4ff92ae6ee06e0f46ee14908 master
