@@ -7,7 +7,7 @@ python ${BLOCK_PATH}/python git@github.com:defn/python 5bb27c8f2df17a41ee7ace939
 nodeenv ${BLOCK_PATH}/nodeenv git@github.com:defn/nodeenv 29401e313bca9abf28a83e1dcf0174b95488bcd0 master
 node ${BLOCK_PATH}/node git@github.com:defn/node 88ede3ba20620f127e7f01651213ad39985c25b3 master
 ruby ${BLOCK_PATH}/ruby git@github.com:defn/ruby 30da06f17b1d5f5159e3b8b263381dd0ccb8d199 master
-java ${BLOCK_PATH}/java git@github.com:defn/java a87b4f6f8b6307da6778cb85862a8bcd3ca79d15 master
+java ${BLOCK_PATH}/java git@github.com:defn/java 7222b5e9ab0b7e7a7513511b0790d8da89987443 master
 bash4 ${BLOCK_PATH}/bash4 git@github.com:defn/bash4 00cb2c6e43902ccc4ff92ae6ee06e0f46ee14908 master
 go ${BLOCK_PATH}/go git@github.com:defn/go 0880e70e5fa923692f65562b08c4ae4fe101d452 master
 rust ${BLOCK_PATH}/rust git@github.com:defn/rust 72b9037892661a50d621d49710dc6a92b2ea6c32 master
