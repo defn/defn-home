@@ -71,7 +71,7 @@ dream ${BLOCK_PATH}/dream git@github.com:defn/dream c9b33ca4a45586aff7b6a13edef5
 limbo ${BLOCK_PATH}/limbo git@github.com:defn/limbo ec99393d43953a6b926d81934f32e29bd581bde8 master
 lxc ${BLOCK_PATH}/lxc git@github.com:defn/lxc df8ff1f56b6eb0840f790b282c90f8e860329b93 master
 limbo-lxd ${BLOCK_PATH}/limbo-lxd git@github.com:defn/limbo-lxd 48d9bdf08cab74cf650ac2df83015485c66ffaa0 master
-inception ${BLOCK_PATH}/inception git@github.com:defn/inception a88944fb25800179f1c88850d833df0c88678397 master
+inception ${BLOCK_PATH}/inception git@github.com:defn/inception 6cd0bf777c62b5f70fc1789e1315802dd747b11e master
 poop ${BLOCK_PATH}/poop git@github.com:defn/poop e67e05c5ebd6b88daaf9bbc8ed24c80819a78aab master
 lamda ${BLOCK_PATH}/lamda git@github.com:defn/lamda b1c6b48ea6e9bb4f6eb13afc4b133e35828047c2 master
 it ${BLOCK_PATH}/it git@github.com:defn/it 3caa8665fa09d618eca2bd277929e9850479036c gh-pages
@@ -126,9 +126,17 @@ env-imma-dev ${BLOCK_PATH}/env-imma-dev git@github.com:defn/env-imma-dev 17f5944
 env-imma-dev-nat ${BLOCK_PATH}/env-imma-dev-nat git@github.com:defn/env-imma-dev-nat 610ebb70daf504fe5d698e434f60da918ad2cae7 master
 env-imma-dev-shared ${BLOCK_PATH}/env-imma-dev-shared git@github.com:defn/env-imma-dev-shared 5e6e19402a5d409e881972250e79d4c81bebe5b0 master
 imma ${BLOCK_PATH}/imma git@github.com:defn/imma 4e98f5494d1b0bdca0568927666e16525e969ea7 master
-consul ${BLOCK_PATH}/consul git@github.com:defn/consul a2b9c1079b9abba0f85af21c5cb64b38a88f7f66 master
+consul ${BLOCK_PATH}/consul git@github.com:defn/consul 336077c0eca14247410352e8eeb593d6800e2503 master
 vault ${BLOCK_PATH}/vault git@github.com:defn/vault 9017a516375eedde6815c8368077f107c0974ab5 master
 openvpn ${BLOCK_PATH}/openvpn git@github.com:defn/openvpn cc486eab7e1efec99b290f2809090b41281576b4 master
 dnsmasq ${BLOCK_PATH}/dnsmasq git@github.com:defn/dnsmasq a6cae942f2e9b5db01e0feccb7b812437e1ca2d9 master
 linkerd ${BLOCK_PATH}/linkerd git@github.com:defn/linkerd a1af1f8280a59125900b003954d95e78a67fcaf5 master
 virtualbox ${BLOCK_PATH}/virtualbox git@github.com:defn/virtualbox dc0675908b0d78131818f20bd5d699371a462bf1 master
+dd-agent ${BLOCK_PATH}/dd-agent git@github.com:defn/dd-agent 123632a6c70cdcd63f1cad4ab0c441b1c024ae3a master
+fluentd ${BLOCK_PATH}/fluentd git@github.com:defn/fluentd 1e65ddcb06230e08685e994693573d0a89a83cb7 master
+irssi-bot ${BLOCK_PATH}/irssi-bot git@github.com:defn/irssi-bot f4b0228b7e3359b3680fa2f6bebc4ae26b272112 master
+openresty ${BLOCK_PATH}/openresty git@github.com:defn/openresty 6ec292035b213e1e7bd0c1bb444fe5fc03e78915 master
+postgresql ${BLOCK_PATH}/postgresql git@github.com:defn/postgresql 0f4a6777360dd0322b04b6029bb5cbe6520b6fac master
+phoenix ${BLOCK_PATH}/phoenix git@github.com:defn/phoenix 34979a9b324681c53bdc429b43933d1376bb4310 master
+rethinkdb ${BLOCK_PATH}/rethinkdb git@github.com:defn/rethinkdb 111ac2eab48d152147e96b270f74a64e3e668fe8 master
+rundeck ${BLOCK_PATH}/rundeck git@github.com:defn/rundeck 7e7e94e6477ad8ee4da76404383042d3885d72ec master
