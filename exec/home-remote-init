@@ -7,6 +7,7 @@ function main {
 
   set -x
 
+  "$@" rm -rf home .git
   "$@" ssh -o StrictHostKeyChecking=no github.com true || true
   "$@" git clone git@github.com:defn/home
   "$@" mv home/.git .
