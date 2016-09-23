@@ -70,8 +70,7 @@ vagrant ${BLOCK_PATH}/vagrant git@github.com:defn/vagrant 5b06b6368ba44ace83aa90
 dream ${BLOCK_PATH}/dream git@github.com:defn/dream 6d0b7badadd42ab30c7ada467ad6962f21f9bbef master
 limbo ${BLOCK_PATH}/limbo git@github.com:defn/limbo df4594ea5c51eb751f2aa01dcb2c69b3bc7857e6 master
 lxc ${BLOCK_PATH}/lxc git@github.com:defn/lxc df8ff1f56b6eb0840f790b282c90f8e860329b93 master
-limbo-lxd ${BLOCK_PATH}/limbo-lxd git@github.com:defn/limbo-lxd 92761d2948d0faa565b2e333f56b6447eb50b798 master
-inception ${BLOCK_PATH}/inception git@github.com:defn/inception b3fdf9af8f7b65ba2848b1b004b2ef7a68972917 master
+inception ${BLOCK_PATH}/inception git@github.com:defn/inception d7688dfab56b2bd774d5dd4a26dd439084b0238e master
 poop ${BLOCK_PATH}/poop git@github.com:defn/poop e67e05c5ebd6b88daaf9bbc8ed24c80819a78aab master
 lamda ${BLOCK_PATH}/lamda git@github.com:defn/lamda b1c6b48ea6e9bb4f6eb13afc4b133e35828047c2 master
 it ${BLOCK_PATH}/it git@github.com:defn/it 3caa8665fa09d618eca2bd277929e9850479036c gh-pages
@@ -79,7 +78,7 @@ defn.github.io ${BLOCK_PATH}/defn.github.io git@github.com:defn/defn.github.io 9
 leiningen ${BLOCK_PATH}/leiningen git@github.com:defn/leiningen dbcfdafd1333f5ab81702c33be991f6296a8bcdd master
 maven ${BLOCK_PATH}/maven git@github.com:defn/maven b14fdd1d57b691aa6c23a5df70d98667af55a1e1 master
 cljs ${BLOCK_PATH}/cljs git@github.com:defn/cljs bc2d4b09fb3bfaeedc70b36721361aa5fe76b704 master
-isomorphic-clojurescript-reagent-node ${BLOCK_PATH}/isomorphic-clojurescript-reagent-node git@github.com:defn/isomorphic-clojurescript-reagent-node 8eef760d0314ef4689748e459bfd76661a9b7f20 master
+isomorphic-clojurescript-reagent-node ${BLOCK_PATH}/isomorphic-clojurescript-reagent-node git@github.com:defn/isomorphic-clojurescript-reagent-node edbae9a3fc7a2b7ae754bfac3a3efc3bd81beb68 master
 iamdefn/lightning ${BLOCK_PATH}/lightning git@github.com:iamdefn/lightning e6c86d1f5f3dbb6b4b7dc4020977c91ad7f6d30c master
 iamdefn/black ${BLOCK_PATH}/black git@github.com:iamdefn/black a6fda79338c5999739625879359888ef9fc8ccb6 master
 iamdefn/fire ${BLOCK_PATH}/fire git@github.com:iamdefn/fire ffcdda92d457be1cc403d2b22f2081c6b6c6ad15 master
