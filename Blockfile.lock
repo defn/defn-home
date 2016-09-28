@@ -70,7 +70,7 @@ vagrant ${BLOCK_PATH}/vagrant git@github.com:defn/vagrant 5b06b6368ba44ace83aa90
 dream ${BLOCK_PATH}/dream git@github.com:defn/dream 6d0b7badadd42ab30c7ada467ad6962f21f9bbef master
 limbo ${BLOCK_PATH}/limbo git@github.com:defn/limbo df4594ea5c51eb751f2aa01dcb2c69b3bc7857e6 master
 lxc ${BLOCK_PATH}/lxc git@github.com:defn/lxc df8ff1f56b6eb0840f790b282c90f8e860329b93 master
-inception ${BLOCK_PATH}/inception git@github.com:defn/inception d7688dfab56b2bd774d5dd4a26dd439084b0238e master
+inception ${BLOCK_PATH}/inception git@github.com:defn/inception 2b6a08fddc4cb7ee14d2f99a34bb5dee2bf5f655 master
 poop ${BLOCK_PATH}/poop git@github.com:defn/poop e67e05c5ebd6b88daaf9bbc8ed24c80819a78aab master
 lamda ${BLOCK_PATH}/lamda git@github.com:defn/lamda b1c6b48ea6e9bb4f6eb13afc4b133e35828047c2 master
 it ${BLOCK_PATH}/it git@github.com:defn/it 3caa8665fa09d618eca2bd277929e9850479036c gh-pages
@@ -101,7 +101,11 @@ security ${BLOCK_PATH}/security git@github.com:defn/security ac4ce3869857b91e3d5
 inspect ${BLOCK_PATH}/inspect git@github.com:defn/inspect 2a1a2841868b8374a5f67123d2ed39c5458d756d master
 console ${BLOCK_PATH}/console git@github.com:defn/console d0190555e8aca40f35b6f0126438ccf9c5d2cf2e master
 awesome ${BLOCK_PATH}/awesome git@github.com:defn/awesome 8a0208dac11ddd14201c17d1cca935d87da50038 master
-terraform ${BLOCK_PATH}/terraform git@github.com:defn/terraform 0014459d5c22d6a3271678fca1dc9a0a017a5df3 master
+terraform ${BLOCK_PATH}/terraform git@github.com:defn/terraform 9037d1150dacf72fb794d7734a3ff293a90a86cd master
+fogg ${BLOCK_PATH}/fogg git@github.com:defn/fogg 7718f003107ddbbaa36185a24b60d9620113cfd9 master
+wtf ${BLOCK_PATH}/wtf git@github.com:defn/wtf 6d2b116188e8993101f4b7d38b4a81a4d1bfb437 master
+env-imma-global ${BLOCK_PATH}/env-imma-global git@github.com:defn/env-imma-global d2fb800f293db624612b80b2e414d3bb1e9a564a master
+env-imma-admin ${BLOCK_PATH}/env-imma-admin git@github.com:defn/env-imma-admin 87e7bc879948ef155cf4fa7dce77e1a4bca9086b master
 module-aws-global ${BLOCK_PATH}/module-aws-global git@github.com:defn/module-aws-global bde6d53313d9317b93bf06ff397157db0e482b5c master
 global-xxx ${BLOCK_PATH}/global-xxx git@github.com:defn/global-xxx 6cd653ee74b766c8a462a293507a44e933870a30 master
 module-aws-vpc ${BLOCK_PATH}/module-aws-vpc git@github.com:defn/module-aws-vpc 17660f87a423d8b8de86cd1b395dc0d7592a5550 master
@@ -110,10 +114,6 @@ env-xxx ${BLOCK_PATH}/env-xxx git@github.com:defn/env-xxx 0218ea04840faf6fa2e181
 module-aws-service ${BLOCK_PATH}/module-aws-service git@github.com:defn/module-aws-service 09219d51f2e0b4a7a3948958cb127ed5f3d39c15 master
 module-aws-app ${BLOCK_PATH}/module-aws-app git@github.com:defn/module-aws-app 77584163ef1e105d76162b811a7fc5310a07102c master
 app-xxx ${BLOCK_PATH}/app-xxx git@github.com:defn/app-xxx bb05f0c3a51d8a020e59649084aeae5f0805700e master
-fogg ${BLOCK_PATH}/fogg git@github.com:defn/fogg c515b2139d2b0eb793b1b5af83d2da72f9301965 master
-wtf ${BLOCK_PATH}/wtf git@github.com:defn/wtf 6d2b116188e8993101f4b7d38b4a81a4d1bfb437 master
-env-imma-global ${BLOCK_PATH}/env-imma-global git@github.com:defn/env-imma-global d2fb800f293db624612b80b2e414d3bb1e9a564a master
-env-imma-admin ${BLOCK_PATH}/env-imma-admin git@github.com:defn/env-imma-admin 87e7bc879948ef155cf4fa7dce77e1a4bca9086b master
 app-nat ${BLOCK_PATH}/app-nat git@github.com:defn/app-nat 96009c16a8edf63774b827f75444d1b6d196da4e master
 app-vpn ${BLOCK_PATH}/app-vpn git@github.com:defn/app-vpn 754317e585ef48678aa02ec1cb72cd4d8db6713a master
 app-jump ${BLOCK_PATH}/app-jump git@github.com:defn/app-jump fddec66d3df9b9a9891c98673076fc02bcbb2a86 master
