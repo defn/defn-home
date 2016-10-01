@@ -67,13 +67,13 @@ launch-config ${BLOCK_PATH}/launch-config git@github.com:defn/launch-config 7982
 service ${BLOCK_PATH}/service git@github.com:defn/service e41b1ab670a07131072d8158720acbd439b21ab4 master
 packer ${BLOCK_PATH}/packer git@github.com:defn/packer 5f0bbedaa8ffe4bfcb8350ea301c93efd4aa39d4 master
 vagrant ${BLOCK_PATH}/vagrant git@github.com:defn/vagrant 5b06b6368ba44ace83aa902f34d4e92b228df4c1 master
-dream ${BLOCK_PATH}/dream git@github.com:defn/dream 6d0b7badadd42ab30c7ada467ad6962f21f9bbef master
+dream ${BLOCK_PATH}/dream git@github.com:defn/dream 241b8cd0fe86e1fd0aeefc404c004916e481927f master
 limbo ${BLOCK_PATH}/limbo git@github.com:defn/limbo a86e031810d30337f79e28c1430b4915f42b48a1 master
 lxc ${BLOCK_PATH}/lxc git@github.com:defn/lxc df8ff1f56b6eb0840f790b282c90f8e860329b93 master
-inception ${BLOCK_PATH}/inception git@github.com:defn/inception 2b6a08fddc4cb7ee14d2f99a34bb5dee2bf5f655 master
+inception ${BLOCK_PATH}/inception git@github.com:defn/inception 042290de213586d665b10d58abeda40fd40c9f08 master
 poop ${BLOCK_PATH}/poop git@github.com:defn/poop e67e05c5ebd6b88daaf9bbc8ed24c80819a78aab master
 lamda ${BLOCK_PATH}/lamda git@github.com:defn/lamda b1c6b48ea6e9bb4f6eb13afc4b133e35828047c2 master
-it ${BLOCK_PATH}/it git@github.com:defn/it cb5a84bece42482b5ae969f931d35e30b4c6db91 master
+it ${BLOCK_PATH}/it git@github.com:defn/it 3caa8665fa09d618eca2bd277929e9850479036c gh-pages
 defn.github.io ${BLOCK_PATH}/defn.github.io git@github.com:defn/defn.github.io 99cd998d72f681fe2aee047d9d287929762159d7 master
 leiningen ${BLOCK_PATH}/leiningen git@github.com:defn/leiningen dbcfdafd1333f5ab81702c33be991f6296a8bcdd master
 maven ${BLOCK_PATH}/maven git@github.com:defn/maven b14fdd1d57b691aa6c23a5df70d98667af55a1e1 master
