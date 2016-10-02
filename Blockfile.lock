@@ -12,7 +12,7 @@ bash4 ${BLOCK_PATH}/bash4 git@github.com:defn/bash4 00cb2c6e43902ccc4ff92ae6ee06
 go ${BLOCK_PATH}/go git@github.com:defn/go 0880e70e5fa923692f65562b08c4ae4fe101d452 master
 rust ${BLOCK_PATH}/rust git@github.com:defn/rust 72b9037892661a50d621d49710dc6a92b2ea6c32 master
 erlang ${BLOCK_PATH}/erlang git@github.com:defn/erlang 81ae6e68efdb76cb69d937adf90d0348833962e3 master
-elixir ${BLOCK_PATH}/elixir git@github.com:defn/elixir 65bbc55769de75f6dd6e48de3d95a9f61bcecf06 master
+elixir ${BLOCK_PATH}/elixir git@github.com:defn/elixir 67f360ea72287eebd6cab38b23feea5cfa309429 master
 defn-lang ${BLOCK_PATH}/defn-lang git@github.com:defn/defn-lang 367563caee665cd28768d409d3ba1f3436ff3311 master
 block-home ${BLOCK_PATH}/block-home git@github.com:defn/block-home 3904d86c7f9aa9fbcc25f09215f547ac8bbd2eee master
 pl-home ${BLOCK_PATH}/pl-home git@github.com:defn/pl-home 5fdfcb22db48ea064dd40f6fb0677e7243076e65 master
@@ -70,12 +70,12 @@ vagrant ${BLOCK_PATH}/vagrant git@github.com:defn/vagrant 5b06b6368ba44ace83aa90
 dream ${BLOCK_PATH}/dream git@github.com:defn/dream 241b8cd0fe86e1fd0aeefc404c004916e481927f master
 limbo ${BLOCK_PATH}/limbo git@github.com:defn/limbo a86e031810d30337f79e28c1430b4915f42b48a1 master
 lxc ${BLOCK_PATH}/lxc git@github.com:defn/lxc df8ff1f56b6eb0840f790b282c90f8e860329b93 master
-inception ${BLOCK_PATH}/inception git@github.com:defn/inception 870d6ea8242b1b795b7fbf4daa13642c4f32a32b master
+inception ${BLOCK_PATH}/inception git@github.com:defn/inception 80cc3a08000eb208b209a1ec9ab253f57749d1c4 master
 poop ${BLOCK_PATH}/poop git@github.com:defn/poop e67e05c5ebd6b88daaf9bbc8ed24c80819a78aab master
 lamda ${BLOCK_PATH}/lamda git@github.com:defn/lamda b1c6b48ea6e9bb4f6eb13afc4b133e35828047c2 master
 it ${BLOCK_PATH}/it git@github.com:defn/it 3caa8665fa09d618eca2bd277929e9850479036c gh-pages
 defn.github.io ${BLOCK_PATH}/defn.github.io git@github.com:defn/defn.github.io 99cd998d72f681fe2aee047d9d287929762159d7 master
-leiningen ${BLOCK_PATH}/leiningen git@github.com:defn/leiningen dbcfdafd1333f5ab81702c33be991f6296a8bcdd master
+leiningen ${BLOCK_PATH}/leiningen git@github.com:defn/leiningen dccbc45525e5a002e112658b54211a79595bbecc master
 maven ${BLOCK_PATH}/maven git@github.com:defn/maven b14fdd1d57b691aa6c23a5df70d98667af55a1e1 master
 cljs ${BLOCK_PATH}/cljs git@github.com:defn/cljs bc2d4b09fb3bfaeedc70b36721361aa5fe76b704 master
 isomorphic-clojurescript-reagent-node ${BLOCK_PATH}/isomorphic-clojurescript-reagent-node git@github.com:defn/isomorphic-clojurescript-reagent-node edbae9a3fc7a2b7ae754bfac3a3efc3bd81beb68 master
@@ -111,6 +111,6 @@ dnsmasq ${BLOCK_PATH}/dnsmasq git@github.com:defn/dnsmasq a6cae942f2e9b5db01e0fe
 linkerd ${BLOCK_PATH}/linkerd git@github.com:defn/linkerd a1af1f8280a59125900b003954d95e78a67fcaf5 master
 virtualbox ${BLOCK_PATH}/virtualbox git@github.com:defn/virtualbox dc0675908b0d78131818f20bd5d699371a462bf1 master
 postgresql ${BLOCK_PATH}/postgresql git@github.com:defn/postgresql 0f4a6777360dd0322b04b6029bb5cbe6520b6fac master
-phoenix ${BLOCK_PATH}/phoenix git@github.com:defn/phoenix 34979a9b324681c53bdc429b43933d1376bb4310 master
+phoenix ${BLOCK_PATH}/phoenix git@github.com:defn/phoenix c950e6e6a6cd7112d1348af2e01274b7b31625ed master
 rethinkdb ${BLOCK_PATH}/rethinkdb git@github.com:defn/rethinkdb a2e6b23c2d34a261ae7edb034a58556364290808 master
 rundeck ${BLOCK_PATH}/rundeck git@github.com:defn/rundeck e72c252821e9e50b5449a4bd6feb9f3cd86cccdb master
