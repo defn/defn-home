@@ -4,6 +4,7 @@ function bootstrap_pkgsrc {
   pkg ensure sysutils/e2fsprogs
   pkg ensure sysutils/tree
   pkg ensure misc/screen
+  brew install brightness
  }
 
 function home_bootstrap {
