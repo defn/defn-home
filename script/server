@@ -11,7 +11,12 @@ function main {
   case "${1:-}" in
     screen)
       shift
-      exec screen -DRR runit "$shome/script/server" "$@"
+      screen -S runit -d -m "$shome/script/server" "$@"
+      sleep 1
+      while ! screen -S runit -X status; do
+        echo "detaching..." 1>&2
+        sleep 1
+      done
       ;;
     default)
       exec "$BLOCK_PATH/runit/script/server" "$@"
