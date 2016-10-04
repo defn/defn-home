@@ -1,5 +1,5 @@
 defn-config ${BLOCK_PATH}/defn-config git@github.com:defn/defn-config 69a63c9ba242463508d3fced2525d19006b3cd8f master
-pkgsrc ${BLOCK_PATH}/pkgsrc git@github.com:defn/pkgsrc 37d9d2202f54a6b0102adc6da8f885da35407112 master
+pkgsrc ${BLOCK_PATH}/pkgsrc git@github.com:defn/pkgsrc a96afb8e20c7e84204ffe4de87c28993f115b43d master
 build-essential ${BLOCK_PATH}/build-essential git@github.com:defn/build-essential fdb5e7e338a652136b1f53c76c9a5ec41a6e239f master
 cache ${BLOCK_PATH}/cache git@github.com:defn/cache e5898409a2d588ff95b0836d3036ea0954782d60 master
 curl ${BLOCK_PATH}/curl git@github.com:defn/curl 22f2493e53d15bac4aac2c079f00d1b270fe3224 master
@@ -39,7 +39,7 @@ block-shortcuts ${BLOCK_PATH}/block-shortcuts git@github.com:defn/block-shortcut
 board ${BLOCK_PATH}/board git@github.com:defn/board bde332e3907f5ed79a566839c46d98b7ccef6415 master
 kit ${BLOCK_PATH}/kit git@github.com:defn/kit 46f70b970790bbf0bff28933fed98e6323831ecd master
 talign ${BLOCK_PATH}/talign git@github.com:defn/talign 1db084ed06de0c10679e2384c8f88be047934909 master
-defn ${BLOCK_PATH}/defn git@github.com:defn/defn 3499d2a481cb8c89f772a2feb3dd612cb5ecbf41 master
+defn ${BLOCK_PATH}/defn git@github.com:defn/defn 0126fe8a72158fd23d5f6dd4db1dcbc8c4d1f1f6 master
 jq ${BLOCK_PATH}/jq git@github.com:defn/jq 7e81afc8b1e093964bc49f19cda1dc155a1fb377 master
 ansible ${BLOCK_PATH}/ansible git@github.com:defn/ansible 2ecd72b9b4161d7bdebb439ae4f040635d4cbd8e master
 aq ${BLOCK_PATH}/aq git@github.com:defn/aq e7a1c87d6cb030a139c6aa328e17840a667333d9 master
