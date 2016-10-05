@@ -1,5 +1,5 @@
 defn-config ${BLOCK_PATH}/defn-config git@github.com:defn/defn-config 69a63c9ba242463508d3fced2525d19006b3cd8f master
-pkgsrc ${BLOCK_PATH}/pkgsrc git@github.com:defn/pkgsrc 1c912c3ccf91e4e254fd2bd68a9bec1c83a2b8f5 master
+pkgsrc ${BLOCK_PATH}/pkgsrc git@github.com:defn/pkgsrc 30e663251a9618bf75dee01e7ad57d387f2194f8 master
 build-essential ${BLOCK_PATH}/build-essential git@github.com:defn/build-essential fdb5e7e338a652136b1f53c76c9a5ec41a6e239f master
 cache ${BLOCK_PATH}/cache git@github.com:defn/cache e5898409a2d588ff95b0836d3036ea0954782d60 master
 curl ${BLOCK_PATH}/curl git@github.com:defn/curl 22f2493e53d15bac4aac2c079f00d1b270fe3224 master
