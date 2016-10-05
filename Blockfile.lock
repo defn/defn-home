@@ -1,5 +1,5 @@
 defn-config ${BLOCK_PATH}/defn-config git@github.com:defn/defn-config 69a63c9ba242463508d3fced2525d19006b3cd8f master
-pkgsrc ${BLOCK_PATH}/pkgsrc git@github.com:defn/pkgsrc b9ad13da97c2f355313d6fc8e11140746a7e1fa1 master
+pkgsrc ${BLOCK_PATH}/pkgsrc git@github.com:defn/pkgsrc 1c912c3ccf91e4e254fd2bd68a9bec1c83a2b8f5 master
 build-essential ${BLOCK_PATH}/build-essential git@github.com:defn/build-essential fdb5e7e338a652136b1f53c76c9a5ec41a6e239f master
 cache ${BLOCK_PATH}/cache git@github.com:defn/cache e5898409a2d588ff95b0836d3036ea0954782d60 master
 curl ${BLOCK_PATH}/curl git@github.com:defn/curl 22f2493e53d15bac4aac2c079f00d1b270fe3224 master
@@ -70,7 +70,7 @@ vagrant ${BLOCK_PATH}/vagrant git@github.com:defn/vagrant 5b06b6368ba44ace83aa90
 dream ${BLOCK_PATH}/dream git@github.com:defn/dream 241b8cd0fe86e1fd0aeefc404c004916e481927f master
 limbo ${BLOCK_PATH}/limbo git@github.com:defn/limbo a86e031810d30337f79e28c1430b4915f42b48a1 master
 lxc ${BLOCK_PATH}/lxc git@github.com:defn/lxc df8ff1f56b6eb0840f790b282c90f8e860329b93 master
-inception ${BLOCK_PATH}/inception git@github.com:defn/inception e5db55fbb5857fcb86e247cc36c73c696553c931 master
+inception ${BLOCK_PATH}/inception git@github.com:defn/inception e00875166e53af6dd429c193a5e7d249343bd09f master
 poop ${BLOCK_PATH}/poop git@github.com:defn/poop e67e05c5ebd6b88daaf9bbc8ed24c80819a78aab master
 lamda ${BLOCK_PATH}/lamda git@github.com:defn/lamda b1c6b48ea6e9bb4f6eb13afc4b133e35828047c2 master
 it ${BLOCK_PATH}/it git@github.com:defn/it 3caa8665fa09d618eca2bd277929e9850479036c gh-pages
