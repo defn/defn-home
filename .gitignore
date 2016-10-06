@@ -66,6 +66,7 @@
 /.sawsrc
 /.saws-history
 /.saws.shortcuts
+/.assume-aws-role
 
 # git
 /github
