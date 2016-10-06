@@ -51,7 +51,7 @@ git ${BLOCK_PATH}/git git@github.com:defn/git cd17b468fcd34101db0e7db28e77470079
 github ${BLOCK_PATH}/github git@github.com:defn/github 7ee26bdcaea6e5a90be9b7fb674ab7439231588c master
 facts ${BLOCK_PATH}/facts git@github.com:defn/facts 5a53640c7390b7ba31be96e46b4205ea14c10566 master
 parity ${BLOCK_PATH}/parity git@github.com:defn/parity 932ae42c1975401fa8f2df8e1d9b77ce1ad90775 master
-aws ${BLOCK_PATH}/aws git@github.com:defn/aws ccc803914736ba3a2cf40f5c1827d90644077ad8 master
+aws ${BLOCK_PATH}/aws git@github.com:defn/aws 99087bc1f491c786984928736a40f6ce0a3135f0 master
 azure ${BLOCK_PATH}/azure git@github.com:defn/azure 69061031ae06ea0f7c289d33e390597ce8421f68 master
 gcp ${BLOCK_PATH}/gcp git@github.com:defn/gcp 9e19f9c5209271603e556fe8e16497f8ae0eb2f9 master
 cloud ${BLOCK_PATH}/cloud git@github.com:defn/cloud 109d48ed60057a0117b8f9c440469b5f7ceca656 master
