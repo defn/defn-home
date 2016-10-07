@@ -1,7 +1,7 @@
 " source junas
 source ~/.vim/junas.vimrc
 
-let cue_scheme=$CUE_SCHEME_VIM
+let cue_scheme=$CUE_SCHEME
 
 if cue_scheme == 'slight'
   " use the Solarized color scheme for light
