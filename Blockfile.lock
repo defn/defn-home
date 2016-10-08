@@ -70,7 +70,7 @@ vagrant ${BLOCK_PATH}/vagrant git@github.com:defn/vagrant 5b06b6368ba44ace83aa90
 dream ${BLOCK_PATH}/dream git@github.com:defn/dream cb5b0109dddf31d5fe7206086b7f64875415dd07 master
 limbo ${BLOCK_PATH}/limbo git@github.com:defn/limbo 23b9afc1c13e1536d4c907519f4b8765eb3cdcdf master
 lxc ${BLOCK_PATH}/lxc git@github.com:defn/lxc df8ff1f56b6eb0840f790b282c90f8e860329b93 master
-inception ${BLOCK_PATH}/inception git@github.com:defn/inception 2bb85ef46a948dcb70eb423b6eb1bd787a8a55b5 master
+inception ${BLOCK_PATH}/inception git@github.com:defn/inception 6109fb72da0ec302c001efcb64f959b15e2eaa2b master
 poop ${BLOCK_PATH}/poop git@github.com:defn/poop e67e05c5ebd6b88daaf9bbc8ed24c80819a78aab master
 lamda ${BLOCK_PATH}/lamda git@github.com:defn/lamda b1c6b48ea6e9bb4f6eb13afc4b133e35828047c2 master
 it ${BLOCK_PATH}/it git@github.com:defn/it 3caa8665fa09d618eca2bd277929e9850479036c gh-pages
