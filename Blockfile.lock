@@ -70,8 +70,8 @@ artifacts ${BLOCK_PATH}/artifacts git@github.com:defn/artifacts 81b0a7a77500e085
 launch-config ${BLOCK_PATH}/launch-config git@github.com:defn/launch-config 7982b6a216c9745db348e4aff3efe72b2da23949 master
 service ${BLOCK_PATH}/service git@github.com:defn/service e41b1ab670a07131072d8158720acbd439b21ab4 master
 vagrant ${BLOCK_PATH}/vagrant git@github.com:defn/vagrant 5b06b6368ba44ace83aa902f34d4e92b228df4c1 master
-limbo ${BLOCK_PATH}/limbo git@github.com:defn/limbo 4db0adf21bf4d61a0b5d6b4b6fab404d0f21adc2 master
-inception ${BLOCK_PATH}/inception git@github.com:defn/inception 53fa4b4a4173fc2adc52acae854b7bfe483fc68f master
+limbo ${BLOCK_PATH}/limbo git@github.com:defn/limbo 1c6d60bf2506fd4e07777455f827b14aafe3d206 master
+inception ${BLOCK_PATH}/inception git@github.com:defn/inception 648af88cb7aa155a079064f21a3af400fab9b476 master
 poop ${BLOCK_PATH}/poop git@github.com:defn/poop e67e05c5ebd6b88daaf9bbc8ed24c80819a78aab master
 lamda ${BLOCK_PATH}/lamda git@github.com:defn/lamda b1c6b48ea6e9bb4f6eb13afc4b133e35828047c2 master
 it ${BLOCK_PATH}/it git@github.com:defn/it 3caa8665fa09d618eca2bd277929e9850479036c gh-pages
