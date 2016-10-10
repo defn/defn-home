@@ -62,7 +62,7 @@ lxc ${BLOCK_PATH}/lxc git@github.com:defn/lxc df8ff1f56b6eb0840f790b282c90f8e860
 nexus ${BLOCK_PATH}/nexus git@github.com:defn/nexus 15cb45c9bbe817fd060a2c071ee87a11c450111c master
 packer ${BLOCK_PATH}/packer git@github.com:defn/packer 046f0035fffa62bf5401433fea6e950353538d99 master
 provision ${BLOCK_PATH}/provision git@github.com:defn/provision 98c736707bbf5d449886dba3583dd2df547722ff master
-dream ${BLOCK_PATH}/dream git@github.com:defn/dream a2717693090b500ed93337adf884dcb049f57baa master
+dream ${BLOCK_PATH}/dream git@github.com:defn/dream f86391846f30178e8f7fb291d6663a2ff9cf122f master
 squid ${BLOCK_PATH}/squid git@github.com:defn/squid fe74cba37fc91fe3678e3fc10e6bffe59ab9e910 master
 aptly ${BLOCK_PATH}/aptly git@github.com:defn/aptly fefa8846a316ec493fff2a9484e2ad9f663e8ebf master
 jenkins ${BLOCK_PATH}/jenkins git@github.com:defn/jenkins e3451f24af7a231ed43eb37828eee14bfa57571d master
@@ -71,7 +71,7 @@ launch-config ${BLOCK_PATH}/launch-config git@github.com:defn/launch-config 7982
 service ${BLOCK_PATH}/service git@github.com:defn/service e41b1ab670a07131072d8158720acbd439b21ab4 master
 vagrant ${BLOCK_PATH}/vagrant git@github.com:defn/vagrant 5b06b6368ba44ace83aa902f34d4e92b228df4c1 master
 limbo ${BLOCK_PATH}/limbo git@github.com:defn/limbo 57678f1933f40794fdbc11c35a55d09f4e50b926 master
-inception ${BLOCK_PATH}/inception git@github.com:defn/inception 5efd554838389f0fe2e7d9c87215cfbf9d3ad062 master
+inception ${BLOCK_PATH}/inception git@github.com:defn/inception 08d57a367e405950cef336573efc4add06412932 master
 poop ${BLOCK_PATH}/poop git@github.com:defn/poop e67e05c5ebd6b88daaf9bbc8ed24c80819a78aab master
 lamda ${BLOCK_PATH}/lamda git@github.com:defn/lamda b1c6b48ea6e9bb4f6eb13afc4b133e35828047c2 master
 it ${BLOCK_PATH}/it git@github.com:defn/it 3caa8665fa09d618eca2bd277929e9850479036c gh-pages
