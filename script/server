@@ -11,11 +11,10 @@ function main {
   case "${1:-}" in
     screen)
       shift
-      screen -S runit -d -m "$shome/script/server" "$@"
-      sleep 1
       while ! screen -S runit -X status; do
-        echo "detaching..." 1>&2
+        screen -S runit -d -m "$shome/script/server" "$@"
         sleep 1
+        echo "detaching..." 1>&2
       done
       ;;
     default)
