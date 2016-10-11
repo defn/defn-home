@@ -68,7 +68,7 @@ aptly ${BLOCK_PATH}/aptly git@github.com:defn/aptly fefa8846a316ec493fff2a9484e2
 jenkins ${BLOCK_PATH}/jenkins git@github.com:defn/jenkins e3451f24af7a231ed43eb37828eee14bfa57571d master
 artifacts ${BLOCK_PATH}/artifacts git@github.com:defn/artifacts 81b0a7a77500e08532d977508747237004ca0c33 master
 launch-config ${BLOCK_PATH}/launch-config git@github.com:defn/launch-config 7982b6a216c9745db348e4aff3efe72b2da23949 master
-service ${BLOCK_PATH}/service git@github.com:defn/service e41b1ab670a07131072d8158720acbd439b21ab4 master
+service ${BLOCK_PATH}/service git@github.com:defn/service e0fa370ea742eb7b5d44a7b5f1724ada24f32db4 master
 vagrant ${BLOCK_PATH}/vagrant git@github.com:defn/vagrant 5b06b6368ba44ace83aa902f34d4e92b228df4c1 master
 limbo ${BLOCK_PATH}/limbo git@github.com:defn/limbo bb1b34f25bef9bdd97a55f624f7a6dd8a0dbfc12 master
 inception ${BLOCK_PATH}/inception git@github.com:defn/inception 3354d084e3a334ee7753cd7c7ea11d16d8e85ca6 master
