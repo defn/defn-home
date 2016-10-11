@@ -15,7 +15,7 @@ Host github.com
   ForwardAgent no
 
 EOF
-  "$@" git clone git@github.com:defn/home
+  "$@" git clone "${HOME_REPO:-git@github.com:defn/home}" home
   "$@" mv home/.git .
   "$@" git reset --hard
   "$@" rm -rf home .profile

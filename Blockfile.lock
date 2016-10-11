@@ -6,7 +6,7 @@ curl ${BLOCK_PATH}/curl git@github.com:defn/curl 22f2493e53d15bac4aac2c079f00d1b
 python ${BLOCK_PATH}/python git@github.com:defn/python 5bb27c8f2df17a41ee7ace939d4bbbba9cba5644 master
 nodeenv ${BLOCK_PATH}/nodeenv git@github.com:defn/nodeenv 29401e313bca9abf28a83e1dcf0174b95488bcd0 master
 node ${BLOCK_PATH}/node git@github.com:defn/node 70ae3c41050eb45c7740b7401bd60369513c9720 master
-ruby ${BLOCK_PATH}/ruby git@github.com:defn/ruby a541389bc98e36a970c40f938ccbdb2add4246e0 master
+ruby ${BLOCK_PATH}/ruby git@github.com:defn/ruby dc2c6a7718651568e32e5dcf7205155ba93855f2 master
 java ${BLOCK_PATH}/java git@github.com:defn/java 7222b5e9ab0b7e7a7513511b0790d8da89987443 master
 bash4 ${BLOCK_PATH}/bash4 git@github.com:defn/bash4 00cb2c6e43902ccc4ff92ae6ee06e0f46ee14908 master
 go ${BLOCK_PATH}/go git@github.com:defn/go 0880e70e5fa923692f65562b08c4ae4fe101d452 master
@@ -62,7 +62,7 @@ lxc ${BLOCK_PATH}/lxc git@github.com:defn/lxc df8ff1f56b6eb0840f790b282c90f8e860
 nexus ${BLOCK_PATH}/nexus git@github.com:defn/nexus 15cb45c9bbe817fd060a2c071ee87a11c450111c master
 packer ${BLOCK_PATH}/packer git@github.com:defn/packer 046f0035fffa62bf5401433fea6e950353538d99 master
 provision ${BLOCK_PATH}/provision git@github.com:defn/provision d96bcf6f8ffdb8cc1df69229f217a761a47698fe master
-dream ${BLOCK_PATH}/dream git@github.com:defn/dream 640a52b8b87e940f943f8081afa8e7852da0962e master
+dream ${BLOCK_PATH}/dream git@github.com:defn/dream 00714969f0c510684319885c9521a969a83bcb4f master
 squid ${BLOCK_PATH}/squid git@github.com:defn/squid fe74cba37fc91fe3678e3fc10e6bffe59ab9e910 master
 aptly ${BLOCK_PATH}/aptly git@github.com:defn/aptly fefa8846a316ec493fff2a9484e2ad9f663e8ebf master
 jenkins ${BLOCK_PATH}/jenkins git@github.com:defn/jenkins e3451f24af7a231ed43eb37828eee14bfa57571d master
@@ -70,7 +70,7 @@ artifacts ${BLOCK_PATH}/artifacts git@github.com:defn/artifacts 81b0a7a77500e085
 launch-config ${BLOCK_PATH}/launch-config git@github.com:defn/launch-config 7982b6a216c9745db348e4aff3efe72b2da23949 master
 service ${BLOCK_PATH}/service git@github.com:defn/service e41b1ab670a07131072d8158720acbd439b21ab4 master
 vagrant ${BLOCK_PATH}/vagrant git@github.com:defn/vagrant 5b06b6368ba44ace83aa902f34d4e92b228df4c1 master
-limbo ${BLOCK_PATH}/limbo git@github.com:defn/limbo 451d20e76b7a7f28a94de29b85be931d018d01f1 master
+limbo ${BLOCK_PATH}/limbo git@github.com:defn/limbo bb1b34f25bef9bdd97a55f624f7a6dd8a0dbfc12 master
 inception ${BLOCK_PATH}/inception git@github.com:defn/inception 3354d084e3a334ee7753cd7c7ea11d16d8e85ca6 master
 poop ${BLOCK_PATH}/poop git@github.com:defn/poop e67e05c5ebd6b88daaf9bbc8ed24c80819a78aab master
 lamda ${BLOCK_PATH}/lamda git@github.com:defn/lamda b1c6b48ea6e9bb4f6eb13afc4b133e35828047c2 master
