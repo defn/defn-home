@@ -55,13 +55,12 @@ aws ${BLOCK_PATH}/aws git@github.com:defn/aws 99087bc1f491c786984928736a40f6ce0a
 azure ${BLOCK_PATH}/azure git@github.com:defn/azure 69061031ae06ea0f7c289d33e390597ce8421f68 master
 gcp ${BLOCK_PATH}/gcp git@github.com:defn/gcp 9e19f9c5209271603e556fe8e16497f8ae0eb2f9 master
 cloud ${BLOCK_PATH}/cloud git@github.com:defn/cloud 109d48ed60057a0117b8f9c440469b5f7ceca656 master
-docker-machine ${BLOCK_PATH}/docker-machine git@github.com:defn/docker-machine b7bd9893842105c50c712f683bc06f9aaba9af26 master
 docker-compose ${BLOCK_PATH}/docker-compose git@github.com:defn/docker-compose 062eebdf51fd21d2cdcd8ae82b39eee1d4b486db master
-docker ${BLOCK_PATH}/docker git@github.com:defn/docker 750e8290df13e4de3b817413bd72b6b3ef24e001 master
+docker ${BLOCK_PATH}/docker git@github.com:defn/docker db953f9cc8b7a48a9b386bed6464ed492f88f990 master
 lxc ${BLOCK_PATH}/lxc git@github.com:defn/lxc df8ff1f56b6eb0840f790b282c90f8e860329b93 master
 nexus ${BLOCK_PATH}/nexus git@github.com:defn/nexus 15cb45c9bbe817fd060a2c071ee87a11c450111c master
 packer ${BLOCK_PATH}/packer git@github.com:defn/packer 046f0035fffa62bf5401433fea6e950353538d99 master
-provision ${BLOCK_PATH}/provision git@github.com:defn/provision 4dbc91fedf2f7947ba662f44749a68d1c8f8cce3 master
+provision ${BLOCK_PATH}/provision git@github.com:defn/provision 04b72317ec5acc9ef488018bd3c5b1e2aefbbd8b master
 dream ${BLOCK_PATH}/dream git@github.com:defn/dream 00714969f0c510684319885c9521a969a83bcb4f master
 squid ${BLOCK_PATH}/squid git@github.com:defn/squid fe74cba37fc91fe3678e3fc10e6bffe59ab9e910 master
 aptly ${BLOCK_PATH}/aptly git@github.com:defn/aptly fefa8846a316ec493fff2a9484e2ad9f663e8ebf master
@@ -71,7 +70,7 @@ launch-config ${BLOCK_PATH}/launch-config git@github.com:defn/launch-config 7982
 service ${BLOCK_PATH}/service git@github.com:defn/service e0fa370ea742eb7b5d44a7b5f1724ada24f32db4 master
 vagrant ${BLOCK_PATH}/vagrant git@github.com:defn/vagrant 5b06b6368ba44ace83aa902f34d4e92b228df4c1 master
 limbo ${BLOCK_PATH}/limbo git@github.com:defn/limbo bb1b34f25bef9bdd97a55f624f7a6dd8a0dbfc12 master
-inception ${BLOCK_PATH}/inception git@github.com:defn/inception a79367c4f2e648723b30d0fbc0a7e7811eab8d35 master
+inception ${BLOCK_PATH}/inception git@github.com:defn/inception c40db07771f80cd3e84547b26c11751ec740ae4b master
 poop ${BLOCK_PATH}/poop git@github.com:defn/poop e67e05c5ebd6b88daaf9bbc8ed24c80819a78aab master
 lamda ${BLOCK_PATH}/lamda git@github.com:defn/lamda b1c6b48ea6e9bb4f6eb13afc4b133e35828047c2 master
 it ${BLOCK_PATH}/it git@github.com:defn/it 3caa8665fa09d618eca2bd277929e9850479036c gh-pages
