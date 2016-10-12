@@ -1,5 +1,5 @@
 defn-config ${BLOCK_PATH}/defn-config git@github.com:defn/defn-config 69a63c9ba242463508d3fced2525d19006b3cd8f master
-pkgsrc ${BLOCK_PATH}/pkgsrc git@github.com:defn/pkgsrc e2500f50546838471d5db6c55d1732727365fde3 master
+pkgsrc ${BLOCK_PATH}/pkgsrc git@github.com:defn/pkgsrc 895a0390c781474e3d9f8b276becee9b9e13ed61 master
 build-essential ${BLOCK_PATH}/build-essential git@github.com:defn/build-essential fdb5e7e338a652136b1f53c76c9a5ec41a6e239f master
 cache ${BLOCK_PATH}/cache git@github.com:defn/cache 0e8571526f10c33d2dc07367ee978b591348ebbf master
 curl ${BLOCK_PATH}/curl git@github.com:defn/curl 22f2493e53d15bac4aac2c079f00d1b270fe3224 master
@@ -11,7 +11,7 @@ java ${BLOCK_PATH}/java git@github.com:defn/java 7222b5e9ab0b7e7a7513511b0790d8d
 bash4 ${BLOCK_PATH}/bash4 git@github.com:defn/bash4 00cb2c6e43902ccc4ff92ae6ee06e0f46ee14908 master
 go ${BLOCK_PATH}/go git@github.com:defn/go 0880e70e5fa923692f65562b08c4ae4fe101d452 master
 rust ${BLOCK_PATH}/rust git@github.com:defn/rust 72b9037892661a50d621d49710dc6a92b2ea6c32 master
-erlang ${BLOCK_PATH}/erlang git@github.com:defn/erlang 81ae6e68efdb76cb69d937adf90d0348833962e3 master
+erlang ${BLOCK_PATH}/erlang git@github.com:defn/erlang 694c3806f964ebe6ef864db04900d85107df25ad master
 elixir ${BLOCK_PATH}/elixir git@github.com:defn/elixir 67f360ea72287eebd6cab38b23feea5cfa309429 master
 defn-lang ${BLOCK_PATH}/defn-lang git@github.com:defn/defn-lang 367563caee665cd28768d409d3ba1f3436ff3311 master
 block-home ${BLOCK_PATH}/block-home git@github.com:defn/block-home 3904d86c7f9aa9fbcc25f09215f547ac8bbd2eee master
@@ -61,7 +61,7 @@ docker ${BLOCK_PATH}/docker git@github.com:defn/docker 750e8290df13e4de3b817413b
 lxc ${BLOCK_PATH}/lxc git@github.com:defn/lxc df8ff1f56b6eb0840f790b282c90f8e860329b93 master
 nexus ${BLOCK_PATH}/nexus git@github.com:defn/nexus 15cb45c9bbe817fd060a2c071ee87a11c450111c master
 packer ${BLOCK_PATH}/packer git@github.com:defn/packer 046f0035fffa62bf5401433fea6e950353538d99 master
-provision ${BLOCK_PATH}/provision git@github.com:defn/provision 6dbea68fd040ca9c3f5aee93f1bb41997cd762f5 master
+provision ${BLOCK_PATH}/provision git@github.com:defn/provision 4dbc91fedf2f7947ba662f44749a68d1c8f8cce3 master
 dream ${BLOCK_PATH}/dream git@github.com:defn/dream 00714969f0c510684319885c9521a969a83bcb4f master
 squid ${BLOCK_PATH}/squid git@github.com:defn/squid fe74cba37fc91fe3678e3fc10e6bffe59ab9e910 master
 aptly ${BLOCK_PATH}/aptly git@github.com:defn/aptly fefa8846a316ec493fff2a9484e2ad9f663e8ebf master
