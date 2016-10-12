@@ -9,7 +9,7 @@ function main {
   
   unset GIT_SSH ssh_gateway ssh_gateway_user
 
-  block runmany "$many" 'cd $1 && git pull' || true
+  block runmany "$many" 'cd $1 && cache pull' || true
   block clone
   block lock
   home status

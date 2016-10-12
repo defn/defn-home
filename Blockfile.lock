@@ -61,7 +61,7 @@ docker ${BLOCK_PATH}/docker git@github.com:defn/docker 750e8290df13e4de3b817413b
 lxc ${BLOCK_PATH}/lxc git@github.com:defn/lxc df8ff1f56b6eb0840f790b282c90f8e860329b93 master
 nexus ${BLOCK_PATH}/nexus git@github.com:defn/nexus 15cb45c9bbe817fd060a2c071ee87a11c450111c master
 packer ${BLOCK_PATH}/packer git@github.com:defn/packer 046f0035fffa62bf5401433fea6e950353538d99 master
-provision ${BLOCK_PATH}/provision git@github.com:defn/provision d96bcf6f8ffdb8cc1df69229f217a761a47698fe master
+provision ${BLOCK_PATH}/provision git@github.com:defn/provision 6dbea68fd040ca9c3f5aee93f1bb41997cd762f5 master
 dream ${BLOCK_PATH}/dream git@github.com:defn/dream 00714969f0c510684319885c9521a969a83bcb4f master
 squid ${BLOCK_PATH}/squid git@github.com:defn/squid fe74cba37fc91fe3678e3fc10e6bffe59ab9e910 master
 aptly ${BLOCK_PATH}/aptly git@github.com:defn/aptly fefa8846a316ec493fff2a9484e2ad9f663e8ebf master
