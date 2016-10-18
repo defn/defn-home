@@ -6,7 +6,7 @@ curl ${BLOCK_PATH}/curl git@github.com:defn/curl 22f2493e53d15bac4aac2c079f00d1b
 python ${BLOCK_PATH}/python git@github.com:defn/python 5bb27c8f2df17a41ee7ace939d4bbbba9cba5644 master
 nodeenv ${BLOCK_PATH}/nodeenv git@github.com:defn/nodeenv 29401e313bca9abf28a83e1dcf0174b95488bcd0 master
 node ${BLOCK_PATH}/node git@github.com:defn/node 70ae3c41050eb45c7740b7401bd60369513c9720 master
-ruby ${BLOCK_PATH}/ruby git@github.com:defn/ruby dc2c6a7718651568e32e5dcf7205155ba93855f2 master
+ruby ${BLOCK_PATH}/ruby git@github.com:defn/ruby 38d415e22c96c111399c3d5d45dbe376ae006283 master
 java ${BLOCK_PATH}/java git@github.com:defn/java 7222b5e9ab0b7e7a7513511b0790d8da89987443 master
 bash4 ${BLOCK_PATH}/bash4 git@github.com:defn/bash4 00cb2c6e43902ccc4ff92ae6ee06e0f46ee14908 master
 go ${BLOCK_PATH}/go git@github.com:defn/go 0880e70e5fa923692f65562b08c4ae4fe101d452 master
@@ -51,7 +51,7 @@ git ${BLOCK_PATH}/git git@github.com:defn/git cd17b468fcd34101db0e7db28e77470079
 github ${BLOCK_PATH}/github git@github.com:defn/github 7ee26bdcaea6e5a90be9b7fb674ab7439231588c master
 facts ${BLOCK_PATH}/facts git@github.com:defn/facts 5a53640c7390b7ba31be96e46b4205ea14c10566 master
 parity ${BLOCK_PATH}/parity git@github.com:defn/parity 932ae42c1975401fa8f2df8e1d9b77ce1ad90775 master
-aws ${BLOCK_PATH}/aws git@github.com:defn/aws 99087bc1f491c786984928736a40f6ce0a3135f0 master
+aws ${BLOCK_PATH}/aws git@github.com:defn/aws abff13fdebd4fe76afb4b2ac154eb84ca050023e master
 azure ${BLOCK_PATH}/azure git@github.com:defn/azure 69061031ae06ea0f7c289d33e390597ce8421f68 master
 gcp ${BLOCK_PATH}/gcp git@github.com:defn/gcp 9e19f9c5209271603e556fe8e16497f8ae0eb2f9 master
 cloud ${BLOCK_PATH}/cloud git@github.com:defn/cloud 109d48ed60057a0117b8f9c440469b5f7ceca656 master
