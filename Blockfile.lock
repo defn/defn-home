@@ -102,7 +102,7 @@ inspect ${BLOCK_PATH}/inspect git@github.com:defn/inspect 2a1a2841868b8374a5f671
 console ${BLOCK_PATH}/console git@github.com:defn/console d0190555e8aca40f35b6f0126438ccf9c5d2cf2e master
 awesome ${BLOCK_PATH}/awesome git@github.com:defn/awesome cf9a1b451947058d2cd66e7dbdeaac1a95eca373 master
 terraform ${BLOCK_PATH}/terraform git@github.com:defn/terraform 9d155fff34dbe7fdd08d5ddc34811f2c55302e31 master
-imma ${BLOCK_PATH}/imma git@github.com:defn/imma 8f26dad5b3dfd5fa942297b6f6df0a0e05586642 master
+imma ${BLOCK_PATH}/imma git@github.com:defn/imma 341aa0324a86a8424da94fc046b9dde9ccdf46ff master
 consul ${BLOCK_PATH}/consul git@github.com:defn/consul 521a0b4a72314f1cc94cef28de5fcad787350b07 master
 vault ${BLOCK_PATH}/vault git@github.com:defn/vault 9017a516375eedde6815c8368077f107c0974ab5 master
 openvpn ${BLOCK_PATH}/openvpn git@github.com:defn/openvpn cc486eab7e1efec99b290f2809090b41281576b4 master
