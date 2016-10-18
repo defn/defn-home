@@ -9,6 +9,7 @@ function main {
   
   unset GIT_SSH ssh_gateway ssh_gateway_user
 
+  cache git update
   block runmany "$many" 'cd $1 && cache pull' || true
   block clone
   block lock
