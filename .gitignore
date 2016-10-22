@@ -62,10 +62,6 @@
 
 # aws
 /.aws
-/.saws.log
-/.sawsrc
-/.saws-history
-/.saws.shortcuts
 /.assume-aws-role
 
 # git
@@ -124,7 +120,6 @@
 
 # site specific
 /bin/site
-/.aws/config-site
 
 # leiningen
 /.lein
