@@ -232,3 +232,6 @@ cibuild-*.log
 
 # vault
 .vault-token
+
+# gpg
+/.gpg-agent-info
