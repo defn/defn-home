@@ -24,14 +24,16 @@ function home_profile {
     check_ssh_agent=
   else
     case "$?" in
-      1)
-        check_ssh_agent=
-        ;;
+      1) check_ssh_agent= ;;
     esac
   fi
 
-  if [[ -n "$check_ssh_agent" && -f "$shome/.ssh-agent" ]]; then
-    source "$shome/.ssh-agent" >/dev/null
+  if [[ -n "$check_ssh_agent" ]]; then
+    if [[ -f "$shome/.gpg-agent-info" ]]; then
+      source "$shome/.gpg-agent-info" >/dev/null
+    elif [[ -f "$shome/.ssh-agent" ]]; then
+      source "$shome/.ssh-agent" >/dev/null
+    fi
   fi
 
   source "$shome/.bashrc"
