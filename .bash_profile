@@ -41,6 +41,9 @@ function home_profile {
     fi
   fi
 
+  export GPG_AGENT_INFO
+  export SSH_AUTH_SOCK
+
   source "$shome/.bashrc"
 
   if tty >/dev/null 2>&1; then
