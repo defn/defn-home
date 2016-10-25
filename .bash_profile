@@ -44,6 +44,10 @@ function home_profile {
   export GPG_AGENT_INFO
   export SSH_AUTH_SOCK
 
+  if [[ -n "${GPG_AGENT_INFO:-}" ]]; then
+    export GPG_TTY="$(tty 2>/dev/null || true)"
+  fi
+
   source "$shome/.bashrc"
 
   if tty >/dev/null 2>&1; then
