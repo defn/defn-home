@@ -40,6 +40,9 @@ set diffexpr="-w -b -B"
 
 set guioptions=
 
+imap <Space><Space> <Esc>
+nmap <Space> i
+
 au BufRead,BufNewFile *.md set filetype=Markdown
 
 " to prevent screen restores
