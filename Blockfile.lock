@@ -52,9 +52,7 @@ github ${BLOCK_PATH}/github git@github.com:defn/github 7ee26bdcaea6e5a90be9b7fb6
 facts ${BLOCK_PATH}/facts git@github.com:defn/facts 5a53640c7390b7ba31be96e46b4205ea14c10566 master
 parity ${BLOCK_PATH}/parity git@github.com:defn/parity 932ae42c1975401fa8f2df8e1d9b77ce1ad90775 master
 aws ${BLOCK_PATH}/aws git@github.com:defn/aws 64f0bc925c4f0d75aa8ddb749948d771c091ee48 master
-azure ${BLOCK_PATH}/azure git@github.com:defn/azure 69061031ae06ea0f7c289d33e390597ce8421f68 master
-gcp ${BLOCK_PATH}/gcp git@github.com:defn/gcp 9e19f9c5209271603e556fe8e16497f8ae0eb2f9 master
-cloud ${BLOCK_PATH}/cloud git@github.com:defn/cloud 109d48ed60057a0117b8f9c440469b5f7ceca656 master
+cloud ${BLOCK_PATH}/cloud git@github.com:defn/cloud a8b25459733a950cc5e01228b8fccd3a62069c9b master
 docker-compose ${BLOCK_PATH}/docker-compose git@github.com:defn/docker-compose 062eebdf51fd21d2cdcd8ae82b39eee1d4b486db master
 docker ${BLOCK_PATH}/docker git@github.com:defn/docker db953f9cc8b7a48a9b386bed6464ed492f88f990 master
 lxc ${BLOCK_PATH}/lxc git@github.com:defn/lxc df8ff1f56b6eb0840f790b282c90f8e860329b93 master
@@ -101,7 +99,7 @@ inspect ${BLOCK_PATH}/inspect git@github.com:defn/inspect 2a1a2841868b8374a5f671
 console ${BLOCK_PATH}/console git@github.com:defn/console d0190555e8aca40f35b6f0126438ccf9c5d2cf2e master
 awesome ${BLOCK_PATH}/awesome git@github.com:defn/awesome d81677d2e91fc1dcab77eb15625ed1dcc0d991ca master
 terraform ${BLOCK_PATH}/terraform git@github.com:defn/terraform 5988c8a8227a8996696271fa20b0a5ff45955108 master
-imma ${BLOCK_PATH}/imma git@github.com:defn/imma 696e2afa1f7714cc289c80615ebf0b04b2485517 master
+imma ${BLOCK_PATH}/imma git@github.com:defn/imma 7eaf9b44916ce838f1f00a42098717f6cc41c7f2 master
 consul ${BLOCK_PATH}/consul git@github.com:defn/consul 521a0b4a72314f1cc94cef28de5fcad787350b07 master
 vault ${BLOCK_PATH}/vault git@github.com:defn/vault 9017a516375eedde6815c8368077f107c0974ab5 master
 openvpn ${BLOCK_PATH}/openvpn git@github.com:defn/openvpn cc486eab7e1efec99b290f2809090b41281576b4 master
