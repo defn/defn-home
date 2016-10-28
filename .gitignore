@@ -17,7 +17,7 @@
 /.lesshst
 /.pentadactyl/
 /.ssh/
-/.ssh-agent
+/.ssh-agent*
 /.subversion/
 /.viminfo
 
@@ -234,5 +234,5 @@ cibuild-*.log
 .vault-token
 
 # gpg
-/.gpg-agent-info
+/.gpg-agent-info*
 /.neoman/
