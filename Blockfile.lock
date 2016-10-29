@@ -99,7 +99,7 @@ inspect ${BLOCK_PATH}/inspect git@github.com:defn/inspect 2a1a2841868b8374a5f671
 console ${BLOCK_PATH}/console git@github.com:defn/console d0190555e8aca40f35b6f0126438ccf9c5d2cf2e master
 awesome ${BLOCK_PATH}/awesome git@github.com:defn/awesome d81677d2e91fc1dcab77eb15625ed1dcc0d991ca master
 terraform ${BLOCK_PATH}/terraform git@github.com:defn/terraform 5988c8a8227a8996696271fa20b0a5ff45955108 master
-fogg ${BLOCK_PATH}/fogg git@github.com:defn/fogg 42b278a78717ea865d186e03a47aa833ce756b2d HEAD
+fogg ${BLOCK_PATH}/fogg git@github.com:defn/fogg e3acb8ab266bba829d15dd2066a0bbe16ca531db master
 imma ${BLOCK_PATH}/imma git@github.com:defn/imma b7bb58d3ff72e168dac43b4a15302f6062fd99ee master
 consul ${BLOCK_PATH}/consul git@github.com:defn/consul 521a0b4a72314f1cc94cef28de5fcad787350b07 master
 vault ${BLOCK_PATH}/vault git@github.com:defn/vault 9017a516375eedde6815c8368077f107c0974ab5 master
