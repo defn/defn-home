@@ -97,7 +97,7 @@ lock ${BLOCK_PATH}/lock git@github.com:defn/lock 64c2308abdf4dd7d3f2554408ad9a71
 security ${BLOCK_PATH}/security git@github.com:defn/security ac4ce3869857b91e3d56fc8ec7cc9c514f7ac8af master
 inspect ${BLOCK_PATH}/inspect git@github.com:defn/inspect 2a1a2841868b8374a5f67123d2ed39c5458d756d master
 console ${BLOCK_PATH}/console git@github.com:defn/console d0190555e8aca40f35b6f0126438ccf9c5d2cf2e master
-awesome ${BLOCK_PATH}/awesome git@github.com:defn/awesome d81677d2e91fc1dcab77eb15625ed1dcc0d991ca master
+awesome ${BLOCK_PATH}/awesome git@github.com:defn/awesome 6bb6b1797948266b9b0066cb813072e62b0c2699 master
 terraform ${BLOCK_PATH}/terraform git@github.com:defn/terraform 5988c8a8227a8996696271fa20b0a5ff45955108 master
 fogg ${BLOCK_PATH}/fogg git@github.com:defn/fogg e3acb8ab266bba829d15dd2066a0bbe16ca531db master
 imma ${BLOCK_PATH}/imma git@github.com:defn/imma b7bb58d3ff72e168dac43b4a15302f6062fd99ee master
