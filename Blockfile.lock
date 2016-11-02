@@ -7,9 +7,9 @@ python ${BLOCK_PATH}/python git@github.com:defn/python 5bb27c8f2df17a41ee7ace939
 nodeenv ${BLOCK_PATH}/nodeenv git@github.com:defn/nodeenv 29401e313bca9abf28a83e1dcf0174b95488bcd0 master
 node ${BLOCK_PATH}/node git@github.com:defn/node 70ae3c41050eb45c7740b7401bd60369513c9720 master
 ruby ${BLOCK_PATH}/ruby git@github.com:defn/ruby 38d415e22c96c111399c3d5d45dbe376ae006283 master
-java ${BLOCK_PATH}/java git@github.com:defn/java 7222b5e9ab0b7e7a7513511b0790d8da89987443 master
+java ${BLOCK_PATH}/java git@github.com:defn/java ee872d5cd54b7e34ee085537035e538c341977c8 master
 bash4 ${BLOCK_PATH}/bash4 git@github.com:defn/bash4 00cb2c6e43902ccc4ff92ae6ee06e0f46ee14908 master
-go ${BLOCK_PATH}/go git@github.com:defn/go 0880e70e5fa923692f65562b08c4ae4fe101d452 master
+go ${BLOCK_PATH}/go git@github.com:defn/go 8f74ea2f98dabb851b1a4a7ce623e3ed63cd4a96 master
 defn-lang ${BLOCK_PATH}/defn-lang git@github.com:defn/defn-lang d302f9ff3b1187d621a53112719ab8d28b9c7bd7 master
 block-home ${BLOCK_PATH}/block-home git@github.com:defn/block-home 3904d86c7f9aa9fbcc25f09215f547ac8bbd2eee master
 pl-home ${BLOCK_PATH}/pl-home git@github.com:defn/pl-home 5fdfcb22db48ea064dd40f6fb0677e7243076e65 master
@@ -71,8 +71,8 @@ it ${BLOCK_PATH}/it git@github.com:defn/it 3caa8665fa09d618eca2bd277929e98504790
 defn.github.io ${BLOCK_PATH}/defn.github.io git@github.com:defn/defn.github.io 99cd998d72f681fe2aee047d9d287929762159d7 master
 leiningen ${BLOCK_PATH}/leiningen git@github.com:defn/leiningen dccbc45525e5a002e112658b54211a79595bbecc master
 maven ${BLOCK_PATH}/maven git@github.com:defn/maven b14fdd1d57b691aa6c23a5df70d98667af55a1e1 master
-cljs ${BLOCK_PATH}/cljs git@github.com:defn/cljs bc2d4b09fb3bfaeedc70b36721361aa5fe76b704 master
-isomorphic-clojurescript-reagent-node ${BLOCK_PATH}/isomorphic-clojurescript-reagent-node git@github.com:defn/isomorphic-clojurescript-reagent-node edbae9a3fc7a2b7ae754bfac3a3efc3bd81beb68 master
+cljs ${BLOCK_PATH}/cljs git@github.com:defn/cljs 5956ba8d1b65888122fbab6c63195cc3ec641061 master
+isomorphic-clojurescript-reagent-node ${BLOCK_PATH}/isomorphic-clojurescript-reagent-node git@github.com:defn/isomorphic-clojurescript-reagent-node c88d89da6b6a3c2c62e573744733702911fe2fcf master
 iamdefn/lightning ${BLOCK_PATH}/lightning git@github.com:iamdefn/lightning e6c86d1f5f3dbb6b4b7dc4020977c91ad7f6d30c master
 iamdefn/black ${BLOCK_PATH}/black git@github.com:iamdefn/black a6fda79338c5999739625879359888ef9fc8ccb6 master
 iamdefn/fire ${BLOCK_PATH}/fire git@github.com:iamdefn/fire ffcdda92d457be1cc403d2b22f2081c6b6c6ad15 master
