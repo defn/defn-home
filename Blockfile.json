@@ -1,7 +1,7 @@
 {
   "require": [
-    "defn-config",
-    "defn-lang",
+    "defn/defn-config",
+    "defn/defn-lang",
     "block-home",
     "pl-home",
     [
@@ -11,7 +11,7 @@
       "bash-oo-framework"
     ],
     [
-      "defn-osx",
+      "defn/defn-osx",
       "junas",
       "cue"
     ],
@@ -39,8 +39,8 @@
       "lamda"
     ],
     [
-      "it",
-      "defn.github.io"
+      "defn/it",
+      "defn/defn.github.io"
     ],
     "isomorphic-clojurescript-reagent-node",
     [
