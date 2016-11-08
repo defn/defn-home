@@ -43,7 +43,6 @@
       "defn.github.io"
     ],
     "isomorphic-clojurescript-reagent-node",
-    "iamdefn/voltron",
     [
       "t", "irssi"
     ],
