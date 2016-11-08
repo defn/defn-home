@@ -1,4 +1,4 @@
-defn/defn-config ${BLOCK_PATH}/defn-config git@github.com:defn/defn-config 69a63c9ba242463508d3fced2525d19006b3cd8f master
+defn/defn-config ${BLOCK_PATH}/defn-config git@github.com:defn/defn-config 1a7173f1fb39f3ba8d1d23e891e7ddfefd9bc3a8 master
 pkgsrc ${BLOCK_PATH}/pkgsrc git@github.com:imma/pkgsrc 209aab6f58fc5ff3ce67a9ed18d09c9f476c8d5e master
 build-essential ${BLOCK_PATH}/build-essential git@github.com:imma/build-essential fdb5e7e338a652136b1f53c76c9a5ec41a6e239f master
 cache ${BLOCK_PATH}/cache git@github.com:imma/cache 0e8571526f10c33d2dc07367ee978b591348ebbf master
