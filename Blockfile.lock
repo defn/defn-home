@@ -10,7 +10,11 @@ ruby ${BLOCK_PATH}/ruby git@github.com:imma/ruby de9c122dd6685ee1f37c4fd7500eccf
 java ${BLOCK_PATH}/java git@github.com:imma/java 1fa0bfac5f4fe9fe9133b6e949c1718868bd1d79 master
 bash4 ${BLOCK_PATH}/bash4 git@github.com:imma/bash4 00cb2c6e43902ccc4ff92ae6ee06e0f46ee14908 master
 go ${BLOCK_PATH}/go git@github.com:imma/go 8f74ea2f98dabb851b1a4a7ce623e3ed63cd4a96 master
-defn/defn-lang ${BLOCK_PATH}/defn-lang git@github.com:defn/defn-lang d302f9ff3b1187d621a53112719ab8d28b9c7bd7 master
+homebrew ${BLOCK_PATH}/homebrew git@github.com:imma/homebrew 7dca75347f27df4ffcec95f97bf9fabca2979526 master
+sbcl ${BLOCK_PATH}/sbcl git@github.com:imma/sbcl 964fac2b1dcca83a43c70012de878074cad3012b master
+maven ${BLOCK_PATH}/maven git@github.com:imma/maven b14fdd1d57b691aa6c23a5df70d98667af55a1e1 master
+cljs ${BLOCK_PATH}/cljs git@github.com:imma/cljs 5956ba8d1b65888122fbab6c63195cc3ec641061 master
+defn/defn-lang ${BLOCK_PATH}/defn-lang git@github.com:defn/defn-lang 8f642946a713974871245f73068ccac91272c828 master
 block-home ${BLOCK_PATH}/block-home git@github.com:imma/block-home 3904d86c7f9aa9fbcc25f09215f547ac8bbd2eee master
 pl-home ${BLOCK_PATH}/pl-home git@github.com:imma/pl-home 5fdfcb22db48ea064dd40f6fb0677e7243076e65 master
 shflags ${BLOCK_PATH}/shflags git@github.com:imma/shflags 9927b78550ea96e541a6578fce50cf56048a46b4 master
@@ -20,7 +24,6 @@ sub ${BLOCK_PATH}/sub git@github.com:imma/sub 062a65e087e86659f212da82f0311815a1
 runmany ${BLOCK_PATH}/runmany git@github.com:imma/runmany 83214538c0e90b1244cd8bfbb8c8d3aef7d11c19 master
 block ${BLOCK_PATH}/block git@github.com:imma/block 34be9ee5ac7086eec765ebbc8510c064ff233495 master
 bash-oo-framework ${BLOCK_PATH}/bash-oo-framework git@github.com:imma/bash-oo-framework 75447ff7fcb7c032bd5bf3754659b0a81c401873 master
-homebrew ${BLOCK_PATH}/homebrew git@github.com:imma/homebrew 7dca75347f27df4ffcec95f97bf9fabca2979526 master
 xcode ${BLOCK_PATH}/xcode git@github.com:imma/xcode cd456ae6d715f46ca723cad8258f1c1181c04a5c master
 tunnelblick ${BLOCK_PATH}/tunnelblick git@github.com:imma/tunnelblick a608eabd73f247ecc3043608f82cc8602cd143bd master
 htop ${BLOCK_PATH}/htop git@github.com:imma/htop 0fcb84c124426fe185b6aa0c392efac3c22b9c74 master
@@ -70,8 +73,6 @@ lamda ${BLOCK_PATH}/lamda git@github.com:imma/lamda b1c6b48ea6e9bb4f6eb13afc4b13
 defn/it ${BLOCK_PATH}/it git@github.com:defn/it 3caa8665fa09d618eca2bd277929e9850479036c gh-pages
 defn/defn.github.io ${BLOCK_PATH}/defn.github.io git@github.com:defn/defn.github.io 99cd998d72f681fe2aee047d9d287929762159d7 master
 leiningen ${BLOCK_PATH}/leiningen git@github.com:imma/leiningen dccbc45525e5a002e112658b54211a79595bbecc master
-maven ${BLOCK_PATH}/maven git@github.com:imma/maven b14fdd1d57b691aa6c23a5df70d98667af55a1e1 master
-cljs ${BLOCK_PATH}/cljs git@github.com:imma/cljs 5956ba8d1b65888122fbab6c63195cc3ec641061 master
 isomorphic-clojurescript-reagent-node ${BLOCK_PATH}/isomorphic-clojurescript-reagent-node git@github.com:imma/isomorphic-clojurescript-reagent-node c662045ff189ab621340cb0104757ef34386a91f master
 t ${BLOCK_PATH}/t git@github.com:imma/t eb09ec1a0dc63d903da5e57c4c9d5ec3cecb81ed master
 irssi ${BLOCK_PATH}/irssi git@github.com:imma/irssi dae57519dc639f1f83e8eb94686814357f082ec5 master
