@@ -216,7 +216,7 @@ cibuild-*.log
 /.trc
 
 # maven
-/.m2
+/.m2/repository
 
 # teamcity
 /.BuildServer
