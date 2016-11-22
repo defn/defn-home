@@ -1,4 +1,4 @@
-defn/defn-config ${BLOCK_PATH}/defn-config git@github.com:defn/defn-config 1a7173f1fb39f3ba8d1d23e891e7ddfefd9bc3a8 master
+defn/defn-config ${BLOCK_PATH}/defn-config git@github.com:defn/defn-config e7dd36dd89cc9968e7960012b49bde8ebe1f3cce master
 pkgsrc ${BLOCK_PATH}/pkgsrc git@github.com:imma/pkgsrc 209aab6f58fc5ff3ce67a9ed18d09c9f476c8d5e master
 build-essential ${BLOCK_PATH}/build-essential git@github.com:imma/build-essential fdb5e7e338a652136b1f53c76c9a5ec41a6e239f master
 cache ${BLOCK_PATH}/cache git@github.com:imma/cache 0e8571526f10c33d2dc07367ee978b591348ebbf master
@@ -6,8 +6,8 @@ curl ${BLOCK_PATH}/curl git@github.com:imma/curl 22f2493e53d15bac4aac2c079f00d1b
 python ${BLOCK_PATH}/python git@github.com:imma/python 5bb27c8f2df17a41ee7ace939d4bbbba9cba5644 master
 nodeenv ${BLOCK_PATH}/nodeenv git@github.com:imma/nodeenv 29401e313bca9abf28a83e1dcf0174b95488bcd0 master
 node ${BLOCK_PATH}/node git@github.com:imma/node 70ae3c41050eb45c7740b7401bd60369513c9720 master
-ruby ${BLOCK_PATH}/ruby git@github.com:imma/ruby 38d415e22c96c111399c3d5d45dbe376ae006283 master
-java ${BLOCK_PATH}/java git@github.com:imma/java ee872d5cd54b7e34ee085537035e538c341977c8 master
+ruby ${BLOCK_PATH}/ruby git@github.com:imma/ruby de9c122dd6685ee1f37c4fd7500eccf881066c07 master
+java ${BLOCK_PATH}/java git@github.com:imma/java 1fa0bfac5f4fe9fe9133b6e949c1718868bd1d79 master
 bash4 ${BLOCK_PATH}/bash4 git@github.com:imma/bash4 00cb2c6e43902ccc4ff92ae6ee06e0f46ee14908 master
 go ${BLOCK_PATH}/go git@github.com:imma/go 8f74ea2f98dabb851b1a4a7ce623e3ed63cd4a96 master
 defn/defn-lang ${BLOCK_PATH}/defn-lang git@github.com:defn/defn-lang d302f9ff3b1187d621a53112719ab8d28b9c7bd7 master
@@ -53,7 +53,7 @@ cloud ${BLOCK_PATH}/cloud git@github.com:imma/cloud a8b25459733a950cc5e01228b8fc
 docker-compose ${BLOCK_PATH}/docker-compose git@github.com:imma/docker-compose 062eebdf51fd21d2cdcd8ae82b39eee1d4b486db master
 docker ${BLOCK_PATH}/docker git@github.com:imma/docker db953f9cc8b7a48a9b386bed6464ed492f88f990 master
 lxc ${BLOCK_PATH}/lxc git@github.com:imma/lxc df8ff1f56b6eb0840f790b282c90f8e860329b93 master
-nexus ${BLOCK_PATH}/nexus git@github.com:imma/nexus 15cb45c9bbe817fd060a2c071ee87a11c450111c master
+nexus ${BLOCK_PATH}/nexus git@github.com:imma/nexus 257c1152d841362a06425e3ba96f9f8a2595b070 master
 packer ${BLOCK_PATH}/packer git@github.com:imma/packer f12a5d5e883c5bef44aaf920da26e5ab24786d87 master
 provision ${BLOCK_PATH}/provision git@github.com:imma/provision 04b72317ec5acc9ef488018bd3c5b1e2aefbbd8b master
 dream ${BLOCK_PATH}/dream git@github.com:imma/dream b8d79cd5809914181750cca06468dea7e97ee227 master
@@ -75,7 +75,7 @@ cljs ${BLOCK_PATH}/cljs git@github.com:imma/cljs 5956ba8d1b65888122fbab6c63195cc
 isomorphic-clojurescript-reagent-node ${BLOCK_PATH}/isomorphic-clojurescript-reagent-node git@github.com:imma/isomorphic-clojurescript-reagent-node c662045ff189ab621340cb0104757ef34386a91f master
 t ${BLOCK_PATH}/t git@github.com:imma/t 360827c92889c6b6c029674810a92edd5c279ec5 master
 irssi ${BLOCK_PATH}/irssi git@github.com:imma/irssi dae57519dc639f1f83e8eb94686814357f082ec5 master
-git-crypt ${BLOCK_PATH}/git-crypt git@github.com:imma/git-crypt 97c682f181ce17677bd92bde37884e86f74f1415 master
+git-crypt ${BLOCK_PATH}/git-crypt git@github.com:imma/git-crypt 63bb8998cd0ef2e0e4ffd4aab2278f56caadf6ec master
 gpg ${BLOCK_PATH}/gpg git@github.com:imma/gpg 353af726778bc7c5d1e1a2920b5dc84eecbcb8b3 master
 ssh-agent ${BLOCK_PATH}/ssh-agent git@github.com:imma/ssh-agent 88798c4ad32b3f1621ae5af4af2df6326ffd183b master
 letsencrypt ${BLOCK_PATH}/letsencrypt git@github.com:imma/letsencrypt 1e64e562dcc9576d84c70c7d8e7898403db98023 master
@@ -84,9 +84,9 @@ security ${BLOCK_PATH}/security git@github.com:imma/security ac4ce3869857b91e3d5
 inspect ${BLOCK_PATH}/inspect git@github.com:imma/inspect 2a1a2841868b8374a5f67123d2ed39c5458d756d master
 console ${BLOCK_PATH}/console git@github.com:imma/console d0190555e8aca40f35b6f0126438ccf9c5d2cf2e master
 awesome ${BLOCK_PATH}/awesome git@github.com:imma/awesome 6bb6b1797948266b9b0066cb813072e62b0c2699 master
-terraform ${BLOCK_PATH}/terraform git@github.com:imma/terraform 15a9222dbc4fc75a0f20a9bfe8ddbf4ec8ff49e7 master
-fogg ${BLOCK_PATH}/fogg git@github.com:imma/fogg 56bb3c7f35ca8d7bc6c6d9e0e63dcf475a15fe35 master
-imma ${BLOCK_PATH}/imma git@github.com:imma/imma 5aff1a51f4ff4637472e20f205511aecc8c8e1bc master
+terraform ${BLOCK_PATH}/terraform git@github.com:imma/terraform c3a5adab638f8d02f6e160b4d336872bba37746a master
+fogg ${BLOCK_PATH}/fogg git@github.com:imma/fogg 87c8834a0668109db665bb5f4ffc873a54cb9a05 master
+imma ${BLOCK_PATH}/imma git@github.com:imma/imma 5e74e3d122d3b1feed23344179d1de40a09961af master
 consul ${BLOCK_PATH}/consul git@github.com:imma/consul 521a0b4a72314f1cc94cef28de5fcad787350b07 master
 vault ${BLOCK_PATH}/vault git@github.com:imma/vault 9017a516375eedde6815c8368077f107c0974ab5 master
 openvpn ${BLOCK_PATH}/openvpn git@github.com:imma/openvpn cc486eab7e1efec99b290f2809090b41281576b4 master
