@@ -237,3 +237,6 @@ cibuild-*.log
 /.gpg-agent-info*
 /.neoman/
 /.yubioath/
+
+# site
+/bin/bn
