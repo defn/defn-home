@@ -1,6 +1,7 @@
 {
   "org-role": {
     "RoleArn": "arn:aws:iam::$id:role/$role",
-    "SerialNumber": "arn:aws:iam::$id:mfa/$user"
+    "SerialNumber": "arn:aws:iam::$id:mfa/$user",
+    "Region": "$region"
   }
 }
