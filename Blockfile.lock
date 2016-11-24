@@ -4,7 +4,7 @@ build-essential ${BLOCK_PATH}/build-essential git@github.com:imma/build-essentia
 cache ${BLOCK_PATH}/cache git@github.com:imma/cache 0e8571526f10c33d2dc07367ee978b591348ebbf master
 curl ${BLOCK_PATH}/curl git@github.com:imma/curl 22f2493e53d15bac4aac2c079f00d1b270fe3224 master
 squid ${BLOCK_PATH}/squid git@github.com:imma/squid fe74cba37fc91fe3678e3fc10e6bffe59ab9e910 master
-nexus ${BLOCK_PATH}/nexus git@github.com:imma/nexus 257c1152d841362a06425e3ba96f9f8a2595b070 master
+nexus ${BLOCK_PATH}/nexus git@github.com:imma/nexus d6fbca05e3a4f207e527e398d8797d50141034b5 master
 proxy ${BLOCK_PATH}/proxy git@github.com:imma/proxy 7d090710347040f372b443107a1e88e92e20067f master
 python ${BLOCK_PATH}/python git@github.com:imma/python 2ff53123129e34654df3ee64c2a291434bfa82a4 master
 nodeenv ${BLOCK_PATH}/nodeenv git@github.com:imma/nodeenv 29401e313bca9abf28a83e1dcf0174b95488bcd0 master
