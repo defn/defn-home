@@ -240,3 +240,6 @@ cibuild-*.log
 
 # site
 /bin/bn
+
+# 
+/.py*
