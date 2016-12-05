@@ -11,4 +11,4 @@ function main {
   "$@" block compile service
 }
 
-source sub "$BASH_SOURCE" "$@"
+source sub-chain "$BASH_SOURCE" "$@"

@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+export ssh_gateway=$CACHE_VIP ssh_gateway_user=$LOGNAME https_proxy=https://$CACHE_VIP:3128 http_proxy=https://$CACHE_VIP:3128
+
+if [[ "${BASH_SOURCE[0]}" == "${0}" ]]; then
+  source sub-middleware "$BASH_SOURCE" "$@"
+fi
