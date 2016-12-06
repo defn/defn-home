@@ -8,7 +8,13 @@ function main {
   set -x
 
   "$@" rm -rf home .git
+  cat <<EOF | "$@" tee -a .ssh/config
 
+Host github.com
+  StrictHostKeyChecking no
+  ForwardAgent no
+
+EOF
   "$@" git clone "${HOME_REPO:-git@github.com:defn/home}" home
   "$@" mv home/.git .
   "$@" git reset --hard
