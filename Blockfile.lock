@@ -57,7 +57,7 @@ parity ${BLOCK_PATH}/parity git@github.com:imma/parity 932ae42c1975401fa8f2df8e1
 aws ${BLOCK_PATH}/aws git@github.com:imma/aws 64f0bc925c4f0d75aa8ddb749948d771c091ee48 master
 cloud ${BLOCK_PATH}/cloud git@github.com:imma/cloud a8b25459733a950cc5e01228b8fccd3a62069c9b master
 docker-compose ${BLOCK_PATH}/docker-compose git@github.com:imma/docker-compose 062eebdf51fd21d2cdcd8ae82b39eee1d4b486db master
-docker ${BLOCK_PATH}/docker git@github.com:imma/docker db953f9cc8b7a48a9b386bed6464ed492f88f990 master
+docker ${BLOCK_PATH}/docker git@github.com:imma/docker d4476ec8d9b4578984041f0faf824360fc346b65 master
 lxc ${BLOCK_PATH}/lxc git@github.com:imma/lxc e9669633e952ed098b82a4089bb4725023a4bce7 master
 packer ${BLOCK_PATH}/packer git@github.com:imma/packer f12a5d5e883c5bef44aaf920da26e5ab24786d87 master
 provision ${BLOCK_PATH}/provision git@github.com:imma/provision 04b72317ec5acc9ef488018bd3c5b1e2aefbbd8b master
