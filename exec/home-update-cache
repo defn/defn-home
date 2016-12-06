@@ -7,7 +7,7 @@ function main {
 
   local many="${1:-10}"
   
-  block runmany "$many" 'cd $1 && git fetch --all'
+  block runmany "$many" 'unset GIT_SSH; cd $1 && git fetch --all'
 }
 
 source sub "$BASH_SOURCE" "$@"
