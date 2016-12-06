@@ -57,7 +57,8 @@
     "linkerd",
     "virtualbox",
     "rethinkdb",
-    "rundeck" 
+    "rundeck",
+    "base"
   ],
   "run": {
     "squid": {},

@@ -3,7 +3,7 @@ pkgsrc ${BLOCK_PATH}/pkgsrc git@github.com:imma/pkgsrc 75574ca6a3a795d6ee88033e3
 build-essential ${BLOCK_PATH}/build-essential git@github.com:imma/build-essential fdb5e7e338a652136b1f53c76c9a5ec41a6e239f master
 cache ${BLOCK_PATH}/cache git@github.com:imma/cache 21e613dede22fb0a4d8f12d740c15911048214fe master
 curl ${BLOCK_PATH}/curl git@github.com:imma/curl 22f2493e53d15bac4aac2c079f00d1b270fe3224 master
-squid ${BLOCK_PATH}/squid git@github.com:imma/squid f299af71c78ff0640c0cf802f6acc2e94ee0e376 master
+squid ${BLOCK_PATH}/squid git@github.com:imma/squid 10b0027aa31c24961b76c4ed0e57a6cc5edc8d9e master
 nexus ${BLOCK_PATH}/nexus git@github.com:imma/nexus d6fbca05e3a4f207e527e398d8797d50141034b5 master
 proxy ${BLOCK_PATH}/proxy git@github.com:imma/proxy 7d090710347040f372b443107a1e88e92e20067f master
 python ${BLOCK_PATH}/python git@github.com:imma/python 2ff53123129e34654df3ee64c2a291434bfa82a4 master
@@ -25,7 +25,7 @@ normalize ${BLOCK_PATH}/normalize git@github.com:imma/normalize b156ba1ec79f2da2
 bash-preexec ${BLOCK_PATH}/bash-preexec git@github.com:imma/bash-preexec a875da52509f0925b9436bb626c2444713f6835d master
 sub ${BLOCK_PATH}/sub git@github.com:imma/sub 062a65e087e86659f212da82f0311815a12244f1 master
 runmany ${BLOCK_PATH}/runmany git@github.com:imma/runmany 83214538c0e90b1244cd8bfbb8c8d3aef7d11c19 master
-block ${BLOCK_PATH}/block git@github.com:imma/block 23b56ba9361bc7eb5f93d7ac833e68a6c8e6b63e master
+block ${BLOCK_PATH}/block git@github.com:imma/block 9d09bd17627c2fdf1fdc81ae9c1bc2b986e0945f master
 bash-oo-framework ${BLOCK_PATH}/bash-oo-framework git@github.com:imma/bash-oo-framework 75447ff7fcb7c032bd5bf3754659b0a81c401873 master
 xcode ${BLOCK_PATH}/xcode git@github.com:imma/xcode cd456ae6d715f46ca723cad8258f1c1181c04a5c master
 tunnelblick ${BLOCK_PATH}/tunnelblick git@github.com:imma/tunnelblick a608eabd73f247ecc3043608f82cc8602cd143bd master
@@ -97,3 +97,4 @@ linkerd ${BLOCK_PATH}/linkerd git@github.com:imma/linkerd a1af1f8280a59125900b00
 virtualbox ${BLOCK_PATH}/virtualbox git@github.com:imma/virtualbox dc0675908b0d78131818f20bd5d699371a462bf1 master
 rethinkdb ${BLOCK_PATH}/rethinkdb git@github.com:imma/rethinkdb a2e6b23c2d34a261ae7edb034a58556364290808 master
 rundeck ${BLOCK_PATH}/rundeck git@github.com:imma/rundeck e72c252821e9e50b5449a4bd6feb9f3cd86cccdb master
+base ${BLOCK_PATH}/base git@github.com:imma/base 434be36be3c3954e0c10221ad51d57281ea7be37 master
