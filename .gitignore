@@ -238,8 +238,5 @@ cibuild-*.log
 /.neoman/
 /.yubioath/
 
-# site
-/bin/bn
-
 # 
 /.py*
