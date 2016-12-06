@@ -8,7 +8,7 @@ function main {
   local many="${1:-10}"
   
   export GIT_SSH="$(type -P cache-git)"
-  block runmany "$many" 'cd $1 && git fetch --all'
+  block runmany "$many" 'cd $1 && git pull'
 }
 
 source sub "$BASH_SOURCE" "$@"
