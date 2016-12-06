@@ -23,7 +23,8 @@ instance:
 	@docker rm -f $(container) $(container) 2>/dev/null || true
 	@docker rm -f $(instance) $(instance) 2>/dev/null || true
 	@docker run -d -ti -p 2222:22 -v /vagrant:/vagrant --name $(instance) $(instance) 
-	$(MAKE) ssh
+	@sleep 1
+	$(MAKE) ssh || true
 
 run:
 	@docker rm -f $(container) $(container) 2>/dev/null || true
