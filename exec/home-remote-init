@@ -15,10 +15,10 @@ Host github.com
   ForwardAgent no
 
 EOF
-  "$@" git clone "${HOME_REPO:-git@github.com:defn/home}" home
+  "$@" git clone "${HOME_REPO:-$(git remote get-url origin)}" home
   "$@" mv home/.git .
+  "$@" rm -rf home .profile .bashrc .bash_profile Blockfile.json.site # TODO DRY block-gen-cibuild
   "$@" git reset --hard
-  "$@" rm -rf home .profile
 
   home remote "$@"
 }
