@@ -1,7 +1,7 @@
 defn/defn-config ${BLOCK_PATH}/defn-config git@github.com:defn/defn-config e7dd36dd89cc9968e7960012b49bde8ebe1f3cce master
 pkgsrc ${BLOCK_PATH}/pkgsrc git@github.com:imma/pkgsrc 75574ca6a3a795d6ee88033e3949a165a64d3026 master
 build-essential ${BLOCK_PATH}/build-essential git@github.com:imma/build-essential fdb5e7e338a652136b1f53c76c9a5ec41a6e239f master
-cache ${BLOCK_PATH}/cache git@github.com:imma/cache 9daf71385c4c27b7f856cc7d0a0fd131b17e7b3c master
+cache ${BLOCK_PATH}/cache git@github.com:imma/cache 135dc78b9ce4e633e90bd903227d640ba7289824 master
 curl ${BLOCK_PATH}/curl git@github.com:imma/curl 22f2493e53d15bac4aac2c079f00d1b270fe3224 master
 squid ${BLOCK_PATH}/squid git@github.com:imma/squid 8cfd038029ac08e97f4909b43ffc4366c50ae8a9 master
 nexus ${BLOCK_PATH}/nexus git@github.com:imma/nexus d6fbca05e3a4f207e527e398d8797d50141034b5 master
