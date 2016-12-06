@@ -22,9 +22,7 @@ docker:
 instance:
 	@docker rm -f $(container) $(container) 2>/dev/null || true
 	@docker rm -f $(instance) $(instance) 2>/dev/null || true
-	@docker run -d -ti -p 2222:22 -v /vagrant:/vagrant -v /var/run/docker.sock:/var/run/docker.sock --name $(instance) $(instance) 
-	@sleep 1
-	$(MAKE) ssh || true
+	@docker run -d -ti -p 2222:22 -v /vagrant:/vagrant -v /var/run/docker.sock:/var/run/docker.sock -v $(HOME)/.aws:/home/ubuntu/.aws --name $(instance) $(instance) 
 
 run:
 	@docker rm -f $(container) $(container) 2>/dev/null || true
@@ -41,4 +39,4 @@ deploy:
 	env HOME_REPO=git@github.com:defn/home home remote cache init ssh -A -p 2222 ubuntu@localhost --
 
 ssh:
-	ssh -A -p 2222 ubuntu@localhost
+	ssh -t -A -p 2222 ubuntu@localhost env http_proxy=http://$(CACHE_VIP):3128 https_proxy=https://$(CACHE_VIP) bash -il
