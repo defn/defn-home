@@ -6,7 +6,7 @@ curl ${BLOCK_PATH}/curl git@github.com:imma/curl 22f2493e53d15bac4aac2c079f00d1b
 squid ${BLOCK_PATH}/squid git@github.com:imma/squid 8cfd038029ac08e97f4909b43ffc4366c50ae8a9 master
 nexus ${BLOCK_PATH}/nexus git@github.com:imma/nexus d6fbca05e3a4f207e527e398d8797d50141034b5 master
 proxy ${BLOCK_PATH}/proxy git@github.com:imma/proxy 7d090710347040f372b443107a1e88e92e20067f master
-python ${BLOCK_PATH}/python git@github.com:imma/python 6f6e9c3cedda346371c03ac49d65720529f0e0d5 master
+python ${BLOCK_PATH}/python git@github.com:imma/python 51bcf84cc05fc3311e393577bc7ef1c6d3ddcaa0 master
 nodeenv ${BLOCK_PATH}/nodeenv git@github.com:imma/nodeenv 29401e313bca9abf28a83e1dcf0174b95488bcd0 master
 node ${BLOCK_PATH}/node git@github.com:imma/node 70ae3c41050eb45c7740b7401bd60369513c9720 master
 ruby ${BLOCK_PATH}/ruby git@github.com:imma/ruby de9c122dd6685ee1f37c4fd7500eccf881066c07 master
