@@ -24,16 +24,19 @@ redeploy:
 	$(MAKE) deploy
 
 instance:
+	@docker rm -f $(container) $(container) 2>/dev/null || true
 	@docker rm -f $(instance) $(instance) 2>/dev/null || true
 	@docker run -d -ti -p 2222:22 -v /vagrant:/vagrant --name $(instance) $(instance) 
 	$(MAKE) ssh
 
 run:
 	@docker rm -f $(container) $(container) 2>/dev/null || true
+	@docker rm -f $(instance) $(instance) 2>/dev/null || true
 	@docker run -ti -p 2222:22 -v /vagrant:/vagrant --name $(container) $(container)
 
 daemon:
 	@docker rm -f $(container) $(container) 2>/dev/null || true
+	@docker rm -f $(instance) $(instance) 2>/dev/null || true
 	@docker run -d -ti -p 2222:22 -v /vagrant:/vagrant --name $(container) $(container)
 
 deploy:
