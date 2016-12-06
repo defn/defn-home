@@ -1,7 +1,7 @@
 defn/defn-config ${BLOCK_PATH}/defn-config git@github.com:defn/defn-config e7dd36dd89cc9968e7960012b49bde8ebe1f3cce master
 pkgsrc ${BLOCK_PATH}/pkgsrc git@github.com:imma/pkgsrc 75574ca6a3a795d6ee88033e3949a165a64d3026 master
 build-essential ${BLOCK_PATH}/build-essential git@github.com:imma/build-essential fdb5e7e338a652136b1f53c76c9a5ec41a6e239f master
-cache ${BLOCK_PATH}/cache git@github.com:imma/cache 135dc78b9ce4e633e90bd903227d640ba7289824 master
+cache ${BLOCK_PATH}/cache git@github.com:imma/cache 57eafce2f149c54cbc3387809f64cbb813f78627 master
 curl ${BLOCK_PATH}/curl git@github.com:imma/curl 22f2493e53d15bac4aac2c079f00d1b270fe3224 master
 squid ${BLOCK_PATH}/squid git@github.com:imma/squid 8cfd038029ac08e97f4909b43ffc4366c50ae8a9 master
 nexus ${BLOCK_PATH}/nexus git@github.com:imma/nexus d6fbca05e3a4f207e527e398d8797d50141034b5 master
@@ -10,7 +10,7 @@ python ${BLOCK_PATH}/python git@github.com:imma/python 51bcf84cc05fc3311e393577b
 nodeenv ${BLOCK_PATH}/nodeenv git@github.com:imma/nodeenv 29401e313bca9abf28a83e1dcf0174b95488bcd0 master
 node ${BLOCK_PATH}/node git@github.com:imma/node 70ae3c41050eb45c7740b7401bd60369513c9720 master
 ruby ${BLOCK_PATH}/ruby git@github.com:imma/ruby de9c122dd6685ee1f37c4fd7500eccf881066c07 master
-java ${BLOCK_PATH}/java git@github.com:imma/java 1fa0bfac5f4fe9fe9133b6e949c1718868bd1d79 master
+java ${BLOCK_PATH}/java git@github.com:imma/java 5a6e9294fc1e3f432c7e8accf87d49037a4c54dd master
 bash4 ${BLOCK_PATH}/bash4 git@github.com:imma/bash4 00cb2c6e43902ccc4ff92ae6ee06e0f46ee14908 master
 go ${BLOCK_PATH}/go git@github.com:imma/go 8f74ea2f98dabb851b1a4a7ce623e3ed63cd4a96 master
 homebrew ${BLOCK_PATH}/homebrew git@github.com:imma/homebrew 7dca75347f27df4ffcec95f97bf9fabca2979526 master
