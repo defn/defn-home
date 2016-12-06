@@ -14,6 +14,7 @@ deps:
 	@aptitude install -y ntp curl unzip git perl ruby language-pack-en nfs-common build-essential dkms lvm2 xfsprogs xfsdump bridge-utils thin-provisioning-tools software-properties-common aptitude
 
 container = block-$(shell basename $(PWD))
+instance = deploy-$(shell basename $(PWD))
 
 docker:
 	docker build -t $(container) .d/
@@ -21,6 +22,11 @@ docker:
 redeploy:
 	$(MAKE) daemon
 	$(MAKE) deploy
+
+instance:
+	@docker rm -f $(instance) $(instance) || true
+	@docker run -d -ti -p 2222:22 -v /vagrant:/vagrant --name $(instance) $(instance) 
+	$(MAKE) ssh
 
 run:
 	@docker rm -f $(container) $(container) || true
