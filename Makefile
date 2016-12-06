@@ -31,7 +31,7 @@ daemon:
 	@docker run -d -ti -p 2222:22 -v /vagrant:/vagrant --name $(container) $(container)
 
 deploy:
-	env HOME_REPO=git@github.com:defn/home remote cache init ssh -A -p 2222 ubuntu@localhost --
+	env HOME_REPO=git@github.com:defn/home home remote cache init ssh -A -p 2222 ubuntu@localhost --
 
 ssh:
 	ssh -A -p 2222 ubuntu@localhost
