@@ -1,5 +1,13 @@
 SHELL = bash
 
+ifeq (block,$(firstword $(MAKECMDGOALS)))
+BLOCKS := $(wordlist 2,$(words $(MAKECMDGOALS)),$(MAKECMDGOALS))
+$(eval $(BLOCKS):;@:)
+endif
+
+block:
+	@echo "$(BLOCKS)"
+
 all:
 	@rm -f .bashrc.cache
 	@script/cibuild ~
