@@ -32,7 +32,7 @@ tunnelblick ${BLOCK_PATH}/tunnelblick git@github.com:imma/tunnelblick a608eabd73
 htop ${BLOCK_PATH}/htop git@github.com:imma/htop 0fcb84c124426fe185b6aa0c392efac3c22b9c74 master
 runit ${BLOCK_PATH}/runit git@github.com:imma/runit 8dd6434b906a89ffadff34d113350a1559b92c69 master
 defn/defn-osx ${BLOCK_PATH}/defn-osx git@github.com:defn/defn-osx 915660daa482d71a491deea8c486605888b46be5 master
-junas ${BLOCK_PATH}/junas git@github.com:imma/junas f93e7b2618a5109bc8aa9833ae809979852e526e master
+junas ${BLOCK_PATH}/junas git@github.com:imma/junas f9053e05072a2e5568c01c50bccc0d3cd787b9b7 master
 cue ${BLOCK_PATH}/cue git@github.com:imma/cue 98c31e20fa2535778baa035afcc340c90d3f7137 master
 hugo ${BLOCK_PATH}/hugo git@github.com:imma/hugo 97136e459d2c342b9708db0f2da4dc4580ef9eec master
 slate ${BLOCK_PATH}/slate git@github.com:imma/slate cb75c1876851abb74c4e09ff219a76c971c0986f master
