@@ -25,7 +25,7 @@ normalize ${BLOCK_PATH}/normalize git@github.com:imma/normalize b156ba1ec79f2da2
 bash-preexec ${BLOCK_PATH}/bash-preexec git@github.com:imma/bash-preexec a875da52509f0925b9436bb626c2444713f6835d master
 sub ${BLOCK_PATH}/sub git@github.com:imma/sub 062a65e087e86659f212da82f0311815a12244f1 master
 runmany ${BLOCK_PATH}/runmany git@github.com:imma/runmany 83214538c0e90b1244cd8bfbb8c8d3aef7d11c19 master
-block ${BLOCK_PATH}/block git@github.com:imma/block c8819525b04f4fcc6111e9de536161d81e366f64 master
+block ${BLOCK_PATH}/block git@github.com:imma/block 98e4f690bc2d5a415b3645ddd25a217de3c9db03 master
 bash-oo-framework ${BLOCK_PATH}/bash-oo-framework git@github.com:imma/bash-oo-framework 75447ff7fcb7c032bd5bf3754659b0a81c401873 master
 xcode ${BLOCK_PATH}/xcode git@github.com:imma/xcode cd456ae6d715f46ca723cad8258f1c1181c04a5c master
 tunnelblick ${BLOCK_PATH}/tunnelblick git@github.com:imma/tunnelblick a608eabd73f247ecc3043608f82cc8602cd143bd master
