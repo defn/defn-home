@@ -17,7 +17,7 @@ homebrew ${BLOCK_PATH}/homebrew git@github.com:imma/homebrew 7dca75347f27df4ffce
 sbcl ${BLOCK_PATH}/sbcl git@github.com:imma/sbcl 964fac2b1dcca83a43c70012de878074cad3012b master
 maven ${BLOCK_PATH}/maven git@github.com:imma/maven b14fdd1d57b691aa6c23a5df70d98667af55a1e1 master
 cljs ${BLOCK_PATH}/cljs git@github.com:imma/cljs 5956ba8d1b65888122fbab6c63195cc3ec641061 master
-defn/defn-lang ${BLOCK_PATH}/defn-lang git@github.com:defn/defn-lang 8f642946a713974871245f73068ccac91272c828 master
+defn/defn-lang ${BLOCK_PATH}/defn-lang git@github.com:defn/defn-lang 1e3fa7f05845d1b3ec832fd710ee20bd74337278 master
 block-home ${BLOCK_PATH}/block-home git@github.com:imma/block-home 3904d86c7f9aa9fbcc25f09215f547ac8bbd2eee master
 pl-home ${BLOCK_PATH}/pl-home git@github.com:imma/pl-home 5fdfcb22db48ea064dd40f6fb0677e7243076e65 master
 shflags ${BLOCK_PATH}/shflags git@github.com:imma/shflags 9927b78550ea96e541a6578fce50cf56048a46b4 master
