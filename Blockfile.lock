@@ -86,7 +86,7 @@ security ${BLOCK_PATH}/security git@github.com:imma/security ac4ce3869857b91e3d5
 inspect ${BLOCK_PATH}/inspect git@github.com:imma/inspect 2a1a2841868b8374a5f67123d2ed39c5458d756d master
 console ${BLOCK_PATH}/console git@github.com:imma/console d0190555e8aca40f35b6f0126438ccf9c5d2cf2e master
 awesome ${BLOCK_PATH}/awesome git@github.com:imma/awesome 6bb6b1797948266b9b0066cb813072e62b0c2699 master
-terraform ${BLOCK_PATH}/terraform git@github.com:imma/terraform 17e2c8841d6ca87051e122cf94f4d3aaedc4e297 master
+terraform ${BLOCK_PATH}/terraform git@github.com:imma/terraform f43b95e0c6fdceef8f6ca772b83c4052a17b7ec9 master
 fogg ${BLOCK_PATH}/fogg git@github.com:imma/fogg 2d16aea91ec0d17d86dfb1e7a806e4078e5bc520 master
 imma ${BLOCK_PATH}/imma git@github.com:imma/imma 81062c0e9d5af0f3c21dd6c7d31e781a3920205e master
 consul ${BLOCK_PATH}/consul git@github.com:imma/consul cf1f002d5fdfeea61c69d74fdabb309d8119d082 master
