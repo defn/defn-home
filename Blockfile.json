@@ -58,7 +58,8 @@
     "virtualbox",
     "rethinkdb",
     "rundeck",
-    "nomad"
+    "nomad",
+    "base"
   ],
   "run": {
     "squid": {},

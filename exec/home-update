@@ -7,10 +7,7 @@ function main {
 
   local many="${1:-10}"
   
-  unset GIT_SSH
-
-  cache git update
-  block runmany "$many" 'unset GIT_SSH; cd $1 && cache pull' || true
+  block runmany "$many" 'cd $1 && git pull' || true
   block clone
   block lock
   home status

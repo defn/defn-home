@@ -7,8 +7,7 @@ function main {
 
   local many="${1:-10}"
   
-  cd "${BASEBOX_CACHE}/cache/git"
-  runmany "$many" 'cd $1 && git fetch --all' */*/*
+  block runmany "$many" 'cd $1 && git cache pull'
 }
 
 source sub "$BASH_SOURCE" "$@"

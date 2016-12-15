@@ -20,6 +20,7 @@
 /.ssh-agent*
 /.subversion/
 /.viminfo
+authorized_keys
 
 # osx
 /.CFUserTextEncoding
@@ -238,5 +239,5 @@ cibuild-*.log
 /.neoman/
 /.yubioath/
 
-# site
-/bin/bn
+# 
+/.py*
