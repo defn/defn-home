@@ -17,7 +17,7 @@ homebrew ${BLOCK_PATH}/homebrew git@github.com:imma/homebrew 7dca75347f27df4ffce
 sbcl ${BLOCK_PATH}/sbcl git@github.com:imma/sbcl 964fac2b1dcca83a43c70012de878074cad3012b master
 maven ${BLOCK_PATH}/maven git@github.com:imma/maven b14fdd1d57b691aa6c23a5df70d98667af55a1e1 master
 cljs ${BLOCK_PATH}/cljs git@github.com:imma/cljs 5956ba8d1b65888122fbab6c63195cc3ec641061 master
-defn/defn-lang ${BLOCK_PATH}/defn-lang git@github.com:defn/defn-lang 1e3fa7f05845d1b3ec832fd710ee20bd74337278 master
+defn/defn-lang ${BLOCK_PATH}/defn-lang git@github.com:defn/defn-lang b5d2db00348885c8d6880db5e05a4823b5373bfb master
 block-home ${BLOCK_PATH}/block-home git@github.com:imma/block-home 3904d86c7f9aa9fbcc25f09215f547ac8bbd2eee master
 pl-home ${BLOCK_PATH}/pl-home git@github.com:imma/pl-home 5fdfcb22db48ea064dd40f6fb0677e7243076e65 master
 shflags ${BLOCK_PATH}/shflags git@github.com:imma/shflags 9927b78550ea96e541a6578fce50cf56048a46b4 master
@@ -47,8 +47,8 @@ jq ${BLOCK_PATH}/jq git@github.com:imma/jq 0e4f0943d6d268957bd73312456ba1ec5a862
 ansible ${BLOCK_PATH}/ansible git@github.com:imma/ansible 2ecd72b9b4161d7bdebb439ae4f040635d4cbd8e master
 aq ${BLOCK_PATH}/aq git@github.com:imma/aq efce7ff4bb1c9632a5c904f294765eed59412b0f master
 aqq ${BLOCK_PATH}/aqq git@github.com:imma/aqq 5fcbd9a9594684346c79d0f20099db59f157bd18 master
-inventory ${BLOCK_PATH}/inventory git@github.com:imma/inventory d59983a19e456f6c43d3131366e0033d462fe007 master
-deploy ${BLOCK_PATH}/deploy git@github.com:imma/deploy 721fd5bd36085c583eab2ec45a22378e44e45333 master
+inventory ${BLOCK_PATH}/inventory git@github.com:imma/inventory 480586ffe3709317ff7a6018082106da91db3490 master
+deploy ${BLOCK_PATH}/deploy git@github.com:imma/deploy beca05104b686c5743487be0bebfd922a04dbc87 master
 context ${BLOCK_PATH}/context git@github.com:imma/context a18ab2e5d9764c406272efd228b3a37fd6d1ebbc master
 git ${BLOCK_PATH}/git git@github.com:imma/git f129d99d122f136e6612fd1ddc5ee38db7bda427 master
 github ${BLOCK_PATH}/github git@github.com:imma/github 7ee26bdcaea6e5a90be9b7fb674ab7439231588c master
@@ -66,7 +66,7 @@ aptly ${BLOCK_PATH}/aptly git@github.com:imma/aptly fefa8846a316ec493fff2a9484e2
 artifacts ${BLOCK_PATH}/artifacts git@github.com:imma/artifacts 37297b68bb8b06de46ebb3e92176b06eec36146c master
 launch-config ${BLOCK_PATH}/launch-config git@github.com:imma/launch-config 7982b6a216c9745db348e4aff3efe72b2da23949 master
 service ${BLOCK_PATH}/service git@github.com:imma/service e0fa370ea742eb7b5d44a7b5f1724ada24f32db4 master
-vagrant ${BLOCK_PATH}/vagrant git@github.com:imma/vagrant 8bb5a1583c9ee9b682c338afd1bd45f88c2b2125 master
+vagrant ${BLOCK_PATH}/vagrant git@github.com:imma/vagrant 0ccec1d6dd5919a05535f40a3c5f98c8d52351d0 master
 limbo ${BLOCK_PATH}/limbo git@github.com:imma/limbo bb1b34f25bef9bdd97a55f624f7a6dd8a0dbfc12 master
 inception ${BLOCK_PATH}/inception git@github.com:imma/inception c40db07771f80cd3e84547b26c11751ec740ae4b master
 poop ${BLOCK_PATH}/poop git@github.com:imma/poop e67e05c5ebd6b88daaf9bbc8ed24c80819a78aab master
