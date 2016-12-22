@@ -59,6 +59,7 @@
     "rundeck",
     "nomad",
     "phoenix",
+    "cljs",
     "base"
   ],
   "run": {

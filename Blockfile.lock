@@ -16,7 +16,8 @@ go ${BLOCK_PATH}/go git@github.com:imma/go 8f74ea2f98dabb851b1a4a7ce623e3ed63cd4
 homebrew ${BLOCK_PATH}/homebrew git@github.com:imma/homebrew 7dca75347f27df4ffcec95f97bf9fabca2979526 master
 sbcl ${BLOCK_PATH}/sbcl git@github.com:imma/sbcl 964fac2b1dcca83a43c70012de878074cad3012b master
 maven ${BLOCK_PATH}/maven git@github.com:imma/maven b14fdd1d57b691aa6c23a5df70d98667af55a1e1 master
-cljs ${BLOCK_PATH}/cljs git@github.com:imma/cljs 5956ba8d1b65888122fbab6c63195cc3ec641061 master
+leiningen ${BLOCK_PATH}/leiningen git@github.com:imma/leiningen dccbc45525e5a002e112658b54211a79595bbecc master
+cljs ${BLOCK_PATH}/cljs git@github.com:imma/cljs 4ec286baebb71bc51dad9c4bc0410820fbe296ce master
 defn/defn-lang ${BLOCK_PATH}/defn-lang git@github.com:defn/defn-lang b5d2db00348885c8d6880db5e05a4823b5373bfb master
 block-home ${BLOCK_PATH}/block-home git@github.com:imma/block-home 3904d86c7f9aa9fbcc25f09215f547ac8bbd2eee master
 pl-home ${BLOCK_PATH}/pl-home git@github.com:imma/pl-home 5fdfcb22db48ea064dd40f6fb0677e7243076e65 master
@@ -32,7 +33,7 @@ tunnelblick ${BLOCK_PATH}/tunnelblick git@github.com:imma/tunnelblick a608eabd73
 htop ${BLOCK_PATH}/htop git@github.com:imma/htop 0fcb84c124426fe185b6aa0c392efac3c22b9c74 master
 runit ${BLOCK_PATH}/runit git@github.com:imma/runit 8dd6434b906a89ffadff34d113350a1559b92c69 master
 defn/defn-osx ${BLOCK_PATH}/defn-osx git@github.com:defn/defn-osx 915660daa482d71a491deea8c486605888b46be5 master
-junas ${BLOCK_PATH}/junas git@github.com:imma/junas f9053e05072a2e5568c01c50bccc0d3cd787b9b7 master
+junas ${BLOCK_PATH}/junas git@github.com:imma/junas 40be971898e22b19399786d7de443b25282653e7 master
 cue ${BLOCK_PATH}/cue git@github.com:imma/cue 36543eac165edc2577ee98b19ea82a9aae66803f master
 hugo ${BLOCK_PATH}/hugo git@github.com:imma/hugo 303174389301a73448a5d468fa323a5a29ff99e5 master
 slate ${BLOCK_PATH}/slate git@github.com:imma/slate cb75c1876851abb74c4e09ff219a76c971c0986f master
