@@ -73,8 +73,6 @@ poop ${BLOCK_PATH}/poop git@github.com:imma/poop e67e05c5ebd6b88daaf9bbc8ed24c80
 lamda ${BLOCK_PATH}/lamda git@github.com:imma/lamda b1c6b48ea6e9bb4f6eb13afc4b133e35828047c2 master
 defn/it ${BLOCK_PATH}/it git@github.com:defn/it 3caa8665fa09d618eca2bd277929e9850479036c gh-pages
 defn/defn.github.io ${BLOCK_PATH}/defn.github.io git@github.com:defn/defn.github.io 99cd998d72f681fe2aee047d9d287929762159d7 master
-leiningen ${BLOCK_PATH}/leiningen git@github.com:imma/leiningen dccbc45525e5a002e112658b54211a79595bbecc master
-isomorphic-clojurescript-reagent-node ${BLOCK_PATH}/isomorphic-clojurescript-reagent-node git@github.com:imma/isomorphic-clojurescript-reagent-node c662045ff189ab621340cb0104757ef34386a91f master
 irssi ${BLOCK_PATH}/irssi git@github.com:imma/irssi dae57519dc639f1f83e8eb94686814357f082ec5 master
 git-crypt ${BLOCK_PATH}/git-crypt git@github.com:imma/git-crypt 63bb8998cd0ef2e0e4ffd4aab2278f56caadf6ec master
 gpg ${BLOCK_PATH}/gpg git@github.com:imma/gpg 353af726778bc7c5d1e1a2920b5dc84eecbcb8b3 master
@@ -97,4 +95,7 @@ virtualbox ${BLOCK_PATH}/virtualbox git@github.com:imma/virtualbox dc0675908b0d7
 rethinkdb ${BLOCK_PATH}/rethinkdb git@github.com:imma/rethinkdb a2e6b23c2d34a261ae7edb034a58556364290808 master
 rundeck ${BLOCK_PATH}/rundeck git@github.com:imma/rundeck e72c252821e9e50b5449a4bd6feb9f3cd86cccdb master
 nomad ${BLOCK_PATH}/nomad git@github.com:imma/nomad 6b026154a4b1602e9e4f3548fe16dfe4ff9f66eb master
+erlang ${BLOCK_PATH}/erlang git@github.com:imma/erlang 3bdd0e6b2b082bfcdb80211083aec0ae88077de7 master
+elixir ${BLOCK_PATH}/elixir git@github.com:imma/elixir 132a8653c1c78e550bdd921d24dff904ec374be9 master
+phoenix ${BLOCK_PATH}/phoenix git@github.com:imma/phoenix 4cb6773ed2a788508663bdaa1c12031e4302626d master
 base ${BLOCK_PATH}/base git@github.com:imma/base 764acf10fc2cb5473bf9cdb1d7ce443dba9460d4 master

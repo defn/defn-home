@@ -42,7 +42,6 @@
       "defn/it",
       "defn/defn.github.io"
     ],
-    "isomorphic-clojurescript-reagent-node",
     [
       "irssi"
     ],
@@ -59,15 +58,11 @@
     "rethinkdb",
     "rundeck",
     "nomad",
+    "phoenix",
     "base"
   ],
   "run": {
     "squid": {},
-    "jenkins": {},
-    "nexus": {},
-    "consul": {},
-    "consul.server": {},
-    "vault": {},
-    "isomorphic-clojurescript-reagent-node": {}
+    "nexus": {}
   }
 }
