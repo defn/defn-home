@@ -75,7 +75,6 @@ defn/it ${BLOCK_PATH}/it git@github.com:defn/it 3caa8665fa09d618eca2bd277929e985
 defn/defn.github.io ${BLOCK_PATH}/defn.github.io git@github.com:defn/defn.github.io 99cd998d72f681fe2aee047d9d287929762159d7 master
 leiningen ${BLOCK_PATH}/leiningen git@github.com:imma/leiningen dccbc45525e5a002e112658b54211a79595bbecc master
 isomorphic-clojurescript-reagent-node ${BLOCK_PATH}/isomorphic-clojurescript-reagent-node git@github.com:imma/isomorphic-clojurescript-reagent-node c662045ff189ab621340cb0104757ef34386a91f master
-t ${BLOCK_PATH}/t git@github.com:imma/t eb09ec1a0dc63d903da5e57c4c9d5ec3cecb81ed master
 irssi ${BLOCK_PATH}/irssi git@github.com:imma/irssi dae57519dc639f1f83e8eb94686814357f082ec5 master
 git-crypt ${BLOCK_PATH}/git-crypt git@github.com:imma/git-crypt 63bb8998cd0ef2e0e4ffd4aab2278f56caadf6ec master
 gpg ${BLOCK_PATH}/gpg git@github.com:imma/gpg 353af726778bc7c5d1e1a2920b5dc84eecbcb8b3 master
