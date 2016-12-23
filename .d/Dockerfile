@@ -4,7 +4,7 @@
 # | (_| | (_) | (__|   <  __/ |   
 #  \__,_|\___/ \___|_|\_\___|_|   
                                 
-FROM imma:base
+FROM block-base
                  
 #   ___ _ ____   __
 #  / _ \ '_ \ \ / /
@@ -34,10 +34,8 @@ RUN cloud-init init
                                    
 USER ubuntu
 
-ARG ssh_key
-
 RUN mkdir -p ~/.ssh
-RUN echo "${ssh_key}" | tee ~/.ssh/authorized_keys
+RUN touch ~/.ssh/authorized_keys
 
 #                  _   
 #  _ __ ___   ___ | |_ 
