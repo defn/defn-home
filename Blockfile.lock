@@ -3,7 +3,12 @@ pkgsrc ${BLOCK_PATH}/pkgsrc git@github.com:imma/pkgsrc 75574ca6a3a795d6ee88033e3
 build-essential ${BLOCK_PATH}/build-essential git@github.com:imma/build-essential 7b83363b736aaf2d6293e4f56d3314203356042f master
 cache ${BLOCK_PATH}/cache git@github.com:imma/cache 57eafce2f149c54cbc3387809f64cbb813f78627 master
 curl ${BLOCK_PATH}/curl git@github.com:imma/curl 22f2493e53d15bac4aac2c079f00d1b270fe3224 master
-squid ${BLOCK_PATH}/squid git@github.com:imma/squid 741d5334ca169cddabb00961161970e451597d7e master
+context ${BLOCK_PATH}/context git@github.com:imma/context a18ab2e5d9764c406272efd228b3a37fd6d1ebbc master
+parity ${BLOCK_PATH}/parity git@github.com:imma/parity 932ae42c1975401fa8f2df8e1d9b77ce1ad90775 master
+docker-compose ${BLOCK_PATH}/docker-compose git@github.com:imma/docker-compose 062eebdf51fd21d2cdcd8ae82b39eee1d4b486db master
+docker ${BLOCK_PATH}/docker git@github.com:imma/docker ed0f9a02100f52a0e7ec0dd63923b2c1f2013b0c master
+base ${BLOCK_PATH}/base git@github.com:imma/base db24bd5aaca8f8c0d4332317498fe325699fcaa7 master
+squid ${BLOCK_PATH}/squid git@github.com:imma/squid d650ac17ed69425959ebbbd7e08a8e15e86775d1 master
 nexus ${BLOCK_PATH}/nexus git@github.com:imma/nexus d6fbca05e3a4f207e527e398d8797d50141034b5 master
 proxy ${BLOCK_PATH}/proxy git@github.com:imma/proxy 7d090710347040f372b443107a1e88e92e20067f master
 python ${BLOCK_PATH}/python git@github.com:imma/python 51bcf84cc05fc3311e393577bc7ef1c6d3ddcaa0 master
@@ -50,15 +55,11 @@ aq ${BLOCK_PATH}/aq git@github.com:imma/aq efce7ff4bb1c9632a5c904f294765eed59412
 aqq ${BLOCK_PATH}/aqq git@github.com:imma/aqq 5fcbd9a9594684346c79d0f20099db59f157bd18 master
 inventory ${BLOCK_PATH}/inventory git@github.com:imma/inventory 16f7c1cde01bb959181daa345f155919b7564f2c master
 deploy ${BLOCK_PATH}/deploy git@github.com:imma/deploy 46caf9ee1f168f5244759bbaffd7bcd26bf3c349 master
-context ${BLOCK_PATH}/context git@github.com:imma/context a18ab2e5d9764c406272efd228b3a37fd6d1ebbc master
 git ${BLOCK_PATH}/git git@github.com:imma/git f129d99d122f136e6612fd1ddc5ee38db7bda427 master
 github ${BLOCK_PATH}/github git@github.com:imma/github 7ee26bdcaea6e5a90be9b7fb674ab7439231588c master
 facts ${BLOCK_PATH}/facts git@github.com:imma/facts 5a53640c7390b7ba31be96e46b4205ea14c10566 master
-parity ${BLOCK_PATH}/parity git@github.com:imma/parity 932ae42c1975401fa8f2df8e1d9b77ce1ad90775 master
 aws ${BLOCK_PATH}/aws git@github.com:imma/aws 64f0bc925c4f0d75aa8ddb749948d771c091ee48 master
 cloud ${BLOCK_PATH}/cloud git@github.com:imma/cloud a8b25459733a950cc5e01228b8fccd3a62069c9b master
-docker-compose ${BLOCK_PATH}/docker-compose git@github.com:imma/docker-compose 062eebdf51fd21d2cdcd8ae82b39eee1d4b486db master
-docker ${BLOCK_PATH}/docker git@github.com:imma/docker ed0f9a02100f52a0e7ec0dd63923b2c1f2013b0c master
 lxc ${BLOCK_PATH}/lxc git@github.com:imma/lxc e9669633e952ed098b82a4089bb4725023a4bce7 master
 packer ${BLOCK_PATH}/packer git@github.com:imma/packer 9356e9a78cbc1b3094dc92dcef746923d82e89f0 master
 provision ${BLOCK_PATH}/provision git@github.com:imma/provision 04b72317ec5acc9ef488018bd3c5b1e2aefbbd8b master
@@ -99,4 +100,3 @@ nomad ${BLOCK_PATH}/nomad git@github.com:imma/nomad 6b026154a4b1602e9e4f3548fe16
 erlang ${BLOCK_PATH}/erlang git@github.com:imma/erlang 3bdd0e6b2b082bfcdb80211083aec0ae88077de7 master
 elixir ${BLOCK_PATH}/elixir git@github.com:imma/elixir 132a8653c1c78e550bdd921d24dff904ec374be9 master
 phoenix ${BLOCK_PATH}/phoenix git@github.com:imma/phoenix 4cb6773ed2a788508663bdaa1c12031e4302626d master
-base ${BLOCK_PATH}/base git@github.com:imma/base 7cc51b1257e745ca2993d349d19feb4916f42111 master
