@@ -84,7 +84,7 @@ security ${BLOCK_PATH}/security git@github.com:imma/security ac4ce3869857b91e3d5
 inspect ${BLOCK_PATH}/inspect git@github.com:imma/inspect 2a1a2841868b8374a5f67123d2ed39c5458d756d master
 console ${BLOCK_PATH}/console git@github.com:imma/console d0190555e8aca40f35b6f0126438ccf9c5d2cf2e master
 awesome ${BLOCK_PATH}/awesome git@github.com:imma/awesome 6bb6b1797948266b9b0066cb813072e62b0c2699 master
-terraform ${BLOCK_PATH}/terraform git@github.com:imma/terraform 5af921047fbe5bff78f6fb2b17d9b432241d4e78 master
+terraform ${BLOCK_PATH}/terraform git@github.com:imma/terraform 3958dbbe9fc9ef16c2030edc19c4ce061d50fad9 master
 fogg ${BLOCK_PATH}/fogg git@github.com:imma/fogg 2d719e61655827deb57c6f48429eb361cf02b371 master
 imma ${BLOCK_PATH}/imma git@github.com:imma/imma c24a3aef7faa35baafe4d3799ce67dee68b9c750 master
 consul ${BLOCK_PATH}/consul git@github.com:imma/consul 72d431402603ad6ef0e2d926e5bed91ff678aab6 master
@@ -96,7 +96,8 @@ virtualbox ${BLOCK_PATH}/virtualbox git@github.com:imma/virtualbox dc0675908b0d7
 rethinkdb ${BLOCK_PATH}/rethinkdb git@github.com:imma/rethinkdb a2e6b23c2d34a261ae7edb034a58556364290808 master
 rundeck ${BLOCK_PATH}/rundeck git@github.com:imma/rundeck e72c252821e9e50b5449a4bd6feb9f3cd86cccdb master
 nomad ${BLOCK_PATH}/nomad git@github.com:imma/nomad 6b026154a4b1602e9e4f3548fe16dfe4ff9f66eb master
-erlang ${BLOCK_PATH}/erlang git@github.com:imma/erlang 3bdd0e6b2b082bfcdb80211083aec0ae88077de7 master
-elixir ${BLOCK_PATH}/elixir git@github.com:imma/elixir 132a8653c1c78e550bdd921d24dff904ec374be9 master
-phoenix ${BLOCK_PATH}/phoenix git@github.com:imma/phoenix 4cb6773ed2a788508663bdaa1c12031e4302626d master
+postgresql ${BLOCK_PATH}/postgresql git@github.com:imma/postgresql 0f4a6777360dd0322b04b6029bb5cbe6520b6fac master
+erlang ${BLOCK_PATH}/erlang git@github.com:imma/erlang 694c3806f964ebe6ef864db04900d85107df25ad master
+elixir ${BLOCK_PATH}/elixir git@github.com:imma/elixir 67f360ea72287eebd6cab38b23feea5cfa309429 master
+phoenix ${BLOCK_PATH}/phoenix git@github.com:imma/phoenix c950e6e6a6cd7112d1348af2e01274b7b31625ed master
 base ${BLOCK_PATH}/base git@github.com:imma/base 7cc51b1257e745ca2993d349d19feb4916f42111 master
