@@ -25,12 +25,11 @@ container = block-$(shell basename $(PWD))
 instance = deploy-$(shell basename $(PWD))
 
 docker:
-	docker build -t $(container) .d/
+	@docker build -t $(container) --build-arg ssh_key="$(shell head -1 ~/.ssh/authorized_keys)" --build-arg http_proxy="$(http_proxy)" .d
 
-instance:
-	@docker rm -f $(container) $(container) 2>/dev/null || true
-	@docker rm -f $(instance) $(instance) 2>/dev/null || true
-	@docker run -d -ti -p 2222:22 -v /vagrant:/vagrant -v /var/run/docker.sock:/var/run/docker.sock -v $(HOME)/.aws:/home/ubuntu/.aws --name $(instance) $(instance) 
+redeploy:
+	$(MAKE) daemon
+	$(MAKE) deploy
 
 run:
 	@docker rm -f $(container) $(container) 2>/dev/null || true
@@ -44,7 +43,12 @@ daemon:
 
 deploy:
 	$(MAKE) daemon
-	env HOME_REPO=git@github.com:defn/home home remote cache init ssh -A -p 2222 ubuntu@localhost --
+	@env HOME_REPO=git@github.com:defn/home home remote cache init ssh -A -p 2222 ubuntu@localhost --
+
+instance:
+	@docker rm -f $(container) $(container) 2>/dev/null || true
+	@docker rm -f $(instance) $(instance) 2>/dev/null || true
+	@docker run -d -ti -p 2222:22 -v /vagrant:/vagrant -v /var/run/docker.sock:/var/run/docker.sock -v $(HOME)/.aws:/home/ubuntu/.aws --name $(instance) $(instance) 
 
 ssh:
-	ssh -t -A -p 2222 ubuntu@localhost env http_proxy=http://$(CACHE_VIP):3128 https_proxy=https://$(CACHE_VIP) bash -il
+	@ssh -t -A -p 2222 ubuntu@localhost env http_proxy=http://$(CACHE_VIP):3128 https_proxy=https://$(CACHE_VIP) bash -il

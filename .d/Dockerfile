@@ -11,9 +11,10 @@ FROM imma:base
 # |  __/ | | \ V / 
 #  \___|_| |_|\_/  
 
+ARG http_proxy
+
 ENV http_proxy ${http_proxy}
-ENV https_proxy ${https_proxy}
-ENV meh meh
+ENV https_proxy ${http_proxy}
 
 #                  _   
 #  _ __ ___   ___ | |_ 
@@ -33,9 +34,10 @@ RUN cloud-init init
                                    
 USER ubuntu
 
+ARG ssh_key
+
 RUN mkdir -p ~/.ssh
-RUN echo "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCa58hGFG5RYR3eDrJLX8SSQtLtM9ofOzQx3yxDMkFlfg1jsKkIWpZ5jv+Zga3k08Xuaqpm21LPVtlC+N8LPXSPEbwymxNgbkbO+LJF9TL4l/ZhzBXSiooXCZ7XJUtSc6OrjpXHpsMvCN7ghFugryt7YgFmjXxnAN9kqNxYs5KVYgWPyzSWIHCDWvfrXrlTOArb+8+72XbdkUxd1DPG4sfreQsdyajAkIKEd/fJLAkOIgZqcmxoxUIV1ElX3dceI3grxZLPDs88Joncu4ycYObIjXI/qeat2gu5EeSOgEwsY3MrgAtTLc9oSptArZcS5HSIb6rc6wAXDzVa95k0Hskf defn0" | tee ~/.ssh/authorized_keys
-ADD etc/authorized_keys ~/.ssh/meh
+RUN echo "${ssh_key}" | tee ~/.ssh/authorized_keys
 
 #                  _   
 #  _ __ ___   ___ | |_ 
