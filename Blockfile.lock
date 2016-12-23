@@ -3,7 +3,7 @@ pkgsrc ${BLOCK_PATH}/pkgsrc git@github.com:imma/pkgsrc 75574ca6a3a795d6ee88033e3
 build-essential ${BLOCK_PATH}/build-essential git@github.com:imma/build-essential fdb5e7e338a652136b1f53c76c9a5ec41a6e239f master
 cache ${BLOCK_PATH}/cache git@github.com:imma/cache 57eafce2f149c54cbc3387809f64cbb813f78627 master
 curl ${BLOCK_PATH}/curl git@github.com:imma/curl 22f2493e53d15bac4aac2c079f00d1b270fe3224 master
-squid ${BLOCK_PATH}/squid git@github.com:imma/squid 8cfd038029ac08e97f4909b43ffc4366c50ae8a9 master
+squid ${BLOCK_PATH}/squid git@github.com:imma/squid 9450bba0e2781b0d0f50d095bbae0bd2a934a90e master
 nexus ${BLOCK_PATH}/nexus git@github.com:imma/nexus d6fbca05e3a4f207e527e398d8797d50141034b5 master
 proxy ${BLOCK_PATH}/proxy git@github.com:imma/proxy 7d090710347040f372b443107a1e88e92e20067f master
 python ${BLOCK_PATH}/python git@github.com:imma/python 51bcf84cc05fc3311e393577bc7ef1c6d3ddcaa0 master
