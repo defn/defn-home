@@ -1,9 +1,9 @@
 defn/defn-config ${BLOCK_PATH}/defn-config git@github.com:defn/defn-config e7dd36dd89cc9968e7960012b49bde8ebe1f3cce master
 pkgsrc ${BLOCK_PATH}/pkgsrc git@github.com:imma/pkgsrc 75574ca6a3a795d6ee88033e3949a165a64d3026 master
-build-essential ${BLOCK_PATH}/build-essential git@github.com:imma/build-essential fdb5e7e338a652136b1f53c76c9a5ec41a6e239f master
+build-essential ${BLOCK_PATH}/build-essential git@github.com:imma/build-essential 7b83363b736aaf2d6293e4f56d3314203356042f master
 cache ${BLOCK_PATH}/cache git@github.com:imma/cache 57eafce2f149c54cbc3387809f64cbb813f78627 master
 curl ${BLOCK_PATH}/curl git@github.com:imma/curl 22f2493e53d15bac4aac2c079f00d1b270fe3224 master
-squid ${BLOCK_PATH}/squid git@github.com:imma/squid 9450bba0e2781b0d0f50d095bbae0bd2a934a90e master
+squid ${BLOCK_PATH}/squid git@github.com:imma/squid 741d5334ca169cddabb00961161970e451597d7e master
 nexus ${BLOCK_PATH}/nexus git@github.com:imma/nexus d6fbca05e3a4f207e527e398d8797d50141034b5 master
 proxy ${BLOCK_PATH}/proxy git@github.com:imma/proxy 7d090710347040f372b443107a1e88e92e20067f master
 python ${BLOCK_PATH}/python git@github.com:imma/python 51bcf84cc05fc3311e393577bc7ef1c6d3ddcaa0 master
@@ -99,4 +99,4 @@ nomad ${BLOCK_PATH}/nomad git@github.com:imma/nomad 6b026154a4b1602e9e4f3548fe16
 erlang ${BLOCK_PATH}/erlang git@github.com:imma/erlang 3bdd0e6b2b082bfcdb80211083aec0ae88077de7 master
 elixir ${BLOCK_PATH}/elixir git@github.com:imma/elixir 132a8653c1c78e550bdd921d24dff904ec374be9 master
 phoenix ${BLOCK_PATH}/phoenix git@github.com:imma/phoenix 4cb6773ed2a788508663bdaa1c12031e4302626d master
-base ${BLOCK_PATH}/base git@github.com:imma/base 764acf10fc2cb5473bf9cdb1d7ce443dba9460d4 master
+base ${BLOCK_PATH}/base git@github.com:imma/base 7cc51b1257e745ca2993d349d19feb4916f42111 master
