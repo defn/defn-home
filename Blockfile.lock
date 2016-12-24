@@ -1,6 +1,6 @@
 defn/defn-config ${BLOCK_PATH}/defn-config git@github.com:defn/defn-config e7dd36dd89cc9968e7960012b49bde8ebe1f3cce master
 pkgsrc ${BLOCK_PATH}/pkgsrc git@github.com:imma/pkgsrc 75574ca6a3a795d6ee88033e3949a165a64d3026 master
-jq ${BLOCK_PATH}/jq git@github.com:imma/jq 1f49dde67cbed5afd06d5753b6a9392d62026057 master
+jq ${BLOCK_PATH}/jq git@github.com:imma/jq abd12675519b43c7e3abdec40860576240c1f2cb master
 build-essential ${BLOCK_PATH}/build-essential git@github.com:imma/build-essential 699d32f951832693f5b6c9611ac8bd8b33a658a6 master
 cache ${BLOCK_PATH}/cache git@github.com:imma/cache 57eafce2f149c54cbc3387809f64cbb813f78627 master
 curl ${BLOCK_PATH}/curl git@github.com:imma/curl 22f2493e53d15bac4aac2c079f00d1b270fe3224 master
@@ -14,7 +14,7 @@ go ${BLOCK_PATH}/go git@github.com:imma/go 8f74ea2f98dabb851b1a4a7ce623e3ed63cd4
 homebrew ${BLOCK_PATH}/homebrew git@github.com:imma/homebrew 7dca75347f27df4ffcec95f97bf9fabca2979526 master
 sbcl ${BLOCK_PATH}/sbcl git@github.com:imma/sbcl 964fac2b1dcca83a43c70012de878074cad3012b master
 maven ${BLOCK_PATH}/maven git@github.com:imma/maven b14fdd1d57b691aa6c23a5df70d98667af55a1e1 master
-leiningen ${BLOCK_PATH}/leiningen git@github.com:imma/leiningen dccbc45525e5a002e112658b54211a79595bbecc master
+leiningen ${BLOCK_PATH}/leiningen git@github.com:imma/leiningen 9d5a88e8bd330f18965892fbfece456c6985a82d master
 cljs ${BLOCK_PATH}/cljs git@github.com:imma/cljs 4ec286baebb71bc51dad9c4bc0410820fbe296ce master
 defn/defn-lang ${BLOCK_PATH}/defn-lang git@github.com:defn/defn-lang b5d2db00348885c8d6880db5e05a4823b5373bfb master
 block-home ${BLOCK_PATH}/block-home git@github.com:imma/block-home 3904d86c7f9aa9fbcc25f09215f547ac8bbd2eee master
@@ -57,11 +57,11 @@ cloud ${BLOCK_PATH}/cloud git@github.com:imma/cloud a8b25459733a950cc5e01228b8fc
 docker-compose ${BLOCK_PATH}/docker-compose git@github.com:imma/docker-compose 062eebdf51fd21d2cdcd8ae82b39eee1d4b486db master
 docker ${BLOCK_PATH}/docker git@github.com:imma/docker 7c967b4c336d05379fb60675f5acf89aafc5a531 master
 lxc ${BLOCK_PATH}/lxc git@github.com:imma/lxc e9669633e952ed098b82a4089bb4725023a4bce7 master
-nexus ${BLOCK_PATH}/nexus git@github.com:imma/nexus 283af22310b1cae93f01c3eb9922cf6d7b44fd6c master
+nexus ${BLOCK_PATH}/nexus git@github.com:imma/nexus 1be894494516b5c5287ccdf933d3d607fa129905 master
 packer ${BLOCK_PATH}/packer git@github.com:imma/packer 9356e9a78cbc1b3094dc92dcef746923d82e89f0 master
 provision ${BLOCK_PATH}/provision git@github.com:imma/provision 04b72317ec5acc9ef488018bd3c5b1e2aefbbd8b master
 dream ${BLOCK_PATH}/dream git@github.com:imma/dream b8d79cd5809914181750cca06468dea7e97ee227 master
-base ${BLOCK_PATH}/base git@github.com:imma/base bf37759c4c1b86cad11dec2a770c3f58ecedd1a1 master
+base ${BLOCK_PATH}/base git@github.com:imma/base d900011834b07a9b8c2668e7cbe97c525d4075a6 master
 squid ${BLOCK_PATH}/squid git@github.com:imma/squid 8605594a5f9f17d114240c0eb3d34716eda9b773 master
 aptly ${BLOCK_PATH}/aptly git@github.com:imma/aptly fefa8846a316ec493fff2a9484e2ad9f663e8ebf master
 artifacts ${BLOCK_PATH}/artifacts git@github.com:imma/artifacts 37297b68bb8b06de46ebb3e92176b06eec36146c master
