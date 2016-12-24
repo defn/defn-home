@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-function home_cibuild {
+function main {
   local shome="$(cd -P -- "${BASH_SOURCE%/*}/.." && pwd -P)"
 
   mkdir -p "$shome/work"
@@ -21,8 +21,6 @@ function home_cibuild {
 
   "$shome/work/block/script/cibuild" "$@"
   require
-
-  facts cache
 }
 
-home_cibuild "$@"
+main "$@"
