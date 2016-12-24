@@ -7,9 +7,9 @@ context ${BLOCK_PATH}/context git@github.com:imma/context a18ab2e5d9764c406272ef
 parity ${BLOCK_PATH}/parity git@github.com:imma/parity 932ae42c1975401fa8f2df8e1d9b77ce1ad90775 master
 docker-compose ${BLOCK_PATH}/docker-compose git@github.com:imma/docker-compose 062eebdf51fd21d2cdcd8ae82b39eee1d4b486db master
 docker ${BLOCK_PATH}/docker git@github.com:imma/docker ed0f9a02100f52a0e7ec0dd63923b2c1f2013b0c master
-base ${BLOCK_PATH}/base git@github.com:imma/base db24bd5aaca8f8c0d4332317498fe325699fcaa7 master
+base ${BLOCK_PATH}/base git@github.com:imma/base 8821cfa9f8830c1727b82a210eb75fac8207df52 master
 squid ${BLOCK_PATH}/squid git@github.com:imma/squid d650ac17ed69425959ebbbd7e08a8e15e86775d1 master
-nexus ${BLOCK_PATH}/nexus git@github.com:imma/nexus d6fbca05e3a4f207e527e398d8797d50141034b5 master
+nexus ${BLOCK_PATH}/nexus git@github.com:imma/nexus a4de5818bcd18d7c41cdf168e0a9555b6153e7cd master
 proxy ${BLOCK_PATH}/proxy git@github.com:imma/proxy 7d090710347040f372b443107a1e88e92e20067f master
 python ${BLOCK_PATH}/python git@github.com:imma/python 51bcf84cc05fc3311e393577bc7ef1c6d3ddcaa0 master
 nodeenv ${BLOCK_PATH}/nodeenv git@github.com:imma/nodeenv 29401e313bca9abf28a83e1dcf0174b95488bcd0 master
