@@ -10,7 +10,7 @@ node ${BLOCK_PATH}/node git@github.com:imma/node 70ae3c41050eb45c7740b7401bd6036
 ruby ${BLOCK_PATH}/ruby git@github.com:imma/ruby de9c122dd6685ee1f37c4fd7500eccf881066c07 master
 java ${BLOCK_PATH}/java git@github.com:imma/java 5a6e9294fc1e3f432c7e8accf87d49037a4c54dd master
 bash4 ${BLOCK_PATH}/bash4 git@github.com:imma/bash4 00cb2c6e43902ccc4ff92ae6ee06e0f46ee14908 master
-go ${BLOCK_PATH}/go git@github.com:imma/go 8f74ea2f98dabb851b1a4a7ce623e3ed63cd4a96 master
+go ${BLOCK_PATH}/go git@github.com:imma/go 35b995a068d646688cbc1481653456f1835460a5 master
 homebrew ${BLOCK_PATH}/homebrew git@github.com:imma/homebrew 7dca75347f27df4ffcec95f97bf9fabca2979526 master
 sbcl ${BLOCK_PATH}/sbcl git@github.com:imma/sbcl 964fac2b1dcca83a43c70012de878074cad3012b master
 maven ${BLOCK_PATH}/maven git@github.com:imma/maven b14fdd1d57b691aa6c23a5df70d98667af55a1e1 master
