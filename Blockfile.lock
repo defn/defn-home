@@ -1,10 +1,10 @@
 defn/defn-config ${BLOCK_PATH}/defn-config git@github.com:defn/defn-config e7dd36dd89cc9968e7960012b49bde8ebe1f3cce master
 pkgsrc ${BLOCK_PATH}/pkgsrc git@github.com:imma/pkgsrc 75574ca6a3a795d6ee88033e3949a165a64d3026 master
-python ${BLOCK_PATH}/python git@github.com:imma/python 65f1d1adb73014daf1b4c9c55816ffd7c8c43651 master
-jq ${BLOCK_PATH}/jq git@github.com:imma/jq 0e4f0943d6d268957bd73312456ba1ec5a8625b4 master
+jq ${BLOCK_PATH}/jq git@github.com:imma/jq 1f49dde67cbed5afd06d5753b6a9392d62026057 master
 build-essential ${BLOCK_PATH}/build-essential git@github.com:imma/build-essential 699d32f951832693f5b6c9611ac8bd8b33a658a6 master
 cache ${BLOCK_PATH}/cache git@github.com:imma/cache 57eafce2f149c54cbc3387809f64cbb813f78627 master
 curl ${BLOCK_PATH}/curl git@github.com:imma/curl 22f2493e53d15bac4aac2c079f00d1b270fe3224 master
+python ${BLOCK_PATH}/python git@github.com:imma/python 65f1d1adb73014daf1b4c9c55816ffd7c8c43651 master
 nodeenv ${BLOCK_PATH}/nodeenv git@github.com:imma/nodeenv 29401e313bca9abf28a83e1dcf0174b95488bcd0 master
 node ${BLOCK_PATH}/node git@github.com:imma/node 70ae3c41050eb45c7740b7401bd60369513c9720 master
 ruby ${BLOCK_PATH}/ruby git@github.com:imma/ruby de9c122dd6685ee1f37c4fd7500eccf881066c07 master
