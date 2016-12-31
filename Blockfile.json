@@ -60,6 +60,7 @@
     "nomad",
     "phoenix",
     "cljs",
+    "lxd-docker",
     "base"
   ],
   "run": {
