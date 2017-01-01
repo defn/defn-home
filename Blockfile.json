@@ -2,8 +2,6 @@
   "require": [
     "defn/defn-config",
     "defn/defn-lang",
-    "block-home",
-    "pl-home",
     [
       "block",
       "cache",
@@ -30,30 +28,9 @@
       "github",
       "facts"
     ],
-    [
-      "cloud",
-      "inception"
-    ],
-    [
-      "poop",
-      "lamda"
-    ],
-    [
-      "defn/it",
-      "defn/defn.github.io"
-    ],
-    [
-      "irssi"
-    ],
     "security",
     "inspect",
     "console",
-    "openvpn",
-    "dnsmasq",
-    "virtualbox",
-    "rethinkdb",
-    "rundeck",
-    "lxd-docker",
     "base"
   ],
   "run": {
