@@ -87,6 +87,7 @@ authorized_keys
 
 # bash
 /.bash_sessions
+/.profile
 
 # vim
 *.swp
