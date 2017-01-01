@@ -46,6 +46,7 @@ deploy ${BLOCK_PATH}/deploy git@github.com:imma/deploy 46caf9ee1f168f5244759bbaf
 context ${BLOCK_PATH}/context git@github.com:imma/context a18ab2e5d9764c406272efd228b3a37fd6d1ebbc master
 github ${BLOCK_PATH}/github git@github.com:imma/github 7ee26bdcaea6e5a90be9b7fb674ab7439231588c master
 facts ${BLOCK_PATH}/facts git@github.com:imma/facts 5a53640c7390b7ba31be96e46b4205ea14c10566 master
+service ${BLOCK_PATH}/service git@github.com:imma/service fdad927cf53e80937eecb3aefadc9291a05a1326 master
 git-crypt ${BLOCK_PATH}/git-crypt git@github.com:imma/git-crypt 63bb8998cd0ef2e0e4ffd4aab2278f56caadf6ec master
 gpg ${BLOCK_PATH}/gpg git@github.com:imma/gpg 353af726778bc7c5d1e1a2920b5dc84eecbcb8b3 master
 ssh-agent ${BLOCK_PATH}/ssh-agent git@github.com:imma/ssh-agent 88798c4ad32b3f1621ae5af4af2df6326ffd183b master

@@ -26,7 +26,8 @@
       "deploy",
       "context",
       "github",
-      "facts"
+      "facts",
+      "service"
     ],
     "security",
     "inspect",
