@@ -4,4 +4,20 @@
 # | (_| | (_) | (__|   <  __/ |   
 #  \__,_|\___/ \___|_|\_\___|_|   
                                 
-FROM 172.28.128.1:5000/block:defnhome
+FROM 172.28.128.1:5000/block:defn-home
+
+USER root
+
+ARG SERIAL
+
+RUN aptitude update && aptitude upgrade -y && echo ${SERIAL}
+
+USER ubuntu
+
+SHELL [ "/bin/bash", "-c" ]
+
+WORKDIR /home/ubuntu
+
+RUN cd && source .bashrc && block compile service && ln -nfs ../sv/sshd service/
+
+ENTRYPOINT exec script/server

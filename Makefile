@@ -1,13 +1,5 @@
 SHELL = bash
 
-ifeq (block,$(firstword $(MAKECMDGOALS)))
-BLOCKS := $(wordlist 2,$(words $(MAKECMDGOALS)),$(MAKECMDGOALS))
-$(eval $(BLOCKS):;@:)
-endif
-
-block:
-	@echo "$(BLOCKS)"
-
 all:
 	@rm -f .bashrc.cache
 	@script/cibuild ~
@@ -27,5 +19,8 @@ deps:
 
 include ../base/Makefile.docker
 
-docker:
-	$(MAKE) home=defnhome home
+docker-image:
+	time $(MAKE) home=defn-home home
+
+docker-update:
+	time $(MAKE) home=defn-home clean daemon image-update
