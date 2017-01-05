@@ -9,19 +9,19 @@
       "bash-oo-framework"
     ],
     [
+      "defn",
       "defn/defn-osx",
       "junas",
-      "cue"
+      "cue",
+      "block-shortcuts"
     ],
     [
-      "docs",
       "scripts-to-rule-them-all",
-      "block-shortcuts",
+      "docs",
       "board",
       "kit"
     ],
     [ 
-      "defn",
       "runmany",
       "deploy",
       "context",
