@@ -20,7 +20,6 @@
 /.ssh-agent*
 /.subversion/
 /.viminfo
-authorized_keys
 
 # osx
 /.CFUserTextEncoding
