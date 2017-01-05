@@ -239,3 +239,6 @@ cibuild-*.log
 /.py*
 
 /Google*
+
+# tmux/tmate
+.tmate.conf
