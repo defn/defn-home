@@ -1,8 +1,8 @@
 {
   "require": [
+    "ubuntu-home",
     "defn/defn-config",
     "defn/defn-lang",
-    "ubuntu-home",
     [ "block", "cache", "normalize", "bash-oo-framework" ],
     [ "defn", "defn/defn-osx", "junas", "cue", "block-shortcuts" ],
     [ "scripts-to-rule-them-all", "docs", "board", "kit" ],

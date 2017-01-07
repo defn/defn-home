@@ -3,8 +3,6 @@
 function _defn_home_profile {
   local shome="${_defn_home_home:-"$(cd -P -- "${BASH_SOURCE%/*}/.." && pwd -P)"}"
   PATH="$shome/bin:$shome/exec:$PATH"
-
-  export SVDIR="$shome/service"
 }
 
 _defn_home_profile
