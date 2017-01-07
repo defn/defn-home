@@ -1,3 +1,4 @@
+defn/defn-config ${BLOCK_PATH}/defn-config git@github.com:defn/defn-config a1ed56d6879e4882cd3f6679fdd143d5e5c22215 master
 shflags ${BLOCK_PATH}/shflags git@github.com:imma/shflags 9eb940b600afcc6d2507aa519db7640f9c6c686e master
 normalize ${BLOCK_PATH}/normalize git@github.com:imma/normalize b156ba1ec79f2da218d463c9b86f4192bcbeab54 master
 bash-preexec ${BLOCK_PATH}/bash-preexec git@github.com:imma/bash-preexec 15618152d6ec511810e68d7b70b4ea5046cbeddd master
@@ -29,7 +30,7 @@ aqq ${BLOCK_PATH}/aqq git@github.com:imma/aqq 5fcbd9a9594684346c79d0f20099db59f1
 inventory ${BLOCK_PATH}/inventory git@github.com:imma/inventory f0051943d96eb44e299c003356ef1020f8906607 master
 deploy ${BLOCK_PATH}/deploy git@github.com:imma/deploy 68dc3d8aa9ce6ac35e17628790bea07bc270b789 master
 nodeenv ${BLOCK_PATH}/nodeenv git@github.com:imma/nodeenv 29401e313bca9abf28a83e1dcf0174b95488bcd0 master
-node ${BLOCK_PATH}/node git@github.com:imma/node 4015f5e478d6ac2a737b0dc4b6e53752941de405 master
+node ${BLOCK_PATH}/node git@github.com:imma/node ed8012afbd1e7201692e7d55b8d42b2a4a364748 master
 aws ${BLOCK_PATH}/aws git@github.com:imma/aws 64f0bc925c4f0d75aa8ddb749948d771c091ee48 master
 awesome ${BLOCK_PATH}/awesome git@github.com:imma/awesome 2eb9a1a3446d778d745150ca93b9689d18cb5f2d master
 java ${BLOCK_PATH}/java git@github.com:imma/java 5a6e9294fc1e3f432c7e8accf87d49037a4c54dd master
@@ -41,8 +42,7 @@ junas ${BLOCK_PATH}/junas git@github.com:imma/junas 5ca609a5f33cb84093a1dae4ee15
 cue ${BLOCK_PATH}/cue git@github.com:imma/cue 36543eac165edc2577ee98b19ea82a9aae66803f master
 defn ${BLOCK_PATH}/defn git@github.com:imma/defn 1e0ebae36a42789f5049527c3e18982ed5401245 master
 ubuntu-home ${BLOCK_PATH}/ubuntu-home git@github.com:imma/ubuntu-home 98565ddc88c3238f29263043b1872ceabb08be06 master
-defn/defn-config ${BLOCK_PATH}/defn-config git@github.com:defn/defn-config a1ed56d6879e4882cd3f6679fdd143d5e5c22215 master
-defn/defn-lang ${BLOCK_PATH}/defn-lang git@github.com:defn/defn-lang d65b2bf9b4d86a60a37fd05deb3c3c6f1155c45f master
+app ${BLOCK_PATH}/app git@github.com:imma/app 9e1d257e18a9c7d9640690fc10b749ec479a07dd master
 bash-oo-framework ${BLOCK_PATH}/bash-oo-framework git@github.com:imma/bash-oo-framework 75447ff7fcb7c032bd5bf3754659b0a81c401873 master
 homebrew ${BLOCK_PATH}/homebrew git@github.com:imma/homebrew 7dca75347f27df4ffcec95f97bf9fabca2979526 master
 xcode ${BLOCK_PATH}/xcode git@github.com:imma/xcode cd456ae6d715f46ca723cad8258f1c1181c04a5c master
