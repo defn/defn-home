@@ -10,9 +10,5 @@
     "inspect",
     "console",
     "base"
-  ],
-  "run": {
-    "squid": {},
-    "nexus": {}
-  }
+  ]
 }
