@@ -14,14 +14,14 @@ $CPAN::Config = {
   'connect_to_internet_ok' => q[1],
   'cpan_home' => qq[$ENV{HOME}/.cpan],
   'ftp_passive' => q[1],
-  'ftp_proxy' => q[http://172.28.128.1:3128],
+  'ftp_proxy' => q[http://cache.nih:3128],
   'getcwd' => q[cwd],
   'gpg' => q[/usr/local/bin/gpg],
   'gzip' => q[/usr/bin/gzip],
   'halt_on_failure' => q[0],
   'histfile' => qq[$ENV{HOME}/.cpan/histfile],
   'histsize' => q[100],
-  'http_proxy' => q[http://172.28.128.1:3128],
+  'http_proxy' => q[http://cache.nih:3128],
   'inactivity_timeout' => q[0],
   'index_expire' => q[1],
   'inhibit_startup_message' => q[0],
@@ -68,4 +68,4 @@ $CPAN::Config = {
   'yaml_module' => q[YAML],
 };
 1;
-__END__
+ND__
