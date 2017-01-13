@@ -241,3 +241,6 @@ cibuild-*.log
 
 # tmux/tmate
 .tmate.conf
+
+# buildkite
+.buildkite/
