@@ -11,4 +11,4 @@ cache:
 	@bash .bashrc
 
 subm:
-	cat Blockfile.lock  | envsubst  | runmany 1 5 'echo git submodule add -f -b $$5 $$3 $${2/$$HOME\//}'
+	cat Blockfile.lock  | envsubst  | runmany 1 5 'git submodule add -f -b $$5 $$3 $${2/$$HOME\//}'

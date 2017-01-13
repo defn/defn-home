@@ -282,3 +282,7 @@
 	path = work/console
 	url = git@github.com:imma/console
 	branch = master
+[submodule "work/sysadmin"]
+	path = work/sysadmin
+	url = git@github.com:imma/sysadmin
+	branch = master
