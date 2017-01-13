@@ -1,284 +1,284 @@
-[submodule "/Users/defn/work/defn-config"]
-	path = /Users/defn/work/defn-config
+[submodule "work/defn-config"]
+	path = work/defn-config
 	url = git@github.com:defn/defn-config
 	branch = master
-[submodule "/Users/defn/work/shflags"]
-	path = /Users/defn/work/shflags
+[submodule "work/shflags"]
+	path = work/shflags
 	url = git@github.com:imma/shflags
 	branch = master
-[submodule "/Users/defn/work/normalize"]
-	path = /Users/defn/work/normalize
+[submodule "work/normalize"]
+	path = work/normalize
 	url = git@github.com:imma/normalize
 	branch = master
-[submodule "/Users/defn/work/bash-preexec"]
-	path = /Users/defn/work/bash-preexec
+[submodule "work/bash-preexec"]
+	path = work/bash-preexec
 	url = git@github.com:imma/bash-preexec
 	branch = master
-[submodule "/Users/defn/work/sub"]
-	path = /Users/defn/work/sub
+[submodule "work/sub"]
+	path = work/sub
 	url = git@github.com:imma/sub
 	branch = master
-[submodule "/Users/defn/work/runmany"]
-	path = /Users/defn/work/runmany
+[submodule "work/runmany"]
+	path = work/runmany
 	url = git@github.com:imma/runmany
 	branch = master
-[submodule "/Users/defn/work/block"]
-	path = /Users/defn/work/block
+[submodule "work/block"]
+	path = work/block
 	url = git@github.com:imma/block
 	branch = master
-[submodule "/Users/defn/work/ubuntu-config"]
-	path = /Users/defn/work/ubuntu-config
+[submodule "work/ubuntu-config"]
+	path = work/ubuntu-config
 	url = git@github.com:imma/ubuntu-config
 	branch = master
-[submodule "/Users/defn/work/context"]
-	path = /Users/defn/work/context
+[submodule "work/context"]
+	path = work/context
 	url = git@github.com:imma/context
 	branch = master
-[submodule "/Users/defn/work/parity"]
-	path = /Users/defn/work/parity
+[submodule "work/parity"]
+	path = work/parity
 	url = git@github.com:imma/parity
 	branch = master
-[submodule "/Users/defn/work/docker"]
-	path = /Users/defn/work/docker
+[submodule "work/docker"]
+	path = work/docker
 	url = git@github.com:imma/docker
 	branch = master
-[submodule "/Users/defn/work/pkgsrc"]
-	path = /Users/defn/work/pkgsrc
+[submodule "work/pkgsrc"]
+	path = work/pkgsrc
 	url = git@github.com:imma/pkgsrc
 	branch = master
-[submodule "/Users/defn/work/jq"]
-	path = /Users/defn/work/jq
+[submodule "work/jq"]
+	path = work/jq
 	url = git@github.com:imma/jq
 	branch = master
-[submodule "/Users/defn/work/build-essential"]
-	path = /Users/defn/work/build-essential
+[submodule "work/build-essential"]
+	path = work/build-essential
 	url = git@github.com:imma/build-essential
 	branch = master
-[submodule "/Users/defn/work/base"]
-	path = /Users/defn/work/base
+[submodule "work/base"]
+	path = work/base
 	url = git@github.com:imma/base
 	branch = master
-[submodule "/Users/defn/work/ruby"]
-	path = /Users/defn/work/ruby
+[submodule "work/ruby"]
+	path = work/ruby
 	url = git@github.com:imma/ruby
 	branch = master
-[submodule "/Users/defn/work/python"]
-	path = /Users/defn/work/python
+[submodule "work/python"]
+	path = work/python
 	url = git@github.com:imma/python
 	branch = master
-[submodule "/Users/defn/work/cache"]
-	path = /Users/defn/work/cache
+[submodule "work/cache"]
+	path = work/cache
 	url = git@github.com:imma/cache
 	branch = master
-[submodule "/Users/defn/work/curl"]
-	path = /Users/defn/work/curl
+[submodule "work/curl"]
+	path = work/curl
 	url = git@github.com:imma/curl
 	branch = master
-[submodule "/Users/defn/work/nodeenv"]
-	path = /Users/defn/work/nodeenv
+[submodule "work/nodeenv"]
+	path = work/nodeenv
 	url = git@github.com:imma/nodeenv
 	branch = master
-[submodule "/Users/defn/work/node"]
-	path = /Users/defn/work/node
+[submodule "work/node"]
+	path = work/node
 	url = git@github.com:imma/node
 	branch = master
-[submodule "/Users/defn/work/java"]
-	path = /Users/defn/work/java
+[submodule "work/java"]
+	path = work/java
 	url = git@github.com:imma/java
 	branch = master
-[submodule "/Users/defn/work/bash4"]
-	path = /Users/defn/work/bash4
+[submodule "work/bash4"]
+	path = work/bash4
 	url = git@github.com:imma/bash4
 	branch = master
-[submodule "/Users/defn/work/rust"]
-	path = /Users/defn/work/rust
+[submodule "work/rust"]
+	path = work/rust
 	url = git@github.com:imma/rust
 	branch = master
-[submodule "/Users/defn/work/go"]
-	path = /Users/defn/work/go
+[submodule "work/go"]
+	path = work/go
 	url = git@github.com:imma/go
 	branch = master
-[submodule "/Users/defn/work/lxd"]
-	path = /Users/defn/work/lxd
+[submodule "work/lxd"]
+	path = work/lxd
 	url = git@github.com:imma/lxd
 	branch = master
-[submodule "/Users/defn/work/kubernetes"]
-	path = /Users/defn/work/kubernetes
+[submodule "work/kubernetes"]
+	path = work/kubernetes
 	url = git@github.com:imma/kubernetes
 	branch = master
-[submodule "/Users/defn/work/homebrew"]
-	path = /Users/defn/work/homebrew
+[submodule "work/homebrew"]
+	path = work/homebrew
 	url = git@github.com:imma/homebrew
 	branch = master
-[submodule "/Users/defn/work/runit"]
-	path = /Users/defn/work/runit
+[submodule "work/runit"]
+	path = work/runit
 	url = git@github.com:imma/runit
 	branch = master
-[submodule "/Users/defn/work/service"]
-	path = /Users/defn/work/service
+[submodule "work/service"]
+	path = work/service
 	url = git@github.com:imma/service
 	branch = master
-[submodule "/Users/defn/work/sshd"]
-	path = /Users/defn/work/sshd
+[submodule "work/sshd"]
+	path = work/sshd
 	url = git@github.com:imma/sshd
 	branch = master
-[submodule "/Users/defn/work/ansible"]
-	path = /Users/defn/work/ansible
+[submodule "work/ansible"]
+	path = work/ansible
 	url = git@github.com:imma/ansible
 	branch = master
-[submodule "/Users/defn/work/facts"]
-	path = /Users/defn/work/facts
+[submodule "work/facts"]
+	path = work/facts
 	url = git@github.com:imma/facts
 	branch = master
-[submodule "/Users/defn/work/consul"]
-	path = /Users/defn/work/consul
+[submodule "work/consul"]
+	path = work/consul
 	url = git@github.com:imma/consul
 	branch = master
-[submodule "/Users/defn/work/consul-agent"]
-	path = /Users/defn/work/consul-agent
+[submodule "work/consul-agent"]
+	path = work/consul-agent
 	url = git@github.com:imma/consul-agent
 	branch = master
-[submodule "/Users/defn/work/vault"]
-	path = /Users/defn/work/vault
+[submodule "work/vault"]
+	path = work/vault
 	url = git@github.com:imma/vault
 	branch = master
-[submodule "/Users/defn/work/linkerd"]
-	path = /Users/defn/work/linkerd
+[submodule "work/linkerd"]
+	path = work/linkerd
 	url = git@github.com:imma/linkerd
 	branch = master
-[submodule "/Users/defn/work/aq"]
-	path = /Users/defn/work/aq
+[submodule "work/aq"]
+	path = work/aq
 	url = git@github.com:imma/aq
 	branch = master
-[submodule "/Users/defn/work/aqq"]
-	path = /Users/defn/work/aqq
+[submodule "work/aqq"]
+	path = work/aqq
 	url = git@github.com:imma/aqq
 	branch = master
-[submodule "/Users/defn/work/inventory"]
-	path = /Users/defn/work/inventory
+[submodule "work/inventory"]
+	path = work/inventory
 	url = git@github.com:imma/inventory
 	branch = master
-[submodule "/Users/defn/work/deploy"]
-	path = /Users/defn/work/deploy
+[submodule "work/deploy"]
+	path = work/deploy
 	url = git@github.com:imma/deploy
 	branch = master
-[submodule "/Users/defn/work/aws"]
-	path = /Users/defn/work/aws
+[submodule "work/aws"]
+	path = work/aws
 	url = git@github.com:imma/aws
 	branch = master
-[submodule "/Users/defn/work/awesome"]
-	path = /Users/defn/work/awesome
+[submodule "work/awesome"]
+	path = work/awesome
 	url = git@github.com:imma/awesome
 	branch = master
-[submodule "/Users/defn/work/talign"]
-	path = /Users/defn/work/talign
+[submodule "work/talign"]
+	path = work/talign
 	url = git@github.com:imma/talign
 	branch = master
-[submodule "/Users/defn/work/git"]
-	path = /Users/defn/work/git
+[submodule "work/git"]
+	path = work/git
 	url = git@github.com:imma/git
 	branch = master
-[submodule "/Users/defn/work/junas"]
-	path = /Users/defn/work/junas
+[submodule "work/junas"]
+	path = work/junas
 	url = git@github.com:imma/junas
 	branch = master
-[submodule "/Users/defn/work/cue"]
-	path = /Users/defn/work/cue
+[submodule "work/cue"]
+	path = work/cue
 	url = git@github.com:imma/cue
 	branch = master
-[submodule "/Users/defn/work/defn"]
-	path = /Users/defn/work/defn
+[submodule "work/defn"]
+	path = work/defn
 	url = git@github.com:imma/defn
 	branch = master
-[submodule "/Users/defn/work/ubuntu-home"]
-	path = /Users/defn/work/ubuntu-home
+[submodule "work/ubuntu-home"]
+	path = work/ubuntu-home
 	url = git@github.com:imma/ubuntu-home
 	branch = master
-[submodule "/Users/defn/work/app"]
-	path = /Users/defn/work/app
+[submodule "work/app"]
+	path = work/app
 	url = git@github.com:imma/app
 	branch = master
-[submodule "/Users/defn/work/bash-oo-framework"]
-	path = /Users/defn/work/bash-oo-framework
+[submodule "work/bash-oo-framework"]
+	path = work/bash-oo-framework
 	url = git@github.com:imma/bash-oo-framework
 	branch = master
-[submodule "/Users/defn/work/xcode"]
-	path = /Users/defn/work/xcode
+[submodule "work/xcode"]
+	path = work/xcode
 	url = git@github.com:imma/xcode
 	branch = master
-[submodule "/Users/defn/work/tunnelblick"]
-	path = /Users/defn/work/tunnelblick
+[submodule "work/tunnelblick"]
+	path = work/tunnelblick
 	url = git@github.com:imma/tunnelblick
 	branch = master
-[submodule "/Users/defn/work/htop"]
-	path = /Users/defn/work/htop
+[submodule "work/htop"]
+	path = work/htop
 	url = git@github.com:imma/htop
 	branch = master
-[submodule "/Users/defn/work/defn-osx"]
-	path = /Users/defn/work/defn-osx
+[submodule "work/defn-osx"]
+	path = work/defn-osx
 	url = git@github.com:defn/defn-osx
 	branch = master
-[submodule "/Users/defn/work/block-shortcuts"]
-	path = /Users/defn/work/block-shortcuts
+[submodule "work/block-shortcuts"]
+	path = work/block-shortcuts
 	url = git@github.com:imma/block-shortcuts
 	branch = master
-[submodule "/Users/defn/work/scripts-to-rule-them-all"]
-	path = /Users/defn/work/scripts-to-rule-them-all
+[submodule "work/scripts-to-rule-them-all"]
+	path = work/scripts-to-rule-them-all
 	url = git@github.com:imma/scripts-to-rule-them-all
 	branch = master
-[submodule "/Users/defn/work/hugo"]
-	path = /Users/defn/work/hugo
+[submodule "work/hugo"]
+	path = work/hugo
 	url = git@github.com:imma/hugo
 	branch = master
-[submodule "/Users/defn/work/slate"]
-	path = /Users/defn/work/slate
+[submodule "work/slate"]
+	path = work/slate
 	url = git@github.com:imma/slate
 	branch = master
-[submodule "/Users/defn/work/docs"]
-	path = /Users/defn/work/docs
+[submodule "work/docs"]
+	path = work/docs
 	url = git@github.com:imma/docs
 	branch = master
-[submodule "/Users/defn/work/board"]
-	path = /Users/defn/work/board
+[submodule "work/board"]
+	path = work/board
 	url = git@github.com:imma/board
 	branch = master
-[submodule "/Users/defn/work/kit"]
-	path = /Users/defn/work/kit
+[submodule "work/kit"]
+	path = work/kit
 	url = git@github.com:imma/kit
 	branch = master
-[submodule "/Users/defn/work/github"]
-	path = /Users/defn/work/github
+[submodule "work/github"]
+	path = work/github
 	url = git@github.com:imma/github
 	branch = master
-[submodule "/Users/defn/work/git-crypt"]
-	path = /Users/defn/work/git-crypt
+[submodule "work/git-crypt"]
+	path = work/git-crypt
 	url = git@github.com:imma/git-crypt
 	branch = master
-[submodule "/Users/defn/work/gpg"]
-	path = /Users/defn/work/gpg
+[submodule "work/gpg"]
+	path = work/gpg
 	url = git@github.com:imma/gpg
 	branch = master
-[submodule "/Users/defn/work/ssh-agent"]
-	path = /Users/defn/work/ssh-agent
+[submodule "work/ssh-agent"]
+	path = work/ssh-agent
 	url = git@github.com:imma/ssh-agent
 	branch = master
-[submodule "/Users/defn/work/letsencrypt"]
-	path = /Users/defn/work/letsencrypt
+[submodule "work/letsencrypt"]
+	path = work/letsencrypt
 	url = git@github.com:imma/letsencrypt
 	branch = master
-[submodule "/Users/defn/work/lock"]
-	path = /Users/defn/work/lock
+[submodule "work/lock"]
+	path = work/lock
 	url = git@github.com:imma/lock
 	branch = master
-[submodule "/Users/defn/work/security"]
-	path = /Users/defn/work/security
+[submodule "work/security"]
+	path = work/security
 	url = git@github.com:imma/security
 	branch = master
-[submodule "/Users/defn/work/inspect"]
-	path = /Users/defn/work/inspect
+[submodule "work/inspect"]
+	path = work/inspect
 	url = git@github.com:imma/inspect
 	branch = master
-[submodule "/Users/defn/work/console"]
-	path = /Users/defn/work/console
+[submodule "work/console"]
+	path = work/console
 	url = git@github.com:imma/console
 	branch = master
