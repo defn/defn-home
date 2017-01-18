@@ -194,10 +194,6 @@
 	path = work/ubuntu-home
 	url = git@github.com:imma/ubuntu-home
 	branch = master
-[submodule "work/app"]
-	path = work/app
-	url = git@github.com:imma/app
-	branch = master
 [submodule "work/bash-oo-framework"]
 	path = work/bash-oo-framework
 	url = git@github.com:imma/bash-oo-framework
