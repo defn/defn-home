@@ -282,3 +282,15 @@
 	path = work/sysadmin
 	url = git@github.com:imma/sysadmin
 	branch = master
+[submodule "work/docker-compose"]
+	path = work/docker-compose
+	url = git@github.com:imma/docker-compose
+	branch = master
+[submodule "work/buildkite"]
+	path = work/buildkite
+	url = git@github.com:imma/buildkite
+	branch = master
+[submodule "work/admin"]
+	path = work/admin
+	url = git@github.com:imma/admin
+	branch = master

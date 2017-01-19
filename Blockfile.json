@@ -1,6 +1,6 @@
 {
   "require": [
-    [ "defn/defn-config", "ubuntu-home", "cache", "base" ],
+    [ "defn/defn-config", "ubuntu-home", "cache", "admin", "base" ],
     [ "defn", "defn/defn-osx", "junas", "cue", "block-shortcuts" ],
     [ "scripts-to-rule-them-all", "board", "kit", "context" ],
     [ "runmany", "github", "facts", "docs", "service", "deploy" ],
