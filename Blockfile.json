@@ -4,6 +4,7 @@
     [ "defn", "defn/defn-osx", "junas", "cue", "block-shortcuts" ],
     [ "scripts-to-rule-them-all", "board", "kit", "context" ],
     [ "runmany", "github", "facts", "docs", "service", "deploy" ],
-    [ "security", "inspect", "console" ]
+    [ "security", "inspect", "console" ],
+    [ "t" ]
   ]
 }
