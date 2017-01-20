@@ -294,3 +294,7 @@
 	path = work/admin
 	url = git@github.com:imma/admin
 	branch = master
+[submodule "work/t"]
+	path = work/t
+	url = git@github.com:imma/t
+	branch = master
