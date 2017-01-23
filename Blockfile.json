@@ -1,14 +1,10 @@
 {
   "require": [
-    "defn/defn-config",
-    [ "ubuntu-home", "app" ],
-    [ "block", "cache", "normalize", "bash-oo-framework" ],
+    [ "defn/defn-config", "ubuntu-home", "cache", "admin", "base" ],
     [ "defn", "defn/defn-osx", "junas", "cue", "block-shortcuts" ],
-    [ "scripts-to-rule-them-all", "docs", "board", "kit" ],
-    [ "runmany", "deploy", "context", "github", "facts", "service" ],
-    "security",
-    "inspect",
-    "console",
-    "base"
+    [ "scripts-to-rule-them-all", "board", "kit", "context" ],
+    [ "runmany", "github", "facts", "docs", "service", "deploy" ],
+    [ "security", "inspect", "console" ],
+    [ "t" ]
   ]
 }
