@@ -244,3 +244,7 @@ cibuild-*.log
 
 # buildkite
 .buildkite/
+
+# aq
+/.aq
+/*.json
