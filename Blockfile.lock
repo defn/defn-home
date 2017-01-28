@@ -50,7 +50,7 @@ ubuntu-home ${BLOCK_PATH}/ubuntu-home git@github.com:imma/ubuntu-home 8ad3e7729f
 admin ${BLOCK_PATH}/admin git@github.com:imma/admin 0fdcc4e349da877e4962ffb22d8c94d79d3d5601 master
 xcode ${BLOCK_PATH}/xcode git@github.com:imma/xcode cd456ae6d715f46ca723cad8258f1c1181c04a5c master
 tunnelblick ${BLOCK_PATH}/tunnelblick git@github.com:imma/tunnelblick 07bea26e332c61a063c3ba8db71946059ba319d3 master
-go ${BLOCK_PATH}/go git@github.com:imma/go 8c1971315b6d696c44ab5ac321f24adbfa2dd16a master
+go ${BLOCK_PATH}/go git@github.com:imma/go 7bb0225b2c288857c2a2e403de55ab6b0ce53413 master
 rust ${BLOCK_PATH}/rust git@github.com:imma/rust d49de9fc2473981c5fff5f30fb59fc37764fddac master
 defn/defn-osx ${BLOCK_PATH}/defn-osx git@github.com:defn/defn-osx abedb79ce14fa78927424dc6b8e29e499e57be32 master
 git ${BLOCK_PATH}/git git@github.com:imma/git 4463fb5ca1bca4d05995141dd481a3412f261753 master
