@@ -46,7 +46,7 @@ cue ${BLOCK_PATH}/cue git@github.com:imma/cue 36543eac165edc2577ee98b19ea82a9aae
 defn ${BLOCK_PATH}/defn git@github.com:imma/defn ba48835dabee093d9a5a7c3c84130d9765673d89 master
 htop ${BLOCK_PATH}/htop git@github.com:imma/htop 36918cf01b385f47ed1e857d5139a27dc9b1366c master
 sysadmin ${BLOCK_PATH}/sysadmin git@github.com:imma/sysadmin cfc052403067028f9ae4e2c152d5a451327a4097 master
-ubuntu-home ${BLOCK_PATH}/ubuntu-home git@github.com:imma/ubuntu-home 8ad3e7729f602ba8abc31d2cd7e086332b138046 master
+ubuntu-home ${BLOCK_PATH}/ubuntu-home git@github.com:imma/ubuntu-home e99cc69d0da2701a7fd3d66fb48e2d995019bc71 master
 admin ${BLOCK_PATH}/admin git@github.com:imma/admin d2e3cbe83f50cf2bc8ffcd0525a53b910f6a320a master
 xcode ${BLOCK_PATH}/xcode git@github.com:imma/xcode cd456ae6d715f46ca723cad8258f1c1181c04a5c master
 tunnelblick ${BLOCK_PATH}/tunnelblick git@github.com:imma/tunnelblick 07bea26e332c61a063c3ba8db71946059ba319d3 master
