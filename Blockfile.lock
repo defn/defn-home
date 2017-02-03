@@ -16,7 +16,7 @@ context ${BLOCK_PATH}/context git@github.com:imma/context a18ab2e5d9764c406272ef
 parity ${BLOCK_PATH}/parity git@github.com:imma/parity 932ae42c1975401fa8f2df8e1d9b77ce1ad90775 master
 docker-compose ${BLOCK_PATH}/docker-compose git@github.com:imma/docker-compose 7c89d86c8dd9017a552712e32aece1d01c95d006 master
 docker ${BLOCK_PATH}/docker git@github.com:imma/docker b219e4a5fa10a3b873eb0ad186255e4b5cd520aa master
-base ${BLOCK_PATH}/base git@github.com:imma/base 229aa1815364f98095fe813db9adc3fd76054f25 master
+base ${BLOCK_PATH}/base git@github.com:imma/base 79beec37003e61bce51bd4a27d3ab3906dc2675f master
 python ${BLOCK_PATH}/python git@github.com:imma/python 7943cb052605449248d0ec5b50bc9855f48df89e master
 cache ${BLOCK_PATH}/cache git@github.com:imma/cache d6bd2d193603f086d7710b30943316da799bf39b master
 curl ${BLOCK_PATH}/curl git@github.com:imma/curl a2a155263a40fa2e5f7efc387e0878dcbb755d57 master
@@ -50,7 +50,7 @@ git ${BLOCK_PATH}/git git@github.com:imma/git 79e93f829f86ffc3d1bd785e31154c7788
 junas ${BLOCK_PATH}/junas git@github.com:imma/junas 72e2e4ad8d0778a262b1b15fbec7c04a3bed0f42 master
 ubuntu-home ${BLOCK_PATH}/ubuntu-home git@github.com:imma/ubuntu-home b1ef025e0d48291673d5e1f76664b16cf1b97cb4 master
 nginx ${BLOCK_PATH}/nginx git@github.com:imma/nginx 0000c849bcf9370f40dea00a91dfbf1dc01c7a8d master
-admin ${BLOCK_PATH}/admin git@github.com:imma/admin e940bcefda6625ac4380eb5238bb32a549545dea master
+admin ${BLOCK_PATH}/admin git@github.com:imma/admin 2596bef3149257642b8383ad51f064059663974f master
 xcode ${BLOCK_PATH}/xcode git@github.com:imma/xcode cd456ae6d715f46ca723cad8258f1c1181c04a5c master
 tunnelblick ${BLOCK_PATH}/tunnelblick git@github.com:imma/tunnelblick 07bea26e332c61a063c3ba8db71946059ba319d3 master
 go ${BLOCK_PATH}/go git@github.com:imma/go 7bb0225b2c288857c2a2e403de55ab6b0ce53413 master
