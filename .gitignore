@@ -67,6 +67,7 @@
 # git
 /github
 /.config/hub
+/.githubrc
 
 # elixir
 /.hex/
