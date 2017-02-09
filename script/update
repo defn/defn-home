@@ -1,10 +1,11 @@
 #!/usr/bin/env bash
 
-function home_update {
+function main {
   local shome="$(cd -P -- "${BASH_SOURCE%/*}/.." && pwd -P)"
   source "$shome/script/profile"
 
   block compile service
+  sudo ifconfig lo0 alias 172.28.128.250
 }
 
-home_update "$@"
+main "$@"
