@@ -190,10 +190,6 @@
 	path = work/defn
 	url = git@github.com:imma/defn
 	branch = master
-[submodule "work/ubuntu-home"]
-	path = work/ubuntu-home
-	url = git@github.com:imma/ubuntu-home
-	branch = master
 [submodule "work/bash-oo-framework"]
 	path = work/bash-oo-framework
 	url = git@github.com:imma/bash-oo-framework
@@ -345,4 +341,8 @@
 [submodule "work/nginx"]
 	path = work/nginx
 	url = git@github.com:imma/nginx
+	branch = master
+[submodule "work/ubuntu"]
+	path = work/ubuntu
+	url = git@github.com:imma/ubuntu
 	branch = master
