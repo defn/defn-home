@@ -6,6 +6,7 @@ function main {
 
   block compile service
   sudo ifconfig lo0 alias 172.28.128.250
+  VBoxManage hostonlyif ipconfig vboxnet0 --ip 172.28.128.1
 }
 
 main "$@"
