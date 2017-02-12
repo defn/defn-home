@@ -346,3 +346,7 @@
 	path = work/ubuntu
 	url = git@github.com:imma/ubuntu
 	branch = master
+[submodule "work/confd"]
+	path = work/confd
+	url = git@github.com:imma/confd
+	branch = master
