@@ -6,6 +6,6 @@
     [ "runmany", "github", "facts", "docs", "service", "deploy" ],
     [ "security", "inspect", "console" ],
     [ "t" ],
-    [ "inception", "imma-org" ]
+    [ "inception", "imma-org", "virtualbox" ]
   ]
 }
