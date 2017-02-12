@@ -350,3 +350,7 @@
 	path = work/confd
 	url = git@github.com:imma/confd
 	branch = master
+[submodule "work/virtualbox"]
+	path = work/virtualbox
+	url = git@github.com:imma/virtualbox
+	branch = master
