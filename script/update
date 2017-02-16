@@ -5,7 +5,7 @@ function main {
   source "$shome/script/profile"
 
   block compile service
-  sudo ifconfig lo0 alias 172.28.28.1
+  VBoxManager hostonlyif ipconfig vboxnet0 --ip 172.28.128.1
 }
 
 main "$@"
