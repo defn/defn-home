@@ -5,7 +5,7 @@ function main {
   source "$shome/script/profile"
 
   block compile service
-  VBoxManager hostonlyif ipconfig vboxnet0 --ip 172.28.128.1
+  VBoxManage hostonlyif ipconfig vboxnet0 --ip 172.28.128.1
 }
 
 main "$@"
