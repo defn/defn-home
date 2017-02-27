@@ -354,3 +354,27 @@
 	path = work/virtualbox
 	url = git@github.com:imma/virtualbox
 	branch = master
+[submodule "work/etcd"]
+	path = work/etcd
+	url = git@github.com:imma/etcd
+	branch = master
+[submodule "work/flannel"]
+	path = work/flannel
+	url = git@github.com:imma/flannel
+	branch = master
+[submodule "work/nexus"]
+	path = work/nexus
+	url = git@github.com:imma/nexus
+	branch = master
+[submodule "work/gogs"]
+	path = work/gogs
+	url = git@github.com:imma/gogs
+	branch = master
+[submodule "work/irssi"]
+	path = work/irssi
+	url = git@github.com:imma/irssi
+	branch = master
+[submodule "work/app"]
+	path = work/app
+	url = git@github.com:imma/app
+	branch = master
