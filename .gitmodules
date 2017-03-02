@@ -222,6 +222,10 @@
 	path = work/hugo
 	url = git@github.com:imma/hugo
 	branch = master
+[submodule "work/hugo-material-docs"]
+	path = work/hugo-material-docs
+	url = git@github.com:imma/hugo-material-docs
+	branch = master
 [submodule "work/slate"]
 	path = work/slate
 	url = git@github.com:imma/slate
