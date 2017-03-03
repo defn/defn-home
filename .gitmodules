@@ -382,3 +382,7 @@
 	path = work/app
 	url = git@github.com:imma/app
 	branch = master
+[submodule "work/site"]
+	path = work/site
+	url = git@github.com:imma/site
+	branch = master
