@@ -90,10 +90,6 @@
 	path = work/bash4
 	url = git@github.com:imma/bash4
 	branch = master
-[submodule "work/rust"]
-	path = work/rust
-	url = git@github.com:imma/rust
-	branch = master
 [submodule "work/go"]
 	path = work/go
 	url = git@github.com:imma/go
