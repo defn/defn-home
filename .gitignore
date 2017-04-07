@@ -196,6 +196,7 @@
 
 # homebrew
 /.homebrew_analytics_user_uuid
+/homebrew
 
 # sinopia
 /sinopia
